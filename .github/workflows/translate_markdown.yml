@@ -3,7 +3,7 @@ name: Move Files to Translated Branch
 on:
   push:
     branches:
-      - master # Or your main development branch
+      - master
 
 jobs:
   move_files:
@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Checkout target branch (or create if needed)
         run: |
@@ -19,7 +21,7 @@ jobs:
           git reset --hard origin/zh-cn || git reset --hard
 
       - name: Create target directory (if it doesn't exist)
-        run: mkdir -p docs # Adjust path if needed
+        run: mkdir -p docs
 
       - name: Move files to target branch directory
         run: |
@@ -31,24 +33,16 @@ jobs:
             echo "Source directory '$source_directory' not found."
           fi
 
-      - name: Remove source and target directories from main branch
-        if: github.ref == 'refs/heads/master'
+      - name: Set up PAT for pushing
         run: |
-          git rm -rf --ignore-unmatch translation docs
-          git commit -m "Remove source and target directories from main branch" || echo "No changes to commit"
-          git push origin master
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions Bot"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
 
-      - name: Remove source directory from target branch
-        if: github.ref == 'refs/heads/zh-cn'
+      - name: Add and commit changes
         run: |
-          git rm -rf --ignore-unmatch translation
-          git commit -m "Remove source directory from target branch" || echo "No changes to commit"
-          git push origin zh-cn
-
-      - name: Commit and push changes to translated branch
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "GitHub Actions Bot"
           git add docs/*
           git commit -m "Move translated files" || echo "No changes to commit"
-          git push origin zh-cn
+
+      - name: Push changes
+        run: git push origin zh-cn
