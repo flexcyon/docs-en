@@ -1,0 +1,6 @@
+*.swp
+./TODO.md
+./.venv
+./.site
+./docs/site
+./docs/.venv

@@ -1,3 +1,5 @@
-# Todo
-- [ ] Grab from `.obsidian/snippets` folder flexcyon all modifier related snippets
- - [ ] Compile to single output css file into said snippets folder and split the snippets into more modular parts
+## About
+This hosts the English documentation for the [flexcyon theme](https://github.com/bladeacer/flexcyon). 
+> You can find more info about it by clicking on the link.
+
+For more languages, open a FR/PR.
