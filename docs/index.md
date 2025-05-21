@@ -3,7 +3,8 @@ title: Home
 icon: material/home
 ---
 
-Welcome to the documentation. This is very much a WIP. The URL is different here as I wish to separate the code from the documentation.
+This hosts the English documentation for the [flexcyon theme](https://github.com/bladeacer/flexcyon). 
+> The URL is different here as I wish to separate the code from the documentation.
 
 ## Quick Links
 Here are some links you may be looking for.
@@ -18,7 +19,7 @@ Here are some links you may be looking for.
 ### Styling
 - [Style Settings](./Styling/Style-Settings/index.md)
 
-> If there is documentation for features not currently in the theme, there are plans to include them in the next update.
+<!-- > If there is documentation for features not currently in the theme, there are plans to include them in the next update. --> -->
 
 ### About Comments
-Comments on this website uses the GitHub discussions in the source code repository as a back-end.
+Comments on this website uses the GitHub discussions in the source code repository (`bladeacer/flexcyon`) as a back-end.
