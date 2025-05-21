@@ -1,54 +1,24 @@
-name: Move Files to Translated Branch
+name: Copy folder to other branch
 
-on:
-  push:
-    branches:
-      - master # Or your main development branch
+on: push
 
 jobs:
-  move_files:
+  copy:
+    name: Copy my folder
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Checkout target branch (or create if needed)
+      - uses: actions/checkout@v2
+      - name: copy
+        env:
+          SRC_FOLDER_PATH: 'docs'
+          TARGET_BRANCH: 'zh-cn'
         run: |
-          git fetch origin zh-cn || true
-          git checkout zh-cn || git checkout --orphan zh-cn
-          git reset --hard origin/zh-cn || git reset --hard
-
-      - name: Create target directory (if it doesn't exist)
-        run: mkdir -p docs # Adjust path if needed
-
-      - name: Move files to target branch directory
-        run: |
-          source_directory="translation"
-          target_directory="docs"
-          if [ -d "$source_directory" ]; then
-            mv "$source_directory"/* "$target_directory"/
-          else
-            echo "Source directory '$source_directory' not found."
-          fi
-
-      - name: Remove source and target directories from main branch
-        if: github.ref == 'refs/heads/master'
-        run: |
-          git rm -rf --ignore-unmatch translation docs
-          git commit -m "Remove source and target directories from main branch" || echo "No changes to commit"
-          git push origin master
-
-      - name: Remove source directory from target branch
-        if: github.ref == 'refs/heads/zh-cn'
-        run: |
-          git rm -rf --ignore-unmatch translation
-          git commit -m "Remove source directory from target branch" || echo "No changes to commit"
-          git push origin zh-cn
-
-      - name: Commit and push changes to translated branch
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "GitHub Actions Bot"
-          git add docs/*
-          git commit -m "Move translated files" || echo "No changes to commit"
-          git push origin zh-cn
+          files=$(find $SRC_FOLDER_PATH -type f) # get the file list
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git fetch                         # fetch branches
+          git checkout $TARGET_BRANCH       # checkout to your branch
+          git checkout ${GITHUB_REF##*/} -- $files # copy files from the source branch
+          git add -A
+          git diff-index --quiet HEAD ||  git commit -am "deploy files"  # commit to the repository (ignore if no modification)
+          git push origin $TARGET_BRANCH # push to remote branch
