@@ -3,5 +3,4 @@
 ./docs/site
 ./docs/.venv/
 .venv/
-./db/sessions/
-./db/
+./db/*

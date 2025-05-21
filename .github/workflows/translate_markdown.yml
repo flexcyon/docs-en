@@ -1,0 +1,54 @@
+name: Move Files to Translated Branch
+
+on:
+  push:
+    branches:
+      - master # Or your main development branch
+
+jobs:
+  move_files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Checkout target branch (or create if needed)
+        run: |
+          git fetch origin zh-cn || true
+          git checkout zh-cn || git checkout --orphan zh-cn
+          git reset --hard origin/zh-cn || git reset --hard
+
+      - name: Create target directory (if it doesn't exist)
+        run: mkdir -p docs # Adjust path if needed
+
+      - name: Move files to target branch directory
+        run: |
+          source_directory="translation"
+          target_directory="docs"
+          if [ -d "$source_directory" ]; then
+            mv "$source_directory"/* "$target_directory"/
+          else
+            echo "Source directory '$source_directory' not found."
+          fi
+
+      - name: Remove source and target directories from main branch
+        if: github.ref == 'refs/heads/master'
+        run: |
+          git rm -rf --ignore-unmatch translation docs
+          git commit -m "Remove source and target directories from main branch" || echo "No changes to commit"
+          git push origin master
+
+      - name: Remove source directory from target branch
+        if: github.ref == 'refs/heads/zh-cn'
+        run: |
+          git rm -rf --ignore-unmatch translation
+          git commit -m "Remove source directory from target branch" || echo "No changes to commit"
+          git push origin zh-cn
+
+      - name: Commit and push changes to translated branch
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add docs/*
+          git commit -m "Move translated files" || echo "No changes to commit"
+          git push origin zh-cn
