@@ -3,23 +3,22 @@ title: Home
 icon: material/home
 ---
 
-此处收录了用于[flexcyon theme](https://github.com/bladeacer/flexcyon)。 。 。
-
+此处收录了用于[flexcyon theme](https://github.com/bladeacer/flexcyon)。
+> The URL is different here as I wish to separate the code from the documentation.
 
 ## Quick Links
 这里有一些你可能在找的链接。
 
 ### Misc
-- 怎么样?[README](./README/index.md)
-- 怎么样?[License](./README/license.md)
-- 怎么样?[Roadmap](./README/roadmap.md)
-- 怎么样?[Credits](./credits/index.md)
-- 怎么样[Changelogs](./changelogs/index.md)
+- [README](./README/index.md)
+- [License](./README/license.md)
+- [Roadmap](./README/roadmap.md)
+- [Credits](./credits/index.md)
+- [Changelogs](./changelogs/index.md)
 
 ### Styling
-- 怎么样[Style Settings](./Styling/Style-Settings/index.md)
+- [Style Settings](./Styling/Style-Settings/index.md)
 
-<!-- > If there is documentation for features not currently in the theme, there are plans to include them in the next update. --> 
 
 ### About Comments
-该网站的评论使用源代码存储器(`Bladeacer/flexcyon')中的GitHub讨论作为后端.
+网站的评论使用源代码寄存器中的 GitHub 讨论(`bladeacer/flexcyon`)作为后端。

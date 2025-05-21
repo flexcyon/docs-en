@@ -1,0 +1,12 @@
+---
+title: Heading 2 Title
+icon: material/format-header-2
+---
+
+点名元数据:"h2-标题"
+
+用法 :
+```md
+> [!info|h2-title] I will display inheriting the style of Heading 2s in this theme
+> Content will display as usual
+```
