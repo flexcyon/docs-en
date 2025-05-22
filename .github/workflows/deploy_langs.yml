@@ -30,9 +30,21 @@ jobs:
       - name: Copy site-reqs.txt as requirements.txt to docs and translation folders and remove libretranslate deps
         shell: bash
         run: |
-          cp site-reqs.txt docs/requirements.txt || true
+          cp site-reqs.txt docs/requirements.txt 
           cp site-reqs.txt translation-es/requirements.txt || true
           cp site-reqs.txt translation-zh/requirements.txt || true
+        
+      - name: Commit and push docs/requirements.txt to master branch
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/requirements.txt
+          git diff-index --quiet HEAD || git commit -m "Update docs/requirements.txt from site-reqs.txt [bot]"
+          git push https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master
 
       - name: Prepare ${{ matrix.target_branch }} branch
         shell: bash
@@ -58,7 +70,7 @@ jobs:
           cp -r /tmp/translation_tmp docs
           if [ -f /tmp/translation_tmp/README.md ]; then cp /tmp/translation_tmp/README.md ./README.md; fi
           # Move .readthedocs.yml from docs/ to root if it exists
-          if [ -f docs/.readthedocs.yml ]; then mv docs/.readthedocs.yml ./.readthedocs.yml; fi
+          if [ -f docs/.readthedocs.yml ]; then cp docs/.readthedocs.yml ./.readthedocs.yml; fi
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add -A

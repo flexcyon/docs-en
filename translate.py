@@ -227,6 +227,16 @@ def copy_assets_dir(input_folder, output_folder):
         shutil.copytree(assets_src, assets_dst)
         print(f"Copied assets directory: {assets_src} -> {assets_dst}")
 
+def copy_overrides_and_stylesheets(input_folder, output_folder):
+    for subdir in ["overrides", "stylesheets"]:
+        src = os.path.join(input_folder, subdir)
+        dst = os.path.join(output_folder, subdir)
+        if os.path.exists(src):
+            if os.path.exists(dst):
+                shutil.rmtree(dst)
+            shutil.copytree(src, dst)
+            print(f"Copied {subdir} directory: {src} -> {dst}")
+
 def copy_meta_yml_files(input_folder, output_folder):
     for root, dirs, files in os.walk(input_folder):
         for file in files:
@@ -447,6 +457,7 @@ def run_translation(target_language, input_directory="./docs", output_directory=
     translation_cache = load_cache(target_language)
     clean_markdown_files(output_directory)
     copy_assets_dir(input_directory, output_directory)
+    copy_overrides_and_stylesheets(input_directory, output_directory)
     copy_meta_yml_files(input_directory, output_directory)
     lt_process = start_libretranslate(target_language)
     print(f"Translating from '{input_directory}' to '{output_directory}' (lang: {target_language})...")
