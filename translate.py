@@ -7,35 +7,31 @@ import shutil
 import re
 import traceback
 
-LIBRETRANSLATE_API_URL = os.environ.get("LIBRETRANSLATE_API_URL", "http://localhost:5000/translate")
-TARGET_LANGUAGE = os.environ.get("TARGET_LANGUAGE", "zh")
-
-translation_cache = {}
-
-def start_libretranslate():
-    """Start LibreTranslate server using the CLI if not already running, only loading English and Chinese."""
+def start_libretranslate(target_language):
+    """Start LibreTranslate server using the CLI if not already running, only loading en and the target language."""
+    api_url = "http://localhost:5000/translate"
     try:
         try:
-            requests.get("http://localhost:5000/health", timeout=2)
+            requests.get(f"{api_url.replace('/translate', '/health')}", timeout=2)
             print("LibreTranslate server is already running.")
             return None
         except Exception:
             pass
 
-        print("Starting LibreTranslate server using CLI (only English and Chinese)...")
+        print(f"Starting LibreTranslate server using CLI (only en and {target_language})...")
         process = subprocess.Popen(
             [
                 "libretranslate",
                 "--host", "127.0.0.1",
                 "--port", "5000",
-                "--load-only", "en,zh",
+                "--load-only", f"en,{target_language}",
             ],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL
         )
         for _ in range(30):
             try:
-                requests.get("http://localhost:5000/health", timeout=2)
+                requests.get(f"{api_url.replace('/translate', '/health')}", timeout=2)
                 print("LibreTranslate server started.")
                 return process
             except Exception:
@@ -46,7 +42,13 @@ def start_libretranslate():
         print(f"Error starting LibreTranslate: {e}")
         return None
 
-def translate_text(text, source_lang="en", target_lang=TARGET_LANGUAGE):
+def translate_text(text, source_lang="en", target_lang=None, translation_cache=None, api_url=None):
+    if translation_cache is None:
+        translation_cache = {}
+    if target_lang is None:
+        raise ValueError("target_lang must be provided")
+    if api_url is None:
+        raise ValueError("api_url must be provided")
     key = (text, source_lang, target_lang)
     if key in translation_cache:
         return translation_cache[key]
@@ -54,7 +56,7 @@ def translate_text(text, source_lang="en", target_lang=TARGET_LANGUAGE):
         return text
     try:
         response = requests.post(
-            LIBRETRANSLATE_API_URL,
+            api_url,
             headers={"Content-Type": "application/json"},
             data=json.dumps({
                 "q": text,
@@ -72,42 +74,58 @@ def translate_text(text, source_lang="en", target_lang=TARGET_LANGUAGE):
         print(f"Error during translation: {e}")
         return text
 
-def batch_translate_text(lines, source_lang="en", target_lang=TARGET_LANGUAGE):
-    results = []
-    to_translate = []
-    indices = []
+def batch_translate_text(lines, source_lang="en", target_lang=None, translation_cache=None, api_url=None):
+    """
+    Batch translate a list of lines using LibreTranslate, handling region codes (e.g., zh-cn -> zh) for API calls,
+    but keeping the original codes for cache keys. Returns a list of translated lines in the same order.
+    """
+    if translation_cache is None:
+        translation_cache = {}
+    if target_lang is None:
+        raise ValueError("target_lang must be provided")
+    if api_url is None:
+        raise ValueError("api_url must be provided")
+    def api_lang_code(lang):
+        if not lang:
+            return lang
+        return lang.split('-')[0].split('_')[0]
+    api_source = api_lang_code(source_lang)
+    api_target = api_lang_code(target_lang)
+    results = [None] * len(lines)
+    untranslated_indices = []
+    untranslated_lines = []
     for idx, line in enumerate(lines):
-        key = (line, source_lang, target_lang)
-        if key in translation_cache:
-            results.append(translation_cache[key])
+        cache_key = (line, source_lang, target_lang)
+        if cache_key in translation_cache:
+            results[idx] = translation_cache[cache_key]
         else:
-            to_translate.append(line)
-            indices.append(idx)
-            results.append(None)
-    if to_translate:
-        joined_text = "\n".join(to_translate)
+            untranslated_indices.append(idx)
+            untranslated_lines.append(line)
+    if untranslated_lines:
+        joined_text = "\n".join(untranslated_lines)
+        payload = {
+            "q": joined_text,
+            "source": api_source,
+            "target": api_target,
+            "format": "text"
+        }
         try:
             response = requests.post(
-                LIBRETRANSLATE_API_URL,
+                api_url,
                 headers={"Content-Type": "application/json"},
-                data=json.dumps({
-                    "q": joined_text,
-                    "source": source_lang,
-                    "target": target_lang,
-                    "format": "text"
-                }),
+                data=json.dumps(payload),
                 timeout=60
             )
             response.raise_for_status()
             translated_text = response.json().get("translatedText", joined_text)
             translated_lines = translated_text.split("\n")
-            for idx, tline in zip(indices, translated_lines):
-                key = (lines[idx], source_lang, target_lang)
-                translation_cache[key] = tline
-                results[idx] = tline
+            for idx, translated_line in zip(untranslated_indices, translated_lines):
+                cache_key = (lines[idx], source_lang, target_lang)
+                translation_cache[cache_key] = translated_line
+                results[idx] = translated_line
         except Exception as e:
-            print(f"Error during batch translation: {e}")
-            for idx in indices:
+            print(f"Error during batch translation: {e}\nPayload: {payload}")
+            for idx in untranslated_indices:
                 results[idx] = lines[idx]
     return results
 
@@ -156,7 +174,7 @@ def is_subdir(path, directory):
     directory = os.path.abspath(directory)
     return os.path.commonpath([directory]) == os.path.commonpath([directory, path])
 
-def preserve_links_code_mit_html(line):
+def preserve_links_code_mit_html(line, target_language, translation_cache, api_url):
     """
     Preserves markdown links [text](url), inline code, 'MIT', and HTML tags,
     and only translates non-special parts.
@@ -168,10 +186,13 @@ def preserve_links_code_mit_html(line):
     to_translate = [part for part in parts if part and not pattern.match(part) and part.strip()]
     if not to_translate:
         return line
-    translated = batch_translate_text(to_translate)
+    translated = batch_translate_text(to_translate, target_lang=target_language, translation_cache=translation_cache, api_url=api_url)
     translated_iter = iter(translated)
     # Reassemble, skipping translation for markdown links (preserved as-is)
-    return ''.join(next(translated_iter) if (part and not pattern.match(part) and part.strip()) else part for part in parts)
+    return ''.join(
+        next(translated_iter) if (part and not pattern.match(part) and part.strip()) else part
+        for part in parts
+    )
 
 def is_table_separator(line):
     # Matches lines like |---|---| or |:---|:---:| etc.
@@ -181,7 +202,7 @@ def is_table_row(line):
     # Matches lines like | a | b | c |
     return bool(re.match(r'^\s*\|.*\|\s*$', line.strip()))
 
-def translate_markdown(input_folder, output_folder):
+def translate_markdown(input_folder, output_folder, target_language, translation_cache, api_url):
     """
     Recursively translates Markdown files in the input folder and saves
     the translated files to the output folder, processing by blocks.
@@ -275,7 +296,7 @@ def translate_markdown(input_folder, output_folder):
                     # Table detection and translation
                     if is_table_row(line):
                         if (i + 1 < len(markdown_lines)) and is_table_separator(markdown_lines[i + 1]):
-                            translated_line = preserve_links_code_mit_html(line)
+                            translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, api_url)
                             if not line.endswith("\n"):
                                 translated_lines.append(translated_line)
                             else:
@@ -295,7 +316,7 @@ def translate_markdown(input_folder, output_folder):
                         continue
 
                     # Otherwise, translate line (preserving links, inline code, MIT)
-                    translated_line = preserve_links_code_mit_html(line)
+                    translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, api_url)
                     if not line.endswith("\n"):
                         translated_lines.append(translated_line)
                     else:
@@ -316,8 +337,12 @@ def translate_markdown(input_folder, output_folder):
                 print(f"Error processing {input_filepath}: {e}")
                 traceback.print_exc()
 
-def save_cache(filename="translation_cache.json"):
-    # Convert tuple keys to a string (e.g., join with a special separator)
+def save_cache(translation_cache, target_language):
+    # Save cache per language only
+    if target_language is None:
+        raise ValueError("target_language must be provided")
+    lang = target_language.replace("-", "_")
+    filename = f"translation_cache_{lang}.json"
     serializable_cache = {
         "|||".join(key): value
         for key, value in translation_cache.items()
@@ -325,35 +350,42 @@ def save_cache(filename="translation_cache.json"):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(serializable_cache, f, ensure_ascii=False, indent=2)
 
-def load_cache(filename="translation_cache.json"):
-    global translation_cache
+
+def load_cache(target_language):
+    # Load cache per language only
+    if target_language is None:
+        raise ValueError("target_language must be provided")
+    lang = target_language.replace("-", "_")
+    filename = f"translation_cache_{lang}.json"
+    print(filename)
     try:
         with open(filename, "r", encoding="utf-8") as f:
             serializable_cache = json.load(f)
-            # Convert string keys back to tuples
             translation_cache = {
                 tuple(key.split("|||")): value
                 for key, value in serializable_cache.items()
             }
+        return translation_cache
     except FileNotFoundError:
-        translation_cache = {}
+        return {}
 
-if __name__ == "__main__":
-    input_directory = "./docs"
-    output_directory = "./translation"
-    load_cache()
-
-    # Clean and copy files before starting LibreTranslate
+def run_translation(target_language, input_directory="./docs", output_directory=None, api_url=None):
+    if api_url is None:
+        api_url = os.environ.get("LIBRETRANSLATE_API_URL", "http://localhost:5000/translate")
+    if output_directory is None:
+        output_directory = f"./translation-{target_language}"
+    translation_cache = load_cache(target_language)
     clean_markdown_files(output_directory)
     copy_assets_dir(input_directory, output_directory)
     copy_meta_yml_files(input_directory, output_directory)
-
-    lt_process = start_libretranslate()
-
-    print(f"Translating from '{input_directory}' to '{output_directory}'...")
-    translate_markdown(input_directory, output_directory)
+    lt_process = start_libretranslate(target_language)
+    print(f"Translating from '{input_directory}' to '{output_directory}' (lang: {target_language})...")
+    translate_markdown(input_directory, output_directory, target_language, translation_cache, api_url)
     print(f"\nTranslation complete. Translated files are in: {output_directory}")
-
     if lt_process:
         lt_process.terminate()
-        save_cache()
+    save_cache(translation_cache, target_language)
+
+if __name__ == "__main__":
+    # run_translation()
+    run_translation("es")
