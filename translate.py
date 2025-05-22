@@ -7,6 +7,7 @@ import shutil
 import re
 import traceback
 
+# --- LibreTranslate Server Management ---
 def start_libretranslate(target_language):
     """Start LibreTranslate server using the CLI if not already running, only loading en and the target language."""
     api_url = "http://localhost:5000/translate"
@@ -17,7 +18,6 @@ def start_libretranslate(target_language):
             return None
         except Exception:
             pass
-
         print(f"Starting LibreTranslate server using CLI (only en and {target_language})...")
         process = subprocess.Popen(
             [
@@ -42,6 +42,7 @@ def start_libretranslate(target_language):
         print(f"Error starting LibreTranslate: {e}")
         return None
 
+# --- Translation Functions ---
 def translate_text(text, source_lang="en", target_lang=None, translation_cache=None, api_url=None):
     if translation_cache is None:
         translation_cache = {}
@@ -54,29 +55,44 @@ def translate_text(text, source_lang="en", target_lang=None, translation_cache=N
         return translation_cache[key]
     if not text.strip():
         return text
+    payload = {
+        "q": text,
+        "source": source_lang,
+        "target": target_lang,
+        "format": "text",
+        "alternatives": 3,
+        "api_key": ""
+    }
+    headers = {
+        "Content-Type": "application/json"
+    }
     try:
         response = requests.post(
             api_url,
-            headers={"Content-Type": "application/json"},
-            data=json.dumps({
-                "q": text,
-                "source": source_lang,
-                "target": target_lang,
-                "format": "text"
-            }),
-            timeout=30
+            headers=headers,
+            json=payload,
+            timeout=60
         )
         response.raise_for_status()
-        translated = response.json().get("translatedText", text)
+        response_data = response.json()
+        translated = response_data.get("translatedText", text)
         translation_cache[key] = translated
         return translated
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred during the request: {e}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"Response status code: {e.response.status_code}")
+            print(f"Response body: {e.response.text}")
+        return text
+    except json.JSONDecodeError:
+        print(f"Error decoding JSON response. Raw response: {getattr(response, 'text', '')}")
+        return text
     except Exception as e:
-        print(f"Error during translation: {e}")
+        print(f"An unexpected error occurred: {e}")
         return text
 
 def batch_translate_text(lines, source_lang="en", target_lang=None, translation_cache=None, api_url=None):
     """
-    Batch translate a list of lines using LibreTranslate, handling region codes (e.g., zh-cn -> zh) for API calls,
     but keeping the original codes for cache keys. Returns a list of translated lines in the same order.
     """
     if translation_cache is None:
@@ -85,50 +101,104 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
         raise ValueError("target_lang must be provided")
     if api_url is None:
         raise ValueError("api_url must be provided")
+
     def api_lang_code(lang):
+        """Extracts the base language code from a locale string."""
         if not lang:
             return lang
         return lang.split('-')[0].split('_')[0]
+
     api_source = api_lang_code(source_lang)
     api_target = api_lang_code(target_lang)
+
     results = [None] * len(lines)
     untranslated_indices = []
-    untranslated_lines = []
+    untranslated_lines_for_api = [] # This list will only contain non-empty, non-cached lines
+
     for idx, line in enumerate(lines):
         cache_key = (line, source_lang, target_lang)
-        if cache_key in translation_cache:
+        if line.strip() == "": # Handle empty lines locally
+            results[idx] = line
+        elif cache_key in translation_cache:
             results[idx] = translation_cache[cache_key]
         else:
             untranslated_indices.append(idx)
-            untranslated_lines.append(line)
-    if untranslated_lines:
-        joined_text = "\n".join(untranslated_lines)
+            untranslated_lines_for_api.append(line)
+
+    if untranslated_lines_for_api:
         payload = {
-            "q": joined_text,
+            "q": untranslated_lines_for_api, # Ensure 'q' is always a list for batch requests
             "source": api_source,
             "target": api_target,
-            "format": "text"
+            "format": "text",
+            "alternatives": 3,
+            "api_key": ""
+        }
+        headers = {
+            "Content-Type": "application/json"
         }
         try:
             response = requests.post(
                 api_url,
-                headers={"Content-Type": "application/json"},
-                data=json.dumps(payload),
+                headers=headers,
+                json=payload, # Use json=payload for automatic JSON serialization
                 timeout=60
             )
-            response.raise_for_status()
-            translated_text = response.json().get("translatedText", joined_text)
-            translated_lines = translated_text.split("\n")
-            for idx, translated_line in zip(untranslated_indices, translated_lines):
-                cache_key = (lines[idx], source_lang, target_lang)
-                translation_cache[cache_key] = translated_line
-                results[idx] = translated_line
+            response.raise_for_status() # Raise HTTPError for bad responses (4xx or 5xx)
+
+            response_json = response.json()
+            translated_data = response_json.get("translatedText")
+
+            if isinstance(translated_data, list):
+                translated_api_lines = translated_data
+            elif isinstance(translated_data, str):
+                # LibreTranslate might return a single string if only one item was sent in 'q' list
+                # or if it consolidated multiple short inputs.
+                # Splitting by newline is a heuristic and might not perfectly match original lines.
+                translated_api_lines = translated_data.split("\n")
+                print(f"[WARN] LibreTranslate returned a single string for a batch request. Splitting by newline. Original lines: {len(untranslated_lines_for_api)}, Translated lines (after split): {len(translated_api_lines)}")
+            else:
+                print(f"[WARN] Unexpected translation response format: {response_json}. Filling with originals.")
+                translated_api_lines = [] # Force fallback to original lines
+
+            # Ensure the number of translated lines matches the number of lines sent for translation
+            if len(translated_api_lines) != len(untranslated_lines_for_api):
+                print(f"[WARN] Mismatch in batch translation: sent {len(untranslated_lines_for_api)}, got {len(translated_api_lines)}. Filling missing with originals.")
+                # Pad or truncate translated_api_lines to match untranslated_lines_for_api length
+                padded_translated_api_lines = [
+                    translated_api_lines[i] if i < len(translated_api_lines) else untranslated_lines_for_api[i]
+                    for i in range(len(untranslated_lines_for_api))
+                ]
+                translated_api_lines = padded_translated_api_lines
+
+            # Map translated lines back to their original positions in the results list
+            for original_idx, translated_line_content in zip(untranslated_indices, translated_api_lines):
+                cache_key = (lines[original_idx], source_lang, target_lang)
+                translation_cache[cache_key] = translated_line_content
+                results[original_idx] = translated_line_content
+
+        except requests.exceptions.RequestException as e:
+            print(f"An error occurred during the request: {e}")
+            if hasattr(e, 'response') and e.response is not None:
+                print(f"Response status code: {e.response.status_code}")
+                print(f"Response body: {e.response.text}")
+            # On API error, revert to original lines for the affected indices
+            for idx in untranslated_indices:
+                results[idx] = lines[idx]
+        except json.JSONDecodeError:
+            print(f"Error decoding JSON response. Raw response: {getattr(response, 'text', '')}")
+            # On JSON decode error, revert to original lines for the affected indices
+            for idx in untranslated_indices:
+                results[idx] = lines[idx]
         except Exception as e:
-            print(f"Error during batch translation: {e}\nPayload: {payload}")
+            print(f"An unexpected error occurred during batch translation: {e}")
+            # On any other error, revert to original lines for the affected indices
             for idx in untranslated_indices:
                 results[idx] = lines[idx]
     return results
 
+
+# --- Markdown Utilities ---
 def clean_markdown_files(directory):
     for root, dirs, files in os.walk(directory, topdown=False):
         for file in files:
@@ -387,5 +457,5 @@ def run_translation(target_language, input_directory="./docs", output_directory=
     save_cache(translation_cache, target_language)
 
 if __name__ == "__main__":
-    # run_translation()
+    run_translation("zh")
     run_translation("es")
