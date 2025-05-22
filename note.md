@@ -9,7 +9,7 @@ py -m venv .venv
 .\.venv\Scripts\activate
 
 # Get dependencies
-py -m pip install -r docs/requirements.txt
+py -m pip install -r requirements.txt
 
 # Initialize required language models
 libretranslate --load-only es,en,zh --update-models                                                          
