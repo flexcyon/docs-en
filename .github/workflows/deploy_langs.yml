@@ -30,12 +30,10 @@ jobs:
       - name: Copy requirements.txt to translation folders and remove libretranslate deps
         shell: bash
         run: |
-          cp requirements.txt docs/ || true
-          cp requirements.txt translation-es/ || true
-          cp requirements.txt translation-zh/ || true
+          cp docs/requirements.txt translation-es/ || true
+          cp docs/requirements.txt translation-zh/ || true
           if [ -f remove_deps.txt ]; then
             while read dep; do
-              sed -i "/^$dep[=<>!]/d" docs/requirements.txt || true
               sed -i "/^$dep[=<>!]/d" translation-es/requirements.txt || true
               sed -i "/^$dep[=<>!]/d" translation-zh/requirements.txt || true
             done < remove_deps.txt
