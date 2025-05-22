@@ -27,17 +27,12 @@ jobs:
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
           installation-id: ${{ secrets.GH_APP_INSTALLATION_ID }}
 
-      - name: Copy requirements.txt to translation folders and remove libretranslate deps
+      - name: Copy site-reqs.txt as requirements.txt to docs and translation folders and remove libretranslate deps
         shell: bash
         run: |
-          cp docs/requirements.txt translation-es/ || true
-          cp docs/requirements.txt translation-zh/ || true
-          if [ -f remove_deps.txt ]; then
-            while read dep; do
-              sed -i "/^$dep[=<>!]/d" translation-es/requirements.txt || true
-              sed -i "/^$dep[=<>!]/d" translation-zh/requirements.txt || true
-            done < remove_deps.txt
-          fi
+          cp site-reqs.txt docs/requirements.txt || true
+          cp site-reqs.txt translation-es/requirements.txt || true
+          cp site-reqs.txt translation-zh/requirements.txt || true
 
       - name: Prepare ${{ matrix.target_branch }} branch
         shell: bash
