@@ -30,10 +30,12 @@ jobs:
       - name: Copy requirements.txt to translation folders and remove libretranslate deps
         shell: bash
         run: |
+          cp requirements.txt docs/ || true
           cp requirements.txt translation-es/ || true
           cp requirements.txt translation-zh/ || true
           if [ -f remove_deps.txt ]; then
             while read dep; do
+              sed -i "/^$dep[=<>!]/d" docs/requirements.txt || true
               sed -i "/^$dep[=<>!]/d" translation-es/requirements.txt || true
               sed -i "/^$dep[=<>!]/d" translation-zh/requirements.txt || true
             done < remove_deps.txt
@@ -59,7 +61,7 @@ jobs:
             git checkout --orphan $TARGET_BRANCH
             git reset --hard
           fi
-          rm -rf docs README.md mkdocs.yml requirements.txt assets changelogs credits README Styling .readthedocs.yml || true
+          rm -rf docs README.md mkdocs.yml requirements.txt assets changelogs credits README Styling .readthedocs.yml translation-es translation-zh || true
           cp -r /tmp/translation_tmp docs
           if [ -f /tmp/translation_tmp/README.md ]; then cp /tmp/translation_tmp/README.md ./README.md; fi
           if [ -f /tmp/translation_tmp/.readthedocs.yml ]; then mv /tmp/translation_tmp/.readthedocs.yml ./.readthedocs.yml; fi
