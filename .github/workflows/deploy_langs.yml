@@ -44,7 +44,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add docs/requirements.txt
           git diff-index --quiet HEAD || git commit -m "Update docs/requirements.txt from site-reqs.txt [bot]"
-          git push https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master
+          git push --force https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master
 
       - name: Prepare ${{ matrix.target_branch }} branch
         shell: bash
