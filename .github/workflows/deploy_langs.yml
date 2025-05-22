@@ -1,0 +1,50 @@
+name: Deploy translation branches
+
+on: push
+
+jobs:
+  deploy-translation:
+    name: Deploy translation to ${{ matrix.target_branch }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - src_folder: 'translation-es'
+            target_branch: 'es'
+          - src_folder: 'translation-zh'
+            target_branch: 'zh-cn'
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Get GitHub App installation token
+        id: app-token
+        uses: actions/create-github-app-token@v2.0.6
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          installation-id: ${{ secrets.GH_APP_INSTALLATION_ID }}
+
+      - name: Prepare ${{ matrix.target_branch }} branch
+        shell: bash
+        env:
+          SRC_FOLDER_PATH: ${{ matrix.src_folder }}
+          TARGET_BRANCH: ${{ matrix.target_branch }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          git fetch origin $TARGET_BRANCH || true
+          if git show-ref --quiet refs/heads/$TARGET_BRANCH; then
+            git checkout $TARGET_BRANCH
+          else
+            git checkout --orphan $TARGET_BRANCH
+            git reset --hard
+          fi
+          rm -rf docs README.md mkdocs.yml requirements.txt assets changelogs credits README Styling || true
+          cp -r $SRC_FOLDER_PATH/* .
+          if [ -f $SRC_FOLDER_PATH/README.md ]; then cp $SRC_FOLDER_PATH/README.md ./README.md; fi
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff-index --quiet HEAD || git commit -am "Deploy translated files to $TARGET_BRANCH branch"
+          git push --force https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git $TARGET_BRANCH
