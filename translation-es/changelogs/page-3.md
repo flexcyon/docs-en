@@ -1,5 +1,5 @@
 ---
-title: Version 0.3.x
+title: Versión 0.3.x
 icon: material/numeric-3-box-outline
 ---
 

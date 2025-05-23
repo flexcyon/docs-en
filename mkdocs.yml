@@ -14,7 +14,7 @@ extra_css:
   - stylesheets/styles.css
 theme:
   name: material
-  custom_dir: docs/overrides
+  custom_dir: ./docs/overrides
   icon:
     repo: material/github
     logo: material/file-document

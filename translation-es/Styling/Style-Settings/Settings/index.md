@@ -1,5 +1,5 @@
 ---
-title: Settings
+title: Ajustes
 icon: material/cogs
 ---
 
@@ -11,12 +11,12 @@ Formatos aceptados: x.y, rem, px
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
-|   |-- 。
+|   |-- ...
 |   |-- Settings
-|   |-- 。
-|-- 。
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -24,17 +24,17 @@ Style Settings
 ### Smiley Toggle Icons in Settings
 CSS Variable(s) targeted:`var(--flexcyon-settings-smiley-icons-enabled)`
 
-Default: true (clase toggle)
+Default:true(de clase)
 
 ### Coloured Icons in Settings
 CSS Variable(s) targeted:`var(--flexcyon-settings-coloured-icons)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
 ### Enable community item effects
 CSS Variable(s) targeted:`var(--flexcyon-settings-comm-item-enabled)`
 
-Default: true (clase toggle)
+Default:true(de clase)
 
 ### Opacity of community items (unselected)
 CSS Variable(s) targeted:`var(--flexcyon-comm-item-opacity)`
@@ -52,14 +52,14 @@ Default: 1 (rem)
 ### Do not show scrollbar in settings
 CSS Variable(s) targeted:`var(--flexcyon-settings-scrollbar-removed)`
 
-Default: true (clase toggle)
+Default:true(de clase)
 
 ### Enabled alternate active item effect in settings
 CSS Variable(s) targeted:`var(--flexcyon-enable-alt-active-item-effect)`
 
-Default: true (clase toggle)
+Default:true(de clase)
 
-__
+___
 
 ### Style Settings
 Configurar la apariencia para los ajustes de estilo
@@ -74,4 +74,4 @@ Predeterminado: 4 (px)
 #### Dim collapsed style settings headings
 CSS Variable(s) targeted:`var(--flexcyon-style-settings-dim-collapsed-headings)`
 
-Default: true
+Default:true

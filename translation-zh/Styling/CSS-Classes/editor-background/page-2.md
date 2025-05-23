@@ -1,11 +1,10 @@
 ---
-title: Grid Background
+title: 网格背景
 icon: material/grid
 ---
 
 ## Usage
 向编辑器背景添加网格。 大小可以在样式设置中调整。
-.
 
 ```md
 cssclasses:

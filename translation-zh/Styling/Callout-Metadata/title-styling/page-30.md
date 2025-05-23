@@ -1,5 +1,5 @@
 ---
-title: Heading 6 Title
+title: 标题6
 icon: material/format-header-6
 ---
 

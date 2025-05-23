@@ -9,9 +9,9 @@ En esta subpágina, puede encontrar ejemplos de uso para el estilo de elementos 
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |-- 。
-|-- 。
+|   |-- ...
+|-- ...
 ```

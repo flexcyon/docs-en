@@ -1,24 +1,23 @@
 ---
-title: Table
+title: 图表
 icon: material/table-cog
 ---
 
 定义表格边框的颜色,以及读取模式中的表格宽度。
-.
 
 接受格式:HEX,%,x.y
 
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Table
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

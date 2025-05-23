@@ -1,5 +1,5 @@
 ---
-title: Content Styling
+title: 内容样式
 icon: material/contain
 ---
 

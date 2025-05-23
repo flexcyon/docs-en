@@ -1,10 +1,9 @@
 ---
-title: Heading indicators - H2
+title: 标题指标 - H2型导弹
 icon: material/format-header-2
 ---
 
 增加标题2的标题指标。 将在阅读,编辑和源模式中出现。
-.
 
 用法 :
 ```md
@@ -16,4 +15,4 @@ cssclasses:
 Others headings display as usual
 ```
 
-The Style Settings equivalent to enabling this globally can be [found here](。/。/Style-Settings/Editor/Typography/headings/index.md#for-heading-2)
+The Style Settings equivalent to enabling this globally can be [found here](../../Style-Settings/Editor/Typography/headings/index.md#for-heading-2)

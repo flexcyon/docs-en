@@ -1,5 +1,5 @@
 ---
-title: Heading indicators - H5
+title: Indicadores de referencia - H5
 icon: material/format-header-5
 ---
 
@@ -16,4 +16,4 @@ cssclasses:
 Others headings display as usual
 ```
 
-The Style Settings equivalent to enabling this globally can be [found here](。/。/Style-Settings/Editor/Typography/headings/index.md#for-heading-5)
+The Style Settings equivalent to enabling this globally can be [found here](../../Style-Settings/Editor/Typography/headings/index.md#for-heading-5)

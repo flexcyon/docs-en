@@ -1,5 +1,5 @@
 ---
-title: Animations
+title: Animaciones
 icon: material/animation
 ---
 
@@ -11,17 +11,17 @@ Formatos aceptados: s
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Workspace
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- Animations
-|   |   |   |-- 。
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

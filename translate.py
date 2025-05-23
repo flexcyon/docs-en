@@ -209,7 +209,6 @@ def clean_markdown_files(directory):
 
 def fix_chinese_full_stop(text):
     # Replace three or more ASCII full stops, Chinese full stops, or ellipsis with a single Chinese full stop
-    text = re.sub(r'(\.{2,}|。{2,}|…{2,})', '。', text)
     # Replace single ASCII full stop at end of Chinese sentence with Chinese full stop
     text = re.sub(r'([\u4e00-\u9fff])\.(\s|$)', r'\1。\2', text)
     # Replace multiple Chinese full stops with or without spaces with a single one
@@ -256,23 +255,89 @@ def is_subdir(path, directory):
 
 def preserve_links_code_mit_html(line, target_language, translation_cache, api_url):
     """
-    Preserves markdown links [text](url), inline code, 'MIT', and HTML tags,
-    and only translates non-special parts.
+    Preserves code blocks, inline code, markdown links [text](url) (as a whole), 'MIT', HTML tags, and other keywords.
+    and only translates non-special parts. Markdown links are replaced with unique placeholders before translation and restored after, ensuring all links are preserved exactly.
     """
-    # Pattern for markdown links, inline code, MIT, and HTML tags
-    pattern = re.compile(r'(\[.*?\]\(.*?\)|`[^`]+`|MIT|<[^>]+>)')
-    parts = pattern.split(line)
-    # Only translate parts that are not markdown links, inline code, MIT, or HTML tags
-    to_translate = [part for part in parts if part and not pattern.match(part) and part.strip()]
+    code_block_pattern = re.compile(r'```[\s\S]*?```')  # Matches fenced code blocks
+    inline_code_pattern = re.compile(r'`[^`]+`')  # Matches inline code
+    markdown_link_pattern = re.compile(r'(\[[^\]]+\]\([^\)]+\))')  # Matches standard markdown links
+    mit_pattern = re.compile(r'MIT')  # Matches 'MIT'
+    html_tag_pattern = re.compile(r'<[^>]+>')  # Matches HTML tags
+    bool_pattern = re.compile(r'\btrue\b|\bfalse\b', re.IGNORECASE)  # Matches 'true' or 'false' as whole words
+    literal_pattern = re.compile(r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\bcover|\bdarken|\bease-out|\blarge|\bcenter|\bease-in-out', re.IGNORECASE)  # Matches the new literals
+
+    # Split line into special and non-special parts
+    combined_pattern = re.compile(
+        r'(' +
+        r'```[\s\S]*?```' + '|' +
+        r'`[^`]+`' + '|' +
+        r'<[^>]+>' + '|' +
+        r'MIT' + '|' +
+        r'\btrue\b|\bfalse\b' + '|' +
+        r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\b' +
+        r')', re.IGNORECASE
+    )
+    parts = combined_pattern.split(line)
+
+    # Replace markdown links in non-special parts with unique placeholders
+    link_placeholders = []
+    def replace_links_with_placeholders(text):
+        def repl(match):
+            idx = len(link_placeholders)
+            link_placeholders.append(match.group(0))
+            return f"[[[LINK{idx}]]]"
+        return markdown_link_pattern.sub(repl, text)
+
+    placeholder_parts = [
+        part if (
+            code_block_pattern.fullmatch(part) or
+            inline_code_pattern.fullmatch(part) or
+            html_tag_pattern.fullmatch(part) or
+            mit_pattern.fullmatch(part) or
+            bool_pattern.fullmatch(part) or
+            literal_pattern.fullmatch(part)
+        ) else replace_links_with_placeholders(part)
+        for part in parts
+    ]
+
+    # Now split again for translation, but treat all backticked and special parts as preserved
+    preserve_pattern = re.compile(
+        r'(' +
+        r'```[\s\S]*?```' + '|' +
+        r'`[^`]+`' + '|' +
+        r'<[^>]+>' + '|' +
+        r'MIT' + '|' +
+        r'\btrue\b|\bfalse\b' + '|' +
+        r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\b' +
+        r')', re.IGNORECASE
+    )
+    subparts = preserve_pattern.split(''.join(placeholder_parts))
+    def is_special(part):
+        return (
+            code_block_pattern.fullmatch(part) or
+            inline_code_pattern.fullmatch(part) or
+            html_tag_pattern.fullmatch(part) or
+            mit_pattern.fullmatch(part) or
+            bool_pattern.fullmatch(part) or
+            literal_pattern.fullmatch(part)
+        )
+    to_translate = [part for part in subparts if part and not is_special(part) and part.strip()]
     if not to_translate:
-        return line
+        # Restore markdown links if no translation needed
+        rebuilt = ''.join(placeholder_parts)
+        for idx, link in enumerate(link_placeholders):
+            rebuilt = rebuilt.replace(f"[[[LINK{idx}]]]", link)
+        return rebuilt
     translated = batch_translate_text(to_translate, target_lang=target_language, translation_cache=translation_cache, api_url=api_url)
     translated_iter = iter(translated)
-    # Reassemble, skipping translation for markdown links (preserved as-is)
-    return ''.join(
-        next(translated_iter) if (part and not pattern.match(part) and part.strip()) else part
-        for part in parts
+    rebuilt = ''.join(
+        next(translated_iter) if (part and not is_special(part) and part.strip()) else part
+        for part in subparts
     )
+    # Restore markdown links after translation
+    for idx, link in enumerate(link_placeholders):
+        rebuilt = rebuilt.replace(f"[[[LINK{idx}]]]", link)
+    return rebuilt
 
 def is_table_separator(line):
     # Matches lines like |---|---| or |:---|:---:| etc.
@@ -307,7 +372,6 @@ def translate_markdown(input_folder, output_folder, target_language, translation
             relative_path = os.path.relpath(input_filepath, input_folder)
             output_filepath = os.path.join(output_folder, relative_path)
             os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
-
             try:
                 with open(input_filepath, 'r', encoding='utf-8') as infile:
                     markdown_lines = infile.readlines()
@@ -344,7 +408,17 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                         i += 1
                         continue
                     if in_yaml_block:
-                        translated_lines.append(line)
+                        try:
+                            m = re.match(r'^(\s*title\s*:\s*)(.*)$', line)
+                            if m:
+                                prefix, title_val = m.groups()
+                                translated_title = preserve_links_code_mit_html(title_val, target_language, translation_cache, api_url)
+                                translated_lines.append(f"{prefix}{translated_title}\n")
+                            else:
+                                translated_lines.append(line)
+                        except Exception as e:
+                            print(f"[YAML block error] {e}")
+                            translated_lines.append(line)
                         i += 1
                         continue
                     # Code block handling
@@ -372,7 +446,6 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                         translated_lines.append(line)
                         i += 1
                         continue
-
                     # Table detection and translation
                     if is_table_row(line):
                         if (i + 1 < len(markdown_lines)) and is_table_separator(markdown_lines[i + 1]):
@@ -389,18 +462,19 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                             translated_lines.append(line)
                             i += 1
                             continue
-
                     if in_table and table_heading_translated:
                         translated_lines.append(line)
                         i += 1
                         continue
-
                     # Otherwise, translate line (preserving links, inline code, MIT)
                     translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, api_url)
-                    if not line.endswith("\n"):
-                        translated_lines.append(translated_line)
-                    else:
+                    # Preserve original line endings exactly
+                    if line.endswith("\n\n"):
+                        translated_lines.append(translated_line.rstrip("\n") + "\n\n")
+                    elif line.endswith("\n"):
                         translated_lines.append(translated_line.rstrip("\n") + "\n")
+                    else:
+                        translated_lines.append(translated_line.rstrip("\n"))
                     i += 1
                     print(f"[DEBUG] Processing line {i}/{len(markdown_lines)} in {input_filepath}")
 
@@ -409,6 +483,10 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                     content = re.sub(r'怎么样\?*', '', content)
                     content = fix_chinese_full_stop(content)
                     content = re.sub(r'(?<!\n)\s*>(?=[^\n])', r'\n>', content)
+                    # Replace all occurrences of '。/' with './' before writing
+                    content = re.sub(r'。/', r'./', content)
+                    # Ensure <hr> tags are always on their own line
+                    content = re.sub(r'(?<!\n)(<hr[^>]*>)(?!\n)', r'1', content)
                     outfile.write(content)
 
                 print(f"Translated: {input_filepath} -> {output_filepath}")
@@ -429,6 +507,7 @@ def save_cache(translation_cache, target_language):
     }
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(serializable_cache, f, ensure_ascii=False, indent=2)
+    print(f"Cache saved to: {filename}")
 
 
 def load_cache(target_language):
@@ -437,7 +516,6 @@ def load_cache(target_language):
         raise ValueError("target_language must be provided")
     lang = target_language.replace("-", "_")
     filename = f"translation_cache_{lang}.json"
-    print(filename)
     try:
         with open(filename, "r", encoding="utf-8") as f:
             serializable_cache = json.load(f)
@@ -445,6 +523,7 @@ def load_cache(target_language):
                 tuple(key.split("|||")): value
                 for key, value in serializable_cache.items()
             }
+        print(f"Loaded cache from: {filename}")
         return translation_cache
     except FileNotFoundError:
         return {}

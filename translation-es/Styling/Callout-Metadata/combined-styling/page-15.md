@@ -1,5 +1,5 @@
 ---
-title: Lowercase All
+title: Funda baja
 icon: material/format-letter-case-lower
 ---
 
@@ -10,4 +10,4 @@ Usage:
 > [!info|lowercase-all] The title will be displayed as lowercase
 > The content will be displayed as lowercase
 ```
-> Shorthand for both ["lowercase-content"](。/content-styling/page-5.md) and ["lowercase-title"](。/title-styling/page-15.md)
+> Shorthand for both ["lowercase-content"](../content-styling/page-5.md) and ["lowercase-title"](../title-styling/page-15.md)

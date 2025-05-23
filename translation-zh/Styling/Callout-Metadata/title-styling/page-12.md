@@ -1,5 +1,5 @@
 ---
-title: LTR Title
+title: LTR 数据 标题
 icon: material/align-horizontal-left
 ---
 
@@ -11,4 +11,4 @@ icon: material/align-horizontal-left
 > Content is shown as usual
 ```
 
-样式本身也适用于["ltr-all"](。/combined-styling/page-12.md)页:1["ltr-content"](。/content-styling/page-2.md)。.
+样式本身也适用于["ltr-all"](../combined-styling/page-12.md)]] 与["ltr-content"](../content-styling/page-2.md)同时 .

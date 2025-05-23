@@ -1,5 +1,5 @@
 ---
-title: Yellow Background
+title: Fondo amarillo
 icon: material/layers-outline
 ---
 
@@ -10,4 +10,4 @@ Metadatos de llamada: "Bg-yellow"
 > The background color will be yellow
 ```
 
-El estilo en sí se aplica también["all-yellow"](。/combined-styling/page-9.md)junto con["title-yellow"](。/title-styling/page-9.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

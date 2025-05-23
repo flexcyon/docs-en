@@ -1,5 +1,5 @@
 ---
-title: Inline Title
+title: Título en línea
 icon: material/format-underline-wavy
 ---
 
@@ -8,17 +8,17 @@ Formatos aceptados: em, número
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Typography
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- Inline title
-|   |   |   |-- 。
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

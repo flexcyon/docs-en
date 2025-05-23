@@ -1,22 +1,21 @@
 ---
-title: Files
+title: 文件
 icon: material/file-cog
 ---
 
 配置文件树和文件夹样式。
-.
 
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Files
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -24,7 +23,7 @@ Style Settings
 ### Enable dimmed file extensions in file explorer
 目标CSS变量:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 
-默认: 真( 类切换)
+默认 :true(类切换)
 
 ### Select folder style
 CSS类目标:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
@@ -38,4 +37,4 @@ CSS类目标:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-m
 ### Enable minimalist trees
 目标CSS变量:`var(--flexcyon-minimalist-tree)`
 
-默认: 假( 类切换)
+默认 :false(类切换)

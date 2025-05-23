@@ -1,5 +1,5 @@
 ---
-title: Links
+title: Enlaces
 icon: material/link
 ---
 
@@ -11,14 +11,14 @@ Formatos aceptados: HEX
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Links
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

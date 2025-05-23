@@ -70,7 +70,8 @@ jobs:
           cp -r /tmp/translation_tmp docs
           if [ -f /tmp/translation_tmp/README.md ]; then cp /tmp/translation_tmp/README.md ./README.md; fi
           # Move .readthedocs.yml from docs/ to root if it exists
-          if [ -f docs/.readthedocs.yml ]; then cp docs/.readthedocs.yml ./.readthedocs.yml; fi
+          if [ -f ./docs/.readthedocs.yaml ]; then cp ./docs/.readthedocs.yaml ./.readthedocs.yaml; fi
+          if [ -f ./docs/mkdocs.yml ]; then cp ./docs/mkdocs.yml ./mkdocs.yml; fi
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add -A

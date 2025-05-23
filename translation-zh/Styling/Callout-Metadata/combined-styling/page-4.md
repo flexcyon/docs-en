@@ -1,5 +1,5 @@
 ---
-title: All Purple
+title: 全部紫色
 icon: material/format-color-fill
 ---
 
@@ -9,4 +9,4 @@ icon: material/format-color-fill
 > [!tip|all-purple] Title will be purple
 > The background color will be purple
 ```
-> Shorthand for both ["bg-purple"](。/bg-styling/page-4.md) and ["title-purple"](。/title-styling/page-4.md)
+> Shorthand for both ["bg-purple"](../bg-styling/page-4.md) and ["title-purple"](../title-styling/page-4.md)

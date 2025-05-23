@@ -1,13 +1,13 @@
 ---
 icon: material/script-text
-title: Changelogs
+title: Cambios
 ---
 
 #### Note
 Los changelogs muestran versiones en orden de lo más reciente al menos reciente. O, si prefiere los cambios en orden cronológico, puede utilizar la barra lateral o el menú de hamburguesa para ver las subpáginas pertinentes.
 .
 
-__
+___
 ## Version 0.4.x
 ### Version 0.4.1 Quickfix Update
 - Fijar el renderizado TUI en modo de luz
@@ -126,9 +126,9 @@ __
 - Centro izquierdo
 - El fondo izquierdo
 - Centro de base
-- Ver el[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)para más detalles
+- Ver el [[LINK0]] para más detalles
 
-__
+___
 ## Version 0.2.x
 ### Version 0.2.2 Layout styling
 - Color de fondo de dobles comillas fijas
@@ -156,7 +156,7 @@ __
 - Añadido margen vertical de llamada, opción de radio fronterizo
 - Opción de radio de la imagen agregada
 - Paleta de color extendida (puede utilizarse como fuentes de metadatos de llamada o variables de css)
-- Llamada popup agregada, adaptada a[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
+- Llamada popup agregada, adaptada de [[LINK0]]] Tema de vaykinov y wizentex
 - Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 - Animaciones de ventana agregadas para modals, impulsos y ajustes. Elija entre las siguientes opciones:
 - Ninguna (Revierte al comportamiento predeterminado)
@@ -171,9 +171,9 @@ __
 - opción agregada para permitir árboles minimalistas (carpeta/outline)
 - carpetas de arco iris adicionales para el explorador de archivos
 - Opciones de fondo dotted y grid
-- Ver el[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)para más detalles
+- Ver el [[LINK0]] para más detalles
 
-__
+___
 ## Version 0.1.x
 ### Version 0.1.1 Hotfixes
 - opción agregada para cambiar el tamaño de la fuente ASCII
@@ -205,7 +205,7 @@ __
 - Cisclases adicionales para
 - Tategaki (RTL vertical)
 - LTR vertical
-- Ver el[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)para más detalles
+- Ver el [[LINK0]] para más detalles
 
 Créditos:
 
@@ -214,7 +214,7 @@ Créditos:
 -`@Tuck`en la discordia del grupo de miembros obsidianos para opciones para cambiar el color de enlace
 
 ### Version 0.0.5: Minor Changes
-- Hecho arte ASCII sensible, puede establecer un límite de tamaño de fuente en él
+- Hecho arte ASCII sensible, puede establecer un tamaño de fuente limiten él
 - La barra de estado no se solapa con el texto de entrada del modo de comando
 - opción adicional para habilitar la barra de estado en el móvil
 - Opción de altura de línea agregada en tipografía para partidas

@@ -1,5 +1,5 @@
 ---
-title: Vertical Alignment
+title: Alineación vertical
 icon: material/align-horizontal-distribute
 ---
 

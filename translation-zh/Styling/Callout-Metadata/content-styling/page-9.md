@@ -1,5 +1,5 @@
 ---
-title: Oblique Content
+title: Oblique 内容
 icon: material/format-text-variant
 ---
 
@@ -11,4 +11,4 @@ icon: material/format-text-variant
 > The content will be displayed as oblique
 ```
 
-样式本身也适用于["oblique-all"](。/combined-styling/page-19.md)页:1["oblique-title"](。/title-styling/page-19.md)。.
+样式本身也适用于["oblique-all"](../combined-styling/page-19.md)]] 与["oblique-title"](../title-styling/page-19.md)同时 .

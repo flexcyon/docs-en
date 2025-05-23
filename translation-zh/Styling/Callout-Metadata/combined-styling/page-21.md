@@ -1,5 +1,5 @@
 ---
-title: Overline All
+title: 全部覆盖
 icon: material/format-overline
 ---
 
@@ -10,4 +10,4 @@ icon: material/format-overline
 > [!info|overline-all] The title will be displayed as overline
 > The content will be displayed as overline
 ```
-> Shorthand for both ["overline-content"](。/content-styling/page-11.md) and ["overline-title"](。/title-styling/page-21.md)
+> Shorthand for both ["overline-content"](../content-styling/page-11.md) and ["overline-title"](../title-styling/page-21.md)

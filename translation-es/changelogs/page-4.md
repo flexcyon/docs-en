@@ -1,5 +1,5 @@
 ---
-title: Version 0.4.x
+title: Versión 0.4.x
 icon: material/numeric-4-box-outline
 ---
 

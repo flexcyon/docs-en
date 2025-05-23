@@ -1,5 +1,5 @@
 ---
-title: Dashed Content
+title: Contenido derramado
 icon: material/format-color-text
 ---
 
@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as dashed
 ```
 
-El estilo en sí se aplica también["dashed-all"](。/combined-styling/page-20.md)junto con["dashed-title"](。/title-styling/page-20.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

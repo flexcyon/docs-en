@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: 安装
 icon: material/download
 ---
 
@@ -9,7 +9,7 @@ icon: material/download
 
 一、导 言 下级`Themes`管理
 
-2. 国家.`Type "Flexcyon in the search bar
+2. `Type "Flexcyon in the search bar
 > Select it
 > Click "Install and Use"`
 
@@ -18,20 +18,19 @@ icon: material/download
 > Community Plugins
 > Browse` 
 
-一、导 言.`Type "BRAT" in the search bar
+1. `Type "BRAT" in the search bar
 > Select it (the one by TftHacker)
 > Click install`
 
-2. 国家 等待安装完成然后单击`Enable`
+2. 等待安装完成然后单击`Enable`
 
-3个 单击`Options`
+3. 单击`Options`
 
 4. 点击`Add Beta Theme`
 
- 5.五。 投入`https://github.com/bladeacer/flexcyon`并单击`Add Theme`
+ 5. 投入`https://github.com/bladeacer/flexcyon`并点击`Add Theme`
 
 ## Style Settings Plugin
-安装样式设置是这个主题的高度建议,因为大多数自定义和功能都是围绕它构建的。
-.
+强烈推荐安装样式设置,因为主题大多数功能和定制都是围绕它构建的。
 
-查找此主题的样式设置文档[here](。/Styling/Style-Settings/index.md)
+样式设置的文档可以找到 [here](../Styling/Style-Settings/index.md)]

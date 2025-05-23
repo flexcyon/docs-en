@@ -77,7 +77,7 @@ Default: ""
 #### Quote font size
 CSS Variable(s) targeted: `var(--flexcyon-quote-font-size)`
 
-Default: 24px
+Default: 24 (px)
 
 > Line breaks are escaped as `\a` and `\` is escaped as `\\`
 

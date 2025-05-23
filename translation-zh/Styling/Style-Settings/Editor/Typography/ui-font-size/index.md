@@ -1,10 +1,9 @@
 ---
-title: UI Font Size
+title: UI 字体大小
 icon: material/format-font-size-increase
 ---
 
 覆盖界面中使用的默认字体大小。
-.
 
 接受格式: px
 
@@ -12,17 +11,17 @@ icon: material/format-font-size-increase
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Typography
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- UI Font Size
-|   |   |   |-- 。
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

@@ -1,27 +1,26 @@
 ---
-title: Animations
+title: 动画
 icon: material/animation
 ---
 
 配置提示、模式和标签容器的过渡动画。
-.
 
 接受格式:s
 
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Workspace
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- Animations
-|   |   |   |-- 。
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -41,7 +40,7 @@ CSS类目标:`.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr, .flexcyon-an
 ### Animation duration
 目标CSS变量:`var(--flexcyon-anim-duration)`
 
-默认值: 0. 5s
+默认: 0.5s
 
 ### Animation easing function
 目标CSS变量:`var(--flexcyon-anim-easing)`

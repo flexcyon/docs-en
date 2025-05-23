@@ -1,11 +1,10 @@
 ---
-title: Writing Mode
+title: 写入模式
 icon: material/keyboard
 ---
 
 ## Usage
 在编辑器中添加文本缩进并增加段落间隔。 大小可以在样式设置中调整。
-.
 
 ```md
 cssclasses:

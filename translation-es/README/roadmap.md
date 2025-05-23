@@ -5,7 +5,7 @@ tags:
 ---
 
 ## Misc
-- Añadir atribución Origami en archivos scss/css
+- Añadir atribución a Origami`scss/css`archivos
 - Añadir Opciones de configuración de estilo para configurar el elemento de árbol y el relleno de elementos de sugerencia
 - Añadir mejores capturas de pantalla
 

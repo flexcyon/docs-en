@@ -1,5 +1,5 @@
 ---
-title: LTR Content
+title: Índice
 icon: material/align-horizontal-left
 ---
 
@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as ltr
 ```
 
-El estilo en sí se aplica también["ltr-all"](。/combined-styling/page-12.md)junto con["ltr-title"](。/title-styling/page-12.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

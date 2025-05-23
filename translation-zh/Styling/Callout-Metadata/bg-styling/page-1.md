@@ -1,5 +1,5 @@
 ---
-title: Transparent Background
+title: 透明背景
 icon: material/layers-off-outline
 ---
 

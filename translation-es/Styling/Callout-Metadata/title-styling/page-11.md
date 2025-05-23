@@ -1,5 +1,5 @@
 ---
-title: RTL Title
+title: Título RTL
 icon: material/align-horizontal-right
 ---
 
@@ -11,4 +11,4 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["rtl-all"](。/combined-styling/page-11.md)junto con["rtl-content"](。/content-styling/page-1.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

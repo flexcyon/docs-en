@@ -1,6 +1,6 @@
 ---
 icon: material/server
-title: Tools and Software
+title: Herramientas y software
 ---
 
 Las siguientes herramientas y software eran indispensables en la elaboración del tema y su documentación.

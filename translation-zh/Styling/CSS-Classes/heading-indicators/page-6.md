@@ -1,10 +1,9 @@
 ---
-title: Heading indicators - H6
+title: 标题指标 - H6型导弹
 icon: material/format-header-6
 ---
 
 增加标题6的标题指标。 将在阅读,编辑和源模式中出现。
-.
 
 用法 :
 ```md
@@ -16,4 +15,4 @@ cssclasses:
 Others headings display as usual
 ```
 
-The Style Settings equivalent to enabling this globally can be [found here](。/。/Style-Settings/Editor/Typography/headings/index.md#for-heading-6)
+The Style Settings equivalent to enabling this globally can be [found here](../../Style-Settings/Editor/Typography/headings/index.md#for-heading-6)

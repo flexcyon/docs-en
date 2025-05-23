@@ -1,5 +1,5 @@
 ---
-title: Base Colors
+title: Colores de base
 icon: material/format-color-highlight
 ---
 
@@ -11,14 +11,14 @@ Formatos aceptados: HEX
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Base Colors
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

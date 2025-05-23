@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as strikethrough
 ```
 
-El estilo en sí se aplica también["line-through-all"](。/combined-styling/page-23.md)junto con["line-through-title"](。/title-styling/page-23.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

@@ -1,5 +1,5 @@
 ---
-title: Red Title
+title: Título rojo
 icon: material/select-color
 ---
 
@@ -10,4 +10,4 @@ Metadatos de callout: "Título rojo"
 > The background color will display as usual
 ```
 
-El estilo en sí se aplica también["all-red"](。/combined-styling/page-3.md)junto con["bg-red"](。/bg-styling/page-3.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

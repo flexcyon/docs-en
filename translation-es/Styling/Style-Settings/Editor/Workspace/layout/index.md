@@ -1,5 +1,5 @@
 ---
-title: Layout
+title: A ti
 icon: material/page-layout-sidebar-left
 ---
 
@@ -9,16 +9,16 @@ Configurar el diseño del espacio de trabajo.
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Workspace
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- Layout
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -37,4 +37,4 @@ Opciones:
 ### Enable TUI add-on for cards layout
 CSS Variable(s) targeted:`var(--flexcyon-workspace-cards-tui-ext)`
 
-Default: true (clase toggle)
+Default:true(de clase)

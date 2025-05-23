@@ -1,5 +1,5 @@
 ---
-title: Version 0.2.x
+title: 版本0.2.x
 icon: material/numeric-2-box-outline
 ---
 
@@ -7,7 +7,7 @@ icon: material/numeric-2-box-outline
 - 添加点名垂直边距、边框半径选项
 - 添加图像边框半径选项
 - 添加扩展色调色板(可用作点名元数据工具或在cs变量中)
-- 添加弹出点名词,改编自[Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
+- 根据[Ukiyo](https://github.com/technerium/obsidian-ukiyo)]改编的添加弹出点名词] 由 Vaykinov 和 wizentex 编写的主题
 - 新注释、新文件夹等顶级动作的固定不透明
 - 为模式、提示和设置添加窗口动画。 从下列选项中选择 :
 - 无(默认行为的更正)
@@ -22,13 +22,11 @@ icon: material/numeric-2-box-outline
 - 添加选项以启用最小化(文件夹/外线)树
 - 为文件探索者添加彩虹文件夹
 - 添加点和网格背景选项
--见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)详情
+- 详情见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)。
 
 ## Version 0.2.1 Small Update
 - 已删除的窗口动画,因为它们不是表演者。
-.
 - 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color`在使用点名元数据时, 总是返回相同的颜色组合 。
-.
 - 使活动文件背景效果更加一致
 - 添加 ASCII 艺术线高度选项
 - 为点和网格编辑背景选项添加 cssclass

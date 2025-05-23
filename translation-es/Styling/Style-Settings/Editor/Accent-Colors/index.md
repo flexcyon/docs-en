@@ -1,5 +1,5 @@
 ---
-title: Accent Colors
+title: Colores Accent
 icon: material/format-color-fill
 ---
 
@@ -14,13 +14,13 @@ Formatos aceptados: RGB, HEX
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
 |   |   |-- Accent Colors
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -127,4 +127,4 @@ Default (modo oscuro):<span class="col-sqr" style="background-color: #92a871"
 ### Enabled Extended Color Palette
 CSS Variable(s) targeted:`var(--flexcyon-ext-colors-enabled)`
 
-Default: true
+Default:true

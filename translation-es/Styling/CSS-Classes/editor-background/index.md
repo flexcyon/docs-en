@@ -1,5 +1,5 @@
 ---
-title: Editor Background
+title: Editor
 icon: material/notebook-edit
 ---
 

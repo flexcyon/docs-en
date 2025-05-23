@@ -1,5 +1,5 @@
 ---
-title: Ordered List Styling
+title: Lista ordenada Estilismo
 icon: material/format-list-numbered
 ---
 > `ol-style_type`
@@ -9,10 +9,10 @@ icon: material/format-list-numbered
 > 1. The number 1 will render as the greek letter alpha in reading/live preview
 > 2. The number 2 render as the greek letter beta in reading/live preview
 > 3. The number 3 render as the greek letter gamma in reading/live preview
-> 。
+> ...
 ```
 
-__
+___
 - No hay aplicación estándar para el griego superior
 
 ¿Qué significa "en el artículo de la lista junto con el texto"?

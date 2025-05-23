@@ -1,5 +1,5 @@
 ---
-title: Heading indicators - H1
+title: Indicadores de referencia - H1
 icon: material/format-header-1
 ---
 
@@ -16,4 +16,4 @@ cssclasses:
 Others headings display as usual
 ```
 
-The Style Settings equivalent to enabling this globally can be [found here](。/。/Style-Settings/Editor/Typography/headings/index.md#for-heading-1)
+The Style Settings equivalent to enabling this globally can be [found here](../../Style-Settings/Editor/Typography/headings/index.md#for-heading-1)

@@ -1,5 +1,5 @@
 ---
-title: Easter Egg Mode
+title: Modo de huevo de Pascua
 icon: material/egg-easter
 tags:
     - style_settings

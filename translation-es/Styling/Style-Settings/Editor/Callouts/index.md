@@ -12,14 +12,14 @@ Formatos aceptados: px, rem, em, s
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Callouts
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -52,9 +52,9 @@ CSS Variable(s) targeted:`var(--callout-radius)`
 
 Predeterminado: 2 (px)
 
-__
+___
 ### Flashcard callout
-Configura los[flashcard callout](。/。/。/Callout-Metadata/flashcard.md).
+Configures the [[LINK0]].
 .
 
 #### Flashcard callout width
@@ -72,9 +72,9 @@ CSS Variable(s) targeted:`var(--flexcyon-callout-flashcard-animation-duration)`
 
 Predeterminado: 0.5s
 
-__
+___
 ### Popup callout
-Configura los[popup callout](。/。/。/Callout-Metadata/popup.md)
+Configura el [[LINK0]]]
 
 #### Popup callout animation duration
 CSS Variable(s) targeted:`var(--flexcyon-callout-pop-animation-duration)`

@@ -1,5 +1,5 @@
 ---
-title: Workspace
+title: 工作空间
 icon: material/layers-triple-outline
 ---
 
@@ -10,14 +10,14 @@ icon: material/layers-triple-outline
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Workspace
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -25,7 +25,7 @@ Style Settings
 ### File line width
 目标CSS变量:`var(--file-line-width)`
 
-默认: 50( 缩写)
+默认: 50 (rem)
 
 ### Opacity of dimmed elements
 目标CSS变量:`var(--dimmed)`

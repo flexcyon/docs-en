@@ -1,20 +1,20 @@
 ---
 icon: material/heart
-title: Credits
+title: Créditos
 ---
 
-Un gran grito a Daniel[Halcyon theme](https://github.com/dbarenholz/halcyon-obsidian)y kepano[flexoki](https://github.com/kepano/flexoki-obsidian)tema, ambos bajo elMITlicencia.
+Un enorme grito a Daniel [[LINK0]] y a kepano [[LINK1]]] tema, ambos bajo elMITlicencia.
 .
 
-Además, el esquema de color del modo de luz no sería posible sin el gran[Origami theme](https://github.com/7368697661/Origami)(que también está bajoMITLicencia).
+Además, el esquema de color del modo de luz no sería posible sin el gran [[LINK0]]] (que también está bajoMITLicencia).
 .
 
 ## Snippets
 -`@OWA/bennyyip`sobre la discordia del grupo de miembros obisidianos para el tategaki
--[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema por vaykinov y wizentex para la llamada popup
+- [[LINK0]] Tema por vaykinov y wizentex para la llamada popup
 -`@Kapirklaa`sobre la discordia del grupo de miembros obisidianos (@ElsaTam en GitHub) para la imagen de fondo
 -`@Nuno`en el disco del grupo de miembros obsidianos para la pestaña animaciones snippet
--[Enhanced File Explorer](https://github.com/LennZone/enhanced-file-explorer-tree)Tema de LennZone para el estilo de árbol marcado
+- [[LINK0]] Tema de LennZone para el estilo de árbol marcado
 
 ## Ideas, Feedback
 -`@Tuck`sobre la discordia del grupo de miembros obsidianos para opciones para cambiar el color de enlace y la indentación de las partidas de configuración de estilo
@@ -24,10 +24,8 @@ Además, el esquema de color del modo de luz no sería posible sin el gran[Origa
 -`@Kapirklaa`en la discordia del grupo de miembros obisidianos (@ElsaTam en GitHub) para inspirarse en los usos de metadatos de llamada
 -`@BEN10`sobre la discordia del grupo de miembros obisidianos para fijar la documentación, Powerlevel10k layout
 -`@Michael`sobre la discordia del grupo de miembros obisidianos para los indicadores de encabezado global
--`@Binaris`en la discordia del grupo de miembros obsidianos para fijar la pantalla ninguno que fue incorrectamente a todos`<hr
->`s en lugar del último niño`<hr
->`incrustaciones de Markdown
--[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)tema para el modo RTZ y el estilo rápido
+-`@Binaris`y`@Dante`sobre la discordia del grupo de miembros obsidianos para fijar reglas horiztonales
+- [[LINK0]] tema para el modo RTZ y el estilo rápido
 
-__
+___
 Por último, pero no menos importante, *usted* para usar el tema y leer la documentación:D

@@ -1,5 +1,5 @@
 ---
-title: Center Content
+title: Índice
 icon: material/align-horizontal-center
 ---
 
@@ -11,4 +11,4 @@ Usage:
 > The content will be centered
 ```
 
-El estilo en sí se aplica también["center-all"](。/combined-styling/page-13.md)junto con["center-title"](。/title-styling/page-13.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

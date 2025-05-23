@@ -1,5 +1,5 @@
 ---
-title: Background Styling
+title: 背景样式
 icon: material/flip-to-back
 ---
 

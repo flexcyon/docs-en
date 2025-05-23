@@ -1,5 +1,5 @@
 ---
-title: Uppercase Content
+title: Índice
 icon: material/format-letter-case-upper
 ---
 
@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as uppercase
 ```
 
-El estilo en sí se aplica también["uppercase-all"](。/combined-styling/page-14.md)junto con["uppercase-title"](。/title-styling/page-14.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

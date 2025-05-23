@@ -1,5 +1,5 @@
 ---
-title: Bullet Lists
+title: 项目符号列表
 icon: material/format-list-bulleted
 ---
 
@@ -8,14 +8,14 @@ icon: material/format-list-bulleted
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Bullet Lists
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -23,5 +23,5 @@ Style Settings
 ### Enable rainbow bullet lists
 目标CSS变量:`var(--flexcyon-rainbow-bullet-points)`
 
-默认: 假( 类切换)
+默认 :false(类切换)
 > Might need app restart/reload to take effect.

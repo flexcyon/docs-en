@@ -1,5 +1,5 @@
 ---
-title: Extended color palette - Title
+title: Paleta de color extendida - Título
 icon: material/palette-outline
 ---
 > `title-color1-color2-`
@@ -9,7 +9,7 @@ Usage:
 > The background color will be as usual
 ```
 
-El estilo en sí se aplica también["all-color1-color2"](。/combined-styling/page-10.md)junto con["bg-color1-color2"](。/bg-styling/page-10.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
 .
 
-Requisitos[this Style Settings option](。/。/Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)a seguir
+[[LINK0]]]

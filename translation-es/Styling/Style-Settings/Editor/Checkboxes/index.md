@@ -1,5 +1,5 @@
 ---
-title: Checkboxes
+title: Cajas de control
 icon: material/checkbox-outline
 ---
 
@@ -8,13 +8,13 @@ En esta subpágina, puede encontrar ejemplos de uso para el estilo de las casill
 
 ## Screenshots
 <figure markdown="span">
-    <img src="。/。/。/。/assets/screenshots/ascii_checkboxes1.png" width="800">
+    <img src="../../../../assets/screenshots/ascii_checkboxes1.png" width="800">
     <figcaption
 >Figure 1: ASCII Checkboxes</figcaption>
 </figure>
 
 <figure markdown="span">
-    <img src="。/。/。/。/assets/screenshots/ascii_checkboxes2.png" width="800">
+    <img src="../../../../assets/screenshots/ascii_checkboxes2.png" width="800">
     <figcaption
 >Figura 2: Cajas de comprobación ASCII en modo fuente</figcaption>
 </figure>
@@ -22,14 +22,14 @@ En esta subpágina, puede encontrar ejemplos de uso para el estilo de las casill
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Checkboxes
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration options
@@ -38,7 +38,7 @@ Formatos aceptados: rem
 ### Enable ASCII checkboxes
 CSS Variable(s) targeted:`var(--flexcyon-ascii-checkboxes-enabled)`
 
-Default: true (clase toggle)
+Default:true(de clase)
 
 ### ASCII checkboxes font size
 CSS Variable(s) targeted:`var(--flexcyon-ascii-checkboxes-font-size)`

@@ -1,5 +1,5 @@
 ---
-title: Red background
+title: 红色背景
 icon: material/layers-outline
 ---
 
@@ -10,4 +10,4 @@ icon: material/layers-outline
 > The background color will be red
 ```
 
-样式本身也适用于["all-red"](。/combined-styling/page-3.md)页:1["title-red"](。/title-styling/page-3.md)。.
+样式本身也适用于["all-red"](../combined-styling/page-3.md)]] 与["title-red"](../title-styling/page-3.md)同时 .

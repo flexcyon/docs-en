@@ -1,5 +1,5 @@
 ---
-title: LTR Title
+title: LTR Título
 icon: material/align-horizontal-left
 ---
 
@@ -11,4 +11,4 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["ltr-all"](。/combined-styling/page-12.md)junto con["ltr-content"](。/content-styling/page-2.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

@@ -1,5 +1,5 @@
 ---
-title: Italic Content
+title: Índice
 icon: material/format-italic
 ---
 
@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as italic
 ```
 
-El estilo en sí se aplica también["italic-all"](。/combined-styling/page-18.md)junto con["italic-title"](。/title-styling/page-18.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

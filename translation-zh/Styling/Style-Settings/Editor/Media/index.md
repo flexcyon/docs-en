@@ -1,5 +1,5 @@
 ---
-title: Media
+title: 媒体
 icon: material/multimedia
 ---
 
@@ -10,14 +10,14 @@ icon: material/multimedia
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Media
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

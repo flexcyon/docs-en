@@ -1,5 +1,5 @@
 ---
-title: CSS Classes
+title: CSS Clases
 icon: material/code-braces
 ---
 

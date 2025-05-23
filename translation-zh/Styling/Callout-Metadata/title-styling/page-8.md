@@ -1,5 +1,5 @@
 ---
-title: Orange Title
+title: 橙色标题
 icon: material/select-color
 ---
 
@@ -10,4 +10,4 @@ icon: material/select-color
 > The background color will display as usual
 ```
 
-样式本身也适用于["all-orange"](。/combined-styling/page-8.md)页:1["bg-orange"](。/bg-styling/page-8.md)。.
+样式本身也适用于["all-orange"](../combined-styling/page-8.md)]] 与["bg-orange"](../bg-styling/page-8.md)同时 .

@@ -1,5 +1,5 @@
 ---
-title: Strikethrough All
+title: 全部切换
 icon: material/format-strikethrough
 ---
 
@@ -10,4 +10,4 @@ icon: material/format-strikethrough
 > [!info|line-through-all] The title will be displayed as line-through
 > The content will be displayed as line-through
 ```
-> Shorthand for both ["line-through-content"](。/content-styling/page-13.md) and ["line-through-title"](。/title-styling/page-23.md)
+> Shorthand for both ["line-through-content"](../content-styling/page-13.md) and ["line-through-title"](../title-styling/page-23.md)

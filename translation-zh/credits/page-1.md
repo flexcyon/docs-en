@@ -1,10 +1,9 @@
 ---
 icon: material/server
-title: Tools and Software
+title: 工具和软件
 ---
 
 以下工具和软件对于主题及其文件的制作是必不可少的。
-.
 
 ### Base application
 - 犹太教
@@ -14,19 +13,19 @@ title: Tools and Software
 
 ### Web Technologies
 - CSS系统
-- 常设委员会
+- SCSS
 
 ### Text Editors
-- 维姆
-- VS代码
+- Vim
+- VS Code
 
 ### Version Control
-- 吉尔
-- GitHub (英语).
+- Git
+- GitHub
 
 ### Documentation
-- 麦克道克
-- 和令人惊叹的生态系统 围绕它建立
-- MkDocs的材料
-- 读《Docs》
-- 吉斯库斯
+- MkDocs
+-以及围绕它建立的出色生态系统 
+- Material for MkDocs
+- ReadTheDocs 
+- Giscus

@@ -1,5 +1,5 @@
 ---
-title: Dashed All
+title: ¡Todos
 icon: material/format-color-text
 ---
 
@@ -10,4 +10,4 @@ Usage:
 > [!info|dashed-all] The title will be displayed as dashed
 > The content will be displayed as dashed
 ```
-> Shorthand for both ["dashed-content"](。/content-styling/page-10.md) and ["dashed-title"](。/title-styling/page-20.md)
+> Shorthand for both ["dashed-content"](../content-styling/page-10.md) and ["dashed-title"](../title-styling/page-20.md)

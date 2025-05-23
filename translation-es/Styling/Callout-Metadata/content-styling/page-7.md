@@ -1,5 +1,5 @@
 ---
-title: Tilt Content
+title: Contenido de inclinación
 icon: material/angle-acute
 ---
 
@@ -11,4 +11,4 @@ Usage:
 > The content will be tilted
 ```
 
-El estilo en sí se aplica también["tilt-all"](。/combined-styling/page-17.md)junto con["tilt-title"](。/title-styling/page-17.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

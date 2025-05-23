@@ -1,5 +1,5 @@
 ---
-title: Vertical Alignment - LTR
+title: 垂直对齐 - LTR (英语)
 icon: material/align-horizontal-left
 ---
 

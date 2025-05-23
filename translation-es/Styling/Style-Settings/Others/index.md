@@ -1,5 +1,5 @@
 ---
-title: Others
+title: Otros
 icon: material/dots-horizontal
 ---
 
@@ -10,9 +10,9 @@ Formatos aceptados: px
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
-|   |-- 。
+|   |-- ...
 |   |-- Others
 ```
 
@@ -22,7 +22,7 @@ Style Settings
 #### Enable Vim Mode Text
 CSS Variable(s) targeted:`var(--flexcyon-vim-mode-text-enable)`
 
-Default: true (clase toggle)
+Default:true(de clase)
 
 #### Vim mode text left positioning
 CSS Variable(s) targeted:`var(--flexcyon-vim-mode-left-positioning)`
@@ -49,7 +49,7 @@ CSS Variable(s) targeted:`var(--flexcyon-vim-command-text)`
 
 Default: "COMMAND"
 
-__
+___
 ### New Tab Appearance
 Personalizar la tolerancia de nuevas pestañas vacías
 
@@ -77,7 +77,7 @@ Default: ""
 #### Quote font size
 CSS Variable(s) targeted:`var(--flexcyon-quote-font-size)`
 
-Predeterminado: 24px
+Predeterminado: 24 (px)
 > Line breaks are escaped as `\a` and `\` is escaped as `\\`
 
 #### ASCII Art
@@ -110,14 +110,14 @@ Default: 1
 #### Disable Empty State title
 CSS Variable(s) targeted:`var(--flexcyon-empty-state-title-disable)`
 
-Default: true (clase toggle)
+Default:true(de clase)
 
 #### Disable Empty State Actions
 CSS Variable(s) targeted:`var(--flexcyon-empty-state-actions-disable)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
-__
+___
 ### Side Dock Icons
 Configure los iconos de muelle lateral
 
@@ -125,14 +125,14 @@ Configure los iconos de muelle lateral
 > Rainbow effect on hover
 CSS Variable(s) targeted:`var(--flexcyon-sidedock-icon-effects)`
 
-Default: true (clase toggle)
+Default:true(de clase)
 
 #### Hide the side dock ribbon
 CSS Variable(s) targeted:`var(--flexcyon-sidedock-ribbon-hidden)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
-__
+___
 ### Tooltip radius
 Configure el radio de punta de la herramienta
 
@@ -156,7 +156,7 @@ CSS Variable(s) targeted:`var(--radius-xl)`
 
 Predeterminado: 8 (px)
 
-__
+___
 ### Sidebar Background 
 Configurar imágenes de fondo en las barras laterales izquierda y derecha.
 .
@@ -195,7 +195,7 @@ Default: darken
 #### Sidebar Background image repeat
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-repeat)`
 
-Default: no-repeat
+Default:no-repeat
 
 #### Sidebar Background image blur
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-blur)`
@@ -206,20 +206,20 @@ Predeterminado: 1px
 #### Sidebar Background image brightness
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-brightness)`
 
-Default: unset
+Default:unset
 > Accepts percentage values like 55%
 
 #### Sidebar Background image size
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-size)`
 
-Default: contain
+Default:contain
 
 #### Sidebar Background image position
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-position)`
 
 Por defecto: centro
 
-__
+___
 ### Modal Background
 Configurar imágenes de fondo en el fondo del menú de configuración, indicaciones, etc
 
@@ -235,12 +235,12 @@ Predeterminado: url("")
 #### Modal Background image blend mode
 CSS Variable(s) targeted:`var(--flexcyon-modal-image-blend-mode)`
 
-Default: lighten
+Default:lighten
 
 #### Modal Background image repeat
 CSS Variable(s) targeted:`var(--flexcyon-modal-image-repeat)`
 
-Default: no-repeat
+Default:no-repeat
 
 #### Modal Background image blur
 CSS Variable(s) targeted:`var(--flexcyon-modal-image-blur)`
@@ -250,7 +250,7 @@ Predeterminado: 1px
 #### Modal Background image brightness
 CSS Variable(s) targeted:`var(--flexcyon-bg-modal-brightness)`
 
-Default: unset
+Default:unset
 > Accepts percentage values like 55%
 
 #### Modal background image size
@@ -263,12 +263,12 @@ CSS Variable(s) targeted:`var(--flexcyon-modal-image-position)`
 
 Por defecto: centro
 
-__
+___
 ### Easter egg mode
-Deprecatado. See[here for reasons](。/。/。/README/page-5.md).
+Deprecatado. [[LINK0]]].
 .
 
-__
+___
 ### Accessibility
 Toggle accessibility options
 > Note that changing these will change how the entire theme renders. 
@@ -292,10 +292,10 @@ CSS Variable(s) targeted:`var(--flexcyon-saturation-ratio)`
 Default: 1
 > Use to modify the saturation of colors
 
-__
+___
 ### Return to Zero mode
 > Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements are not displayed until hovered on. Will not recommend on mobile.
 
 CSS Variable(s) targeted:`var(--flexcyon-rtz-mode)`
 
-Default: false (clase toggle)
+Default:false(de clase)

@@ -13,4 +13,4 @@ Usage:
 ```
 
 
-[Click here](。/Style-Settings/Editor/Callouts/index.md#popup-callout)para opciones de configuración.
+[[LINK0]]] para las opciones de configuración.

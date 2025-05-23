@@ -1,5 +1,5 @@
 ---
-title: Status Bar
+title: 状态栏
 icon: material/state-machine
 ---
 
@@ -10,14 +10,14 @@ icon: material/state-machine
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Status Bar
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -27,12 +27,12 @@ Style Settings
 #### Hide until hover
 目标CSS变量:`var(--flexcyon-status-hide-until-hover)`
 
-默认: 假( 类切换)
+默认 :false(类切换)
 
 #### Text when hide until hover enabled
 目标CSS变量:`var(--flexcyon-status-hide-until-hover-text)`
 
-默认: “ 显示状态 ”
+Default: "Show status"
 
 #### Translation for showing status bar on hover
 目标CSS变量:`var(--flexcyon-status-hide-until-hover-translation)`
@@ -49,13 +49,13 @@ Style Settings
 
 默认: 放轻松
 
- 
+___ 
 ### Text Configuration
 
 #### Use text instead of icons for mode status
 目标CSS变量:`var(--flexcyon-status-text-mode)`
 
-默认: 假( 类切换)
+默认 :false(类切换)
 
 #### Reading Mode Text
 目标CSS变量:`var(--flexcyon-status-reading-text)`
@@ -65,20 +65,20 @@ Style Settings
 #### Source Mode Text
 目标CSS变量:`var(--flexcyon-status-source-text)`
 
-默认: "资源"
+默认: "SOURCE"
 
 #### Live Preview Mode Text
 目标CSS变量:`var(--flexcyon-status-live-text)`
 
 默认: "LIVE"
 
- 
+___ 
 ### Status Bar Styling
 
 #### Show status bar on mobile
 目标CSS变量:`var(--flexcyon-status-mobile-enabled)`
 
-默认: 假( 类切换)
+默认 :false(类切换)
 
 #### Status bar font size
 目标CSS变量:`var(--status-bar-font-size)`
@@ -90,11 +90,11 @@ CSS类目标:`.flexcyon-status-style-angled, .flexcyon-status-style-card, .flexc
 
 默认: 无( 选择类)
 选项 :
-- 愤怒
-- 纸牌
-- 动力级10k
+- 倾斜
+- 卡片
+- Powerlevel10k
 
 #### Enable status text color
 目标CSS变量:`var(--flexcyon-status-text-enable-color)`
 
-默认: 假( 类切换)
+默认 :false(类切换)

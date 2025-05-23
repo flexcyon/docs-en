@@ -1,5 +1,5 @@
 ---
-title: Callouts
+title: 点名
 icon: material/information-slab-box-outline
 tags:
     - callouts
@@ -12,14 +12,14 @@ tags:
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Callouts
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -27,17 +27,17 @@ Style Settings
 ### Callout Icon Right padding
 目标CSS变量:`var(--flexcyon-callout-icon-right-padding)`
 
-默认: 4( px)
+默认: 4(px)
 
 ### First Codeblock Margin Top
 目标CSS变量:`var(--flexcyon-callout-first-codeblock-margin-top)`
 
-默认:1(雷姆)
+默认:1 (rem)
 
 ### Callout Metadata Background Opacity
 目标CSS变量:`var(--flexcyon-callout-bg-opacity)`
 
-默认:20%
+默认: 20%
 
 <span style="opacity: 20%"
 >背景样本 不透明度</span>
@@ -45,16 +45,17 @@ Style Settings
 ### Callout Vertical Margin
 目标CSS变量:`var(--flexcyon-callout-vertical-margin)`
 
-默认:1(em)
+默认: 1(em)
 
 ### Callout Border Radius
 目标CSS变量:`var(--callout-radius)`
 
 默认: 2 (px)
 
- 
+___ 
 ### Flashcard callout
-配置[flashcard callout](。/。/。/Callout-Metadata/flashcard.md)。.
+配置 [flashcard callout](../../../Callout-Metadata/flashcard.md)。
+.
 
 #### Flashcard callout width
 目标CSS变量:`var(--flexcyon-callouts-flashcard-width)`
@@ -69,13 +70,13 @@ Style Settings
 #### Flashcard callout animation duration
 目标CSS变量:`var(--flexcyon-callout-flashcard-animation-duration)`
 
-默认值: 0. 5s
+默认: 0.5s
 
- 
+___ 
 ### Popup callout
-配置[popup callout](。/。/。/Callout-Metadata/popup.md)
+配置 [[LINK0]]]]]
 
 #### Popup callout animation duration
 目标CSS变量:`var(--flexcyon-callout-pop-animation-duration)`
 
-默认值: 0.2s
+默认: 0.2s

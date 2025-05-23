@@ -1,5 +1,5 @@
 ---
-title: Design Principles
+title: Principios de diseño
 icon: material/pen
 tags:
     - styling

@@ -1,5 +1,5 @@
 ---
-title: Ordered + Unordered Lists
+title: 排序 + 无排序列表
 icon: material/format-list-bulleted-type
 ---
 > `li-style_type`
@@ -12,10 +12,10 @@ icon: material/format-list-bulleted-type
 >
 > - The bullet point will render as the roman numeral I in reading/live preview
 > - The bullet point will render as the roman numeral II in reading/live preview
-> 。
+> ...
 ```
 
- 
-接受的格式`style_type`数字 : 那个[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
+___ 
+接受的格式`style_type`: [[[联接]]]]
 
 想要对命令列表和非命令列表应用相同的样式时使用

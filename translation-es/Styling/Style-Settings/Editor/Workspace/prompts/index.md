@@ -11,17 +11,17 @@ Formatos aceptados: px, vw, vh
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Workspace
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- Prompts
-|   |   |   |-- 。
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Prompts

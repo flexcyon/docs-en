@@ -10,14 +10,14 @@ Formatos aceptados: s, px
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Status Bar
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -27,7 +27,7 @@ Style Settings
 #### Hide until hover
 CSS Variable(s) targeted:`var(--flexcyon-status-hide-until-hover)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
 #### Text when hide until hover enabled
 CSS Variable(s) targeted:`var(--flexcyon-status-hide-until-hover-text)`
@@ -49,13 +49,13 @@ CSS Variable(s) targeted:`var(--flexcyon-status-hide-hover-function)`
 
 Predeterminado: facilidad de salida
 
-__
+___
 ### Text Configuration
 
 #### Use text instead of icons for mode status
 CSS Variable(s) targeted:`var(--flexcyon-status-text-mode)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
 #### Reading Mode Text
 CSS Variable(s) targeted:`var(--flexcyon-status-reading-text)`
@@ -72,13 +72,13 @@ CSS Variable(s) targeted:`var(--flexcyon-status-live-text)`
 
 Default: "LIVE"
 
-__
+___
 ### Status Bar Styling
 
 #### Show status bar on mobile
 CSS Variable(s) targeted:`var(--flexcyon-status-mobile-enabled)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
 #### Status bar font size
 CSS Variable(s) targeted:`var(--status-bar-font-size)`
@@ -97,4 +97,4 @@ Opciones:
 #### Enable status text color
 CSS Variable(s) targeted:`var(--flexcyon-status-text-enable-color)`
 
-Default: false (clase toggle)
+Default:false(de clase)

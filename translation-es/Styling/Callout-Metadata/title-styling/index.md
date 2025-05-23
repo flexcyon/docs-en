@@ -1,5 +1,5 @@
 ---
-title: Title Styling
+title: Título Styling
 icon: material/format-title
 ---
 

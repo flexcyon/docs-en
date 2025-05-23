@@ -1,5 +1,5 @@
 ---
-title: Table
+title: Cuadro
 icon: material/table-cog
 ---
 
@@ -11,14 +11,14 @@ Formatos aceptados: HEX, %, x.y
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Table
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

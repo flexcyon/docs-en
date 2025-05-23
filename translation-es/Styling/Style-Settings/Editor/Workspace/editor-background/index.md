@@ -1,5 +1,5 @@
 ---
-title: Editor Background
+title: Editor
 icon: material/layers-edit
 ---
 
@@ -9,17 +9,17 @@ Formatos aceptados: px, deg
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Workspace
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- Editor Background
-|   |   |   |-- 。
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

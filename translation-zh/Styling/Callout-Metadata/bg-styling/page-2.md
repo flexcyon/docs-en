@@ -1,5 +1,5 @@
 ---
-title: Blue Background
+title: 蓝色背景
 icon: material/layers-outline
 ---
 
@@ -10,4 +10,4 @@ icon: material/layers-outline
 > The background color will be blue
 ```
 
-样式本身也适用于["all-blue"](。/combined-styling/page-2.md)页:1["title-blue"](。/title-styling/page-2.md)。.
+样式本身也适用于["all-blue"](../combined-styling/page-2.md)]] 与["title-blue"](../title-styling/page-2.md)同时 .

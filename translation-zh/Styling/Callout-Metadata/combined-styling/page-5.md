@@ -1,5 +1,5 @@
 ---
-title: All Cyan
+title: 全青
 icon: material/format-color-fill
 ---
 
@@ -9,4 +9,4 @@ icon: material/format-color-fill
 > [!tip|all-cyan] Title will be cyan
 > The background color will be cyan
 ```
-> Shorthand for both ["bg-cyan"](。/bg-styling/page-5.md) and ["title-cyan"](。/title-styling/page-5.md)
+> Shorthand for both ["bg-cyan"](../bg-styling/page-5.md) and ["title-cyan"](../title-styling/page-5.md)

@@ -1,5 +1,5 @@
 ---
-title: Version 0.1.x and below
+title: Versión 0.1.x y abajo
 icon: material/numeric-1-box-outline
 ---
 
@@ -7,7 +7,7 @@ Versiones abajo 0.0.5 no se documentan ya que carecen de características notabl
 .
 
 ## Version 0.0.5: Minor Changes
-- Hecho arte ASCII sensible, puede establecer un límite de tamaño de fuente en él
+- Hecho arte ASCII sensible, puede establecer un tamaño de fuente limiten él
 - La barra de estado no se solapa con el texto de entrada del modo de comando
 - opción adicional para habilitar la barra de estado en el móvil
 - Opción de altura de línea agregada en tipografía para partidas

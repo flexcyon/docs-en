@@ -1,5 +1,5 @@
 ---
-title: Icon Styling
+title: 图标样式
 icon: material/emoticon
 ---
 

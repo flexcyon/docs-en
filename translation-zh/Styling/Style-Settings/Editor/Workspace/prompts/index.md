@@ -1,27 +1,26 @@
 ---
-title: Prompts
+title: 提示
 icon: material/text-box 
 ---
 
 配置命令提示器, 快速切换器等提示 。
-.
 
 接受格式: px, vw, vh
 
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Workspace
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- Prompts
-|   |   |   |-- 。
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Prompts
@@ -39,7 +38,7 @@ Style Settings
 ### Prompt max height
 目标CSS变量:`var(--prompt-max-height)`
 
-默认: 70(vh)
+默认: 70 (vh)
 
 ### Prompt alignment
 CSS类目标:`.flexcyon-prompt-align-bottom-left, .flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-left, .flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`

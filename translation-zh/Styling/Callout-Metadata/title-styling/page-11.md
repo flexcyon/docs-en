@@ -1,5 +1,5 @@
 ---
-title: RTL Title
+title: RTL 标题
 icon: material/align-horizontal-right
 ---
 
@@ -11,4 +11,4 @@ icon: material/align-horizontal-right
 > Content is shown as usual
 ```
 
-样式本身也适用于["rtl-all"](。/combined-styling/page-11.md)页:1["rtl-content"](。/content-styling/page-1.md)。.
+样式本身也适用于["rtl-all"](../combined-styling/page-11.md)]] 与["rtl-content"](../content-styling/page-1.md)同时 .

@@ -37,20 +37,6 @@ CSS Variable(s) targeted: `var(--flexcyon-metadata-rainbow-icons)`
 
 Default: false (class toggle)
 
-<details>
-    <summary>?</summary>
-    <p>
-        You have found it!<br>
-        Here is the hint to the fourth challenge:<br>
-        what am I to be?<br>
-        a pointless declaration,<br>
-        a separation of spaces,<br>
-        a trifle of languages?<br>
-        a common ancestor without formalities, <br>
-        calling out to you in alphabetical order.<br>
-    </p>
-</details>
-
 ### Metadata container left padding
 CSS Variable(s) targeted: `var(--flexcyon-meta-container-padding-left)`
 

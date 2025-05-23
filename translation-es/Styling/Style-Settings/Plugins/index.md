@@ -10,11 +10,11 @@ Formatos aceptados: HEX, rem, x.y, %
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
-|   |-- 。
+|   |-- ...
 |   |-- Plugins
-|   |-- 。
+|   |-- ...
 ```
 
 ## Configuration Options
@@ -69,24 +69,24 @@ Default:<span class="col-sqr" style="background-color: #6f768599"
 #### Disable folder icons
 CSS Variable(s) targeted:`var(--flexcyon-oz-folder-icons-disabled)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
 #### Disable file tree header
 CSS Variable(s) targeted:`var(--flexcyon-oz-file-tree-header-disabled)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
 #### Enable Alternate folder count
 CSS Variable(s) targeted:`var(--flexcyon-oz-alternate-folder-count)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
 #### Enabled dimmed file extensions in file tree
 CSS Variable(s) targeted:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
 
-Default: true (clase toggle)
+Default:true(de clase)
 
-__
+___
 ### Full Calendar
 
 Formatos aceptados: x.y, %
@@ -99,7 +99,7 @@ Default: 0.89
 <span style="opacity: 0.89"
 >Opacidad de muestra de elementos de calendario completo</span>
 
-__
+___
 ### Dataview
 
 Formatos aceptados: px
@@ -109,7 +109,7 @@ CSS Variables(s) targeted:`var(--flexcyon-dataview-horizontal-padding)`
 
 Predeterminado: 8 (px)
 
-__
+___
 ### Canvas
 Define estilos para el plugin Canvas núcleo.
 .
@@ -119,7 +119,7 @@ Formatos aceptados: px, RGB
 #### Blur inactive Canvas nodes
 CSS Variable(s) targeted:`var(--flexcyon-canvas-blur-inactive-nodes)`
 
-Default: false (clase toggle)
+Default:false(de clase)
 
 #### Blur intensity for inactive nodes
 Utilizado con el ajuste anterior para establecer la intensidad borrosa de los nodos de tela inactiva y todas las flechas/edges.

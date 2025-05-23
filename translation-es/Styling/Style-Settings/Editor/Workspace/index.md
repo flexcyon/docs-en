@@ -1,5 +1,5 @@
 ---
-title: Workspace
+title: Espacio de trabajo
 icon: material/layers-triple-outline
 ---
 
@@ -10,14 +10,14 @@ Formatos aceptados: x.y, rem
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Workspace
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

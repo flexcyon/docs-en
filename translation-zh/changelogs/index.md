@@ -1,13 +1,12 @@
 ---
 icon: material/script-text
-title: Changelogs
+title: 更改日志
 ---
 
 #### Note
-更改日志按最近到最近顺序显示版本 。 或者,如果你更喜欢按时间顺序的更改日志,可以使用侧边栏或汉堡菜单来查看相关的子页。
-.
+更改日志按最近到最近顺序显示版本 。 或者,如果你更喜欢按时间顺序的更改日志,可以使用侧边栏或汉堡菜单来查看相关的子页
 
- 
+___ 
 ## Version 0.4.x
 ### Version 0.4.1 Quickfix Update
 - 在光线模式下修复 TUI 渲染
@@ -16,10 +15,9 @@ title: Changelogs
 - 修复未显示的嵌套
 
 ### Version 0.4.0 Light Mode Update
-- 修改侧边栏背景亮度设置为`unset`。以前引起诸如模糊卡伦德插件内容之类的问题。
-.
+- 修改侧边栏背景亮度设置为`unset`- 以前引起诸如模糊卡伦德插件内容之类的问题
 - WIP灯主题(混合弹性灯+折纸彩色调色板)
-- 其他错误变化
+- 其他更改
 - 为扩展调色板添加切换,默认情况下
 - 添加表头大小选项
 - 更新文档,以显示主题应用的颜色/不透明小预览
@@ -28,24 +26,22 @@ title: Changelogs
 - 光和暗模式选项的样式选择器
 - ASCII 艺术和引文现在继承了界面字体
 - 改进了即时造型和树品垫
-- 回归零(极端最小化模式),灵感来自Simmering Focus主题
+- 回归零(超极简模式),灵感来自Simmering Focus主题
 
 ## Version 0.3.x
 ### Version 0.3.6 Canvas Menu Update
 - 固定边栏背景问题
 - 防止标题指标显示在下调编辑器外的情况
 - 小代码库重构
-- 口音颜色略有变化
-- 添加画布卡菜单对齐选项( 多个选项)
+- 强调色略有变化
+- 添加画布卡菜单对齐选项(多种选项)
 
 ### Version 0.3.5 Configuration Update
 - 文件现在有自己的网站。
-.
 - 为标题添加软发光选项
 - 可切换的彩虹元数据图标
 - 增加全球亮度、对比率和饱和率的无障碍选项
 - 为全球启用标题指标而添加的选项,可适用于不同的标题级别。
-.
 - 标题指标现在更好地继承标题的基础颜色
 - 添加选项以配置弹出点名动画持续时间
 - 添加选项以配置元数据容器左侧粘贴
@@ -100,11 +96,9 @@ title: Changelogs
 - 在左右边栏添加和配置图像背景的选项
 - 微小修改悬浮中的导航项目,日历插件型号
 - 微调编辑背景点和网格背景样式。
-.
 - 标签标题栏现在适应选定的布局样式
 - 用于模糊 Canvas 核心 Canvas 插件的 Canvas 节点的添加选项
 - 编辑器背景变化现在影响到Canvas核心插件。
-.
 - 可能需要应用程序重新装入/ 重新启动样式设置更改才能在 Canvas 中显示
 - 调整帆布控制和卡片菜单的样式
 - 改变面包屑的造型,以使用ASCII而不是emoji
@@ -126,9 +120,9 @@ title: Changelogs
 - 左边
 -左边
 - 中间
--见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)详情
+- 详情见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)。
 
- 
+___ 
 ## Version 0.2.x
 ### Version 0.2.2 Layout styling
 - 固定双引号复选框背景颜色
@@ -144,9 +138,7 @@ title: Changelogs
 
 ### Version 0.2.1 Small Update
 - 已删除的窗口动画,因为它们不是表演者。
-.
 - 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color`在使用点名元数据时, 总是返回相同的颜色组合 。
-.
 - 使活动文件背景效果更加一致
 - 添加 ASCII 艺术线高度选项
 - 为点和网格编辑背景选项添加 cssclass
@@ -156,7 +148,7 @@ title: Changelogs
 - 添加点名垂直边距、边框半径选项
 - 添加图像边框半径选项
 - 添加扩展色调色板(可用作点名元数据工具或在cs变量中)
-- 添加弹出点名词,改编自[Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
+- 根据[Ukiyo](https://github.com/technerium/obsidian-ukiyo)]改编的添加弹出点名词] 由 Vaykinov 和 wizentex 编写的主题
 - 新注释、新文件夹等顶级动作的固定不透明
 - 为模式、提示和设置添加窗口动画。 从下列选项中选择 :
 - 无(默认行为的更正)
@@ -171,9 +163,9 @@ title: Changelogs
 - 添加选项以启用最小化(文件夹/外线)树
 - 为文件探索者添加彩虹文件夹
 - 添加点和网格背景选项
--见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)详情
+- 详情见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)。
 
- 
+___ 
 ## Version 0.1.x
 ### Version 0.1.1 Hotfixes
 - 添加了修改 ASCII 复选框字体大小的选项
@@ -205,7 +197,7 @@ title: Changelogs
 - 为下列人员增加分类:
 - 塔特加基语(普通RTL)
 - 纵向LTR
--见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)详情
+- 详情见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)。
 
 功劳:
 
@@ -214,7 +206,7 @@ title: Changelogs
 - `@Tuck`在 Obsidian Members 组 Discord 上,用于修改链接颜色的选项
 
 ### Version 0.0.5: Minor Changes
-- 使ASCII艺术响应,你可以设置字体尺寸限制
+- 使ASCII艺术响应,你可以设置字体大小 li光标打开
 - 状态栏不与命令模式输入文本重叠
 - 添加选项以启用移动状态栏
 - 在标题的打印中添加行高选项

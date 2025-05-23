@@ -1,5 +1,5 @@
 ---
-title: Inline Title
+title: 内置标题
 icon: material/format-underline-wavy
 ---
 
@@ -8,17 +8,17 @@ icon: material/format-underline-wavy
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Typography
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- Inline title
-|   |   |   |-- 。
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

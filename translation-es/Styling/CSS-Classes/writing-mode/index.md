@@ -1,5 +1,5 @@
 ---
-title: Writing Mode
+title: Modo de escritura
 icon: material/keyboard
 ---
 

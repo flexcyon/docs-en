@@ -1,5 +1,5 @@
 ---
-title: Others
+title: 其他人员
 icon: material/dots-horizontal
 ---
 
@@ -10,9 +10,9 @@ icon: material/dots-horizontal
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
-|   |-- 。
+|   |-- ...
 |   |-- Others
 ```
 
@@ -22,7 +22,7 @@ Style Settings
 #### Enable Vim Mode Text
 目标CSS变量:`var(--flexcyon-vim-mode-text-enable)`
 
-默认: 真( 类切换)
+默认 :true(类切换)
 
 #### Vim mode text left positioning
 目标CSS变量:`var(--flexcyon-vim-mode-left-positioning)`
@@ -49,7 +49,7 @@ Style Settings
 
 默认: "COMMAND"
 
- 
+___ 
 ### New Tab Appearance
 自定义新空标签的占位
 
@@ -77,7 +77,7 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 #### Quote font size
 目标CSS变量:`var(--flexcyon-quote-font-size)`
 
-默认: 24px
+默认: 24 (px)
 > Line breaks are escaped as `\a` and `\` is escaped as `\\`
 
 #### ASCII Art
@@ -110,14 +110,14 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 #### Disable Empty State title
 目标CSS变量:`var(--flexcyon-empty-state-title-disable)`
 
-默认: 真( 类切换)
+默认 :true(类切换)
 
 #### Disable Empty State Actions
 目标CSS变量:`var(--flexcyon-empty-state-actions-disable)`
 
-默认: 假( 类切换)
+默认 :false(类切换)
 
- 
+___ 
 ### Side Dock Icons
 配置侧对接图标
 
@@ -125,14 +125,14 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 > Rainbow effect on hover
 目标CSS变量:`var(--flexcyon-sidedock-icon-effects)`
 
-默认: 真( 类切换)
+默认 :true(类切换)
 
 #### Hide the side dock ribbon
 目标CSS变量:`var(--flexcyon-sidedock-ribbon-hidden)`
 
-默认: 假( 类切换)
+默认 :false(类切换)
 
- 
+___ 
 ### Tooltip radius
 配置工具提示半径
 
@@ -144,7 +144,7 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 #### Medium radius
 目标CSS变量:`var(--radius-m)`
 
-默认: 4( px)
+默认: 4(px)
 
 #### Large radius
 目标CSS变量:`var(--radius-l)`
@@ -156,10 +156,9 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 
 默认: 8 (px)
 
- 
+___ 
 ### Sidebar Background 
 在左右侧边栏配置背景图像。
-.
 
 接受格式: px,%
 
@@ -176,14 +175,14 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 #### Left sidebar background image url
 目标CSS变量:`var(--flexcyon-bg-image-sidebar-left-url)`
 
-默认: url (")
+默认: url ("")
 > For urls to work, add your URL between the double quotes e.g. a value of:
 `url("https://fake_domain/not_a_real_image.png")`
 
 #### Right sidebar background image url
 目标CSS变量:`var(--flexcyon-bg-image-sidebar-right-url)`
 
-默认: url (")
+默认: url ("")
 > For urls to work, add your URL between the double quotes e.g. a value of:
 `url("https://fake_domain/not_a_real_image.png")`
 
@@ -195,31 +194,31 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 #### Sidebar Background image repeat
 目标CSS变量:`var(--flexcyon-bg-image-repeat)`
 
-默认: 不重复
+默认 :无重复
 
 #### Sidebar Background image blur
 目标CSS变量:`var(--flexcyon-bg-image-blur)`
 
-默认:1px
+默认: 1px
 > Will be changed to 0px next update
 
 #### Sidebar Background image brightness
 目标CSS变量:`var(--flexcyon-bg-image-brightness)`
 
-默认: 未设置
+默认 :unset
 > Accepts percentage values like 55%
 
 #### Sidebar Background image size
 目标CSS变量:`var(--flexcyon-bg-image-size)`
 
-默认: 包含
+默认 :contain
 
 #### Sidebar Background image position
 目标CSS变量:`var(--flexcyon-bg-image-position)`
 
 默认: 中心
 
- 
+___ 
 ### Modal Background
 在设置菜单、 提示等背景中配置背景图像
 
@@ -228,29 +227,29 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 #### Modal Background image url
 目标CSS变量:`var(--flexcyon-modal-bg-url)`
 
-默认: url (")
+默认: url ("")
 > For urls to work, add your URL between the double quotes e.g. a value of:
 `url("https://fake_domain/not_a_real_image.png")`
 
 #### Modal Background image blend mode
 目标CSS变量:`var(--flexcyon-modal-image-blend-mode)`
 
-默认: 淡化
+默认 :lighten
 
 #### Modal Background image repeat
 目标CSS变量:`var(--flexcyon-modal-image-repeat)`
 
-默认: 不重复
+默认 :无重复
 
 #### Modal Background image blur
 目标CSS变量:`var(--flexcyon-modal-image-blur)`
 
-默认:1px
+默认: 1px
 
 #### Modal Background image brightness
 目标CSS变量:`var(--flexcyon-bg-modal-brightness)`
 
-默认: 未设置
+默认 :unset
 > Accepts percentage values like 55%
 
 #### Modal background image size
@@ -263,11 +262,12 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 
 默认: 中心
 
- 
+___ 
 ### Easter egg mode
-堕地。 见[here for reasons](。/。/。/README/page-5.md)。.
+堕地。 见[here for reasons](../../../README/page-5.md)。
+.
 
- 
+___ 
 ### Accessibility
 切换无障碍选项
 > Note that changing these will change how the entire theme renders. 
@@ -291,10 +291,10 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 默认:1
 > Use to modify the saturation of colors
 
- 
+___ 
 ### Return to Zero mode
 > Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements are not displayed until hovered on. Will not recommend on mobile.
 
 目标CSS变量:`var(--flexcyon-rtz-mode)`
 
-默认: 假( 类切换)
+默认 :false(类切换)

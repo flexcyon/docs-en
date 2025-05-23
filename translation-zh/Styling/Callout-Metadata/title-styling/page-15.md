@@ -1,5 +1,5 @@
 ---
-title: Lowercase Title
+title: 小写标题
 icon: material/format-letter-case-lower
 ---
 
@@ -11,4 +11,4 @@ icon: material/format-letter-case-lower
 > Content is shown as usual
 ```
 
-样式本身也适用于["lowercase-all"](。/combined-styling/page-14.md)页:1["lowercase-content"](。/content-styling/page-4.md)。.
+样式本身也适用于["lowercase-all"](../combined-styling/page-14.md)]] 与["lowercase-content"](../content-styling/page-4.md)同时 .

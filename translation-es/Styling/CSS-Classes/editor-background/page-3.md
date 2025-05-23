@@ -1,5 +1,5 @@
 ---
-title: Rhombus background
+title: Antecedentes de Rhombus
 icon: material/rhombus-split-outline
 ---
 

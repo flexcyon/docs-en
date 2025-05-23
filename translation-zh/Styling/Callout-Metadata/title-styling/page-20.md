@@ -1,5 +1,5 @@
 ---
-title: Dashed Title
+title: 默认标题
 icon: material/format-color-text
 ---
 
@@ -11,4 +11,4 @@ icon: material/format-color-text
 > Content is shown as usual
 ```
 
-样式本身也适用于["dashed-all"](。/combined-styling/page-20.md)页:1["dashed-content"](。/content-styling/page-10.md)。.
+样式本身也适用于["dashed-all"](../combined-styling/page-20.md)]] 与["dashed-content"](../content-styling/page-10.md)同时 .

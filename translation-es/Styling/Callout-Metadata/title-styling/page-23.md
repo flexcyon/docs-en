@@ -1,5 +1,5 @@
 ---
-title: Strikethrough Title
+title: Título de huelga
 icon: material/format-strikethrough
 ---
 
@@ -11,4 +11,4 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["line-through-all"](。/combined-styling/page-23.md)junto con["line-through-content"](。/content-styling/page-13.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

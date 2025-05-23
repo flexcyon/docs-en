@@ -1,5 +1,5 @@
 ---
-title: Ordered + Unordered Lists
+title: Listas ordenadas + no ordenadas
 icon: material/format-list-bulleted-type
 ---
 > `li-style_type`
@@ -12,10 +12,10 @@ icon: material/format-list-bulleted-type
 >
 > - The bullet point will render as the roman numeral I in reading/live preview
 > - The bullet point will render as the roman numeral II in reading/live preview
-> 。
+> ...
 ```
 
-__
-Formatos aceptados para`style_type`: El[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
+___
+Formatos aceptados para`style_type`[[LINK0]]]
 
 Utilice cuando desea aplicar el mismo estilo a las listas ordenadas y sin orden

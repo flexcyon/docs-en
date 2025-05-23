@@ -1,5 +1,5 @@
 ---
-title: All Green
+title: 全绿
 icon: material/format-color-fill
 ---
 
@@ -9,4 +9,4 @@ icon: material/format-color-fill
 > [!tip|all-green] Title will be green
 > The background color will be green
 ```
-> Shorthand for both ["bg-green"](。/bg-styling/page-7.md) and ["title-green"](。/title-styling/page-7.md)
+> Shorthand for both ["bg-green"](../bg-styling/page-7.md) and ["title-green"](../title-styling/page-7.md)

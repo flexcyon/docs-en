@@ -1,20 +1,20 @@
 ---
-title: Upscale Percentage of Icons
+title: Porcentaje ascendente de íconos
 icon: material/emoticon-plus-outline
 ---
 
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Workspace
 |   |   |   |-- Upscale percentage of icons
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

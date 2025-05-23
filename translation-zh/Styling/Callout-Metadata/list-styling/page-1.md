@@ -1,5 +1,5 @@
 ---
-title: Ordered List Styling
+title: 排序列表样式
 icon: material/format-list-numbered
 ---
 > `ol-style_type`
@@ -9,10 +9,10 @@ icon: material/format-list-numbered
 > 1. The number 1 will render as the greek letter alpha in reading/live preview
 > 2. The number 2 render as the greek letter beta in reading/live preview
 > 3. The number 3 render as the greek letter gamma in reading/live preview
-> 。
+> ...
 ```
 
- 
+___ 
 -  上希腊语没有标准执行
 
 "在列表项目和文本一起"是什么意思?

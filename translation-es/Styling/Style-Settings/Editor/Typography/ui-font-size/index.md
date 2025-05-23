@@ -1,5 +1,5 @@
 ---
-title: UI Font Size
+title: UI tamaño de fuente
 icon: material/format-font-size-increase
 ---
 
@@ -12,17 +12,17 @@ Formatos aceptados: px
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Typography
-|   |   |   |-- 。
+|   |   |   |-- ...
 |   |   |   |-- UI Font Size
-|   |   |   |-- 。
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

@@ -1,5 +1,5 @@
 ---
-title: Combined Styling
+title: Estilismo combinado
 icon: material/vector-combine
 ---
 

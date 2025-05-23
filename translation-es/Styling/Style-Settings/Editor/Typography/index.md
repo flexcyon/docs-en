@@ -1,5 +1,5 @@
 ---
-title: Typography
+title: Tipografía
 icon: material/format-text
 ---
 
@@ -11,14 +11,14 @@ Formatos aceptados: HEX
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Typography
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options

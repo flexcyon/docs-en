@@ -1,13 +1,12 @@
 ---
-title: Version 0.1.x and below
+title: 0.1.x及以下版本
 icon: material/numeric-1-box-outline
 ---
 
-0.5以下版本没有文献记载,因为它们缺乏显著特征。
-.
+0.0.5以下版本没有文献记载,因为它们缺乏显著特征
 
 ## Version 0.0.5: Minor Changes
-- 使ASCII艺术响应,你可以设置字体尺寸限制
+- 使ASCII艺术响应,你可以设置字体大小 li光标打开
 - 状态栏不与命令模式输入文本重叠
 - 添加选项以启用移动状态栏
 - 在标题的打印中添加行高选项

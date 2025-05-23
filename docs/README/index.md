@@ -26,7 +26,7 @@ I really liked the vibrant colours of the [Halcyon colour scheme](https://halcyo
 - Smiley toggle icons and other options for settings
 - ASCII art or custom quote in new empty tabs
 - subtle opacity effects for UI elements
-- a dark mode colour scheme
+- a dark and light mode colour scheme
 - ASCII checkboxes 
 - Heading options like underline, numbered, coloured
 - A [plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
@@ -37,7 +37,6 @@ I really liked the vibrant colours of the [Halcyon colour scheme](https://halcyo
 
 ## What this theme does not have
 - multiple colour schemes (though you can override the existing one with your own, see [Style Settings](../Styling/Style-Settings/index.md))
-- a light mode colour scheme :)
 - alternate checkboxes
 - embedded fonts, svgs
 

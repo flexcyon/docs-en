@@ -1,5 +1,5 @@
 ---
-title: All Red
+title: 全红
 icon: material/format-color-fill
 ---
 
@@ -9,4 +9,4 @@ icon: material/format-color-fill
 > [!tip|all-red] Title will be red
 > The background color will be red
 ```
-> Shorthand for both ["bg-red"](。/bg-styling/page-3.md) and ["title-red"](。/title-styling/page-3.md)
+> Shorthand for both ["bg-red"](../bg-styling/page-3.md) and ["title-red"](../title-styling/page-3.md)

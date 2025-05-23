@@ -1,5 +1,5 @@
 ---
-title: Title Bar
+title: 标题栏
 icon: material/format-text-variant-outline
 ---
 
@@ -8,14 +8,14 @@ icon: material/format-text-variant-outline
 ## Navigation
 ```md
 Style Settings
-|-- 。
+|-- ...
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- 。
+|   |   |-- ...
 |   |   |-- Title Bar
-|   |   |-- 。
-|   |-- 。
-|-- 。
+|   |   |-- ...
+|   |-- ...
+|-- ...
 ```
 
 ## Configuration Options
@@ -23,4 +23,4 @@ Style Settings
 ### Titlebar Button Effects
 目标CSS变量:`var(--flexcyon-titlebar-button-effects)`
 
-默认: 真( 类切换)
+默认 :true(类切换)

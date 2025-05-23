@@ -10,4 +10,4 @@ Metadatos de callout: "título-ciano"
 > The background color will display as usual
 ```
 
-El estilo en sí se aplica también["all-cyan"](。/combined-styling/page-5.md)junto con["bg-cyan"](。/bg-styling/page-5.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

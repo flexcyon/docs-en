@@ -1,5 +1,5 @@
 ---
-title: Pink Title
+title: Título rosado
 icon: material/select-color
 ---
 
@@ -10,4 +10,4 @@ Metadatos de callout: "título-pink"
 > The background color will display as usual
 ```
 
-El estilo en sí se aplica también["all-pink"](。/combined-styling/page-6.md)junto con["bg-pink"](。/bg-styling/page-6.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].

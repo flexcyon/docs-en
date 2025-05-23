@@ -1,5 +1,5 @@
 ---
-title: Oblique Title
+title: Título oblicua
 icon: material/format-letter-case-upper
 ---
 
@@ -11,5 +11,5 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["oblique-all"](。/combined-styling/page-19.md)junto con["oblique-content"](。/content-styling/page-9.md).
+El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
 .

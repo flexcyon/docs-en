@@ -1,5 +1,5 @@
 ---
-title: All Yellow
+title: 全黄
 icon: material/format-color-fill
 ---
 
@@ -9,4 +9,4 @@ icon: material/format-color-fill
 > [!tip|all-yellow] Title will be yellow
 > The background color will be yellow
 ```
-> Shorthand for both ["bg-yellow"](。/bg-styling/page-9.md) and ["title-yellow"](。/title-styling/page-9.md)
+> Shorthand for both ["bg-yellow"](../bg-styling/page-9.md) and ["title-yellow"](../title-styling/page-9.md)
