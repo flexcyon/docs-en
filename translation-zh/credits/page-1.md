@@ -9,7 +9,7 @@ title: 工具和软件
 - 犹太教
 
 ### Web Showcase
-- Absidian 共享注释插件
+- Obsidian Share Note 插件
 
 ### Web Technologies
 - CSS系统

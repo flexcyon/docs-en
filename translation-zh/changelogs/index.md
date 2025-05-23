@@ -117,7 +117,7 @@ ___
 - 添加快速对齐选项,使用样式设置配置:
 - 左边
 - 顶部center
-- Center左边
+- 中间左边
 -左边
 - 下边center
 -见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)详情
@@ -191,7 +191,7 @@ ___
 - 无标题
 - 透明背景
 - 大写、大写、小写标题和内容
-- RTL, LTR, (英语),Center标题和内容
+- RTL, LTR, (英语),中间标题和内容
 - 塔特加基语(普通RTL)
 - 纵向LTR
 - 为下列人员增加分类:

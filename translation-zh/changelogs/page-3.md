@@ -17,7 +17,7 @@ icon: material/numeric-3-box-outline
 - 添加快速对齐选项,使用样式设置配置:
 - 左边
 - 顶部center
-- Center左边
+- 中间左边
 -左边
 - 下边center
 

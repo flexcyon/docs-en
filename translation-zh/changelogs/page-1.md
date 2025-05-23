@@ -27,7 +27,7 @@ icon: material/numeric-1-box-outline
 - 无标题
 - 透明背景
 - 大写、大写、小写标题和内容
-- RTL, LTR, (英语),Center标题和内容
+- RTL, LTR, (英语),中间标题和内容
 - 塔特加基语(普通RTL)
 - 纵向LTR
 - 为下列人员增加分类:

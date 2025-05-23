@@ -93,7 +93,7 @@ def translate_text(text, source_lang="en", target_lang=None, translation_cache=N
 
 def batch_translate_text(lines, source_lang="en", target_lang=None, translation_cache=None, api_url=None):
     """
-    but keeping the original codes for cache keys. Returns a list of translated lines in the same order.
+    Keeping the original codes for cache keys. Returns a list of translated lines in the same order.
     """
     if translation_cache is None:
         translation_cache = {}
@@ -127,7 +127,7 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
 
     if untranslated_lines_for_api:
         payload = {
-            "q": untranslated_lines_for_api, # Ensure 'q' is always a list for batch requests
+            "q": untranslated_lines_for_api, 
             "source": api_source,
             "target": api_target,
             "format": "text",
@@ -141,10 +141,10 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
             response = requests.post(
                 api_url,
                 headers=headers,
-                json=payload, # Use json=payload for automatic JSON serialization
+                json=payload,
                 timeout=60
             )
-            response.raise_for_status() # Raise HTTPError for bad responses (4xx or 5xx)
+            response.raise_for_status() 
 
             response_json = response.json()
             translated_data = response_json.get("translatedText")
@@ -152,9 +152,6 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
             if isinstance(translated_data, list):
                 translated_api_lines = translated_data
             elif isinstance(translated_data, str):
-                # LibreTranslate might return a single string if only one item was sent in 'q' list
-                # or if it consolidated multiple short inputs.
-                # Splitting by newline is a heuristic and might not perfectly match original lines.
                 translated_api_lines = translated_data.split("\n")
                 print(f"[WARN] LibreTranslate returned a single string for a batch request. Splitting by newline. Original lines: {len(untranslated_lines_for_api)}, Translated lines (after split): {len(translated_api_lines)}")
             else:
@@ -175,7 +172,7 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
             for original_idx, translated_line_content in zip(untranslated_indices, translated_api_lines):
                 cache_key = (lines[original_idx], source_lang, target_lang)
                 translation_cache[cache_key] = translated_line_content
-                results[original_idx] = translated_line_content
+                results[original_idx] = lines[original_idx]
 
         except requests.exceptions.RequestException as e:
             print(f"An error occurred during the request: {e}")
@@ -197,7 +194,6 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
                 results[idx] = lines[idx]
     return results
 
-
 # --- Markdown Utilities ---
 def clean_markdown_files(directory):
     for root, dirs, files in os.walk(directory, topdown=False):
@@ -208,8 +204,10 @@ def clean_markdown_files(directory):
             os.rmdir(root)
 
 def fix_chinese_full_stop(text):
-    # Replace three or more ASCII full stops, Chinese full stops, or ellipsis with a single Chinese full stop
-    # Replace single ASCII full stop at end of Chinese sentence with Chinese full stop
+    """
+    Replace three or more ASCII full stops, Chinese full stops, or ellipsis with a single Chinese full stop
+    Replace single ASCII full stop at end of Chinese sentence with Chinese full stop
+    """
     text = re.sub(r'([\u4e00-\u9fff])\.(\s|$)', r'\1。\2', text)
     # Replace multiple Chinese full stops with or without spaces with a single one
     text = re.sub(r'(?:。[\s]*){2,}', '。', text)
@@ -258,13 +256,26 @@ def preserve_links_code_mit_html(line, target_language, translation_cache, api_u
     Preserves code blocks, inline code, markdown links [text](url) (as a whole), 'MIT', HTML tags, and other keywords.
     Only translates non-special parts. Markdown links are split out as special parts and never sent for translation, so they are always preserved exactly.
     """
-    code_block_pattern = re.compile(r'```[\s\S]*?```')  # Matches fenced code blocks
-    inline_code_pattern = re.compile(r'`[^`]+`')  # Matches inline code
-    markdown_link_pattern = re.compile(r'(\[[^\]]+\]\([^\)]+\))')  # Matches standard markdown links
-    mit_pattern = re.compile(r'MIT')  # Matches 'MIT'
-    html_tag_pattern = re.compile(r'<[^>]+>')  # Matches HTML tags
-    bool_pattern = re.compile(r'\btrue\b|\bfalse\b', re.IGNORECASE)  # Matches 'true' or 'false' as whole words
-    literal_pattern = re.compile(r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\b|cover|\bdarken\b|\bease-out\b|\blarge\b|\bcenter\b|\bease-in-out\b', re.IGNORECASE)
+    code_block_str= r'```[\s\S]*?```'
+    code_block_pattern = re.compile(code_block_str)  
+
+    inline_code_str = r'`[^`]+`'
+    inline_code_pattern = re.compile(inline_code_str)  
+
+    markdown_link_str = r'(\[[^\]]+\]\([^\)]+\))'
+    markdown_link_pattern = re.compile(markdown_link_str)  
+
+    mit_str = r'MIT'
+    mit_pattern = re.compile(mit_str) 
+
+    tags_str = r'<[^>]+>'
+    html_tag_pattern = re.compile(tags_str) 
+
+    bool_str = r'\btrue\b|\bfalse\b'
+    bool_pattern = re.compile(bool_str)  
+
+    literal_str = r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\b|cover|\bdarken\b|\bease-out\b|\blarge\b|\bcenter\b|\bease-in-out\b|\bGit|\bGitHub|\bGiscus|\bReadTheDocs|\bMkDocs|\bDaniel\'s|\bkepano\'s|\bMaterial|\bCSS|\bSCSS|\bMermaid'
+    literal_pattern = re.compile(literal_str)
 
     # Split line into special and non-special parts, including markdown links
     combined_pattern = re.compile(
