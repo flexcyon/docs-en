@@ -16,10 +16,10 @@ icon: material/numeric-3-box-outline
 - 现在应该更明显地看到主动的排水沟
 - 添加快速对齐选项,使用样式设置配置:
 - 左边
-- 顶部中心
-- 左边
+- 顶部center
+- Center左边
 -左边
-- 中间
+- 下边center
 
 ### Version 0.3.1 Tidying Up
 - 为以下项目增加点名元数据:

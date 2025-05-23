@@ -57,4 +57,4 @@ CSS Variable(s) targeted:`var(--font-ui-large)`
 Predeterminado: 20 (px)
 
 <span style="font-size: 20px"
->Muestra tamaño de fuente UI grande</span>
+>MuestralargeTamaño de la fuente UI</span>

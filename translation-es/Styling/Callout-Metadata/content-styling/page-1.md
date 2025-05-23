@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as rtl
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["rtl-all"](../combined-styling/page-11.md)junto con["rtl-title"](../title-styling/page-11.md).

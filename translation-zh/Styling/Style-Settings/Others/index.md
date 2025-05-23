@@ -189,12 +189,12 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 #### Sidebar Background image blend mode
 目标CSS变量:`var(--flexcyon-bg-image-blend-mode)`
 
-默认: 变暗
+默认 :darken
 
 #### Sidebar Background image repeat
 目标CSS变量:`var(--flexcyon-bg-image-repeat)`
 
-默认 :无重复
+默认 :no-repeat
 
 #### Sidebar Background image blur
 目标CSS变量:`var(--flexcyon-bg-image-blur)`
@@ -216,7 +216,7 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 #### Sidebar Background image position
 目标CSS变量:`var(--flexcyon-bg-image-position)`
 
-默认: 中心
+默认 :center
 
 ___ 
 ### Modal Background
@@ -239,7 +239,7 @@ ___
 #### Modal Background image repeat
 目标CSS变量:`var(--flexcyon-modal-image-repeat)`
 
-默认 :无重复
+默认 :no-repeat
 
 #### Modal Background image blur
 目标CSS变量:`var(--flexcyon-modal-image-blur)`
@@ -255,17 +255,16 @@ ___
 #### Modal background image size
 目标CSS变量:`var(--flexcyon-modal-image-size)`
 
-默认: 覆盖
+默认 :cover
 
 #### Modal background image position
 目标CSS变量:`var(--flexcyon-modal-image-position)`
 
-默认: 中心
+默认 :center
 
 ___ 
 ### Easter egg mode
 堕地。 见[here for reasons](../../../README/page-5.md)。
-.
 
 ___ 
 ### Accessibility

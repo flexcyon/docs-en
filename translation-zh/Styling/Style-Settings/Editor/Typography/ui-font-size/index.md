@@ -56,4 +56,4 @@ Style Settings
 默认 : 20 (px)
 
 <span style="font-size: 20px"
->样本大用户界面字体大小</span>
+>样本largeUI 字体大小</span>

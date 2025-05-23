@@ -11,4 +11,4 @@ icon: material/angle-acute
 > Content is shown as usual
 ```
 
-样式本身也适用于["tilt-all"](../combined-styling/page-17.md)]] 与["tilt-content"](../content-styling/page-7.md)同时 .
+样式本身也适用于["tilt-all"](../combined-styling/page-17.md)页:1["tilt-content"](../content-styling/page-7.md)。.

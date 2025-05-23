@@ -10,7 +10,7 @@ En esta subpágina, puedes encontrar ejemplos de uso para cambiar el estilo de l
 Estas son algunas utilidades para las listas ordenadas y no ordenadas en Obsidian.
 .
 
-Formatos aceptados para`style_type`[[LINK0]]]
+Formatos aceptados para`style_type`: El[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
 ### Note
 Para escribir una lista ordenada en Obsidian, utilice:

@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as oblique
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["oblique-all"](../combined-styling/page-19.md)junto con["oblique-title"](../title-styling/page-19.md).

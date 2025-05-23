@@ -142,22 +142,22 @@ Opciones:
 
 - Bien.
 
-- Top center
+- Topcenter
 
 - Arriba a la izquierda
 
 - Arriba derecho
 
-- Centro alineado izquierdo
+- A la izquierda alineadacenter
 
 - Izquierda alineada superior
 
 - Izquierda alineada
 
-- Centro alineado derecho
+- Bien alineadocenter
 
 - Bien alineado superior
 
 - Bien alineado fondo
 
-- Alineación del centro alineado derecho
+- Bien alineadocenteralign

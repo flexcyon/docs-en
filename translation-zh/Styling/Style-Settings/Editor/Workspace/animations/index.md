@@ -45,4 +45,4 @@ CSS类目标:`.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr, .flexcyon-an
 ### Animation easing function
 目标CSS变量:`var(--flexcyon-anim-easing)`
 
-默认: 易操作
+默认 :ease-in-out

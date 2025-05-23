@@ -17,4 +17,4 @@ Usage:
 > Content will have a bold font weight
 ```
 
-El estilo mismo también se aplica a ["w-`value`-all"](../combined-styling/page-24.md) junto con ["w-`value`-title"](../title-styling/page-24.md).
+El estilo en sí se aplica también["w-`value`-all"](../combined-styling/page-24.md)junto con["w-`value`-title"](../title-styling/page-24.md).

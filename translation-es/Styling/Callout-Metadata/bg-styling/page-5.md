@@ -10,4 +10,4 @@ Metadatos de llamada: "bg-cyan"
 > The background color will be cyan
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["all-cyan"](../combined-styling/page-5.md)junto con["title-cyan"](../title-styling/page-5.md).

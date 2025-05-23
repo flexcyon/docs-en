@@ -34,4 +34,4 @@ Para instalar este tema a través de BRAT, vaya a`Settings
 La instalación de Style Settings es muy recomendable para este tema, ya que la mayoría de la personalización y funcionalidad se construye alrededor de él.
 .
 
-Se puede encontrar documentación para la configuración de estilo de este tema [[LINK0]]]
+Documentación para la configuración de estilo de este tema se puede encontrar[here](../Styling/Style-Settings/index.md)

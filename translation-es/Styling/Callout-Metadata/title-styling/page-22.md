@@ -11,4 +11,4 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["underline-all"](../combined-styling/page-22.md)junto con["underline-content"](../content-styling/page-12.md).

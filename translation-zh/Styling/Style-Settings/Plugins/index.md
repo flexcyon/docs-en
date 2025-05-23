@@ -139,22 +139,22 @@ CSS类目标:`.flexcyon-canvas-menu-bottom-left, .flexcyon-canvas-menu-bottom-ri
 
 - 右边
 
-- 顶部中心
+- 顶部center
 
 - 左边
 
 - 右边
 
-- 左对齐中心
+- 左对齐center
 
 - 左对齐顶部
 
 - 左对齐底部
 
-- 右对齐中心
+- 右对齐center
 
 - 右对齐顶部
 
 - 右对齐底部
 
-- 右对齐中心对齐
+- 右对齐center对齐

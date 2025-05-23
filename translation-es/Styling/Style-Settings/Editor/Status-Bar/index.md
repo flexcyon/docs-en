@@ -47,7 +47,7 @@ Default: 0.35 (s)
 #### Transition timing function for showing status bar on hover
 CSS Variable(s) targeted:`var(--flexcyon-status-hide-hover-function)`
 
-Predeterminado: facilidad de salida
+Default:ease-out
 
 ___
 ### Text Configuration

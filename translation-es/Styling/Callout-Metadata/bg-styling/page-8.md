@@ -10,4 +10,4 @@ Metadatos de llamada: "bg-orange"
 > The background color will be orange
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["all-orange"](../combined-styling/page-8.md)junto con["title-orange"](../title-styling/page-8.md).

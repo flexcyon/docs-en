@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as overline
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["overline-all"](../combined-styling/page-21.md)junto con["overline-title"](../title-styling/page-21.md).

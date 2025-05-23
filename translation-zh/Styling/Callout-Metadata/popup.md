@@ -13,4 +13,4 @@ icon: material/cursor-default
 ```
 
 
-[Click here](../Style-Settings/Editor/Callouts/index.md#popup-callout)]用于配置选项。
+[Click here](../Style-Settings/Editor/Callouts/index.md#popup-callout)用于配置选项。

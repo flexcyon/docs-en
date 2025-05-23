@@ -7,7 +7,7 @@ tags:
 
 Este tema se propone lograr lo siguiente
 
-1. Ser "reasonably opinionated", características de paquete que los usuarios usan y cubren algunos nicho también.
+1. Ser "considerado razonablemente", las características del paquete utilizan ycoveralgunos nichos también.
 .
 
 2. Sea decentemente ligero, esto significa *no embeds* (sin fuentes, SVGs)

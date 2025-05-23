@@ -11,4 +11,4 @@ Usage:
 > The content will be tilted
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["tilt-all"](../combined-styling/page-17.md)junto con["tilt-title"](../title-styling/page-17.md).

@@ -1,9 +1,9 @@
 ---
-title: Título del centro
+title: CenterTítulo
 icon: material/align-horizontal-center
 ---
 
-Metadatos de callout: "center-title"
+Metadatos de llamada: "center-título
 
 Usage:
 ```md
@@ -11,4 +11,4 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["center-all"](../combined-styling/page-13.md)junto con["center-content"](../content-styling/page-3.md).

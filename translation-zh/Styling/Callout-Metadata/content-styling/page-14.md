@@ -17,4 +17,4 @@ icon: material/format-bold
 > Content will have a bold font weight
 ```
 
-样式本身也应用于 ["w-`value`- 所有" (.) (.) / 组合-造型/页-24.md) 与 ["w -`value`-标题"](../标题-定型/24页.md).
+样式本身也适用于["w-`value`-all"](../combined-styling/page-24.md)页:1["w-`value`-title"](../title-styling/page-24.md)。.

@@ -46,4 +46,4 @@ Predeterminado: 0.5s
 ### Animation easing function
 CSS Variable(s) targeted:`var(--flexcyon-anim-easing)`
 
-Por defecto: facilidad de entrada
+Default:ease-in-out

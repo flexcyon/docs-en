@@ -38,4 +38,4 @@ Predeterminado: 0.55
 ### Top Actions alignment
 CSS Variable(s) targeted:`var(--flexcyon-top-actions-alignment)`
 
-Por defecto: centro
+Default:center

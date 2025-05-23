@@ -10,4 +10,4 @@ icon: material/layers-outline
 > The background color will be cyan
 ```
 
-样式本身也适用于["all-cyan"](../combined-styling/page-5.md)]] 与["title-cyan"](../title-styling/page-5.md)同时 .
+样式本身也适用于["all-cyan"](../combined-styling/page-5.md)页:1["title-cyan"](../title-styling/page-5.md)。.

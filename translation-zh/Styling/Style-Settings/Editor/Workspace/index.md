@@ -38,4 +38,4 @@ Style Settings
 ### Top Actions alignment
 目标CSS变量:`var(--flexcyon-top-actions-alignment)`
 
-默认: 中心
+默认 :center

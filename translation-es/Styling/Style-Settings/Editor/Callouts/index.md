@@ -54,7 +54,7 @@ Predeterminado: 2 (px)
 
 ___
 ### Flashcard callout
-Configures the [[LINK0]].
+Configura los[flashcard callout](../../../Callout-Metadata/flashcard.md).
 .
 
 #### Flashcard callout width
@@ -74,7 +74,7 @@ Predeterminado: 0.5s
 
 ___
 ### Popup callout
-Configura el [[LINK0]]]
+Configura los[popup callout](../../../Callout-Metadata/popup.md)
 
 #### Popup callout animation duration
 CSS Variable(s) targeted:`var(--flexcyon-callout-pop-animation-duration)`

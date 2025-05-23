@@ -28,7 +28,7 @@ Versiones abajo 0.0.5 no se documentan ya que carecen de características notabl
 - No Título
 - Antecedentes transparentes
 - Capitalizar, mayúscula, minúscula Título y Contenido
-- RTL, LTR, Título del Centro y Contenido
+- RTL, LTR,CenterTítulo y contenido
 - Tategaki (RTL vertical)
 - LTR vertical
 - Cisclases adicionales para

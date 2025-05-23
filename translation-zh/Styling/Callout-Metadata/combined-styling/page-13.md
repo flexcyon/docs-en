@@ -1,9 +1,9 @@
 ---
-title: 全部居中
+title: Center全体
 icon: material/align-horizontal-center
 ---
 
-点名元数据 : “ 中心全”
+点名元数据: "center- 所有人 - 所有人 - all".
 
 用法 :
 ```md

@@ -1,9 +1,9 @@
 ---
-title: Center All
+title: CenterTodos
 icon: material/align-horizontal-center
 ---
 
-Metadatos de llamada: "centro todo"
+Metadatos de llamada: "center- todos"
 
 Usage:
 ```md

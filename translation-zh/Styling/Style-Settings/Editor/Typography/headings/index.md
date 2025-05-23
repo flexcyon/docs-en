@@ -36,7 +36,7 @@ Style Settings
 默认 :false(类切换)
 
 ### Enable heading indicators globally
-定制全球面前哪些标题有标题指标。 如果您打算逐笔应用, [click here](../../../../CSS-Classes/heading-indicators/index.md)]]
+定制全球面前哪些标题有标题指标。 如果你打算逐笔应用,[click here](../../../../CSS-Classes/heading-indicators/index.md)
 
 #### For Heading 1
 目标CSS变量:`var(--flexcyon-headings-indicator-h1)`

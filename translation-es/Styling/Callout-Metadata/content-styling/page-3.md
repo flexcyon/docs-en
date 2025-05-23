@@ -1,9 +1,9 @@
 ---
-title: Índice
+title: CenterÍndice
 icon: material/align-horizontal-center
 ---
 
-Metadatos de callout: "centro-contento"
+Metadatos de llamada: "center-contenido
 
 Usage:
 ```md
@@ -11,4 +11,4 @@ Usage:
 > The content will be centered
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["center-all"](../combined-styling/page-13.md)junto con["center-title"](../title-styling/page-13.md).

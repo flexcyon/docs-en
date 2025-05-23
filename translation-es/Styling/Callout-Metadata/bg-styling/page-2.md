@@ -10,4 +10,4 @@ Metadatos de llamada: "bg-blue"
 > The background color will be blue
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["all-blue"](../combined-styling/page-2.md)junto con["title-blue"](../title-styling/page-2.md).

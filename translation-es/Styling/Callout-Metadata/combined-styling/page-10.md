@@ -15,4 +15,4 @@ También puede utilizar estos colores en sus propios fragmentos de css, que toma
 > - `var(--color-color1-color2-mix-bg)`: E.g. `var(--color-red-blue-mix-bg)`
 
 
-[[LINK0]]]
+Requisitos[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)a seguir

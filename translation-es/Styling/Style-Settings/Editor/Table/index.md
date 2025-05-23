@@ -33,7 +33,7 @@ Default:<span class="col-sqr" style="background-color: #6f768566"
 ### Table header size
 CSS Variable(s) targeted:`var(--table-header-size)`
 
-Default: large
+Default:large
 
 <span style="font-size: large;"
 >Cabecera de mesa de muestra</span>

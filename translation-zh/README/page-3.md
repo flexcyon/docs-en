@@ -11,25 +11,25 @@ tags:
 > For plugins/snippets that are not styled yet, feel free to open a Pull Request/Feature Request/start a Discussion on it.
 
 ## Plugins
-[[[链接]]]]
+[File Tree Alternative by Ozan Tellioglu](https://github.com/ozntel/file-tree-alternative)
 
-[[[链接]]]]
+[Highlightr by Chetachi](https://github.com/chetachiezikeuzor/Highlightr-Plugin)
 
-[[[链接]]]]
+[Minitabs by ssjy1919](https://github.com/ssjy1919/Obsidian-minitabs)
 
-[[[链接]]]]
+[Full Calendar by Davis Haupt](https://github.com/obsidian-community/obsidian-full-calendar)
 
-[[[链接]]]]
+[Breadcrumbs by SkepticMystic](https://github.com/SkepticMystic/breadcrumbs)
 
-[[[链接]]]]
+[Spaced Repetition by Stephen Mwangi](https://github.com/st3v3nmw/obsidian-spaced-repetition)
 
-[数据view by Michael Brenan] (https://github.com/blacks 页面存档备份,存于互联网档案馆)光标hgu/obsidian-dataview) 页面存档备份,存于互联网档案馆。
+[Dataview by Michael Brenan](https://github.com/blacksmithgu/obsidian-dataview)
 
-[[[链接]]]]
+[Vault Statistics by Bryuan Kyle](https://github.com/bkyle/obsidian-vault-statistics-plugin)
 
-[[[链接]]]]
+[Calendar by Liam Cain](https://github.com/liamcain/obsidian-calendar-plugin)
 
-[[[链接]]]]
+[Kanban by mgmyers](https://github.com/mgmeyers/obsidian-kanban)
 
 ## Snippets
-[[[链接]]]]
+[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)

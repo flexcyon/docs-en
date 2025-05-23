@@ -15,11 +15,11 @@ icon: material/book-open-blank-variant-outline
 Un tema obsidiano que combina los esquemas de color de Halcyon y Flexoki.
 .
 
-Realmente me gustaban los colores vibrantes de la [[LINK0]], y la estética inky de la [[LINK1]]]. Por lo tanto, decidí combinar los dos que comenzaron este tema.
+Me gustó mucho los colores vibrantes de los[Halcyon colour scheme](https://halcyon-theme.netlify.app/), y la estética inky de la[Flexoki colour scheme](https://stephango.com/flexoki). Por lo tanto, decidí combinar los dos que comenzaron este tema.
 .
 
 # Features
-[[LINK0]]] de las características que este tema tiene que ofrecer.
+[Here is a web showcase](https://share.note.sx/1bk28c9k)de las características que este tema tiene que ofrecer.
 .
 - Algunas características no tendrán una correspondencia de 1 a 1 al tema principal, pero este sitio debe darle una vista previa de cómo se ve el tema antes de instalarlo
 
@@ -32,7 +32,7 @@ Realmente me gustaban los colores vibrantes de la [[LINK0]], y la estética inky
 - un esquema de color oscuro y ligero
 - Cajas de verificación ASCII
 - Opciones de encabezado como subline, numerado, coloreado
-- A [[LINK0]]
+- A[plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
 - Workspace Diseños como diseño de tarjetas con TUI inspirado add-on, diseño angular
 - Configurar imágenes de fondo modal e izquierdo
 - Opciones de animación para pestañas
@@ -40,40 +40,39 @@ Realmente me gustaban los colores vibrantes de la [[LINK0]], y la estética inky
 .
 
 ## What this theme does not have
-- múltiples esquemas de color (aunque puede anular el existente con el suyo propio, véase [[LINK0]]])
+- múltiples esquemas de color (aunque usted puede anular el existente con su propio, ver[Style Settings](../Styling/Style-Settings/index.md))
 - casillas de verificación alternas
 - fuentes incrustadas, svgs
 
 ### Easter Egg Mode
-**Deprecated**, see [[LINK0]]]
+**Deprecated**, see[here](./page-5.md)
 
 ### Recommended snippets
 Aquí están algunos fragmentos recomendados para añadir a su bóveda y utilizar junto a Flexcyon:
-- [[LINK0]]
-- [[LINK0]]
-- [[LINK0]]
+-[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
+-[Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling)
+-[MCL Multi Column and Gallery Cards by efemkay](https://github.com/efemkay/obsidian-modular-css-layout)
 
 ## Roadmap
-La hoja de ruta para este tema se puede encontrar [here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md).
+La hoja de ruta para este tema se puede encontrar[here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md).
 .
 
 ## Changelogs
-Los Changelogs para este tema se pueden encontrar [[LINK0]]]
+Los Changelogs para este tema se pueden encontrar[here](../changelogs/index.md)
 
 ### Questions, Issues?
 Siéntete libre de hablar de ello en:
-- [[LINK0]].
-.
-- [[LINK0]]
+-[this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357).
+-[this Obsidian forum topic](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)
 
-Alternativamente, puede abrir un problema en [[LINK0]] o [[LINK1]]]] aquí.
+Alternativamente, puede abrir un problema en[the repository](https://github.com/bladeacer/flexcyon/issues)o[start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions)aquí.
 .
 
 ## Design Principles
-[[LINK0]]]
+See[here](./page-4.md)
 
 ## Style Settings
-[[LINK0]]]
+See[here](../Styling/Style-Settings/index.md)
 
 ## License
-La licencia para el tema se puede encontrar [[LINK0]]]
+La licencia para el tema se puede encontrar[here](./license.md)

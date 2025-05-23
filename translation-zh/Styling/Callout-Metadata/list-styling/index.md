@@ -8,7 +8,7 @@ icon: material/format-list-bulleted-square
 ## Callout Lists
 这些是Obsidian一些用于订制和未订制清单的公用事业。
 
-接受的格式`style_type`: [[[联接]]]]
+接受的格式`style_type`数字 : 那个[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
 ### Note
 要用 Obsidian 写一个命令列表,请使用:

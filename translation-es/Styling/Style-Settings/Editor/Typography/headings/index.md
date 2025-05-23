@@ -37,7 +37,7 @@ CSS Variable(s) targeted:`var(--flexcyon-headings-glow-enabled)`
 Default:false(de clase)
 
 ### Enable heading indicators globally
-Personalizar qué epígrafes tienen indicadores de encabezamiento a nivel mundial. Si usted está buscando aplicarlos sobre una base por nota, [[LINK0]]]
+Personalizar qué epígrafes tienen indicadores de encabezamiento a nivel mundial. Si usted está buscando aplicarlos en una base por nota,[click here](../../../../CSS-Classes/heading-indicators/index.md)
 
 #### For Heading 1
 CSS Variable(s) targeted:`var(--flexcyon-headings-indicator-h1)`

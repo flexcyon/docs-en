@@ -33,4 +33,4 @@ icon: material/download
 ## Style Settings Plugin
 强烈推荐安装样式设置,因为主题大多数功能和定制都是围绕它构建的。
 
-样式设置的文档可以找到 [here](../Styling/Style-Settings/index.md)]
+查找此主题的样式设置文档[here](../Styling/Style-Settings/index.md)

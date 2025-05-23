@@ -11,25 +11,25 @@ Se admiten oficialmente los siguientes plugins/snippets
 > For plugins/snippets that are not styled yet, feel free to open a Pull Request/Feature Request/start a Discussion on it.
 
 ## Plugins
-[[LINK0]]
+[File Tree Alternative by Ozan Tellioglu](https://github.com/ozntel/file-tree-alternative)
 
-[[LINK0]]
+[Highlightr by Chetachi](https://github.com/chetachiezikeuzor/Highlightr-Plugin)
 
-[[LINK0]]
+[Minitabs by ssjy1919](https://github.com/ssjy1919/Obsidian-minitabs)
 
-[[LINK0]]
+[Full Calendar by Davis Haupt](https://github.com/obsidian-community/obsidian-full-calendar)
 
-[[LINK0]]
+[Breadcrumbs by SkepticMystic](https://github.com/SkepticMystic/breadcrumbs)
 
-[[LINK0]]
+[Spaced Repetition by Stephen Mwangi](https://github.com/st3v3nmw/obsidian-spaced-repetition)
 
-[Dataview by Michael Brenan](https://github.com/blacks)mithgu/obsidian-dataview)
+[Dataview by Michael Brenan](https://github.com/blacksmithgu/obsidian-dataview)
 
-[[LINK0]]
+[Vault Statistics by Bryuan Kyle](https://github.com/bkyle/obsidian-vault-statistics-plugin)
 
-[[LINK0]]
+[Calendar by Liam Cain](https://github.com/liamcain/obsidian-calendar-plugin)
 
-[[LINK0]]
+[Kanban by mgmyers](https://github.com/mgmeyers/obsidian-kanban)
 
 ## Snippets
-[[LINK0]]
+[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)

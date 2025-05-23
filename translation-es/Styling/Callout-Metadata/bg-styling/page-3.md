@@ -10,4 +10,4 @@ Metadatos de llamada: "Bg-red"
 > The background color will be red
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["all-red"](../combined-styling/page-3.md)junto con["title-red"](../title-styling/page-3.md).

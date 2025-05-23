@@ -7,6 +7,6 @@ Si usted está buscando a estilo Flexcyon.
 .
 
 ## Quick Links
-- [[LINK0]]
-- [[LINK0]]
-- [[LINK0]]
+-[Style Settings](./Style-Settings/index.md)
+-[CSS Classes](./CSS-Classes/index.md)
+-[Callout Metadata](./Callout-Metadata/index.md)

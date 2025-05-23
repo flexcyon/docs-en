@@ -47,7 +47,7 @@ CSS Classe(s) targeted:`.flexcyon-prompt-align-bottom-left, .flexcyon-prompt-ali
 Predeterminado: ninguno (clase selecto)
 Opciones:
 - Arriba a la izquierda
-- Top center
-- Centro izquierdo
+- Topcenter
+-Centerizquierda
 - El fondo izquierdo
-- Centro de base
+- Bottomcenter

@@ -2,8 +2,7 @@
 icon: material/scale-balance
 ---
 
-该主题根据[MIT许可证(https://光标-license.org),可以找到[here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE).
-.
+主题根据[MIT License](https://mit-license.org)可见[here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE)。
 
 或者,你可以在这里查看它。
 

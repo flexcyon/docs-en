@@ -32,7 +32,7 @@ Style Settings
 ### Table header size
 目标CSS变量:`var(--table-header-size)`
 
-默认: 大
+默认 :large
 
 <span style="font-size: large;"
 >表格标本</span>

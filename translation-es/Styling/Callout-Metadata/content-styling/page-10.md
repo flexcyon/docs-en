@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as dashed
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["dashed-all"](../combined-styling/page-20.md)junto con["dashed-title"](../title-styling/page-20.md).

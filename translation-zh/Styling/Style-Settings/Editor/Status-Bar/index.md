@@ -47,7 +47,7 @@ Default: "Show status"
 #### Transition timing function for showing status bar on hover
 目标CSS变量:`var(--flexcyon-status-hide-hover-function)`
 
-默认: 放轻松
+默认 :ease-out
 
 ___ 
 ### Text Configuration

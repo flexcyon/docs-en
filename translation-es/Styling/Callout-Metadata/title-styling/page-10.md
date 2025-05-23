@@ -9,7 +9,7 @@ Usage:
 > The background color will be as usual
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["all-color1-color2"](../combined-styling/page-10.md)junto con["bg-color1-color2"](../bg-styling/page-10.md).
 .
 
-[[LINK0]]]
+Requisitos[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)a seguir

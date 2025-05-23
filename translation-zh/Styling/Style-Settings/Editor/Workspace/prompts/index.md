@@ -46,7 +46,7 @@ CSS类目标:`.flexcyon-prompt-align-bottom-left, .flexcyon-prompt-align-bottom-
 默认: 无( 选择类)
 选项 :
 - 左边
-- 顶部中心
-- 左边
+- 顶部center
+- Center左边
 -左边
-- 中间
+- 下边center

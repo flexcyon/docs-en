@@ -10,4 +10,4 @@ Metadatos de callout: "Tit-yellow"
 > The background color will display as usual
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["all-yellow"](../combined-styling/page-9.md)junto con["bg-yellow"](../bg-styling/page-9.md).

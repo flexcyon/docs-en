@@ -190,7 +190,7 @@ Predeterminado: url("")
 #### Sidebar Background image blend mode
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-blend-mode)`
 
-Default: darken
+Default:darken
 
 #### Sidebar Background image repeat
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-repeat)`
@@ -217,7 +217,7 @@ Default:contain
 #### Sidebar Background image position
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-position)`
 
-Por defecto: centro
+Default:center
 
 ___
 ### Modal Background
@@ -256,16 +256,16 @@ Default:unset
 #### Modal background image size
 CSS Variable(s) targeted:`var(--flexcyon-modal-image-size)`
 
-Default: cover
+Default:cover
 
 #### Modal background image position
 CSS Variable(s) targeted:`var(--flexcyon-modal-image-position)`
 
-Por defecto: centro
+Default:center
 
 ___
 ### Easter egg mode
-Deprecatado. [[LINK0]]].
+Deprecatado. See[here for reasons](../../../README/page-5.md).
 .
 
 ___

@@ -256,7 +256,7 @@ def is_subdir(path, directory):
 def preserve_links_code_mit_html(line, target_language, translation_cache, api_url):
     """
     Preserves code blocks, inline code, markdown links [text](url) (as a whole), 'MIT', HTML tags, and other keywords.
-    and only translates non-special parts. Markdown links are replaced with unique placeholders before translation and restored after, ensuring all links are preserved exactly.
+    Only translates non-special parts. Markdown links are split out as special parts and never sent for translation, so they are always preserved exactly.
     """
     code_block_pattern = re.compile(r'```[\s\S]*?```')  # Matches fenced code blocks
     inline_code_pattern = re.compile(r'`[^`]+`')  # Matches inline code
@@ -264,9 +264,9 @@ def preserve_links_code_mit_html(line, target_language, translation_cache, api_u
     mit_pattern = re.compile(r'MIT')  # Matches 'MIT'
     html_tag_pattern = re.compile(r'<[^>]+>')  # Matches HTML tags
     bool_pattern = re.compile(r'\btrue\b|\bfalse\b', re.IGNORECASE)  # Matches 'true' or 'false' as whole words
-    literal_pattern = re.compile(r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\bcover|\bdarken|\bease-out|\blarge|\bcenter|\bease-in-out', re.IGNORECASE)  # Matches the new literals
+    literal_pattern = re.compile(r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\b|cover|\bdarken\b|\bease-out\b|\blarge\b|\bcenter\b|\bease-in-out\b', re.IGNORECASE)
 
-    # Split line into special and non-special parts
+    # Split line into special and non-special parts, including markdown links
     combined_pattern = re.compile(
         r'(' +
         r'```[\s\S]*?```' + '|' +
@@ -274,44 +274,12 @@ def preserve_links_code_mit_html(line, target_language, translation_cache, api_u
         r'<[^>]+>' + '|' +
         r'MIT' + '|' +
         r'\btrue\b|\bfalse\b' + '|' +
-        r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\b' +
+        r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\b|cover|\bdarken\b|\bease-out\b|\blarge\b|\bcenter\b|\bease-in-out\b' + '|' +
+        r'\[[^\]]+\]\([^\)]+\)' +
         r')', re.IGNORECASE
     )
     parts = combined_pattern.split(line)
 
-    # Replace markdown links in non-special parts with unique placeholders
-    link_placeholders = []
-    def replace_links_with_placeholders(text):
-        def repl(match):
-            idx = len(link_placeholders)
-            link_placeholders.append(match.group(0))
-            return f"[[[LINK{idx}]]]"
-        return markdown_link_pattern.sub(repl, text)
-
-    placeholder_parts = [
-        part if (
-            code_block_pattern.fullmatch(part) or
-            inline_code_pattern.fullmatch(part) or
-            html_tag_pattern.fullmatch(part) or
-            mit_pattern.fullmatch(part) or
-            bool_pattern.fullmatch(part) or
-            literal_pattern.fullmatch(part)
-        ) else replace_links_with_placeholders(part)
-        for part in parts
-    ]
-
-    # Now split again for translation, but treat all backticked and special parts as preserved
-    preserve_pattern = re.compile(
-        r'(' +
-        r'```[\s\S]*?```' + '|' +
-        r'`[^`]+`' + '|' +
-        r'<[^>]+>' + '|' +
-        r'MIT' + '|' +
-        r'\btrue\b|\bfalse\b' + '|' +
-        r'\blighten\b|\bunset\b|\bcontain\b|\bno-repeat\b' +
-        r')', re.IGNORECASE
-    )
-    subparts = preserve_pattern.split(''.join(placeholder_parts))
     def is_special(part):
         return (
             code_block_pattern.fullmatch(part) or
@@ -319,24 +287,19 @@ def preserve_links_code_mit_html(line, target_language, translation_cache, api_u
             html_tag_pattern.fullmatch(part) or
             mit_pattern.fullmatch(part) or
             bool_pattern.fullmatch(part) or
-            literal_pattern.fullmatch(part)
+            literal_pattern.fullmatch(part) or
+            (part and markdown_link_pattern.fullmatch(part))
         )
-    to_translate = [part for part in subparts if part and not is_special(part) and part.strip()]
+
+    to_translate = [part for part in parts if part and not is_special(part) and part.strip()]
     if not to_translate:
-        # Restore markdown links if no translation needed
-        rebuilt = ''.join(placeholder_parts)
-        for idx, link in enumerate(link_placeholders):
-            rebuilt = rebuilt.replace(f"[[[LINK{idx}]]]", link)
-        return rebuilt
+        return ''.join(parts)
     translated = batch_translate_text(to_translate, target_lang=target_language, translation_cache=translation_cache, api_url=api_url)
     translated_iter = iter(translated)
     rebuilt = ''.join(
         next(translated_iter) if (part and not is_special(part) and part.strip()) else part
-        for part in subparts
+        for part in parts
     )
-    # Restore markdown links after translation
-    for idx, link in enumerate(link_placeholders):
-        rebuilt = rebuilt.replace(f"[[[LINK{idx}]]]", link)
     return rebuilt
 
 def is_table_separator(line):

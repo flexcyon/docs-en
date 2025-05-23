@@ -16,6 +16,6 @@ icon: material/format-list-bulleted-type
 ```
 
 ___ 
-接受的格式`style_type`: [[[联接]]]]
+接受的格式`style_type`数字 : 那个[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
 想要对命令列表和非命令列表应用相同的样式时使用

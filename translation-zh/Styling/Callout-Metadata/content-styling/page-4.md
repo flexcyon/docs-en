@@ -11,4 +11,4 @@ icon: material/format-letter-case-upper
 > The content will be displayed as uppercase
 ```
 
-样式本身也适用于["uppercase-all"](../combined-styling/page-14.md)]] 与["uppercase-title"](../title-styling/page-14.md)同时 .
+样式本身也适用于["uppercase-all"](../combined-styling/page-14.md)页:1["uppercase-title"](../title-styling/page-14.md)。.

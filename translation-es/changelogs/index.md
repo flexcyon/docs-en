@@ -122,11 +122,11 @@ ___
 - Ahora debería ser más visible.
 - Opciones de alineación rápida agregadas, configurando con ajustes de estilo:
 - Arriba a la izquierda
-- Top center
-- Centro izquierdo
+- Topcenter
+-Centerizquierda
 - El fondo izquierdo
-- Centro de base
-- Ver el [[LINK0]] para más detalles
+- Bottomcenter
+- Ver el[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)para más detalles
 
 ___
 ## Version 0.2.x
@@ -156,7 +156,7 @@ ___
 - Añadido margen vertical de llamada, opción de radio fronterizo
 - Opción de radio de la imagen agregada
 - Paleta de color extendida (puede utilizarse como fuentes de metadatos de llamada o variables de css)
-- Llamada popup agregada, adaptada de [[LINK0]]] Tema de vaykinov y wizentex
+- Llamada popup agregada, adaptada a[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
 - Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 - Animaciones de ventana agregadas para modals, impulsos y ajustes. Elija entre las siguientes opciones:
 - Ninguna (Revierte al comportamiento predeterminado)
@@ -171,7 +171,7 @@ ___
 - opción agregada para permitir árboles minimalistas (carpeta/outline)
 - carpetas de arco iris adicionales para el explorador de archivos
 - Opciones de fondo dotted y grid
-- Ver el [[LINK0]] para más detalles
+- Ver el[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)para más detalles
 
 ___
 ## Version 0.1.x
@@ -199,13 +199,13 @@ ___
 - No Título
 - Antecedentes transparentes
 - Capitalizar, mayúscula, minúscula Título y Contenido
-- RTL, LTR, Título del Centro y Contenido
+- RTL, LTR,CenterTítulo y contenido
 - Tategaki (RTL vertical)
 - LTR vertical
 - Cisclases adicionales para
 - Tategaki (RTL vertical)
 - LTR vertical
-- Ver el [[LINK0]] para más detalles
+- Ver el[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)para más detalles
 
 Créditos:
 

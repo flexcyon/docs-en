@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as lowercase
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["lowercase-all"](../combined-styling/page-15.md)junto con["lowercase-title"](../title-styling/page-15.md).

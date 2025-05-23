@@ -54,8 +54,7 @@ Style Settings
 
 ___ 
 ### Flashcard callout
-配置 [flashcard callout](../../../Callout-Metadata/flashcard.md)。
-.
+配置[flashcard callout](../../../Callout-Metadata/flashcard.md)。
 
 #### Flashcard callout width
 目标CSS变量:`var(--flexcyon-callouts-flashcard-width)`
@@ -74,7 +73,7 @@ ___
 
 ___ 
 ### Popup callout
-配置 [[LINK0]]]]]
+配置[popup callout](../../../Callout-Metadata/popup.md)
 
 #### Popup callout animation duration
 目标CSS变量:`var(--flexcyon-callout-pop-animation-duration)`

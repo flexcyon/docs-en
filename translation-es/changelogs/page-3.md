@@ -16,10 +16,10 @@ icon: material/numeric-3-box-outline
 - Ahora debería ser más visible.
 - Opciones de alineación rápida agregadas, configurando con ajustes de estilo:
 - Arriba a la izquierda
-- Top center
-- Centro izquierdo
+- Topcenter
+-Centerizquierda
 - El fondo izquierdo
-- Centro de base
+- Bottomcenter
 
 ### Version 0.3.1 Tidying Up
 - Servicios de metadatos adicionales para:

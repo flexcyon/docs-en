@@ -116,11 +116,11 @@ ___
 - 现在应该更明显地看到主动的排水沟
 - 添加快速对齐选项,使用样式设置配置:
 - 左边
-- 顶部中心
-- 左边
+- 顶部center
+- Center左边
 -左边
-- 中间
-- 详情见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)。
+- 下边center
+-见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)详情
 
 ___ 
 ## Version 0.2.x
@@ -148,7 +148,7 @@ ___
 - 添加点名垂直边距、边框半径选项
 - 添加图像边框半径选项
 - 添加扩展色调色板(可用作点名元数据工具或在cs变量中)
-- 根据[Ukiyo](https://github.com/technerium/obsidian-ukiyo)]改编的添加弹出点名词] 由 Vaykinov 和 wizentex 编写的主题
+- 添加弹出点名词,改编自[Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
 - 新注释、新文件夹等顶级动作的固定不透明
 - 为模式、提示和设置添加窗口动画。 从下列选项中选择 :
 - 无(默认行为的更正)
@@ -163,7 +163,7 @@ ___
 - 添加选项以启用最小化(文件夹/外线)树
 - 为文件探索者添加彩虹文件夹
 - 添加点和网格背景选项
-- 详情见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)。
+-见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)详情
 
 ___ 
 ## Version 0.1.x
@@ -191,13 +191,13 @@ ___
 - 无标题
 - 透明背景
 - 大写、大写、小写标题和内容
-- RTL、LTR、中心标题和内容
+- RTL, LTR, (英语),Center标题和内容
 - 塔特加基语(普通RTL)
 - 纵向LTR
 - 为下列人员增加分类:
 - 塔特加基语(普通RTL)
 - 纵向LTR
-- 详情见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)。
+-见[documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)详情
 
 功劳:
 

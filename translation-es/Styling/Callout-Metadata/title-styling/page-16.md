@@ -11,4 +11,4 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["caps-all"](../combined-styling/page-16.md)junto con["caps-content"](../content-styling/page-6.md).

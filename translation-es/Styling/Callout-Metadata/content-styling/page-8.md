@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as italic
 ```
 
-El estilo mismo también se aplica a [[LINK0]]] junto con [[LINK1]]].
+El estilo en sí se aplica también["italic-all"](../combined-styling/page-18.md)junto con["italic-title"](../title-styling/page-18.md).
