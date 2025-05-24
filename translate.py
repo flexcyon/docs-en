@@ -6,7 +6,6 @@ import time
 import shutil
 import re
 import traceback
-from typing import Optional
 
 # --- LibreTranslate Server Management ---
 def start_libretranslate(target_language):
