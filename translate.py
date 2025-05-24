@@ -523,3 +523,5 @@ def run_translation(target_language, input_directory="./docs", output_directory=
 if __name__ == "__main__":
     run_translation("zh")
     run_translation("es")
+    
+    
