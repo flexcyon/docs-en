@@ -3,29 +3,60 @@ icon: material/heart
 title: Créditos
 ---
 
-Un gran grito a Daniel[Halcyon theme](https://github.com/dbarenholz/halcyon-obsidian)y kepano[flexoki](https://github.com/kepano/flexoki-obsidian)tema, ambos bajo elMITlicencia.
+A huge shout out to Daniel's
+[Halcyon theme](https://github.com/dbarenholz/halcyon-obsidian) and
+kepano's [flexoki](https://github.com/kepano/flexoki-obsidian) theme, both of
+which are under the MITlicencia.
 .
 
-Además, el esquema de color del modo de luz no sería posible sin el gran[Origami theme](https://github.com/7368697661/Origami)(que también está bajoMITLicencia).
+In addition, the light mode colour scheme would not be possible without the
+great [Origami theme](https://github.com/7368697661/Origami)
+(which is also under the MITLicencia).
 .
 
 ## Snippets
+
 -`@OWA/bennyyip`sobre la discordia del grupo de miembros obisidianos para el tategaki
--[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema por vaykinov y wizentex para la llamada popup
--`@Kapirklaa`sobre la discordia del grupo de miembros obisidianos (@ElsaTam en GitHub) para la imagen de fondo
+
+-[Ukiyo](https://github.com/technerium/obsidian-ukiyo) Theme by vaykinov and
+wizentex for the popup callout
+
+-`@Kapirklaa` on the Obisidian Members' Group Discord (@ElsaTam on GitHub) for
+the background image snippet
+
 -`@Nuno`en el disco del grupo de miembros obsidianos para la pestaña animaciones snippet
--[Enhanced File Explorer](https://github.com/LennZone/enhanced-file-explorer-tree)Tema de LennZone para el estilo de árbol marcado
+
+-[Enhanced File Explorer](https://github.com/LennZone/enhanced-file-explorer-tree)
+Theme by LennZone for the markdown file tree style
 
 ## Ideas, Feedback
--`@Tuck`sobre la discordia del grupo de miembros obsidianos para opciones para cambiar el color de enlace y la indentación de las partidas de configuración de estilo
--`@Floodlight`en la discordia del grupo de miembros obisidianos para una mejor consistencia de los elementos de navegación activos, renderizado TUI en modo ligero, barra lateral izquierda toggle botón renderizado cuando la cinta muestra está deshabilitada
+
+-`@Tuck` on the Obsidian Members' Group Discord for options to change link
+color and indentation of Style Settings headings
+
+-`@Floodlight` on the Obisidian Members' Group Discord for better consistency
+of active navigation items, TUI rendering in light mode, left sidebar toggle
+button rendering when show ribbon is disabled
+
 -`@Dante`en la discordia del grupo de miembros obisidianos para embajadas que no muestran
--`@TundraMoonlight`sobre la discordia del grupo de miembros obisidianos para inspirarse en el complemento TUI
--`@Kapirklaa`en la discordia del grupo de miembros obisidianos (@ElsaTam en GitHub) para inspirarse en los usos de metadatos de llamada
--`@BEN10`sobre la discordia del grupo de miembros obisidianos para fijar la documentación, Powerlevel10k layout
+
+-`@TundraMoonlight` on the Obisidian Members' Group Discord for inspiration for
+the TUI add-on
+
+-`@Kapirklaa`sobre la discordia del grupo de miembros obisidianos (@ElsaTam en GitHub)
+inspiration for callout metadata utilities
+
+-`@BEN10` on the Obisidian Members' Group Discord for fixes to the
+documentation, Powerlevel10k layout
+
 -`@Michael`sobre la discordia del grupo de miembros obisidianos para los indicadores de encabezado global
--`@Binaris`y`@Dante`sobre la discordia del grupo de miembros obsidianos para fijar reglas horiztonales
--[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)tema para el modo RTZ y el estilo rápido
+
+-`@Binaris`y`@Dante` on the Obsidian Members' Group Discord for fixing
+horizontal rules
+
+-[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus) theme
+for RTZ mode and prompt styling
 
 ___
-Por último, pero no menos importante, *usted* para usar el tema y leer la documentación:D
+Last but not least, *you* for using the theme and reading the documentation :D
+

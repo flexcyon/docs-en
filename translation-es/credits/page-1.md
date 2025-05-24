@@ -3,30 +3,43 @@ icon: material/server
 title: Herramientas y software
 ---
 
-Las siguientes herramientas y software eran indispensables en la elaboración del tema y su documentación.
-.
+The following tools and software were indispensable in the making of the theme
+and its documentation.
 
 ### Base application
+
 - Obsidian
 
 ### Web Showcase
+
 - Obsidian Share Note plugin
 
 ### Web Technologies
+
 - CSS
+
 - SCSS
 
 ### Text Editors
+
 - Vim
-- Código VS
+
+- VS Code
 
 ### Version Control
+
 - Git
+
 - GitHub
 
 ### Documentation
+
 - MkDocs
-- y el impresionante ecosistema construido alrededor de él
-- Material para MkDocs
+
+  - and the awesome ecosystem built around it
+
+- Material for MkDocs
+
 - ReadTheDocs
+
 - Giscus
