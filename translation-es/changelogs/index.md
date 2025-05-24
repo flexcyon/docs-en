@@ -5,9 +5,11 @@ title: Cambios
 
 #### Note
 
-The changelogs show versions in order of most recent to least recent.
-Or, if you prefer the changelogs in chronological order, you can use
-the sidebar or hamburger menu to view the relevant sub-pages.
+Los changelogs muestran versiones en orden de lo más reciente al menos reciente.
+.
+O, si prefiere los cambios en el orden cronológico, puede utilizar
+el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
+.
 
 ___
 
@@ -26,7 +28,8 @@ ___
 ### Version 0.4.0 Light Mode Update
 
 - Cambio de la barra lateral de fondo de brillo predeterminado a`unset`. Was
-previously causing issues like blurring Calender plugin content.
+anteriormente causando problemas como borroso contenido de plugin Calender.
+.
 
 - Tema de luz WIP (mixes flexoki light + paleta de colores origami)
 
@@ -34,10 +37,10 @@ previously causing issues like blurring Calender plugin content.
 
 - Agregado a la parrilla de colores extendida, por defecto
 
-  - Added table header size option
+- opción de tamaño de la cabecera de mesa
 
-  - Updated documentation to show a small preview of colors/opacity applied by
-  the theme
+- Documentación actualizada para mostrar una pequeña vista previa de colores/opacidad aplicada por
+el tema
 
 - Muestra web agregada de las características del tema
 
@@ -76,8 +79,9 @@ previously causing issues like blurring Calender plugin content.
 
 - Opciones de accesibilidad adicionales para el brillo, contraste y saturación global
 
-- Added option to enable heading indicators globally, customisable for
-different heading levels.
+- Opción agregada para permitir indicadores de encabezado a nivel mundial, personalizable para
+diferentes niveles de rumbo.
+.
 
 - Los indicadores de encabezado ahora mejor heredan del color base del encabezado
 
@@ -87,8 +91,8 @@ different heading levels.
 
 ### Version 0.3.4 Easter Egg Mode
 
-- Made translation for hide until hover status bar configurable, useful for
-longer status bars
+- Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
+barras de estado más largas
 
 - Trasfondo de explorador de archivos fijos roto
 
@@ -100,19 +104,19 @@ longer status bars
 
 ### Version 0.3.3 QOL Update
 
-- Added configurable indentation factor and dimming of collapsed headers for
-Style Settings menu
+- Factor de indentación configurable añadido y regulación de cabeceras colapsadas
+Menú Ajustes de estilo
 
-- Added writing mode callout metadata utility, it increases text indent and
-paragraph spacing
+- Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
+párrafo espaciamiento
 
-  - It also has a CSS class provider which allows you to apply the same text
-  indent and paragraph spacing increments to the target note
+- También tiene un proveedor de clase CSS que le permite aplicar el mismo texto
+indent and paragraph spacing increases to the target note
 
 - Add rhombus editor background option
 
-- You can now use grid, dotted or rhombus as background options for the left
-and right sidebar
+- Ahora puede utilizar la rejilla, punteado o rhombus como opciones de fondo para la izquierda
+y barra lateral derecha
 
 - Estas opciones de url de fondo lateral izquierdo y derecho
 
@@ -156,10 +160,11 @@ and right sidebar
 
 - No es seleccionable con el arte ASCII, el arte ASCII es seleccionado por defecto
 
-- Added option to angle grid editor background
+- opción agregada al fondo del editor de cuadrícula angular
 
-- Added background image option for modals (background image for settings,
-prompts etc)
+- Opción de imagen de fondo agregada para modals (imagen de fondo para la configuración,
+,
+impulsos, etc.
 
 ### Version 0.3.1 Tidying Up
 
@@ -183,7 +188,8 @@ prompts etc)
 
 - Modificaciones de la luz a los elementos de navegación en la palanca, Calendario plugin de estilo
 
-- Slight tweaks to editor background dotted and grid background styling.
+- Ligeras pinzas para editor de fondo teñido y rejilla de fondo estilo.
+.
 
 - La barra de títulos se adapta ahora al estilo de diseño seleccionado
 
@@ -206,12 +212,12 @@ prompts etc)
 
 - Cambios en el estilo de mesa
 
-- Added cssclasses for heading indicators, callout metadata for tilting callout
-title and content
+- Cisclases adicionales para los indicadores de encabezado, metadatos de llamada para inclinar el callout
+título y contenido
 
 - Añadido soporte para plugin de calendario
 
-- Tweaked existing styling for Full Calendar plugin
+- Ajuste de estilo existente para el plugin de calendario completo
 
 - El estilo de la comunidad empapado
 
@@ -233,7 +239,7 @@ title and content
 
 - Bottomcenter
 
--[See the documentation](../index.md) for more details
+-[See the documentation](../index.md)para más detalles
 
 ___
 
@@ -247,12 +253,12 @@ ___
 
 - Tejidos menores para efectos de productos comunitarios
 
-- Added card, angled options for workspace layout
+- Tarjeta agregada, opciones de ángulo para el diseño del espacio de trabajo
 
 - Necesidad de volver a cargar o reiniciar la aplicación si desea cambiar los diseños
 
-- Vim mode status text and status bar mode (reading/live preview etc) text now
-has a color option:
+- Texto del estado del modo Vim y modo de barra de estado (leer / vista previa en vivo etc) texto ahora
+tiene una opción de color:
 
 - Desactivado por defecto
 
@@ -267,8 +273,9 @@ has a color option:
 - Animaciones de ventana eliminadas ya que no son performant.
 .
 
-- Colores extendidos actualizados para que`*-color1-color2`y`*-color-2-color` will
-always return the same color mix when using in callout metadata utilities.
+- Colores extendidos actualizados para que`*-color1-color2`y`*-color-2-color`voluntad
+siempre devolver la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
+.
 
 - Efecto activo de fondo de archivos más consistente
 
@@ -284,16 +291,17 @@ always return the same color mix when using in callout metadata utilities.
 
 - Opción de radio de la imagen agregada
 
-- Added extended color palette (can be used as callout metadata utilities or in
-css variables)
+- Paleta de color extendida (puede utilizarse como fuentes de metadatos de llamada o en
+variables css)
 
-- Added popup callout, adapted from
+- Llamada popup agregada, adaptada a
 [Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
 
 - Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 
-- Added window animations for modals, prompts and settings.
-Choose from the following options:
+- Animaciones de ventana agregadas para modals, impulsos y ajustes.
+.
+Elija entre las siguientes opciones:
 
 - Ninguna (Revierte al comportamiento predeterminado)
 
@@ -385,7 +393,7 @@ ___
 
 - Ver el[documentation](../index.md)para más detalles
 
-Credits:
+Créditos:
 
 -`@OWA/bennyyip`sobre la discordia del grupo de miembros obisidianos para el tategaki
 

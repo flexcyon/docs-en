@@ -5,9 +5,11 @@ title: 更改日志
 
 #### Note
 
-The changelogs show versions in order of most recent to least recent.
-Or, if you prefer the changelogs in chronological order, you can use
-the sidebar or hamburger menu to view the relevant sub-pages.
+更改日志按最近到最近顺序显示版本。
+.
+或者,如果你喜欢按时间顺序的更改日志,你可以使用
+用于查看相关子页的边栏或汉堡菜单。
+.
 
 ___ 
 
@@ -25,8 +27,9 @@ ___
 
 ### Version 0.4.0 Light Mode Update
 
-- 修改侧边栏背景亮度设置为`unset`. Was
-previously causing issues like blurring Calender plugin content.
+- 修改侧边栏背景亮度设置为`unset`。曾经
+之前引起诸如模糊卡伦德插件内容之类的问题。
+.
 
 - WIP灯主题(混合弹性灯+折纸彩色调色板)
 
@@ -34,10 +37,10 @@ previously causing issues like blurring Calender plugin content.
 
 - 为扩展调色板添加切换,默认情况下
 
-  - Added table header size option
+- 添加表头大小选项
 
-  - Updated documentation to show a small preview of colors/opacity applied by
-  the theme
+- 更新文档,以显示应用的颜色/不透明小预览
+主题
 
 - 增加了主题功能的网络展示
 
@@ -75,8 +78,9 @@ previously causing issues like blurring Calender plugin content.
 
 - 增加全球亮度、对比率和饱和率的无障碍选项
 
-- Added option to enable heading indicators globally, customisable for
-different heading levels.
+- 增加选项,以在全球启用标题指标,适合
+不同的标题级别。
+.
 
 - 标题指标现在更好地继承标题的基础颜色
 
@@ -86,8 +90,8 @@ different heading levels.
 
 ### Version 0.3.4 Easter Egg Mode
 
-- Made translation for hide until hover status bar configurable, useful for
-longer status bars
+- 翻译为隐藏,直到可配置的悬浮状态栏,对
+长期状态栏
 
 - 固定文件探索器背景被打破
 
@@ -99,19 +103,19 @@ longer status bars
 
 ### Version 0.3.3 QOL Update
 
-- Added configurable indentation factor and dimming of collapsed headers for
-Style Settings menu
+- 增加可配置的缩进系数和倒塌头的缩进
+样式设置菜单
 
-- Added writing mode callout metadata utility, it increases text indent and
-paragraph spacing
+- 添加写模式调用元数据工具,增加文本缩进和
+段落间隔
 
-  - It also has a CSS class provider which allows you to apply the same text
-  indent and paragraph spacing increments to the target note
+- 还有一个CSS类供应商,允许您应用相同的文本
+目标附注的缩进和段落间距递增
 
 - 添加 Rhombus 编辑器背景选项
 
-- You can now use grid, dotted or rhombus as background options for the left
-and right sidebar
+-  您现在可以使用网格、 点或 Rhombus 作为左侧的背景选项
+右侧边栏
 
 - 这些覆盖左右侧边栏背景url选项
 
@@ -155,10 +159,11 @@ and right sidebar
 
 - 无法选择 ASCII 艺术, 默认选择 ASCII 艺术
 
-- Added option to angle grid editor background
+- 在网格编辑器背景角度添加选项
 
-- Added background image option for modals (background image for settings,
-prompts etc)
+- 为模式添加背景图像选项(设置的背景图像,
+,
+提示等)
 
 ### Version 0.3.1 Tidying Up
 
@@ -182,7 +187,8 @@ prompts etc)
 
 - 微小修改悬浮中的导航项目,日历插件型号
 
-- Slight tweaks to editor background dotted and grid background styling.
+- 微调编辑背景点和网格背景样式。
+.
 
 - 标签标题栏现在适应选定的布局样式
 
@@ -204,12 +210,12 @@ prompts etc)
 
 - 更改表格样式
 
-- Added cssclasses for heading indicators, callout metadata for tilting callout
-title and content
+- 增加了标题指标的cssclass、倾斜点名元数据
+标题和内容
 
 - 对日历插件添加支持
 
-- Tweaked existing styling for Full Calendar plugin
+- 调整了全日历插件的现有样式
 
 - 微软的社区用品型式
 
@@ -231,7 +237,7 @@ title and content
 
 - 下边center
 
-- [See the documentation](../index.md) for more details
+- [See the documentation](../index.md)详情
 
 ___ 
 
@@ -245,12 +251,12 @@ ___
 
 - 用于社区物品效应的小型型式调整
 
-- Added card, angled options for workspace layout
+- 添加卡片、工作空间布局角度选项
 
 - 如果您想要改变布局, 需要重新装入或重新启动应用程序
 
-- Vim mode status text and status bar mode (reading/live preview etc) text now
-has a color option:
+- Vim模式状态文本和状态栏模式(阅读/预览等)文本
+有颜色选项 :
 
 - 默认切换
 
@@ -264,8 +270,9 @@ has a color option:
 
 - 已删除的窗口动画,因为它们不是表演者。
 
-- 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color` will
-always return the same color mix when using in callout metadata utilities.
+- 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color`将
+在使用点名元数据时, 总是返回相同的颜色组合 。
+.
 
 - 使活动文件背景效果更加一致
 
@@ -281,16 +288,17 @@ always return the same color mix when using in callout metadata utilities.
 
 - 添加图像边框半径选项
 
-- Added extended color palette (can be used as callout metadata utilities or in
-css variables)
+- 添加扩展调色板(可作为点名元数据工具或用于
+css变量).
 
-- Added popup callout, adapted from
+- 添加弹出点名词,改编自
 [Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
 
 - 新注释、新文件夹等顶级动作的固定不透明
 
-- Added window animations for modals, prompts and settings.
-Choose from the following options:
+- 为模式、提示和设置添加窗口动画。
+.
+从下列选项中选择 :
 
 - 无(默认行为的更正)
 
@@ -382,7 +390,7 @@ ___
 
 -见[documentation](../index.md)详情
 
-Credits:
+功劳:
 
 - `@OWA/bennyyip`在 Obisidian 成员团体的Discord 上为 Tategaki 片断
 

@@ -1,5 +1,5 @@
 ---
-title: CenterÍndice
+title: Índice
 icon: material/align-horizontal-center
 ---
 

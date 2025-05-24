@@ -3,7 +3,7 @@ title: Home
 icon: material/home
 ---
 
-This hosts the English documentation for the
+Esto acoge la documentación inglesa para el
 [flexcyon theme](https://github.com/bladeacer/flexcyon).
 .
 > The URL is different here as I wish to separate the code from
@@ -35,5 +35,6 @@ Aquí están algunos enlaces que puede estar buscando.
 
 ### About Comments
 
-Comments on this website uses the GitHub discussions in the source
-code repository (`bladeacer/flexcyon`) as a back-end.
+Comentarios en este sitio web utiliza las discusiones de GitHub en la fuente
+repositorio de código (`bladeacer/flexcyon`como un back-end.
+.

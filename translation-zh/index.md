@@ -1,9 +1,9 @@
 ---
-title: 页 次
+title: 首頁
 icon: material/home
 ---
 
-This hosts the English documentation for the
+此处收录了用于
 [flexcyon theme](https://github.com/bladeacer/flexcyon)。
 > The URL is different here as I wish to separate the code from
 > the documentation.  If you are seeing this on the non-English docs, do know
@@ -33,5 +33,6 @@ This hosts the English documentation for the
 
 ### About Comments
 
-Comments on this website uses the GitHub discussions in the source
-code repository (`bladeacer/flexcyon`) as a back-end.
+该网站的评论使用源代码 GitHub 讨论
+代码存储器(`bladeacer/flexcyon`)作为后端。
+.

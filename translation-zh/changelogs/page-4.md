@@ -6,7 +6,8 @@ icon: material/numeric-4-box-outline
 ### Version 0.4.0 Light Mode Update
 
 - 修改侧边栏背景亮度设置为`unset`。
-Was previously causing issues like blurring Calender plugin content.
+以前引起诸如模糊卡伦德插件内容之类的问题。
+.
 
 - WIP灯主题(混合弹性灯+折纸彩色调色板)
 

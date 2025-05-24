@@ -1,5 +1,5 @@
 ---
-title: 中间全体
+title: 全部居中
 icon: material/align-horizontal-center
 ---
 

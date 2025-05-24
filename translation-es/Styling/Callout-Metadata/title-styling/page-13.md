@@ -1,5 +1,5 @@
 ---
-title: CenterTítulo
+title: Título del centro
 icon: material/align-horizontal-center
 ---
 

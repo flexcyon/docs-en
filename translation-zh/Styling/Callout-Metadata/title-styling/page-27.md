@@ -1,5 +1,5 @@
 ---
-title: 标题3 标题
+title: 标题3
 icon: material/format-header-3
 ---
 

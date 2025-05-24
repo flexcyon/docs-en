@@ -3,8 +3,9 @@ icon: material/server
 title: Herramientas y software
 ---
 
-The following tools and software were indispensable in the making of the theme
-and its documentation.
+Las siguientes herramientas y software fueron indispensables para la elaboración del tema
+y su documentación.
+.
 
 ### Base application
 
@@ -24,7 +25,7 @@ and its documentation.
 
 - Vim
 
-- VS Code
+- Código VS
 
 ### Version Control
 
@@ -36,9 +37,9 @@ and its documentation.
 
 - MkDocs
 
-  - and the awesome ecosystem built around it
+- y el impresionante ecosistema construido alrededor de él
 
-- Material for MkDocs
+- Material para MkDocs
 
 - ReadTheDocs
 

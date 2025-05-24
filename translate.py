@@ -6,6 +6,7 @@ import time
 import shutil
 import re
 import traceback
+from typing import Optional
 
 # --- LibreTranslate Server Management ---
 def start_libretranslate(target_language):
@@ -18,7 +19,7 @@ def start_libretranslate(target_language):
             return None
         except Exception:
             pass
-        print(f"Starting LibreTranslate server using CLI (only en and {target_language})...")
+        print(f"\n[START] Starting LibreTranslate server using CLI (only en and {target_language})...")
         process = subprocess.Popen(
             [
                 "libretranslate",
@@ -32,7 +33,7 @@ def start_libretranslate(target_language):
         for _ in range(30):
             try:
                 requests.get(f"{api_url.replace('/translate', '/health')}", timeout=2)
-                print("LibreTranslate server started.")
+                print("[START] LibreTranslate server started.")
                 return process
             except Exception:
                 time.sleep(1)
@@ -43,18 +44,21 @@ def start_libretranslate(target_language):
         return None
 
 # --- Translation Functions ---
-def translate_text(text, source_lang="en", target_lang=None, translation_cache=None, api_url=None):
-    if translation_cache is None:
-        translation_cache = {}
+def translate_text(text, source_lang="en", target_lang=None, edit_cache=None, api_url=None):
+    if edit_cache is None:
+        raise ValueError("edit_cache must be provided")
     if target_lang is None:
         raise ValueError("target_lang must be provided")
     if api_url is None:
         raise ValueError("api_url must be provided")
+
+    for key in edit_cache.keys():
+        if key[0] == text.strip():
+            return edit_cache[key]
+
     key = (text, source_lang, target_lang)
-    if key in translation_cache:
-        return translation_cache[key]
     if not text.strip():
-        return text
+        return "".join(text)
     payload = {
         "q": text,
         "source": source_lang,
@@ -76,8 +80,7 @@ def translate_text(text, source_lang="en", target_lang=None, translation_cache=N
         response.raise_for_status()
         response_data = response.json()
         translated = response_data.get("translatedText", text)
-        translation_cache[key] = translated
-        return translated
+        return "".join(translated)
     except requests.exceptions.RequestException as e:
         print(f"An error occurred during the request: {e}")
         if hasattr(e, 'response') and e.response is not None:
@@ -91,12 +94,14 @@ def translate_text(text, source_lang="en", target_lang=None, translation_cache=N
         print(f"An unexpected error occurred: {e}")
         return text
 
-def batch_translate_text(lines, source_lang="en", target_lang=None, translation_cache=None, api_url=None):
+def batch_translate_text(lines, source_lang="en", target_lang=None, translation_cache=None, edit_cache=None, api_url=None):
     """
     Keeping the original codes for cache keys. Returns a list of translated lines in the same order.
     """
     if translation_cache is None:
         translation_cache = {}
+    if edit_cache is None:
+        edit_cache = {}
     if target_lang is None:
         raise ValueError("target_lang must be provided")
     if api_url is None:
@@ -111,7 +116,7 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
     api_source = api_lang_code(source_lang)
     api_target = api_lang_code(target_lang)
 
-    results = [None] * len(lines)
+    results: dict[int, str] = {} 
     untranslated_indices = []
     untranslated_lines_for_api = [] # This list will only contain non-empty, non-cached lines
 
@@ -119,11 +124,27 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
         cache_key = (line, source_lang, target_lang)
         if line.strip() == "": # Handle empty lines locally
             results[idx] = line
-        elif cache_key in translation_cache:
+        else:
+            for key in edit_cache.keys():
+                placeholder2 = str(re.escape(key[0]))
+                pattern = rf"\b{placeholder2}\b"
+                match = re.search(pattern, line)
+                if match != None:
+                    start_index = match.start()
+                    end_index = match.end()
+                    x = start_index
+                    y = end_index
+                    placeholder = "".join(translate_text(line[0:x], target_lang=target_lang, edit_cache=edit_cache, api_url=api_url) + "".join(edit_cache[key]) + translate_text(line[y+1:], target_lang=target_lang, edit_cache=edit_cache, api_url=api_url))
+
+                    results[idx] = placeholder
+                    break;
+
+        if cache_key in translation_cache:
             results[idx] = translation_cache[cache_key]
         else:
             untranslated_indices.append(idx)
             untranslated_lines_for_api.append(line)
+
 
     if untranslated_lines_for_api:
         payload = {
@@ -219,10 +240,10 @@ def copy_assets_dir(input_folder, output_folder):
     if os.path.exists(assets_src):
         if os.path.exists(assets_dst):
             # Skip copying if already exists
-            print(f"Assets directory already exists, skipping: {assets_dst}")
+            print(f"\n[SKIP]Assets directory already exists, skipping: {assets_dst}\n")
             return
         shutil.copytree(assets_src, assets_dst)
-        print(f"Copied assets directory: {assets_src} -> {assets_dst}")
+        print(f"\n[COPY] Copied assets directory: {assets_src} -> {assets_dst}\n")
 
 def copy_overrides_and_stylesheets(input_folder, output_folder):
     for subdir in ["overrides", "stylesheets"]:
@@ -232,7 +253,7 @@ def copy_overrides_and_stylesheets(input_folder, output_folder):
             if os.path.exists(dst):
                 shutil.rmtree(dst)
             shutil.copytree(src, dst)
-            print(f"Copied {subdir} directory: {src} -> {dst}")
+            print(f"[COPY] Copied {subdir} directory: {src} -> {dst}")
 
 def copy_meta_yml_files(input_folder, output_folder):
     for root, dirs, files in os.walk(input_folder):
@@ -251,7 +272,7 @@ def is_subdir(path, directory):
     directory = os.path.abspath(directory)
     return os.path.commonpath([directory]) == os.path.commonpath([directory, path])
 
-def preserve_links_code_mit_html(line, target_language, translation_cache, api_url):
+def preserve_links_code_mit_html(line, target_language, translation_cache, edit_cache, api_url):
     """
     Preserves code blocks, inline code, markdown links [text](url) (as a whole), 'MIT', HTML tags, and other keywords.
     Only translates non-special parts. Markdown links are split out as special parts and never sent for translation, so they are always preserved exactly.
@@ -305,12 +326,19 @@ def preserve_links_code_mit_html(line, target_language, translation_cache, api_u
     to_translate = [part for part in parts if part and not is_special(part) and part.strip()]
     if not to_translate:
         return ''.join(parts)
-    translated = batch_translate_text(to_translate, target_lang=target_language, translation_cache=translation_cache, api_url=api_url)
-    translated_iter = iter(translated)
-    rebuilt = ''.join(
-        next(translated_iter) if (part and not is_special(part) and part.strip()) else part
-        for part in parts
-    )
+    translated = batch_translate_text(to_translate, target_lang=target_language, translation_cache=translation_cache, edit_cache=edit_cache, api_url=api_url)
+    rebuilt_parts = []
+    translation_index = 0  # Keep track of which translatable part we're expecting
+
+    for part in parts:
+        if part and not is_special(part) and part.strip():
+            translated_part = translated.get(translation_index)
+            rebuilt_parts.append(translated_part if translated_part is not None else part)
+            translation_index += 1
+        else:
+            rebuilt_parts.append(part)
+
+    rebuilt = ''.join(rebuilt_parts)
     return rebuilt
 
 def is_table_separator(line):
@@ -321,7 +349,7 @@ def is_table_row(line):
     # Matches lines like | a | b | c |
     return bool(re.match(r'^\s*\|.*\|\s*$', line.strip()))
 
-def translate_markdown(input_folder, output_folder, target_language, translation_cache, api_url):
+def translate_markdown(input_folder, output_folder, target_language, translation_cache, edit_cache, api_url):
     """
     Recursively translates Markdown files in the input folder and saves
     the translated files to the output folder, processing by blocks.
@@ -334,22 +362,21 @@ def translate_markdown(input_folder, output_folder, target_language, translation
     yaml_sep_pattern = re.compile(r'^\s*---\s*$')
 
     for root, dirs, files in os.walk(input_folder):
-        print(f"[DEBUG] Walking directory: {root}")
-        print(f"[DEBUG] Subdirectories to process: {dirs}")
+        print(f"\n[WALK] Walking directory: {root}")
+        if dirs != []:
+            print(f"Subdirectories to process: {dirs}")
         for filename in files:
-            print(f"[DEBUG] Found file: {filename}")
             if not filename.endswith(".md"):
                 continue
 
             input_filepath = os.path.join(root, filename)
-            print(f"[DEBUG] Processing file: {input_filepath}")
             relative_path = os.path.relpath(input_filepath, input_folder)
             output_filepath = os.path.join(output_folder, relative_path)
             os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
             try:
                 with open(input_filepath, 'r', encoding='utf-8') as infile:
                     markdown_lines = infile.readlines()
-                print(f"[DEBUG] Read {len(markdown_lines)} lines from {input_filepath}")
+                print(f"- [READ] Read {len(markdown_lines)} lines from {input_filepath}")
 
                 translated_lines = []
                 in_code_block = False
@@ -386,7 +413,7 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                             m = re.match(r'^(\s*title\s*:\s*)(.*)$', line)
                             if m:
                                 prefix, title_val = m.groups()
-                                translated_title = preserve_links_code_mit_html(title_val, target_language, translation_cache, api_url)
+                                translated_title = translate_text(title_val, target_lang=target_language,edit_cache=edit_cache, api_url=api_url)
                                 translated_lines.append(f"{prefix}{translated_title}\n")
                             else:
                                 translated_lines.append(line)
@@ -423,7 +450,7 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                     # Table detection and translation
                     if is_table_row(line):
                         if (i + 1 < len(markdown_lines)) and is_table_separator(markdown_lines[i + 1]):
-                            translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, api_url)
+                            translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, edit_cache, api_url)
                             if not line.endswith("\n"):
                                 translated_lines.append(translated_line)
                             else:
@@ -441,7 +468,7 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                         i += 1
                         continue
                     # Otherwise, translate line (preserving links, inline code, MIT)
-                    translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, api_url)
+                    translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, edit_cache, api_url)
                     # Preserve original line endings exactly
                     if line.endswith("\n\n"):
                         translated_lines.append(translated_line.rstrip("\n") + "\n\n")
@@ -450,10 +477,10 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                     else:
                         translated_lines.append(translated_line.rstrip("\n"))
                     i += 1
-                    print(f"[DEBUG] Processing line {i}/{len(markdown_lines)} in {input_filepath}")
 
                 with open(output_filepath, 'w', encoding='utf-8') as outfile:
                     content = ''.join(translated_lines)
+                    content = re.sub(r"\( e\)`bladeacer/flexcyon`\)", "(`bladeacer/flexcyon`)", content)
                     content = re.sub(r'怎么样\?*', '', content)
                     content = fix_chinese_full_stop(content)
                     content = re.sub(r'(?<!\n)\s*>(?=[^\n])', r'\n>', content)
@@ -463,7 +490,7 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                     content = re.sub(r'(?<!\n)(<hr[^>]*>)(?!\n)', r'1', content)
                     outfile.write(content)
 
-                print(f"Translated: {input_filepath} -> {output_filepath}")
+                print(f"- [WRITE] Translated {input_filepath}: {output_filepath}")
 
             except Exception as e:
                 print(f"Error processing {input_filepath}: {e}")
@@ -481,7 +508,7 @@ def save_cache(translation_cache, target_language):
     }
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(serializable_cache, f, ensure_ascii=False, indent=2)
-    print(f"Cache saved to: {filename}")
+    print(f"[SAVE] Cache saved to: {filename}")
 
 
 def load_cache(target_language):
@@ -497,8 +524,26 @@ def load_cache(target_language):
                 tuple(key.split("|||")): value
                 for key, value in serializable_cache.items()
             }
-        print(f"Loaded cache from: {filename}")
+        print(f"[LOAD] Loaded cache from: {filename}")
         return translation_cache
+    except FileNotFoundError:
+        return {}
+
+def load_edit_cache(target_language):
+    # Load cache per language only
+    if target_language is None:
+        raise ValueError("target_language must be provided")
+    lang = target_language.replace("-", "_")
+    filename = f"edit_{lang}.json"
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            serializable_cache = json.load(f)
+            edit_cache = {
+                tuple(key.split("|||")): value
+                for key, value in serializable_cache.items()
+            }
+        print(f"[LOAD] Loaded edits from: {filename}")
+        return edit_cache
     except FileNotFoundError:
         return {}
 
@@ -508,13 +553,14 @@ def run_translation(target_language, input_directory="./docs", output_directory=
     if output_directory is None:
         output_directory = f"./translation-{target_language}"
     translation_cache = load_cache(target_language)
+    edit_cache= load_edit_cache(target_language)
     clean_markdown_files(output_directory)
     copy_assets_dir(input_directory, output_directory)
     copy_overrides_and_stylesheets(input_directory, output_directory)
     copy_meta_yml_files(input_directory, output_directory)
     lt_process = start_libretranslate(target_language)
     print(f"Translating from '{input_directory}' to '{output_directory}' (lang: {target_language})...")
-    translate_markdown(input_directory, output_directory, target_language, translation_cache, api_url)
+    translate_markdown(input_directory, output_directory, target_language, translation_cache, edit_cache, api_url)
     print(f"\nTranslation complete. Translated files are in: {output_directory}")
     if lt_process:
         lt_process.terminate()
@@ -523,5 +569,3 @@ def run_translation(target_language, input_directory="./docs", output_directory=
 if __name__ == "__main__":
     run_translation("zh")
     run_translation("es")
-    
-    

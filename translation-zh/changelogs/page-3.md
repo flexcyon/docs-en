@@ -11,8 +11,8 @@ icon: material/numeric-3-box-outline
 
 - 更改表格样式
 
-- Added cssclasses for heading indicators, callout metadata for
-tilting callout title and content
+- 为标题指标、点名元数据添加 cssclass
+倾斜点名标题和内容
 
 - 对日历插件添加支持
 
@@ -162,8 +162,9 @@ tilting callout title and content
 
 - 增加全球亮度、对比率和饱和率的无障碍选项
 
-- Added option to enable heading indicators globally, customisable
-for different heading levels.
+- 增加选项,使标题指标能够在全球范围内定制
+不同标题级别。
+.
 - 标题指标现在更好地继承标题的基础颜色
 
 - 添加选项以配置弹出点名动画持续时间
