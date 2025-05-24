@@ -25,7 +25,6 @@ jobs:
         with:
           app-id: ${{ secrets.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
-          installation-id: ${{ secrets.GH_APP_INSTALLATION_ID }}
 
       - name: Copy site-reqs.txt as requirements.txt to docs and translation folders and remove libretranslate deps
         shell: bash
