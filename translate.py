@@ -233,19 +233,8 @@ def fix_chinese_full_stop(text):
     text = re.sub(r'(?:。[\s]*){2,}', '。', text)
     return text
 
-def copy_assets_dir(input_folder, output_folder):
-    assets_src = os.path.join(input_folder, "assets")
-    assets_dst = os.path.join(output_folder, "assets")
-    if os.path.exists(assets_src):
-        if os.path.exists(assets_dst):
-            # Skip copying if already exists
-            print(f"\n[SKIP]Assets directory already exists, skipping: {assets_dst}\n")
-            return
-        shutil.copytree(assets_src, assets_dst)
-        print(f"\n[COPY] Copied assets directory: {assets_src} -> {assets_dst}\n")
-
-def copy_overrides_and_stylesheets(input_folder, output_folder):
-    for subdir in ["overrides", "stylesheets"]:
+def copy_dirs(input_folder, output_folder):
+    for subdir in ["overrides", "stylesheets", "assets"]:
         src = os.path.join(input_folder, subdir)
         dst = os.path.join(output_folder, subdir)
         if os.path.exists(src):
@@ -554,8 +543,7 @@ def run_translation(target_language, input_directory="./docs", output_directory=
     translation_cache = load_cache(target_language)
     edit_cache= load_edit_cache(target_language)
     clean_markdown_files(output_directory)
-    copy_assets_dir(input_directory, output_directory)
-    copy_overrides_and_stylesheets(input_directory, output_directory)
+    copy_dirs(input_directory, output_directory)
     copy_meta_yml_files(input_directory, output_directory)
     lt_process = start_libretranslate(target_language)
     print(f"Translating from '{input_directory}' to '{output_directory}' (lang: {target_language})...")
