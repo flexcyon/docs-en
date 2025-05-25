@@ -14,7 +14,7 @@ icon: material/book-open-blank-variant-outline
 # About Flexcyon
 一个将Halcyon和Flexoki的配色方案结合起来的 Obsidian主题。
 
-我真的很喜欢充满活力的颜色[Halcyon colour scheme](https://halcyon-theme.netlify.app/)以及墨水的美学[Flexoki colour scheme](https://stephango.com/flexoki)。  因此,我决定把开始这一主题的两个主题结合起来。
+我真的很喜欢充满活力的颜色[Halcyon colour scheme](https://halcyon-theme.netlify.app/)以及墨水的美学[Flexoki colour scheme](https://stephango.com/flexoki)。 因此,我决定把开始这一主题的两个主题结合起来。
 
 # Features
 [Here is a web showcase](https://share.note.sx/1bk28c9k)主题的特征。

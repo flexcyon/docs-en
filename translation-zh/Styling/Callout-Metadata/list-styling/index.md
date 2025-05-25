@@ -19,7 +19,7 @@ icon: material/format-list-bulleted-square
 4. ...
 ```
 
-用欧比迪安语写一个无序列表。 使用 :
+用欧比迪安语写一个无序列表。使用 :
 ```md
 - Never
 - Gonna
@@ -28,7 +28,7 @@ icon: material/format-list-bulleted-square
 ```
 
 ___ 
-腾讯。 为什么`style_type`名字这么长?
+腾讯。为什么`style_type`名字这么长?
 ?
 
-A类。 它们是主要浏览器中可用的标准化样式
+A类。它们是主要浏览器中可用的标准化样式

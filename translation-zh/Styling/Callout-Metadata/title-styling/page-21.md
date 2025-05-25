@@ -11,4 +11,4 @@ icon: material/format-overline
 > Content is shown as usual
 ```
 
-样式本身也适用于["overline-all"](../combined-styling/page-21.md)页:1["overline-content"](../content-styling/page-11.md)。.
+样式本身也适用于["overline-all"](../combined-styling/page-21.md)页:1["overline-content"](../content-styling/page-11.md)。

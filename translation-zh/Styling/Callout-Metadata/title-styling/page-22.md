@@ -11,4 +11,4 @@ icon: material/format-underline
 > Content is shown as usual
 ```
 
-样式本身也适用于["underline-all"](../combined-styling/page-22.md)页:1["underline-content"](../content-styling/page-12.md)。.
+样式本身也适用于["underline-all"](../combined-styling/page-22.md)页:1["underline-content"](../content-styling/page-12.md)。

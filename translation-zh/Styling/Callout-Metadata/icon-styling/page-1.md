@@ -16,4 +16,4 @@ icon: material/emoticon-minus
 > Content
 ```
 
-样式本身也适用于["empty"](../combined-styling/page-1.md)页:1["no-title"](../title-styling/page-1.md)。.
+样式本身也适用于["empty"](../combined-styling/page-1.md)页:1["no-title"](../title-styling/page-1.md)。

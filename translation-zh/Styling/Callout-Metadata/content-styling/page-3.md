@@ -11,4 +11,4 @@ icon: material/align-horizontal-center
 > The content will be centered
 ```
 
-样式本身也适用于["center-all"](../combined-styling/page-13.md)页:1["center-title"](../title-styling/page-13.md)。.
+样式本身也适用于["center-all"](../combined-styling/page-13.md)页:1["center-title"](../title-styling/page-13.md)。

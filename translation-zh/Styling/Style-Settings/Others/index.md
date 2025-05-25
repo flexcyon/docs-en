@@ -264,7 +264,7 @@ ___
 
 ___ 
 ### Easter egg mode
-堕地。 见[here for reasons](../../../README/page-5.md)。
+堕地。见[here for reasons](../../../README/page-5.md)。
 
 ___ 
 ### Accessibility
