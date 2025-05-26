@@ -1,13 +1,12 @@
 ---
-title: 链接
-icon: material/link
+title: 。icon: material/link
 ---
 
-配置链接的颜色 。
+。。
+.
 
-接受格式: 
+。: 。## Navigation
 
-## Navigation
 ```md
 Style Settings
 |-- ...
@@ -23,34 +22,37 @@ Style Settings
 ## Configuration Options
 
 ### Internal Link Color
-目标CSS变量:`var(--flexcyon-link-color)`
 
-默认( 灯光模式) :<span class="col-sqr" style="background-color: #6f49ae"
-></span
->#6f49ae
+。CSS。:`var(--flexcyon-link-color)`
 
-默认( 暗模式) :<span class="col-sqr" style="background-color: #a461c8"
+。( 。) :
+<span class="col-sqr" style="background-color: #6f49ae"
 ></span
->#a461c8
+>#6f49ae (。).
+
+
+。( 。) :<span class="col-sqr" style="background-color: #a461c8"
+></span
+>#a461c8 (。).
 
 ### External Link Color
-目标CSS变量:`var(--flexcyon-external-link-color)`
+。CSS。:`var(--flexcyon-external-link-color)`
 
-默认( 灯光模式) :<span class="col-sqr" style="background-color: #5c9fe4"
+。( 。) :<span class="col-sqr" style="background-color: #5c9fe4"
 ></span
->#5c9fe4
+>#5c9fe4 (。).
 
-默认( 暗模式) :<span class="col-sqr" style="background-color: #5a8fcd"
+。( 。) :<span class="col-sqr" style="background-color: #5a8fcd"
 ></span
->#5a8fcd
+>#5a8fcd (。).
 
 ### Unresolved Link Color
-目标CSS变量:`var(--flexcyon-link-unresolved-color)`
+。CSS。:`var(--flexcyon-link-unresolved-color)`
 
-默认( 灯光模式) :<span class="col-sqr" style="background-color: #6f49ae"
+。( 。) :<span class="col-sqr" style="background-color: #6f49ae"
 ></span
->#6f49ae
+>#6f49ae (。).
 
-默认( 暗模式) :<span class="col-sqr" style="background-color: #a461c8"
+。( 。) :<span class="col-sqr" style="background-color: #a461c8"
 ></span
->#a461c8 
+>#a461c8 (。).

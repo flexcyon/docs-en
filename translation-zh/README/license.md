@@ -2,16 +2,19 @@
 icon: material/scale-balance
 ---
 
-主题根据[MIT License](https://mit-license.org)可见[here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE)。
+# License
+。[MIT License](https://mit-license.org)。[here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE)。
+.
 
-或者,你可以在这里查看它。
+。,。。
+.
 
 ## License from the source code
 
 ```md
 MIT License
 
-Copyright (c) 2024 bladeacer
+Copyright (c) 2025 bladeacer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

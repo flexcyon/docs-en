@@ -1,11 +1,9 @@
 ---
-title: 项目符号列表
-icon: material/format-list-bulleted
+title: 。icon: material/format-list-bulleted
 ---
 
-在主题中配置项目列表
+。## Navigation
 
-## Navigation
 ```md
 Style Settings
 |-- ...
@@ -21,7 +19,9 @@ Style Settings
 ## Configuration Options
 
 ### Enable rainbow bullet lists
-目标CSS变量:`var(--flexcyon-rainbow-bullet-points)`
 
-默认 :false(类切换)
+。CSS。:`var(--flexcyon-rainbow-bullet-points)`
+
+。:false(。)
 > Might need app restart/reload to take effect.
+

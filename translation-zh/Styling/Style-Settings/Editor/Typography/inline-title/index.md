@@ -1,11 +1,9 @@
 ---
-title: 内置标题
-icon: material/format-underline-wavy
+title: 。icon: material/format-underline-wavy
 ---
 
-接受格式: em, 数字
+。: em, 。## Navigation
 
-## Navigation
 ```md
 Style Settings
 |-- ...
@@ -23,20 +21,24 @@ Style Settings
 
 ## Configuration Options
 
-<span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;"
->内置标题样本</span>
+<span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
+。</span>
 
 ### Inline title font size
-目标CSS变量:`var(--inline-title-size)`
 
-默认: 1.802(em)
+。CSS。:`var(--inline-title-size)`
+
+。: 1.802(em)
 
 ### Inline title font weight
-目标CSS变量:`var(--inline-title-weight)`
 
-默认: 700
+。CSS。:`var(--inline-title-weight)`
+
+。: 700
 
 ### Inline title font height
-目标CSS变量:`var(--inline-title-height)`
 
-默认: 1.2
+。CSS。:`var(--inline-title-height)`
+
+。: 1.2
+

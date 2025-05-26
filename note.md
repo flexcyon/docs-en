@@ -25,8 +25,7 @@ Edit corresponding json cache file so that the next time translation runs the
 translation service uses the translation from cache over a potentially incorrect
 translation.
 
-- Fix cache
+## TODO
 
-- MarkdownLint rest of the documentation
-  - Continue with README directory in docs directory
+- Add more languages?
 

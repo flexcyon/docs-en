@@ -3,17 +3,21 @@ title: List Styling
 icon: material/format-list-bulleted-square
 ---
 
-En esta subpágina, puedes encontrar ejemplos de uso para cambiar el estilo de listas ordenadas y no ordenadas usando metadatos de llamada.
+En esta subpágina, puede encontrar ejemplos de uso para cambiar el estilo de
+listas ordenadas y no ordenadas usando metadatos callout.
 .
 
-## Callout Lists
+# Callout Lists
+
 Estas son algunas utilidades para las listas ordenadas y no ordenadas en Obsidian.
 .
 
 Formatos aceptados para`style_type`: El[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
-### Note
+## Note
+
 Para escribir una lista ordenada en Obsidian, utilice:
+
 ```md
 1. Never
 2. Gonna
@@ -22,15 +26,16 @@ Para escribir una lista ordenada en Obsidian, utilice:
 ```
 
 Para escribir una lista no ordenada en Obsidian. uso:
-```md
-- Never
+
+```md6- Never
 - Gonna
 - Give
 - ...
 ```
 
-___
+__
 Q. ¿Por qué`style_type`¿nombres tanto tiempo?
 ?
 
 A. Bueno son tipos de estilo estandarizados disponibles en los principales navegadores
+

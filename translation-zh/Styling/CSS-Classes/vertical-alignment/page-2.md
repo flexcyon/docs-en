@@ -1,11 +1,12 @@
 ---
-title: 垂直对齐 - Tategaki
+title: 。- Tategaki
 icon: material/align-horizontal-right
 ---
 
-在读取模式下将水平右对左( RTL) 应用到您的笔记
+# Usage
 
-用法 :
+。( RTL) 。:
+
 ```md
 ---
 cssclasses
@@ -13,4 +14,5 @@ cssclasses
 ---
 ```
 
-在挂图中添加链接到 tategaki
+。tategaki
+

@@ -10,4 +10,6 @@ Callout metadata: "all-green"
 > The background color will be green
 ```
 
-> Shorthand for both ["bg-green"](../bg-styling/page-7.md) and ["title-green"](../title-styling/page-7.md)
+> Shorthand for both ["bg-green"](../bg-styling/page-7.md)
+> and ["title-green"](../title-styling/page-7.md)
+

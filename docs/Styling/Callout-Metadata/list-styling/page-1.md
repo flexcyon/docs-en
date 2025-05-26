@@ -14,19 +14,25 @@ icon: material/format-list-numbered
 ```
 
 ___
+
 - There is no standard implementation for upper Greek
 
 What does "inside the list item along with the text mean"?
-> Effectively, the list item number/letter/whatever will inherit the indentation of the list item. Think of writing:
+
+> Effectively, the list item number/letter/whatever will inherit the indentation
+> of the list item. Think of writing:
+
 ```md
   1. Never
   2. Gonna
   3. Give
 ```
 
-instead of 
+instead of
+
 ```
 1. Never
 2. Gonna
 3. Give
 ```
+

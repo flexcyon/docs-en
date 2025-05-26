@@ -1,10 +1,10 @@
 ---
-title: 无序列表样式
-icon: material/format-list-bulleted
+title: 。icon: material/format-list-bulleted
 ---
 > `ul-style_type`
 
-用法 :
+。:
+
 ```md
 >[!info|ul-lower-roman] Your title as usual
 > 1. The bullet point will render as the roman numeral i in reading/live preview
@@ -12,3 +12,4 @@ icon: material/format-list-bulleted
 > 3. The bullet point render as the roman numeral iii in reading/live preview
 > ...
 ```
+

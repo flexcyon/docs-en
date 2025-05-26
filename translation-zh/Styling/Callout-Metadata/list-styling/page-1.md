@@ -1,6 +1,5 @@
 ---
-title: 排序列表样式
-icon: material/format-list-numbered
+title: 。icon: material/format-list-numbered
 ---
 > `ol-style_type`
 
@@ -12,21 +11,22 @@ icon: material/format-list-numbered
 > ...
 ```
 
-___ 
--  上希腊语没有标准执行
+ 
 
-"在列表项目和文本一起"是什么意思?
+-  。"。"。?
 ?
-> Effectively, the list item number/letter/whatever will inherit the indentation of the list item. Think of writing:
+> Effectively, the list item number/letter/whatever will inherit the indentation
+> of the list item. Think of writing:
+
 ```md
   1. Never
   2. Gonna
   3. Give
 ```
 
-改为
-```
+。```
 1. Never
 2. Gonna
 3. Give
 ```
+

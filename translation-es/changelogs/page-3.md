@@ -60,7 +60,7 @@ titulo de llamada y contenido
 
 - Modificaciones de la luz a los elementos de navegación en la palanca, Calendario plugin de estilo
 
-- Ligeras pinzas para editor de fondo teñido y rejilla de fondo estilo.
+- Ligeras pinzas para editor de fondo teñido y estilo de fondo de cuadrícula.
 .
 
 - La barra de títulos se adapta ahora al estilo de diseño seleccionado
@@ -110,7 +110,7 @@ impulsos, etc.
 
 ### Version 0.3.3 QOL Update
 
-- Factor de indentación configurable añadido y regulación de cabeceras colapsadas
+- Factor de indentación configurable agregado y regulación de cabeceras colapsadas
 Menú Ajustes de estilo
 
 - Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y

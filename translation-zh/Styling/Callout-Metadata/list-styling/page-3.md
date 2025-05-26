@@ -1,6 +1,5 @@
 ---
-title: 排序 + 无排序列表
-icon: material/format-list-bulleted-type
+title: 。+ 。icon: material/format-list-bulleted-type
 ---
 > `li-style_type`
 
@@ -15,7 +14,7 @@ icon: material/format-list-bulleted-type
 > ...
 ```
 
-___ 
-接受的格式`style_type`数字 : 那个[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
+ 
+。`style_type`。: 。[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
-想要对命令列表和非命令列表应用相同的样式时使用
+。

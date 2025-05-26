@@ -10,4 +10,7 @@ Metadatos de llamada: "bg-cyan"
 > The background color will be cyan
 ```
 
-El estilo en sí se aplica también["all-cyan"](../combined-styling/page-5.md)junto con["title-cyan"](../title-styling/page-5.md).
+El estilo en sí se aplica también["all-cyan"](../combined-styling/page-5.md)
+junto con["title-cyan"](../title-styling/page-5.md).
+.
+

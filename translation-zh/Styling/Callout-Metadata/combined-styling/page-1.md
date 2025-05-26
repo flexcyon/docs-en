@@ -1,19 +1,22 @@
 ---
-title: 空
-icon: material/cancel
+title: 。con: material/cancel
 ---
 
-点名元数据:"空"
+。:"空"
 
-用法 :
+。:
+
 ```md
 > [!|empty] Neither the title and callout icon will show
 > Content is shown as usual
 ```
 
-或者,您可以使用:
+。,。:
+
 ```md
 > [!info|empty] Neither the title and callout icon will show
 > Content is shown as usual
 ```
-> Shorthand for both ["no-icon"](../icon-styling/page-1.md) and ["no-title"](../title-styling/page-1.md)
+> Shorthand for both ["no-icon"](../icon-styling/page-1.md)
+> and ["no-title"](../title-styling/page-1.md)
+

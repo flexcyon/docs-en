@@ -7,7 +7,7 @@ icon: material/numeric-4-box-outline
 
 - Cambio de la barra lateral de fondo de brillo predeterminado a`unset`.
 .
-Antes estaba causando problemas como borroso contenido de plugin de Calender.
+Antes estaba causando problemas como desenfocar el contenido del plugin de Calender.
 .
 
 - Tema de luz WIP (mixes flexoki light + paleta de colores origami)

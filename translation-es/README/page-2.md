@@ -3,7 +3,8 @@ title: Instalación
 icon: material/download
 ---
 
-## Via Community Store (recommended)
+# Via Community Store (recommended)
+
 Para instalar este tema a través de la tienda comunitaria, navega por`Settings
 > Appearance`
 
@@ -14,9 +15,10 @@ Para instalar este tema a través de la tienda comunitaria, navega por`Settings
 > Click "Install and Use"`
 
 ## Via BRAT
+
 Para instalar este tema a través de BRAT, vaya a`Settings
 > Community Plugins
-> Browse` 
+> Browse`
 
 1.`Type "BRAT" in the search bar
 > Select it (the one by TftHacker)
@@ -31,7 +33,10 @@ Para instalar este tema a través de BRAT, vaya a`Settings
 5. Input`https://github.com/bladeacer/flexcyon`y luego haga clic`Add Theme`
 
 ## Style Settings Plugin
-La instalación de Style Settings es muy recomendable para este tema, ya que la mayoría de la personalización y funcionalidad se construye alrededor de él.
+
+La instalación de configuración de estilo es altamente recomendable para este tema, como la mayoría
+la personalización y funcionalidad se construye alrededor de ella.
 .
 
 Documentación para la configuración de estilo de este tema se puede encontrar[here](../Styling/Style-Settings/index.md)
+

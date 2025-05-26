@@ -8,6 +8,7 @@ Para la configuración de plugins compatibles oficialmente
 Formatos aceptados: HEX, rem, x.y, %
 
 ## Navigation
+
 ```md
 Style Settings
 |-- ...
@@ -22,6 +23,7 @@ Style Settings
 ### Alternate file tree
 
 #### Folders font size
+
 CSS Variable(s) targeted:`var(--oz-fta-folder-font-size)`
 
 Default: 0.925 (rem)
@@ -30,28 +32,35 @@ Default: 0.925 (rem)
 >Muestra Árbol de archivo alternativo Folders tamaño de la fuente</span>
 
 #### Folders font color
+
 CSS Variable(s) targeted:`var(--oz-fta-folder-pane-file-name-color)`
 
-Default (modo de luz):<span class="col-sqr" style="background-color: #080808"
+Default (modo de luz):
+<span class="col-sqr" style="background-color: #080808"
 ></span
 >#080808
 
-Default (modo oscuro):<span class="col-sqr" style="background-color: #d3d5d3"
+Default (modo oscuro):
+<span class="col-sqr" style="background-color: #d3d5d3"
 ></span
 >#d3d5d3
 
 #### Active folder color
+
 CSS Variables(s) targeted:`var(--oz-fta-all-panes-active-text-color)`
 
-Default (modo de luz):<span class="col-sqr" style="background-color: #080808"
+Default (modo de luz):
+<span class="col-sqr" style="background-color: #080808"
 ></span
 >#080808
-i
-Default (modo oscuro):<span class="col-sqr" style="background-color: #d3d5d3"
+
+Default (modo oscuro):
+<span class="col-sqr" style="background-color: #d3d5d3"
 ></span
 >#d3d5d3
 
 #### Files font size
+
 CSS Variable(s) targeted:`var(--oz-fta-file-font-size)`
 
 Predeterminado: 0.9 (rem)
@@ -60,38 +69,46 @@ Predeterminado: 0.9 (rem)
 >Muestra Árbol de archivos alternativos tamaño de fuente</san>
 
 #### Files font color
+
 CSS Variable(s) targeted:`var(--oz-fta-file-pane-file-name-color)`
 
-Default:<span class="col-sqr" style="background-color: #6f768599"
+Default:
+<span class="col-sqr" style="background-color: #6f768599"
 ></span
 >#6f768599
 
 #### Disable folder icons
+
 CSS Variable(s) targeted:`var(--flexcyon-oz-folder-icons-disabled)`
 
 Default:false(de clase)
 
 #### Disable file tree header
+
 CSS Variable(s) targeted:`var(--flexcyon-oz-file-tree-header-disabled)`
 
 Default:false(de clase)
 
 #### Enable Alternate folder count
+
 CSS Variable(s) targeted:`var(--flexcyon-oz-alternate-folder-count)`
 
 Default:false(de clase)
 
 #### Enabled dimmed file extensions in file tree
+
 CSS Variable(s) targeted:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
 
 Default:true(de clase)
 
-___
+__
+
 ### Full Calendar
 
 Formatos aceptados: x.y, %
 
 #### Opacity of dimmed full calendar items
+
 CSS Variables(s) targeted:`var(--flexcyon-fc-dimmed-items-opacity)`
 
 Default: 0.89
@@ -99,30 +116,37 @@ Default: 0.89
 <span style="opacity: 0.89"
 >Opacidad de muestra de elementos de calendario completo</span>
 
-___
+__
+
 ### Dataview
 
 Formatos aceptados: px
 
 #### Horizontal padding of dataview error messages
+
 CSS Variables(s) targeted:`var(--flexcyon-dataview-horizontal-padding)`
 
 Predeterminado: 8 (px)
 
-___
+__
+
 ### Canvas
+
 Define estilos para el plugin Canvas núcleo.
 .
 
 Formatos aceptados: px, RGB
 
 #### Blur inactive Canvas nodes
+
 CSS Variable(s) targeted:`var(--flexcyon-canvas-blur-inactive-nodes)`
 
 Default:false(de clase)
 
 #### Blur intensity for inactive nodes
-Utilizado con el ajuste anterior para establecer la intensidad borrosa de los nodos de tela inactiva y todas las flechas/edges.
+
+Usado con el ajuste anterior para establecer la intensidad de borda de los nodos de tela inactivos
+y todas las flechas/edges.
 .
 
 CSS Variable(s) targeted:`var(--flexcyon-canvas-blur-intensity)`
@@ -130,14 +154,26 @@ CSS Variable(s) targeted:`var(--flexcyon-canvas-blur-intensity)`
 Predeterminado: 1 (px)
 
 #### Canvas card menu alignment
+
 Configurar la alineación del menú de la tarjeta de lienzo.
 .
 
-CSS Classe(s) targeted:`.flexcyon-canvas-menu-bottom-left, .flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center, .flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right, .flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top, .flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center, .flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align`
+CSS Classe(s) targeted: `.flexcyon-canvas-menu-bottom-left,
+,
+.flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
+,
+.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
+,
+.flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
+,
+.flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center,
+,
+.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align `
 
 Predeterminado: ninguno (clase selecto)
 
 Opciones:
+
 - El fondo izquierdo
 
 - Bien.
@@ -161,3 +197,4 @@ Opciones:
 - Bien alineado fondo
 
 - Bien alineadocenteralign
+

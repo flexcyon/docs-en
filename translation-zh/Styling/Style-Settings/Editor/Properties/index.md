@@ -1,11 +1,12 @@
 ---
-title: 属性
-icon: material/axis-arrow-info
+title: 。icon: material/axis-arrow-info
 ---
 
-配置文件属性/元数据/YAML的CSS变量。
+././YAML的CSS。。
+.
 
 ## Navigation
+
 ```md
 Style Settings
 |-- ...
@@ -20,24 +21,29 @@ Style Settings
 
 ## Configuration Options
 
-接受格式: px
+。: px
 
 ### Do not show properties in reading mode
-目标CSS变量:`var(--flexcyon-metadata-display-reading-disabled)`
 
-默认 :true(类切换)
+。CSS。:`var(--flexcyon-metadata-display-reading-disabled)`
+
+。:true(。)
 
 ### Do not show properties in live preview mode
-目标CSS变量:`var(--flexcyon-metadata-display-editing-disabled)`
 
-默认 :false(类切换)
+。CSS。:`var(--flexcyon-metadata-display-editing-disabled)`
+
+。:false(。)
 
 ### Enable rainbow metadata icons
-目标CSS变量:`var(--flexcyon-metadata-rainbow-icons)`
 
-默认 :false(类切换)
+。CSS。:`var(--flexcyon-metadata-rainbow-icons)`
+
+。:false(。)
 
 ### Metadata container left padding
-目标CSS变量:`var(--flexcyon-meta-container-padding-left)`
 
-默认: 14 (px)
+。CSS。:`var(--flexcyon-meta-container-padding-left)`
+
+。: 14 (px)
+

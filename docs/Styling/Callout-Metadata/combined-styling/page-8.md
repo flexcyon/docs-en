@@ -10,4 +10,6 @@ Callout metadata: "all-orange"
 > The background color will be orange
 ```
 
-> Shorthand for both ["bg-orange"](../bg-styling/page-8.md) and ["title-orange"](../title-styling/page-8.md)
+> Shorthand for both ["bg-orange"](../bg-styling/page-8.md)
+> and ["title-orange"](../title-styling/page-8.md)
+

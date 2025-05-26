@@ -3,10 +3,12 @@ title: Indicadores de referencia
 icon: material/format-letter-case
 ---
 
-Añádase un indicador de partida para todas las partidas. aparecerá en modo de lectura, edición y fuente.
+Añádase un indicador de partida para todas las partidas. aparecerá en la lectura, edición
+y modo fuente.
 .
 
 Usage:
+
 ```md
 cssclasses:
     - headings-indicator-all
@@ -21,3 +23,4 @@ cssclasses:
 ```
 
 For a Style Settings equivalent which enables this option globally. [Click here](../../Style-Settings/Editor/Typography/headings/index.md#enable-heading-indicators-globally).
+

@@ -10,4 +10,7 @@ Metadatos de callout: "Título rojo"
 > The background color will display as usual
 ```
 
-El estilo en sí se aplica también["all-red"](../combined-styling/page-3.md)junto con["bg-red"](../bg-styling/page-3.md).
+El estilo en sí se aplica también["all-red"](../combined-styling/page-3.md)
+junto con["bg-red"](../bg-styling/page-3.md).
+.
+

@@ -11,7 +11,7 @@ O, si prefiere los cambios en el orden cronológico, puede utilizar
 el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 .
 
-___
+__
 
 ## Version 0.4.x
 
@@ -104,7 +104,7 @@ barras de estado más largas
 
 ### Version 0.3.3 QOL Update
 
-- Factor de indentación configurable añadido y regulación de cabeceras colapsadas
+- Factor de indentación configurable agregado y regulación de cabeceras colapsadas
 Menú Ajustes de estilo
 
 - Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
@@ -188,7 +188,7 @@ impulsos, etc.
 
 - Modificaciones de la luz a los elementos de navegación en la palanca, Calendario plugin de estilo
 
-- Ligeras pinzas para editor de fondo teñido y rejilla de fondo estilo.
+- Ligeras pinzas para editor de fondo teñido y estilo de fondo de cuadrícula.
 .
 
 - La barra de títulos se adapta ahora al estilo de diseño seleccionado
@@ -241,7 +241,7 @@ título y contenido
 
 -[See the documentation](../index.md)para más detalles
 
-___
+__
 
 ## Version 0.2.x
 
@@ -329,7 +329,7 @@ Elija entre las siguientes opciones:
 
 - Ver el[documentation](../index.md)para más detalles
 
-___
+__
 
 ## Version 0.1.x
 

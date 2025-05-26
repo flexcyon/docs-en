@@ -57,6 +57,5 @@ reglas horizontales
 -[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)tema
 para el modo RTZ y el estilo rápido
 
-___
+__
 Por último, pero no menos importante, *usted* para usar el tema y leer la documentación:D
-

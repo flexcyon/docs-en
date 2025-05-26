@@ -1,15 +1,13 @@
 ---
-title: 点名
-icon: material/information-slab-box-outline
+title: 。icon: material/information-slab-box-outline
 tags:
     - callouts
 ---
 
-配置呼叫的样式
-
-接受格式: px、rem、em、s
+。: px、rem、em、s
 
 ## Navigation
+
 ```md
 Style Settings
 |-- ...
@@ -25,57 +23,70 @@ Style Settings
 ## Configuration Options
 
 ### Callout Icon Right padding
-目标CSS变量:`var(--flexcyon-callout-icon-right-padding)`
 
-默认: 4(px)
+。CSS。:`var(--flexcyon-callout-icon-right-padding)`
+
+。: 4( px)
 
 ### First Codeblock Margin Top
-目标CSS变量:`var(--flexcyon-callout-first-codeblock-margin-top)`
 
-默认:1 (rem)
+。CSS。:`var(--flexcyon-callout-first-codeblock-margin-top)`
+
+。:1(。)
 
 ### Callout Metadata Background Opacity
-目标CSS变量:`var(--flexcyon-callout-bg-opacity)`
 
-默认: 20%
+。CSS。:`var(--flexcyon-callout-bg-opacity)`
+
+。:20%
 
 <span style="opacity: 20%"
->背景样本 不透明度</span>
+>。</span>
 
 ### Callout Vertical Margin
-目标CSS变量:`var(--flexcyon-callout-vertical-margin)`
 
-默认: 1(em)
+。CSS。:`var(--flexcyon-callout-vertical-margin)`
+
+。:1(em)
 
 ### Callout Border Radius
-目标CSS变量:`var(--callout-radius)`
 
-默认: 2 (px)
+。CSS。:`var(--callout-radius)`
 
-___ 
+。: 2 (px)
+
+ 
 ### Flashcard callout
-配置[flashcard callout](../../../Callout-Metadata/flashcard.md)。
+
+。[flashcard callout](../../../Callout-Metadata/flashcard.md)。
+.
 
 #### Flashcard callout width
-目标CSS变量:`var(--flexcyon-callouts-flashcard-width)`
 
-默认: 250 (px)
+。CSS。:`var(--flexcyon-callouts-flashcard-width)`
+
+。: 250 (px)
 
 #### Flashcard callout height
-目标CSS变量:`var(--flexcyon-callouts-flashcard-height)`
 
-默认: 250 (px)
+。CSS。:`var(--flexcyon-callouts-flashcard-height)`
+
+。: 250 (px)
 
 #### Flashcard callout animation duration
-目标CSS变量:`var(--flexcyon-callout-flashcard-animation-duration)`
 
-默认: 0.5s
+。CSS。:`var(--flexcyon-callout-flashcard-animation-duration)`
 
-___ 
+。: 0. 5s
+
+ 
 ### Popup callout
-配置[popup callout](../../../Callout-Metadata/popup.md)
+
+。[popup callout](../../../Callout-Metadata/popup.md)
 
 #### Popup callout animation duration
-目标CSS变量:`var(--flexcyon-callout-pop-animation-duration)`
 
-默认: 0.2s
+。CSS。:`var(--flexcyon-callout-pop-animation-duration)`
+
+。: 0.2s
+

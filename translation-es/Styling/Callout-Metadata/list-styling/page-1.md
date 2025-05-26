@@ -12,12 +12,15 @@ icon: material/format-list-numbered
 > ...
 ```
 
-___
+__
+
 - No hay aplicación estándar para el griego superior
 
 ¿Qué significa "en el artículo de la lista junto con el texto"?
 ?
-> Effectively, the list item number/letter/whatever will inherit the indentation of the list item. Think of writing:
+> Effectively, the list item number/letter/whatever will inherit the indentation
+> of the list item. Think of writing:
+
 ```md
   1. Never
   2. Gonna
@@ -25,8 +28,10 @@ ___
 ```
 
 en lugar de
+
 ```
 1. Never
 2. Gonna
 3. Give
 ```
+

@@ -10,4 +10,6 @@ Callout metadata: "bg-orange"
 > The background color will be orange
 ```
 
-The style itself is also applied to ["all-orange"](../combined-styling/page-8.md) along with ["title-orange"](../title-styling/page-8.md).
+The style itself is also applied to ["all-orange"](../combined-styling/page-8.md)
+along with ["title-orange"](../title-styling/page-8.md).
+

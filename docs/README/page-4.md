@@ -7,7 +7,8 @@ tags:
 
 This theme sets out to achieve the following
 
-1. Be "reasonably opinionated", bundle features users use and cover some niche ones too.
+1. Be "reasonably opinionated", bundle features users use and cover some niche 
+ones too.
 
 2. Be decently lightweight, this means *no embeds* (no fonts, SVGs)
 
@@ -17,4 +18,5 @@ This theme sets out to achieve the following
 
 5. Dim inactive or unfocused UI elements to reduce information overload
 
-6. Bundle numerous callout metadata utilites and cssclasses
+6. Bundle numerous callout metadata utilites and cssclasses.
+

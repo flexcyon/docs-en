@@ -57,4 +57,3 @@ for RTZ mode and prompt styling
 
 ___
 Last but not least, *you* for using the theme and reading the documentation :D
-

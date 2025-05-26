@@ -230,8 +230,8 @@ def fix_chinese_full_stop(text):
     """
     text = re.sub(r'([\u4e00-\u9fff])\.(\s|$)', r'\1。\2', text)
     # Replace multiple Chinese full stops with or without spaces with a single one
-    text = re.sub(r'(?:。[\s]*){2,}', '。', text)
-    text = re.sub(r'。.', '。', text)
+    text = re.sub(r'(?:[\u4e00-\u9fff][\s]*){2,}', '。', text)
+    text = re.sub(r'[\u4e00-\u9fff]\s.', '。', text)
     return text
 
 def copy_dirs(input_folder, output_folder):

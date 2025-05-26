@@ -1,5 +1,5 @@
 ---
-title: Tamaño de la fuente UI
+title: UI tamaño de fuente
 icon: material/format-font-size-increase
 ---
 
@@ -8,8 +8,8 @@ Supera los tamaños de fuente predeterminados utilizados en la interfaz.
 
 Formatos aceptados: px
 
-
 ## Navigation
+
 ```md
 Style Settings
 |-- ...
@@ -28,6 +28,7 @@ Style Settings
 ## Configuration Options
 
 ### Smaller UI Font size
+
 CSS Variable(s) targeted:`var(--font-ui-smaller)`
 
 Predeterminado: 12 (px)
@@ -36,6 +37,7 @@ Predeterminado: 12 (px)
 >Muestra menor tamaño de fuente UI</span>
 
 ### Small UI Font size
+
 CSS Variable(s) targeted:`var(--font-ui-small)`
 
 Por defecto: 13 px
@@ -44,6 +46,7 @@ Por defecto: 13 px
 >Muestra pequeño tamaño de fuente UI</span>
 
 ### Medium UI Font size
+
 CSS Variable(s) targeted:`var(--font-ui-medium)`
 
 Predeterminado: 15 (px)
@@ -52,6 +55,7 @@ Predeterminado: 15 (px)
 >Tamaño de fuente UI medio de muestra</span>
 
 ### Large UI Font size
+
 CSS Variable(s) targeted:`var(--font-ui-large)`
 
 Predeterminado: 20 (px)

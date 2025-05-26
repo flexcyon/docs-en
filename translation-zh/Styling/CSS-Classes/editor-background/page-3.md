@@ -1,10 +1,11 @@
 ---
-title: Rhombus 背景资料
-icon: material/rhombus-split-outline
+title: Rhombus 。icon: material/rhombus-split-outline
 ---
 
-## Usage
-在编辑器背景中添加重复的rhombi模式。旋转可以调整。
+# Usage
+
+。rhombi。。 。。
+.
 
 ```md
 cssclasses:
@@ -14,10 +15,13 @@ cssclasses:
 Your content will render as usual
 ```
 
-### Callout metadata provider
-There is also a callout metadata provider for rhombus background (which works in live preview and reading mode)
+## Callout metadata provider
+
+There is also a callout metadata provider for rhombus background (which works in
+live preview and reading mode)
 
 ```md
 >[!note|bg-rhombus] I will display as usual
 > I will have a rhombus background
 ```
+

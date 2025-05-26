@@ -1,9 +1,9 @@
 ---
-title: 提升图标百分比
-icon: material/emoticon-plus-outline
+title: 。icon: material/emoticon-plus-outline
 ---
 
 ## Navigation
+
 ```md
 Style Settings
 |-- ...
@@ -20,17 +20,19 @@ Style Settings
 ## Configuration Options
 
 #### Upscale percentage of icons 1
-目标CSS变量:`var(--upsize)`
 
-默认: 103%
+。CSS。:`var(--upsize)`
+
+。: 103%
 
 <span style="scale: 103%"
->抽样比例 页:1</span>
+>。:1</span>
 
 #### Upscale percentage of icons 2
-目标CSS变量:`var(--expand)`
 
-默认: 110%
+。CSS。:`var(--expand)`
+
+。: 110%
 
 <span style="scale: 110%"
->抽样比例 2个</span>
+>。2个</span>

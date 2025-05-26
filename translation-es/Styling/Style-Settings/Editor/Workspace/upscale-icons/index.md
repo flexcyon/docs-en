@@ -4,6 +4,7 @@ icon: material/emoticon-plus-outline
 ---
 
 ## Navigation
+
 ```md
 Style Settings
 |-- ...
@@ -20,6 +21,7 @@ Style Settings
 ## Configuration Options
 
 #### Upscale percentage of icons 1
+
 CSS Variable(s) targeted:`var(--upsize)`
 
 Predeterminado: 103%
@@ -28,6 +30,7 @@ Predeterminado: 103%
 >Porcentaje de aumento de la muestra 1</span>
 
 #### Upscale percentage of icons 2
+
 CSS Variable(s) targeted:`var(--expand)`
 
 Predeterminado: 110%

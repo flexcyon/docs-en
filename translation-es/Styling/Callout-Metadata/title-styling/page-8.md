@@ -10,4 +10,7 @@ Metadatos de callout: "título extraño"
 > The background color will display as usual
 ```
 
-El estilo en sí se aplica también["all-orange"](../combined-styling/page-8.md)junto con["bg-orange"](../bg-styling/page-8.md).
+El estilo en sí se aplica también["all-orange"](../combined-styling/page-8.md)
+junto con["bg-orange"](../bg-styling/page-8.md).
+.
+

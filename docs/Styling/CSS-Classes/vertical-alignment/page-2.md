@@ -3,9 +3,12 @@ title: Vertical Alignment - Tategaki
 icon: material/align-horizontal-right
 ---
 
+# Usage
+
 Applies Horizontal Right-to-Left (RTL) to your notes in reading mode
 
 Usage:
+
 ```md
 ---
 cssclasses
@@ -13,4 +16,5 @@ cssclasses
 ---
 ```
 
-Add link to tategaki in callouts
+Add link to tategaki in callout
+

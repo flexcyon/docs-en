@@ -10,4 +10,6 @@ Callout metadata: "title-cyan"
 > The background color will display as usual
 ```
 
-The style itself is also applied to ["all-cyan"](../combined-styling/page-5.md) along with ["bg-cyan"](../bg-styling/page-5.md).
+The style itself is also applied to ["all-cyan"](../combined-styling/page-5.md)
+along with ["bg-cyan"](../bg-styling/page-5.md).
+

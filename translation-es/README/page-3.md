@@ -8,9 +8,11 @@ tags:
 ---
 
 Se admiten oficialmente los siguientes plugins/snippets
-> For plugins/snippets that are not styled yet, feel free to open a Pull Request/Feature Request/start a Discussion on it.
+> For plugins/snippets that are not styled yet, feel free to
+> open a Pull Request/Feature Request/start a Discussion on it.
 
 ## Plugins
+
 [File Tree Alternative by Ozan Tellioglu](https://github.com/ozntel/file-tree-alternative)
 
 [Highlightr by Chetachi](https://github.com/chetachiezikeuzor/Highlightr-Plugin)
@@ -32,4 +34,5 @@ Se admiten oficialmente los siguientes plugins/snippets
 [Kanban by mgmyers](https://github.com/mgmeyers/obsidian-kanban)
 
 ## Snippets
+
 [CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)

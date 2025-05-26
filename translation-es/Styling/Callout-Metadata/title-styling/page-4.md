@@ -10,4 +10,7 @@ Metadatos de callout: "tit-purple"
 > The background color will display as usual
 ```
 
-El estilo en sí se aplica también["all-purple"](../combined-styling/page-4.md)junto con["bg-purple"](../bg-styling/page-4.md).
+El estilo en sí se aplica también["all-purple"](../combined-styling/page-4.md)
+junto con["bg-purple"](../bg-styling/page-4.md).
+.
+

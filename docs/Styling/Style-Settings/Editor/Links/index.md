@@ -8,6 +8,7 @@ Configure the color of links.
 Accepted formats: HEX
 
 ## Navigation
+
 ```md
 Style Settings
 |-- ...
@@ -23,9 +24,12 @@ Style Settings
 ## Configuration Options
 
 ### Internal Link Color
+
 CSS Variable(s) targeted: `var(--flexcyon-link-color)`
 
-Default (light mode): <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
+Default (light mode):
+<span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
+
 
 Default (dark mode): <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
 

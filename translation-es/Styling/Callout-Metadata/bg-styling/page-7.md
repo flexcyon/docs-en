@@ -10,4 +10,7 @@ Metadatos de llamada: "Bg-green"
 > The background color will be green
 ```
 
-El estilo en sí se aplica también["all-green"](../combined-styling/page-7.md)junto con["title-green"](../title-styling/page-7.md).
+El estilo en sí se aplica también["all-green"](../combined-styling/page-7.md)
+junto con["title-green"](../title-styling/page-7.md).
+.
+

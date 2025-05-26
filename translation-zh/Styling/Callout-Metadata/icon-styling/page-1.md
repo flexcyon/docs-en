@@ -1,11 +1,11 @@
 ---
-title: 无图标
-icon: material/emoticon-minus
+title: 。icon: material/emoticon-minus
 ---
 
-点名元数据:"no-icon"
+。:"no-icon"
 
-用法 :
+。:
+
 ```md
 > [!info|no-icon] The callout will have no icon
 > Content
@@ -16,4 +16,7 @@ icon: material/emoticon-minus
 > Content
 ```
 
-样式本身也适用于["empty"](../combined-styling/page-1.md)页:1["no-title"](../title-styling/page-1.md)。
+。["empty"](../combined-styling/page-1.md)
+页:1["no-title"](../title-styling/page-1.md)。
+.
+

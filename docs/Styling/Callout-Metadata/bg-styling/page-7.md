@@ -10,4 +10,6 @@ Callout metadata: "bg-green"
 > The background color will be green
 ```
 
-The style itself is also applied to ["all-green"](../combined-styling/page-7.md) along with ["title-green"](../title-styling/page-7.md).
+The style itself is also applied to ["all-green"](../combined-styling/page-7.md)
+along with ["title-green"](../title-styling/page-7.md).
+

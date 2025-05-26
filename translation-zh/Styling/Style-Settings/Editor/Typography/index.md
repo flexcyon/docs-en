@@ -1,13 +1,15 @@
 ---
-title: 类型
-icon: material/format-text
+title: 。icon: material/format-text
 ---
 
-定义变音文本颜色、标题样式以及控制UI字体大小。
+。、 。UI
+。。
+.
 
-接受格式: HEX
+。: HEX
 
 ## Navigation
+
 ```md
 Style Settings
 |-- ...
@@ -23,8 +25,10 @@ Style Settings
 ## Configuration Options
 
 ### Muted text color
-目标CSS变量:`var(--flexcyon-text-muted)`
 
-默认 :<span class="col-sqr" style="background-color: #6f768599"
+。CSS。:`var(--flexcyon-text-muted)`
+
+。:
+<span class="col-sqr" style="background-color: #6f768599"
 ></span
->#6f768599
+>#6f768599 (。).

@@ -1,21 +1,15 @@
 ---
-title: 设计原则
-icon: material/pen
+title: 。icon: material/pen
 tags:
     - styling
 ---
 
-这一主题旨在实现以下目标:
+。:
 
-一、导 言 使用“ 合理评分” 、 捆绑功能cover一些合适的。
+一、。“ 。” 、 。cover。.
+
+2. 。,。* 。* (。, SVG)
+
+3。ane 。4。5.五。 。Dim。UI。6。cssclass.
 .
 
-2. 适度轻便,这意味着 *没有嵌入* (没有字体, SVG)
-
-3. 合理的默认设置
-
-4. 可定制的样式设置
-
- 5. 用于减少信息超载的Dim不活动或无重点的UI元素
-
-6. 套装众多调用元数据功用和 cssclass

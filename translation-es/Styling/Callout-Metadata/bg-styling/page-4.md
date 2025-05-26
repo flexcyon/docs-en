@@ -10,4 +10,7 @@ Metadatos de llamada: "bg-purple"
 > The background color will be purple
 ```
 
-El estilo en sí se aplica también["all-purple"](../combined-styling/page-4.md)junto con["title-purple"](../title-styling/page-4.md).
+El estilo en sí se aplica también["all-purple"](../combined-styling/page-4.md)
+junto con["title-purple"](../title-styling/page-4.md).
+.
+

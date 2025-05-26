@@ -10,4 +10,6 @@ Callout metadata: "bg-red"
 > The background color will be red
 ```
 
-The style itself is also applied to ["all-red"](../combined-styling/page-3.md) along with ["title-red"](../title-styling/page-3.md).
+The style itself is also applied to ["all-red"](../combined-styling/page-3.md)
+along with ["title-red"](../title-styling/page-3.md).
+

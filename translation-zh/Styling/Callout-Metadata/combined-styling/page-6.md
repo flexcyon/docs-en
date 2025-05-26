@@ -1,12 +1,13 @@
 ---
-title: 全粉红色
-icon: material/format-color-fill
+title: 。icon: material/format-color-fill
 ---
 
-点名元数据: "全平克"
+。: "。"
 
 ```md
 > [!tip|all-pink] Title will be pink
 > The background color will be pink
 ```
-> Shorthand for both ["bg-pink"](../bg-styling/page-6.md) and ["title-pink"](../title-styling/page-6.md)
+> Shorthand for both ["bg-pink"](../bg-styling/page-6.md)
+> and ["title-pink"](../title-styling/page-6.md)
+

@@ -10,4 +10,6 @@ Callout metadata: "all-pink"
 > The background color will be pink
 ```
 
-> Shorthand for both ["bg-pink"](../bg-styling/page-6.md) and ["title-pink"](../title-styling/page-6.md)
+> Shorthand for both ["bg-pink"](../bg-styling/page-6.md)
+> and ["title-pink"](../title-styling/page-6.md)
+
