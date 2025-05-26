@@ -2,7 +2,7 @@
 title: 。icon: material/format-letter-case-upper
 ---
 
-。: “ 。”
+Callout metadata: "uppercase-title"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/format-letter-case-upper
 
 。["uppercase-all"](../combined-styling/page-14.md)
 页:1["uppercase-content"](../content-styling/page-4.md)。
-.
 

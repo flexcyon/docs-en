@@ -2,7 +2,7 @@
 title: 。icon: material/angle-acute
 ---
 
-。:"tit-content"
+Callout metadata: "tilt-content"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/angle-acute
 
 。["tilt-all"](../combined-styling/page-17.md)
 页:1["tilt-title"](../title-styling/page-17.md)。
-.
 

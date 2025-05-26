@@ -2,7 +2,9 @@
 title: 。icon: material/multimedia
 ---
 
-。: px
+Configure media related settings
+
+Accepted formats: px
 
 ## Navigation
 
@@ -24,11 +26,11 @@ Style Settings
 
 。CSS。:`var(--flexcyon-media-embed-vertical-margin)`
 
-。: 8 (px)
+Default: 8 (px)
 
 ### Image border radius
 
 。CSS。:`var(--img-border-radius)`
 
-。: 15 (px)
+Default: 15 (px)
 

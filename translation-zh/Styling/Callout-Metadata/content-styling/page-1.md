@@ -2,7 +2,7 @@
 title: RTL 。icon: material/align-horizontal-right
 ---
 
-。: “ trl- content”
+Callout metadata: "rtl-content"
 
 。:
 

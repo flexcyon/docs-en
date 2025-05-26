@@ -2,10 +2,9 @@
 title: 。icon: material/cogs
 ---
 
-。UI 。。
-.
+For customising the appearance of various UI aspects of settings.
 
-。: x.y, rem, px
+Accepted Formats: x.y, rem, px
 
 ## Navigation
 
@@ -46,7 +45,7 @@ Style Settings
 。: 0.89
 
 <span style="opacity: 0.89"
->。(。)</span>
+>Sample opacity of community items (unselected)</span>
 
 ### Installed tooltip left margin
 
@@ -69,6 +68,8 @@ Style Settings
  
 
 ### Style Settings
+
+Configure the appearance for style settings
 
 。: px
 

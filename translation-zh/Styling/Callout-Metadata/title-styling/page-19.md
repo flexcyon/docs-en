@@ -2,7 +2,7 @@
 title: 。icon: material/format-letter-case-upper
 ---
 
-。:"oblique-title"
+Callout metadata: "oblique-title"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/format-letter-case-upper
 
 。["oblique-all"](../combined-styling/page-19.md)
 页:1["oblique-content"](../content-styling/page-9.md)。
-.
 

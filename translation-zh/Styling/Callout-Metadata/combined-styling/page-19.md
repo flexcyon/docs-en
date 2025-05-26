@@ -2,7 +2,7 @@
 title: 。icon: material/format-text-variant
 ---
 
-。: "oblique-all"
+Callout metadata: "oblique-all"
 
 。:
 

@@ -2,7 +2,7 @@
 title: 。icon: material/format-italic
 ---
 
-。: “ 。”
+Callout metadata: "italic-all"
 
 。:
 

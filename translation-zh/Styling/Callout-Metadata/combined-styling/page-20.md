@@ -2,7 +2,7 @@
 title: 。icon: material/format-color-text
 ---
 
-。: “ 。”
+Callout metadata: "dashed-all"
 
 。:
 

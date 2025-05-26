@@ -2,7 +2,7 @@
 title: 。icon: material/select-color
 ---
 
-。: “ title- purple ”
+Callout metadata: "title-purple"
 
 ```md
 > [!info|title-purple] Title will be purple
@@ -11,5 +11,4 @@ title: 。icon: material/select-color
 
 。["all-purple"](../combined-styling/page-4.md)
 页:1["bg-purple"](../bg-styling/page-4.md)。
-.
 

@@ -4,8 +4,7 @@ title: 。icon: material/dots-grid
 
 # Usage
 
-。。 。。
-.
+Adds repeating dots to your editor background. Size can be adjusted in style settings.
 
 ```md
 cssclasses:

@@ -2,7 +2,7 @@
 title: 。icon: material/format-color-text
 ---
 
-。:"。"
+Callout metadata: "dashed-title"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/format-color-text
 
 。["dashed-all"](../combined-styling/page-20.md)
 页:1["dashed-content"](../content-styling/page-10.md)。
-.
 

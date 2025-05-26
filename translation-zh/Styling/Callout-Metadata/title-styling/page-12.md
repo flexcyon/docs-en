@@ -2,7 +2,7 @@
 title: LTR 。icon: material/align-horizontal-left
 ---
 
-。: "ltr- title"
+Callout metadata: "ltr-title"
 
 。:
 
@@ -13,5 +13,4 @@ title: LTR 。icon: material/align-horizontal-left
 
 。["ltr-all"](../combined-styling/page-12.md)
 页:1["ltr-content"](../content-styling/page-2.md)。
-.
 

@@ -4,8 +4,7 @@ title: 。icon: material/grid
 
 # Usage
 
-。。 。。
-.
+Adds a grid to your editor background. Size can be adjusted in style settings.
 
 ```md
 cssclasses:

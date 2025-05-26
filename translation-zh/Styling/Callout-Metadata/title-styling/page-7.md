@@ -2,7 +2,7 @@
 title: 。icon: material/select-color
 ---
 
-。: "title-green"
+Callout metadata: "title-green"
 
 ```md
 > [!info|title-green] Title will be green
@@ -11,5 +11,4 @@ title: 。icon: material/select-color
 
 。["all-green"](../combined-styling/page-7.md)
 页:1["bg-green"](../bg-styling/page-7.md)。
-.
 

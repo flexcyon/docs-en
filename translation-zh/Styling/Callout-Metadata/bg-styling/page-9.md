@@ -2,7 +2,7 @@
 title: 。icon: material/layers-outline
 ---
 
-。:"bg-yallow"
+Callout metadata: "bg-yellow"
 
 ```md
 > [!info|bg-yellow] Title will display as usual
@@ -11,5 +11,4 @@ title: 。icon: material/layers-outline
 
 。["all-yellow"](../combined-styling/page-9.md)
 页:1["title-yellow"](../title-styling/page-9.md)。
-.
 

@@ -2,7 +2,7 @@
 title: 。icon: material/select-color
 ---
 
-。:"。-黄"
+Callout metadata: "title-yellow"
 
 ```md
 > [!info|title-yellow] Title will be yellow
@@ -11,5 +11,4 @@ title: 。icon: material/select-color
 
 。["all-yellow"](../combined-styling/page-9.md)
 页:1["bg-yellow"](../bg-styling/page-9.md)。
-.
 

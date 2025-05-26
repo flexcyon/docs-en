@@ -2,7 +2,7 @@
 title: 。icon: material/emoticon-minus
 ---
 
-。:"no-icon"
+Callout metadata: "no-icon"
 
 。:
 
@@ -18,5 +18,4 @@ title: 。icon: material/emoticon-minus
 
 。["empty"](../combined-styling/page-1.md)
 页:1["no-title"](../title-styling/page-1.md)。
-.
 

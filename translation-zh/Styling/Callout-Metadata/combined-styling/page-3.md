@@ -2,7 +2,7 @@
 title: 。icon: material/format-color-fill
 ---
 
-。:"。"
+Callout metadata: "all-red"
 
 ```md
 > [!tip|all-red] Title will be red

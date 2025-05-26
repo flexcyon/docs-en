@@ -11,8 +11,8 @@ this theme
 > The background color will be as usual
 ```
 
-。["all-color1-color2"](../combined-styling/page-10.md)页:1["bg-color1-color2"](../bg-styling/page-10.md)。
-.
+The style itself is also applied to
+["all-color1-color2"](../combined-styling/page-10.md)页:1["bg-color1-color2"](../bg-styling/page-10.md)。
 
 。[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)
 。

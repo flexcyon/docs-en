@@ -2,7 +2,9 @@
 title: 。icon: material/hexagon-outline
 ---
 
-。:HEX、rem、x.y,%
+For configuration of officially supported plugins
+
+Accepted formats: HEX, rem, x.y, %
 
 ## Navigation
 
@@ -23,10 +25,10 @@ Style Settings
 
 。CSS。:`var(--oz-fta-folder-font-size)`
 
-。: 0.925(。)
+Default: 0.925 (rem)
 
 <span style="font-size: 0.925rem"
->。</span>
+>Sample Alternate file tree Folders font size</span>
 
 #### Folders font color
 
@@ -40,11 +42,11 @@ Style Settings
 。( 。) :
 <span class="col-sqr" style="background-color: #d3d5d3"
 ></span
->#d3d5d3 。:
+>#d3d5d3 (。:
 
 #### Active folder color
 
-。CSS。:`var(--oz-fta-all-panes-active-text-color)`
+CSS Variables(s) targeted: `var(--oz-fta-all-panes-active-text-color)`
 
 。( 。) :
 <span class="col-sqr" style="background-color: #080808"
@@ -54,16 +56,16 @@ Style Settings
 。( 。) :
 <span class="col-sqr" style="background-color: #d3d5d3"
 ></span
->#d3d5d3 。:
+>#d3d5d3 (。:
 
 #### Files font size
 
 。CSS。:`var(--oz-fta-file-font-size)`
 
-。: 0.9(。)
+Default: 0.9 (rem)
 
 <span style="font-size: 0.9rem"
->。</san>
+>Sample Alternate file tree Files font size</san>
 
 #### Files font color
 
@@ -102,16 +104,16 @@ Style Settings
 
 ### Full Calendar
 
-。: x.y,%
+Accepted formats: x.y, %
 
 #### Opacity of dimmed full calendar items
 
 。CSS。:`var(--flexcyon-fc-dimmed-items-opacity)`
 
-。: 0.89
+Default: 0.89
 
 <span style="opacity: 0.89"
->。</span>
+>Sample opacity of dimmed full calendar items</span>
 
  
 
@@ -129,10 +131,9 @@ Style Settings
 
 ### Canvas
 
-。Canvas 。。
-.
+Defines styles for the core Canvas plugin.
 
-。: px, RGB
+Accepted formats: px, RGB
 
 #### Blur inactive Canvas nodes
 
@@ -142,38 +143,46 @@ Style Settings
 
 #### Blur intensity for inactive nodes
 
-./。。
-.
+Used with the previous setting to set the blur intensity of inactive canvas nodes
+and all arrows/edges.
 
 。CSS。:`var(--flexcyon-canvas-blur-intensity)`
 
-。:1 (px)
+Default: 1 (px)
 
 #### Canvas card menu alignment
 
-。。
-.
+Configure the alignment of the canvas card menu.
 
-CSS。: . . . . . . . .
+CSS Classe(s) targeted: `.flexcyon-canvas-menu-bottom-left,
+.flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
+.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
+.flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
+.flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center, (。).
 ,
-.flexcyon-canvas-menu-。.flexcyon-canvas-menu-top-center, (。).
-,
-.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-reat, . .flexcyon-canvas-menu-top-left-right, 。,。2014-03-02.,.
-,
-. . . . . . . . . center. . . . . . .
-,
-.flexcyon-canvas-menu-lcenter-bottom,.flexcyon-canvas-menu-rcenter-)。center, (。).
-,
-.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-center-aign (。). `
+.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align`
 
 。: 无( 。)
 
 。:
 
--。- 。- 。center
+-。- Bottom right
 
-- 。- 。- 。center
+- 。center
 
-- 。- 。- 。center
+- 。- Top right
 
-- 。- 。- 。center。
+- Left aligned center
+
+- Left aligned top
+
+- Left aligned bottom
+
+- Right aligned center
+
+- Right aligned top
+
+- Right aligned bottom
+
+- 。center align
+

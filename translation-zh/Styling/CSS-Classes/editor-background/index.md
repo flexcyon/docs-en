@@ -2,6 +2,6 @@
 title: 。icon: material/notebook-edit
 ---
 
-。, 。csslass 。
-.
+In this sub-page, you can find usage examples for changing the editor background
+using cssclasses.
 

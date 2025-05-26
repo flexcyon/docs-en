@@ -2,7 +2,7 @@
 title: 。icon: material/format-strikethrough
 ---
 
-。:“ 。”
+Callout metadata: "line-through-content"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/format-strikethrough
 
 。["line-through-all"](../combined-styling/page-23.md)
 页:1["line-through-title"](../title-styling/page-23.md)。
-.
 

@@ -2,8 +2,8 @@
 title: 。icon: material/format-letter-case
 ---
 
-。。 。、。。
-.
+Add a heading indicator for all headings. Will appear in reading, editing
+and source mode.
 
 。:
 

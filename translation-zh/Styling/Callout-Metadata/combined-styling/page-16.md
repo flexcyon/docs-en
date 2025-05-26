@@ -2,7 +2,7 @@
 title: 。icon: material/caps-lock
 ---
 
-。: "caps- all"
+Callout metadata: "caps-all"
 
 。:
 

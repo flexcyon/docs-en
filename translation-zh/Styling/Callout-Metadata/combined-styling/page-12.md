@@ -2,7 +2,7 @@
 title: LTR 。icon: material/align-horizontal-left
 ---
 
-。: “ 。”
+Callout metadata: "ltr-all"
 
 。:
 

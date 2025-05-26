@@ -1,8 +1,9 @@
 ---
-title: 。- H3。con: material/format-header-3
+title: 。- H3。icon: material/format-header-3
 ---
 
-。3。。 。、。。
+Add a heading indicator for heading 3s. Will appear in reading, editing and
+。。
 .
 
 。:

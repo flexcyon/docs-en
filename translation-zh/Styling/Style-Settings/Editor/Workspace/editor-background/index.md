@@ -2,7 +2,8 @@
 title: 。icon: material/layers-edit
 ---
 
-。: px, deg
+Configure the background in the editor
+Accepted formats: px, deg
 
 ## Navigation
 
@@ -30,11 +31,15 @@ CSS。:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
 。: 无( 。)
 。:
 
-- 。- 。- 。### Rotation value for grid and rhombus background
+- Grid Background
+- Dotted Background
+- Rhombus Background
+
+### Rotation value for grid and rhombus background
 
 。CSS。:`var(--flexcyon-editor-bg-rotation)`
 
-。: 0 (deg)
+Default: 0 (deg)
 
 ### Width between each dot/line for grid/dotted background
 

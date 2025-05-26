@@ -2,8 +2,7 @@
 title: UI 。icon: material/format-font-size-increase
 ---
 
-。。
-.
+Overrides default font sizes used in the interface.
 
 。: px
 
@@ -30,19 +29,19 @@ Style Settings
 
 。CSS。:`var(--font-ui-smaller)`
 
-。: 12 (px)
+Default: 12 (px)
 
 <span style="font-size: 12px"
->。UI 。</span>
+>Sample smaller UI font size</span>
 
 ### Small UI Font size
 
 。CSS。:`var(--font-ui-small)`
 
-。: 13 (px)
+Default: 13 (px)
 
 <span style="font-size: 13px"
->小UI。</span>
+>Sample small UI font size</span>
 
 ### Medium UI Font size
 
@@ -51,13 +50,13 @@ Style Settings
 。: 15 (px)
 
 <span style="font-size: 15px"
->。UI 。</span>
+>Sample medium UI font size</span>
 
 ### Large UI Font size
 
 。CSS。:`var(--font-ui-large)`
 
-。: 20 (px)
+Default: 20 (px)
 
 <span style="font-size: 20px"
->。largeUI 。</span>
+>Sample large UI font size</span>

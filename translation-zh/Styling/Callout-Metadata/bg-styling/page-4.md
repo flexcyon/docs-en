@@ -2,7 +2,7 @@
 title: 。icon: material/layers-outline
 ---
 
-。: "bg- purple"
+Callout metadata: "bg-purple"
 
 ```md
 > [!info|bg-purple] Title will display as usual
@@ -11,5 +11,4 @@ title: 。icon: material/layers-outline
 
 。["all-purple"](../combined-styling/page-4.md)
 页:1["title-purple"](../title-styling/page-4.md)。
-.
 

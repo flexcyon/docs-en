@@ -2,12 +2,16 @@
 title: 。icon: material/format-bold
 ---
 
-。: "W -`value`- 。- 。- all".
+Callout metadata: "w-`value`- 。- 。- all".
 
-。`value`。:
+Accepted Formats for `value`:
 
-- 100至900人(。100人)
-- 。- 。- 。:
+- 100 to 900 (in increments of 100)
+- bold
+- bolder
+- lighter
+
+。:
 
 ```md
 > [!info|w-lighter-all] I will have a lighter font weight

@@ -2,20 +2,54 @@
 icon: material/heart
 title: 。---
 
-。[Halcyon theme](https://github.com/dbarenholz/halcyon-obsidian)。[flexoki](https://github.com/kepano/flexoki-obsidian)。,。MIT。。
-.
+A huge shout out to Daniel's
+[Halcyon theme](https://github.com/dbarenholz/halcyon-obsidian) and
+kepano's [flexoki](https://github.com/kepano/flexoki-obsidian) theme, both of
+which are under the MIT license.
 
-。,。。
-。[Origami theme](https://github.com/7368697661/Origami)
-(。MIT。.
+In addition, the light mode colour scheme would not be possible without the
+great [Origami theme](https://github.com/7368697661/Origami)
+(which is also under the MIT License).
 
 ## Snippets
 
-- `@OWA/bennyyip`。bisidian 。Discord 。Tategaki 。- [Ukiyo](https://github.com/technerium/obsidian-ukiyo)。aykinov 。wizentex
+- `@OWA/bennyyip`。bisidian 。Discord 。Tategaki 。- [Ukiyo](https://github.com/technerium/obsidian-ukiyo) Theme by vaykinov and
+wizentex for the popup callout
 
-- `@Kapirklaa`。bisidian 。Discord (@ ElsaTam on GitHub) 。- `@Nuno`。Tab 。Obsidian Members Group Discord
+- `@Kapirklaa` on the Obisidian Members' Group Discord (@ElsaTam on GitHub) for
+the background image snippet
+
+- `@Nuno` on the Obsidian Members' Group Discord for the tab animations snippet
 
 - [Enhanced File Explorer](https://github.com/LennZone/enhanced-file-explorer-tree)
-。ennZone 。## Ideas, Feedback
+Theme by LennZone for the markdown file tree style
 
-- `@Tuck`。bsidian 。Discord 。- `@Floodlight`。、 TUI 。、 。- `@Dante`。Obisidian 。- `@TundraMoonlight`。Obisidian。tUI 。- `@Kapirklaa`。bisidian 。Discord (@ ElsaTam on GitHub) 。- `@BEN10`obisidian 。, Powerlevel10k。- `@Michael`。Obisidian。- `@Binaris`和`@Dante`。Obsidian 。- [Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)。RTZ 。, *你* 。:D
+## Ideas, Feedback
+
+- `@Tuck` on the Obsidian Members' Group Discord for options to change link
+color and indentation of Style Settings headings
+
+- `@Floodlight` on the Obisidian Members' Group Discord for better consistency
+of active navigation items, TUI rendering in light mode, left sidebar toggle
+button rendering when show ribbon is disabled
+
+- `@Dante` on the Obisidian Members' Group Discord for embeds not displaying
+
+- `@TundraMoonlight` on the Obisidian Members' Group Discord for inspiration for
+the TUI add-on
+
+- `@Kapirklaa`。bisidian 。Discord (@ ElsaTam on GitHub) 。inspiration for callout metadata utilities
+
+- `@BEN10` on the Obisidian Members' Group Discord for fixes to the
+documentation, Powerlevel10k layout
+
+- `@Michael` on the Obisidian Members' Group Discord for global heading indicators
+
+- `@Binaris`和`@Dante` on the Obsidian Members' Group Discord for fixing
+horizontal rules
+
+- [Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus) theme
+for RTZ mode and prompt styling
+
+ 
+Last but not least, *you* for using the theme and reading the documentation :D

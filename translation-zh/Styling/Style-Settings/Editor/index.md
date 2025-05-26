@@ -2,8 +2,8 @@
 title: 。icon: material/file-edit
 ---
 
-。,。。
-.
+In this sub-page, you can find usage examples for styling of elements in the
+Obsidian editor.
 
 ## Navigation
 

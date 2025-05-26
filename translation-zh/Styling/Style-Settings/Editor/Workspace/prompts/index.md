@@ -2,10 +2,9 @@
 title: 。icon: material/text-box 
 ---
 
-。, 。。
-.
+Configure prompts such as the command prompt, quick switcher etc.
 
-。: px, vw, vh
+Accepted Formats: px, vw, vh
 
 ## Navigation
 
@@ -30,30 +29,31 @@ Style Settings
 
 。CSS。:`var(--prompt-width)`
 
-。: 700 (px)
+Default: 700 (px)
 
 ### Prompt max width
 
 。CSS。:`var(--prompt-max-width)`
 
-。: 80 (vw)
+Default: 80 (vw)
 
 ### Prompt max height
 
 。CSS。:`var(--prompt-max-height)`
 
-。: 70(vh)
+Default: 70 (vh)
 
 ### Prompt alignment
 
-CSS 。:`.flexcyon-prompt-alimpt-lignown-left-left,
-,
-. . . . . . center. . . . . center- 。,
-.flexcyon-。.flexcyon-。center`
+CSS Classe(s) targeted: `.flexcyon-prompt-align-bottom-left,
+.flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-left,
+.flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`
 
 。: 无( 。)
 。:
 
-- 。- 。center
-- 。-。- 。center
+- Top left
+- Top center
+- 。- Bottom left
+- Bottom center
 

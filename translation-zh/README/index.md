@@ -12,41 +12,52 @@ title: 。icon: material/book-open-blank-variant-outline
 
 # About Flexcyon
 
-。Halcyon和Flexoki。Obsidian。。
-.
+A Obsidian theme combining the colour schemes of Halcyon and Flexoki.
 
-。[Halcyon colour scheme](https://halcyon-theme.netlify.app/)。[Flexoki colour scheme](https://stephango.com/flexoki)。
-.
-。,。。
-.
+I really liked the vibrant colours of the 
+[Halcyon colour scheme](https://halcyon-theme.netlify.app/), and the inky
+aesthetic of the [Flexoki colour scheme](https://stephango.com/flexoki)。
+Hence, I decided to combine the two which started this theme.
 
 ## Features
 
-[Here is a web showcase](https://share.note.sx/1bk28c9k)。。
-.
+[Here is a web showcase](https://share.note.sx/1bk28c9k) of the features
+this theme has to offer.
 
-- 。1比1。,
-,
-。### What this theme has
+- Some features will not have a 1 to 1 correspondence to the main theme,
+but this site should give you a preview of how the theme looks before
+installing it
 
-- vim 。(。vim 。)
-- Powerlevel10k。- 。- 。ASCII 。- 对UI。- 。- ASCII 。- 。,。、。、。- 。[plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
-- 。,。,。TUI。,。- 。、。- 。- 。...
-.
+### What this theme has
+
+- vim mode status (when using builtin vim keybinds)
+- Status bar options like Powerlevel10k inspired status bar styling
+- Smiley toggle icons and other options for settings
+- ASCII art or custom quote in new empty tabs
+- subtle opacity effects for UI elements
+- a dark and light mode colour scheme
+- ASCII checkboxes
+- Heading options like underline, numbered, coloured
+- A [plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
+- Workspace Layouts like card layout with TUI inspired add-on, angled layout
+- Configure left, right sidebar and modal background images
+- Animation options for tabs
+- And many more...
 
 ### What this theme does not have
 
-- 。(。)
-。,看[Style Settings](../Styling/Style-Settings/index.md)页:1
-- 。- 。, svgs
+- multiple colour schemes (though you can override the existing one 
+with your own, see [Style Settings](../Styling/Style-Settings/index.md))
+- alternate checkboxes
+- embedded fonts, svgs
 
 #### Easter Egg Mode
 
-页:1[here](./page-5.md)
+**Deprecated**, see [here](./page-5.md)
 
 ### Recommended snippets
 
-。, 。,
+Here are some recommended snippets to add to your vault and use alongside Flexcyon:
 
 - [CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
 - [Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling)
@@ -54,25 +65,26 @@ title: 。icon: material/book-open-blank-variant-outline
 
 ## Roadmap
 
-。[here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md)。
-.
+The Roadmap for this theme can be found [here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md)。
 
 ## Changelogs
 
-。Changelogs[here](../changelogs/index.md)
+The Changelogs for this theme can be found [here](../changelogs/index.md)
 
 ### Questions, Issues?
 
-。- [this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357)。
-.
+Feel free to talk about it at:
+
+- [this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357)。
 - [this Obsidian forum topic](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)
 
-。,。[the repository](https://github.com/bladeacer/flexcyon/issues)。start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions)。。
-.
+Alternatively, you can open an issue at
+[the repository](https://github.com/bladeacer/flexcyon/issues) or
+[start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions) here.
 
 ## Design Principles
 
-见[here](./page-4.md)
+See [here](./page-4.md)
 
 ## Style Settings
 
@@ -80,5 +92,5 @@ title: 。icon: material/book-open-blank-variant-outline
 
 ## License
 
-。[here](./license.md)
+The license for the theme can be found [here](./license.md)
 

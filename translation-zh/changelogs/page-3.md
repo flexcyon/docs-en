@@ -6,8 +6,10 @@ title: 0.3.x 。icon: material/numeric-3-box-outline
 
 - 。TUI
 
-- 。- 。- 。、。cssclass
-。- 。- 。- 。- 。- 。UI。- 。- 。,。:
+- 。- 。- Added cssclasses for heading indicators, callout metadata for
+tilting callout title and content
+
+- 。- 。- 。- 。- 。UI。- 。- 。,。:
 
 - 。- 。center
 
@@ -22,7 +24,7 @@ title: 0.3.x 。icon: material/numeric-3-box-outline
 - 。- 。,。- 。。
 .
 
-- 。- 。Canvas 。Canvas 。Canvas 。- 。Canvas。。
+- 。- 。Canvas 。Canvas 。- 。Canvas 。。
 .
 
 - ./ 。Canvas 。- 。- 。,。ASCII。emoji
@@ -31,7 +33,7 @@ title: 0.3.x 。icon: material/numeric-3-box-outline
 
 - 。, 。- 。,。:
 
-- 。- 。- 。- 。- 。- 。- 为Powerlevel10k。- 。- 。- 。ASCII 。, 。ASCII 。- 。- 。(。,
+- 。- 。- 。- 。- 。- 。- 为Powerlevel10k。- 。- 。- 。ASCII 。, ASCII 。- 。- 。(。,
 ,
 。)
 
@@ -43,14 +45,13 @@ title: 0.3.x 。icon: material/numeric-3-box-outline
 
 - 。ASCII。, 。- 。ASCII。- ./。### Version 0.3.4 Easter Egg Mode
 
-- 。,。。
-。- 。- 。- 。- 。### Version 0.3.5 Configuration Update
+- 。,。,。- 。- 。- 。- 。### Version 0.3.5 Configuration Update
 
 - 。。
 .
 
-- 。- 。- 。、。- 。,。。
-.
+- 。- 。- 。、。- Added option to enable heading indicators globally, customisable
+for different heading levels.
 - 。- 。- 。### Version 0.3.6 Canvas Menu Update
 
 - 。- 。- 。- 。- 。( 。)

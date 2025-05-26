@@ -2,7 +2,7 @@
 title: 。icon: material/format-bold
 ---
 
-。: "W -`value`- 。"
+。: "W -`value`-content"
 
 。`value`。:
 
@@ -16,5 +16,4 @@ title: 。icon: material/format-bold
 
 。["w-`value`-all"](../combined-styling/page-24.md)
 页:1["w-`value`-title"](../title-styling/page-24.md)。
-.
 

@@ -2,7 +2,7 @@
 title: RTL 。icon: material/align-horizontal-right
 ---
 
-。: “ 。”
+Callout metadata: "rtl-all"
 
 。:
 

@@ -2,7 +2,9 @@
 title: 。icon: material/format-text-variant-outline
 ---
 
-。, 。## Navigation
+For configuration of the titlebar, enable rainbow hover effects on titlebar buttons
+
+## Navigation
 
 ```md
 Style Settings

@@ -4,8 +4,8 @@ title: 。icon: material/keyboard
 
 # Usage
 
-。。 。。
-.
+Adds text indent and increased paragraph spacing to your editor. Size can be
+adjusted in style settings.
 
 ```md
 cssclasses:

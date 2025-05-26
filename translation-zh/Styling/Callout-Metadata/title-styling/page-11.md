@@ -2,7 +2,7 @@
 title: RTL 。icon: material/align-horizontal-right
 ---
 
-。: “ trl- title”
+Callout metadata: "rtl-title"
 
 。:
 
@@ -13,5 +13,4 @@ title: RTL 。icon: material/align-horizontal-right
 
 。["rtl-all"](../combined-styling/page-11.md)
 页:1["rtl-content"](../content-styling/page-1.md)。
-.
 

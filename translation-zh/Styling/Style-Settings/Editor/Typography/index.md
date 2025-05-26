@@ -2,9 +2,8 @@
 title: 。icon: material/format-text
 ---
 
-。、 。UI
-。。
-.
+Defined colors for muted text color, styling for headings, and controlling UI
+font sizes.
 
 。: HEX
 
@@ -31,4 +30,4 @@ Style Settings
 。:
 <span class="col-sqr" style="background-color: #6f768599"
 ></span
->#6f768599 (。).
+> #6f768599

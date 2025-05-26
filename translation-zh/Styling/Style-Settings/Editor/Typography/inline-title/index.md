@@ -2,7 +2,9 @@
 title: 。icon: material/format-underline-wavy
 ---
 
-。: em, 。## Navigation
+Accepted Formats: em, number
+
+## Navigation
 
 ```md
 Style Settings
@@ -22,7 +24,7 @@ Style Settings
 ## Configuration Options
 
 <span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
-。</span>
+Sample inline title</span>
 
 ### Inline title font size
 

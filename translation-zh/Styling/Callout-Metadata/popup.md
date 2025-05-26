@@ -2,7 +2,7 @@
 title: 。icon: material/cursor-default
 ---
 
-。: "$pop"
+Callout metadata: "$pop"
 
 。:
 

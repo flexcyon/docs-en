@@ -2,7 +2,7 @@
 title: 。icon: material/format-italic
 ---
 
-。:"italic-title"
+Callout metadata: "italic-title"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/format-italic
 
 。["italic-all"](../combined-styling/page-18.md)
 页:1["italic-content"](../content-styling/page-8.md)。
-.
 

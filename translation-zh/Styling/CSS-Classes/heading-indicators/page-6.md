@@ -2,7 +2,8 @@
 title: 。- H6。icon: material/format-header-6
 ---
 
-。6。。 。、。。
+Add a heading indicator for heading 6s. Will appear in reading, editing and
+。。
 .
 
 。:

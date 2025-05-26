@@ -17,4 +17,4 @@ title: 。+ 。icon: material/format-list-bulleted-type
  
 。`style_type`。: 。[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
-。
+Use when you want to apply the same style to both ordered and unordered lists

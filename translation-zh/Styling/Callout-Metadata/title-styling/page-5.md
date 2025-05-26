@@ -2,7 +2,7 @@
 title: 。icon: material/select-color
 ---
 
-。:"title-cyan"
+Callout metadata: "title-cyan"
 
 ```md
 > [!info|title-cyan] Title will be cyan
@@ -11,5 +11,4 @@ title: 。icon: material/select-color
 
 。["all-cyan"](../combined-styling/page-5.md)
 页:1["bg-cyan"](../bg-styling/page-5.md)。
-.
 

@@ -4,8 +4,7 @@ title: Rhombus 。icon: material/rhombus-split-outline
 
 # Usage
 
-。rhombi。。 。。
-.
+Adds a repeating pattern of rhombi to your editor background. Rotation can be adjusted.
 
 ```md
 cssclasses:

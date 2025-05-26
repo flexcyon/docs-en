@@ -3,23 +3,24 @@ title: 。icon: material/image
 ---
 
 <figure markdown="span">
-<img src=. /assets/screenshots/showcase1.png"。="800" alt="图1:
-ASCII 。, Dimmed 。" >
+    <img src="../assets/screenshots/showcase1.png" width="800" alt="Figure 1:
+    ASCII Art, Dimmed File Extensions">
     <figcaption
->图1:ASCII。,。</figcaption>
+>Figure 1: ASCII Art, Dimmed File Extensions</figcaption>
 </figure>
 
 <figure markdown="span">
-<img src=]. /assets/screetshots/showcase2.png"。="800"alt="图2:
-Vim 。, 。, 。Hover 。" >
+    <img src="../assets/screenshots/showcase2.png" width="800" alt="Figure 2:
+    Vim Status Mode, Coloured Headings, Hide Until Hover Status Bar">
     <figcaption
->图2:Vim 。,。,。Hover
-。</figcaption>
+>Figure 2: Vim Mode Status, Coloured Headings, Hide Until Hover
+    Status Bar</figcaption>
 </figure>
 
 <figure markdown="span">
-<img src=]. /assets/screenshots/showcase3.png"。="800" alt="图3:
-。、 。“ >
+    <img src="../assets/screenshots/showcase3.png" width="800" alt="Figure 3:
+    Dimmed inactive Settings navigation, smiley and coloured icons">
     <figcaption
->图3 。</figcaption>
+>Figure 3: Dimmed inactive Settings navigation, smiley and
+    coloured icons</figcaption>
 </figure>

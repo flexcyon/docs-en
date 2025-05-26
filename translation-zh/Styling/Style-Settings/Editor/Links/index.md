@@ -2,10 +2,11 @@
 title: 。icon: material/link
 ---
 
-。。
-.
+Configure the color of links.
 
-。: 。## Navigation
+Accepted formats: HEX
+
+## Navigation
 
 ```md
 Style Settings
@@ -31,14 +32,14 @@ Style Settings
 >#6f49ae (。).
 
 
-。( 。) :<span class="col-sqr" style="background-color: #a461c8"
+Default (dark mode): <span class="col-sqr" style="background-color: #a461c8"
 ></span
 >#a461c8 (。).
 
 ### External Link Color
 。CSS。:`var(--flexcyon-external-link-color)`
 
-。( 。) :<span class="col-sqr" style="background-color: #5c9fe4"
+Default (light mode): <span class="col-sqr" style="background-color: #5c9fe4"
 ></span
 >#5c9fe4 (。).
 

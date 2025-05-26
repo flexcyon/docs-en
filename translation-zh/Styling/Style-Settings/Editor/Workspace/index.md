@@ -2,7 +2,10 @@
 title: 。icon: material/layers-triple-outline
 ---
 
-。, 。UI 。, 。: x.y, rem
+Defines file line width when readable line length is enabled, opacity of dimmed
+UI elements, upscale percentage of icons used in effects
+
+Accepted Formats: x.y, rem
 
 ## Navigation
 
@@ -24,16 +27,16 @@ Style Settings
 
 。CSS。:`var(--file-line-width)`
 
-。: 50( 。)
+Default: 50 (rem)
 
 ### Opacity of dimmed elements
 
 。CSS。:`var(--dimmed)`
 
-。: 0.55
+Default: 0.55
 
 <span style="opacity: 0.55"
->。</span>
+>Sample dimmed element</span>
 
 ### Top Actions alignment
 

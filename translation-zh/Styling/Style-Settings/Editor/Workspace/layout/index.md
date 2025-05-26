@@ -2,8 +2,7 @@
 title: 。icon: material/page-layout-sidebar-left
 ---
 
-。。
-.
+Configure the workspace layout.
 
 ## Navigation
 
@@ -25,15 +24,16 @@ Style Settings
 
 ### Select workspace layout
 
-CSS。: `.。-。-。,
-,
-.flexcyon-。-。-。,.flexcyon-。-pl10k-。'
+CSS Classe(s) targeted: `.flexcyon-workspace-card-layout,
+.flexcyon-workspace-angled-layout, .flexcyon-workspace-pl10k-layout`
 
 。: 无( 。)
 
 。:
 
-- 。- 。- 。10k。
+- Cards Layout
+- Angled Layout
+- Powerlevel10k Layout
 > Workspace layout changes may need app reload or restart to take effect
 
 ### Enable TUI add-on for cards layout

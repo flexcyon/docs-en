@@ -4,7 +4,9 @@ tags:
     - callouts
 ---
 
-。: px、rem、em、s
+Configure styling of callouts
+
+Accepted Formats: px, rem, em, s
 
 ## Navigation
 
@@ -26,46 +28,45 @@ Style Settings
 
 。CSS。:`var(--flexcyon-callout-icon-right-padding)`
 
-。: 4( px)
+Default: 4 (px)
 
 ### First Codeblock Margin Top
 
 。CSS。:`var(--flexcyon-callout-first-codeblock-margin-top)`
 
-。:1(。)
+Default: 1 (rem)
 
 ### Callout Metadata Background Opacity
 
 。CSS。:`var(--flexcyon-callout-bg-opacity)`
 
-。:20%
+Default: 20%
 
 <span style="opacity: 20%"
->。</span>
+>Sample Background Opacity</span>
 
 ### Callout Vertical Margin
 
 。CSS。:`var(--flexcyon-callout-vertical-margin)`
 
-。:1(em)
+Default: 1 (em)
 
 ### Callout Border Radius
 
 。CSS。:`var(--callout-radius)`
 
-。: 2 (px)
+Default: 2 (px)
 
  
 ### Flashcard callout
 
-。[flashcard callout](../../../Callout-Metadata/flashcard.md)。
-.
+Configures the [flashcard callout](../../../Callout-Metadata/flashcard.md)。
 
 #### Flashcard callout width
 
 。CSS。:`var(--flexcyon-callouts-flashcard-width)`
 
-。: 250 (px)
+Default: 250 (px)
 
 #### Flashcard callout height
 
@@ -77,7 +78,7 @@ Style Settings
 
 。CSS。:`var(--flexcyon-callout-flashcard-animation-duration)`
 
-。: 0. 5s
+Default: 0.5s
 
  
 ### Popup callout
@@ -88,5 +89,5 @@ Style Settings
 
 。CSS。:`var(--flexcyon-callout-pop-animation-duration)`
 
-。: 0.2s
+Default: 0.2s
 

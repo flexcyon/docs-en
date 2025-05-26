@@ -16,18 +16,17 @@ icon: material/numeric-2-box-outline
 - 。- 。- 。- 。-  。- 。- 。- 。- 。(./。)树
 
 - 。- 。- [See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
-。## Version 0.2.1 Small Update
+for more details
+
+## Version 0.2.1 Small Update
 
 - 。,。。
 .
 
 - 。,。`*-color1-color2`和`*-color-2-color`
-。, 。。
-.
+will always return the same color mix when using in callout metadata utilities.
 
-- 。- 。ASCII 。- 。cssclass
+- 。- 。ASCII 。- 。cssclass 。- 。## Version 0.2.2 Layout styling
 
-- 。## Version 0.2.2 Layout styling
-
-- 。- 。“。”。- 。- 。,。- 。, 。- Vim。(./。)。:
+- 。- 。“。”。- 。- 。、。- 。, 。- Vim。(./。)。:
 - 。- 。、。(受Powerlevel10k。)。- 。vim。- 。

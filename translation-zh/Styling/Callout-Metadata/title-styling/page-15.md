@@ -2,7 +2,7 @@
 title: 。icon: material/format-letter-case-lower
 ---
 
-。:"。"
+Callout metadata: "lowercase-title"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/format-letter-case-lower
 
 。["lowercase-all"](../combined-styling/page-14.md)
 页:1["lowercase-content"](../content-styling/page-4.md)。
-.
 

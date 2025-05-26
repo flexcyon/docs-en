@@ -2,7 +2,9 @@
 title: 。icon: material/format-list-bulleted
 ---
 
-。## Navigation
+Configure bullet lists in the theme
+
+## Navigation
 
 ```md
 Style Settings
@@ -22,6 +24,6 @@ Style Settings
 
 。CSS。:`var(--flexcyon-rainbow-bullet-points)`
 
-。:false(。)
+。:false (class toggle)
 > Might need app restart/reload to take effect.
 

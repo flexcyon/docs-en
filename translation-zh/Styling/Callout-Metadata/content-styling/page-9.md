@@ -2,7 +2,7 @@
 title: Oblique 。icon: material/format-text-variant
 ---
 
-。:"oblique-content"
+Callout metadata: "oblique-content"
 
 。:
 
@@ -13,5 +13,4 @@ title: Oblique 。icon: material/format-text-variant
 
 。["oblique-all"](../combined-styling/page-19.md)
 页:1["oblique-title"](../title-styling/page-19.md)。
-.
 

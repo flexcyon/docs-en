@@ -2,7 +2,7 @@
 title: 。icon: material/format-strikethrough
 ---
 
-。:"。"
+Callout metadata: "line-through-all"
 
 。:
 

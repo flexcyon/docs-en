@@ -8,16 +8,25 @@ tags:
 
 ## Misc
 
-- 。Origami。`scss/css`。- 。- 。## Style Settings and stuff
+- Add Origami attribution in `scss/css` files
+- Add Style Settings option for configuring tree item and suggestion item padding
+- Add better screenshots
+
+## Style Settings and stuff
 > Add more CSS classes
 
 ### Plugins/snippets
 
-- 。- 。:
-- 。- 。( 。cs 。)
-- 。- `publish.css`
+- Support more plugins
+  - Could also look at:
+    - Tasks
+    - QuickAdd (override default css variables)
+    - Vertical Tabs etc
+- `publish.css`
 
 ### Other styling options
 
-- 。## Next version changelog
+- Mermaid Chart Styling
+
+## Next version changelog
 

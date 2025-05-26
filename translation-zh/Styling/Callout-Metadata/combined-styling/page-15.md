@@ -2,7 +2,9 @@
 title: 。icon: material/format-letter-case-lower
 ---
 
-。: 。:
+Callout metadata: "lowercase-all"
+
+。:
 
 ```md
 > [!info|lowercase-all] The title will be displayed as lowercase

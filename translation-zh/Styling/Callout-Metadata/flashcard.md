@@ -2,9 +2,9 @@
 title: 。icon: material/card-text-outline
 ---
 
-。:"。"
+Callout metadata: "flashcard"
 
-。:
+Usage:
 
 ```md
 > [!info|flashcard] The title and the callout will styled nicely to resemble a card
@@ -13,5 +13,4 @@ title: 。icon: material/card-text-outline
 ```
 
 [Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout) 
-。。
-.
+for configuration options.

@@ -2,7 +2,7 @@
 title: 。icon: material/caps-lock
 ---
 
-。: "。"
+Callout metadata: "caps-content"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/caps-lock
 
 。["caps-all"](../combined-styling/page-16.md)
 页:1["caps-title"](../title-styling/page-16.md)。
-.
 

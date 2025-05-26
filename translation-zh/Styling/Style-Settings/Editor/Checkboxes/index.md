@@ -2,23 +2,22 @@
 title: 。icon: material/checkbox-outline
 ---
 
-。, 。。
-.
+In this sub-page, you can find usage examples for styling of checkboxes.
 
 ## Screenshots
 
 <figure markdown="span">
-<img src=. /././././assets/screetshots/ascii_checkboxes1.png'。="800".
-。=“图1:ASCII。”>
+    <img src="../../../../assets/screenshots/ascii_checkboxes1.png" width="800"
+    alt="Figure 1: ASCII Checkboxes">
     <figcaption
->图1 ASCII 。</figcaption>
+>Figure 1: ASCII Checkboxes</figcaption>
 </figure>
 
 <figure markdown="span">
-<img src=.../././././././ascii_checkboxes2.png'。="800".
-alt=“图2:。ASCII 。”>
+    <img src="../../../../assets/screenshots/ascii_checkboxes2.png" width="800"
+    alt="Figure 2: ASCII Checkboxes in source mode">
     <figcaption
->图2:。ASCII 。</figcaption>
+>Figure 2: ASCII Checkboxes in source mode</figcaption>
 </figure>
 
 ## Navigation
@@ -37,7 +36,9 @@ Style Settings
 
 ## Configuration options
 
-。:。### Enable ASCII checkboxes
+Accepted formats: rem
+
+### Enable ASCII checkboxes
 
 。CSS。:`var(--flexcyon-ascii-checkboxes-enabled)`
 
@@ -47,8 +48,8 @@ Style Settings
 
 。CSS。:`var(--flexcyon-ascii-checkboxes-font-size)`
 
-。: 1.2 (。)
+Default: 1.2 (rem)
 
 <span style="font-size: 1.2rem"
->。ASCII 。</span>
+>Sample ASCII checkboxes font size</span>
 

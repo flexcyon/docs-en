@@ -2,8 +2,7 @@
 title: 。icon: material/file-cog
 ---
 
-。。
-.
+Configure file trees and folder styles.
 
 ## Navigation
 
@@ -29,12 +28,16 @@ Style Settings
 
 ### Select folder style
 
-CSS。:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
+CSS Classe(s) targeted: `.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 
-。: 无( 。)
-。:
+Default: none (class select)
+Options:
 
-- 。- 。- Markdown 。### Enable minimalist trees
+- Rainbow folders
+- Alternate folder style
+- Markdown file tree style
+
+### Enable minimalist trees
 
 。CSS。:`var(--flexcyon-minimalist-tree)`
 

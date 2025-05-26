@@ -23,16 +23,16 @@ Style Settings
 
 。CSS。:`var(--upsize)`
 
-。: 103%
+Default: 103%
 
 <span style="scale: 103%"
->。:1</span>
+>Sample upscale percentage 1</span>
 
 #### Upscale percentage of icons 2
 
 。CSS。:`var(--expand)`
 
-。: 110%
+Default: 110%
 
 <span style="scale: 110%"
->。2个</span>
+>Sample upscale percentage 2</span>

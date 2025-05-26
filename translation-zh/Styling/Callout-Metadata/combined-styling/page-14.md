@@ -2,7 +2,7 @@
 title: 。icon: material/format-letter-case-upper
 ---
 
-。: "uppercase- all"
+Callout metadata: "uppercase-all"
 
 。:
 

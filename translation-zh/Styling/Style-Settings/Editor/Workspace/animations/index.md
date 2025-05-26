@@ -2,10 +2,9 @@
 title: 。icon: material/animation
 ---
 
-。、。。
-.
+Configure transition animations of prompts, modals and tab container.
 
-。:s
+Accepted Formats: s
 
 ## Navigation
 
@@ -28,15 +27,20 @@ Style Settings
 
 ### Animation type
 
-CSS 。:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
-,
-.flexcyon-anims-slims-tb,.flexcyon-anims-slims-bt,.flexcyon-spin-bt,.flexcyon-anims-spin-rl ' .
+CSS Classe(s) targeted: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
+.flexcyon-anims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl`
 > Changes may need an app reload/restart to take effect
 
 。: 无( 。)
-。:
+Options: 
 
-- 。- 。- 。- 。- 。### Animation duration
+- Slide in Left to Right
+- Slide in Right to Left
+- Slide in Top to Bottom
+- Rotate in Bottom to Top
+- Rotate in Right to Left
+
+### Animation duration
 
 。CSS。:`var(--flexcyon-anim-duration)`
 

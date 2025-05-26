@@ -17,5 +17,4 @@ reading mode/reading mode
 
 。["w-`value`-all"](../combined-styling/page-24.md)
 页:1["w-`value`-content"](../content-styling/page-14.md)。
-.
 

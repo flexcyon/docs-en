@@ -2,7 +2,7 @@
 title: 。icon: material/align-horizontal-center
 ---
 
-。: "center-。"
+。: "center-title"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/align-horizontal-center
 
 。["center-all"](../combined-styling/page-13.md)
 页:1["center-content"](../content-styling/page-3.md)。
-.
 

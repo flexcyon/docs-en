@@ -2,7 +2,7 @@
 title: 。icon: material/layers-outline
 ---
 
-。:"bg-pink"
+Callout metadata: "bg-pink"
 
 ```md
 > [!info|bg-pink] Title will display as usual
@@ -11,5 +11,4 @@ title: 。icon: material/layers-outline
 
 。["all-pink"](../combined-styling/page-6.md)
 页:1["title-pink"](../title-styling/page-6.md)。
-.
 

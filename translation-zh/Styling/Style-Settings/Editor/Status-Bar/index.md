@@ -2,7 +2,9 @@
 title: 。icon: material/state-machine
 ---
 
-。CSS 。: s, px
+Defines CSS variables to configure the status bar
+
+Accepted Formats: s, px
 
 ## Navigation
 
@@ -32,19 +34,19 @@ Style Settings
 
 。CSS。:`var(--flexcyon-status-hide-until-hover-text)`
 
-。: “ 。”
+Default: "Show status"
 
 #### Translation for showing status bar on hover
 
 。CSS。:`var(--flexcyon-status-hide-until-hover-translation)`
 
-。: 1500px
+Default: 1500px
 
 #### Transition duration for showing status bar on hover
 
 。CSS。:`var(--flexcyon-status-hide-hover-duration)`
 
-。: 0.35(s)
+Default: 0.35 (s)
 
 #### Transition timing function for showing status bar on hover
 
@@ -65,19 +67,19 @@ Style Settings
 
 。CSS。:`var(--flexcyon-status-reading-text)`
 
-。: "READ"
+Default: "READ"
 
 #### Source Mode Text
 
 。CSS。:`var(--flexcyon-status-source-text)`
 
-。: "。"
+Default: "SOURCE"
 
 #### Live Preview Mode Text
 
 。CSS。:`var(--flexcyon-status-live-text)`
 
-。: "LIVE"
+Default: "LIVE"
 
  
 
@@ -93,18 +95,19 @@ Style Settings
 
 。CSS。:`var(--status-bar-font-size)`
 
-。: 12.5 (px)
+Default: 12.5 (px)
 
 #### Select status bar style
 
-CSS。:`.lexcyon-status-style-trounded,
-,
-.flexcyon-status-style-card,.flexcyon-style-style-pl10k ' .
+CSS Classe(s) targeted: `.flexcyon-status-style-angled,
+.flexcyon-status-style-card, .flexcyon-status-style-pl10k`
 
 。: 无( 。)
 。:
 
-- 。- 。- 。10k
+- Angled
+- Cards
+- Powerlevel10k
 
 #### Enable status text color
 

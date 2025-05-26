@@ -2,7 +2,7 @@
 title: 。icon: material/cancel
 ---
 
-。:"。"
+Callout metadata: "no-title"
 
 。:
 
@@ -13,5 +13,4 @@ title: 。icon: material/cancel
 
 。["empty"](../combined-styling/page-1.md)
 页:1["no-icon"](../icon-styling/page-1.md)。
-.
 

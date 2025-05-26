@@ -2,7 +2,7 @@
 title: 。icon: material/angle-acute
 ---
 
-。: "till- all"
+Callout metadata: "tilt-all"
 
 。:
 

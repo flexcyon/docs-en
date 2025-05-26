@@ -2,8 +2,7 @@
 title: 。icon: material/axis-arrow-info
 ---
 
-././YAML的CSS。。
-.
+Configures CSS variables for properties/metadata/YAML of files.
 
 ## Navigation
 
@@ -21,7 +20,7 @@ Style Settings
 
 ## Configuration Options
 
-。: px
+Accepted Formats: px
 
 ### Do not show properties in reading mode
 
@@ -45,5 +44,5 @@ Style Settings
 
 。CSS。:`var(--flexcyon-meta-container-padding-left)`
 
-。: 14 (px)
+Default: 14 (px)
 

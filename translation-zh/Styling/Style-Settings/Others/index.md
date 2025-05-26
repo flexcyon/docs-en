@@ -2,8 +2,9 @@
 title: 。icon: material/dots-horizontal
 ---
 
-。vim 。, 。appenance (ASCII 。), sidedock 。,
-,
+For configuring vim mode text, new tab apperance (ASCII art), sidedock icons,
+tooltip radius
+
 。: px
 
 ## Navigation
@@ -30,35 +31,37 @@ Style Settings
 
 。CSS。:`var(--flexcyon-vim-mode-left-positioning)`
 
-。: 6 (px)
+Default: 6 (px)
 
 #### Vim mode text bottom positioning
 
 。CSS。:`var(--flexcyon-vim-mode-left-positioning)`
 
-。: - 4 (px)
+Default: -4 (px)
 
 #### Insert Mode Text
 
 。CSS。:`var(--flexcyon-vim-insert-text)`
 
-。: "INSERT"
+Default: "INSERT"
 
 #### Normal Mode Text
 
 。CSS。:`var(--flexcyon-vim-normal-text)`
 
-。: "NORMAL"
+Default: "NORMAL"
 
 #### Command Mode Text
 
 。CSS。:`var(--flexcyon-vim-command-text)`
 
-。: "COMMAND"
+Default: "COMMAND"
 
  
 
 ### New Tab Appearance
+
+Customize the apperance of new empty tabs
 
 。: px
 
@@ -70,7 +73,10 @@ CSS。:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 。: 无( 。)
 。:
 
-- ASCII。- 。#### Background for add before empty state title
+- ASCII Art
+- Quote
+
+#### Background for add before empty state title
 
 。CSS。:`var(--flexcyon-new-tab-bg-wrapper)`
 
@@ -80,13 +86,13 @@ CSS。:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 
 。CSS。:`var(--flexcyon-quote-val)`
 
-。: ""
+Default: ""
 
 #### Quote font size
 
 。CSS。:`var(--flexcyon-quote-font-size)`
 
-。: 24 (px)
+Default: 24 (px)
 > Line breaks are escaped as `\a` and `\` is escaped as `\\`
 
 #### ASCII Art
@@ -119,7 +125,7 @@ CSS。:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 。CSS。:`var(--flexcyon-ascii-line-height)`
 > Changes line height for quote as welll
 
-。:1
+Default: 1
 
 #### Disable Empty State title
 
@@ -137,7 +143,9 @@ CSS。:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 
 ### Side Dock Icons
 
-。#### Enable side dock icon effects
+Configure the side dock icons
+
+#### Enable side dock icon effects
 > Rainbow effect on hover
 。CSS。:`var(--flexcyon-sidedock-icon-effects)`
 
@@ -153,7 +161,9 @@ CSS。:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 
 ### Tooltip radius
 
-。#### Small radius
+Configure the tooltip radius
+
+#### Small radius
 
 。CSS。:`var(--radius-s)`
 
@@ -181,10 +191,9 @@ CSS。:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 
 ### Sidebar Background
 
-。。
-.
+Configure background images in the left and right sidebars.
 
-。: px,%
+Accepted Formats: px, %
 
 #### Select background in sidebar
 
@@ -195,11 +204,15 @@ CSS。:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-b
 。: 无( 。)
 。:
 
-- 。- 。-。#### Left sidebar background image url
+- Grid
+- Dotted
+- Rhombus
+
+#### Left sidebar background image url
 
 。CSS。:`var(--flexcyon-bg-image-sidebar-left-url)`
 
-。: url (")
+Default: url("")
 > For urls to work, add your URL between the double quotes e.g. a value of:
 `url("https://fake_domain/not_a_real_image.png")`
 
@@ -227,7 +240,7 @@ CSS。:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-b
 
 。CSS。:`var(--flexcyon-bg-image-blur)`
 
-。:1px
+Default: 1px
 > Will be changed to 0px next update
 
 #### Sidebar Background image brightness
@@ -253,7 +266,9 @@ CSS。:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-b
 
 ### Modal Background
 
-。、 。: px,%
+Configure background images in the background of settings menu, prompts etc
+
+。: px,%
 
 #### Modal Background image url
 
@@ -304,14 +319,13 @@ CSS。:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-b
 
 ### Easter egg mode
 
-。。 见[here for reasons](../../../README/page-5.md)。
-.
+Deprecated. See [here for reasons](../../../README/page-5.md)。
 
  
 
 ### Accessibility
 
-。
+Toggle accessibility options
 > Note that changing these will change how the entire theme renders.
 >
 > Tweaking these values too much may make the theme look ugly

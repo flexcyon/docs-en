@@ -2,7 +2,7 @@
 title: 。con: material/cancel
 ---
 
-。:"空"
+Callout metadata: "empty"
 
 。:
 
@@ -11,7 +11,7 @@ title: 。con: material/cancel
 > Content is shown as usual
 ```
 
-。,。:
+Alternatively, you can use:
 
 ```md
 > [!info|empty] Neither the title and callout icon will show

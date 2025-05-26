@@ -2,24 +2,43 @@
 icon: material/server
 title: 。---
 
-。:
-。。
-.
+The following tools and software were indispensable in the making of the theme
+and its documentation.
 
 ### Base application
 
-- 。### Web Showcase
+- Obsidian
 
-- Absidian 。### Web Technologies
+### Web Showcase
 
-- CSS。- 。### Text Editors
+- Obsidian Share Note plugin
 
-- 。- VS。### Version Control
+### Web Technologies
 
-- 。- GitHub (。).
+- CSS
+
+- SCSS
+
+### Text Editors
+
+- Vim
+
+- VS Code
+
+### Version Control
+
+- Git
+
+- GitHub
 
 ### Documentation
 
-- 。- 。- MkDocs。- 读《Docs》
+- MkDocs
 
-- 。
+  - and the awesome ecosystem built around it
+
+- Material for MkDocs
+
+- ReadTheDocs
+
+- Giscus

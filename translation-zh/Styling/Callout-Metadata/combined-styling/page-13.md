@@ -2,7 +2,7 @@
 title: 。icon: material/align-horizontal-center
 ---
 
-。: "center- 。- 。- all".
+Callout metadata: "center-all"
 
 。:
 

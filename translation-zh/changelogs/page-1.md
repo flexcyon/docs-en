@@ -2,16 +2,13 @@
 title: 0.1.x。icon: material/numeric-1-box-outline
 ---
 
-0.5。,。。
-.
+Versions below 0.0.5 are not documented as they lack notable features.
 
 ## Version 0.0.5: Minor Changes
 
 - 使ASCII。,。li。- 。- 。- 。- 。- 。## Version 0.1.0: Utilities Update
 
-- 。- 。Breadcrumbs。- 。- 。- 。- 。- 。- 。ASCII 。- 。:
-
-- 。- 。- 。- 。、。、。- RTL, LTR, (。),。- 。(。RTL)
+- 。- 。Breadcrumbs。- 。- 。- 。- 。- 。- 。ASCII 。- 。- 。- 。- 。- 。、。、。- RTL, LTR, (。),。- 。(。RTL)
 
 - 。LTR
 

@@ -3,7 +3,7 @@ title: 。2
 icon: material/format-header-2
 ---
 
-。:"h2-。"
+Callout metadata: "h2-title"
 
 。:
 
