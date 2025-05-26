@@ -3,7 +3,7 @@ title: Popup
 icon: material/cursor-default
 ---
 
-Metadatos de callout: "$pop"
+Callout metadata: "$pop"
 
 Usage:
 

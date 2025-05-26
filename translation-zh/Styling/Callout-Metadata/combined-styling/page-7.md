@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/format-color-fill
+title: 全绿
+icon: material/format-color-fill
 ---
 
 Callout metadata: "all-green"

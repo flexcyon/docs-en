@@ -1,5 +1,6 @@
 ---
-title: 。+ 。icon: material/format-list-bulleted-type
+title: 排序 + 无排序列表
+icon: material/format-list-bulleted-type
 ---
 > `li-style_type`
 
@@ -15,6 +16,6 @@ title: 。+ 。icon: material/format-list-bulleted-type
 ```
 
  
-。`style_type`。: 。[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
+已接受的格式`style_type`数字 : 那个[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
 Use when you want to apply the same style to both ordered and unordered lists

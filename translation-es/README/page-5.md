@@ -8,26 +8,21 @@ tags:
 
 # Foreword
 
-El Egg6mode de Pascua existió en`flexcyon`tema del 12 de abril de 2025 a finales de mayo
-2025. Fue deprecatado por falta de interés.
-.
+The Easter Egg6mode existed in `flexcyon` theme from 12 April 2025 to late May
+2025. It was deprecated due to a lack of interest.
 
 ## Rules
 
-1. Activar la Pascua Modo de huevo en Configuración de estilo para comenzar.
-.
-2. Total de 5 desafíos acover. Una vez que se haga un reto, proporcionará un
-el siguiente reto en la parte inferior derecha de la pantalla en Obsidian
-(fuera del modo fuente).
-.
-3. Como no puedo ni oscubriré el código fuente. Por favor no clones
-repositorio y buscar las respuestas :)
-4. El primer 5 me DM en discordia (usuario)`@data_in_void`) con el conjunto completo de
-y sus correspondientes respuestas (en orden correcto) para cada una de las
-los desafíos recibirán un grito en el README y la documentación.
-.
+1. Enable Easter Egg mode in Style Settings to start.
+2. Total of 5 challenges to uncover. Once a challenge is done, it will provide a
+hint to the next challenge at the bottom right of the screen in Obsidian
+(outside of source mode).
+3. As I cannot and will not obsfucate the source code. Please do not clone the
+repository and search up for the answers :)
+4. The first 5 to DM me on Discord (user `@data_in_void`) with the full set of
+hints and their corresponding answers (in correct order) for each of the
+challenges will get a shoutout in the README and documentation.
 
-La pista para el primer desafío es: colores de pi. ¡Buena suerte!
-!
-**Trata de poner tus cambios de estilo en un snippet CSS toggleable* *
+The hint for the first challenge is: colors of pi. Good luck!
+**Try putting your styling changes into a toggleable CSS snippet**
 

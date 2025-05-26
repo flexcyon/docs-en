@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/format-color-fill
+title: 全蓝
+icon: material/format-color-fill
 ---
 
 Callout metadata: "all-blue"

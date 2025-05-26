@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/format-underline
+title: 下划线内容
+icon: material/format-underline
 ---
 
 Callout metadata: "underline-content"
@@ -10,4 +11,4 @@ Usage:
 > The content will be displayed as underline
 ```
 
-。["underline-all"](../combined-styling/page-22.md) along with ["underline-title"](../title-styling/page-22.md).
+样式本身也适用于["underline-all"](../combined-styling/page-22.md) along with ["underline-title"](../title-styling/page-22.md).

@@ -7,7 +7,7 @@ tags:
     - styling
 ---
 
-Se admiten oficialmente los siguientes plugins/snippets
+The following plugins/snippets are officially supported
 > For plugins/snippets that are not styled yet, feel free to
 > open a Pull Request/Feature Request/start a Discussion on it.
 

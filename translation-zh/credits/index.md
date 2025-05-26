@@ -1,6 +1,7 @@
 ---
 icon: material/heart
-title: 。---
+title: 贷项
+---
 
 A huge shout out to Daniel's
 [Halcyon theme](https://github.com/dbarenholz/halcyon-obsidian) and
@@ -13,7 +14,9 @@ great [Origami theme](https://github.com/7368697661/Origami)
 
 ## Snippets
 
-- `@OWA/bennyyip`。bisidian 。Discord 。Tategaki 。- [Ukiyo](https://github.com/technerium/obsidian-ukiyo) Theme by vaykinov and
+- `@OWA/bennyyip`在 Obisidian 成员团体的Discord 上为 Tategaki 片段
+
+- [Ukiyo](https://github.com/technerium/obsidian-ukiyo) Theme by vaykinov and
 wizentex for the popup callout
 
 - `@Kapirklaa` on the Obisidian Members' Group Discord (@ElsaTam on GitHub) for
@@ -38,7 +41,8 @@ button rendering when show ribbon is disabled
 - `@TundraMoonlight` on the Obisidian Members' Group Discord for inspiration for
 the TUI add-on
 
-- `@Kapirklaa`。bisidian 。Discord (@ ElsaTam on GitHub) 。inspiration for callout metadata utilities
+- `@Kapirklaa`在 Obisidian 成员团体的Discord (@ ElsaTam on GitHub) 上为
+inspiration for callout metadata utilities
 
 - `@BEN10` on the Obisidian Members' Group Discord for fixes to the
 documentation, Powerlevel10k layout

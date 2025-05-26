@@ -3,7 +3,7 @@ title: Italic Title
 icon: material/format-italic
 ---
 
-Metadatos de llamada: "título ciudadano"
+Callout metadata: "italic-title"
 
 Usage:
 

@@ -1,6 +1,7 @@
 ---
 icon: material/server
-title: 。---
+title: 工具和软件
+---
 
 The following tools and software were indispensable in the making of the theme
 and its documentation.

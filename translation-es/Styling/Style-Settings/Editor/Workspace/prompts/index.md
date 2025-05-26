@@ -3,10 +3,9 @@ title: Prompts
 icon: material/text-box 
 ---
 
-Configurar los avisos tales como el aviso de comando, conmutador rápido etc.
-.
+Configure prompts such as the command prompt, quick switcher etc.
 
-Formatos aceptados: px, vw, vh
+Accepted Formats: px, vw, vh
 
 ## Navigation
 
@@ -31,7 +30,7 @@ Style Settings
 
 CSS Variable(s) targeted:`var(--prompt-width)`
 
-Predeterminado: 700 (px)
+Default: 700 (px)
 
 ### Prompt max width
 
@@ -48,17 +47,15 @@ Default: 70 (vh)
 ### Prompt alignment
 
 CSS Classe(s) targeted: `.flexcyon-prompt-align-bottom-left,
-,
-.flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-izquierda,
-,
+.flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-left,
 .flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`
 
 Predeterminado: ninguno (clase selecto)
 Opciones:
 
-- Arriba a la izquierda
-- Topcenter
+- Top left
+- Top center
 -Centerizquierda
-- El fondo izquierdo
-- Bottomcenter
+- Bottom left
+- Bottom center
 

@@ -5,9 +5,9 @@ tags:
     - callouts
 ---
 
-Configurar el estilo de los callouts
+Configure styling of callouts
 
-Formatos aceptados: px, rem, em, s
+Accepted Formats: px, rem, em, s
 
 ## Navigation
 
@@ -29,7 +29,7 @@ Style Settings
 
 CSS Variable(s) targeted:`var(--flexcyon-callout-icon-right-padding)`
 
-Predeterminado: 4 (px)
+Default: 4 (px)
 
 ### First Codeblock Margin Top
 
@@ -44,7 +44,7 @@ CSS Variable(s) targeted:`var(--flexcyon-callout-bg-opacity)`
 Default: 20%
 
 <span style="opacity: 20%"
->Muestra de antecedentes Opacity</span>
+>Sample Background Opacity</span>
 
 ### Callout Vertical Margin
 
@@ -56,19 +56,19 @@ Default: 1 (em)
 
 CSS Variable(s) targeted:`var(--callout-radius)`
 
-Predeterminado: 2 (px)
+Default: 2 (px)
 
 __
 ### Flashcard callout
 
-Configura los[flashcard callout](../../../Callout-Metadata/flashcard.md).
+Configures the [flashcard callout](../../../Callout-Metadata/flashcard.md).
 .
 
 #### Flashcard callout width
 
 CSS Variable(s) targeted:`var(--flexcyon-callouts-flashcard-width)`
 
-Predeterminado: 250 (px)
+Default: 250 (px)
 
 #### Flashcard callout height
 
@@ -80,7 +80,7 @@ Predeterminado: 250 (px)
 
 CSS Variable(s) targeted:`var(--flexcyon-callout-flashcard-animation-duration)`
 
-Predeterminado: 0.5s
+Default: 0.5s
 
 __
 ### Popup callout
@@ -91,5 +91,5 @@ Configura los[popup callout](../../../Callout-Metadata/popup.md)
 
 CSS Variable(s) targeted:`var(--flexcyon-callout-pop-animation-duration)`
 
-Predeterminado: 0.2s
+Default: 0.2s
 

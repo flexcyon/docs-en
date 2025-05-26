@@ -1,10 +1,11 @@
 ---
-title: LTR 。icon: material/align-horizontal-left
+title: LTR 数据 全体
+icon: material/align-horizontal-left
 ---
 
 Callout metadata: "ltr-all"
 
-。:
+用法 :
 
 ```md
 > [!info|ltr-all] The title will be displayed as ltr

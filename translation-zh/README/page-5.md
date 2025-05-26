@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/egg-easter
+title: 复活节鸡蛋模式
+icon: material/egg-easter
 tags:
     - style_settings
     - styling

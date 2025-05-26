@@ -3,7 +3,7 @@ title: Título general
 icon: material/format-overline
 ---
 
-Metadatos Callout: "sobreline-title"
+Callout metadata: "overline-title"
 
 Usage:
 

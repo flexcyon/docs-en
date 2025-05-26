@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/checkbox-outline
+title: 复选框
+icon: material/checkbox-outline
 ---
 
 In this sub-page, you can find usage examples for styling of checkboxes.
@@ -40,13 +41,13 @@ Accepted formats: rem
 
 ### Enable ASCII checkboxes
 
-。CSS。:`var(--flexcyon-ascii-checkboxes-enabled)`
+目标CSS变量:`var(--flexcyon-ascii-checkboxes-enabled)`
 
-。:true(。)
+默认 :true(类切换)
 
 ### ASCII checkboxes font size
 
-。CSS。:`var(--flexcyon-ascii-checkboxes-font-size)`
+目标CSS变量:`var(--flexcyon-ascii-checkboxes-font-size)`
 
 Default: 1.2 (rem)
 

@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/layers-outline
+title: 橙色背景
+icon: material/layers-outline
 ---
 
 Callout metadata: "bg-orange"
@@ -9,6 +10,6 @@ Callout metadata: "bg-orange"
 > The background color will be orange
 ```
 
-。["all-orange"](../combined-styling/page-8.md)
+样式本身也适用于["all-orange"](../combined-styling/page-8.md)
 页:1["title-orange"](../title-styling/page-8.md)。
 

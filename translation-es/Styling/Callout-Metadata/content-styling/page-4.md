@@ -3,7 +3,7 @@ title: Índice
 icon: material/format-letter-case-upper
 ---
 
-Metadatos de callout: "contenido-percase"
+Callout metadata: "uppercase-content"
 
 Usage:
 

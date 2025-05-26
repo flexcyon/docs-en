@@ -3,7 +3,7 @@ title: Fondo Verde
 icon: material/layers-outline
 ---
 
-Metadatos de llamada: "Bg-green"
+Callout metadata: "bg-green"
 
 ```md
 > [!info|bg-green] Title will display as usual

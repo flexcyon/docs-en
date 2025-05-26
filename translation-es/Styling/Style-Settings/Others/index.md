@@ -3,9 +3,8 @@ title: Otros
 icon: material/dots-horizontal
 ---
 
-Para configurar el texto del modo vim, nueva apperance de pestañas (ASCII art), iconos sidedock,
-,
-radio de punta de la herramienta
+For configuring vim mode text, new tab apperance (ASCII art), sidedock icons,
+tooltip radius
 
 Formatos aceptados: px
 
@@ -33,13 +32,13 @@ Default:true(de clase)
 
 CSS Variable(s) targeted:`var(--flexcyon-vim-mode-left-positioning)`
 
-Predeterminado: 6 (px)
+Default: 6 (px)
 
 #### Vim mode text bottom positioning
 
 CSS Variable(s) targeted:`var(--flexcyon-vim-mode-left-positioning)`
 
-Predeterminado: -4 (px)
+Default: -4 (px)
 
 #### Insert Mode Text
 
@@ -63,7 +62,7 @@ __
 
 ### New Tab Appearance
 
-Personalizar la tolerancia de nuevas pestañas vacías
+Customize the apperance of new empty tabs
 
 Formatos aceptados: px
 
@@ -75,8 +74,8 @@ CSS Classe(s) targeted:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 Predeterminado: ninguno (clase selecto)
 Opciones:
 
-- Arte ASCII
-- Cita.
+- ASCII Art
+- Quote
 
 #### Background for add before empty state title
 
@@ -94,7 +93,7 @@ Default: ""
 
 CSS Variable(s) targeted:`var(--flexcyon-quote-font-size)`
 
-Predeterminado: 24 (px)
+Default: 24 (px)
 > Line breaks are escaped as `\a` and `\` is escaped as `\\`
 
 #### ASCII Art
@@ -145,7 +144,7 @@ __
 
 ### Side Dock Icons
 
-Configure los iconos de muelle lateral
+Configure the side dock icons
 
 #### Enable side dock icon effects
 > Rainbow effect on hover
@@ -163,7 +162,7 @@ __
 
 ### Tooltip radius
 
-Configure el radio de punta de la herramienta
+Configure the tooltip radius
 
 #### Small radius
 
@@ -193,10 +192,9 @@ __
 
 ### Sidebar Background
 
-Configurar imágenes de fondo en las barras laterales izquierda y derecha.
-.
+Configure background images in the left and right sidebars.
 
-Formatos aceptados: px, %
+Accepted Formats: px, %
 
 #### Select background in sidebar
 
@@ -215,7 +213,7 @@ Opciones:
 
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-sidebar-left-url)`
 
-Predeterminado: url("")
+Default: url("")
 > For urls to work, add your URL between the double quotes e.g. a value of:
 `url("https://fake_domain/not_a_real_image.png")`
 
@@ -243,7 +241,7 @@ Default:no-repeat
 
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-blur)`
 
-Predeterminado: 1px
+Default: 1px
 > Will be changed to 0px next update
 
 #### Sidebar Background image brightness
@@ -269,7 +267,7 @@ __
 
 ### Modal Background
 
-Configurar imágenes de fondo en el fondo del menú de configuración, indicaciones, etc
+Configure background images in the background of settings menu, prompts etc
 
 Formatos aceptados: px, %
 
@@ -322,7 +320,7 @@ __
 
 ### Easter egg mode
 
-Deprecatado. See[here for reasons](../../../README/page-5.md).
+Deprecated. See [here for reasons](../../../README/page-5.md).
 .
 
 __
@@ -338,13 +336,13 @@ Toggle accessibility options
 
 CSS Variable(s) targeted:`var(--flexcyon-brightness-ratio)`
 
-Default: 1
+Predeterminado: 1
 
 ### Global contrast ratio
 
 CSS Variable(s) targeted:`var(--flexcyon-contrast-ratio)`
 
-Default: 1
+Predeterminado: 1
 > E.g. if you want slightly more contrast like on an OLED screen, try values
 > between 1 to 1.5
 
@@ -352,7 +350,7 @@ Default: 1
 
 CSS Variable(s) targeted:`var(--flexcyon-saturation-ratio)`
 
-Default: 1
+Predeterminado: 1
 > Use to modify the saturation of colors
 
 __

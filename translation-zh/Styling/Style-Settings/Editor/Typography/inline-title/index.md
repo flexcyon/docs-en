@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/format-underline-wavy
+title: 内置标题
+icon: material/format-underline-wavy
 ---
 
 Accepted Formats: em, number
@@ -28,19 +29,19 @@ Sample inline title</span>
 
 ### Inline title font size
 
-。CSS。:`var(--inline-title-size)`
+目标CSS变量:`var(--inline-title-size)`
 
-。: 1.802(em)
+默认: 1.802(em)
 
 ### Inline title font weight
 
-。CSS。:`var(--inline-title-weight)`
+目标CSS变量:`var(--inline-title-weight)`
 
-。: 700
+默认: 700
 
 ### Inline title font height
 
-。CSS。:`var(--inline-title-height)`
+目标CSS变量:`var(--inline-title-height)`
 
-。: 1.2
+默认: 1.2
 

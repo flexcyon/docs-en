@@ -1,6 +1,7 @@
 ---
 icon: material/script-text
-title: 。---
+title: 更改日志
+---
 
 #### Note
 
@@ -315,7 +316,11 @@ Choose from the following options:
 
 - Added dotted and grid background options
 
-- See the [documentation](../index.md)。## Version 0.1.x
+- See the [documentation](../index.md)详情
+
+ 
+
+## Version 0.1.x
 
 ### Version 0.1.1 Hotfixes
 
@@ -363,7 +368,7 @@ Choose from the following options:
 
   - Capitalize, uppercase, lowercase Title and Content
 
-  - RTL, LTR, 。Title and Content
+  - RTL, LTR, 中间 Title and Content
 
   - Tategaki (Vertical RTL)
 
@@ -371,11 +376,13 @@ Choose from the following options:
 
 - Added cssclasses for
 
-- 。(。RTL)
+- 塔特加基语(普通RTL)
 
-- 。LTR
+- 纵向LTR
 
--见[documentation](../index.md)。Credits:
+-见[documentation](../index.md)详情
+
+Credits:
 
 - `@OWA/bennyyip` on the Obisidian Members' Group Discord for the tategaki snippet
 

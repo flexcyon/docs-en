@@ -3,7 +3,7 @@ title: Indicadores de referencia - H3
 icon: material/format-header-3
 ---
 
-Añádase un indicador de la partida 3s. aparecerá en la lectura, edición y
+Add a heading indicator for heading 3s. Will appear in reading, editing and
 modo fuente.
 .
 

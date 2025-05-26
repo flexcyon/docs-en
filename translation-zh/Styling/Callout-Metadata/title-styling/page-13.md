@@ -1,16 +1,17 @@
 ---
-title: 。icon: material/align-horizontal-center
+title: 居中标题
+icon: material/align-horizontal-center
 ---
 
-。: "center-title"
+点名元数据: "center-title"
 
-。:
+用法 :
 
 ```md
 > [!info|center-title] The title will be centered
 > Content is shown as usual
 ```
 
-。["center-all"](../combined-styling/page-13.md)
+样式本身也适用于["center-all"](../combined-styling/page-13.md)
 页:1["center-content"](../content-styling/page-3.md)。
 

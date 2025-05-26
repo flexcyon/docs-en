@@ -3,7 +3,7 @@ title: Título
 icon: material/format-header-1
 ---
 
-Metadatos de callout: "h1-title"
+Callout metadata: "h1-title"
 
 Usage:
 

@@ -1,11 +1,12 @@
 ---
-title: 。icon: material/format-letter-case
+title: 标题指标
+icon: material/format-letter-case
 ---
 
 Add a heading indicator for all headings. Will appear in reading, editing
 and source mode.
 
-。:
+用法 :
 
 ```md
 cssclasses:

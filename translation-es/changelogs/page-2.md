@@ -46,7 +46,7 @@ Elija entre las siguientes opciones:
 - Opciones de fondo dotted y grid
 
 -[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
-para más detalles
+for more details
 
 ## Version 0.2.1 Small Update
 
@@ -54,14 +54,13 @@ para más detalles
 .
 
 - Colores extendidos actualizados para que`*-color1-color2`y`*-color-2-color`
-siempre devolverá la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
-.
+will always return the same color mix when using in callout metadata utilities.
 
 - Efecto activo de fondo de archivos más consistente
 
 - Añadido ASCII Art Line Highight opción
 
-- Cssclasses añadidos para las opciones de fondo de editor de cuadrículas
+- Cssclasses añadidos para opciones de fondo de editor de cuadrículas
 
 - Opciones de estilo añadido para el título en línea
 
@@ -69,7 +68,7 @@ siempre devolverá la misma mezcla de color cuando se utiliza en las utilidades 
 
 - Color de fondo de dobles comillas fijas
 
-- Apoyo añadido para el plugin de estadísticas por defecto
+- Apoyo añadido para el plugin de Estadísticas Vault
 
 - Tejidos menores para efectos de productos comunitarios
 

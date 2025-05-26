@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/layers-triple-outline
+title: 工作空间
+icon: material/layers-triple-outline
 ---
 
 Defines file line width when readable line length is enabled, opacity of dimmed
@@ -25,13 +26,13 @@ Style Settings
 
 ### File line width
 
-。CSS。:`var(--file-line-width)`
+目标CSS变量:`var(--file-line-width)`
 
 Default: 50 (rem)
 
 ### Opacity of dimmed elements
 
-。CSS。:`var(--dimmed)`
+目标CSS变量:`var(--dimmed)`
 
 Default: 0.55
 
@@ -40,7 +41,7 @@ Default: 0.55
 
 ### Top Actions alignment
 
-。CSS。:`var(--flexcyon-top-actions-alignment)`
+目标CSS变量:`var(--flexcyon-top-actions-alignment)`
 
-。:center
+默认 :center
 

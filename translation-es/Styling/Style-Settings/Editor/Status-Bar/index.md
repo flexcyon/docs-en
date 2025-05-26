@@ -3,9 +3,9 @@ title: Status Bar
 icon: material/state-machine
 ---
 
-Define las variables CSS para configurar la barra de estado
+Defines CSS variables to configure the status bar
 
-Formatos aceptados: s, px
+Accepted Formats: s, px
 
 ## Navigation
 
@@ -35,13 +35,13 @@ Default:false(de clase)
 
 CSS Variable(s) targeted:`var(--flexcyon-status-hide-until-hover-text)`
 
-Predeterminado: "Mostrar estado"
+Default: "Show status"
 
 #### Translation for showing status bar on hover
 
 CSS Variable(s) targeted:`var(--flexcyon-status-hide-until-hover-translation)`
 
-Predeterminado: 1500px
+Default: 1500px
 
 #### Transition duration for showing status bar on hover
 
@@ -96,19 +96,18 @@ Default:false(de clase)
 
 CSS Variable(s) targeted:`var(--status-bar-font-size)`
 
-Predeterminado: 12.5 (px)
+Default: 12.5 (px)
 
 #### Select status bar style
 
 CSS Classe(s) targeted: `.flexcyon-status-style-angled,
-,
 .flexcyon-status-style-card, .flexcyon-status-style-pl10k`
 
 Predeterminado: ninguno (clase selecto)
 Opciones:
 
 - Angled
-- Tarjetas
+- Cards
 - Powerlevel10k
 
 #### Enable status text color

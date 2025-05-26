@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/grid
+title: 网格背景
+icon: material/grid
 ---
 
 # Usage

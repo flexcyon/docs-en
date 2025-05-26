@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/download
+title: 安装
+icon: material/download
 ---
 
 # Via Community Store (recommended)

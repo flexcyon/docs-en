@@ -3,12 +3,11 @@ title: Versión 0.1.x y abajo
 icon: material/numeric-1-box-outline
 ---
 
-Versiones abajo 0.0.5 no se documentan ya que carecen de características notables.
-.
+Versions below 0.0.5 are not documented as they lack notable features.
 
 ## Version 0.0.5: Minor Changes
 
-- Hecho arte ASCII sensible, puede establecer un tamaño de fuente limiten él
+- Made ASCII art responsive, usted puede establecer un tamaño de fuente limiten él
 
 - La barra de estado no se solapa con el texto de entrada del modo de comando
 
@@ -24,7 +23,7 @@ Versiones abajo 0.0.5 no se documentan ya que carecen de características notabl
 
 - Apoyo añadido para el enchufe de repetición espaciada
 
-- Apoyo añadido para el enchufe de pan
+- Agregado soporte para el enchufe de pan
 
 - opción suplementaria adicional para partidas
 
@@ -50,13 +49,13 @@ Versiones abajo 0.0.5 no se documentan ya que carecen de características notabl
 
 - RTL, LTR,CenterTítulo y contenido
 
-- Tategaki (RTL vertical)
+- Tategaki (TL vertical)
 
 - LTR vertical
 
 - Cisclases adicionales para
 
-- Tategaki (RTL vertical)
+- Tategaki (TL vertical)
 
 - LTR vertical
 

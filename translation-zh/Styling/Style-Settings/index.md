@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/cog-outline
+title: 样式设置
+icon: material/cog-outline
 ---
 
 The installation instructions and general usage of the Style Settings plugin can

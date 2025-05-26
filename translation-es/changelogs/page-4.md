@@ -7,14 +7,13 @@ icon: material/numeric-4-box-outline
 
 - Cambio de la barra lateral de fondo de brillo predeterminado a`unset`.
 .
-Antes estaba causando problemas como desenfocar el contenido del plugin de Calender.
-.
+Was previously causing issues like blurring Calender plugin content.
 
-- Tema de luz WIP (mixes flexoki light + paleta de colores origami)
+- Tema ligero WIP (mixes flexoki light + paleta de colores origami)
 
 - Otros cambios erróneos
 
-- Agregado a la parrilla de colores extendida, por defecto
+- Agregado a la parpaeta de color extendida, por defecto
 
 - opción de tamaño de la cabecera de mesa
 
@@ -31,7 +30,7 @@ el tema
 
 - Mejora de estilo rápido y relleno de elementos de árbol
 
-- Regresar a Zero (modo minimalista del ultra) inspirado en Shimmering Focus
+- Return to Zero (ultra minimalist mode) inspired by Shimmering Focus
 
 ### Version 0.4.1 Quickfix Update
 

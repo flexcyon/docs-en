@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/select-color
+title: 紫色标题
+icon: material/select-color
 ---
 
 Callout metadata: "title-purple"
@@ -9,6 +10,6 @@ Callout metadata: "title-purple"
 > The background color will display as usual
 ```
 
-。["all-purple"](../combined-styling/page-4.md)
+样式本身也适用于["all-purple"](../combined-styling/page-4.md)
 页:1["bg-purple"](../bg-styling/page-4.md)。
 

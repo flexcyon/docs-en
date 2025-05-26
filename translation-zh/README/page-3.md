@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/hexagon-multiple-outline
+title: 支持的扩展
+icon: material/hexagon-multiple-outline
 tags:
     - plugins
     - snippets

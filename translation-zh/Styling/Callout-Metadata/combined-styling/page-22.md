@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/format-underline
+title: 全部下划线
+icon: material/format-underline
 ---
 
 Callout metadata: "underline-all"
 
-。:
+用法 :
 
 ```md
 > [!info|underline-all] The title will be displayed as underline

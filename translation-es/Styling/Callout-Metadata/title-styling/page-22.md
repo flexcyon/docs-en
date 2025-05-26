@@ -3,7 +3,7 @@ title: Título
 icon: material/format-underline
 ---
 
-Metadatos Callout: "subline-title"
+Callout metadata: "underline-title"
 
 Usage:
 

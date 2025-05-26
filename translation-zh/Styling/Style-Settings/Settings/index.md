@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/cogs
+title: 设置
+icon: material/cogs
 ---
 
 For customising the appearance of various UI aspects of settings.
@@ -22,48 +23,48 @@ Style Settings
 
 ### Smiley Toggle Icons in Settings
 
-。CSS。:`var(--flexcyon-settings-smiley-icons-enabled)`
+目标CSS变量:`var(--flexcyon-settings-smiley-icons-enabled)`
 
-。:true(。)
+默认 :true(类切换)
 
 ### Coloured Icons in Settings
 
-。CSS。:`var(--flexcyon-settings-coloured-icons)`
+目标CSS变量:`var(--flexcyon-settings-coloured-icons)`
 
-。:false(。)
+默认 :false(类切换)
 
 ### Enable community item effects
 
-。CSS。:`var(--flexcyon-settings-comm-item-enabled)`
+目标CSS变量:`var(--flexcyon-settings-comm-item-enabled)`
 
-。:true(。)
+默认 :true(类切换)
 
 ### Opacity of community items (unselected)
 
-。CSS。:`var(--flexcyon-comm-item-opacity)`
+目标CSS变量:`var(--flexcyon-comm-item-opacity)`
 
-。: 0.89
+默认: 0.89
 
 <span style="opacity: 0.89"
 >Sample opacity of community items (unselected)</span>
 
 ### Installed tooltip left margin
 
-。CSS。:`var(--flexcyon-settings-installed-tooltip-left-margin)`
+目标CSS变量:`var(--flexcyon-settings-installed-tooltip-left-margin)`
 
-。:1(。)
+默认:1(雷姆)
 
 ### Do not show scrollbar in settings
 
-。CSS。:`var(--flexcyon-settings-scrollbar-removed)`
+目标CSS变量:`var(--flexcyon-settings-scrollbar-removed)`
 
-。:true(。)
+默认 :true(类切换)
 
 ### Enabled alternate active item effect in settings
 
-。CSS。:`var(--flexcyon-enable-alt-active-item-effect)`
+目标CSS变量:`var(--flexcyon-enable-alt-active-item-effect)`
 
-。:true(。)
+默认 :true(类切换)
 
  
 
@@ -71,17 +72,17 @@ Style Settings
 
 Configure the appearance for style settings
 
-。: px
+接受格式: px
 
 #### Indentation width between style settings headings
 
-。CSS。:`var(--flexcyon-style-settings-indent-width)`
+目标CSS变量:`var(--flexcyon-style-settings-indent-width)`
 
-。: 4( px)
+默认: 4( px)
 
 #### Dim collapsed style settings headings
 
-。CSS。:`var(--flexcyon-style-settings-dim-collapsed-headings)`
+目标CSS变量:`var(--flexcyon-style-settings-dim-collapsed-headings)`
 
-。:true
+默认 :true
 

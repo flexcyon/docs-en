@@ -3,7 +3,7 @@ title: Todo púrpura
 icon: material/format-color-fill
 ---
 
-Metadatos de callout: "todo púrpura"
+Callout metadata: "all-purple"
 
 ```md
 > [!tip|all-purple] Title will be purple

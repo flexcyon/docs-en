@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/format-letter-case-lower
+title: 小写全部
+icon: material/format-letter-case-lower
 ---
 
 Callout metadata: "lowercase-all"
 
-。:
+用法 :
 
 ```md
 > [!info|lowercase-all] The title will be displayed as lowercase

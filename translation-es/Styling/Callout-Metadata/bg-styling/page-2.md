@@ -3,7 +3,7 @@ title: Fondo azul
 icon: material/layers-outline
 ---
 
-Metadatos de llamada: "bg-blue"
+Callout metadata: "bg-blue"
 
 ```md
 > [!info|bg-blue] Title will display as usual

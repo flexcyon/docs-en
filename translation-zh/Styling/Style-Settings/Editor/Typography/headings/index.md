@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/format-header-pound
+title: 标题
+icon: material/format-header-pound
 ---
 
 Defines CSS variables for styling related to headings like font weight.
@@ -26,16 +27,16 @@ Style Settings
 
 ### Enable coloured headings
 
-。CSS。:`var(--flexcyon-headings-coloured-enabled)`
+目标CSS变量:`var(--flexcyon-headings-coloured-enabled)`
 
-。:true(。)
+默认 :true(类切换)
 > Inherits from accent colors like `--color-blue`, `--color-red` etc
 
 ### Enable soft glow for headings
 
-。CSS。:`var(--flexcyon-headings-glow-enabled)`
+目标CSS变量:`var(--flexcyon-headings-glow-enabled)`
 
-。:false(。)
+默认 :false(类切换)
 
 ### Enable heading indicators globally
 
@@ -44,44 +45,44 @@ If you are looking to apply them on a per-note basis, [click here](../../../../C
 
 #### For Heading 1
 
-。CSS。:`var(--flexcyon-headings-indicator-h1)`
+目标CSS变量:`var(--flexcyon-headings-indicator-h1)`
 
-。:false(。)
+默认 :false(类切换)
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-1.md)
 
 #### For Heading 2
 
-。CSS。:`var(--flexcyon-headings-indicator-h2)`
+目标CSS变量:`var(--flexcyon-headings-indicator-h2)`
 
-。:false(。)
+默认 :false(类切换)
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-2.md)
 
 #### For Heading 3
 
-。CSS。:`var(--flexcyon-headings-indicator-h3)`
+目标CSS变量:`var(--flexcyon-headings-indicator-h3)`
 
-。:false(。)
+默认 :false(类切换)
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-3.md)
 
 #### For Heading 4
 
-。CSS。:`var(--flexcyon-headings-indicator-h4)`
+目标CSS变量:`var(--flexcyon-headings-indicator-h4)`
 
-。:false(。)
+默认 :false(类切换)
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-4.md)
 
 #### For Heading 5
 
-。CSS。:`var(--flexcyon-headings-indicator-h5)`
+目标CSS变量:`var(--flexcyon-headings-indicator-h5)`
 
-。:false(。)
+默认 :false(类切换)
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-5.md)
 
 #### For Heading 6
 
-。CSS。:`var(--flexcyon-headings-indicator-h6)`
+目标CSS变量:`var(--flexcyon-headings-indicator-h6)`
 
-。:false(。)
+默认 :false(类切换)
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-6.md)
 
  
@@ -90,7 +91,7 @@ If you are looking to apply them on a per-note basis, [click here](../../../../C
 
 #### Heading 1 font size
 
-。CSS。:`var(--h1-size)`
+目标CSS变量:`var(--h1-size)`
 
 Default: 1.802 (em)
 
@@ -99,7 +100,7 @@ Default: 1.802 (em)
 
 #### Heading 2 font size
 
-。CSS。:`var(--h2-size)`
+目标CSS变量:`var(--h2-size)`
 
 Default: 1.602 (em)
 
@@ -108,7 +109,7 @@ Default: 1.602 (em)
 
 #### Heading 3 font size
 
-。CSS。:`var(--h3-size)`
+目标CSS变量:`var(--h3-size)`
 
 Default: 1.424 (em)
 
@@ -117,7 +118,7 @@ Default: 1.424 (em)
 
 #### Heading 4 font size
 
-。CSS。:`var(--h4-size)`
+目标CSS变量:`var(--h4-size)`
 
 Default: 1.266 (em)
 
@@ -126,7 +127,7 @@ Default: 1.266 (em)
 
 #### Heading 5 font size
 
-。CSS。:`var(--h5-size)`
+目标CSS变量:`var(--h5-size)`
 
 Default: 1.125 (em)
 
@@ -135,9 +136,9 @@ Default: 1.125 (em)
 
 #### Heading 6 font size
 
-。CSS。:`var(--h6-size)`
+目标CSS变量:`var(--h6-size)`
 
-。:1(em)
+默认:1(em)
 
 <h6 style="font-weight: 575; font-size: 1em;"
 >Sample h6</h6>
@@ -148,57 +149,57 @@ Default: 1.125 (em)
 
 #### Heading 1 font weight
 
-。CSS。:`var(--h1-weight)`
+目标CSS变量:`var(--h1-weight)`
 
 Default: 700
 
 <h1 style="font-weight: 700; font-size: 1.802em;"
->。h1</h1>
+>样本 h1</h1>
 
 #### Heading 2 font weight
 
-。CSS。:`var(--h2-weight)`
+目标CSS变量:`var(--h2-weight)`
 
 Default: 675
 
 <h2 style="font-weight: 675; font-size: 1.602em;"
->。h2</h2>
+>样本 h2</h2>
 
 #### Heading 3 font weight
 
-。CSS。:`var(--h3-weight)`
+目标CSS变量:`var(--h3-weight)`
 
 Default: 650
 
 <h3 style="font-weight: 650; font-size: 1.424em;"
->。h3</h3>
+>样本 h3</h3>
 
 #### Heading 4 font weight
 
-。CSS。:`var(--h4-weight)`
+目标CSS变量:`var(--h4-weight)`
 
 Default: 625
 
 <h4 style="font-weight: 625; font-size: 1.266;"
->。h4</h4>
+>样本 h4</h4>
 
 #### Heading 5 font weight
 
-。CSS。:`var(--h5-weight)`
+目标CSS变量:`var(--h5-weight)`
 
 Default: 600
 
 <h5 style="font-weight: 600; font-size: 1.125em;"
->。h5</h5>
+>样本 h5</h5>
 
 #### Heading 6 font weight
 
-。CSS。:`var(--h6-weight)`
+目标CSS变量:`var(--h6-weight)`
 
 Default: 575
 
 <h6 style="font-weight: 575; font-size: 1em;"
->。h6</h6>
+>样本 h6</h6>
 
  
 
@@ -206,39 +207,39 @@ Default: 575
 
 #### Heading 1 line height
 
-。CSS。:`var(--h1-line-height)`
+目标CSS变量:`var(--h1-line-height)`
 
 Default: 1.2
 
 #### Heading 2 line height
 
-。CSS。:`var(--h2-line-height)`
+目标CSS变量:`var(--h2-line-height)`
 
-。: 1.2
+默认: 1.2
 
 #### Heading 3 line height
 
-。CSS。:`var(--h3-line-height)`
+目标CSS变量:`var(--h3-line-height)`
 
 Default: 1.3
 
 #### Heading 4 line height
 
-。CSS。:`var(--h4-line-height)`
+目标CSS变量:`var(--h4-line-height)`
 
 Default: 1.4
 
 #### Heading 5 line height
 
-。CSS。:`var(--h5-line-height)`
+目标CSS变量:`var(--h5-line-height)`
 
 Default: 1.5
 
 #### Heading 6 line height
 
-。CSS。:`var(--h6-line-height)`
+目标CSS变量:`var(--h6-line-height)`
 
-。: 1.5
+默认: 1.5
 
  
 
@@ -246,37 +247,37 @@ Default: 1.5
 
 #### Enable underline for Heading 1
 
-。CSS。:`var(--flexcyon-h1-underline-enabled)`
+目标CSS变量:`var(--flexcyon-h1-underline-enabled)`
 
-。:false(。)
+默认 :false(类切换)
 > The size of the underline scales with your font weight
 
 #### Enable underline for Heading 2
 
-。CSS。:`var(--flexcyon-h2-underline-enabled)`
+目标CSS变量:`var(--flexcyon-h2-underline-enabled)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Enable underline for Heading 3
 
-。CSS。:`var(--flexcyon-h3-underline-enabled)`
+目标CSS变量:`var(--flexcyon-h3-underline-enabled)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Enable underline for Heading 4
 
-。CSS。:`var(--flexcyon-h4-underline-enabled)`
+目标CSS变量:`var(--flexcyon-h4-underline-enabled)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Enable underline for Heading 5
 
-。CSS。:`var(--flexcyon-h5-underline-enabled)`
+目标CSS变量:`var(--flexcyon-h5-underline-enabled)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Enable underline for Heading 6
 
-。CSS。:`var(--flexcyon-h6-underline-enabled)`
+目标CSS变量:`var(--flexcyon-h6-underline-enabled)`
 
-。:false(。)
+默认 :false(类切换)

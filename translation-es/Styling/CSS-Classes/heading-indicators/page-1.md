@@ -3,9 +3,8 @@ title: Indicadores de referencia - H1
 icon: material/format-header-1
 ---
 
-Añádase un indicador de la partida 1s. aparecerá en la lectura, edición y
-modo fuente.
-.
+Add a heading indicator for heading 1s. Will appear in reading, editing and
+source mode.
 
 Usage:
 

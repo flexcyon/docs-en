@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/format-strikethrough
+title: 全部切换
+icon: material/format-strikethrough
 ---
 
 Callout metadata: "line-through-all"
 
-。:
+用法 :
 
 ```md
 > [!info|line-through-all] The title will be displayed as line-through

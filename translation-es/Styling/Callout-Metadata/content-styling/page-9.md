@@ -3,7 +3,7 @@ title: Contenido oblicua
 icon: material/format-text-variant
 ---
 
-Metadatos de llamada: "contenido oblicuo"
+Callout metadata: "oblique-content"
 
 Usage:
 

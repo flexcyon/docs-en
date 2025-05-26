@@ -3,7 +3,7 @@ title: Listas de balas
 icon: material/format-list-bulleted
 ---
 
-Configurar listas de balas en el tema
+Configure bullet lists in the theme
 
 ## Navigation
 
@@ -25,6 +25,6 @@ Style Settings
 
 CSS Variable(s) targeted:`var(--flexcyon-rainbow-bullet-points)`
 
-Default:false(de clase)
+Default:false (class toggle)
 > Might need app restart/reload to take effect.
 

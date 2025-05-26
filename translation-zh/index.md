@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/home
+title: 首頁
+icon: material/home
 ---
 
 This hosts the English documentation for the

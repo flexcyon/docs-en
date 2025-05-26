@@ -3,7 +3,7 @@ title: Título
 icon: material/format-letter-case-lower
 ---
 
-Metadatos de callout: "bajo-título"
+Callout metadata: "lowercase-title"
 
 Usage:
 

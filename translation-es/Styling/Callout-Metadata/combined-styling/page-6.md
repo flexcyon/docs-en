@@ -3,7 +3,7 @@ title: Todo rosado
 icon: material/format-color-fill
 ---
 
-Metadatos de callout: "total punk"
+Callout metadata: "all-pink"
 
 ```md
 > [!tip|all-pink] Title will be pink

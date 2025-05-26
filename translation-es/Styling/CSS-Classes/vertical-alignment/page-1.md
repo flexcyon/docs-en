@@ -5,7 +5,7 @@ icon: material/align-horizontal-left
 
 # Usage
 
-Aplica horizontal Izquierda a derecha (LTR) a sus notas en modo de lectura
+Applies Horizontal Left-to-Right (LTR) to your notes in reading mode
 
 ```md
 ---
@@ -16,7 +16,7 @@ cssclasses
 
 ## Callout metadata provider
 
-También hay un proveedor de metadatos de llamada para LTR Vertical
+There is also a callout metadata provider for Vertical LTR
 
 ```md
 >[!info|vertical-ltr] The title will not display

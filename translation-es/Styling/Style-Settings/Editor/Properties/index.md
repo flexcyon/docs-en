@@ -3,8 +3,7 @@ title: Propiedades
 icon: material/axis-arrow-info
 ---
 
-Configura variables CSS para propiedades/metadatos/YAML de archivos.
-.
+Configures CSS variables for properties/metadata/YAML of files.
 
 ## Navigation
 
@@ -22,7 +21,7 @@ Style Settings
 
 ## Configuration Options
 
-Formatos aceptados: px
+Accepted Formats: px
 
 ### Do not show properties in reading mode
 
@@ -46,5 +45,5 @@ Default:false(de clase)
 
 CSS Variable(s) targeted:`var(--flexcyon-meta-container-padding-left)`
 
-Predeterminado: 14 (px)
+Default: 14 (px)
 

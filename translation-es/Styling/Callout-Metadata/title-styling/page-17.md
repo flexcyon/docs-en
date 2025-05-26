@@ -3,7 +3,7 @@ title: Tilt Title
 icon: material/angle-acute
 ---
 
-Metadatos de callout: "tilt-title"
+Callout metadata: "tilt-title"
 
 Usage:
 

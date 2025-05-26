@@ -3,8 +3,8 @@ title: Editor
 icon: material/layers-edit
 ---
 
-Configurar el fondo en el editor
-Formatos aceptados: px, deg
+Configure the background in the editor
+Accepted formats: px, deg
 
 ## Navigation
 
@@ -32,9 +32,9 @@ CSS Classe(s) targeted:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-
 Predeterminado: ninguno (clase selecto)
 Opciones:
 
-- Antecedentes de presión
+- Grid Background
 - Dotted Background
-- Antecedentes de Rhombus
+- Rhombus Background
 
 ### Rotation value for grid and rhombus background
 

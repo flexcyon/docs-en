@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/format-letter-case-upper
+title: 大写全部
+icon: material/format-letter-case-upper
 ---
 
 Callout metadata: "uppercase-all"
 
-。:
+用法 :
 
 ```md
 > [!info|uppercase-all] The title will be displayed as uppercase

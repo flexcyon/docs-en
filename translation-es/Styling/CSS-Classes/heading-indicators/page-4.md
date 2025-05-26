@@ -3,7 +3,7 @@ title: Indicadores de referencia - H4
 icon: material/format-header-4
 ---
 
-Añádase un indicador de la partida 4s. aparecerá en la lectura, edición y
+Add a heading indicator for heading 4s. Will appear in reading, editing and
 modo fuente.
 .
 

@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/layers-outline
+title: 蓝色背景
+icon: material/layers-outline
 ---
 
 Callout metadata: "bg-blue"
@@ -9,6 +10,6 @@ Callout metadata: "bg-blue"
 > The background color will be blue
 ```
 
-。["all-blue"](../combined-styling/page-2.md)
+样式本身也适用于["all-blue"](../combined-styling/page-2.md)
 页:1["title-blue"](../title-styling/page-2.md)。
 

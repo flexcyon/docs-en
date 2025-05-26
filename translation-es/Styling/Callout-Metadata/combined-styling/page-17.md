@@ -3,7 +3,7 @@ title: Tilt All
 icon: material/angle-acute
 ---
 
-Metadatos de llamada: "total"
+Callout metadata: "tilt-all"
 
 Usage:
 

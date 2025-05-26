@@ -3,7 +3,7 @@ title: Título de huelga
 icon: material/format-strikethrough
 ---
 
-Metadatos Callout: "line-through-title"
+Callout metadata: "line-through-title"
 
 Usage:
 

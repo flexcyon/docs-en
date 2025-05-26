@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/caps-lock
+title: 全部资本化
+icon: material/caps-lock
 ---
 
 Callout metadata: "caps-all"
 
-。:
+用法 :
 
 ```md
 > [!info|caps-all] The title will be displayed as caps

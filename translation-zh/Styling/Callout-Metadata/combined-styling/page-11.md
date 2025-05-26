@@ -1,10 +1,11 @@
 ---
-title: RTL 。icon: material/align-horizontal-right
+title: RTL 全部
+icon: material/align-horizontal-right
 ---
 
 Callout metadata: "rtl-all"
 
-。:
+用法 :
 
 ```md
 > [!info|rtl-all] The title will be displayed as rtl

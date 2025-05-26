@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/dots-grid
+title: 点名背景
+icon: material/dots-grid
 ---
 
 # Usage

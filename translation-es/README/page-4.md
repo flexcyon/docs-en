@@ -5,20 +5,18 @@ tags:
     - styling
 ---
 
-Este tema se propone lograr lo siguiente
+This theme sets out to achieve the following
 
-1. Ser "considerado razonablemente", las características del paquete utilizan ycoveralgunos nicho
-también.
-.
+1. Be "reasonably opinionated", bundle features users use and cover some niche 
+ones too.
 
-2. Sea decentemente ligero, esto significa *no embeds* (sin fuentes, SVGs)
+2. Be decently lightweight, this means *no embeds* (no fonts, SVGs)
 
-3. Por defecto de Sane
+3. Sane defaults
 
-4. Personalizable con configuración de estilo
+4. Customisable with Style Settings
 
-5. Dim elementos UI inactivos o desenfocados para reducir la sobrecarga de información
+5. Dim inactive or unfocused UI elements to reduce information overload
 
-6. Agrupar numerosos metadatos de llamada utilites y cssclasses.
-.
+6. Bundle numerous callout metadata utilites and cssclasses.
 

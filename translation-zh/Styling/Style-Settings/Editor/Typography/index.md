@@ -1,11 +1,12 @@
 ---
-title: 。icon: material/format-text
+title: 类型
+icon: material/format-text
 ---
 
 Defined colors for muted text color, styling for headings, and controlling UI
 font sizes.
 
-。: HEX
+接受格式: HEX
 
 ## Navigation
 
@@ -25,9 +26,9 @@ Style Settings
 
 ### Muted text color
 
-。CSS。:`var(--flexcyon-text-muted)`
+目标CSS变量:`var(--flexcyon-text-muted)`
 
-。:
+默认 :
 <span class="col-sqr" style="background-color: #6f768599"
 ></span
 > #6f768599

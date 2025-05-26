@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/layers-off-outline
+title: 透明背景
+icon: material/layers-off-outline
 ---
 
 Callout metadata: "transparent-bg" or "bg-transparent"
 
-。:
+用法 :
 
 ```md
 > [!warning|transparent-bg] The background color will be transparent

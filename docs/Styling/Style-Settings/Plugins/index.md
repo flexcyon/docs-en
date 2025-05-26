@@ -142,12 +142,14 @@ Default: 1 (px)
 
 Configure the alignment of the canvas card menu.
 
-CSS Classe(s) targeted: `.flexcyon-canvas-menu-bottom-left,
+CSS Classe(s) targeted: `.flexcyon-canvas-menu-bottom-left,`
+`
 .flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
 .flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
 .flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
 .flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center,
-.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align`
+.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align
+`
 
 Default: none (class select)
 

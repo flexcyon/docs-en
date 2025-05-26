@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/hexagon-outline
+title: 插件
+icon: material/hexagon-outline
 ---
 
 For configuration of officially supported plugins
@@ -23,7 +24,7 @@ Style Settings
 
 #### Folders font size
 
-。CSS。:`var(--oz-fta-folder-font-size)`
+目标CSS变量:`var(--oz-fta-folder-font-size)`
 
 Default: 0.925 (rem)
 
@@ -32,35 +33,35 @@ Default: 0.925 (rem)
 
 #### Folders font color
 
-。CSS。:`var(--oz-fta-folder-pane-file-name-color)`
+目标CSS变量:`var(--oz-fta-folder-pane-file-name-color)`
 
-。( 。) :
+默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #080808"
 ></span
->#080808 (。).
+>#080808 (英语).
 
-。( 。) :
+默认( 暗模式) :
 <span class="col-sqr" style="background-color: #d3d5d3"
 ></span
->#d3d5d3 (。:
+>#d3d5d3 (英语:
 
 #### Active folder color
 
 CSS Variables(s) targeted: `var(--oz-fta-all-panes-active-text-color)`
 
-。( 。) :
+默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #080808"
 ></span
->#080808 (。).
+>#080808 (英语).
 
-。( 。) :
+默认( 暗模式) :
 <span class="col-sqr" style="background-color: #d3d5d3"
 ></span
->#d3d5d3 (。:
+>#d3d5d3 (英语:
 
 #### Files font size
 
-。CSS。:`var(--oz-fta-file-font-size)`
+目标CSS变量:`var(--oz-fta-file-font-size)`
 
 Default: 0.9 (rem)
 
@@ -69,36 +70,36 @@ Default: 0.9 (rem)
 
 #### Files font color
 
-。CSS。:`var(--oz-fta-file-pane-file-name-color)`
+目标CSS变量:`var(--oz-fta-file-pane-file-name-color)`
 
-。:
+默认 :
 <span class="col-sqr" style="background-color: #6f768599"
 ></span
->#6f768599 (。).
+>#6f768599 (英语).
 
 #### Disable folder icons
 
-。CSS。:`var(--flexcyon-oz-folder-icons-disabled)`
+目标CSS变量:`var(--flexcyon-oz-folder-icons-disabled)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Disable file tree header
 
-。CSS。:`var(--flexcyon-oz-file-tree-header-disabled)`
+目标CSS变量:`var(--flexcyon-oz-file-tree-header-disabled)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Enable Alternate folder count
 
-。CSS。:`var(--flexcyon-oz-alternate-folder-count)`
+目标CSS变量:`var(--flexcyon-oz-alternate-folder-count)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Enabled dimmed file extensions in file tree
 
-。CSS。:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
+目标CSS变量:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
 
-。:true(。)
+默认 :true(类切换)
 
  
 
@@ -108,7 +109,7 @@ Accepted formats: x.y, %
 
 #### Opacity of dimmed full calendar items
 
-。CSS。:`var(--flexcyon-fc-dimmed-items-opacity)`
+目标CSS变量:`var(--flexcyon-fc-dimmed-items-opacity)`
 
 Default: 0.89
 
@@ -119,13 +120,13 @@ Default: 0.89
 
 ### Dataview
 
-。: px
+接受格式: px
 
 #### Horizontal padding of dataview error messages
 
-。CSS。:`var(--flexcyon-dataview-horizontal-padding)`
+目标CSS变量:`var(--flexcyon-dataview-horizontal-padding)`
 
-。: 8 (px)
+默认: 8 (px)
 
  
 
@@ -137,16 +138,16 @@ Accepted formats: px, RGB
 
 #### Blur inactive Canvas nodes
 
-。CSS。:`var(--flexcyon-canvas-blur-inactive-nodes)`
+目标CSS变量:`var(--flexcyon-canvas-blur-inactive-nodes)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Blur intensity for inactive nodes
 
 Used with the previous setting to set the blur intensity of inactive canvas nodes
 and all arrows/edges.
 
-。CSS。:`var(--flexcyon-canvas-blur-intensity)`
+目标CSS变量:`var(--flexcyon-canvas-blur-intensity)`
 
 Default: 1 (px)
 
@@ -154,23 +155,29 @@ Default: 1 (px)
 
 Configure the alignment of the canvas card menu.
 
-CSS Classe(s) targeted: `.flexcyon-canvas-menu-bottom-left,
+CSS类目标:`.flexcyon-canvas-menu-bottom-left,`
+`
 .flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
 .flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
 .flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
-.flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center, (。).
+.flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center, (中文).
 ,
-.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align`
+.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align
+`
 
-。: 无( 。)
+默认: 无( 类选择)
 
-。:
+选项 :
 
--。- Bottom right
+-左边
 
-- 。center
+- Bottom right
 
-- 。- Top right
+- 顶部center
+
+- 左边
+
+- Top right
 
 - Left aligned center
 
@@ -184,5 +191,5 @@ CSS Classe(s) targeted: `.flexcyon-canvas-menu-bottom-left,
 
 - Right aligned bottom
 
-- 。center align
+- 右对齐center align
 

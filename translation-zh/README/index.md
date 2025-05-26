@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/book-open-blank-variant-outline
+title: 读取
+icon: material/book-open-blank-variant-outline
 ---
 
 <img src="https://img.shields.io/badge/downloads-900+-6E4E9B?style=for-the-badge&logo=obsidian&color=%23483699" alt="Downloads badge">

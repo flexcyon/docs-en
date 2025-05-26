@@ -3,7 +3,7 @@ title: Indicadores de referencia - H2
 icon: material/format-header-2
 ---
 
-Añádase un indicador de la partida 2s. aparecerá en la lectura, edición y
+Add a heading indicator for heading 2s. Will appear in reading, editing and
 modo fuente.
 .
 

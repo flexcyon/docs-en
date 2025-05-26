@@ -3,7 +3,7 @@ title: Contenido RTL
 icon: material/align-horizontal-right
 ---
 
-Metadatos de callout: "contenido nulo"
+Callout metadata: "rtl-content"
 
 Usage:
 

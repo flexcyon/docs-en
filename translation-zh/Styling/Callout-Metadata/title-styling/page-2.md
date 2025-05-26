@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/select-color
+title: 蓝色标题
+icon: material/select-color
 ---
 
 Callout metadata: "title-blue"
@@ -9,6 +10,6 @@ Callout metadata: "title-blue"
 > The background color will display as usual
 ```
 
-。["all-blue"](../combined-styling/page-2.md) 
+样式本身也适用于["all-blue"](../combined-styling/page-2.md) 
 页:1["bg-blue"](../bg-styling/page-2.md)。
 

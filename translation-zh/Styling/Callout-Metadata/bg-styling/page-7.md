@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/layers-outline
+title: 绿色背景
+icon: material/layers-outline
 ---
 
 Callout metadata: "bg-green"
@@ -9,6 +10,6 @@ Callout metadata: "bg-green"
 > The background color will be green
 ```
 
-。["all-green"](../combined-styling/page-7.md)
+样式本身也适用于["all-green"](../combined-styling/page-7.md)
 页:1["title-green"](../title-styling/page-7.md)。
 

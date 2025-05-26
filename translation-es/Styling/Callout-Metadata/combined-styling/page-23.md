@@ -3,7 +3,7 @@ title: Strikethrough All
 icon: material/format-strikethrough
 ---
 
-Metadatos de llamada: "line-through-all"
+Callout metadata: "line-through-all"
 
 Usage:
 

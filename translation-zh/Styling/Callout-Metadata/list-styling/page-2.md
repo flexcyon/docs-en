@@ -1,9 +1,10 @@
 ---
-title: 。icon: material/format-list-bulleted
+title: 无序列表样式
+icon: material/format-list-bulleted
 ---
 > `ul-style_type`
 
-。:
+用法 :
 
 ```md
 >[!info|ul-lower-roman] Your title as usual

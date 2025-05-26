@@ -3,7 +3,7 @@ title: Todo azul
 icon: material/format-color-fill
 ---
 
-Metadatos de llamada: "todo azul"
+Callout metadata: "all-blue"
 
 ```md
 > [!tip|all-blue] Title will be blue

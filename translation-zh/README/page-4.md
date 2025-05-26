@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/pen
+title: 设计原则
+icon: material/pen
 tags:
     - styling
 ---

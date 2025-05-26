@@ -12,10 +12,10 @@ this theme
 ```
 > Shorthand for both ["bg-color1-color2"](../bg-styling/page-10.md) and ["title-color1-color2"](../title-styling/page-10.md)
 
-También puede utilizar estos colores en sus propios fragmentos de css, que toman la forma de:
+You can also use this colors in your own css snippets, they take the form of:
 > - `var(--color-color1-color2-mix)`: E.g. `var(--color-red-blue-mix)`
 > - `var(--color-color1-color2-mix-bg)`: E.g. `var(--color-red-blue-mix-bg)`
 
 
 Requisitos[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette) 
-a seguir
+to be on

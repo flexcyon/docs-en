@@ -3,7 +3,7 @@ title: Índice
 icon: material/format-letter-case-lower
 ---
 
-Metadatos de llamada: "bajo contenido"
+Callout metadata: "lowercase-content"
 
 Usage:
 

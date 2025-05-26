@@ -1,16 +1,17 @@
 ---
-title: 。icon: material/format-overline
+title: 线性内容
+icon: material/format-overline
 ---
 
 Callout metadata: "overline-content"
 
-。:
+用法 :
 
 ```md
 > [!info|overline-content] The title will be displayed as usual
 > The content will be displayed as overline
 ```
 
-。["overline-all"](../combined-styling/page-21.md)
+样式本身也适用于["overline-all"](../combined-styling/page-21.md)
 页:1["overline-title"](../title-styling/page-21.md)。
 

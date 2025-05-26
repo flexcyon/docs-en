@@ -1,12 +1,12 @@
 ---
-title: 。- H1 - H1 - 。 H1
+title: 标题指标 - H1 - H1 - 对 - H1
 icon: material/format-header-1
 ---
 
 Add a heading indicator for heading 1s. Will appear in reading, editing and
 source mode.
 
-。:
+用法 :
 
 ```md
 cssclasses:

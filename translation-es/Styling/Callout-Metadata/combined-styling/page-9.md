@@ -3,7 +3,7 @@ title: Todos los amarillos
 icon: material/format-color-fill
 ---
 
-Metadatos de llamada: "todo amarillo"
+Callout metadata: "all-yellow"
 
 ```md
 > [!tip|all-yellow] Title will be yellow

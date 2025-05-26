@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/language-css3
+title: 样式
+icon: material/language-css3
 ---
 
 If you are looking to style Flexcyon.

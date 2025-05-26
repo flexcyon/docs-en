@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/format-italic
+title: 全部斜体
+icon: material/format-italic
 ---
 
 Callout metadata: "italic-all"
 
-。:
+用法 :
 
 ```md
 > [!info|italic-all] The title will be displayed as italic

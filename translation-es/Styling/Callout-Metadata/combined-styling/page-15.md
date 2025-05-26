@@ -3,7 +3,7 @@ title: Funda baja
 icon: material/format-letter-case-lower
 ---
 
-Metadatos de llamada: "bajo todo"
+Callout metadata: "lowercase-all"
 
 Usage:
 

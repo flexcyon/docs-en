@@ -18,4 +18,4 @@ icon: material/format-list-bulleted-type
 __
 Formatos aceptados para`style_type`: El[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
-Utilice cuando desea aplicar el mismo estilo a las listas ordenadas y sin orden
+Use when you want to apply the same style to both ordered and unordered lists

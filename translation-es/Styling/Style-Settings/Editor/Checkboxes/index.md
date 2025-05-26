@@ -3,23 +3,22 @@ title: Cajas de control
 icon: material/checkbox-outline
 ---
 
-En esta subpágina, puede encontrar ejemplos de uso para el estilo de las casillas de verificación.
-.
+In this sub-page, you can find usage examples for styling of checkboxes.
 
 ## Screenshots
 
 <figure markdown="span">
-<img src="././././././assets/screenshots/ascii_checkboxes1.png" ancho="800"
-alt="Figura 1: ASCII Checkboxes"
+    <img src="../../../../assets/screenshots/ascii_checkboxes1.png" width="800"
+    alt="Figure 1: ASCII Checkboxes">
     <figcaption
 >Figure 1: ASCII Checkboxes</figcaption>
 </figure>
 
 <figure markdown="span">
-<img src="././././././assets/screenshots/ascii_checkboxes2.png" ancho="800"
-alt="Figura 2: Cajas de verificación ASCII en modo fuente"
+    <img src="../../../../assets/screenshots/ascii_checkboxes2.png" width="800"
+    alt="Figure 2: ASCII Checkboxes in source mode">
     <figcaption
->Figura 2: Cajas de comprobación ASCII en modo fuente</figcaption>
+>Figure 2: ASCII Checkboxes in source mode</figcaption>
 </figure>
 
 ## Navigation
@@ -38,7 +37,7 @@ Style Settings
 
 ## Configuration options
 
-Formatos aceptados: rem
+Accepted formats: rem
 
 ### Enable ASCII checkboxes
 
@@ -53,5 +52,5 @@ CSS Variable(s) targeted:`var(--flexcyon-ascii-checkboxes-font-size)`
 Default: 1.2 (rem)
 
 <span style="font-size: 1.2rem"
->Cajas de verificación ASCII tamaño de la fuente</span>
+>Sample ASCII checkboxes font size</span>
 

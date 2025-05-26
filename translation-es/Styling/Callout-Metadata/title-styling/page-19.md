@@ -3,7 +3,7 @@ title: Título oblicua
 icon: material/format-letter-case-upper
 ---
 
-Metadatos de callout: "oblicua-título"
+Callout metadata: "oblique-title"
 
 Usage:
 

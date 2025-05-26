@@ -1,5 +1,5 @@
 ---
-title: 。- Tategaki
+title: 垂直对齐 - Tategaki
 icon: material/align-horizontal-right
 ---
 
@@ -7,7 +7,7 @@ icon: material/align-horizontal-right
 
 Applies Horizontal Right-to-Left (RTL) to your notes in reading mode
 
-。:
+用法 :
 
 ```md
 ---

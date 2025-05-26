@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/axis-arrow-info
+title: 属性
+icon: material/axis-arrow-info
 ---
 
 Configures CSS variables for properties/metadata/YAML of files.
@@ -24,25 +25,25 @@ Accepted Formats: px
 
 ### Do not show properties in reading mode
 
-。CSS。:`var(--flexcyon-metadata-display-reading-disabled)`
+目标CSS变量:`var(--flexcyon-metadata-display-reading-disabled)`
 
-。:true(。)
+默认 :true(类切换)
 
 ### Do not show properties in live preview mode
 
-。CSS。:`var(--flexcyon-metadata-display-editing-disabled)`
+目标CSS变量:`var(--flexcyon-metadata-display-editing-disabled)`
 
-。:false(。)
+默认 :false(类切换)
 
 ### Enable rainbow metadata icons
 
-。CSS。:`var(--flexcyon-metadata-rainbow-icons)`
+目标CSS变量:`var(--flexcyon-metadata-rainbow-icons)`
 
-。:false(。)
+默认 :false(类切换)
 
 ### Metadata container left padding
 
-。CSS。:`var(--flexcyon-meta-container-padding-left)`
+目标CSS变量:`var(--flexcyon-meta-container-padding-left)`
 
 Default: 14 (px)
 

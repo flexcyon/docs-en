@@ -3,7 +3,7 @@ title: Título púrpura
 icon: material/select-color
 ---
 
-Metadatos de callout: "tit-purple"
+Callout metadata: "title-purple"
 
 ```md
 > [!info|title-purple] Title will be purple

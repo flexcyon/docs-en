@@ -3,7 +3,7 @@ title: Caso superior
 icon: material/format-letter-case-upper
 ---
 
-Metadatos de callout: "percase-all"
+Callout metadata: "uppercase-all"
 
 Usage:
 

@@ -3,7 +3,7 @@ title: Título Bar
 icon: material/format-text-variant-outline
 ---
 
-Para la configuración de la barra de títulos, active los efectos de la palanca arco iris en los botones de la barra de títulos
+For configuration of the titlebar, enable rainbow hover effects on titlebar buttons
 
 ## Navigation
 

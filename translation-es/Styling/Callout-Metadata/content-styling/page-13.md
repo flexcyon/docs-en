@@ -3,7 +3,7 @@ title: Strikethrough Content
 icon: material/format-strikethrough
 ---
 
-Metadatos Callout: "line-through-content"
+Callout metadata: "line-through-content"
 
 Usage:
 

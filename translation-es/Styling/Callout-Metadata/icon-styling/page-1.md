@@ -3,7 +3,7 @@ title: No Icon
 icon: material/emoticon-minus
 ---
 
-Metadatos de llamada: "no-icon"
+Callout metadata: "no-icon"
 
 Usage:
 

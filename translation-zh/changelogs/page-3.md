@@ -1,57 +1,185 @@
 ---
-title: 0.3.x 。icon: material/numeric-3-box-outline
+title: 0.3.x 版本数
+icon: material/numeric-3-box-outline
 ---
 
 ### Version 0.3.0 TUI Layout
 
-- 。TUI
+- 在卡片布局中添加提示的 TUI
 
-- 。- 。- Added cssclasses for heading indicators, callout metadata for
+- 默认启用
+
+- 更改表格样式
+
+- Added cssclasses for heading indicators, callout metadata for
 tilting callout title and content
 
-- 。- 。- 。- 。- 。UI。- 。- 。,。:
+- 对日历插件添加支持
 
-- 。- 。center
+- 调整了全日历插件的现有样式
 
-- 。-。- 。center
+- 微软的社区用品型式
+
+- 固定的微笑图标对齐问题
+
+- 愤怒的布局现在适用于更多的UI元素
+
+- 现在应该更明显地看到主动的排水沟
+
+- 添加快速对齐选项,使用样式设置配置:
+
+- 左边
+
+- 顶部center
+
+- 中间左边
+
+-左边
+
+- 下边center
 
 ### Version 0.3.1 Tidying Up
 
-- 。:
+- 为以下项目增加点名元数据:
 
-- 。- 。- 。、点、。、。、。- 。1至6。- 。- 。- 。(。)
+- 网格和点背景
 
-- 。- 。,。- 。。
+- 斜体和斜体标题和内容
+
+- 对标题和内容进行破折、点、双层、超线、下划线和直线
+
+- 标题1至6样式
+
+- 标题和内容的字体权重
+
+- 添加标题字体大小选项
+
+- 固定的微笑图标(希望是最后一次)
+
+- 在左右侧边栏添加和配置图像背景的选项
+
+- 微小修改悬浮中的导航项目,日历插件型号
+
+- 微调编辑背景点和网格背景样式。
 .
 
-- 。- 。Canvas 。Canvas 。- 。Canvas 。。
+- 标签标题栏现在适应选定的布局样式
+
+- 为核心 Canvas 插件添加了模糊非活动的 Canvas 节点的选项
+
+- 编辑器背景变化现在影响 Canvas 核心插件。
 .
 
-- ./ 。Canvas 。- 。- 。,。ASCII。emoji
+- 可能需要应用程序重新装入/ 重新启动样式设置更改才能在 Canvas 中显示
+
+- 调整帆布控制和卡片菜单的样式
+
+- 改变面包屑的造型,以使用ASCII而不是emoji
 
 ### Version 0.3.2 Animations
 
-- 。, 。- 。,。:
+- 斯图林 调整到社区存储项, 现有布局
 
-- 。- 。- 。- 。- 。- 。- 为Powerlevel10k。- 。- 。- 。ASCII 。, ASCII 。- 。- 。(。,
+- 动画回归,目前的选项包括:
+
+- 左到右幻灯片
+
+- 向左滑动
+
+- 从上到下幻灯片
+
+- 从下到上幻灯片
+
+- 从下到上旋转
+
+- 向左旋转
+
+- 为Powerlevel10k添加布局和状态样式
+
+- 添加闪卡点名元数据工具
+
+- 在空状态标题前添加自定义引用的选项
+
+- 无法选择 ASCII 艺术, ASCII 艺术默认选中
+
+- 在网格编辑器背景角度添加选项
+
+- 为模式添加背景图像选项(设置的背景图像,
 ,
-。)
+提示等)
 
 ### Version 0.3.3 QOL Update
 
-- 。- 。,。- 。CSS。,。- 。Rhombus 。-  。、 。Rhombus 。- 。url。- 。ASCII。- 。Rickroll
+- 增加可配置的缩进系数和倒塌头的缩进
+样式设置菜单
 
-- 。Kanban 。- 。:
+- 添加写模式调用元数据工具,增加文本缩进和
+段落间隔
 
-- 。ASCII。, 。- 。ASCII。- ./。### Version 0.3.4 Easter Egg Mode
+- 还有一个CSS类供应商,允许您应用相同的文本
+目标附注的缩进和段落间距递增
 
-- 。,。,。- 。- 。- 。- 。### Version 0.3.5 Configuration Update
+- 添加 Rhombus 编辑器背景选项
 
-- 。。
+-  您现在可以使用网格、 点或 Rhombus 作为左侧的背景选项
+右侧边栏
+
+- 这些覆盖左右侧边栏背景url选项
+
+- 引文使用与ASCII艺术相同的颜色
+
+- 默认引用更新为不是 Rickroll
+
+- 增加了对 Kanban 插件的支持
+
+- 在新标签空状态标题之前添加默认为无:
+
+- 如果你使用引文或ASCII艺术, 请重新使用它
+
+- 你现在可以配置引用或ASCII艺术的背景颜色
+
+- 更改可能需要重新装入/重新启动程序才能生效
+
+### Version 0.3.4 Easter Egg Mode
+
+- 翻译为隐藏,直到可配置的悬浮状态栏,对
+长期状态栏
+
+- 固定文件探索器背景被打破
+
+- 为文件夹样式添加了标记下的文件树选项
+
+- 添加列表样式的点名元数据工具
+
+- 添加可切换复活节彩蛋模式
+
+### Version 0.3.5 Configuration Update
+
+- 文件现在有自己的网站。
 .
 
-- 。- 。- 。、。- Added option to enable heading indicators globally, customisable
-for different heading levels.
-- 。- 。- 。### Version 0.3.6 Canvas Menu Update
+- 为标题添加软发光选项
 
-- 。- 。- 。- 。- 。( 。)
+- 可切换的彩虹元数据图标
+
+- 增加全球亮度、对比度和饱和率的无障碍选项
+
+- Added option to enable heading indicators globally, customisable
+for different heading levels.
+- 标题指标现在更好地继承标题的基础颜色
+
+- 添加选项以配置弹出点名动画持续时间
+
+- 添加选项以配置元数据容器左侧粘贴
+
+### Version 0.3.6 Canvas Menu Update
+
+- 固定边栏背景问题
+
+- 防止标题指示器在减记编辑器外显示
+
+- 小代码库重构
+
+- 口音颜色略有变化
+
+- 添加画布卡菜单对齐选项( 多个选项)

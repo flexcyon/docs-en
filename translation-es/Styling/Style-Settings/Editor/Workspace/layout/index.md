@@ -3,8 +3,7 @@ title: A ti
 icon: material/page-layout-sidebar-left
 ---
 
-Configurar el diseño del espacio de trabajo.
-.
+Configure the workspace layout.
 
 ## Navigation
 
@@ -26,16 +25,15 @@ Style Settings
 
 ### Select workspace layout
 
-CSS Classe(s) targeted: '.flexcyon-workspace-card-layout,
-,
+CSS Classe(s) targeted: `.flexcyon-workspace-card-layout,
 .flexcyon-workspace-angled-layout, .flexcyon-workspace-pl10k-layout`
 
 Predeterminado: ninguno (clase selecto)
 
 Opciones:
 
-- Tarjetas de diseño
-- Ángulo de diseño
+- Cards Layout
+- Angled Layout
 - Powerlevel10k Layout
 > Workspace layout changes may need app reload or restart to take effect
 

@@ -3,9 +3,8 @@ title: Tipografía
 icon: material/format-text
 ---
 
-Colores definidos para el color de texto mudo, estilo para encabezados, y control UI
-tamaños de fuentes.
-.
+Defined colors for muted text color, styling for headings, and controlling UI
+font sizes.
 
 Formatos aceptados: HEX
 
@@ -32,4 +31,4 @@ CSS Variable(s) targeted:`var(--flexcyon-text-muted)`
 Default:
 <span class="col-sqr" style="background-color: #6f768599"
 ></span
->#6f768599
+> #6f768599

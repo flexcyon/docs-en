@@ -3,7 +3,7 @@ title: Título destacado
 icon: material/format-color-text
 ---
 
-Metadatos de callout: "dashed-title"
+Callout metadata: "dashed-title"
 
 Usage:
 

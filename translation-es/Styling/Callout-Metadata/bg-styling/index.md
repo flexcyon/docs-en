@@ -3,6 +3,5 @@ title: Antecedentes
 icon: material/flip-to-back
 ---
 
-En esta subpágina, puede encontrar ejemplos de uso para cambiar el callout
-fondo usando metadatos de llamada.
-.
+In this sub-page, you can find usage examples for changing the callout 
+background using callout metadata.

@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/emoticon-plus-outline
+title: 提升图标百分比
+icon: material/emoticon-plus-outline
 ---
 
 ## Navigation
@@ -21,7 +22,7 @@ Style Settings
 
 #### Upscale percentage of icons 1
 
-。CSS。:`var(--upsize)`
+目标CSS变量:`var(--upsize)`
 
 Default: 103%
 
@@ -30,7 +31,7 @@ Default: 103%
 
 #### Upscale percentage of icons 2
 
-。CSS。:`var(--expand)`
+目标CSS变量:`var(--expand)`
 
 Default: 110%
 

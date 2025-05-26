@@ -1,10 +1,11 @@
 ---
-title: 。con: material/cancel
+title: 空
+icon: material/cancel
 ---
 
 Callout metadata: "empty"
 
-。:
+用法 :
 
 ```md
 > [!|empty] Neither the title and callout icon will show

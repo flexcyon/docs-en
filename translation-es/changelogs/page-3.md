@@ -11,8 +11,8 @@ icon: material/numeric-3-box-outline
 
 - Cambios en el estilo de mesa
 
-- Cisclases adicionales para los indicadores de encabezado, metadatos de llamada
-titulo de llamada y contenido
+- Added cssclasses for heading indicators, callout metadata for
+tilting callout title and content
 
 - Añadido soporte para plugin de calendario
 
@@ -42,7 +42,7 @@ titulo de llamada y contenido
 
 - Servicios de metadatos adicionales para:
 
-- cuadrícula y fondo abatido
+- cuadrícula y fondo punteado
 
 - título y contenido itálico y oblicuo
 
@@ -60,12 +60,12 @@ titulo de llamada y contenido
 
 - Modificaciones de la luz a los elementos de navegación en la palanca, Calendario plugin de estilo
 
-- Ligeras pinzas para editor de fondo teñido y estilo de fondo de cuadrícula.
+- Ligeras pinzas para editor de fondo teñido y rejilla de fondo estilo.
 .
 
 - La barra de títulos se adapta ahora al estilo de diseño seleccionado
 
-- opción agregada para desenfocar los nodos de Canvas inactivos para el plugin de Canvas núcleo
+- Opción agregada para difuminar los nodos de Canvas inactivos para el plugin de Canvas núcleo
 
 - Los cambios de fondo del editor ahora afectan el plugin de Canvas núcleo.
 .
@@ -110,7 +110,7 @@ impulsos, etc.
 
 ### Version 0.3.3 QOL Update
 
-- Factor de indentación configurable agregado y regulación de cabeceras colapsadas
+- Factor de indentación configurable añadido y regulación de cabeceras colapsadas
 Menú Ajustes de estilo
 
 - Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
@@ -128,7 +128,7 @@ y barra lateral derecha
 
 - Cita ahora usa el mismo color que el arte ASCII
 
-- La cita predeterminada se actualiza para no ser un rickroll
+- La cita por defecto se actualiza para no ser un rickroll
 
 - Añadido soporte para plugin Kanban
 
@@ -145,7 +145,7 @@ y barra lateral derecha
 - Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
 barras de estado más largas
 
-- Trasfondo de explorador de archivos fijos roto
+- Se rompió el fondo de explorador de archivos fijos
 
 - opción de árbol de archivo marcado adicional para estilo de carpeta
 
@@ -164,9 +164,8 @@ barras de estado más largas
 
 - Opciones de accesibilidad adicionales para el brillo, contraste y saturación global
 
-- Opción agregada para permitir indicadores de encabezado a nivel mundial, personalizable
-para diferentes niveles de rumbo.
-.
+- Added option to enable heading indicators globally, customisable
+for different heading levels.
 - Los indicadores de encabezado ahora mejor heredan del color base del encabezado
 
 - opción agregada para configurar la duración de la animación popup callout

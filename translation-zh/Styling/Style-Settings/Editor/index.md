@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/file-edit
+title: 编辑器
+icon: material/file-edit
 ---
 
 In this sub-page, you can find usage examples for styling of elements in the

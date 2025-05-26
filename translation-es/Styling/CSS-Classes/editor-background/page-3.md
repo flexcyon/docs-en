@@ -5,8 +5,7 @@ icon: material/rhombus-split-outline
 
 # Usage
 
-Añade un patrón repetidor de rhombi a tu editor de fondo. La rotación se puede ajustar.
-.
+Adds a repeating pattern of rhombi to your editor background. Rotation can be adjusted.
 
 ```md
 cssclasses:

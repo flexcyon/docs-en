@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/card-text-outline
+title: 闪卡
+icon: material/card-text-outline
 ---
 
 Callout metadata: "flashcard"

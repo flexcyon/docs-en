@@ -3,7 +3,7 @@ title: Indicadores de referencia - H5
 icon: material/format-header-5
 ---
 
-Añádase un indicador de la partida 5s. aparecerá en la lectura, edición y
+Add a heading indicator for heading 5s. Will appear in reading, editing and
 modo fuente.
 .
 

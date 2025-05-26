@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/format-list-bulleted-square
+title: 列表样式
+icon: material/format-list-bulleted-square
 ---
 
 In this sub-page, you can find usage examples for changing the styling of
@@ -9,7 +10,7 @@ ordered and unordered lists using callout metadata.
 
 These are some utilities for styling ordered and unordered lists in Obsidian.
 
-。`style_type`: The [values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
+已接受的格式`style_type`: The [values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
 ## Note
 

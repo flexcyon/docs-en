@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/animation
+title: 动画
+icon: material/animation
 ---
 
 Configure transition animations of prompts, modals and tab container.
@@ -31,7 +32,7 @@ CSS Classe(s) targeted: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
 .flexcyon-anims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl`
 > Changes may need an app reload/restart to take effect
 
-。: 无( 。)
+默认: 无( 类选择)
 Options: 
 
 - Slide in Left to Right
@@ -42,13 +43,13 @@ Options:
 
 ### Animation duration
 
-。CSS。:`var(--flexcyon-anim-duration)`
+目标CSS变量:`var(--flexcyon-anim-duration)`
 
-。: 0. 5s
+默认: 0. 5s
 
 ### Animation easing function
 
-。CSS。:`var(--flexcyon-anim-easing)`
+目标CSS变量:`var(--flexcyon-anim-easing)`
 
-。:ease-in-out
+默认 :ease-in-out
 

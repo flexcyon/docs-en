@@ -1,8 +1,9 @@
 ---
-title: 。icon: material/format-bold
+title: 字体重量 全体
+icon: material/format-bold
 ---
 
-Callout metadata: "w-`value`- 。- 。- all".
+Callout metadata: "w-`value`- 所有人 - 所有人 - all".
 
 Accepted Formats for `value`:
 
@@ -11,7 +12,7 @@ Accepted Formats for `value`:
 - bolder
 - lighter
 
-。:
+用法 :
 
 ```md
 > [!info|w-lighter-all] I will have a lighter font weight

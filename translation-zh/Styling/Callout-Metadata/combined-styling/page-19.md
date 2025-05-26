@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/format-text-variant
+title: 全部倾斜
+icon: material/format-text-variant
 ---
 
 Callout metadata: "oblique-all"
 
-。:
+用法 :
 
 ```md
 > [!info|oblique-all] The title will be displayed as oblique

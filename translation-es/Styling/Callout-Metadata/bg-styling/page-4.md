@@ -3,7 +3,7 @@ title: Antecedentes púrpura
 icon: material/layers-outline
 ---
 
-Metadatos de llamada: "bg-purple"
+Callout metadata: "bg-purple"
 
 ```md
 > [!info|bg-purple] Title will display as usual

@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/cursor-default
+title: 弹出
+icon: material/cursor-default
 ---
 
 Callout metadata: "$pop"
 
-。:
+用法 :
 
 ```md
 > [!info|$pop] The callout will be shown as normal in editing mode
@@ -14,6 +15,6 @@ Callout metadata: "$pop"
 ```
 
 [Click here](../Style-Settings/Editor/Callouts/index.md#popup-callout)
-。。
+用于配置选项。
 .
 

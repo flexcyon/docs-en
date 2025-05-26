@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/page-layout-sidebar-left
+title: 版式
+icon: material/page-layout-sidebar-left
 ---
 
 Configure the workspace layout.
@@ -27,9 +28,9 @@ Style Settings
 CSS Classe(s) targeted: `.flexcyon-workspace-card-layout,
 .flexcyon-workspace-angled-layout, .flexcyon-workspace-pl10k-layout`
 
-。: 无( 。)
+默认: 无( 类选择)
 
-。:
+选项 :
 
 - Cards Layout
 - Angled Layout
@@ -38,7 +39,7 @@ CSS Classe(s) targeted: `.flexcyon-workspace-card-layout,
 
 ### Enable TUI add-on for cards layout
 
-。CSS。:`var(--flexcyon-workspace-cards-tui-ext)`
+目标CSS变量:`var(--flexcyon-workspace-cards-tui-ext)`
 
-。:true(。)
+默认 :true(类切换)
 

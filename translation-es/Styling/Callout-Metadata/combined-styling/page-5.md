@@ -3,7 +3,7 @@ title: All Cyan
 icon: material/format-color-fill
 ---
 
-Metadatos de callout: "todos los cianos"
+Callout metadata: "all-cyan"
 
 ```md
 > [!tip|all-cyan] Title will be cyan

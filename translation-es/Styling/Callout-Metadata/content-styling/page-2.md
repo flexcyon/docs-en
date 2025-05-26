@@ -3,7 +3,7 @@ title: Índice
 icon: material/align-horizontal-left
 ---
 
-Metadatos Callout: "ltr-content"
+Callout metadata: "ltr-content"
 
 Usage:
 

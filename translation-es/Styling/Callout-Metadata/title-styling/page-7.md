@@ -3,7 +3,7 @@ title: Título verde
 icon: material/select-color
 ---
 
-Metadatos de callout: "título verde"
+Callout metadata: "title-green"
 
 ```md
 > [!info|title-green] Title will be green

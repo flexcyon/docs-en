@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/file-cog
+title: 文件
+icon: material/file-cog
 ---
 
 Configure file trees and folder styles.
@@ -22,9 +23,9 @@ Style Settings
 
 ### Enable dimmed file extensions in file explorer
 
-。CSS。:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
+目标CSS变量:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 
-。:true(。)
+默认 :true(类切换)
 
 ### Select folder style
 
@@ -39,7 +40,7 @@ Options:
 
 ### Enable minimalist trees
 
-。CSS。:`var(--flexcyon-minimalist-tree)`
+目标CSS变量:`var(--flexcyon-minimalist-tree)`
 
-。:false(。)
+默认 :false(类切换)
 

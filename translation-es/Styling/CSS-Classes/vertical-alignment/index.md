@@ -3,7 +3,6 @@ title: Alineación vertical
 icon: material/align-horizontal-distribute
 ---
 
-En esta subpágina puedes encontrar ejemplos de uso para alineación vertical de la
-editor de contenido usando cssclasses.
-.
+In this sub-page, you can find usage examples for vertical alignment of the
+editor content using cssclasses.
 

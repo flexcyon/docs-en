@@ -3,7 +3,7 @@ title: Capitalizar el contenido
 icon: material/caps-lock
 ---
 
-Metadatos Callout: "caps-content"
+Callout metadata: "caps-content"
 
 Usage:
 

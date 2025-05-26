@@ -24,16 +24,16 @@ Style Settings
 
 CSS Variable(s) targeted:`var(--upsize)`
 
-Predeterminado: 103%
+Default: 103%
 
 <span style="scale: 103%"
->Porcentaje de aumento de la muestra 1</span>
+>Sample upscale percentage 1</span>
 
 #### Upscale percentage of icons 2
 
 CSS Variable(s) targeted:`var(--expand)`
 
-Predeterminado: 110%
+Default: 110%
 
 <span style="scale: 110%"
->Porcentaje de aumento de la muestra 2</span>
+>Sample upscale percentage 2</span>

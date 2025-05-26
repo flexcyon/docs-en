@@ -3,7 +3,7 @@ title: RTL All
 icon: material/align-horizontal-right
 ---
 
-Metadatos callout: "rtl-all"
+Callout metadata: "rtl-all"
 
 Usage:
 

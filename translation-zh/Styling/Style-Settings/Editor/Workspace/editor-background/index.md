@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/layers-edit
+title: 背景编辑器
+icon: material/layers-edit
 ---
 
 Configure the background in the editor
@@ -26,10 +27,10 @@ Style Settings
 
 ### Select Background Type
 
-CSS。:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
+CSS类目标:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
 
-。: 无( 。)
-。:
+默认: 无( 类选择)
+选项 :
 
 - Grid Background
 - Dotted Background
@@ -37,19 +38,19 @@ CSS。:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
 
 ### Rotation value for grid and rhombus background
 
-。CSS。:`var(--flexcyon-editor-bg-rotation)`
+目标CSS变量:`var(--flexcyon-editor-bg-rotation)`
 
 Default: 0 (deg)
 
 ### Width between each dot/line for grid/dotted background
 
-。CSS。:`var(--flexcyon-editor-bg-width)`
+目标CSS变量:`var(--flexcyon-editor-bg-width)`
 
-。: 15 (px)
+默认: 15 (px)
 
 ### Size of dots for dotted background
 
-。CSS。:`var(--flexcyon-editor-dot-size)`
+目标CSS变量:`var(--flexcyon-editor-dot-size)`
 
-。: 2 (px)
+默认: 2 (px)
 

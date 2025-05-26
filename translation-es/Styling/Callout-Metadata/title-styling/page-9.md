@@ -3,7 +3,7 @@ title: Título amarillo
 icon: material/select-color
 ---
 
-Metadatos de callout: "Tit-yellow"
+Callout metadata: "title-yellow"
 
 ```md
 > [!info|title-yellow] Title will be yellow

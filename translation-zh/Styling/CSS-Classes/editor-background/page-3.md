@@ -1,5 +1,6 @@
 ---
-title: Rhombus 。icon: material/rhombus-split-outline
+title: Rhombus 背景资料
+icon: material/rhombus-split-outline
 ---
 
 # Usage

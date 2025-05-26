@@ -3,7 +3,7 @@ title: ¡Todos
 icon: material/format-color-text
 ---
 
-Metadatos de callout: "todos en ruinas"
+Callout metadata: "dashed-all"
 
 Usage:
 

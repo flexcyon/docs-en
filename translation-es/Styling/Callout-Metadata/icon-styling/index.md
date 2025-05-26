@@ -3,7 +3,7 @@ title: Icon Styling
 icon: material/emoticon
 ---
 
-En esta subpágina puedes encontrar ejemplos de uso para el estilo de iconos
+In this sub-page, you can find usage examples for icon styling of
 llamadas usando metadatos de llamada.
 .
 

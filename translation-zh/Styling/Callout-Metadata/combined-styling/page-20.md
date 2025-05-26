@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/format-color-text
+title: 全部失败
+icon: material/format-color-text
 ---
 
 Callout metadata: "dashed-all"
 
-。:
+用法 :
 
 ```md
 > [!info|dashed-all] The title will be displayed as dashed

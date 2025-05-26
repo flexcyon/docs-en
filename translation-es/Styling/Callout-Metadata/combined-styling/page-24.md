@@ -3,14 +3,14 @@ title: Peso de la fuente Todos
 icon: material/format-bold
 ---
 
-Metadatos de llamada: "w-`value`- todos"
+Callout metadata: "w-`value`- todos"
 
-Formatos aceptados para`value`:
+Accepted Formats for `value`:
 
-- 100 a 900 (en incrementos de 100)
-- atrevido
-- más valiente.
-- más ligero
+- 100 to 900 (in increments of 100)
+- bold
+- bolder
+- lighter
 
 Usage:
 

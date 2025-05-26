@@ -3,7 +3,7 @@ title: Contenido de inclinación
 icon: material/angle-acute
 ---
 
-Metadatos Callout: "tilt-content"
+Callout metadata: "tilt-content"
 
 Usage:
 

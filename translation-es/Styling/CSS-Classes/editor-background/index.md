@@ -3,7 +3,6 @@ title: Editor
 icon: material/notebook-edit
 ---
 
-En esta subpágina, puede encontrar ejemplos de uso para cambiar el fondo del editor
-usando cssclasses.
-.
+In this sub-page, you can find usage examples for changing the editor background
+using cssclasses.
 

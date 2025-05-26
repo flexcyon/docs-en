@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/image
+title: 截图
+icon: material/image
 ---
 
 <figure markdown="span">

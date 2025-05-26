@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/format-list-numbered
+title: 排序列表样式
+icon: material/format-list-numbered
 ---
 > `ol-style_type`
 

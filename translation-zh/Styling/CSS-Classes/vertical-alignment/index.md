@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/align-horizontal-distribute
+title: 垂直对齐
+icon: material/align-horizontal-distribute
 ---
 
 In this sub-page, you can find usage examples for vertical alignment of the

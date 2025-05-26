@@ -3,10 +3,9 @@ title: Headings
 icon: material/format-header-pound
 ---
 
-Define variables CSS para estilo relacionado con encabezados como peso de fuente.
-.
+Defines CSS variables for styling related to headings like font weight.
 
-Formatos aceptados: px, número, rem
+Accepted Formats: px, number, rem
 
 ## Navigation
 
@@ -41,9 +40,8 @@ Default:false(de clase)
 
 ### Enable heading indicators globally
 
-Personalizar qué epígrafes tienen indicadores de encabezamiento a nivel mundial.
-.
-Si usted está buscando aplicarlos en una base por nota,[click here](../../../../CSS-Classes/heading-indicators/index.md)
+Customise which headings have heading indicators before them globally.
+If you are looking to apply them on a per-note basis, [click here](../../../../CSS-Classes/heading-indicators/index.md)
 
 #### For Heading 1
 
@@ -95,10 +93,10 @@ __
 
 CSS Variable(s) targeted:`var(--h1-size)`
 
-Predeterminado: 1.802 (em)
+Default: 1.802 (em)
 
 <h1 style="font-weight: 700; font-size: 1.802em;"
->Muestra h1</h1>
+>Sample h1</h1>
 
 #### Heading 2 font size
 
@@ -107,16 +105,16 @@ CSS Variable(s) targeted:`var(--h2-size)`
 Default: 1.602 (em)
 
 <h2 style="font-weight: 675; font-size: 1.602em;"
->Muestra h2</h2>
+>Sample h2</h2>
 
 #### Heading 3 font size
 
 CSS Variable(s) targeted:`var(--h3-size)`
 
-Predeterminado: 1.424 (em)
+Default: 1.424 (em)
 
 <h3 style="font-weight: 650; font-size: 1.424em;"
->Muestra h3</h3>
+>Sample h3</h3>
 
 #### Heading 4 font size
 
@@ -125,7 +123,7 @@ CSS Variable(s) targeted:`var(--h4-size)`
 Default: 1.266 (em)
 
 <h4 style="font-weight: 625; font-size: 1.266;"
->Muestra h4</h4>
+>Sample h4</h4>
 
 #### Heading 5 font size
 
@@ -134,7 +132,7 @@ CSS Variable(s) targeted:`var(--h5-size)`
 Default: 1.125 (em)
 
 <h5 style="font-weight: 600; font-size: 1.125em;"
->Muestra h5</h5>
+>Sample h5</h5>
 
 #### Heading 6 font size
 
@@ -143,7 +141,7 @@ CSS Variable(s) targeted:`var(--h6-size)`
 Default: 1 (em)
 
 <h6 style="font-weight: 575; font-size: 1em;"
->Muestra h6</h6>
+>Sample h6</h6>
 
 __
 
@@ -153,7 +151,7 @@ __
 
 CSS Variable(s) targeted:`var(--h1-weight)`
 
-Predeterminado: 700
+Default: 700
 
 <h1 style="font-weight: 700; font-size: 1.802em;"
 >Muestra h1</h1>
@@ -162,7 +160,7 @@ Predeterminado: 700
 
 CSS Variable(s) targeted:`var(--h2-weight)`
 
-Predeterminado: 675
+Default: 675
 
 <h2 style="font-weight: 675; font-size: 1.602em;"
 >Muestra h2</h2>
@@ -171,7 +169,7 @@ Predeterminado: 675
 
 CSS Variable(s) targeted:`var(--h3-weight)`
 
-Predeterminado: 650
+Default: 650
 
 <h3 style="font-weight: 650; font-size: 1.424em;"
 >Muestra h3</h3>
@@ -189,7 +187,7 @@ Default: 625
 
 CSS Variable(s) targeted:`var(--h5-weight)`
 
-Predeterminado: 600
+Default: 600
 
 <h5 style="font-weight: 600; font-size: 1.125em;"
 >Muestra h5</h5>
@@ -198,7 +196,7 @@ Predeterminado: 600
 
 CSS Variable(s) targeted:`var(--h6-weight)`
 
-Predeterminado: 575
+Default: 575
 
 <h6 style="font-weight: 575; font-size: 1em;"
 >Muestra h6</h6>
@@ -223,19 +221,19 @@ Default: 1.2
 
 CSS Variable(s) targeted:`var(--h3-line-height)`
 
-Predeterminado: 1.3
+Default: 1.3
 
 #### Heading 4 line height
 
 CSS Variable(s) targeted:`var(--h4-line-height)`
 
-Predeterminado: 1.4
+Default: 1.4
 
 #### Heading 5 line height
 
 CSS Variable(s) targeted:`var(--h5-line-height)`
 
-Predeterminado: 1.5
+Default: 1.5
 
 #### Heading 6 line height
 

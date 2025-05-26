@@ -1,8 +1,9 @@
 ---
-title: 。- 。icon: material/palette-outline
+title: 扩展调色板 - 背景
+icon: material/palette-outline
 ---
 > `bg-color1-color2-`
-。:
+用法 :
 
 ```md
 > [!tip|bg-red-blue] Title will display as usual

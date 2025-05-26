@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/link
+title: 链接
+icon: material/link
 ---
 
 Configure the color of links.
@@ -24,36 +25,36 @@ Style Settings
 
 ### Internal Link Color
 
-。CSS。:`var(--flexcyon-link-color)`
+目标CSS变量:`var(--flexcyon-link-color)`
 
-。( 。) :
+默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #6f49ae"
 ></span
->#6f49ae (。).
+>#6f49ae (英语).
 
 
 Default (dark mode): <span class="col-sqr" style="background-color: #a461c8"
 ></span
->#a461c8 (。).
+>#a461c8 (英语).
 
 ### External Link Color
-。CSS。:`var(--flexcyon-external-link-color)`
+目标CSS变量:`var(--flexcyon-external-link-color)`
 
 Default (light mode): <span class="col-sqr" style="background-color: #5c9fe4"
 ></span
->#5c9fe4 (。).
+>#5c9fe4 (英语).
 
-。( 。) :<span class="col-sqr" style="background-color: #5a8fcd"
+默认( 暗模式) :<span class="col-sqr" style="background-color: #5a8fcd"
 ></span
->#5a8fcd (。).
+>#5a8fcd (英语).
 
 ### Unresolved Link Color
-。CSS。:`var(--flexcyon-link-unresolved-color)`
+目标CSS变量:`var(--flexcyon-link-unresolved-color)`
 
-。( 。) :<span class="col-sqr" style="background-color: #6f49ae"
+默认( 灯光模式) :<span class="col-sqr" style="background-color: #6f49ae"
 ></span
->#6f49ae (。).
+>#6f49ae (英语).
 
-。( 。) :<span class="col-sqr" style="background-color: #a461c8"
+默认( 暗模式) :<span class="col-sqr" style="background-color: #a461c8"
 ></span
->#a461c8 (。).
+>#a461c8 (英语).

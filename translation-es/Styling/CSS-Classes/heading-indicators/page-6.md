@@ -3,7 +3,7 @@ title: Indicadores de referencia - H6
 icon: material/format-header-6
 ---
 
-Añádase un indicador de la partida 6s. aparecerá en la lectura, edición y
+Add a heading indicator for heading 6s. Will appear in reading, editing and
 modo fuente.
 .
 

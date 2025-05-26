@@ -3,7 +3,7 @@ title: Underline All
 icon: material/format-underline
 ---
 
-Metadatos de callout: "comprendido todo"
+Callout metadata: "underline-all"
 
 Usage:
 

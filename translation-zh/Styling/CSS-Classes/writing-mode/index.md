@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/keyboard
+title: 写入模式
+icon: material/keyboard
 ---
 
 # Usage

@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/multimedia
+title: 媒体
+icon: material/multimedia
 ---
 
 Configure media related settings
@@ -24,13 +25,13 @@ Style Settings
 
 ### Media Embed Vertical margin
 
-。CSS。:`var(--flexcyon-media-embed-vertical-margin)`
+目标CSS变量:`var(--flexcyon-media-embed-vertical-margin)`
 
 Default: 8 (px)
 
 ### Image border radius
 
-。CSS。:`var(--img-border-radius)`
+目标CSS变量:`var(--img-border-radius)`
 
 Default: 15 (px)
 

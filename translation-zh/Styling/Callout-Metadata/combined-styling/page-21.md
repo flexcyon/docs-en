@@ -1,10 +1,11 @@
 ---
-title: 。icon: material/format-overline
+title: 全部覆盖
+icon: material/format-overline
 ---
 
 Callout metadata: "overline-all"
 
-。:
+用法 :
 
 ```md
 > [!info|overline-all] The title will be displayed as overline

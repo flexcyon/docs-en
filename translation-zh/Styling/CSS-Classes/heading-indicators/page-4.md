@@ -1,12 +1,13 @@
 ---
-title: 。- H4。icon: material/format-header-4
+title: 标题指标 - H4型导弹
+icon: material/format-header-4
 ---
 
 Add a heading indicator for heading 4s. Will appear in reading, editing and
-。。
+来源模式。
 .
 
-。:
+用法 :
 
 ```md
 cssclasses:

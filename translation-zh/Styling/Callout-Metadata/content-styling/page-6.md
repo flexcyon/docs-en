@@ -1,16 +1,17 @@
 ---
-title: 。icon: material/caps-lock
+title: 资本化内容
+icon: material/caps-lock
 ---
 
 Callout metadata: "caps-content"
 
-。:
+用法 :
 
 ```md
 > [!info|caps-content] The title will be displayed as usual
 > The content will be displayed as caps
 ```
 
-。["caps-all"](../combined-styling/page-16.md)
+样式本身也适用于["caps-all"](../combined-styling/page-16.md)
 页:1["caps-title"](../title-styling/page-16.md)。
 

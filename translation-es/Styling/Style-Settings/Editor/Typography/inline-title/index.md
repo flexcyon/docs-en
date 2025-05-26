@@ -3,7 +3,7 @@ title: Título en línea
 icon: material/format-underline-wavy
 ---
 
-Formatos aceptados: em, número
+Accepted Formats: em, number
 
 ## Navigation
 
@@ -25,7 +25,7 @@ Style Settings
 ## Configuration Options
 
 <span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
-Título de muestra en línea</span>
+Sample inline title</span>
 
 ### Inline title font size
 

@@ -3,9 +3,9 @@ title: Media
 icon: material/multimedia
 ---
 
-Configurar configuraciones relacionadas con los medios de comunicación
+Configure media related settings
 
-Formatos aceptados: px
+Accepted formats: px
 
 ## Navigation
 
@@ -27,11 +27,11 @@ Style Settings
 
 CSS Variable(s) targeted:`var(--flexcyon-media-embed-vertical-margin)`
 
-Predeterminado: 8 (px)
+Default: 8 (px)
 
 ### Image border radius
 
 CSS Variable(s) targeted:`var(--img-border-radius)`
 
-Predeterminado: 15 (px)
+Default: 15 (px)
 

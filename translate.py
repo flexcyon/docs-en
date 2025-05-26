@@ -229,9 +229,6 @@ def fix_chinese_full_stop(text):
     Replace single ASCII full stop at end of Chinese sentence with Chinese full stop
     """
     text = re.sub(r'([\u4e00-\u9fff])\.(\s|$)', r'\1。\2', text)
-    # Replace multiple Chinese full stops with or without spaces with a single one
-    text = re.sub(r'(?:[\u4e00-\u9fff][\s]*){2,}', '。', text)
-    text = re.sub(r'[\u4e00-\u9fff]\s.', '。', text)
     return text
 
 def copy_dirs(input_folder, output_folder):
@@ -479,7 +476,7 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                     content = re.sub(r'(?<!\n)(<hr[^>]*>)(?!\n)', r'1', content)
                     outfile.write(content)
 
-                print(f"- [WRITE] Translated {input_filepath}: {output_filepath}")
+                print(f"- [WRITE] Translated {input_filepath} -> {output_filepath}")
 
             except Exception as e:
                 print(f"Error processing {input_filepath}: {e}")

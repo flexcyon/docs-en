@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/state-machine
+title: 状态栏
+icon: material/state-machine
 ---
 
 Defines CSS variables to configure the status bar
@@ -26,58 +27,58 @@ Style Settings
 
 #### Hide until hover
 
-。CSS。:`var(--flexcyon-status-hide-until-hover)`
+目标CSS变量:`var(--flexcyon-status-hide-until-hover)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Text when hide until hover enabled
 
-。CSS。:`var(--flexcyon-status-hide-until-hover-text)`
+目标CSS变量:`var(--flexcyon-status-hide-until-hover-text)`
 
 Default: "Show status"
 
 #### Translation for showing status bar on hover
 
-。CSS。:`var(--flexcyon-status-hide-until-hover-translation)`
+目标CSS变量:`var(--flexcyon-status-hide-until-hover-translation)`
 
 Default: 1500px
 
 #### Transition duration for showing status bar on hover
 
-。CSS。:`var(--flexcyon-status-hide-hover-duration)`
+目标CSS变量:`var(--flexcyon-status-hide-hover-duration)`
 
 Default: 0.35 (s)
 
 #### Transition timing function for showing status bar on hover
 
-。CSS。:`var(--flexcyon-status-hide-hover-function)`
+目标CSS变量:`var(--flexcyon-status-hide-hover-function)`
 
-。:ease-out
+默认 :ease-out
 
  
 ### Text Configuration
 
 #### Use text instead of icons for mode status
 
-。CSS。:`var(--flexcyon-status-text-mode)`
+目标CSS变量:`var(--flexcyon-status-text-mode)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Reading Mode Text
 
-。CSS。:`var(--flexcyon-status-reading-text)`
+目标CSS变量:`var(--flexcyon-status-reading-text)`
 
 Default: "READ"
 
 #### Source Mode Text
 
-。CSS。:`var(--flexcyon-status-source-text)`
+目标CSS变量:`var(--flexcyon-status-source-text)`
 
 Default: "SOURCE"
 
 #### Live Preview Mode Text
 
-。CSS。:`var(--flexcyon-status-live-text)`
+目标CSS变量:`var(--flexcyon-status-live-text)`
 
 Default: "LIVE"
 
@@ -87,13 +88,13 @@ Default: "LIVE"
 
 #### Show status bar on mobile
 
-。CSS。:`var(--flexcyon-status-mobile-enabled)`
+目标CSS变量:`var(--flexcyon-status-mobile-enabled)`
 
-。:false(。)
+默认 :false(类切换)
 
 #### Status bar font size
 
-。CSS。:`var(--status-bar-font-size)`
+目标CSS变量:`var(--status-bar-font-size)`
 
 Default: 12.5 (px)
 
@@ -102,8 +103,8 @@ Default: 12.5 (px)
 CSS Classe(s) targeted: `.flexcyon-status-style-angled,
 .flexcyon-status-style-card, .flexcyon-status-style-pl10k`
 
-。: 无( 。)
-。:
+默认: 无( 类选择)
+选项 :
 
 - Angled
 - Cards
@@ -111,7 +112,7 @@ CSS Classe(s) targeted: `.flexcyon-status-style-angled,
 
 #### Enable status text color
 
-。CSS。:`var(--flexcyon-status-text-enable-color)`
+目标CSS变量:`var(--flexcyon-status-text-enable-color)`
 
-。:false(。)
+默认 :false(类切换)
 

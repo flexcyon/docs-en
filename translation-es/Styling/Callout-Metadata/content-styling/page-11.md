@@ -3,7 +3,7 @@ title: Índice general
 icon: material/format-overline
 ---
 
-Metadatos de callout: "contenido sobre línea"
+Callout metadata: "overline-content"
 
 Usage:
 

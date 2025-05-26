@@ -1,5 +1,6 @@
 ---
-title: 。icon: material/format-text-variant-outline
+title: 标题栏
+icon: material/format-text-variant-outline
 ---
 
 For configuration of the titlebar, enable rainbow hover effects on titlebar buttons
@@ -22,6 +23,6 @@ Style Settings
 
 ### Titlebar Button Effects
 
-。CSS。:`var(--flexcyon-titlebar-button-effects)`
+目标CSS变量:`var(--flexcyon-titlebar-button-effects)`
 
-。:true(。)
+默认 :true(类切换)
