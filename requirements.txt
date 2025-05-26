@@ -45,7 +45,7 @@ pytz==2025.2
 PyYAML==6.0.2
 redis==4.4.4
 regex==2024.11.6
-requests==2.31.0
+requests==2.32.2
 rich==12.6.0
 sacremoses==0.0.53
 sentencepiece==0.2.0
@@ -54,13 +54,13 @@ six==1.17.0
 soupsieve==2.7
 stanza==1.1.1
 sympy==1.14.0
-torch==2.2.0
+torch==2.7.0
 tqdm==4.67.1
 translatehtml==1.5.2
 typing_extensions==4.13.2
 tzdata==2025.2
 tzlocal==5.3.1
 urllib3==2.4.0
-waitress==2.1.2
-Werkzeug==2.3.8
+waitress==3.0.1
+Werkzeug==3.0.6
 wrapt==1.17.2
