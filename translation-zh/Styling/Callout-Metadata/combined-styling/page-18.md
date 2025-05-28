@@ -3,7 +3,7 @@ title: 全部斜体
 icon: material/format-italic
 ---
 
-Callout metadata: "italic-all"
+点名元数据 : “ 点名全”
 
 用法 :
 

@@ -3,8 +3,9 @@ title: Editor
 icon: material/file-edit
 ---
 
-In this sub-page, you can find usage examples for styling of elements in the
-Obsidian editor.
+En esta subpágina, puede encontrar ejemplos de uso para el estilo de elementos en el
+Editor obsidiano.
+.
 
 ## Navigation
 

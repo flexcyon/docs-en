@@ -3,7 +3,7 @@ title: Contenido derramado
 icon: material/format-color-text
 ---
 
-Callout metadata: "dashed-content"
+Metadatos de Callout: "contenido en ruinas"
 
 Usage:
 

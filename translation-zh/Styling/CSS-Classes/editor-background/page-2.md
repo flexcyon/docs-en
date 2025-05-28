@@ -5,7 +5,8 @@ icon: material/grid
 
 # Usage
 
-Adds a grid to your editor background. Size can be adjusted in style settings.
+向编辑器背景添加网格。 大小可以在样式设置中调整。
+.
 
 ```md
 cssclasses:

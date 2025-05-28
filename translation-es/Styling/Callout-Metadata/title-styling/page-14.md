@@ -3,7 +3,7 @@ title: Título superior
 icon: material/format-letter-case-upper
 ---
 
-Callout metadata: "uppercase-title"
+Metadatos callout: "uppercase-title"
 
 Usage:
 

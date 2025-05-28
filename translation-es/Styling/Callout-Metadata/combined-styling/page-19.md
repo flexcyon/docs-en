@@ -3,7 +3,7 @@ title: Oblique All
 icon: material/format-text-variant
 ---
 
-Callout metadata: "oblique-all"
+Metadatos de callout: "oblique-all"
 
 Usage:
 

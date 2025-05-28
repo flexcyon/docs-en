@@ -46,7 +46,7 @@ Elija entre las siguientes opciones:
 - Opciones de fondo dotted y grid
 
 -[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
-for more details
+para más detalles
 
 ## Version 0.2.1 Small Update
 
@@ -54,7 +54,8 @@ for more details
 .
 
 - Colores extendidos actualizados para que`*-color1-color2`y`*-color-2-color`
-will always return the same color mix when using in callout metadata utilities.
+siempre devolverá la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
+.
 
 - Efecto activo de fondo de archivos más consistente
 

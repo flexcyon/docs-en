@@ -3,7 +3,8 @@ title: 样式
 icon: material/language-css3
 ---
 
-If you are looking to style Flexcyon.
+如果你是想用Flexcyon的风格
+.
 
 ## Quick Links
 

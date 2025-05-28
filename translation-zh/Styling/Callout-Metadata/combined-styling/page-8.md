@@ -3,7 +3,7 @@ title: 全部奥兰治
 icon: material/format-color-fill
 ---
 
-Callout metadata: "all-orange"
+点名元数据:“全橙色”
 
 ```md
 > [!tip|all-orange] Title will be orange

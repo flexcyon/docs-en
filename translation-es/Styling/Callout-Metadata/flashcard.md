@@ -3,7 +3,7 @@ title: Flashcard
 icon: material/card-text-outline
 ---
 
-Callout metadata: "flashcard"
+Metadatos de callout: "flashcard"
 
 Usage:
 
@@ -14,4 +14,5 @@ Usage:
 ```
 
 [Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout) 
-for configuration options.
+para opciones de configuración.
+.

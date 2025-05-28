@@ -3,7 +3,7 @@ title: Título RTL
 icon: material/align-horizontal-right
 ---
 
-Callout metadata: "rtl-title"
+Metadatos de callout: "rtl-title"
 
 Usage:
 

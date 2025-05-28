@@ -3,10 +3,10 @@ title: Espacio de trabajo
 icon: material/layers-triple-outline
 ---
 
-Defines file line width when readable line length is enabled, opacity of dimmed
-UI elements, upscale percentage of icons used in effects
+Define el ancho de la línea de archivo cuando la longitud de la línea legible está habilitada, opacidad de dimmed
+Elementos de la UI, porcentaje elevado de iconos utilizados en efectos
 
-Accepted Formats: x.y, rem
+Formatos aceptados: x.y, rem
 
 ## Navigation
 
@@ -28,16 +28,16 @@ Style Settings
 
 CSS Variable(s) targeted:`var(--file-line-width)`
 
-Default: 50 (rem)
+Predeterminado: 50 (rem)
 
 ### Opacity of dimmed elements
 
 CSS Variable(s) targeted:`var(--dimmed)`
 
-Default: 0.55
+Predeterminado: 0.55
 
 <span style="opacity: 0.55"
->Sample dimmed element</span>
+>Elemento desmontado de muestras</span>
 
 ### Top Actions alignment
 

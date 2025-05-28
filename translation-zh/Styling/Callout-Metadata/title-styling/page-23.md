@@ -3,7 +3,7 @@ title: 通过标题
 icon: material/format-strikethrough
 ---
 
-Callout metadata: "line-through-title"
+点名元数据:"线通过标题"
 
 用法 :
 

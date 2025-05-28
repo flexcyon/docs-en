@@ -3,7 +3,7 @@ title: 标题指标 - H2型导弹
 icon: material/format-header-2
 ---
 
-Add a heading indicator for heading 2s. Will appear in reading, editing and
+增加标题2的标题指标。 将在阅读、编辑和
 来源模式。
 .
 

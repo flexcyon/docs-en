@@ -3,11 +3,13 @@ title: 调色器
 icon: material/format-color-fill
 ---
 
-Defined colors overrides theme defaults for heading colors and other UI elements.
-Also includes overriding the accent colors.
+定义的颜色覆盖标题颜色和其他UI元素的主题默认值。
+.
+包括超音调颜色
+.
 > These colors overrides the standard css variables like var(--color-cyan)
 
-Accepted Formats: RGB, HEX
+接受格式: RGB, HEX
 
 ## Navigation
 
@@ -26,17 +28,17 @@ Style Settings
 
 ### Cyan Color
 
-CSS Variable(s) targeted: `var(--flexcyon-cyan)`, `var(--color-cyan-rgb)`
+目标CSS变量:`var(--flexcyon-cyan)`, (中文),`var(--color-cyan-rgb)`
 
-Default (light mode):
+默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #3b9ba1"
 ></span
-> #3b9ba1
+>#3b9ba1 (英语).
 
-Default (dark mode):
+默认( 暗模式) :
 <span class="col-sqr" style="background-color: #3cb9c2"
 ></span
-> #3cb9c2
+># 3cb9c2 (英语).
 
 ### Green Color
 
@@ -45,12 +47,12 @@ Default (dark mode):
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #689523"
 ></span
-> #689523
+>689523号
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #a1c05c"
 ></span
-> #a1c05c
+>#a1c05c (英语).
 
 ### Orange Color
 
@@ -59,12 +61,12 @@ Default (dark mode):
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #ed8126"
 ></span
-> #ed8126
+>#d8126 (英语).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #cc8449"
 ></span
-> #cc8449
+>#cc8449 (英语).
 
 ### Yellow Color
 
@@ -73,12 +75,12 @@ Default (dark mode):
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #e8c62a"
 ></span
-> #e8c62a
+>#e8c62a (中文(简体) ).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #c29e42"
 ></span
-> #c29e42
+>#c29e42 (英语).
 
 ### Purple Color
 
@@ -87,12 +89,12 @@ Default (dark mode):
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #6f49ae"
 ></span
-> #6f49ae
+>#6f49ae (英语).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #a461c8"
 ></span
-> #a461c8
+>#a461c8 (英语).
 
 ### Red Color
 
@@ -101,12 +103,12 @@ Default (dark mode):
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #eb5325"
 ></span
-> #eb5325
+>#eb5325 (英语).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #c03a47"
 ></span
-> #c03a47
+>#c03a47 (中文(简体) ).
 
 ### Blue Color
 
@@ -115,12 +117,12 @@ Default (dark mode):
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #5c9fe4"
 ></span
-> #5c9fe4
+>#5c9fe4 (英语).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #5a8fcd"
 ></span
-> #5a8fcd
+>#5a8fcd (英语).
 
 ### Pink Color
 
@@ -129,12 +131,12 @@ Default (dark mode):
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #e389ca"
 ></span
-> #e389ca
+>#e389ca (英语).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #d458a3"
 ></span
-> #d458a3
+>#d458a3 (英语).
 
 ### Accent Color
 
@@ -143,16 +145,16 @@ Default (dark mode):
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #5770b9"
 ></span
-> #5770b9
+>5770b9号
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #92a871"
 ></span
-> #92a871
+>92a871号
 
 ### Enabled Extended Color Palette
 
 目标CSS变量:`var(--flexcyon-ext-colors-enabled)`
 
-Default: true
+默认 :true
 

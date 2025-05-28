@@ -13,53 +13,58 @@ icon: material/book-open-blank-variant-outline
 
 # About Flexcyon
 
-A Obsidian theme combining the colour schemes of Halcyon and Flexoki.
-
-I really liked the vibrant colours of the 
-[Halcyon colour scheme](https://halcyon-theme.netlify.app/), and the inky
-aesthetic of the [Flexoki colour scheme](https://stephango.com/flexoki).
+Un tema obsidiano que combina los esquemas de color de Halcyon y Flexoki.
 .
-Hence, I decided to combine the two which started this theme.
+
+Me gustó mucho los colores vibrantes de los
+[Halcyon colour scheme](https://halcyon-theme.netlify.app/), y el inky
+estética de la[Flexoki colour scheme](https://stephango.com/flexoki).
+.
+Por lo tanto, decidí combinar los dos que comenzaron este tema.
+.
 
 ## Features
 
-[Here is a web showcase](https://share.note.sx/1bk28c9k) of the features
-this theme has to offer.
+[Here is a web showcase](https://share.note.sx/1bk28c9k)de las características
+este tema tiene que ofrecer.
+.
 
-- Some features will not have a 1 to 1 correspondence to the main theme,
-but this site should give you a preview of how the theme looks before
-installing it
+- Algunas características no tendrán una correspondencia de 1 a 1 con el tema principal,
+,
+pero este sitio debe darle una vista previa de cómo el tema mira antes
+instalarlo
 
 ### What this theme has
 
-- vim mode status (when using builtin vim keybinds)
-- Status bar options like Powerlevel10k inspired status bar styling
-- Smiley toggle icons and other options for settings
-- ASCII art or custom quote in new empty tabs
-- subtle opacity effects for UI elements
-- a dark and light mode colour scheme
-- ASCII checkboxes
-- Heading options like underline, numbered, coloured
-- A [plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
-- Workspace Layouts like card layout with TUI inspired add-on, angled layout
-- Configure left, right sidebar and modal background images
-- Animation options for tabs
-- And many more...
+- estado del modo vim (cuando se utiliza keybinds vim integrado)
+- Opciones de barra de estado como Powerlevel10k inspirado estilo barra de estado
+- Iconos sonrientes y otras opciones para la configuración
+- Arte ASCII o cita personalizada en nuevas pestañas vacías
+- efectos sutiles de opacidad para elementos de la UI
+- un esquema de color oscuro y ligero
+- Cajas de verificación ASCII
+- Opciones de dirección como subline, numerado, coloreado
+- A[plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
+- Workspace Diseños como diseño de tarjetas con TUI inspirado add-on, diseño angular
+- Configurar imágenes de fondo modal e izquierdo
+- Opciones de animación para pestañas
+- Y muchos más...
+.
 
 ### What this theme does not have
 
-- multiple colour schemes (though you can override the existing one 
-with your own, see [Style Settings](../Styling/Style-Settings/index.md))
-- alternate checkboxes
-- embedded fonts, svgs
+- múltiples esquemas de color (aunque puede anular el existente
+con el suyo, ver[Style Settings](../Styling/Style-Settings/index.md))
+- casillas de verificación alternas
+- fuentes incrustadas, svgs
 
 #### Easter Egg Mode
 
-**Deprecated**, see [here](./page-5.md)
+**Deprecated**, see[here](./page-5.md)
 
 ### Recommended snippets
 
-Here are some recommended snippets to add to your vault and use alongside Flexcyon:
+Aquí están algunos fragmentos recomendados para añadir a su bóveda y utilizar junto a Flexcyon:
 
 -[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
 -[Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling)
@@ -67,28 +72,29 @@ Here are some recommended snippets to add to your vault and use alongside Flexcy
 
 ## Roadmap
 
-The Roadmap for this theme can be found [here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md).
+La hoja de ruta para este tema se puede encontrar[here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md).
 .
 
 ## Changelogs
 
-The Changelogs for this theme can be found [here](../changelogs/index.md)
+Los Cambios para este tema se pueden encontrar[here](../changelogs/index.md)
 
 ### Questions, Issues?
 
-Feel free to talk about it at:
+Siéntete libre de hablar de ello en:
 
 -[this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357).
 .
 -[this Obsidian forum topic](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)
 
-Alternatively, you can open an issue at
-[the repository](https://github.com/bladeacer/flexcyon/issues) or
-[start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions) here.
+Alternativamente, puede abrir un problema en
+[the repository](https://github.com/bladeacer/flexcyon/issues)o
+[start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions)aquí.
+.
 
 ## Design Principles
 
-See [here](./page-4.md)
+See[here](./page-4.md)
 
 ## Style Settings
 
@@ -96,5 +102,5 @@ See[here](../Styling/Style-Settings/index.md)
 
 ## License
 
-The license for the theme can be found [here](./license.md)
+La licencia para el tema se puede encontrar[here](./license.md)
 

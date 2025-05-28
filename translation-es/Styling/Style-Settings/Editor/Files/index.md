@@ -3,7 +3,8 @@ title: Archivos
 icon: material/file-cog
 ---
 
-Configure file trees and folder styles.
+Configurar árboles de archivos y estilos de carpeta.
+.
 
 ## Navigation
 
@@ -29,14 +30,14 @@ Default:true(de clase)
 
 ### Select folder style
 
-CSS Classe(s) targeted: `.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
+CSS Classe(s) targeted:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 
-Default: none (class select)
-Options:
+Predeterminado: ninguno (clase selecto)
+Opciones:
 
-- Rainbow folders
-- Alternate folder style
-- Markdown file tree style
+- Carpetas de arco iris
+- Estilo de carpeta alternativo
+- Estilo de árbol de archivos
 
 ### Enable minimalist trees
 

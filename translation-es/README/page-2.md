@@ -5,37 +5,38 @@ icon: material/download
 
 # Via Community Store (recommended)
 
-To install this theme via the community store, navigate to  `Settings
+Para instalar este tema a través de la tienda comunitaria, navega por`Settings
 > Appearance`
 
-1. Under `Themes`, click Manage
+1. Under`Themes`, haga clic en Manage
 
-2. `Type "Flexcyon in the search bar
+2.`Type "Flexcyon in the search bar
 > Select it
 > Click "Install and Use"`
 
 ## Via BRAT
 
-To install this theme via BRAT, navigate to `Settings
+Para instalar este tema a través de BRAT, vaya a`Settings
 > Community Plugins
 > Browse`
 
-1. `Type "BRAT" in the search bar
+1.`Type "BRAT" in the search bar
 > Select it (the one by TftHacker)
 > Click install`
 
-2. Wait for installation to complete then click `Enable`
+2. Espera la instalación para completar luego haga clic`Enable`
 
-3. Click `Options`
+3. Haga clic`Options`
 
-4. Click `Add Beta Theme`
+4. Haga clic`Add Beta Theme`
 
-5. Input `https://github.com/bladeacer/flexcyon` and then click `Add Theme`
+5. Input`https://github.com/bladeacer/flexcyon`y luego haga clic`Add Theme`
 
 ## Style Settings Plugin
 
-Installation of Style Settings is highly recommended for this theme, as most
-customisation and functionality is built around it.
+La instalación de los ajustes de estilo es altamente recomendable para este tema, como la mayoría
+la personalización y funcionalidad se construye alrededor de ella.
+.
 
-Documentation for style settings of this theme can be found [here](../Styling/Style-Settings/index.md)
+Documentación para la configuración de estilo de este tema se puede encontrar[here](../Styling/Style-Settings/index.md)
 

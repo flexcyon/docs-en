@@ -3,5 +3,6 @@ title: 背景样式
 icon: material/flip-to-back
 ---
 
-In this sub-page, you can find usage examples for changing the callout 
-background using callout metadata.
+在此子页面中, 您可以找到更改点名的用法示例
+背景使用点名元数据。
+.

@@ -3,7 +3,7 @@ title: 全部切换
 icon: material/format-strikethrough
 ---
 
-Callout metadata: "line-through-all"
+点名元数据:"线通全"
 
 用法 :
 

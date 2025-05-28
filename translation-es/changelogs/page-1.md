@@ -3,7 +3,8 @@ title: Versión 0.1.x y abajo
 icon: material/numeric-1-box-outline
 ---
 
-Versions below 0.0.5 are not documented as they lack notable features.
+Versiones abajo 0.0.5 no se documentan ya que carecen de características notables.
+.
 
 ## Version 0.0.5: Minor Changes
 

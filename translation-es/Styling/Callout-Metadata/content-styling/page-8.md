@@ -3,7 +3,7 @@ title: Índice
 icon: material/format-italic
 ---
 
-Callout metadata: "italic-content"
+Metadatos de llamada: "contenido-italico"
 
 Usage:
 

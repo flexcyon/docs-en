@@ -3,7 +3,7 @@ title: Fondo rosa
 icon: material/layers-outline
 ---
 
-Callout metadata: "bg-pink"
+Metadatos de llamada: "bg-pink"
 
 ```md
 > [!info|bg-pink] Title will display as usual

@@ -8,25 +8,25 @@ tags:
 
 ## Misc
 
-- Add Origami attribution in `scss/css` files
-- Add Style Settings option for configuring tree item and suggestion item padding
-- Add better screenshots
+- 增加Origami属性`scss/css`文件
+- 添加配置树项和建议项的样式设置选项
+- 添加更好的截图
 
 ## Style Settings and stuff
 > Add more CSS classes
 
 ### Plugins/snippets
 
-- Support more plugins
-  - Could also look at:
-    - Tasks
-    - QuickAdd (override default css variables)
-    - Vertical Tabs etc
+- 支持更多的插件
+- 还可以看:
+- 任务
+- 快速添加( 覆盖默认的 cs 变量)
+- 垂直标签等
 - `publish.css`
 
 ### Other styling options
 
-- Mermaid Chart Styling
+- 美人鱼图型
 
 ## Next version changelog
 

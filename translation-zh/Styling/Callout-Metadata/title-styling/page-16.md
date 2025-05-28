@@ -3,7 +3,7 @@ title: 标题大写
 icon: material/caps-lock
 ---
 
-Callout metadata: "caps-title"
+点名元数据:"标题"
 
 用法 :
 

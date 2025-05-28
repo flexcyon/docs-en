@@ -3,7 +3,7 @@ title: 空
 icon: material/cancel
 ---
 
-Callout metadata: "empty"
+点名元数据:"空"
 
 用法 :
 
@@ -12,7 +12,7 @@ Callout metadata: "empty"
 > Content is shown as usual
 ```
 
-Alternatively, you can use:
+或者,您可以使用:
 
 ```md
 > [!info|empty] Neither the title and callout icon will show

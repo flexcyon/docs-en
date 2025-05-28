@@ -3,8 +3,9 @@ title: 其他人员
 icon: material/dots-horizontal
 ---
 
-For configuring vim mode text, new tab apperance (ASCII art), sidedock icons,
-tooltip radius
+对于配置 vim 模式文本, 新建标签 appenance( ASCII 艺术), sidedock 图标,
+,
+工具提示半径
 
 接受格式: px
 
@@ -32,37 +33,37 @@ Style Settings
 
 目标CSS变量:`var(--flexcyon-vim-mode-left-positioning)`
 
-Default: 6 (px)
+默认: 6 (px)
 
 #### Vim mode text bottom positioning
 
 目标CSS变量:`var(--flexcyon-vim-mode-left-positioning)`
 
-Default: -4 (px)
+默认 : - 4 (px)
 
 #### Insert Mode Text
 
 目标CSS变量:`var(--flexcyon-vim-insert-text)`
 
-Default: "INSERT"
+默认: "INSERT"
 
 #### Normal Mode Text
 
 目标CSS变量:`var(--flexcyon-vim-normal-text)`
 
-Default: "NORMAL"
+默认: "NORMAL"
 
 #### Command Mode Text
 
 目标CSS变量:`var(--flexcyon-vim-command-text)`
 
-Default: "COMMAND"
+默认: "COMMAND"
 
  
 
 ### New Tab Appearance
 
-Customize the apperance of new empty tabs
+自定义新空标签的占位
 
 接受格式: px
 
@@ -74,8 +75,8 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 默认: 无( 类选择)
 选项 :
 
-- ASCII Art
-- Quote
+- ASCII艺术
+- 引语
 
 #### Background for add before empty state title
 
@@ -87,13 +88,13 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 
 目标CSS变量:`var(--flexcyon-quote-val)`
 
-Default: ""
+默认: ""
 
 #### Quote font size
 
 目标CSS变量:`var(--flexcyon-quote-font-size)`
 
-Default: 24 (px)
+默认: 24 (px)
 > Line breaks are escaped as `\a` and `\` is escaped as `\\`
 
 #### ASCII Art
@@ -126,7 +127,7 @@ Default: 24 (px)
 目标CSS变量:`var(--flexcyon-ascii-line-height)`
 > Changes line height for quote as welll
 
-Default: 1
+默认:1
 
 #### Disable Empty State title
 
@@ -144,7 +145,7 @@ Default: 1
 
 ### Side Dock Icons
 
-Configure the side dock icons
+配置侧对接图标
 
 #### Enable side dock icon effects
 > Rainbow effect on hover
@@ -162,7 +163,7 @@ Configure the side dock icons
 
 ### Tooltip radius
 
-Configure the tooltip radius
+配置工具提示半径
 
 #### Small radius
 
@@ -192,9 +193,10 @@ Configure the tooltip radius
 
 ### Sidebar Background
 
-Configure background images in the left and right sidebars.
+在左右侧边栏配置背景图像。
+.
 
-Accepted Formats: px, %
+接受格式: px,%
 
 #### Select background in sidebar
 
@@ -205,15 +207,15 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 默认: 无( 类选择)
 选项 :
 
-- Grid
-- Dotted
-- Rhombus
+- 绳子
+- 点缀
+-罗姆布斯
 
 #### Left sidebar background image url
 
 目标CSS变量:`var(--flexcyon-bg-image-sidebar-left-url)`
 
-Default: url("")
+默认: url (")
 > For urls to work, add your URL between the double quotes e.g. a value of:
 `url("https://fake_domain/not_a_real_image.png")`
 
@@ -241,7 +243,7 @@ Default: url("")
 
 目标CSS变量:`var(--flexcyon-bg-image-blur)`
 
-Default: 1px
+默认:1px
 > Will be changed to 0px next update
 
 #### Sidebar Background image brightness
@@ -267,7 +269,7 @@ Default: 1px
 
 ### Modal Background
 
-Configure background images in the background of settings menu, prompts etc
+在设置菜单、 提示等背景中配置背景图像
 
 接受格式: px,%
 
@@ -320,13 +322,13 @@ Configure background images in the background of settings menu, prompts etc
 
 ### Easter egg mode
 
-Deprecated. See [here for reasons](../../../README/page-5.md)。
+堕地。 见[here for reasons](../../../README/page-5.md)。
 
  
 
 ### Accessibility
 
-Toggle accessibility options
+切换访问选项
 > Note that changing these will change how the entire theme renders.
 >
 > Tweaking these values too much may make the theme look ugly

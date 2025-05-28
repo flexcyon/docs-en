@@ -3,7 +3,7 @@ title: 标题栏
 icon: material/format-text-variant-outline
 ---
 
-For configuration of the titlebar, enable rainbow hover effects on titlebar buttons
+对于标题栏的配置, 启用标题栏按钮上的彩虹悬浮效果
 
 ## Navigation
 

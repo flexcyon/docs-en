@@ -5,4 +5,5 @@
 > You can find more info about it by clicking on the link.
 > Yes the repository name is `docs-en` but there are other languages
 
-For more languages, open a FR/PR.
+对于更多的语言,打开一个FR/PR.
+.

@@ -3,7 +3,7 @@ title: Capitalizar a todos
 icon: material/caps-lock
 ---
 
-Callout metadata: "caps-all"
+Metadatos de callout: "caps-all"
 
 Usage:
 

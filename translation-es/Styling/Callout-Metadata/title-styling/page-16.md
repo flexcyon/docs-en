@@ -3,7 +3,7 @@ title: Capitalizar el título
 icon: material/caps-lock
 ---
 
-Callout metadata: "caps-title"
+Metadatos de callout: "caps-title"
 
 Usage:
 

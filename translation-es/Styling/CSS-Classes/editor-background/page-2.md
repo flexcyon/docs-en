@@ -5,7 +5,8 @@ icon: material/grid
 
 # Usage
 
-Adds a grid to your editor background. Size can be adjusted in style settings.
+Añade una cuadrícula a tu editor de fondo. El tamaño se puede ajustar en ajustes de estilo.
+.
 
 ```md
 cssclasses:

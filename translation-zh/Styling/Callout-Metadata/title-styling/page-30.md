@@ -3,7 +3,7 @@ title: 标题6
 icon: material/format-header-6
 ---
 
-Callout metadata: "h6-title"
+点名元数据:"h6-标题"
 
 用法 :
 

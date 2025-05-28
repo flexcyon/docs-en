@@ -3,7 +3,7 @@ title: 弹出
 icon: material/cursor-default
 ---
 
-Callout metadata: "$pop"
+点名元数据: "$pop"
 
 用法 :
 

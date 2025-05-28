@@ -3,7 +3,7 @@ title: 全部倾斜
 icon: material/angle-acute
 ---
 
-Callout metadata: "tilt-all"
+点名元数据: "till- all"
 
 用法 :
 

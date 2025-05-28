@@ -3,7 +3,7 @@ title: 直线标题
 icon: material/format-letter-case-upper
 ---
 
-Callout metadata: "oblique-title"
+点名元数据:"oblique-title"
 
 用法 :
 

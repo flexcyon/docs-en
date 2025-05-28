@@ -3,9 +3,9 @@ title: 插件
 icon: material/hexagon-outline
 ---
 
-For configuration of officially supported plugins
+用于配置官方支持的插件
 
-Accepted formats: HEX, rem, x.y, %
+接受格式:HEX、雷姆、x.y,%
 
 ## Navigation
 
@@ -26,10 +26,10 @@ Style Settings
 
 目标CSS变量:`var(--oz-fta-folder-font-size)`
 
-Default: 0.925 (rem)
+默认: 0.925(雷姆)
 
 <span style="font-size: 0.925rem"
->Sample Alternate file tree Folders font size</span>
+>样本 另选文件树文件夹字体大小</span>
 
 #### Folders font color
 
@@ -47,7 +47,7 @@ Default: 0.925 (rem)
 
 #### Active folder color
 
-CSS Variables(s) targeted: `var(--oz-fta-all-panes-active-text-color)`
+目标CSS变量:`var(--oz-fta-all-panes-active-text-color)`
 
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #080808"
@@ -63,10 +63,10 @@ CSS Variables(s) targeted: `var(--oz-fta-all-panes-active-text-color)`
 
 目标CSS变量:`var(--oz-fta-file-font-size)`
 
-Default: 0.9 (rem)
+默认: 0.9(雷姆)
 
 <span style="font-size: 0.9rem"
->Sample Alternate file tree Files font size</san>
+>样本 替代文件树文件字体大小</san>
 
 #### Files font color
 
@@ -105,16 +105,16 @@ Default: 0.9 (rem)
 
 ### Full Calendar
 
-Accepted formats: x.y, %
+接受格式: x.y,%
 
 #### Opacity of dimmed full calendar items
 
 目标CSS变量:`var(--flexcyon-fc-dimmed-items-opacity)`
 
-Default: 0.89
+默认: 0.89
 
 <span style="opacity: 0.89"
->Sample opacity of dimmed full calendar items</span>
+>阴暗的完整日历项目的样本不透明</span>
 
  
 
@@ -132,9 +132,10 @@ Default: 0.89
 
 ### Canvas
 
-Defines styles for the core Canvas plugin.
+定义 Canvas 核心插件的样式。
+.
 
-Accepted formats: px, RGB
+接受格式: px, RGB
 
 #### Blur inactive Canvas nodes
 
@@ -144,25 +145,30 @@ Accepted formats: px, RGB
 
 #### Blur intensity for inactive nodes
 
-Used with the previous setting to set the blur intensity of inactive canvas nodes
-and all arrows/edges.
+用上一个设置来设置不活动画布节点的模糊强度
+和所有箭头/箭头。
+.
 
 目标CSS变量:`var(--flexcyon-canvas-blur-intensity)`
 
-Default: 1 (px)
+默认:1 (px)
 
 #### Canvas card menu alignment
 
-Configure the alignment of the canvas card menu.
+配置画布卡菜单的对齐 。
+.
 
 CSS类目标:`.flexcyon-canvas-menu-bottom-left,`
 `
-.flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
-.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
-.flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
-.flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center, (中文).
+.flexcyon-canvas-menu-底部右侧 .flexcyon-canvas-menu-top-center, (中文).
 ,
-.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align
+.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-reat, . .flexcyon-canvas-menu-top-left-right, 互联网档案馆的存檔,存档日期2014-03-02.,.
+,
+. . . . . . . center. . . . . . .
+,
+.flexcyon-canvas-menu-lcenter-bottom,.flexcyon-canvas-menu-rcenter-)是中国大陆的特有种center, (中文).
+,
+.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bound, .flexcyon-canvas-menu-center-aign (英语).
 `
 
 默认: 无( 类选择)
@@ -171,25 +177,25 @@ CSS类目标:`.flexcyon-canvas-menu-bottom-left,`
 
 -左边
 
-- Bottom right
+- 右边
 
 - 顶部center
 
 - 左边
 
-- Top right
+- 右边
 
-- Left aligned center
+- 左对齐center
 
-- Left aligned top
+- 左对齐顶部
 
-- Left aligned bottom
+- 左对齐底部
 
-- Right aligned center
+- 右对齐center
 
-- Right aligned top
+- 右对齐顶部
 
-- Right aligned bottom
+- 右对齐底部
 
-- 右对齐center align
+- 右对齐center对齐
 

@@ -3,7 +3,7 @@ title: 大写全部
 icon: material/format-letter-case-upper
 ---
 
-Callout metadata: "uppercase-all"
+点名元数据 : "uppercase- all"
 
 用法 :
 

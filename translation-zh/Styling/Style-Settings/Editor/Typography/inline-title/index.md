@@ -3,7 +3,7 @@ title: 内置标题
 icon: material/format-underline-wavy
 ---
 
-Accepted Formats: em, number
+接受格式: em, 数字
 
 ## Navigation
 
@@ -25,7 +25,7 @@ Style Settings
 ## Configuration Options
 
 <span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
-Sample inline title</span>
+内置标题样本</span>
 
 ### Inline title font size
 

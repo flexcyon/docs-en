@@ -3,9 +3,10 @@ title: 标题
 icon: material/format-header-pound
 ---
 
-Defines CSS variables for styling related to headings like font weight.
+定义与字体权重等标题相关的 CSS 变量。
+.
 
-Accepted Formats: px, number, rem
+接受格式: px, 数字, rem
 
 ## Navigation
 
@@ -40,8 +41,9 @@ Style Settings
 
 ### Enable heading indicators globally
 
-Customise which headings have heading indicators before them globally.
-If you are looking to apply them on a per-note basis, [click here](../../../../CSS-Classes/heading-indicators/index.md)
+定制全球面前哪些标题有标题指标。
+.
+如果你打算逐笔应用,[click here](../../../../CSS-Classes/heading-indicators/index.md)
 
 #### For Heading 1
 
@@ -93,46 +95,46 @@ If you are looking to apply them on a per-note basis, [click here](../../../../C
 
 目标CSS变量:`var(--h1-size)`
 
-Default: 1.802 (em)
+默认: 1.802(em)
 
 <h1 style="font-weight: 700; font-size: 1.802em;"
->Sample h1</h1>
+>样本 h1</h1>
 
 #### Heading 2 font size
 
 目标CSS变量:`var(--h2-size)`
 
-Default: 1.602 (em)
+默认: 1.602(em)
 
 <h2 style="font-weight: 675; font-size: 1.602em;"
->Sample h2</h2>
+>样本 h2</h2>
 
 #### Heading 3 font size
 
 目标CSS变量:`var(--h3-size)`
 
-Default: 1.424 (em)
+默认: 1.424 (em)
 
 <h3 style="font-weight: 650; font-size: 1.424em;"
->Sample h3</h3>
+>样本 h3</h3>
 
 #### Heading 4 font size
 
 目标CSS变量:`var(--h4-size)`
 
-Default: 1.266 (em)
+默认: 1.266 (em)
 
 <h4 style="font-weight: 625; font-size: 1.266;"
->Sample h4</h4>
+>样本 h4</h4>
 
 #### Heading 5 font size
 
 目标CSS变量:`var(--h5-size)`
 
-Default: 1.125 (em)
+默认: 1.125 (em)
 
 <h5 style="font-weight: 600; font-size: 1.125em;"
->Sample h5</h5>
+>样本 h5</h5>
 
 #### Heading 6 font size
 
@@ -141,7 +143,7 @@ Default: 1.125 (em)
 默认:1(em)
 
 <h6 style="font-weight: 575; font-size: 1em;"
->Sample h6</h6>
+>样本 h6</h6>
 
  
 
@@ -151,7 +153,7 @@ Default: 1.125 (em)
 
 目标CSS变量:`var(--h1-weight)`
 
-Default: 700
+默认: 700
 
 <h1 style="font-weight: 700; font-size: 1.802em;"
 >样本 h1</h1>
@@ -160,7 +162,7 @@ Default: 700
 
 目标CSS变量:`var(--h2-weight)`
 
-Default: 675
+默认: 675
 
 <h2 style="font-weight: 675; font-size: 1.602em;"
 >样本 h2</h2>
@@ -169,7 +171,7 @@ Default: 675
 
 目标CSS变量:`var(--h3-weight)`
 
-Default: 650
+默认: 650
 
 <h3 style="font-weight: 650; font-size: 1.424em;"
 >样本 h3</h3>
@@ -178,7 +180,7 @@ Default: 650
 
 目标CSS变量:`var(--h4-weight)`
 
-Default: 625
+默认: 625
 
 <h4 style="font-weight: 625; font-size: 1.266;"
 >样本 h4</h4>
@@ -187,7 +189,7 @@ Default: 625
 
 目标CSS变量:`var(--h5-weight)`
 
-Default: 600
+默认: 600
 
 <h5 style="font-weight: 600; font-size: 1.125em;"
 >样本 h5</h5>
@@ -196,7 +198,7 @@ Default: 600
 
 目标CSS变量:`var(--h6-weight)`
 
-Default: 575
+默认: 575
 
 <h6 style="font-weight: 575; font-size: 1em;"
 >样本 h6</h6>
@@ -209,7 +211,7 @@ Default: 575
 
 目标CSS变量:`var(--h1-line-height)`
 
-Default: 1.2
+默认: 1.2
 
 #### Heading 2 line height
 
@@ -221,19 +223,19 @@ Default: 1.2
 
 目标CSS变量:`var(--h3-line-height)`
 
-Default: 1.3
+默认: 1.3
 
 #### Heading 4 line height
 
 目标CSS变量:`var(--h4-line-height)`
 
-Default: 1.4
+默认: 1.4
 
 #### Heading 5 line height
 
 目标CSS变量:`var(--h5-line-height)`
 
-Default: 1.5
+默认: 1.5
 
 #### Heading 6 line height
 

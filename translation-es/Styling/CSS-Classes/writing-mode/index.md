@@ -5,8 +5,9 @@ icon: material/keyboard
 
 # Usage
 
-Adds text indent and increased paragraph spacing to your editor. Size can be
-adjusted in style settings.
+Agrega el texto indent y el párrafo aumentado espaciamiento a su editor. El tamaño puede ser
+ajustado en configuración de estilo.
+.
 
 ```md
 cssclasses:

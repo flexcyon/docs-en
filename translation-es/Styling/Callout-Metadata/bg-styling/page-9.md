@@ -3,7 +3,7 @@ title: Fondo amarillo
 icon: material/layers-outline
 ---
 
-Callout metadata: "bg-yellow"
+Metadatos de llamada: "Bg-yellow"
 
 ```md
 > [!info|bg-yellow] Title will display as usual

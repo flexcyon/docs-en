@@ -3,7 +3,7 @@ title: 斜体标题
 icon: material/format-italic
 ---
 
-Callout metadata: "italic-title"
+点名元数据:"italic-title"
 
 用法 :
 

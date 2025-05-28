@@ -3,6 +3,7 @@ title: 背景编辑器
 icon: material/notebook-edit
 ---
 
-In this sub-page, you can find usage examples for changing the editor background
-using cssclasses.
+在此子页面中, 您可以找到用于更改编辑器背景的用法示例
+使用cssclass。
+.
 

@@ -3,7 +3,7 @@ title: 项目符号列表
 icon: material/format-list-bulleted
 ---
 
-Configure bullet lists in the theme
+在主题中配置项目列表
 
 ## Navigation
 
@@ -25,6 +25,6 @@ Style Settings
 
 目标CSS变量:`var(--flexcyon-rainbow-bullet-points)`
 
-默认 :false (class toggle)
+默认 :false(类切换)
 > Might need app restart/reload to take effect.
 

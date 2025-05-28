@@ -3,9 +3,10 @@ title: 动画
 icon: material/animation
 ---
 
-Configure transition animations of prompts, modals and tab container.
+配置提示、模式和标签容器的过渡动画。
+.
 
-Accepted Formats: s
+接受格式:s
 
 ## Navigation
 
@@ -28,18 +29,19 @@ Style Settings
 
 ### Animation type
 
-CSS Classe(s) targeted: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
-.flexcyon-anims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl`
+CSS 类目标:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
+,
+.flexcyon-anims-slim-tb,.flexcyon-anims-slim-bt,.flexcyon-spin-bt,.flexcyon-anims-spin-rl ' .
 > Changes may need an app reload/restart to take effect
 
 默认: 无( 类选择)
-Options: 
+选项 :
 
-- Slide in Left to Right
-- Slide in Right to Left
-- Slide in Top to Bottom
-- Rotate in Bottom to Top
-- Rotate in Right to Left
+- 左到右幻灯片
+- 向左滑动
+- 从上到下幻灯片
+- 从下到上旋转
+- 向左旋转
 
 ### Animation duration
 

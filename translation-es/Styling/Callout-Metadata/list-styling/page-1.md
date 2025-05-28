@@ -14,9 +14,10 @@ icon: material/format-list-numbered
 
 __
 
-- There is no standard implementation for upper Greek
+- No hay aplicación estándar para el griego superior
 
-What does "inside the list item along with the text mean"?
+¿Qué significa "en el artículo de la lista junto con el texto"?
+?
 > Effectively, the list item number/letter/whatever will inherit the indentation
 > of the list item. Think of writing:
 
@@ -26,7 +27,7 @@ What does "inside the list item along with the text mean"?
   3. Give
 ```
 
-instead of
+en lugar de
 
 ```
 1. Never

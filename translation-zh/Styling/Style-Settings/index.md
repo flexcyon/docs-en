@@ -3,11 +3,12 @@ title: 样式设置
 icon: material/cog-outline
 ---
 
-The installation instructions and general usage of the Style Settings plugin can
-be [found here](https://github.com/mgmeyers/obsidian-style-settings)。
+样式设置插件的安装指令和一般用途可以
+为:[found here](https://github.com/mgmeyers/obsidian-style-settings)。
 
-The sub-pages beneath this page details the Style Settings options available for
-this theme.
+本页面下面的子页面详细列出可供
+主题。
+.
 
 ## Navigation
 

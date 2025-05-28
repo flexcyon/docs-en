@@ -3,7 +3,7 @@ title: Oblique 内容
 icon: material/format-text-variant
 ---
 
-Callout metadata: "oblique-content"
+点名元数据:"oblique-content"
 
 用法 :
 

@@ -3,7 +3,7 @@ title: 居中标题
 icon: material/align-horizontal-center
 ---
 
-点名元数据: "center-title"
+点名元数据: "center-标题"
 
 用法 :
 

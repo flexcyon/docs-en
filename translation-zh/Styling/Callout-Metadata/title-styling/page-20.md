@@ -3,7 +3,7 @@ title: 默认标题
 icon: material/format-color-text
 ---
 
-Callout metadata: "dashed-title"
+点名元数据:"点名标题"
 
 用法 :
 

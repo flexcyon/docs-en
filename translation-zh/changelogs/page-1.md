@@ -3,7 +3,8 @@ title: 0.1.x及以下版本
 icon: material/numeric-1-box-outline
 ---
 
-Versions below 0.0.5 are not documented as they lack notable features.
+0.5以下版本没有文献记载,因为它们缺乏显著特征。
+.
 
 ## Version 0.0.5: Minor Changes
 

@@ -3,7 +3,8 @@ title: Styling
 icon: material/language-css3
 ---
 
-If you are looking to style Flexcyon.
+Si usted está buscando a estilo Flexcyon.
+.
 
 ## Quick Links
 

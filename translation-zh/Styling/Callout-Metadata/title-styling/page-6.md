@@ -3,7 +3,7 @@ title: 粉红色标题
 icon: material/select-color
 ---
 
-Callout metadata: "title-pink"
+点名元数据: "title-pink"
 
 ```md
 > [!info|title-pink] Title will be pink

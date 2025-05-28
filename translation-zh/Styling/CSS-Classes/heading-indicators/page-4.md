@@ -3,7 +3,7 @@ title: 标题指标 - H4型导弹
 icon: material/format-header-4
 ---
 
-Add a heading indicator for heading 4s. Will appear in reading, editing and
+增加标题4的标题指标。 将在阅读、编辑和
 来源模式。
 .
 

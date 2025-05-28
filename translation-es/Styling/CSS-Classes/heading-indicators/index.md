@@ -3,8 +3,9 @@ title: Indicadores de referencia
 icon: material/format-letter-case
 ---
 
-Add a heading indicator for all headings. Will appear in reading, editing
-and source mode.
+Añádase un indicador de partida para todas las partidas. aparecerá en la lectura, edición
+y modo fuente.
+.
 
 Usage:
 

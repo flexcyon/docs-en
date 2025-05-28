@@ -3,7 +3,7 @@ title: 字体重量 内容
 icon: material/format-bold
 ---
 
-点名元数据 : "W -`value`-content"
+点名元数据 : "W -`value`- 内容"
 
 已接受的格式`value`数字 :
 

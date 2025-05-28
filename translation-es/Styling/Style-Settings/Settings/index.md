@@ -3,9 +3,10 @@ title: Ajustes
 icon: material/cogs
 ---
 
-For customising the appearance of various UI aspects of settings.
+Para personalizar la apariencia de varios aspectos de interfaz de usuario de configuración.
+.
 
-Accepted Formats: x.y, rem, px
+Formatos aceptados: x.y, rem, px
 
 ## Navigation
 
@@ -46,7 +47,7 @@ CSS Variable(s) targeted:`var(--flexcyon-comm-item-opacity)`
 Predeterminado: 0.89
 
 <span style="opacity: 0.89"
->Sample opacity of community items (unselected)</span>
+>Muestra opacidad de los elementos comunitarios (no seleccionados)</span>
 
 ### Installed tooltip left margin
 
@@ -70,7 +71,7 @@ __
 
 ### Style Settings
 
-Configure the appearance for style settings
+Configurar la apariencia para los ajustes de estilo
 
 Formatos aceptados: px
 

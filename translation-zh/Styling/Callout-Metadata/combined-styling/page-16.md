@@ -3,7 +3,7 @@ title: 全部资本化
 icon: material/caps-lock
 ---
 
-Callout metadata: "caps-all"
+点名元数据: "caps- all"
 
 用法 :
 

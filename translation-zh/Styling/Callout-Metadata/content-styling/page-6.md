@@ -3,7 +3,7 @@ title: 资本化内容
 icon: material/caps-lock
 ---
 
-Callout metadata: "caps-content"
+点名元数据: "封面内容"
 
 用法 :
 

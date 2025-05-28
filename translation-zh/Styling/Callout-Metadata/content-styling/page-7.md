@@ -3,7 +3,7 @@ title: 倾斜内容
 icon: material/angle-acute
 ---
 
-Callout metadata: "tilt-content"
+点名元数据:"tit-content"
 
 用法 :
 

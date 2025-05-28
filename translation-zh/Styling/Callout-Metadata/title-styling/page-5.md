@@ -3,7 +3,7 @@ title: 青色标题
 icon: material/select-color
 ---
 
-Callout metadata: "title-cyan"
+点名元数据:"title-cyan"
 
 ```md
 > [!info|title-cyan] Title will be cyan

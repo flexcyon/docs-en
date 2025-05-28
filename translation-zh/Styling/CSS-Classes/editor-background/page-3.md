@@ -5,7 +5,8 @@ icon: material/rhombus-split-outline
 
 # Usage
 
-Adds a repeating pattern of rhombi to your editor background. Rotation can be adjusted.
+在编辑器背景中添加重复的rhombi模式。 旋转可以调整。
+.
 
 ```md
 cssclasses:

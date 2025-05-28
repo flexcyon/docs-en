@@ -24,16 +24,16 @@ Style Settings
 
 目标CSS变量:`var(--upsize)`
 
-Default: 103%
+默认: 103%
 
 <span style="scale: 103%"
->Sample upscale percentage 1</span>
+>抽样比例 页:1</span>
 
 #### Upscale percentage of icons 2
 
 目标CSS变量:`var(--expand)`
 
-Default: 110%
+默认: 110%
 
 <span style="scale: 110%"
->Sample upscale percentage 2</span>
+>抽样比例 2个</span>

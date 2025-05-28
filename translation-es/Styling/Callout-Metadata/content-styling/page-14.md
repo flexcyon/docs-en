@@ -3,7 +3,7 @@ title: Peso de la fuente
 icon: material/format-bold
 ---
 
-Metadatos de llamada: "w-`value`-content"
+Metadatos de llamada: "w-`value`-contenido
 
 Formatos aceptados para`value`:
 

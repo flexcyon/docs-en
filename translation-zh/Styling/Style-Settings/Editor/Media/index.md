@@ -3,9 +3,9 @@ title: 媒体
 icon: material/multimedia
 ---
 
-Configure media related settings
+配置媒体相关设置
 
-Accepted formats: px
+接受格式: px
 
 ## Navigation
 
@@ -27,11 +27,11 @@ Style Settings
 
 目标CSS变量:`var(--flexcyon-media-embed-vertical-margin)`
 
-Default: 8 (px)
+默认: 8 (px)
 
 ### Image border radius
 
 目标CSS变量:`var(--img-border-radius)`
 
-Default: 15 (px)
+默认: 15 (px)
 

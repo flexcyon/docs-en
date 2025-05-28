@@ -3,5 +3,6 @@ title: 点名元数据
 icon: material/information-outline
 ---
 
-This page and its sub-pages consists of callout metadata you can use to 
-customise your vault.
+此页面及其子页面包含您可以使用的点名元数据
+定制您的金库。
+.

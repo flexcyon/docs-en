@@ -3,7 +3,7 @@ title: Título de Orange
 icon: material/select-color
 ---
 
-Callout metadata: "title-orange"
+Metadatos de callout: "título extraño"
 
 ```md
 > [!info|title-orange] Title will be orange

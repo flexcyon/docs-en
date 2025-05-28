@@ -764,5 +764,11 @@
   "For customising the appearance of various UI aspects of settings.\n|||en|||zh": "用于自定义设置的 UI 不同方面的外观 。\n.",
   "Accepted Formats: x.y, rem, px\n|||en|||zh": "接受格式: x.y, rem, px\n",
   "Sample opacity of community items (unselected)|||en|||zh": "社区物品样本不透明(未选定)",
-  "Configure the appearance for style settings\n|||en|||zh": "配置样式设置的外观\n"
+  "Configure the appearance for style settings\n|||en|||zh": "配置样式设置的外观\n",
+  "    <img src=\"../../assets/screenshots/showcase1.png\" width=\"800\" alt=\"Figure 1:\n|||en|||zh": "<img src=. /. /assets/screetshots/showcase1.png\" 宽度=\"800\" alt=\" 图1:\n",
+  "    <img src=\"../../assets/screenshots/showcase2.png\" width=\"800\" alt=\"Figure 2:\n|||en|||zh": "/./assets/screwshots/showcase2.png\"宽度=\"800\" alt=\"图2:\n",
+  "    <img src=\"../../assets/screenshots/showcase3.png\" width=\"800\" alt=\"Figure 3:\n|||en|||zh": "/./assets/screenshots/showcase3.png\" 宽度=\"800\" alt=\" 图3:\n",
+  "    <img src=\"../../assets/screenshots/showcase4.png\" width=\"800\" alt=\"Figure 4:\n|||en|||zh": "<img src=. /. /assets/screenshots/showcase4.png> 宽度=\"800\" alt=\"图4:\n",
+  "    Light Mode with Powerlevel10k layout and status style\">\n|||en|||zh": "具有Powerlevel10k布局和状态样式的轻模式\">\n",
+  "Figure 4: Light Mode with Powerlevel10k layout and status style|||en|||zh": "图4:带有Powerlevel10k布局和状态样式的轻模式"
 }

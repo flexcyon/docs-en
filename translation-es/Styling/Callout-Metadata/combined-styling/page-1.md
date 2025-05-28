@@ -3,7 +3,7 @@ title: Vacío
 icon: material/cancel
 ---
 
-Callout metadata: "empty"
+Metadatos de callout: "vacío"
 
 Usage:
 
@@ -12,7 +12,7 @@ Usage:
 > Content is shown as usual
 ```
 
-Alternatively, you can use:
+Alternativamente, puede utilizar:
 
 ```md
 > [!info|empty] Neither the title and callout icon will show

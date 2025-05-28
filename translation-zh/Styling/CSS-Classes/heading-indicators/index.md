@@ -3,8 +3,9 @@ title: 标题指标
 icon: material/format-letter-case
 ---
 
-Add a heading indicator for all headings. Will appear in reading, editing
-and source mode.
+为所有标题添加标题指标。 将在阅读、编辑中出现
+和源模式。
+.
 
 用法 :
 

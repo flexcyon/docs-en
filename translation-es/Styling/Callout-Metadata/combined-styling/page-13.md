@@ -3,7 +3,7 @@ title: Center All
 icon: material/align-horizontal-center
 ---
 
-Callout metadata: "center-all"
+Metadatos de llamada: "center- todos"
 
 Usage:
 

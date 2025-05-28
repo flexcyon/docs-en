@@ -3,7 +3,7 @@ title: Título rosado
 icon: material/select-color
 ---
 
-Callout metadata: "title-pink"
+Metadatos de callout: "título-pink"
 
 ```md
 > [!info|title-pink] Title will be pink

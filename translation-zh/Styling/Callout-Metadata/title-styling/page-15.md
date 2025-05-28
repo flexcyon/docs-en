@@ -3,7 +3,7 @@ title: 小写标题
 icon: material/format-letter-case-lower
 ---
 
-Callout metadata: "lowercase-title"
+点名元数据:"小写标题"
 
 用法 :
 

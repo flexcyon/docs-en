@@ -3,9 +3,10 @@ title: Animaciones
 icon: material/animation
 ---
 
-Configure transition animations of prompts, modals and tab container.
+Configurar animaciones de transición de los impulsos, modales y tab container.
+.
 
-Accepted Formats: s
+Formatos aceptados: s
 
 ## Navigation
 
@@ -29,17 +30,18 @@ Style Settings
 ### Animation type
 
 CSS Classe(s) targeted: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
+,
 .flexcyon-anims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl`
 > Changes may need an app reload/restart to take effect
 
 Predeterminado: ninguno (clase selecto)
-Options: 
+Opciones:
 
-- Slide in Left to Right
-- Slide in Right to Left
-- Slide in Top to Bottom
-- Rotate in Bottom to Top
-- Rotate in Right to Left
+- Diapositiva de izquierda a derecha
+- Diapositiva en derecho a la izquierda
+- Diapositiva en Top to Bottom
+- Girar en el fondo para arriba
+- Girar en la derecha a la izquierda
 
 ### Animation duration
 

@@ -3,7 +3,7 @@ title: Índice
 icon: material/contain
 ---
 
-In this sub-page, you can find usage examples for content styling of
+En esta subpágina puedes encontrar ejemplos de uso para el estilo de contenido
 llamadas usando metadatos de llamada.
 .
 

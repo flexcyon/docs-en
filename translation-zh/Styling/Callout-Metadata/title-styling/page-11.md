@@ -3,7 +3,7 @@ title: RTL 标题
 icon: material/align-horizontal-right
 ---
 
-Callout metadata: "rtl-title"
+点名元数据: “ trl- title”
 
 用法 :
 

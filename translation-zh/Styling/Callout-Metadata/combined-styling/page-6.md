@@ -3,7 +3,7 @@ title: 全粉红色
 icon: material/format-color-fill
 ---
 
-Callout metadata: "all-pink"
+点名元数据: "全平克"
 
 ```md
 > [!tip|all-pink] Title will be pink

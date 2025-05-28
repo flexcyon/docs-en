@@ -3,14 +3,14 @@ title: 字体重量 全体
 icon: material/format-bold
 ---
 
-Callout metadata: "w-`value`- 所有人 - 所有人 - all".
+点名元数据 : "W -`value`- 所有人 - 所有人 - all".
 
-Accepted Formats for `value`:
+已接受的格式`value`数字 :
 
-- 100 to 900 (in increments of 100)
-- bold
-- bolder
-- lighter
+- 100至900人(增加100人)
+- 大胆
+- 更大胆
+- 轻点
 
 用法 :
 

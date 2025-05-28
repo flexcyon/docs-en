@@ -3,6 +3,7 @@ title: Estilismo combinado
 icon: material/vector-combine
 ---
 
-In this sub-page, you can find usage examples for combined styling of
-callouts using callout metadata.
+En esta subpágina, puede encontrar ejemplos de uso para el estilo combinado de
+llamadas usando metadatos de llamada.
+.
 

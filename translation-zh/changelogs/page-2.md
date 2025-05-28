@@ -46,7 +46,7 @@ css变量).
 - 添加点和网格背景选项
 
 - [See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
-for more details
+详情
 
 ## Version 0.2.1 Small Update
 
@@ -54,7 +54,8 @@ for more details
 .
 
 - 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color`
-will always return the same color mix when using in callout metadata utilities.
+在使用点名元数据时, 总是返回相同的颜色组合 。
+.
 
 - 使活动文件背景效果更加一致
 

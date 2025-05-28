@@ -3,7 +3,7 @@ title: 全部下划线
 icon: material/format-underline
 ---
 
-Callout metadata: "underline-all"
+点名元数据:“ 全部下划线”
 
 用法 :
 

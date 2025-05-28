@@ -5,233 +5,241 @@ title: 更改日志
 
 #### Note
 
-The changelogs show versions in order of most recent to least recent.
-Or, if you prefer the changelogs in chronological order, you can use
-the sidebar or hamburger menu to view the relevant sub-pages.
+更改日志按最近到最近顺序显示版本。
+.
+或者,如果你喜欢按时间顺序的更改日志,你可以使用
+用于查看相关子页的边栏或汉堡菜单。
+.
 
-___
+ 
 
 ## Version 0.4.x
 
 ### Version 0.4.1 Quickfix Update
 
-- Fix TUI rendering in light mode
+- 在光线模式下修复 TUI 渲染
 
-- Fix left sidebar toggle when ribbon is not enabled
+- 不启用丝带时将左侧栏切换
 
-- Fix text highlight bg specifically with suggestion-highlight
+- 专门用建议高亮点修正文本亮点bg
 
-- Fix embeds not displaying
+- 修复未显示的嵌套
 
 ### Version 0.4.0 Light Mode Update
 
-- Changed sidebar background brightness setting default to `unset`. Was
-previously causing issues like blurring Calender plugin content.
+- 修改侧边栏背景亮度设置为`unset`。 。 。 。 曾经
+之前引起诸如模糊卡伦德插件内容之类的问题。
+.
 
-- WIP light theme (mixes flexoki light + origami colour palette)
+- WIP灯主题(混合弹性灯+折纸彩色调色板)
 
-- Others misc changes
+- 其他错误变化
 
-  - Added toggle for extended colour palette, on by default
+- 为扩展调色板添加切换,默认情况下
 
-  - Added table header size option
+- 添加表头大小选项
 
-  - Updated documentation to show a small preview of colors/opacity applied by
-  the theme
+- 更新文档,以显示应用的颜色/不透明小预览
+主题
 
-  - Added web showcase of the theme's features
+- 增加了主题功能的网络展示
 
-  - Remove Easter Egg mode
+- 删除复活节 鸡蛋模式
 
-- Style color picker for light and dark mode options
+- 光和暗模式选项的样式选择器
 
-- ASCII Art and quotes now inherit from the interface font
+- ASCII 艺术和引文现在继承了界面字体
 
-- Improved prompt styling and tree item padding
+- 改进了即时造型和树品垫
 
-- Return to Zero (ultra minimalist mode) inspired by Shimmering Focus theme
+- 回归零(极端最小化模式),灵感来自Simmering Focus主题
 
 ## Version 0.3.x
 
 ### Version 0.3.6 Canvas Menu Update
 
-- Fixed sidebar background issues
+- 固定边栏背景问题
 
-- Prevented heading indicators from showing up outside markdown editor instances
+- 防止标题指示器在减记编辑器外显示
 
-- Minor codebase refactor
+- 小代码库重构
 
-- Slight change in accent color
+- 口音颜色略有变化
 
-- Added canvas card menu alignment options (plenty of options)
+- 添加画布卡菜单对齐选项( 多个选项)
 
 ### Version 0.3.5 Configuration Update
 
-- Documentation now has its own site.
+- 文件现在有自己的网站。
+.
 
-- Added soft glow option for headings
+- 为标题添加软发光选项
 
-- Added toggleable rainbow metadata icons
+- 可切换的彩虹元数据图标
 
-- Added accessibility options for global brightness, contrast and saturation ratios
+- 增加全球亮度、对比度和饱和率的无障碍选项
 
-- Added option to enable heading indicators globally, customisable for
-different heading levels.
+- 增加选项,以在全球启用标题指标,适合
+不同的标题级别。
+.
 
-  - Heading indicators now better inherit from the heading's base color
+- 标题指标现在更好地继承标题的基础颜色
 
-- Added option to configure popup callout animation duration
+- 添加选项以配置弹出点名动画持续时间
 
-- Added option to configure metadata container left padding
+- 添加选项以配置元数据容器左侧粘贴
 
 ### Version 0.3.4 Easter Egg Mode
 
-- Made translation for hide until hover status bar configurable, useful for
-longer status bars
+- 翻译为隐藏,直到可配置的悬浮状态栏,对
+长期状态栏
 
-- Fixed file explorer background being broken
+- 固定文件探索器背景被打破
 
-- Added markdown file tree option for folder style
+- 为文件夹样式添加了标记下的文件树选项
 
-- Added list style callout metadata utilities
+- 添加列表样式的点名元数据工具
 
-- Added toggleable Easter egg mode
+- 添加可切换复活节彩蛋模式
 
 ### Version 0.3.3 QOL Update
 
-- Added configurable indentation factor and dimming of collapsed headers for
-Style Settings menu
+- 增加可配置的缩进系数和倒塌头的缩进
+样式设置菜单
 
-- Added writing mode callout metadata utility, it increases text indent and
-paragraph spacing
+- 添加写模式调用元数据工具,增加文本缩进和
+段落间隔
 
-  - It also has a CSS class provider which allows you to apply the same text
-  indent and paragraph spacing increments to the target note
+- 还有一个CSS类供应商,允许您应用相同的文本
+目标附注的缩进和段落间距递增
 
-- Add rhombus editor background option
+- 添加 Rhombus 编辑器背景选项
 
-- You can now use grid, dotted or rhombus as background options for the left
-and right sidebar
+-  您现在可以使用网格、 点或 Rhombus 作为左侧的背景选项
+右侧边栏
 
-  - These override the left and right sidebar background url options
+- 这些覆盖左右侧边栏背景url选项
 
-- Quote now uses the same color as the ASCII art
+- 引文使用与ASCII艺术相同的颜色
 
-  - Default quote is updated to not be a rickroll
+- 默认引用更新为不是 Rickroll
 
-- Added support for Kanban plugin
+- 增加了对 Kanban 插件的支持
 
-- Add before new tab empty state title now default to none:
+- 在新标签空状态标题之前添加默认为无:
 
-  - If you are using quotes or ASCII art, do re-enable it
+- 如果你使用引文或ASCII艺术, 请重新使用它
 
-  - You can now configure the background color for the quotes or ASCII art
+- 你现在可以配置引用或ASCII艺术的背景颜色
 
-  - Changes may need an app reload/restart to take effect
+- 更改可能需要重新装入/重新启动程序才能生效
 
 ### Version 0.3.2 Animations
 
-- Styling Tweaks to community store item, existing layouts
+- 斯图林 调整到社区存储项, 现有布局
 
-- Animations are back, current options include:
+- 动画回归,目前的选项包括:
 
-  - Slide in Left to Right
+- 左到右幻灯片
 
-  - Slide in Right to Left
+- 向左滑动
 
-  - Slide in Top to Bottom
+- 从上到下幻灯片
 
-  - Slide in Bottom to Top
+- 从下到上幻灯片
 
-  - Rotate in Bottom to Top
+- 从下到上旋转
 
-  - Rotate in Right to Left
+- 向左旋转
 
-- Added layout and status style for Powerlevel10k
+- 为Powerlevel10k添加布局和状态样式
 
-- Added flashcard callout metadata utility
+- 添加闪卡点名元数据工具
 
-- Added option to add custom quote before empty state title
+- 在空状态标题前添加自定义引用的选项
 
-  - Is not selectable with ASCII art, ASCII art is selected by default
+- 无法选择 ASCII 艺术, ASCII 艺术默认选中
 
-- Added option to angle grid editor background
+- 在网格编辑器背景角度添加选项
 
-- Added background image option for modals (background image for settings,
-prompts etc)
+- 为模式添加背景图像选项(设置的背景图像,
+,
+提示等)
 
 ### Version 0.3.1 Tidying Up
 
-- Added callout metadata utilities for:
+- 为以下项目增加点名元数据:
 
-  - grid and dotted background
+- 网格和点背景
 
-  - italic and oblique title and content
+- 斜体和斜体标题和内容
 
-  - dashed, dotted, double, overline, underline and line-through for title and content
+- 对标题和内容进行破折、点、双层、超线、下划线和直线
 
-  - Apply Heading 1 to 6 styles for title
+- 标题1至6样式
 
-  - font weight for title and content
+- 标题和内容的字体权重
 
-- Added headings font size option
+- 添加标题字体大小选项
 
-- Fixed smiley icons (hopefully for the last time)
+- 固定的微笑图标(希望是最后一次)
 
-- Added options to add and configure image backgrounds in the left and right sidebars
+- 在左右侧边栏添加和配置图像背景的选项
 
-- Slight modifications to navigation items on hover, Calendar plugin styling
+- 微小修改悬浮中的导航项目,日历插件型号
 
-- Slight tweaks to editor background dotted and grid background styling.
+- 微调编辑背景点和网格背景样式。
+.
 
-- Tab title bar now adapts to the layout style selected
+- 标签标题栏现在适应选定的布局样式
 
-- Added option to blur inactive Canvas nodes for core Canvas plugin
+- 为核心 Canvas 插件添加了模糊非活动的 Canvas 节点的选项
 
-- Editor background changes now affect the core Canvas plugin.
+- 编辑器背景变化现在影响 Canvas 核心插件。
+.
 
-  - May need app reload/restart for Style Settings changes to show up in the Canvas
+- 可能需要应用程序重新装入/ 重新启动样式设置更改才能在 Canvas 中显示
 
-- Tweaked styling of canvas controls and card menu
+- 调整帆布控制和卡片菜单的样式
 
-- Changed breadcrumbs styling to use ASCII instead of emoji
+- 改变面包屑的造型,以使用ASCII而不是emoji
 
 ### Version 0.3.0 TUI Layout
 
-- Added TUI inspired add-on to cards layout
+- 在卡片布局中添加提示的 TUI
 
-  - Enabled by default
+- 默认启用
 
-- Changes to table styling
+- 更改表格样式
 
-- Added cssclasses for heading indicators, callout metadata for tilting callout
-title and content
+- 增加了标题指标的cssclass、倾斜点名元数据
+标题和内容
 
-- Added support for Calendar plugin
+- 对日历插件添加支持
 
-- Tweaked existing styling for Full Calendar plugin
+- 调整了全日历插件的现有样式
 
-- Tweaked community item styling
+- 微软的社区用品型式
 
-- Fixed smiley icons alignment issue
+- 固定的微笑图标对齐问题
 
-- Angled layout applies to more UI elements now
+- 愤怒的布局现在适用于更多的UI元素
 
-- Active line gutter should now be more visible
+- 现在应该更明显地看到主动的排水沟
 
-- Added prompt alignment options, configure using style settings:
+- 添加快速对齐选项,使用样式设置配置:
 
-  - Top left
+- 左边
 
-  - Top center
+- 顶部center
 
-  - Center left
+- 中间左边
 
-  - Bottom left
+-左边
 
-  - Bottom center
+- 下边center
 
-- [See the documentation](../index.md) for more details
+- [See the documentation](../index.md)详情
 
  
 
@@ -239,84 +247,87 @@ title and content
 
 ### Version 0.2.2 Layout styling
 
-- Fixed double quotes checkbox background color
+- 固定双引号复选框背景颜色
 
-- Added support for Vault Statistics plugin
+- 添加对“断层统计”插件的支持
 
-- Minor styling tweaks for community item effects
+- 用于社区物品效应的小型结构调整
 
-- Added card, angled options for workspace layout
+- 添加卡片、工作空间布局角度选项
 
-  - Need app reload or restart if you wish to change layouts
+- 如果您想要改变布局, 需要重新装入或重新启动应用程序
 
-- Vim mode status text and status bar mode (reading/live preview etc) text now
-has a color option:
+- Vim模式状态文本和状态栏模式(阅读/预览等)文本
+有颜色选项 :
 
-  - Toggled off by default
+- 默认切换
 
-- Add card, angled (inspired by Powerlevel10k) styles for status bar
+- 为状态栏添加卡片、角度(受Powerlevel10k启发)样式
 
-  - Affects vim mode status text as well
+- 影响vim模式状态文本
 
-- Added status bar font size option
+- 添加状态栏字体大小选项
 
 ### Version 0.2.1 Small Update
 
-- Removed Window animations as they are not performant.
+- 已删除的窗口动画,因为它们不是表演者。
+.
 
-- Updated Extended colors so that `*-color1-color2` and `*-color-2-color` will
-always return the same color mix when using in callout metadata utilities.
+- 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color`将
+在使用点名元数据时, 总是返回相同的颜色组合 。
+.
 
-- Made active file background effect more consistent
+- 使活动文件背景效果更加一致
 
-- Added ASCII Art Line Height option
+- 添加 ASCII 艺术线高度选项
 
-- Added cssclasses for dotted and grid editor background options
+- 为点和网格编辑器添加 cssclass 背景选项
 
-- Added styling options for inline title
+- 为内含标题添加样式选项
 
 ### Version 0.2.0 Aesthetics Update
 
-- Added callout vertical margin, border radius option
+- 添加点名垂直边距、边框半径选项
 
-- Added image border radius option
+- 添加图像边框半径选项
 
-- Added extended color palette (can be used as callout metadata utilities or in
-css variables)
+- 添加扩展调色板(可作为点名元数据工具或用于
+css变量).
 
-- Added popup callout, adapted from
-[Ukiyo](https://github.com/technerium/obsidian-ukiyo) Theme by vaykinov and wizentex
+- 添加弹出点名词,改编自
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
 
-- Fixed opacity of top actions like new note, new folder etc
+- 新注释、新文件夹等顶级动作的固定不透明
 
-- Added window animations for modals, prompts and settings.
-Choose from the following options:
+- 为模式、提示和设置添加窗口动画。
+.
+从下列选项中选择 :
 
-  - None (Reverts to default behavior)
+- 无(默认行为的更正)
 
-  - Slide Down to Up
+- 向上滑动
 
-  - Slide Up to Down
+- 向下滑动
 
-  - Slide Left to Right
+- 左向右滑动
 
-  - Slide Right to Left
+- 向左滑动
 
-- You can also configure the animation duration
+-  您也可以配置动画持续时间
 
-- Added option to toggle displaying of properties in reading mode and edit mode
+- 在阅读模式和编辑模式中切换属性显示的选项
 
-  - Do not show properties in reading mode is enabled by default
+- 默认情况下不会显示阅读模式中的属性
 
-  - Do not show properties in editing mode is disabled by default
+- 不显示编辑模式中的属性默认已禁用
 
-- Added option to enable minimalist (folder/outline) trees
+- 添加选项以启用最小化(文件夹/外线)树
 
-- Added rainbow folders for file explorer
+- 为文件探索者添加彩虹文件夹
 
-- Added dotted and grid background options
+- 添加点和网格背景选项
 
-- See the [documentation](../index.md)详情
+-见[documentation](../index.md)详情
 
  
 
@@ -324,57 +335,57 @@ Choose from the following options:
 
 ### Version 0.1.1 Hotfixes
 
-- Added option to change ASCII checkboxes font size
+- 添加了修改 ASCII 复选框字体大小的选项
 
-- Fixed smiley icons on mobile
+- 移动上的固定微笑图标
 
-- Added title and background color callout metadata utilities
+- 增加标题和背景色调元数据工具
 
-- Added options to toggle visibility of properties in reading mode and live preview
+- 在阅读模式和直播预览中切换属性可见度的附加选项
 
-- Added support for Dataview plugin
+- 对 Dataview 插件添加支持
 
-- Added rainbow bullet points (disabled by default)
+- 添加彩虹弹点(默认损坏)
 
-- More UI elements are dimmed for consistency
+- 更多的UI元素因一致性而暗淡
 
-- Media embeds now have vertical margin which can be set
+- 媒体嵌入器现在有可设定的垂直边距
 
 ### Version 0.1.0: Utilities Update
 
-- Added support for Spaced Repetition Plugin
+- 添加对空格重复插件的支持
 
-- Added support for Breadcrumbs Plugin
+- 添加Breadcrumbs插件的支持
 
-- Added underline option for headings
+- 增加标题下划线选项
 
-- Added alternate active item effects in settings
+- 设置中添加的替代活动项效果
 
-- Added customisation options for prompts
+- 为提示添加自定义选项
 
-- Added alternate file explorer style
+- 添加替代文件探索器样式
 
-- Added options to change link color
+- 为改变链接颜色添加选项
 
-- Added ASCII checkboxes
+- 添加了 ASCII 复选框
 
-- Added callout utilities for
+- 为下列项目增加点名公用事业
 
-  - No Icon
+- 没有图标
 
-  - No Title
+- 无标题
 
-  - Transparent Background
+- 透明背景
 
-  - Capitalize, uppercase, lowercase Title and Content
+- 大写、大写、小写标题和内容
 
-  - RTL, LTR, 中间 Title and Content
+- RTL, LTR, (英语),中间标题和内容
 
-  - Tategaki (Vertical RTL)
+- 塔特加基语(普通RTL)
 
-  - Vertical LTR
+- 纵向LTR
 
-- Added cssclasses for
+- 为下列人员增加分类:
 
 - 塔特加基语(普通RTL)
 
@@ -382,23 +393,23 @@ Choose from the following options:
 
 -见[documentation](../index.md)详情
 
-Credits:
+功劳:
 
-- `@OWA/bennyyip` on the Obisidian Members' Group Discord for the tategaki snippet
+- `@OWA/bennyyip`在 Obisidian 成员团体的Discord 上为 Tategaki 片段
 
-- `@Tuck` on the Obsidian Members' Group Discord for options to change link color
+- `@Tuck`在 Obsidian Members 组 Discord 上,用于修改链接颜色的选项
 
 ### Version 0.0.5: Minor Changes
 
-- Made ASCII art responsive, you can set a font size limit on it
+- 使ASCII艺术响应,你可以设置字体大小 li光标打开
 
-- Status bar does not overlap with command mode input text
+- 状态栏不与命令模式输入文本重叠
 
-- Added option to enabled status bar on mobile
+- 添加选项以启用移动状态栏
 
-- Added line height option in typography for headings
+- 在标题的打印中添加行高选项
 
-- Add option to hide the left sidedock ribbon
+- 添加隐藏左侧丝带的选项
 
-- Add option to align top actions globally
+- 增加对全球顶级行动进行协调的选项
 

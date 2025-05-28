@@ -3,7 +3,7 @@ title: 全青
 icon: material/format-color-fill
 ---
 
-Callout metadata: "all-cyan"
+点名元数据:"全青"
 
 ```md
 > [!tip|all-cyan] Title will be cyan

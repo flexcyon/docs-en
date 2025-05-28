@@ -3,7 +3,7 @@ title: 蓝色背景
 icon: material/layers-outline
 ---
 
-Callout metadata: "bg-blue"
+点名元数据:"bg-blue"
 
 ```md
 > [!info|bg-blue] Title will display as usual

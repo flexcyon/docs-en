@@ -3,9 +3,9 @@ title: 状态栏
 icon: material/state-machine
 ---
 
-Defines CSS variables to configure the status bar
+定义用于配置状态栏的 CSS 变量
 
-Accepted Formats: s, px
+接受格式: s, px
 
 ## Navigation
 
@@ -35,19 +35,19 @@ Style Settings
 
 目标CSS变量:`var(--flexcyon-status-hide-until-hover-text)`
 
-Default: "Show status"
+默认: “ 显示状态 ”
 
 #### Translation for showing status bar on hover
 
 目标CSS变量:`var(--flexcyon-status-hide-until-hover-translation)`
 
-Default: 1500px
+默认: 1500px
 
 #### Transition duration for showing status bar on hover
 
 目标CSS变量:`var(--flexcyon-status-hide-hover-duration)`
 
-Default: 0.35 (s)
+默认: 0.35(s)
 
 #### Transition timing function for showing status bar on hover
 
@@ -68,19 +68,19 @@ Default: 0.35 (s)
 
 目标CSS变量:`var(--flexcyon-status-reading-text)`
 
-Default: "READ"
+默认: "READ"
 
 #### Source Mode Text
 
 目标CSS变量:`var(--flexcyon-status-source-text)`
 
-Default: "SOURCE"
+默认: "资源"
 
 #### Live Preview Mode Text
 
 目标CSS变量:`var(--flexcyon-status-live-text)`
 
-Default: "LIVE"
+默认: "LIVE"
 
  
 
@@ -96,19 +96,20 @@ Default: "LIVE"
 
 目标CSS变量:`var(--status-bar-font-size)`
 
-Default: 12.5 (px)
+默认: 12.5 (px)
 
 #### Select status bar style
 
-CSS Classe(s) targeted: `.flexcyon-status-style-angled,
-.flexcyon-status-style-card, .flexcyon-status-style-pl10k`
+CSS类目标:`.lexcyon-status-style-trounded,
+,
+.flexcyon-status-style-card,.flexcyon-style-style-pl10k ' .
 
 默认: 无( 类选择)
 选项 :
 
-- Angled
-- Cards
-- Powerlevel10k
+- 愤怒
+- 纸牌
+- 动力级10k
 
 #### Enable status text color
 

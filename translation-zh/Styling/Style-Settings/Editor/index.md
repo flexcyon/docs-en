@@ -3,8 +3,9 @@ title: 编辑器
 icon: material/file-edit
 ---
 
-In this sub-page, you can find usage examples for styling of elements in the
-Obsidian editor.
+在此子页面中,您可以在
+央视编辑。
+.
 
 ## Navigation
 

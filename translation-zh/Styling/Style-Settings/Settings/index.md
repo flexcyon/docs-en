@@ -3,9 +3,10 @@ title: 设置
 icon: material/cogs
 ---
 
-For customising the appearance of various UI aspects of settings.
+用于自定义设置的 UI 不同方面的外观 。
+.
 
-Accepted Formats: x.y, rem, px
+接受格式: x.y, rem, px
 
 ## Navigation
 
@@ -46,7 +47,7 @@ Style Settings
 默认: 0.89
 
 <span style="opacity: 0.89"
->Sample opacity of community items (unselected)</span>
+>社区物品样本不透明(未选定)</span>
 
 ### Installed tooltip left margin
 
@@ -70,7 +71,7 @@ Style Settings
 
 ### Style Settings
 
-Configure the appearance for style settings
+配置样式设置的外观
 
 接受格式: px
 

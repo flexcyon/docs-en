@@ -3,7 +3,7 @@ title: Fondo rojo
 icon: material/layers-outline
 ---
 
-Callout metadata: "bg-red"
+Metadatos de llamada: "Bg-red"
 
 ```md
 > [!info|bg-red] Title will display as usual

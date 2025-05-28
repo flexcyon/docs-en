@@ -8,21 +8,26 @@ tags:
 
 # Foreword
 
-The Easter Egg6mode existed in `flexcyon` theme from 12 April 2025 to late May
-2025. It was deprecated due to a lack of interest.
+复活节时的卵6mode存在于`flexcyon`2025年4月12日至5月下旬的主题
+2025 (英语). 它因缺乏兴趣而贬值。
+.
 
 ## Rules
 
-1. Enable Easter Egg mode in Style Settings to start.
-2. Total of 5 challenges to uncover. Once a challenge is done, it will provide a
-hint to the next challenge at the bottom right of the screen in Obsidian
-(outside of source mode).
-3. As I cannot and will not obsfucate the source code. Please do not clone the
-repository and search up for the answers :)
-4. The first 5 to DM me on Discord (user `@data_in_void`) with the full set of
-hints and their corresponding answers (in correct order) for each of the
-challenges will get a shoutout in the README and documentation.
+一、导 言 启用复活节 要启动样式设置中的鸡蛋模式 。
+.
+2. 国家 5项挑战cover。 。 。 一旦完成一项挑战,它将提供
+在 Obsidian 屏幕右下方提示下一个挑战
+(来源模式外).
+.
+3个 因为我不能也不会混淆源代码 请不要复制
+存储和搜索答案 :)
+4个 Discord上的第一个5到DM我(用户)`@data_in_void`) 与完整的一组
+提示及其相应的答案(按正确的顺序排列)
+挑战将在README和文档中大呼小叫。
+.
 
-The hint for the first challenge is: colors of pi. Good luck!
-**Try putting your styling changes into a toggleable CSS snippet**
+第一个挑战的提示是: pi的颜色。 祝你好运!
+!
+** 尝试将您的造型变化变成可切换的 CSS 片段* * 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。
 

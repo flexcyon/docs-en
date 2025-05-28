@@ -3,7 +3,7 @@ title: Título Styling
 icon: material/format-title
 ---
 
-In this sub-page, you can find usage examples for title styling of
+En esta subpágina, puede encontrar ejemplos de uso para el estilo de título
 llamadas usando metadatos de llamada.
 .
 

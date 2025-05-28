@@ -3,7 +3,7 @@ title: LTR Título
 icon: material/align-horizontal-left
 ---
 
-Callout metadata: "ltr-title"
+Metadatos de callout: "ltr-title"
 
 Usage:
 

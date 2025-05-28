@@ -11,8 +11,8 @@ icon: material/numeric-3-box-outline
 
 - Cambios en el estilo de mesa
 
-- Added cssclasses for heading indicators, callout metadata for
-tilting callout title and content
+- Cisclases adicionales para los indicadores de encabezado, metadatos de llamada
+titulo de llamada y contenido
 
 - Añadido soporte para plugin de calendario
 
@@ -164,8 +164,9 @@ barras de estado más largas
 
 - Opciones de accesibilidad adicionales para el brillo, contraste y saturación global
 
-- Added option to enable heading indicators globally, customisable
-for different heading levels.
+- Opción agregada para permitir indicadores de encabezado a nivel mundial, personalizable
+para diferentes niveles de rumbo.
+.
 - Los indicadores de encabezado ahora mejor heredan del color base del encabezado
 
 - opción agregada para configurar la duración de la animación popup callout

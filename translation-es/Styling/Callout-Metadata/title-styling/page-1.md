@@ -3,7 +3,7 @@ title: No Título
 icon: material/cancel
 ---
 
-Callout metadata: "no-title"
+Metadatos sin derecho
 
 Usage:
 

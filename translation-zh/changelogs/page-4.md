@@ -6,7 +6,8 @@ icon: material/numeric-4-box-outline
 ### Version 0.4.0 Light Mode Update
 
 - 修改侧边栏背景亮度设置为`unset`。
-Was previously causing issues like blurring Calender plugin content.
+以前引起诸如模糊卡伦德插件内容之类的问题。
+.
 
 - WIP灯主题(混合弹性灯+折纸彩色调色板)
 
@@ -29,7 +30,7 @@ Was previously causing issues like blurring Calender plugin content.
 
 - 改进了即时造型和树品垫
 
-- Return to Zero (ultra minimalist mode) inspired by Shimmering Focus
+- 返回零(极端最小化模式),灵感来自Simmering Focus
 
 ### Version 0.4.1 Quickfix Update
 

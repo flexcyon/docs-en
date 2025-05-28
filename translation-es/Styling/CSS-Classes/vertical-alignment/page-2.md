@@ -5,7 +5,7 @@ icon: material/align-horizontal-right
 
 # Usage
 
-Applies Horizontal Right-to-Left (RTL) to your notes in reading mode
+Aplica derecho a izquierda horizontal (RTL) a sus notas en modo de lectura
 
 Usage:
 
@@ -16,5 +16,5 @@ cssclasses
 ---
 ```
 
-Add link to tategaki in callout
+Agregar enlace a tategaki en callout
 

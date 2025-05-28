@@ -3,7 +3,7 @@ title: Transparent Background
 icon: material/layers-off-outline
 ---
 
-Callout metadata: "transparent-bg" or "bg-transparent"
+Metadatos de llamada: "transparent-bg" o "bg-transparent"
 
 Usage:
 
@@ -12,12 +12,13 @@ Usage:
 > Content and title is shown as usual
 ```
 
-or
+o
 
 ```md
 > [!warning|bg-transparent] The background color will be transparent
 > Content and title is shown as usual
 ```
 
-Will render the same.
+Será lo mismo.
+.
 

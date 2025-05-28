@@ -3,7 +3,7 @@ title: 无图标
 icon: material/emoticon-minus
 ---
 
-Callout metadata: "no-icon"
+点名元数据:"no-icon"
 
 用法 :
 

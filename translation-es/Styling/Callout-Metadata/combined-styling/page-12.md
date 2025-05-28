@@ -3,7 +3,7 @@ title: LTR Todos
 icon: material/align-horizontal-left
 ---
 
-Callout metadata: "ltr-all"
+Metadatos de llamada: "todos"
 
 Usage:
 

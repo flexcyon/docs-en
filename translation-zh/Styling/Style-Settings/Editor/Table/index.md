@@ -3,9 +3,10 @@ title: 图表
 icon: material/table-cog
 ---
 
-Define color for table borders, and the width of tables in reading mode.
+定义表格边框的颜色,以及读取模式中的表格宽度。
+.
 
-Accepted formats: HEX, %, x.y
+接受格式:HEX,%,x.y
 
 ## Navigation
 
@@ -30,7 +31,7 @@ Style Settings
 默认 :
 <span class="col-sqr" style="background-color: #6f768566"
 ></span
-> #6f768566
+>#6f768566 (英语).
 
 ### Table header size
 
@@ -39,11 +40,11 @@ Style Settings
 默认 :large
 
 <span style="font-size: large;"
->Sample table header</span>
+>表格标本</span>
 
 ### Width of table in reading mode
 
 目标CSS变量:`var(--flexcyon-table-reading-mode-width)`
 
-Default: 100%
+默认: 100%
 

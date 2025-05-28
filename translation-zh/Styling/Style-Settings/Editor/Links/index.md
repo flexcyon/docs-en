@@ -3,9 +3,10 @@ title: 链接
 icon: material/link
 ---
 
-Configure the color of links.
+配置链接的颜色 。
+.
 
-Accepted formats: HEX
+接受格式: 美国
 
 ## Navigation
 
@@ -33,14 +34,14 @@ Style Settings
 >#6f49ae (英语).
 
 
-Default (dark mode): <span class="col-sqr" style="background-color: #a461c8"
+默认( 暗模式) :<span class="col-sqr" style="background-color: #a461c8"
 ></span
 >#a461c8 (英语).
 
 ### External Link Color
 目标CSS变量:`var(--flexcyon-external-link-color)`
 
-Default (light mode): <span class="col-sqr" style="background-color: #5c9fe4"
+默认( 灯光模式) :<span class="col-sqr" style="background-color: #5c9fe4"
 ></span
 >#5c9fe4 (英语).
 

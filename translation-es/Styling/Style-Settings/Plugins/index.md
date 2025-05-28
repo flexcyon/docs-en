@@ -3,9 +3,9 @@ title: Plugins
 icon: material/hexagon-outline
 ---
 
-For configuration of officially supported plugins
+Para la configuración de plugins compatibles oficialmente
 
-Accepted formats: HEX, rem, x.y, %
+Formatos aceptados: HEX, rem, x.y, %
 
 ## Navigation
 
@@ -29,7 +29,7 @@ CSS Variable(s) targeted:`var(--oz-fta-folder-font-size)`
 Default: 0.925 (rem)
 
 <span style="font-size: 0.925rem"
->Sample Alternate file tree Folders font size</span>
+>Muestra Árbol de archivo alternativo Folders tamaño de la fuente</span>
 
 #### Folders font color
 
@@ -47,7 +47,7 @@ Default (modo oscuro):
 
 #### Active folder color
 
-CSS Variables(s) targeted: `var(--oz-fta-all-panes-active-text-color)`
+CSS Variables(s) targeted:`var(--oz-fta-all-panes-active-text-color)`
 
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #080808"
@@ -63,10 +63,10 @@ Default (modo oscuro):
 
 CSS Variable(s) targeted:`var(--oz-fta-file-font-size)`
 
-Default: 0.9 (rem)
+Predeterminado: 0.9 (rem)
 
 <span style="font-size: 0.9rem"
->Sample Alternate file tree Files font size</san>
+>Muestra Árbol de archivos alternativos tamaño de fuente</san>
 
 #### Files font color
 
@@ -105,16 +105,16 @@ __
 
 ### Full Calendar
 
-Accepted formats: x.y, %
+Formatos aceptados: x.y, %
 
 #### Opacity of dimmed full calendar items
 
 CSS Variables(s) targeted:`var(--flexcyon-fc-dimmed-items-opacity)`
 
-Default: 0.89
+Predeterminado: 0.89
 
 <span style="opacity: 0.89"
->Sample opacity of dimmed full calendar items</span>
+>Opacidad de muestra de elementos de calendario completo</span>
 
 __
 
@@ -132,9 +132,10 @@ __
 
 ### Canvas
 
-Defines styles for the core Canvas plugin.
+Define estilos para el plugin Canvas núcleo.
+.
 
-Accepted formats: px, RGB
+Formatos aceptados: px, RGB
 
 #### Blur inactive Canvas nodes
 
@@ -144,22 +145,27 @@ Default:false(de clase)
 
 #### Blur intensity for inactive nodes
 
-Used with the previous setting to set the blur intensity of inactive canvas nodes
-and all arrows/edges.
+Usado con el ajuste anterior para establecer la intensidad de borda de los nodos de tela inactivos
+y todas las flechas/edges.
+.
 
 CSS Variable(s) targeted:`var(--flexcyon-canvas-blur-intensity)`
 
-Default: 1 (px)
+Predeterminado: 1 (px)
 
 #### Canvas card menu alignment
 
-Configure the alignment of the canvas card menu.
+Configurar la alineación del menú de la tarjeta de lienzo.
+.
 
 CSS Classe(s) targeted:`.flexcyon-canvas-menu-bottom-left,`
 `
 .flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
+,
 .flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
+,
 .flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
+,
 .flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center,
 ,
 .flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align
@@ -171,25 +177,25 @@ Opciones:
 
 - El fondo izquierdo
 
-- Bottom right
+- Bien.
 
 - Topcenter
 
 - Arriba a la izquierda
 
-- Top right
+- Arriba derecho
 
-- Left aligned center
+- A la izquierda alineadacenter
 
-- Left aligned top
+- Izquierda alineada superior
 
-- Left aligned bottom
+- Izquierda alineada
 
-- Right aligned center
+- Bien alineadocenter
 
-- Right aligned top
+- Bien alineado superior
 
-- Right aligned bottom
+- Al fondo alineado
 
-- Bien alineadocenter align
+- Bien alineadocenteralign
 

@@ -8,20 +8,20 @@ tags:
 
 ## Misc
 
-- Add Origami attribution in `scss/css` files
-- Add Style Settings option for configuring tree item and suggestion item padding
-- Add better screenshots
+- Añadir atribución a Origami`scss/css`archivos
+- Añadir Opciones de configuración de estilo para configurar el elemento de árbol y el relleno de elementos de sugerencia
+- Añadir mejores capturas de pantalla
 
 ## Style Settings and stuff
 > Add more CSS classes
 
 ### Plugins/snippets
 
-- Support more plugins
-  - Could also look at:
-    - Tasks
-    - QuickAdd (override default css variables)
-    - Vertical Tabs etc
+- Soporte para más plugins
+- También podría mirar:
+- Tareas
+- QuickAdd (variables css por defecto)
+- Tabs verticales, etc
 -`publish.css`
 
 ### Other styling options

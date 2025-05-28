@@ -3,7 +3,7 @@ title: 切换内容
 icon: material/format-strikethrough
 ---
 
-Callout metadata: "line-through-content"
+点名元数据:“ 线性内容”
 
 用法 :
 

@@ -3,7 +3,7 @@ title: Cyan Background
 icon: material/layers-outline
 ---
 
-Callout metadata: "bg-cyan"
+Metadatos de llamada: "bg-cyan"
 
 ```md
 > [!info|bg-cyan] Title will display as usual

@@ -3,7 +3,7 @@ title: 全部失败
 icon: material/format-color-text
 ---
 
-Callout metadata: "dashed-all"
+点名元数据: “ 点名全”
 
 用法 :
 

@@ -3,9 +3,9 @@ title: 闪卡
 icon: material/card-text-outline
 ---
 
-Callout metadata: "flashcard"
+点名元数据:"闪亮卡"
 
-Usage:
+用法 :
 
 ```md
 > [!info|flashcard] The title and the callout will styled nicely to resemble a card
@@ -14,4 +14,5 @@ Usage:
 ```
 
 [Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout) 
-for configuration options.
+用于配置选项。
+.

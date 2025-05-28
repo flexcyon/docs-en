@@ -3,7 +3,7 @@ title: 全部居中
 icon: material/align-horizontal-center
 ---
 
-Callout metadata: "center-all"
+点名元数据: "center- 所有人 - 所有人 - all".
 
 用法 :
 

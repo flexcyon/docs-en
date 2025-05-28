@@ -3,10 +3,10 @@ title: 工作空间
 icon: material/layers-triple-outline
 ---
 
-Defines file line width when readable line length is enabled, opacity of dimmed
-UI elements, upscale percentage of icons used in effects
+启用可读行长时定义文件行宽度, 暗淡的不透明
+UI 元素, 在效果中使用的图标的升阶百分比
 
-Accepted Formats: x.y, rem
+接受格式: x.y, rem
 
 ## Navigation
 
@@ -28,16 +28,16 @@ Style Settings
 
 目标CSS变量:`var(--file-line-width)`
 
-Default: 50 (rem)
+默认: 50( 缩写)
 
 ### Opacity of dimmed elements
 
 目标CSS变量:`var(--dimmed)`
 
-Default: 0.55
+默认: 0.55
 
 <span style="opacity: 0.55"
->Sample dimmed element</span>
+>样本稀释元素</span>
 
 ### Top Actions alignment
 

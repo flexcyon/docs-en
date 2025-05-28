@@ -3,7 +3,7 @@ title: RTL 全部
 icon: material/align-horizontal-right
 ---
 
-Callout metadata: "rtl-all"
+点名元数据: "tl-all"
 
 用法 :
 

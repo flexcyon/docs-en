@@ -3,7 +3,7 @@ title: LTR 内容
 icon: material/align-horizontal-left
 ---
 
-Callout metadata: "ltr-content"
+点名元数据 : “ 点名内容 ”
 
 用法 :
 

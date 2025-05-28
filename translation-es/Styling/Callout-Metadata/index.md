@@ -3,5 +3,6 @@ title: Metadatos de Callout
 icon: material/information-outline
 ---
 
-This page and its sub-pages consists of callout metadata you can use to 
-customise your vault.
+Esta página y sus subpáginas consisten en metadatos callout que puedes utilizar para
+personalice su bóveda.
+.

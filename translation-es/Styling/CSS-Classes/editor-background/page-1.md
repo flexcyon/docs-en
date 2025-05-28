@@ -5,7 +5,8 @@ icon: material/dots-grid
 
 # Usage
 
-Adds repeating dots to your editor background. Size can be adjusted in style settings.
+Añade puntos repetidos a tu editor de fondo. El tamaño se puede ajustar en ajustes de estilo.
+.
 
 ```md
 cssclasses:

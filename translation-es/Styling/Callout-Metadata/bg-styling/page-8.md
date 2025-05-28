@@ -3,7 +3,7 @@ title: Antecedentes de Orange
 icon: material/layers-outline
 ---
 
-Callout metadata: "bg-orange"
+Metadatos de llamada: "bg-orange"
 
 ```md
 > [!info|bg-orange] Title will display as usual

@@ -3,7 +3,7 @@ title: Italic All
 icon: material/format-italic
 ---
 
-Callout metadata: "italic-all"
+Metadatos callout: "italic-all"
 
 Usage:
 

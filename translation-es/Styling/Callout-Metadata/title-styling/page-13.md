@@ -3,7 +3,7 @@ title: Título del centro
 icon: material/align-horizontal-center
 ---
 
-Metadatos de llamada: "center-title"
+Metadatos de llamada: "center-título
 
 Usage:
 

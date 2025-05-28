@@ -3,8 +3,9 @@ title: 标题指标 - H1 - H1 - 对 - H1
 icon: material/format-header-1
 ---
 
-Add a heading indicator for heading 1s. Will appear in reading, editing and
-source mode.
+增加标题1的标题指标。 将在阅读、编辑和
+来源模式。
+.
 
 用法 :
 

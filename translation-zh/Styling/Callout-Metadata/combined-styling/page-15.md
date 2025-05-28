@@ -3,7 +3,7 @@ title: 小写全部
 icon: material/format-letter-case-lower
 ---
 
-Callout metadata: "lowercase-all"
+点名元数据: 小写全数
 
 用法 :
 

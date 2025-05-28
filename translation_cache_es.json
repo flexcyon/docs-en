@@ -764,5 +764,11 @@
   "For customising the appearance of various UI aspects of settings.\n|||en|||es": "Para personalizar la apariencia de varios aspectos de interfaz de usuario de configuración.\n.",
   "Accepted Formats: x.y, rem, px\n|||en|||es": "Formatos aceptados: x.y, rem, px\n",
   "Sample opacity of community items (unselected)|||en|||es": "Muestra opacidad de los elementos comunitarios (no seleccionados)",
-  "Configure the appearance for style settings\n|||en|||es": "Configurar la apariencia para los ajustes de estilo\n"
+  "Configure the appearance for style settings\n|||en|||es": "Configurar la apariencia para los ajustes de estilo\n",
+  "    <img src=\"../../assets/screenshots/showcase1.png\" width=\"800\" alt=\"Figure 1:\n|||en|||es": "■img src=\"./../assets/screenshots/showcase1.png\" ancho=\"800\" alt=\"Figura 1:\n",
+  "    <img src=\"../../assets/screenshots/showcase2.png\" width=\"800\" alt=\"Figure 2:\n|||en|||es": "■img src=\"./../assets/screenshots/showcase2.png\" ancho=\"800\" alt=\"Figura 2:\n",
+  "    <img src=\"../../assets/screenshots/showcase3.png\" width=\"800\" alt=\"Figure 3:\n|||en|||es": "■img src=\"./../assets/screenshots/showcase3.png\" ancho=\"800\" alt=\"Figura 3:\n",
+  "    <img src=\"../../assets/screenshots/showcase4.png\" width=\"800\" alt=\"Figure 4:\n|||en|||es": "■img src=\"./../assets/screenshots/showcase4.png\" ancho=\"800\" alt=\"Figura 4:\n",
+  "    Light Mode with Powerlevel10k layout and status style\">\n|||en|||es": "Modo de luz con Powerlevel10k diseño y estilo de estado\"\n",
+  "Figure 4: Light Mode with Powerlevel10k layout and status style|||en|||es": "Figura 4: Modo de luz con diseño Powerlevel10k y estilo de estado"
 }

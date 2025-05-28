@@ -3,7 +3,7 @@ title: 全绿
 icon: material/format-color-fill
 ---
 
-Callout metadata: "all-green"
+点名元数据:“全绿色”
 
 ```md
 > [!tip|all-green] Title will be green

@@ -5,233 +5,241 @@ title: Cambios
 
 #### Note
 
-The changelogs show versions in order of most recent to least recent.
-Or, if you prefer the changelogs in chronological order, you can use
-the sidebar or hamburger menu to view the relevant sub-pages.
+Los changelogs muestran versiones en orden de lo más reciente al menos reciente.
+.
+O, si prefiere los cambios en el orden cronológico, puede utilizar
+el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
+.
 
-___
+__
 
 ## Version 0.4.x
 
 ### Version 0.4.1 Quickfix Update
 
-- Fix TUI rendering in light mode
+- Fijar el renderizado TUI en modo de luz
 
-- Fix left sidebar toggle when ribbon is not enabled
+- Fijar la barra lateral izquierda cuando la cinta no está habilitada
 
-- Fix text highlight bg specifically with suggestion-highlight
+- Fijar texto resaltado bg específicamente con sugerencias-luz
 
-- Fix embeds not displaying
+- Fijar las incrustaciones sin mostrar
 
 ### Version 0.4.0 Light Mode Update
 
-- Changed sidebar background brightness setting default to `unset`. Was
-previously causing issues like blurring Calender plugin content.
+- Cambio de la barra lateral de fondo de brillo predeterminado a`unset`. Was
+anteriormente causando problemas como borroso contenido de plugin Calender.
+.
 
-- WIP light theme (mixes flexoki light + origami colour palette)
+- Tema ligero WIP (mixes flexoki light + paleta de colores origami)
 
-- Others misc changes
+- Otros cambios erróneos
 
-  - Added toggle for extended colour palette, on by default
+- Agregado a la parpaeta de color extendida, por defecto
 
-  - Added table header size option
+- opción de tamaño de la cabecera de mesa
 
-  - Updated documentation to show a small preview of colors/opacity applied by
-  the theme
+- Documentación actualizada para mostrar una pequeña vista previa de colores/opacidad aplicada por
+el tema
 
-  - Added web showcase of the theme's features
+- Muestra web agregada de las características del tema
 
-  - Remove Easter Egg mode
+- Retirar la Pascua Modo de huevo
 
-- Style color picker for light and dark mode options
+- Pincha de color estilo para opciones de modo ligero y oscuro
 
-- ASCII Art and quotes now inherit from the interface font
+- ASCII Arte y citas ahora heredan de la fuente de interfaz
 
-- Improved prompt styling and tree item padding
+- Mejora de estilo rápido y relleno de elementos de árbol
 
-- Return to Zero (ultra minimalist mode) inspired by Shimmering Focus theme
+- Regresar a Zero (modo minimalista del ultra) inspirado en el tema Shimmering Focus
 
 ## Version 0.3.x
 
 ### Version 0.3.6 Canvas Menu Update
 
-- Fixed sidebar background issues
+- Cuestiones de fondo de barra lateral fija
 
-- Prevented heading indicators from showing up outside markdown editor instances
+- Evitar que los indicadores de encabezado aparezcan fuera de las instancias del editor de marcados
 
-- Minor codebase refactor
+- Refactor de base de código menor
 
-- Slight change in accent color
+- Cambio de luz en color de acento
 
-- Added canvas card menu alignment options (plenty of options)
+- Opciones de alineación del menú de la tarjeta de lienzo (plenty de opciones)
 
 ### Version 0.3.5 Configuration Update
 
-- Documentation now has its own site.
+- La documentación ahora tiene su propio sitio.
+.
 
-- Added soft glow option for headings
+- opción de brillo suave para las partidas
 
-- Added toggleable rainbow metadata icons
+- Añadido iconos de metadatos de arco iris
 
-- Added accessibility options for global brightness, contrast and saturation ratios
+- Opciones de accesibilidad adicionales para el brillo, contraste y saturación global
 
-- Added option to enable heading indicators globally, customisable for
-different heading levels.
+- Opción agregada para permitir indicadores de encabezado a nivel mundial, personalizable para
+diferentes niveles de rumbo.
+.
 
-  - Heading indicators now better inherit from the heading's base color
+- Los indicadores de encabezado ahora mejor heredan del color base del encabezado
 
-- Added option to configure popup callout animation duration
+- opción agregada para configurar la duración de la animación popup callout
 
-- Added option to configure metadata container left padding
+- opción agregada para configurar los contenedores de metadatos
 
 ### Version 0.3.4 Easter Egg Mode
 
-- Made translation for hide until hover status bar configurable, useful for
-longer status bars
+- Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
+barras de estado más largas
 
-- Fixed file explorer background being broken
+- Se rompió el fondo de explorador de archivos fijos
 
-- Added markdown file tree option for folder style
+- opción de árbol de archivo marcado adicional para estilo de carpeta
 
-- Added list style callout metadata utilities
+- Añadido la lista de productos de metadatos
 
-- Added toggleable Easter egg mode
+- Modo de huevo de Pascua reversible
 
 ### Version 0.3.3 QOL Update
 
-- Added configurable indentation factor and dimming of collapsed headers for
-Style Settings menu
+- Factor de indentación configurable añadido y regulación de cabeceras colapsadas
+Menú Ajustes de estilo
 
-- Added writing mode callout metadata utility, it increases text indent and
-paragraph spacing
+- Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
+párrafo espaciamiento
 
-  - It also has a CSS class provider which allows you to apply the same text
-  indent and paragraph spacing increments to the target note
+- También tiene un proveedor de clase CSS que le permite aplicar el mismo texto
+indent and paragraph spacing increases to the target note
 
 - Add rhombus editor background option
 
-- You can now use grid, dotted or rhombus as background options for the left
-and right sidebar
+- Ahora puede utilizar la rejilla, punteado o rhombus como opciones de fondo para la izquierda
+y barra lateral derecha
 
-  - These override the left and right sidebar background url options
+- Estas opciones de url de fondo lateral izquierdo y derecho
 
-- Quote now uses the same color as the ASCII art
+- Cita ahora usa el mismo color que el arte ASCII
 
-  - Default quote is updated to not be a rickroll
+- La cita por defecto se actualiza para no ser un rickroll
 
-- Added support for Kanban plugin
+- Añadido soporte para plugin Kanban
 
-- Add before new tab empty state title now default to none:
+- Añada antes de la nueva pestaña título de estado vacío ahora predeterminado a ninguno:
 
-  - If you are using quotes or ASCII art, do re-enable it
+- Si usted está usando citas o arte ASCII, hacer re-enable it
 
-  - You can now configure the background color for the quotes or ASCII art
+- Ahora puede configurar el color de fondo para las citas o arte ASCII
 
-  - Changes may need an app reload/restart to take effect
+- Los cambios pueden necesitar una recarga de la aplicación/restaurante para entrar en vigor
 
 ### Version 0.3.2 Animations
 
-- Styling Tweaks to community store item, existing layouts
+- Styling Ajustes a la tienda comunitaria, diseños existentes
 
-- Animations are back, current options include:
+- Las animaciones han vuelto, las opciones actuales incluyen:
 
-  - Slide in Left to Right
+- Diapositiva de izquierda a derecha
 
-  - Slide in Right to Left
+- Diapositiva en derecho a la izquierda
 
-  - Slide in Top to Bottom
+- Diapositiva en Top to Bottom
 
-  - Slide in Bottom to Top
+- Slide in Bottom to Top
 
-  - Rotate in Bottom to Top
+- Girar en el fondo para arriba
 
-  - Rotate in Right to Left
+- Girar en la derecha a la izquierda
 
-- Added layout and status style for Powerlevel10k
+- Diseño añadido y estilo de estado para Powerlevel10k
 
-- Added flashcard callout metadata utility
+- Añadido servicio de metadatos de llamada de tarjetas flash
 
-- Added option to add custom quote before empty state title
+- opción agregada para añadir cotización personalizada antes del título de estado vacío
 
-  - Is not selectable with ASCII art, ASCII art is selected by default
+- No es seleccionable con el arte ASCII, el arte ASCII es seleccionado por defecto
 
-- Added option to angle grid editor background
+- opción agregada al fondo del editor de cuadrícula angular
 
-- Added background image option for modals (background image for settings,
-prompts etc)
+- Opción de imagen de fondo agregada para modals (imagen de fondo para la configuración,
+,
+impulsos, etc.
 
 ### Version 0.3.1 Tidying Up
 
-- Added callout metadata utilities for:
+- Servicios de metadatos adicionales para:
 
-  - grid and dotted background
+- cuadrícula y fondo punteado
 
-  - italic and oblique title and content
+- título y contenido itálico y oblicuo
 
-  - dashed, dotted, double, overline, underline and line-through for title and content
+- dashed, dotted, double, overline, underline and line-through for title and content
 
-  - Apply Heading 1 to 6 styles for title
+- Apply Heading 1 a 6 estilos para título
 
-  - font weight for title and content
+- peso de fuente para título y contenido
 
-- Added headings font size option
+- Opciones de tamaño de fuente de encabezados adicionales
 
-- Fixed smiley icons (hopefully for the last time)
+- Iconos sonrientes fijos (esperadamente por última vez)
 
-- Added options to add and configure image backgrounds in the left and right sidebars
+- Opciones adicionales para añadir y configurar los fondos de imagen en las barras laterales izquierda y derecha
 
-- Slight modifications to navigation items on hover, Calendar plugin styling
+- Modificaciones de la luz a los elementos de navegación en la palanca, Calendario plugin de estilo
 
-- Slight tweaks to editor background dotted and grid background styling.
+- Ligeras pinzas para editor de fondo teñido y rejilla de fondo estilo.
+.
 
-- Tab title bar now adapts to the layout style selected
+- La barra de títulos se adapta ahora al estilo de diseño seleccionado
 
-- Added option to blur inactive Canvas nodes for core Canvas plugin
+- Opción agregada para difuminar los nodos de Canvas inactivos para el plugin de Canvas núcleo
 
-- Editor background changes now affect the core Canvas plugin.
+- Los cambios de fondo del editor ahora afectan el plugin de Canvas núcleo.
+.
 
-  - May need app reload/restart for Style Settings changes to show up in the Canvas
+- Tal vez necesite volver a cargar / reiniciar para los cambios de configuración de estilo para aparecer en el Canvas
 
-- Tweaked styling of canvas controls and card menu
+- Estilismo mojado de controles de tela y menú de tarjeta
 
-- Changed breadcrumbs styling to use ASCII instead of emoji
+- Cambia el estilo de las migas de pan para usar ASCII en lugar de emoji
 
 ### Version 0.3.0 TUI Layout
 
-- Added TUI inspired add-on to cards layout
+- Añadido TUI inspirado add-on al diseño de tarjetas
 
-  - Enabled by default
+- Activado por defecto
 
-- Changes to table styling
+- Cambios en el estilo de mesa
 
-- Added cssclasses for heading indicators, callout metadata for tilting callout
-title and content
+- Cisclases adicionales para los indicadores de encabezado, metadatos de llamada para inclinar el callout
+título y contenido
 
-- Added support for Calendar plugin
+- Añadido soporte para plugin de calendario
 
-- Tweaked existing styling for Full Calendar plugin
+- Ajuste de estilo existente para el plugin de calendario completo
 
-- Tweaked community item styling
+- El estilo de la comunidad empapado
 
-- Fixed smiley icons alignment issue
+- Edición de alineación de iconos sonrientes fijos
 
-- Angled layout applies to more UI elements now
+- El diseño angosto se aplica a más elementos de la UI ahora
 
-- Active line gutter should now be more visible
+- Ahora debería ser más visible.
 
-- Added prompt alignment options, configure using style settings:
+- Opciones de alineación rápida agregadas, configurando con ajustes de estilo:
 
-  - Top left
+- Arriba a la izquierda
 
-  - Top center
+- Topcenter
 
-  - Center left
+-Centerizquierda
 
-  - Bottom left
+- El fondo izquierdo
 
-  - Bottom center
+- Bottomcenter
 
--[See the documentation](../index.md) for more details
+-[See the documentation](../index.md)para más detalles
 
 __
 
@@ -239,84 +247,87 @@ __
 
 ### Version 0.2.2 Layout styling
 
-- Fixed double quotes checkbox background color
+- Color de fondo de dobles comillas fijas
 
-- Added support for Vault Statistics plugin
+- Apoyo añadido para el plugin de Estadísticas Vault
 
-- Minor styling tweaks for community item effects
+- Tejidos menores para efectos de productos comunitarios
 
-- Added card, angled options for workspace layout
+- Tarjeta agregada, opciones de ángulo para el diseño del espacio de trabajo
 
-  - Need app reload or restart if you wish to change layouts
+- Necesidad de volver a cargar o reiniciar la aplicación si desea cambiar los diseños
 
-- Vim mode status text and status bar mode (reading/live preview etc) text now
-has a color option:
+- Texto del estado del modo Vim y modo de barra de estado (leer / vista previa en vivo etc) texto ahora
+tiene una opción de color:
 
-  - Toggled off by default
+- Desactivado por defecto
 
-- Add card, angled (inspired by Powerlevel10k) styles for status bar
+- Añadir tarjeta, en ángulo (inspirado por Powerlevel10k) estilos para barra de estado
 
-  - Affects vim mode status text as well
+- Afecta el texto del estado del modo vim también
 
-- Added status bar font size option
+- Opciones de tamaño de la barra de estado añadido
 
 ### Version 0.2.1 Small Update
 
-- Removed Window animations as they are not performant.
+- Animaciones de ventana eliminadas ya que no son performant.
+.
 
-- Updated Extended colors so that `*-color1-color2` and `*-color-2-color` will
-always return the same color mix when using in callout metadata utilities.
+- Colores extendidos actualizados para que`*-color1-color2`y`*-color-2-color`voluntad
+siempre devolver la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
+.
 
-- Made active file background effect more consistent
+- Efecto activo de fondo de archivos más consistente
 
-- Added ASCII Art Line Height option
+- Añadido ASCII Art Line Highight opción
 
-- Added cssclasses for dotted and grid editor background options
+- Cssclasses añadidos para opciones de fondo de editor de cuadrículas
 
-- Added styling options for inline title
+- Opciones de estilo añadido para el título en línea
 
 ### Version 0.2.0 Aesthetics Update
 
-- Added callout vertical margin, border radius option
+- Añadido margen vertical de llamada, opción de radio fronterizo
 
-- Added image border radius option
+- Opción de radio de la imagen agregada
 
-- Added extended color palette (can be used as callout metadata utilities or in
-css variables)
+- Paleta de color extendida (puede utilizarse como fuentes de metadatos de llamada o en
+variables css)
 
-- Added popup callout, adapted from
-[Ukiyo](https://github.com/technerium/obsidian-ukiyo) Theme by vaykinov and wizentex
+- Llamada popup agregada, adaptada a
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
 
-- Fixed opacity of top actions like new note, new folder etc
+- Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 
-- Added window animations for modals, prompts and settings.
-Choose from the following options:
+- Animaciones de ventana agregadas para modals, impulsos y ajustes.
+.
+Elija entre las siguientes opciones:
 
-  - None (Reverts to default behavior)
+- Ninguna (Revierte al comportamiento predeterminado)
 
-  - Slide Down to Up
+- Diapositiva hacia arriba
 
-  - Slide Up to Down
+- Slide Up to Down
 
-  - Slide Left to Right
+- Diapositiva izquierda a derecha
 
-  - Slide Right to Left
+- Diapositiva derecha a izquierda
 
-- You can also configure the animation duration
+- También puede configurar la duración de la animación
 
-- Added option to toggle displaying of properties in reading mode and edit mode
+- opción agregada para cambiar la visualización de propiedades en modo de lectura y modo de edición
 
-  - Do not show properties in reading mode is enabled by default
+- No mostrar propiedades en modo de lectura está habilitado por defecto
 
-  - Do not show properties in editing mode is disabled by default
+- No mostrar propiedades en modo de edición es deshabilitado por defecto
 
-- Added option to enable minimalist (folder/outline) trees
+- opción agregada para permitir árboles minimalistas (carpeta/outline)
 
-- Added rainbow folders for file explorer
+- carpetas de arco iris adicionales para el explorador de archivos
 
-- Added dotted and grid background options
+- Opciones de fondo dotted y grid
 
-- See the [documentation](../index.md)para más detalles
+- Ver el[documentation](../index.md)para más detalles
 
 __
 
@@ -324,57 +335,57 @@ __
 
 ### Version 0.1.1 Hotfixes
 
-- Added option to change ASCII checkboxes font size
+- opción agregada para cambiar el tamaño de la fuente ASCII
 
-- Fixed smiley icons on mobile
+- Iconos sonrientes fijos en el móvil
 
-- Added title and background color callout metadata utilities
+- Nombre añadido y color de fondo metadatos
 
-- Added options to toggle visibility of properties in reading mode and live preview
+- Opciones adicionales para cambiar la visibilidad de las propiedades en modo de lectura y vista previa en vivo
 
-- Added support for Dataview plugin
+- Añadido soporte para el plugin Dataview
 
-- Added rainbow bullet points (disabled by default)
+- Puntos de bala arco iris añadidos (desactivados por defecto)
 
-- More UI elements are dimmed for consistency
+- Más elementos de la interfaz de usuario están reducidos para la consistencia
 
-- Media embeds now have vertical margin which can be set
+- Los medios de comunicación tienen ahora margen vertical que se puede establecer
 
 ### Version 0.1.0: Utilities Update
 
-- Added support for Spaced Repetition Plugin
+- Apoyo añadido para el enchufe de repetición espaciada
 
-- Added support for Breadcrumbs Plugin
+- Agregado soporte para el enchufe de pan
 
-- Added underline option for headings
+- opción suplementaria adicional para partidas
 
-- Added alternate active item effects in settings
+- Efectos alternos del elemento activo en la configuración
 
-- Added customisation options for prompts
+- Opciones de personalización agregadas para los avisos
 
-- Added alternate file explorer style
+- Añadido estilo explorador de archivos alternativos
 
-- Added options to change link color
+- Opciones adicionales para cambiar el color del enlace
 
-- Added ASCII checkboxes
+- Cajas de verificación ASCII
 
-- Added callout utilities for
+- Servicios adicionales para llamadas
 
-  - No Icon
+- No Icon
 
-  - No Title
+- No Título
 
-  - Transparent Background
+- Antecedentes transparentes
 
-  - Capitalize, uppercase, lowercase Title and Content
+- Capitalizar, mayúscula, minúscula Título y Contenido
 
-  - RTL, LTR, Center Title and Content
+- RTL, LTR,CenterTítulo y contenido
 
-  - Tategaki (Vertical RTL)
+- Tategaki (TL vertical)
 
-  - Vertical LTR
+- LTR vertical
 
-- Added cssclasses for
+- Cisclases adicionales para
 
 - Tategaki (TL vertical)
 
@@ -382,23 +393,23 @@ __
 
 - Ver el[documentation](../index.md)para más detalles
 
-Credits:
+Créditos:
 
--`@OWA/bennyyip` on the Obisidian Members' Group Discord for the tategaki snippet
+-`@OWA/bennyyip`sobre la discordia del grupo de miembros obisidianos para el tategaki
 
--`@Tuck` on the Obsidian Members' Group Discord for options to change link color
+-`@Tuck`en la discordia del grupo de miembros obsidianos para opciones para cambiar el color de enlace
 
 ### Version 0.0.5: Minor Changes
 
-- Made ASCII art responsive, you can set a font size limit on it
+- Made ASCII art responsive, usted puede establecer un tamaño de fuente limiten él
 
-- Status bar does not overlap with command mode input text
+- La barra de estado no se solapa con el texto de entrada del modo de comando
 
-- Added option to enabled status bar on mobile
+- opción adicional para habilitar la barra de estado en el móvil
 
-- Added line height option in typography for headings
+- Opción de altura de línea agregada en tipografía para partidas
 
-- Add option to hide the left sidedock ribbon
+- Añadir opción para ocultar la cinta lateral izquierda
 
-- Add option to align top actions globally
+- Agregar opción para alinear las principales acciones a nivel mundial
 

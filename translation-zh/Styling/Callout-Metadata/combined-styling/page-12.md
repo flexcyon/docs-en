@@ -3,7 +3,7 @@ title: LTR 数据 全体
 icon: material/align-horizontal-left
 ---
 
-Callout metadata: "ltr-all"
+点名元数据: “ 全部”
 
 用法 :
 

@@ -3,7 +3,7 @@ title: 全部倾斜
 icon: material/format-text-variant
 ---
 
-Callout metadata: "oblique-all"
+点名元数据: "oblique-all"
 
 用法 :
 

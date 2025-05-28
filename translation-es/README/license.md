@@ -3,11 +3,12 @@ icon: material/scale-balance
 ---
 
 # License
-The theme is licensed under the [MIT License](https://mit-license.org) which can
-be found [here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE).
+El tema está bajo la licencia[MIT License](https://mit-license.org)que puede
+encontrado[here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE).
 .
 
-Alternatively, you can view it here.
+Alternativamente, puedes verlo aquí.
+.
 
 ## License from the source code
 
