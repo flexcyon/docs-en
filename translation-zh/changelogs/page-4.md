@@ -42,3 +42,18 @@ icon: material/numeric-4-box-outline
 
 - 修复未显示的嵌套
 
+### Version 0.4.2 Relative Line Numbers
+
+- 被清除的复活节鸡蛋 模式类
+- 使用文件行宽度设置`cssclasses`
+- 在https://flexcyon-docs.readthedocs.io/en/latest/提供翻译的新文件网站
+- 旧文件贬值
+- 固定灯光模式背景颜色和主动行沟
+- 由Shimmering Focus改编的相对行号
+- 添加选项来配置罗马数字,下方希腊字母
+- 添加选项只显示相对行号、相对行号和不同行的正常行号
+- 添加选项以切换活动行号以适应相对行号样式
+- 固定标题指标`cssclasses`无法工作
+- 与TUI的固定背景颜色问题
+- 添加全局写入模式选项
+

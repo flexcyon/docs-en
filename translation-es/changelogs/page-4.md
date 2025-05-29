@@ -43,3 +43,18 @@ el tema
 
 - Fijar las incrustaciones sin mostrar
 
+### Version 0.4.2 Relative Line Numbers
+
+- Huevo de Pascua removido Modo de cosas
+- Ajuste de ancho de línea de archivo utilizando`cssclasses`
+- Nuevo sitio de documentación con traducciones en https://flexcyon-docs.readthedocs.io/en/latest/
+- La documentación vieja está deprecatada
+- Colores de fondo del modo de luz fijo y el engranaje de línea activa
+- Números de línea relativos adaptados de Shimmering Focus
+- Agregar opciones para configurar números romanos, letras griegas inferiores
+- Agregar opciones para mostrar sólo números de línea relativos, números de línea relativos y números de línea normales en diferentes líneas
+- Añadir opción para mover el número de línea activa para adaptar el estilo relativo número de línea
+- Indicador de encabezados fijos`cssclasses`no trabajar
+- Edición de fondo fija con TUI
+- Agregar opción de modo de escritura global
+

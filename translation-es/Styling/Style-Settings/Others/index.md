@@ -356,6 +356,7 @@ Predeterminado: 1
 > Use to modify the saturation of colors
 
 __
+## Modes
 
 ### Return to Zero mode
 > Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements
@@ -364,4 +365,18 @@ __
 CSS Variable(s) targeted:`var(--flexcyon-rtz-mode)`
 
 Default:false(de clase)
+
+### Enable Writing Mode globally
+> Like its cssclass counterpart, except applied globally
+
+CSS Variable(s) targeted:`var(--flexcyon-editor-writing)`
+
+Default:false(de clase)
+
+### Writing mode indentation
+
+
+CSS Variable(s) targeted:`var(--flexcyon-editor-writing-indentation)`
+
+Default: 16 (px)
 

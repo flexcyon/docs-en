@@ -357,6 +357,7 @@ Default: 1
 > Use to modify the saturation of colors
 
 ___
+## Modes
 
 ### Return to Zero mode
 
@@ -366,4 +367,19 @@ ___
 CSS Variable(s) targeted: `var(--flexcyon-rtz-mode)`
 
 Default: false (class toggle)
+
+### Enable Writing Mode globally
+
+> Like its cssclass counterpart, except applied globally
+
+CSS Variable(s) targeted: `var(--flexcyon-editor-writing)`
+
+Default: false (class toggle)
+
+### Writing mode indentation
+
+
+CSS Variable(s) targeted: `var(--flexcyon-editor-writing-indentation)`
+
+Default: 16 (px)
 

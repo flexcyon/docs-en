@@ -15,6 +15,21 @@ title: 更改日志
 
 ## Version 0.4.x
 
+### Version 0.4.2 Relative Line Numbers
+
+- Removed leftover Easter Egg Mode stuff
+- File line width setting using `cssclasses`
+- New documentation site with translations over at https://flexcyon-docs.readthedocs.io/en/latest/
+	- Old documentation is deprecated
+- Fixed light mode background colours and active line gutter
+- Relative line numbers adapted from Shimmering Focus
+	- Add options to configure Roman numerals, lower Greek letters
+	- Add options to only display relative line numbers, relative line numbers and normal line numbers on different lines
+	- Add option to toggle active line number to adapt relative line number style
+- Fixed Headings Indicator `cssclasses` not working
+- Fixed background colour issue with TUI
+- Add global writing mode option
+
 ### Version 0.4.1 Quickfix Update
 
 - 在光线模式下修复 TUI 渲染

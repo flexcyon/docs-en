@@ -8,11 +8,8 @@ tags:
 
 ## Misc
 
-- 增加Origami属性`scss/css`文件
 - 添加配置树项和建议项的样式设置选项
 - 添加更好的截图
-
-## Style Settings and stuff
 > Add more CSS classes
 
 ### Plugins/snippets
@@ -27,6 +24,3 @@ tags:
 ### Other styling options
 
 - 美人鱼图型
-
-## Next version changelog
-

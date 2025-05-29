@@ -355,6 +355,7 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 > Use to modify the saturation of colors
 
  
+## Modes
 
 ### Return to Zero mode
 > Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements
@@ -363,4 +364,18 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 目标CSS变量:`var(--flexcyon-rtz-mode)`
 
 默认 :false(类切换)
+
+### Enable Writing Mode globally
+> Like its cssclass counterpart, except applied globally
+
+目标CSS变量:`var(--flexcyon-editor-writing)`
+
+默认 :false(类切换)
+
+### Writing mode indentation
+
+
+目标CSS变量:`var(--flexcyon-editor-writing-indentation)`
+
+Default: 16 (px)
 
