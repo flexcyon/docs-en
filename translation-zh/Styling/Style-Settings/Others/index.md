@@ -377,5 +377,5 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 
 目标CSS变量:`var(--flexcyon-editor-writing-indentation)`
 
-Default: 16 (px)
+默认: 16 (px)
 

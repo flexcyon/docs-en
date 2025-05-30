@@ -378,5 +378,5 @@ Default:false(de clase)
 
 CSS Variable(s) targeted:`var(--flexcyon-editor-writing-indentation)`
 
-Default: 16 (px)
+Predeterminado: 16 (px)
 

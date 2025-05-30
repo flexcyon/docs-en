@@ -1,5 +1,5 @@
 ---
-title: Paleta de color extendida - Estilismo combinado
+title: Paleta de color extendida - Estilo combinado
 icon: material/palette-outline
 ---
 > `all-color1-color2-`

@@ -1,5 +1,5 @@
 ---
-title: 标题指标 - H3型导弹
+title: 标题指标 - H3级
 icon: material/format-header-3
 ---
 

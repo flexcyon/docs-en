@@ -3,7 +3,7 @@ title: 行号
 icon: material/line-scan
 ---
 
-Configure line numbers and relative line numbers
+配置行号和相对行号
 
 接受格式:HEX,%,x.y
 
@@ -47,12 +47,12 @@ Style Settings
 ,
 `var(--flexcyon-roman-greek-nums), var(--flexcyon-roman-chinese-nums)`
 
-Default: none (class toggle)
+默认: 无( 类切换)
 选项 :
 
-- Roman
-- Greek
-- Chinese
+-罗曼语
+-希腊语
+- 中国语
 
 ### Active Line Numbers inherits Relative Line Number Style
 

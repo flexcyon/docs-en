@@ -5,7 +5,7 @@ icon: material/arrow-expand-horizontal
 
 # Usage
 
-Configure the file line width on a per-note basis
+Configurar el ancho de la línea de archivo en una base por nota
 
 ```md
 cssclasses:

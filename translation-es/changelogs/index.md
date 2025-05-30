@@ -17,18 +17,18 @@ __
 
 ### Version 0.4.2 Relative Line Numbers
 
-- Removed leftover Easter Egg Mode stuff
-- File line width setting using `cssclasses`
-- New documentation site with translations over at https://flexcyon-docs.readthedocs.io/en/latest/
-	- Old documentation is deprecated
-- Fixed light mode background colours and active line gutter
-- Relative line numbers adapted from Shimmering Focus
-	- Add options to configure Roman numerals, lower Greek letters
-	- Add options to only display relative line numbers, relative line numbers and normal line numbers on different lines
-	- Add option to toggle active line number to adapt relative line number style
-- Fixed Headings Indicator `cssclasses` not working
-- Fixed background colour issue with TUI
-- Add global writing mode option
+- Huevo de Pascua removido Modo de cosas
+- Ajuste de ancho de línea de archivo utilizando`cssclasses`
+- Nuevo sitio de documentación con traducciones en https://flexcyon-docs.readthedocs.io/en/latest/
+- La documentación vieja está deprecatada
+- Colores de fondo del modo de luz fijo y el engranaje de línea activa
+- Números de línea relativos adaptados de Shimmering Focus
+- Agregar opciones para configurar números romanos, letras griegas inferiores
+- Agregar opciones para mostrar sólo números de línea relativos, números de línea relativos y números de línea normales en diferentes líneas
+- Añadir opción para mover el número de línea activa para adaptar el estilo relativo número de línea
+- Indicador de encabezados fijos`cssclasses`no trabajar
+- Edición de fondo fija con TUI
+- Agregar opción de modo de escritura global
 
 ### Version 0.4.1 Quickfix Update
 

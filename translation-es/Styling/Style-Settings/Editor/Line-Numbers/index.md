@@ -3,7 +3,7 @@ title: Números de línea
 icon: material/line-scan
 ---
 
-Configure line numbers and relative line numbers
+Configurar números de línea y números de línea relativos
 
 Formatos aceptados: HEX, %, x.y
 
@@ -47,12 +47,12 @@ CSS Variable(s) targeted:`var(--flexcyon-roman-rel-nums)`,
 ,
 `var(--flexcyon-roman-greek-nums), var(--flexcyon-roman-chinese-nums)`
 
-Default: none (class toggle)
+Default: ninguno (clase toggle)
 Opciones:
 
 - Roman
-- Greek
-- Chinese
+- Griego
+- Chino
 
 ### Active Line Numbers inherits Relative Line Number Style
 

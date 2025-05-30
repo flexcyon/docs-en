@@ -470,8 +470,10 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                     content = re.sub(r'怎么样\?*', '', content)
                     content = fix_chinese_full_stop(content)
                     content = re.sub(r'(?<!\n)\s*>(?=[^\n])', r'\n>', content)
+                    content = re.sub(r" \.$", "", content)
+                    content = re.sub(r"^\.$", "", content)
                     # Replace all occurrences of '。/' with './' before writing
-                    content = re.sub(r'。/', r'./', content)
+                    content = re.sub(r'。/', './', content)
                     # Ensure <hr> tags are always on their own line
                     content = re.sub(r'(?<!\n)(<hr[^>]*>)(?!\n)', r'1', content)
                     outfile.write(content)
