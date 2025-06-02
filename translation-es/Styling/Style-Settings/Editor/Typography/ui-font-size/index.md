@@ -1,5 +1,5 @@
 ---
-title: UI tamaño de fuente
+title: Tamaño de la fuente UI
 icon: material/format-font-size-increase
 ---
 

@@ -11,7 +11,7 @@ O, si prefiere los cambios en el orden cronológico, puede utilizar
 el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 .
 
-__
+___
 
 ## Version 0.4.x
 

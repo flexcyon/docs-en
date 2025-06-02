@@ -2,7 +2,6 @@
   "This hosts the English documentation for the\n|||en|||es": "Esto acoge la documentación inglesa para el\n",
   ".\n|||en|||es": ".\n.",
   "Here are some links you may be looking for.\n|||en|||es": "Aquí están algunos enlaces que puede estar buscando.\n.",
-  "- |||en|||es": "-",
   "Comments on this website uses the GitHub discussions in the source\n|||en|||es": "Comentarios en este sitio web utiliza las discusiones de GitHub en la fuente\n",
   "code repository (|||en|||es": "repositorio de código (",
   ") as a back-end.\n|||en|||es": "como un back-end.\n.",
@@ -10,7 +9,6 @@
   "The changelogs show versions in order of most recent to least recent.\n|||en|||es": "Los changelogs muestran versiones en orden de lo más reciente al menos reciente.\n.",
   "Or, if you prefer the changelogs in chronological order, you can use\n|||en|||es": "O, si prefiere los cambios en el orden cronológico, puede utilizar\n",
   "the sidebar or hamburger menu to view the relevant sub-pages.\n|||en|||es": "el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.\n.",
-  "___\n|||en|||es": "__\n",
   "- Fix TUI rendering in light mode\n|||en|||es": "- Fijar el renderizado TUI en modo de luz\n",
   "- Fix left sidebar toggle when ribbon is not enabled\n|||en|||es": "- Fijar la barra lateral izquierda cuando la cinta no está habilitada\n",
   "- Fix text highlight bg specifically with suggestion-highlight\n|||en|||es": "- Fijar texto resaltado bg específicamente con sugerencias-luz\n",
@@ -216,7 +214,6 @@
   "In addition, the light mode colour scheme would not be possible without the\n|||en|||es": "Además, el esquema de color del modo de luz no sería posible sin el\n",
   "great |||en|||es": "genial",
   "(which is also under the |||en|||es": "(que también está bajo",
-  " License).\n|||en|||es": "Licencia).\n.",
   " Theme by vaykinov and\n|||en|||es": "Tema por vaykinov y\n",
   "wizentex for the popup callout\n|||en|||es": "wizentex para la llamada popup\n",
   " on the Obisidian Members' Group Discord (@ElsaTam on GitHub) for\n|||en|||es": "sobre la discordia del grupo de miembros obisidianos (@ElsaTam en GitHub)\n",
@@ -790,5 +787,8 @@
   "- Roman\n|||en|||es": "- Roman\n",
   "- Greek\n|||en|||es": "- Griego\n",
   "- Chinese\n|||en|||es": "- Chino\n",
-  "Default: 16 (px)\n|||en|||es": "Predeterminado: 16 (px)\n"
+  "Default: 16 (px)\n|||en|||es": "Predeterminado: 16 (px)\n",
+  "- |||en|||es": "-",
+  "___\n|||en|||es": "__\n",
+  " License).\n|||en|||es": "Licencia).\n."
 }
