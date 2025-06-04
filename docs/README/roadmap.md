@@ -6,9 +6,11 @@ tags:
 
 # Roadmap
 
+The roadmap will not be updated often. However, it represents some features I
+wish to add but may be too time-consuming for me to handle.
+
 ## Misc
 
-- Add Style Settings option for configuring tree item and suggestion item padding
 - Add better screenshots
 
 > Add more CSS classes

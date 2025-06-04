@@ -6,9 +6,11 @@ tags:
 
 # Roadmap
 
+The roadmap will not be updated often. However, it represents some features I
+wish to add but may be too time-consuming for me to handle.
+
 ## Misc
 
-- 添加配置树项和建议项的样式设置选项
 - 添加更好的截图
 > Add more CSS classes
 

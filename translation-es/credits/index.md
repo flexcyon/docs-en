@@ -11,7 +11,8 @@ que están bajoMITlicencia.
 
 Además, el esquema de color del modo de luz no sería posible sin el
 genial[Origami theme](https://github.com/7368697661/Origami)
-(que también está bajoMIT License).
+(que también está bajoMITLicencia).
+.
 
 ## Snippets
 

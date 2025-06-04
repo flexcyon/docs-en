@@ -32,15 +32,34 @@ Default: true (class toggle)
 CSS Classe(s) targeted: `.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 
 Default: none (class select)
+
 Options:
 
 - Rainbow folders
 - Alternate folder style
 - Markdown file tree style
 
+### Colour background instead of text for rainbow folders
+
+CSS Classe(s) targeted: `var(--flexcyon-is-bg-rainbow)`
+
+Default value: false
+
 ### Enable minimalist trees
 
 CSS Variable(s) targeted: `var(--flexcyon-minimalist-tree)`
 
 Default: false (class toggle)
+
+### Vertical Tree Item Padding
+
+CSS Classe(s) targeted: `var(--flexcyon-tree-item-verti-padding)`
+
+Default value: 0.75 (px)
+
+### Horizontal Tree Item Padding
+
+CSS Classe(s) targeted: `var(--flexcyon-tree-item-horiz-padding)`
+
+Default value: 8 (px)
 

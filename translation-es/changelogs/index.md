@@ -11,9 +11,17 @@ O, si prefiere los cambios en el orden cronológico, puede utilizar
 el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 .
 
-___
+__
 
 ## Version 0.4.x
+
+### Version 0.4.3 Rainbow Repair
+- Fixed rainbow bullet lists, rainbow folders, side dock icon effects
+- Add Style Settings option for configuring tree item padding
+- Added colour background instead of text for rainbow folders options (makes rainbow folders in this theme more consistent with those in other themes)
+- Add smooth cursor effect, configurable via style settings 
+	- duration, timing function, minimum width
+- Fixed Vim Mode Status to use `var(--font-ui-medium)` by default
 
 ### Version 0.4.2 Relative Line Numbers
 

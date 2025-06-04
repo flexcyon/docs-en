@@ -790,5 +790,20 @@
   "- Roman\n|||en|||zh": "-罗曼语\n",
   "- Greek\n|||en|||zh": "-希腊语\n",
   "- Chinese\n|||en|||zh": "- 中国语\n",
-  "Default: 16 (px)\n|||en|||zh": "默认: 16 (px)\n"
+  "Default: 16 (px)\n|||en|||zh": "默认: 16 (px)\n",
+  "- Fixed rainbow bullet lists, rainbow folders, side dock icon effects\n|||en|||zh": "- 固定彩虹子弹清单、彩虹文件夹、副码头图标效应\n",
+  "- Add Style Settings option for configuring tree item padding\n|||en|||zh": "- 添加配置树项的样式设置选项\n",
+  "- Added colour background instead of text for rainbow folders options (makes rainbow folders in this theme more consistent with those in other themes)\n|||en|||zh": "- 为彩虹文件夹选项添加颜色背景,而不是文本(使这个主题中的彩虹文件夹与其他主题更加一致)\n",
+  "- Add smooth cursor effect, configurable via style settings \n|||en|||zh": "- 增加光标平滑效果,通过样式设置可配置\n",
+  "\t- duration, timing function, minimum width\n|||en|||zh": "- 持续时间、计时功能、最小宽度\n",
+  "- Fixed Vim Mode Status to use |||en|||zh": "- 固定维姆 要使用的状态",
+  " by default\n|||en|||zh": "默认\n",
+  "The roadmap will not be updated often. However, it represents some features I\n|||en|||zh": "路线图不会经常更新。 然而,它代表了一些特点。\n",
+  "wish to add but may be too time-consuming for me to handle.\n|||en|||zh": "想要补充,但可能太费时了,我处理不了。\n.",
+  "Configure the curosr\n|||en|||zh": "配置曲轴\n",
+  "Default value: |||en|||zh": "默认值 :",
+  "Default value: 95 (ms)\n|||en|||zh": "默认值: 95( ms)\n",
+  "Default value: ease\n|||en|||zh": "默认值:易\n",
+  "Default value: 0.75 (px)\n|||en|||zh": "默认值: 0.75 (px)\n",
+  "Default value: 8 (px)\n|||en|||zh": "默认值: 8 (px)\n"
 }

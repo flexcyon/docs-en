@@ -790,5 +790,20 @@
   "Default: 16 (px)\n|||en|||es": "Predeterminado: 16 (px)\n",
   "- |||en|||es": "-",
   "___\n|||en|||es": "__\n",
-  " License).\n|||en|||es": "Licencia).\n."
+  " License).\n|||en|||es": "Licencia).\n.",
+  "- Fixed rainbow bullet lists, rainbow folders, side dock icon effects\n|||en|||es": "- Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral\n",
+  "- Add Style Settings option for configuring tree item padding\n|||en|||es": "- Añadir Opciones de configuración de estilo para configurar el relleno de elementos de árbol\n",
+  "- Added colour background instead of text for rainbow folders options (makes rainbow folders in this theme more consistent with those in other themes)\n|||en|||es": "- Agregado fondo de color en lugar de texto para las opciones de carpetas de arco iris (hace carpetas de arco iris en este tema más consistentes con las de otros temas)\n",
+  "- Add smooth cursor effect, configurable via style settings \n|||en|||es": "- Añadir efecto cursor suave, configurable a través de ajustes de estilo\n",
+  "\t- duration, timing function, minimum width\n|||en|||es": "- duración, función de tiempo, anchura mínima\n",
+  "- Fixed Vim Mode Status to use |||en|||es": "- Vim fijo Mode Status to use",
+  " by default\n|||en|||es": "por defecto\n",
+  "The roadmap will not be updated often. However, it represents some features I\n|||en|||es": "La hoja de ruta no se actualizará a menudo. Sin embargo, representa algunas características I\n",
+  "wish to add but may be too time-consuming for me to handle.\n|||en|||es": "desea agregar pero puede ser demasiado tiempo para que yo pueda manejar.\n.",
+  "Configure the curosr\n|||en|||es": "Configure el curosr\n",
+  "Default value: |||en|||es": "Valor por defecto:",
+  "Default value: 95 (ms)\n|||en|||es": "Valor por defecto: 95 ms\n",
+  "Default value: ease\n|||en|||es": "Valor predeterminado: facilidad\n",
+  "Default value: 0.75 (px)\n|||en|||es": "Valor predeterminado: 0.75 (px)\n",
+  "Default value: 8 (px)\n|||en|||es": "Valor por defecto: 8 (px)\n"
 }

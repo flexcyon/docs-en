@@ -58,3 +58,11 @@ el tema
 - Edición de fondo fija con TUI
 - Agregar opción de modo de escritura global
 
+### Version 0.4.3 Rainbow Repair
+
+- Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral
+- Añadir Opciones de configuración de estilo para configurar el relleno de elementos de árbol
+- Agregado fondo de color en lugar de texto para las opciones de carpetas de arco iris (hace carpetas de arco iris en este tema más consistentes con las de otros temas)
+- Añadir efecto cursor suave, configurable a través de ajustes de estilo
+- duración, función de tiempo, anchura mínima
+- Vim fijo Mode Status to use`var(--font-ui-medium)`por defecto

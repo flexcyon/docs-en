@@ -33,15 +33,34 @@ Style Settings
 CSS类目标:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 
 默认: 无( 类选择)
+
 选项 :
 
 - 彩虹文件夹
 - 替代文件夹样式
 - Markdown 文件树样式
 
+### Colour background instead of text for rainbow folders
+
+CSS类目标:`var(--flexcyon-is-bg-rainbow)`
+
+默认值 :false
+
 ### Enable minimalist trees
 
 目标CSS变量:`var(--flexcyon-minimalist-tree)`
 
 默认 :false(类切换)
+
+### Vertical Tree Item Padding
+
+CSS类目标:`var(--flexcyon-tree-item-verti-padding)`
+
+Default value: 0.75 (px)
+
+### Horizontal Tree Item Padding
+
+CSS类目标:`var(--flexcyon-tree-item-horiz-padding)`
+
+Default value: 8 (px)
 

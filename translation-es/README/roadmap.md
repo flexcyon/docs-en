@@ -6,9 +6,11 @@ tags:
 
 # Roadmap
 
+The roadmap will not be updated often. However, it represents some features I
+wish to add but may be too time-consuming for me to handle.
+
 ## Misc
 
-- Añadir Opciones de configuración de estilo para configurar el elemento de árbol y el relleno de elementos de sugerencia
 - Añadir mejores capturas de pantalla
 > Add more CSS classes
 

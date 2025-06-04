@@ -33,15 +33,34 @@ Default:true(de clase)
 CSS Classe(s) targeted:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 
 Predeterminado: ninguno (clase selecto)
+
 Opciones:
 
 - Carpetas de arco iris
 - Estilo de carpeta alternativo
 - Estilo de árbol de archivos
 
+### Colour background instead of text for rainbow folders
+
+CSS Classe(s) targeted:`var(--flexcyon-is-bg-rainbow)`
+
+Valor por defecto:false
+
 ### Enable minimalist trees
 
 CSS Variable(s) targeted:`var(--flexcyon-minimalist-tree)`
 
 Default:false(de clase)
+
+### Vertical Tree Item Padding
+
+CSS Classe(s) targeted:`var(--flexcyon-tree-item-verti-padding)`
+
+Default value: 0.75 (px)
+
+### Horizontal Tree Item Padding
+
+CSS Classe(s) targeted:`var(--flexcyon-tree-item-horiz-padding)`
+
+Default value: 8 (px)
 
