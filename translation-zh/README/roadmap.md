@@ -6,8 +6,9 @@ tags:
 
 # Roadmap
 
-The roadmap will not be updated often. However, it represents some features I
-wish to add but may be too time-consuming for me to handle.
+路线图不会经常更新。 然而,它代表了一些特点。
+想要补充,但可能太费时了,我处理不了。
+.
 
 ## Misc
 

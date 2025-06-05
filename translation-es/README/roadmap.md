@@ -6,8 +6,9 @@ tags:
 
 # Roadmap
 
-The roadmap will not be updated often. However, it represents some features I
-wish to add but may be too time-consuming for me to handle.
+La hoja de ruta no se actualizará a menudo. Sin embargo, representa algunas características I
+desea agregar pero puede ser demasiado tiempo para que yo pueda manejar.
+.
 
 ## Misc
 

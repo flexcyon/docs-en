@@ -3,7 +3,7 @@ title: 光标
 icon: material/cursor-text
 ---
 
-Configure the curosr
+配置曲轴
 
 ## Navigation
 
@@ -24,19 +24,19 @@ Style Settings
 
 CSS类目标:`var(--flexcyon-enable-smooth-cursor)`
 
-Default value: true
+默认值 :true
 
 ### Smooth cursor transition duration
 
 CSS类目标:`var(--flexcyon-cursor-duration)`
 
-Default value: 95 (ms)
+默认值: 95( ms)
 
 ### Smooth cursor timing function
 
 CSS类目标:`var(--flexcyon-cursor-timing-fn)`
 
-Default value: ease
+默认值:易
 
 ### Smooth cursor minimum width
 

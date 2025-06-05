@@ -3,7 +3,7 @@ title: Cursor
 icon: material/cursor-text
 ---
 
-Configure the curosr
+Configure el curosr
 
 ## Navigation
 
@@ -24,19 +24,19 @@ Style Settings
 
 CSS Classe(s) targeted:`var(--flexcyon-enable-smooth-cursor)`
 
-Default value: true
+Valor por defecto:true
 
 ### Smooth cursor transition duration
 
 CSS Classe(s) targeted:`var(--flexcyon-cursor-duration)`
 
-Default value: 95 (ms)
+Valor por defecto: 95 ms
 
 ### Smooth cursor timing function
 
 CSS Classe(s) targeted:`var(--flexcyon-cursor-timing-fn)`
 
-Default value: ease
+Valor predeterminado: facilidad
 
 ### Smooth cursor minimum width
 

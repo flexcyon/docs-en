@@ -805,5 +805,6 @@
   "Default value: 95 (ms)\n|||en|||es": "Valor por defecto: 95 ms\n",
   "Default value: ease\n|||en|||es": "Valor predeterminado: facilidad\n",
   "Default value: 0.75 (px)\n|||en|||es": "Valor predeterminado: 0.75 (px)\n",
-  "Default value: 8 (px)\n|||en|||es": "Valor por defecto: 8 (px)\n"
+  "Default value: 8 (px)\n|||en|||es": "Valor por defecto: 8 (px)\n",
+  "Default: 0.75 (px)\n|||en|||es": "Predeterminado: 0.75 (px)\n"
 }

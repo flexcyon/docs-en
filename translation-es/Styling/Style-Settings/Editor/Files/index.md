@@ -44,7 +44,7 @@ Opciones:
 
 CSS Classe(s) targeted:`var(--flexcyon-is-bg-rainbow)`
 
-Valor por defecto:false
+Default:false
 
 ### Enable minimalist trees
 
@@ -56,11 +56,11 @@ Default:false(de clase)
 
 CSS Classe(s) targeted:`var(--flexcyon-tree-item-verti-padding)`
 
-Default value: 0.75 (px)
+Default: 0.75 (px)
 
 ### Horizontal Tree Item Padding
 
 CSS Classe(s) targeted:`var(--flexcyon-tree-item-horiz-padding)`
 
-Default value: 8 (px)
+Predeterminado: 8 (px)
 

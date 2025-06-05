@@ -44,7 +44,7 @@ CSS类目标:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-m
 
 CSS类目标:`var(--flexcyon-is-bg-rainbow)`
 
-默认值 :false
+默认 :false
 
 ### Enable minimalist trees
 
@@ -56,11 +56,11 @@ CSS类目标:`var(--flexcyon-is-bg-rainbow)`
 
 CSS类目标:`var(--flexcyon-tree-item-verti-padding)`
 
-Default value: 0.75 (px)
+Default: 0.75 (px)
 
 ### Horizontal Tree Item Padding
 
 CSS类目标:`var(--flexcyon-tree-item-horiz-padding)`
 
-Default value: 8 (px)
+默认: 8 (px)
 

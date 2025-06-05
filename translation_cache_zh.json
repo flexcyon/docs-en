@@ -805,5 +805,6 @@
   "Default value: 95 (ms)\n|||en|||zh": "默认值: 95( ms)\n",
   "Default value: ease\n|||en|||zh": "默认值:易\n",
   "Default value: 0.75 (px)\n|||en|||zh": "默认值: 0.75 (px)\n",
-  "Default value: 8 (px)\n|||en|||zh": "默认值: 8 (px)\n"
+  "Default value: 8 (px)\n|||en|||zh": "默认值: 8 (px)\n",
+  "Default: 0.75 (px)\n|||en|||zh": "默认: 0.75 (px)\n"
 }

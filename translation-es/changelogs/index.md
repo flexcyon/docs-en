@@ -16,12 +16,12 @@ __
 ## Version 0.4.x
 
 ### Version 0.4.3 Rainbow Repair
-- Fixed rainbow bullet lists, rainbow folders, side dock icon effects
-- Add Style Settings option for configuring tree item padding
-- Added colour background instead of text for rainbow folders options (makes rainbow folders in this theme more consistent with those in other themes)
-- Add smooth cursor effect, configurable via style settings 
-	- duration, timing function, minimum width
-- Fixed Vim Mode Status to use `var(--font-ui-medium)` by default
+- Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral
+- Añadir Opciones de configuración de estilo para configurar el relleno de elementos de árbol
+- Agregado fondo de color en lugar de texto para las opciones de carpetas de arco iris (hace carpetas de arco iris en este tema más consistentes con las de otros temas)
+- Añadir efecto cursor suave, configurable a través de ajustes de estilo
+- duración, función de tiempo, anchura mínima
+- Vim fijo Mode Status to use`var(--font-ui-medium)`por defecto
 
 ### Version 0.4.2 Relative Line Numbers
 

@@ -16,12 +16,12 @@ title: 更改日志
 ## Version 0.4.x
 
 ### Version 0.4.3 Rainbow Repair
-- Fixed rainbow bullet lists, rainbow folders, side dock icon effects
-- Add Style Settings option for configuring tree item padding
-- Added colour background instead of text for rainbow folders options (makes rainbow folders in this theme more consistent with those in other themes)
-- Add smooth cursor effect, configurable via style settings 
-	- duration, timing function, minimum width
-- Fixed Vim Mode Status to use `var(--font-ui-medium)` by default
+- 固定彩虹子弹清单、彩虹文件夹、副码头图标效应
+- 添加配置树项的样式设置选项
+- 为彩虹文件夹选项添加颜色背景,而不是文本(使这个主题中的彩虹文件夹与其他主题更加一致)
+- 增加光标平滑效果,通过样式设置可配置
+- 持续时间、计时功能、最小宽度
+- 固定维姆 要使用的状态`var(--font-ui-medium)`默认
 
 ### Version 0.4.2 Relative Line Numbers
 
