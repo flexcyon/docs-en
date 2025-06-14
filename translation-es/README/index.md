@@ -25,7 +25,7 @@ Por lo tanto, decidí combinar los dos que comenzaron este tema.
 
 ## Features
 
-[Here is a web showcase](https://share.note.sx/1bk28c9k)de las características
+[Here is a web showcase](https://share.note.sx/jze8bimb)de las características
 este tema tiene que ofrecer.
 .
 

@@ -56,7 +56,7 @@ Default:false(de clase)
 
 CSS Classe(s) targeted:`var(--flexcyon-tree-item-verti-padding)`
 
-Default: 0.75 (px)
+Predeterminado: 0.75 (px)
 
 ### Horizontal Tree Item Padding
 

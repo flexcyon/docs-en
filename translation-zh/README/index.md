@@ -24,7 +24,7 @@ icon: material/book-open-blank-variant-outline
 
 ## Features
 
-[Here is a web showcase](https://share.note.sx/1bk28c9k)专题
+[Here is a web showcase](https://share.note.sx/jze8bimb)专题
 这个主题必须提供。
 .
 

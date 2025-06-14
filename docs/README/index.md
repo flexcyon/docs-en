@@ -22,7 +22,7 @@ Hence, I decided to combine the two which started this theme.
 
 ## Features
 
-[Here is a web showcase](https://share.note.sx/1bk28c9k) of the features
+[Here is a web showcase](https://share.note.sx/jze8bimb) of the features
 this theme has to offer.
 
 - Some features will not have a 1 to 1 correspondence to the main theme,

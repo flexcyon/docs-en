@@ -66,3 +66,13 @@ el tema
 - Añadir efecto cursor suave, configurable a través de ajustes de estilo
 - duración, función de tiempo, anchura mínima
 - Vim fijo Mode Status to use`var(--font-ui-medium)`por defecto
+
+### Version 0.4.4 Consistencies Update
+- Corrección de la nota de pie de página
+- Corrección de alineación de la lista de balas
+- Color resaltado por defecto cambiado
+- Las casillas de verificación ASCII ahora utilizan el mismo gradiente de color que las carpetas de arco iris en este tema
+- Añadido más opciones de casilla de verificación ASCII (ver la demostración web)
+- Text wrap to newline when file explorer file/folder title overflows
+- Agregue la opción Configuración de estilo para configurar el relleno de elementos sugerencias
+- Soporte añadido para el plugin Omnisearch

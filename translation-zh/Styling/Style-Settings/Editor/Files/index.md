@@ -56,7 +56,7 @@ CSS类目标:`var(--flexcyon-is-bg-rainbow)`
 
 CSS类目标:`var(--flexcyon-tree-item-verti-padding)`
 
-Default: 0.75 (px)
+默认: 0.75 (px)
 
 ### Horizontal Tree Item Padding
 

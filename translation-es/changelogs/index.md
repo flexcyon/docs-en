@@ -15,6 +15,16 @@ __
 
 ## Version 0.4.x
 
+### Version 0.4.4 Consistencies Update
+- Fix footnote alignment
+- Fix bullet list alignment
+- Changed default highlight colour
+- ASCII checkboxes now uses the same colour gradient as rainbow folders in this theme
+- Added more ASCII checkbox options (see the web demo)
+- Text wrap to newline when file explorer file/folder title overflows
+- Add Style Settings option for configuring suggestion item padding
+- Added support for Omnisearch plugin
+
 ### Version 0.4.3 Rainbow Repair
 - Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral
 - Añadir Opciones de configuración de estilo para configurar el relleno de elementos de árbol

@@ -13,6 +13,16 @@ ___
 
 ## Version 0.4.x
 
+### Version 0.4.4 Consistencies Update
+- Fix footnote alignment
+- Fix bullet list alignment
+- Changed default highlight colour
+- ASCII checkboxes now uses the same colour gradient as rainbow folders in this theme
+- Added more ASCII checkbox options (see the web demo)
+- Text wrap to newline when file explorer file/folder title overflows
+- Add Style Settings option for configuring suggestion item padding
+- Added support for Omnisearch plugin
+
 ### Version 0.4.3 Rainbow Repair
 - Fixed rainbow bullet lists, rainbow folders, side dock icon effects
 - Add Style Settings option for configuring tree item padding

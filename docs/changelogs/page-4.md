@@ -64,3 +64,13 @@ Was previously causing issues like blurring Calender plugin content.
 - Add smooth cursor effect, configurable via style settings 
 	- duration, timing function, minimum width
 - Fixed Vim Mode Status to use `var(--font-ui-medium)` by default
+
+### Version 0.4.4 Consistencies Update
+- Fix footnote alignment
+- Fix bullet list alignment
+- Changed default highlight colour
+- ASCII checkboxes now uses the same colour gradient as rainbow folders in this theme
+- Added more ASCII checkbox options (see the web demo)
+- Text wrap to newline when file explorer file/folder title overflows
+- Add Style Settings option for configuring suggestion item padding
+- Added support for Omnisearch plugin

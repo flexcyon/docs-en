@@ -33,6 +33,8 @@ Se admiten oficialmente los siguientes plugins/snippets
 
 [Kanban by mgmyers](https://github.com/mgmeyers/obsidian-kanban)
 
+[Omnisearch by scambier](https://github.com/scambier/obsidian-omnisearch)
+
 ## Snippets
 
 [CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)

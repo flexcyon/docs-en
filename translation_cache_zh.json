@@ -806,5 +806,14 @@
   "Default value: ease\n|||en|||zh": "默认值:易\n",
   "Default value: 0.75 (px)\n|||en|||zh": "默认值: 0.75 (px)\n",
   "Default value: 8 (px)\n|||en|||zh": "默认值: 8 (px)\n",
-  "Default: 0.75 (px)\n|||en|||zh": "默认: 0.75 (px)\n"
+  "Default: 0.75 (px)\n|||en|||zh": "默认: 0.75 (px)\n",
+  "- Fix footnote alignment\n|||en|||zh": "- 修补脚注对齐\n",
+  "- Fix bullet list alignment\n|||en|||zh": "- 修正项目列表对齐\n",
+  "- Changed default highlight colour\n|||en|||zh": "- 已更改的默认突出显示颜色\n",
+  "- ASCII checkboxes now uses the same colour gradient as rainbow folders in this theme\n|||en|||zh": "- ASCII 复选框在此主题中使用与彩虹文件夹相同的颜色梯度\n",
+  "- Added more ASCII checkbox options (see the web demo)\n|||en|||zh": "- 添加更多 ASCII 复选框选项(见网页演示)\n",
+  "- Text wrap to newline when file explorer file/folder title overflows\n|||en|||zh": "- 文件浏览器文件/文件夹标题溢出时将文本包到新行\n",
+  "- Add Style Settings option for configuring suggestion item padding\n|||en|||zh": "- 添加配置建议项的样式设置选项\n",
+  "- Added support for Omnisearch plugin\n|||en|||zh": "- 对 Omnisearch 插件添加支持\n",
+  "Default value: 12 (px)\n|||en|||zh": "默认值: 12 (px)\n"
 }

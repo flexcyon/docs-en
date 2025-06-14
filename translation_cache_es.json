@@ -806,5 +806,14 @@
   "Default value: ease\n|||en|||es": "Valor predeterminado: facilidad\n",
   "Default value: 0.75 (px)\n|||en|||es": "Valor predeterminado: 0.75 (px)\n",
   "Default value: 8 (px)\n|||en|||es": "Valor por defecto: 8 (px)\n",
-  "Default: 0.75 (px)\n|||en|||es": "Predeterminado: 0.75 (px)\n"
+  "Default: 0.75 (px)\n|||en|||es": "Predeterminado: 0.75 (px)\n",
+  "- Fix footnote alignment\n|||en|||es": "- Corrección de la nota de pie de página\n",
+  "- Fix bullet list alignment\n|||en|||es": "- Corrección de alineación de la lista de balas\n",
+  "- Changed default highlight colour\n|||en|||es": "- Color resaltado por defecto cambiado\n",
+  "- ASCII checkboxes now uses the same colour gradient as rainbow folders in this theme\n|||en|||es": "- Las casillas de verificación ASCII ahora utilizan el mismo gradiente de color que las carpetas de arco iris en este tema\n",
+  "- Added more ASCII checkbox options (see the web demo)\n|||en|||es": "- Añadido más opciones de casilla de verificación ASCII (ver la demostración web)\n",
+  "- Text wrap to newline when file explorer file/folder title overflows\n|||en|||es": "- Text wrap to newline when file explorer file/folder title overflows\n",
+  "- Add Style Settings option for configuring suggestion item padding\n|||en|||es": "- Agregue la opción Configuración de estilo para configurar el relleno de elementos sugerencias\n",
+  "- Added support for Omnisearch plugin\n|||en|||es": "- Soporte añadido para el plugin Omnisearch\n",
+  "Default value: 12 (px)\n|||en|||es": "Valor por defecto: 12 (px)\n"
 }

@@ -59,3 +59,14 @@ Options:
 - Bottom left
 - Bottom center
 
+### Suggestion item vertical padding
+
+CSS Variable(s) targeted: `var(--flexcyon-suggestion-verti-padding)`
+
+Default value: 8 (px)
+
+### Suggestion item horizontal padding
+
+CSS Variable(s) targeted: `var(--flexcyon-suggestion-horiz-padding)`
+
+Default value: 12 (px)

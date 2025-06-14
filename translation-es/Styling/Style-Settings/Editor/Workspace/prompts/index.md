@@ -62,3 +62,14 @@ Opciones:
 - El fondo izquierdo
 - Bottomcenter
 
+### Suggestion item vertical padding
+
+CSS Variable(s) targeted:`var(--flexcyon-suggestion-verti-padding)`
+
+Valor por defecto: 8 (px)
+
+### Suggestion item horizontal padding
+
+CSS Variable(s) targeted:`var(--flexcyon-suggestion-horiz-padding)`
+
+Default value: 12 (px)

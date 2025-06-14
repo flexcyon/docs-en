@@ -62,3 +62,14 @@ CSS 类目标:`.flexcyon-prompt-alimpt-lignown-left-left,
 -左边
 - 下边center
 
+### Suggestion item vertical padding
+
+目标CSS变量:`var(--flexcyon-suggestion-verti-padding)`
+
+默认值: 8 (px)
+
+### Suggestion item horizontal padding
+
+目标CSS变量:`var(--flexcyon-suggestion-horiz-padding)`
+
+Default value: 12 (px)
