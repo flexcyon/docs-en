@@ -14,5 +14,3 @@ Usage:
 
 El estilo en sí se aplica también["dashed-all"](../combined-styling/page-20.md)
 junto con["dashed-title"](../title-styling/page-20.md).
-.
-

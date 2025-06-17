@@ -5,7 +5,6 @@ title: Herramientas y software
 
 Las siguientes herramientas y software fueron indispensables para la elaboración del tema
 y su documentación.
-.
 
 ### Base application
 

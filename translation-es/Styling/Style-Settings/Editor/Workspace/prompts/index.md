@@ -1,10 +1,9 @@
 ---
 title: Prompts
-icon: material/text-box 
+icon: material/text-box
 ---
 
 Configurar los avisos tales como el aviso de comando, conmutador rápido etc.
-.
 
 Formatos aceptados: px, vw, vh
 
@@ -14,14 +13,14 @@ Formatos aceptados: px, vw, vh
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Workspace
-|   |   |   |-- ...
-|   |   |   |-- Prompts
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Workspace
+| | | |-- ...
+| | | |-- Prompts
+| | | |-- ...
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -48,9 +47,7 @@ Default: 70 (vh)
 ### Prompt alignment
 
 CSS Classe(s) targeted: `.flexcyon-prompt-align-bottom-left,
-,
-.flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-izquierda,
-,
+.flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-left,
 .flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`
 
 Predeterminado: ninguno (clase selecto)
@@ -58,7 +55,7 @@ Opciones:
 
 - Arriba a la izquierda
 - Topcenter
--Centerizquierda
+  -Centerizquierda
 - El fondo izquierdo
 - Bottomcenter
 
@@ -66,10 +63,10 @@ Opciones:
 
 CSS Variable(s) targeted:`var(--flexcyon-suggestion-verti-padding)`
 
-Valor por defecto: 8 (px)
+Predeterminado: 8 (px)
 
 ### Suggestion item horizontal padding
 
 CSS Variable(s) targeted:`var(--flexcyon-suggestion-horiz-padding)`
 
-Default value: 12 (px)
+Predeterminado: 12 (px)

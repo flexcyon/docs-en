@@ -13,11 +13,11 @@ icon: material/state-machine
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Status Bar
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Status Bar
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -55,7 +55,6 @@ Style Settings
 
 默认 :ease-out
 
- 
 ### Text Configuration
 
 #### Use text instead of icons for mode status
@@ -82,8 +81,6 @@ Style Settings
 
 默认: "LIVE"
 
- 
-
 ### Status Bar Styling
 
 #### Show status bar on mobile
@@ -102,7 +99,7 @@ Style Settings
 
 CSS类目标:`.lexcyon-status-style-trounded,
 ,
-.flexcyon-status-style-card,.flexcyon-style-style-pl10k ' .
+.flexcyon-status-style-card,.flexcyon-style-style-pl10k '
 
 默认: 无( 类选择)
 选项 :
@@ -116,4 +113,3 @@ CSS类目标:`.lexcyon-status-style-trounded,
 目标CSS变量:`var(--flexcyon-status-text-enable-color)`
 
 默认 :false(类切换)
-

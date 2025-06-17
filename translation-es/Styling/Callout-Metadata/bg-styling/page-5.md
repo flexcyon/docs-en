@@ -12,5 +12,3 @@ Metadatos de llamada: "bg-cyan"
 
 El estilo en sí se aplica también["all-cyan"](../combined-styling/page-5.md)
 junto con["title-cyan"](../title-styling/page-5.md).
-.
-

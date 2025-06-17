@@ -12,5 +12,3 @@ Metadatos de callout: "título-pink"
 
 El estilo en sí se aplica también["all-pink"](../combined-styling/page-6.md)
 junto con["bg-pink"](../bg-styling/page-6.md).
-.
-

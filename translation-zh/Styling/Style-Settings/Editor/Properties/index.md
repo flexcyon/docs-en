@@ -3,8 +3,7 @@ title: 属性
 icon: material/axis-arrow-info
 ---
 
-配置文件属性/元数据/YAML的CSS变量。
-.
+配置文件属性/元数据/YAML的CSS变量
 
 ## Navigation
 
@@ -12,11 +11,11 @@ icon: material/axis-arrow-info
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Properties
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Properties
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -47,4 +46,3 @@ Style Settings
 目标CSS变量:`var(--flexcyon-meta-container-padding-left)`
 
 默认: 14 (px)
-

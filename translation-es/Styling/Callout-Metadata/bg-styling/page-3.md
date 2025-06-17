@@ -12,5 +12,3 @@ Metadatos de llamada: "Bg-red"
 
 El estilo en sí se aplica también["all-red"](../combined-styling/page-3.md)
 junto con["title-red"](../title-styling/page-3.md).
-.
-

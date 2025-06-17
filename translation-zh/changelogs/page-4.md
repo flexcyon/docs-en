@@ -6,8 +6,7 @@ icon: material/numeric-4-box-outline
 ### Version 0.4.0 Light Mode Update
 
 - 修改侧边栏背景亮度设置为`unset`。
-以前引起诸如模糊卡伦德插件内容之类的问题。
-.
+  以前引起诸如模糊卡伦德插件内容之类的问题
 
 - WIP灯主题(混合弹性灯+折纸彩色调色板)
 
@@ -18,7 +17,7 @@ icon: material/numeric-4-box-outline
 - 添加表头大小选项
 
 - 更新文档,以显示应用的颜色/不透明小预览
-主题
+  主题
 
 - 增加了主题功能的网络展示
 
@@ -46,7 +45,7 @@ icon: material/numeric-4-box-outline
 
 - 被清除的复活节鸡蛋 模式类
 - 使用文件行宽度设置`cssclasses`
-- 在https://flexcyon-docs.readthedocs.io/en/latest/提供翻译的新文件网站
+- 在https://flexcyon-docs.readthedocs.io/zh-cne/latest/ 提供翻译的新文件网站
 - 旧文件贬值
 - 固定灯光模式背景颜色和主动行沟
 - 由Shimmering Focus改编的相对行号
@@ -67,6 +66,7 @@ icon: material/numeric-4-box-outline
 - 固定维姆 要使用的状态`var(--font-ui-medium)`默认
 
 ### Version 0.4.4 Consistencies Update
+
 - 修补脚注对齐
 - 修正项目列表对齐
 - 已更改的默认突出显示颜色

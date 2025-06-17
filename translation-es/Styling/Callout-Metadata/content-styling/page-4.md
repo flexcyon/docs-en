@@ -14,5 +14,3 @@ Usage:
 
 El estilo en sí se aplica también["uppercase-all"](../combined-styling/page-14.md)
 junto con["uppercase-title"](../title-styling/page-14.md).
-.
-

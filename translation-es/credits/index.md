@@ -7,12 +7,10 @@ Un gran grito a Daniel
 [Halcyon theme](https://github.com/dbarenholz/halcyon-obsidian)y
 kepano[flexoki](https://github.com/kepano/flexoki-obsidian)tema, ambos
 que están bajoMITlicencia.
-.
 
 Además, el esquema de color del modo de luz no sería posible sin el
 genial[Origami theme](https://github.com/7368697661/Origami)
 (que también está bajoMITLicencia).
-.
 
 ## Snippets
 
@@ -57,5 +55,5 @@ reglas horizontales
 -[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)tema
 para el modo RTZ y el estilo rápido
 
-__
-Por último, pero no menos importante, *usted* para usar el tema y leer la documentación:D
+\_\_
+Por último, pero no menos importante, _usted_ para usar el tema y leer la documentación:D

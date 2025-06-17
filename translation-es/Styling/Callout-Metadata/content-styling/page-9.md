@@ -14,5 +14,3 @@ Usage:
 
 El estilo en sí se aplica también["oblique-all"](../combined-styling/page-19.md)
 junto con["oblique-title"](../title-styling/page-19.md).
-.
-

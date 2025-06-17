@@ -1,6 +1,6 @@
 ---
 title: Prompts
-icon: material/text-box 
+icon: material/text-box
 ---
 
 Configure prompts such as the command prompt, quick switcher etc.
@@ -13,14 +13,14 @@ Accepted Formats: px, vw, vh
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Workspace
-|   |   |   |-- ...
-|   |   |   |-- Prompts
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Workspace
+| | | |-- ...
+| | | |-- Prompts
+| | | |-- ...
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -63,10 +63,10 @@ Options:
 
 CSS Variable(s) targeted: `var(--flexcyon-suggestion-verti-padding)`
 
-Default value: 8 (px)
+Default: 8 (px)
 
 ### Suggestion item horizontal padding
 
 CSS Variable(s) targeted: `var(--flexcyon-suggestion-horiz-padding)`
 
-Default value: 12 (px)
+Default: 12 (px)

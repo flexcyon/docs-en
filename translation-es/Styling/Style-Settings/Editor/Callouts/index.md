@@ -2,7 +2,7 @@
 title: Callouts
 icon: material/information-slab-box-outline
 tags:
-    - callouts
+  - callouts
 ---
 
 Configurar el estilo de los callouts
@@ -15,11 +15,11 @@ Formatos aceptados: px, rem, em, s
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Callouts
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Callouts
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -44,7 +44,8 @@ CSS Variable(s) targeted:`var(--flexcyon-callout-bg-opacity)`
 Default: 20%
 
 <span style="opacity: 20%"
->Muestra de antecedentes Opacity</span>
+
+> Muestra de antecedentes Opacity</span>
 
 ### Callout Vertical Margin
 
@@ -58,11 +59,11 @@ CSS Variable(s) targeted:`var(--callout-radius)`
 
 Predeterminado: 2 (px)
 
-__
+\_\_
+
 ### Flashcard callout
 
 Configura los[flashcard callout](../../../Callout-Metadata/flashcard.md).
-.
 
 #### Flashcard callout width
 
@@ -82,7 +83,8 @@ CSS Variable(s) targeted:`var(--flexcyon-callout-flashcard-animation-duration)`
 
 Predeterminado: 0.5s
 
-__
+\_\_
+
 ### Popup callout
 
 Configura los[popup callout](../../../Callout-Metadata/popup.md)
@@ -92,4 +94,3 @@ Configura los[popup callout](../../../Callout-Metadata/popup.md)
 CSS Variable(s) targeted:`var(--flexcyon-callout-pop-animation-duration)`
 
 Predeterminado: 0.2s
-

@@ -19,5 +19,3 @@ Usage:
 
 El estilo en sí se aplica también["empty"](../combined-styling/page-1.md)
 junto con["no-title"](../title-styling/page-1.md).
-.
-

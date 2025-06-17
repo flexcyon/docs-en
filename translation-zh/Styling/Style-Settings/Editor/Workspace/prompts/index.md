@@ -1,10 +1,9 @@
 ---
 title: 提示
-icon: material/text-box 
+icon: material/text-box
 ---
 
 配置命令提示器, 快速切换器等提示 。
-.
 
 接受格式: px, vw, vh
 
@@ -14,14 +13,14 @@ icon: material/text-box
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Workspace
-|   |   |   |-- ...
-|   |   |   |-- Prompts
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Workspace
+| | | |-- ...
+| | | |-- Prompts
+| | | |-- ...
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -47,29 +46,26 @@ Style Settings
 
 ### Prompt alignment
 
-CSS 类目标:`.flexcyon-prompt-alimpt-lignown-left-left,
-,
-. . . . . center. . . . . center- 左边
-,
-.flexcyon-即时对齐左上方 .flexcyon-即时对齐上方 center`
+CSS Classe(s) targeted: `.flexcyon-prompt-align-bottom-left,
+.flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-left,
+.flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`
 
 默认: 无( 类选择)
 选项 :
 
 - 左边
 - 顶部center
-- 中间左边
--左边
+- 中间左边 -左边
 - 下边center
 
 ### Suggestion item vertical padding
 
 目标CSS变量:`var(--flexcyon-suggestion-verti-padding)`
 
-默认值: 8 (px)
+默认: 8 (px)
 
 ### Suggestion item horizontal padding
 
 目标CSS变量:`var(--flexcyon-suggestion-horiz-padding)`
 
-Default value: 12 (px)
+默认: 12 (px)

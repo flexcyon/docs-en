@@ -21,5 +21,3 @@ Usage:
 
 El estilo en sí se aplica también["w-`value`-all"](../combined-styling/page-24.md)
 junto con["w-`value`-title"](../title-styling/page-24.md).
-.
-

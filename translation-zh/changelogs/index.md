@@ -6,26 +6,24 @@ title: 更改日志
 #### Note
 
 更改日志按最近到最近顺序显示版本。
-.
 或者,如果你喜欢按时间顺序的更改日志,你可以使用
 用于查看相关子页的边栏或汉堡菜单。
-.
-
- 
 
 ## Version 0.4.x
 
 ### Version 0.4.4 Consistencies Update
-- Fix footnote alignment
-- Fix bullet list alignment
-- Changed default highlight colour
-- ASCII checkboxes now uses the same colour gradient as rainbow folders in this theme
-- Added more ASCII checkbox options (see the web demo)
-- Text wrap to newline when file explorer file/folder title overflows
-- Add Style Settings option for configuring suggestion item padding
-- Added support for Omnisearch plugin
+
+- 修补脚注对齐
+- 修正项目列表对齐
+- 已更改的默认突出显示颜色
+- ASCII 复选框在此主题中使用与彩虹文件夹相同的颜色梯度
+- 添加更多 ASCII 复选框选项(见网页演示)
+- 文件浏览器文件/文件夹标题溢出时将文本包到新行
+- 添加配置建议项的样式设置选项
+- 对 Omnisearch 插件添加支持
 
 ### Version 0.4.3 Rainbow Repair
+
 - 固定彩虹子弹清单、彩虹文件夹、副码头图标效应
 - 添加配置树项的样式设置选项
 - 为彩虹文件夹选项添加颜色背景,而不是文本(使这个主题中的彩虹文件夹与其他主题更加一致)
@@ -37,7 +35,7 @@ title: 更改日志
 
 - 被清除的复活节鸡蛋 模式类
 - 使用文件行宽度设置`cssclasses`
-- 在https://flexcyon-docs.readthedocs.io/en/latest/提供翻译的新文件网站
+- 在https://flexcyon-docs.readthedocs.io/zh-cne/latest/ 提供翻译的新文件网站
 - 旧文件贬值
 - 固定灯光模式背景颜色和主动行沟
 - 由Shimmering Focus改编的相对行号
@@ -60,9 +58,8 @@ title: 更改日志
 
 ### Version 0.4.0 Light Mode Update
 
-- 修改侧边栏背景亮度设置为`unset`。 。 。 。 曾经
-之前引起诸如模糊卡伦德插件内容之类的问题。
-.
+- 修改侧边栏背景亮度设置为`unset`. Was
+  之前引起诸如模糊卡伦德插件内容之类的问题。
 
 - WIP灯主题(混合弹性灯+折纸彩色调色板)
 
@@ -73,7 +70,7 @@ title: 更改日志
 - 添加表头大小选项
 
 - 更新文档,以显示应用的颜色/不透明小预览
-主题
+  主题
 
 - 增加了主题功能的网络展示
 
@@ -104,7 +101,6 @@ title: 更改日志
 ### Version 0.3.5 Configuration Update
 
 - 文件现在有自己的网站。
-.
 
 - 为标题添加软发光选项
 
@@ -113,8 +109,7 @@ title: 更改日志
 - 增加全球亮度、对比度和饱和率的无障碍选项
 
 - 增加选项,以在全球启用标题指标,适合
-不同的标题级别。
-.
+  不同的标题级别。
 
 - 标题指标现在更好地继承标题的基础颜色
 
@@ -125,7 +120,7 @@ title: 更改日志
 ### Version 0.3.4 Easter Egg Mode
 
 - 翻译为隐藏,直到可配置的悬浮状态栏,对
-长期状态栏
+  长期状态栏
 
 - 固定文件探索器背景被打破
 
@@ -138,18 +133,18 @@ title: 更改日志
 ### Version 0.3.3 QOL Update
 
 - 增加可配置的缩进系数和倒塌头的缩进
-样式设置菜单
+  样式设置菜单
 
 - 添加写模式调用元数据工具,增加文本缩进和
-段落间隔
+  段落间隔
 
 - 还有一个CSS类供应商,允许您应用相同的文本
-目标附注的缩进和段落间距递增
+  目标附注的缩进和段落间距递增
 
 - 添加 Rhombus 编辑器背景选项
 
--  您现在可以使用网格、 点或 Rhombus 作为左侧的背景选项
-右侧边栏
+- 您现在可以使用网格、 点或 Rhombus 作为左侧的背景选项
+  右侧边栏
 
 - 这些覆盖左右侧边栏背景url选项
 
@@ -196,8 +191,8 @@ title: 更改日志
 - 在网格编辑器背景角度添加选项
 
 - 为模式添加背景图像选项(设置的背景图像,
-,
-提示等)
+  ,
+  提示等)
 
 ### Version 0.3.1 Tidying Up
 
@@ -222,14 +217,12 @@ title: 更改日志
 - 微小修改悬浮中的导航项目,日历插件型号
 
 - 微调编辑背景点和网格背景样式。
-.
 
 - 标签标题栏现在适应选定的布局样式
 
 - 为核心 Canvas 插件添加了模糊非活动的 Canvas 节点的选项
 
 - 编辑器背景变化现在影响 Canvas 核心插件。
-.
 
 - 可能需要应用程序重新装入/ 重新启动样式设置更改才能在 Canvas 中显示
 
@@ -246,7 +239,7 @@ title: 更改日志
 - 更改表格样式
 
 - 增加了标题指标的cssclass、倾斜点名元数据
-标题和内容
+  标题和内容
 
 - 对日历插件添加支持
 
@@ -274,8 +267,6 @@ title: 更改日志
 
 - [See the documentation](../index.md)详情
 
- 
-
 ## Version 0.2.x
 
 ### Version 0.2.2 Layout styling
@@ -291,7 +282,7 @@ title: 更改日志
 - 如果您想要改变布局, 需要重新装入或重新启动应用程序
 
 - Vim模式状态文本和状态栏模式(阅读/预览等)文本
-有颜色选项 :
+  有颜色选项 :
 
 - 默认切换
 
@@ -304,11 +295,9 @@ title: 更改日志
 ### Version 0.2.1 Small Update
 
 - 已删除的窗口动画,因为它们不是表演者。
-.
 
 - 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color`将
-在使用点名元数据时, 总是返回相同的颜色组合 。
-.
+  在使用点名元数据时, 总是返回相同的颜色组合 。
 
 - 使活动文件背景效果更加一致
 
@@ -325,16 +314,15 @@ title: 更改日志
 - 添加图像边框半径选项
 
 - 添加扩展调色板(可作为点名元数据工具或用于
-css变量).
+  css变量)
 
 - 添加弹出点名词,改编自
-[Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
+  [Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
 
 - 新注释、新文件夹等顶级动作的固定不透明
 
 - 为模式、提示和设置添加窗口动画。
-.
-从下列选项中选择 :
+  从下列选项中选择 :
 
 - 无(默认行为的更正)
 
@@ -346,7 +334,7 @@ css变量).
 
 - 向左滑动
 
--  您也可以配置动画持续时间
+- 您也可以配置动画持续时间
 
 - 在阅读模式和编辑模式中切换属性显示的选项
 
@@ -361,8 +349,6 @@ css变量).
 - 添加点和网格背景选项
 
 -见[documentation](../index.md)详情
-
- 
 
 ## Version 0.1.x
 
@@ -445,4 +431,3 @@ css变量).
 - 添加隐藏左侧丝带的选项
 
 - 增加对全球顶级行动进行协调的选项
-

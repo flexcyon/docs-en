@@ -5,7 +5,6 @@ title: 工具和软件
 
 下列工具和软件对主题的形成不可或缺:
 及其文件资料。
-.
 
 ### Base application
 
@@ -31,7 +30,7 @@ title: 工具和软件
 
 - 吉尔
 
-- GitHub (英语).
+- GitHub (英语)
 
 ### Documentation
 

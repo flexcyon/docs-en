@@ -15,8 +15,8 @@ icon: material/dots-horizontal
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- ...
-|   |-- Others
+| |-- ...
+| |-- Others
 ```
 
 ## Configuration Options
@@ -59,8 +59,6 @@ Style Settings
 
 默认: "COMMAND"
 
- 
-
 ### New Tab Appearance
 
 自定义新空标签的占位
@@ -70,6 +68,7 @@ Style Settings
 #### Add before empty state title
 
 CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
+
 > Changing this may take an app reload/restart to take effect
 
 默认: 无( 类选择)
@@ -95,6 +94,7 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 目标CSS变量:`var(--flexcyon-quote-font-size)`
 
 默认: 24 (px)
+
 > Line breaks are escaped as `\a` and `\` is escaped as `\\`
 
 #### ASCII Art
@@ -105,14 +105,17 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 
 ```md
 " \a\
-    _______________                                       \a\
-    ___  ____/__  /________  ____________  ______________ \a\
-    __  /_   __  /_  _ \\_  |/_/  ___/_  / / /  __ \\_  __ \\ \a\
-    _  __/   _  / /  __/_
->  < / /__ _  /_/ // /_/ /  / / / \a\
+ ******\_\_\_****** \a\
+ **\_ \_\_**/** /**\_\_**** ****\_\_\_\_**** ******\_\_****** \a\
+ ** /\_ ** /\_ _ \\_ |/\_/ **_/_ / / / ** \\_ \_\_ \\ \a\
+ _ **/ \_ / / **/\_
+
+> < / /\_\_ _ /_/ // /\_/ / / / / \a\
+
     /_/      /_/  \\___//_/|_| \\___/ _\\__, / \\____//_/ /_/ \a\
                                     /____/                \a\a\a "
 ```
+
 > The ASCII art string needs to be escaped for CSS to render it, line breaks are
 > escaped as `\a` and `\` is escaped as `\\`
 
@@ -125,6 +128,7 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 #### ASCII art line height
 
 目标CSS变量:`var(--flexcyon-ascii-line-height)`
+
 > Changes line height for quote as welll
 
 默认:1
@@ -141,15 +145,14 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 
 默认 :false(类切换)
 
- 
-
 ### Side Dock Icons
 
 配置侧对接图标
 
 #### Enable side dock icon effects
+
 > Rainbow effect on hover
-目标CSS变量:`var(--flexcyon-sidedock-icon-effects)`
+> 目标CSS变量:`var(--flexcyon-sidedock-icon-effects)`
 
 默认 :true(类切换)
 
@@ -158,8 +161,6 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 目标CSS变量:`var(--flexcyon-sidedock-ribbon-hidden)`
 
 默认 :false(类切换)
-
- 
 
 ### Tooltip radius
 
@@ -189,18 +190,16 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 
 默认: 8 (px)
 
- 
-
 ### Sidebar Background
 
 在左右侧边栏配置背景图像。
-.
 
 接受格式: px,%
 
 #### Select background in sidebar
 
 CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-bg-rhombus`
+
 > Overrides background image declaration below, configures in both left and
 > right sidebar
 
@@ -208,24 +207,25 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 选项 :
 
 - 绳子
-- 点缀
--罗姆布斯
+- 点缀 -罗姆布斯
 
 #### Left sidebar background image url
 
 目标CSS变量:`var(--flexcyon-bg-image-sidebar-left-url)`
 
 默认: url (")
+
 > For urls to work, add your URL between the double quotes e.g. a value of:
-`url("https://fake_domain/not_a_real_image.png")`
+> `url("https://fake_domain/not_a_real_image.png")`
 
 #### Right sidebar background image url
 
 目标CSS变量:`var(--flexcyon-bg-image-sidebar-right-url)`
 
 默认: url (")
+
 > For urls to work, add your URL between the double quotes e.g. a value of:
-`url("https://fake_domain/not_a_real_image.png")`
+> `url("https://fake_domain/not_a_real_image.png")`
 
 #### Sidebar Background image blend mode
 
@@ -244,6 +244,7 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 目标CSS变量:`var(--flexcyon-bg-image-blur)`
 
 默认:1px
+
 > Will be changed to 0px next update
 
 #### Sidebar Background image brightness
@@ -251,6 +252,7 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 目标CSS变量:`var(--flexcyon-bg-image-brightness)`
 
 默认 :unset
+
 > Accepts percentage values like 55%
 
 #### Sidebar Background image size
@@ -265,8 +267,6 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 
 默认 :center
 
- 
-
 ### Modal Background
 
 在设置菜单、 提示等背景中配置背景图像
@@ -278,8 +278,9 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 目标CSS变量:`var(--flexcyon-modal-bg-url)`
 
 默认: url (")
+
 > For urls to work, add your URL between the double quotes e.g. a value of:
-`url("https://fake_domain/not_a_real_image.png")`
+> `url("https://fake_domain/not_a_real_image.png")`
 
 #### Modal Background image blend mode
 
@@ -304,6 +305,7 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 目标CSS变量:`var(--flexcyon-bg-modal-brightness)`
 
 默认 :unset
+
 > Accepts percentage values like 55%
 
 #### Modal background image size
@@ -318,17 +320,14 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 
 默认 :center
 
- 
-
 ### Easter egg mode
 
-堕地。 见[here for reasons](../../../README/page-5.md)。
-
- 
+堕地，见[here for reasons](../../../README/page-5.md)。
 
 ### Accessibility
 
 切换访问选项
+
 > Note that changing these will change how the entire theme renders.
 >
 > Tweaking these values too much may make the theme look ugly
@@ -344,6 +343,7 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 目标CSS变量:`var(--flexcyon-contrast-ratio)`
 
 默认:1
+
 > E.g. if you want slightly more contrast like on an OLED screen, try values
 > between 1 to 1.5
 
@@ -352,12 +352,13 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 目标CSS变量:`var(--flexcyon-saturation-ratio)`
 
 默认:1
+
 > Use to modify the saturation of colors
 
- 
 ## Modes
 
 ### Return to Zero mode
+
 > Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements
 > are not displayed until hovered on. Will not recommend on mobile.
 
@@ -366,6 +367,7 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 默认 :false(类切换)
 
 ### Enable Writing Mode globally
+
 > Like its cssclass counterpart, except applied globally
 
 目标CSS变量:`var(--flexcyon-editor-writing)`
@@ -374,8 +376,6 @@ CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sid
 
 ### Writing mode indentation
 
-
 目标CSS变量:`var(--flexcyon-editor-writing-indentation)`
 
 默认: 16 (px)
-

@@ -12,5 +12,3 @@ Metadatos de callout: "título extraño"
 
 El estilo en sí se aplica también["all-orange"](../combined-styling/page-8.md)
 junto con["bg-orange"](../bg-styling/page-8.md).
-.
-

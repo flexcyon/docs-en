@@ -6,9 +6,7 @@ icon: material/numeric-4-box-outline
 ### Version 0.4.0 Light Mode Update
 
 - Cambio de la barra lateral de fondo de brillo predeterminado a`unset`.
-.
-Antes estaba causando problemas como borroso contenido de plugin de Calender.
-.
+  Antes estaba causando problemas como borroso contenido de plugin de Calender.
 
 - Tema ligero WIP (mixes flexoki light + paleta de colores origami)
 
@@ -19,7 +17,7 @@ Antes estaba causando problemas como borroso contenido de plugin de Calender.
 - opción de tamaño de la cabecera de mesa
 
 - Documentación actualizada para mostrar una pequeña vista previa de colores/opacidad aplicada por
-el tema
+  el tema
 
 - Muestra web agregada de las características del tema
 
@@ -47,7 +45,7 @@ el tema
 
 - Huevo de Pascua removido Modo de cosas
 - Ajuste de ancho de línea de archivo utilizando`cssclasses`
-- Nuevo sitio de documentación con traducciones en https://flexcyon-docs.readthedocs.io/en/latest/
+- Nuevo sitio de documentación con traducciones en https://flexcyon-docs.readthedocs.io/es/latest/
 - La documentación vieja está deprecatada
 - Colores de fondo del modo de luz fijo y el engranaje de línea activa
 - Números de línea relativos adaptados de Shimmering Focus
@@ -68,6 +66,7 @@ el tema
 - Vim fijo Mode Status to use`var(--font-ui-medium)`por defecto
 
 ### Version 0.4.4 Consistencies Update
+
 - Corrección de la nota de pie de página
 - Corrección de alineación de la lista de balas
 - Color resaltado por defecto cambiado

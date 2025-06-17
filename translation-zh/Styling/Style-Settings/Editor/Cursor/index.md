@@ -11,10 +11,10 @@ icon: material/cursor-text
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Cursor
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Cursor
+| |-- ...
 |-- ...
 ```
 
@@ -24,7 +24,7 @@ Style Settings
 
 CSS类目标:`var(--flexcyon-enable-smooth-cursor)`
 
-默认值 :true
+默认 :true
 
 ### Smooth cursor transition duration
 
@@ -42,4 +42,4 @@ CSS类目标:`var(--flexcyon-cursor-timing-fn)`
 
 CSS类目标:`var(--flexcyon-cursor-min-width)`
 
-默认值 :unset
+默认 :unset

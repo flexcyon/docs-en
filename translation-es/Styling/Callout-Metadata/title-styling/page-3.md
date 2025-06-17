@@ -12,5 +12,3 @@ Metadatos de llamada: "Título rojo"
 
 El estilo en sí se aplica también["all-red"](../combined-styling/page-3.md)
 junto con["bg-red"](../bg-styling/page-3.md).
-.
-

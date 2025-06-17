@@ -11,10 +11,10 @@ Configure the curosr
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Cursor
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Cursor
+| |-- ...
 |-- ...
 ```
 
@@ -24,22 +24,22 @@ Style Settings
 
 CSS Classe(s) targeted: `var(--flexcyon-enable-smooth-cursor)`
 
-Default value: true
+Default: true
 
 ### Smooth cursor transition duration
 
 CSS Classe(s) targeted: `var(--flexcyon-cursor-duration)`
 
-Default value: 95 (ms)
+Default: 95 (ms)
 
 ### Smooth cursor timing function
 
 CSS Classe(s) targeted: `var(--flexcyon-cursor-timing-fn)`
 
-Default value: ease
+Default: ease
 
 ### Smooth cursor minimum width
 
 CSS Classe(s) targeted: `var(--flexcyon-cursor-min-width)`
 
-Default value: unset
+Default: unset

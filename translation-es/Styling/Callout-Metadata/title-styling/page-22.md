@@ -14,5 +14,3 @@ Usage:
 
 El estilo en sí se aplica también["underline-all"](../combined-styling/page-22.md)
 junto con["underline-content"](../content-styling/page-12.md).
-.
-

@@ -4,7 +4,6 @@ icon: material/format-header-pound
 ---
 
 定义与字体权重等标题相关的 CSS 变量。
-.
 
 接受格式: px, 数字, rem
 
@@ -14,13 +13,13 @@ icon: material/format-header-pound
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Typography
-|   |   |   |-- Headings
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Typography
+| | | |-- Headings
+| | | |-- ...
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -31,6 +30,7 @@ Style Settings
 目标CSS变量:`var(--flexcyon-headings-coloured-enabled)`
 
 默认 :true(类切换)
+
 > Inherits from accent colors like `--color-blue`, `--color-red` etc
 
 ### Enable soft glow for headings
@@ -42,7 +42,6 @@ Style Settings
 ### Enable heading indicators globally
 
 定制全球面前哪些标题有标题指标。
-.
 如果你打算逐笔应用,[click here](../../../../CSS-Classes/heading-indicators/index.md)
 
 #### For Heading 1
@@ -50,6 +49,7 @@ Style Settings
 目标CSS变量:`var(--flexcyon-headings-indicator-h1)`
 
 默认 :false(类切换)
+
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-1.md)
 
 #### For Heading 2
@@ -57,6 +57,7 @@ Style Settings
 目标CSS变量:`var(--flexcyon-headings-indicator-h2)`
 
 默认 :false(类切换)
+
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-2.md)
 
 #### For Heading 3
@@ -64,6 +65,7 @@ Style Settings
 目标CSS变量:`var(--flexcyon-headings-indicator-h3)`
 
 默认 :false(类切换)
+
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-3.md)
 
 #### For Heading 4
@@ -71,6 +73,7 @@ Style Settings
 目标CSS变量:`var(--flexcyon-headings-indicator-h4)`
 
 默认 :false(类切换)
+
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-4.md)
 
 #### For Heading 5
@@ -78,6 +81,7 @@ Style Settings
 目标CSS变量:`var(--flexcyon-headings-indicator-h5)`
 
 默认 :false(类切换)
+
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-5.md)
 
 #### For Heading 6
@@ -85,9 +89,8 @@ Style Settings
 目标CSS变量:`var(--flexcyon-headings-indicator-h6)`
 
 默认 :false(类切换)
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-6.md)
 
- 
+> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-6.md)
 
 ### Font size
 
@@ -145,8 +148,6 @@ Style Settings
 <h6 style="font-weight: 575; font-size: 1em;"
 >样本 h6</h6>
 
- 
-
 ### Font weight
 
 #### Heading 1 font weight
@@ -203,8 +204,6 @@ Style Settings
 <h6 style="font-weight: 575; font-size: 1em;"
 >样本 h6</h6>
 
- 
-
 ### Line Height
 
 #### Heading 1 line height
@@ -243,8 +242,6 @@ Style Settings
 
 默认: 1.5
 
- 
-
 ### Underline
 
 #### Enable underline for Heading 1
@@ -252,6 +249,7 @@ Style Settings
 目标CSS变量:`var(--flexcyon-h1-underline-enabled)`
 
 默认 :false(类切换)
+
 > The size of the underline scales with your font weight
 
 #### Enable underline for Heading 2

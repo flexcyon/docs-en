@@ -2,8 +2,9 @@
 title: Paleta de color extendida - Antecedentes
 icon: material/palette-outline
 ---
+
 > `bg-color1-color2-`
-Usage:
+> Usage:
 
 ```md
 > [!tip|bg-red-blue] Title will display as usual
@@ -12,9 +13,6 @@ Usage:
 
 El estilo en sí se aplica también["all-color1-color2"](../combined-styling/page-10.md)
 junto con["title-color1-color2"](../title-styling/page-10.md).
-.
 
-Requisitos[this Style Settings option](../../Style6Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette) 
+Requisitos[this Style Settings option](../../Style6Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)
 para seguir.
-.
-

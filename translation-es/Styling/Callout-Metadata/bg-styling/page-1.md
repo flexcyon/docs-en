@@ -20,5 +20,3 @@ o
 ```
 
 Será lo mismo.
-.
-

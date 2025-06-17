@@ -12,7 +12,7 @@ icon: material/numeric-3-box-outline
 - Cambios en el estilo de mesa
 
 - Cisclases adicionales para los indicadores de encabezado, metadatos de llamada
-titulo de llamada y contenido
+  titulo de llamada y contenido
 
 - Añadido soporte para plugin de calendario
 
@@ -61,14 +61,12 @@ titulo de llamada y contenido
 - Modificaciones de la luz a los elementos de navegación en la palanca, Calendario plugin de estilo
 
 - Ligeras pinzas para editor de fondo teñido y rejilla de fondo estilo.
-.
 
 - La barra de títulos se adapta ahora al estilo de diseño seleccionado
 
 - Opción agregada para difuminar los nodos de Canvas inactivos para el plugin de Canvas núcleo
 
 - Los cambios de fondo del editor ahora afectan el plugin de Canvas núcleo.
-.
 
 - Tal vez necesite volver a cargar / reiniciar para los cambios de configuración de estilo para aparecer en el Canvas
 
@@ -105,24 +103,24 @@ titulo de llamada y contenido
 - opción agregada al fondo del editor de cuadrícula angular
 
 - Opción de imagen de fondo agregada para modals (imagen de fondo para la configuración,
-,
-impulsos, etc.
+  ,
+  impulsos, etc.
 
 ### Version 0.3.3 QOL Update
 
 - Factor de indentación configurable añadido y regulación de cabeceras colapsadas
-Menú Ajustes de estilo
+  Menú Ajustes de estilo
 
 - Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
-párrafo espaciamiento
+  párrafo espaciamiento
 
 - También tiene un proveedor de clase CSS que le permite aplicar el mismo texto
-indent and paragraph spacing increases to the target note
+  indent and paragraph spacing increases to the target note
 
 - Add rhombus editor background option
 
 - Ahora puede utilizar la rejilla, punteado o rhombus como opciones de fondo para la izquierda
-y barra lateral derecha
+  y barra lateral derecha
 
 - Estas opciones de url de fondo lateral izquierdo y derecho
 
@@ -143,7 +141,7 @@ y barra lateral derecha
 ### Version 0.3.4 Easter Egg Mode
 
 - Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
-barras de estado más largas
+  barras de estado más largas
 
 - Se rompió el fondo de explorador de archivos fijos
 
@@ -156,7 +154,6 @@ barras de estado más largas
 ### Version 0.3.5 Configuration Update
 
 - La documentación ahora tiene su propio sitio.
-.
 
 - opción de brillo suave para las partidas
 
@@ -165,8 +162,7 @@ barras de estado más largas
 - Opciones de accesibilidad adicionales para el brillo, contraste y saturación global
 
 - Opción agregada para permitir indicadores de encabezado a nivel mundial, personalizable
-para diferentes niveles de rumbo.
-.
+  para diferentes niveles de rumbo.
 - Los indicadores de encabezado ahora mejor heredan del color base del encabezado
 
 - opción agregada para configurar la duración de la animación popup callout

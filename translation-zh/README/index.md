@@ -13,25 +13,22 @@ icon: material/book-open-blank-variant-outline
 
 # About Flexcyon
 
-一个将Halcyon和Flexoki的配色方案结合起来的 Obsidian主题。
-.
+一个将Halcyon和Flexoki的配色方案结合起来的 Obsidian主题
 
 我真的很喜欢充满活力的颜色
 [Halcyon colour scheme](https://halcyon-theme.netlify.app/)和墨迹
 美学[Flexoki colour scheme](https://stephango.com/flexoki)。
 因此,我决定把开始这一主题的两个主题结合起来。
-.
 
 ## Features
 
 [Here is a web showcase](https://share.note.sx/jze8bimb)专题
 这个主题必须提供。
-.
 
 - 有些功能与主题没有1比1的对应关系,
-,
-但是这个网站应该可以预览一下主题之前的样子
-安装它
+  ,
+  但是这个网站应该可以预览一下主题之前的样子
+  安装它
 
 ### What this theme has
 
@@ -48,12 +45,11 @@ icon: material/book-open-blank-variant-outline
 - 配置左侧、右侧栏和模式背景图像
 - 标签的动画选项
 - 还有更多...
-.
 
 ### What this theme does not have
 
 - 多种颜色方案(尽管你可以推翻现有的方案)
-与你自己,看[Style Settings](../Styling/Style-Settings/index.md)页:1
+  与你自己,看[Style Settings](../Styling/Style-Settings/index.md)页:1
 - 备用复选框
 - 嵌入式字体, svgs
 
@@ -87,7 +83,6 @@ icon: material/book-open-blank-variant-outline
 或者,您可以在
 [the repository](https://github.com/bladeacer/flexcyon/issues)或
 [start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions)在这里。
-.
 
 ## Design Principles
 
@@ -100,4 +95,3 @@ icon: material/book-open-blank-variant-outline
 ## License
 
 主题的许可可以找到[here](./license.md)
-

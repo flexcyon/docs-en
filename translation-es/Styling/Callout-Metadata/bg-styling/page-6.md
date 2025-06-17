@@ -12,5 +12,3 @@ Metadatos de llamada: "bg-pink"
 
 El estilo en sí se aplica también["all-pink"](../combined-styling/page-6.md)
 junto con["title-pink"](../title-styling/page-6.md).
-.
-

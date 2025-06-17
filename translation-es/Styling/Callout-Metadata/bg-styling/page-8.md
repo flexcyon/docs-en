@@ -12,5 +12,3 @@ Metadatos de llamada: "bg-orange"
 
 El estilo en sí se aplica también["all-orange"](../combined-styling/page-8.md)
 junto con["title-orange"](../title-styling/page-8.md).
-.
-

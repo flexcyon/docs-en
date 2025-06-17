@@ -4,7 +4,6 @@ icon: material/animation
 ---
 
 配置提示、模式和标签容器的过渡动画。
-.
 
 接受格式:s
 
@@ -14,14 +13,14 @@ icon: material/animation
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Workspace
-|   |   |   |-- ...
-|   |   |   |-- Animations
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Workspace
+| | | |-- ...
+| | | |-- Animations
+| | | |-- ...
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -32,6 +31,7 @@ Style Settings
 CSS 类目标:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
 ,
 .flexcyon-anims-slim-tb,.flexcyon-anims-slim-bt,.flexcyon-spin-bt,.flexcyon-anims-spin-rl ' .
+
 > Changes may need an app reload/restart to take effect
 
 默认: 无( 类选择)
@@ -54,4 +54,3 @@ CSS 类目标:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
 目标CSS变量:`var(--flexcyon-anim-easing)`
 
 默认 :ease-in-out
-

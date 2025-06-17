@@ -4,7 +4,6 @@ icon: material/cogs
 ---
 
 用于自定义设置的 UI 不同方面的外观 。
-.
 
 接受格式: x.y, rem, px
 
@@ -14,9 +13,9 @@ icon: material/cogs
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- ...
-|   |-- Settings
-|   |-- ...
+| |-- ...
+| |-- Settings
+| |-- ...
 |-- ...
 ```
 
@@ -47,7 +46,8 @@ Style Settings
 默认: 0.89
 
 <span style="opacity: 0.89"
->社区物品样本不透明(未选定)</span>
+
+> 社区物品样本不透明(未选定)</span>
 
 ### Installed tooltip left margin
 
@@ -67,8 +67,6 @@ Style Settings
 
 默认 :true(类切换)
 
- 
-
 ### Style Settings
 
 配置样式设置的外观
@@ -86,4 +84,3 @@ Style Settings
 目标CSS变量:`var(--flexcyon-style-settings-dim-collapsed-headings)`
 
 默认 :true
-

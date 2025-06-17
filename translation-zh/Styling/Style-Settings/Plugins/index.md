@@ -13,9 +13,9 @@ icon: material/hexagon-outline
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- ...
-|   |-- Plugins
-|   |-- ...
+| |-- ...
+| |-- Plugins
+| |-- ...
 ```
 
 ## Configuration Options
@@ -26,10 +26,11 @@ Style Settings
 
 目标CSS变量:`var(--oz-fta-folder-font-size)`
 
-默认: 0.925(雷姆)
+默认: 0.925 (rem)
 
 <span style="font-size: 0.925rem"
->样本 另选文件树文件夹字体大小</span>
+
+> 样本 另选文件树文件夹字体大小</span>
 
 #### Folders font color
 
@@ -37,13 +38,15 @@ Style Settings
 
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #080808"
-></span
->#080808 (英语).
+
+> </span
+> #080808 (英语).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #d3d5d3"
-></span
->#d3d5d3 (英语:
+
+> </span
+> #d3d5d3 (英语:
 
 #### Active folder color
 
@@ -51,22 +54,25 @@ Style Settings
 
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #080808"
-></span
->#080808 (英语).
+
+> </span
+> #080808 (英语).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #d3d5d3"
-></span
->#d3d5d3 (英语:
+
+> </span
+> #d3d5d3 (英语:
 
 #### Files font size
 
 目标CSS变量:`var(--oz-fta-file-font-size)`
 
-默认: 0.9(雷姆)
+默认: 0.9 (rem)
 
 <span style="font-size: 0.9rem"
->样本 替代文件树文件字体大小</san>
+
+> 样本 替代文件树文件字体大小</san>
 
 #### Files font color
 
@@ -74,8 +80,9 @@ Style Settings
 
 默认 :
 <span class="col-sqr" style="background-color: #6f768599"
-></span
->#6f768599 (英语).
+
+> </span
+> #6f768599 (英语).
 
 #### Disable folder icons
 
@@ -101,8 +108,6 @@ Style Settings
 
 默认 :true(类切换)
 
- 
-
 ### Full Calendar
 
 接受格式: x.y,%
@@ -114,9 +119,8 @@ Style Settings
 默认: 0.89
 
 <span style="opacity: 0.89"
->阴暗的完整日历项目的样本不透明</span>
 
- 
+> 阴暗的完整日历项目的样本不透明</span>
 
 ### Dataview
 
@@ -128,12 +132,9 @@ Style Settings
 
 默认: 8 (px)
 
- 
-
 ### Canvas
 
 定义 Canvas 核心插件的样式。
-.
 
 接受格式: px, RGB
 
@@ -147,7 +148,6 @@ Style Settings
 
 用上一个设置来设置不活动画布节点的模糊强度
 和所有箭头/箭头。
-.
 
 目标CSS变量:`var(--flexcyon-canvas-blur-intensity)`
 
@@ -156,20 +156,15 @@ Style Settings
 #### Canvas card menu alignment
 
 配置画布卡菜单的对齐 。
-.
 
 CSS类目标:`.flexcyon-canvas-menu-bottom-left,`
-`
-.flexcyon-canvas-menu-底部右侧 .flexcyon-canvas-menu-top-center, (中文).
+`.flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center, (中文).
 ,
-.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-reat, . .flexcyon-canvas-menu-top-left-right, 互联网档案馆的存檔,存档日期2014-03-02.,.
+.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
+.flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
+.flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center, (中文).
 ,
-. . . . . . . center. . . . . . .
-,
-.flexcyon-canvas-menu-lcenter-bottom,.flexcyon-canvas-menu-rcenter-)是中国大陆的特有种center, (中文).
-,
-.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bound, .flexcyon-canvas-menu-center-aign (英语).
-`
+.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align`
 
 默认: 无( 类选择)
 
@@ -198,4 +193,3 @@ CSS类目标:`.flexcyon-canvas-menu-bottom-left,`
 - 右对齐底部
 
 - 右对齐center对齐
-

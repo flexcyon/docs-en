@@ -4,7 +4,6 @@ icon: material/numeric-1-box-outline
 ---
 
 Versiones abajo 0.0.5 no se documentan ya que carecen de características notables.
-.
 
 ## Version 0.0.5: Minor Changes
 
@@ -83,4 +82,3 @@ Créditos:
 - Más elementos de la interfaz de usuario están reducidos para la consistencia
 
 - Los medios de comunicación tienen ahora margen vertical que se puede establecer
-

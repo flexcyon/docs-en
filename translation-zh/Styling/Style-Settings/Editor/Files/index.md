@@ -4,7 +4,6 @@ icon: material/file-cog
 ---
 
 配置文件树和文件夹样式。
-.
 
 ## Navigation
 
@@ -12,11 +11,11 @@ icon: material/file-cog
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Files
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Files
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -63,4 +62,3 @@ CSS类目标:`var(--flexcyon-tree-item-verti-padding)`
 CSS类目标:`var(--flexcyon-tree-item-horiz-padding)`
 
 默认: 8 (px)
-

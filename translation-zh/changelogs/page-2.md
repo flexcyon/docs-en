@@ -10,16 +10,15 @@ icon: material/numeric-2-box-outline
 - 添加图像边框半径选项
 
 - 添加扩展调色板(可作为点名元数据工具或用于
-css变量).
+  css变量)
 
 - 添加弹出点名词,改编自
-[Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
+  [Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
 
 - 新注释、新文件夹等顶级动作的固定不透明
 
 - 为模式、提示和设置添加窗口动画。
-.
-从下列选项中选择 :
+  从下列选项中选择 :
 
 - 无(默认行为的更正)
 
@@ -31,7 +30,7 @@ css变量).
 
 - 向左滑动
 
--  您也可以配置动画持续时间
+- 您也可以配置动画持续时间
 
 - 在阅读模式和编辑模式中切换属性显示的选项
 
@@ -46,16 +45,14 @@ css变量).
 - 添加点和网格背景选项
 
 - [See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
-详情
+  详情
 
 ## Version 0.2.1 Small Update
 
 - 已删除的窗口动画,因为它们不是表演者。
-.
 
 - 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color`
-在使用点名元数据时, 总是返回相同的颜色组合 。
-.
+  在使用点名元数据时, 总是返回相同的颜色组合 。
 
 - 使活动文件背景效果更加一致
 
@@ -78,7 +75,7 @@ css变量).
 - 如果您想要改变布局, 需要重新装入或重新启动应用程序
 
 - Vim模式状态文本和状态栏模式(阅读/预览等)文本
-有颜色选项 :
+  有颜色选项 :
 - 默认切换
 - 为状态栏添加卡片、角度(受Powerlevel10k启发)样式
 - 影响vim模式状态文本

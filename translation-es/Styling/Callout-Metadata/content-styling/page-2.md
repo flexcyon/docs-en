@@ -14,5 +14,3 @@ Usage:
 
 El estilo en sí se aplica también["ltr-all"](../combined-styling/page-12.md)
 junto con["ltr-title"](../title-styling/page-12.md).
-.
-

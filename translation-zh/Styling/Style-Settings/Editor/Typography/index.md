@@ -5,7 +5,6 @@ icon: material/format-text
 
 定义变音文本颜色、 标题样式及控制 UI
 字体大小。
-.
 
 接受格式: HEX
 
@@ -15,11 +14,11 @@ icon: material/format-text
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Typography
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Typography
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -31,5 +30,6 @@ Style Settings
 
 默认 :
 <span class="col-sqr" style="background-color: #6f768599"
-></span
->#6f768599 (英语).
+
+> </span
+> #6f768599

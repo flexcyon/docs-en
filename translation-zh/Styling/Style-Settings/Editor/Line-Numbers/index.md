@@ -13,11 +13,11 @@ icon: material/line-scan
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Line Numbers
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Line Numbers
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -43,15 +43,14 @@ Style Settings
 
 ### Configure Relative Line Number Style
 
-目标CSS变量:`var(--flexcyon-roman-rel-nums)`, (中文).
-,
+目标CSS变量:`var(--flexcyon-roman-rel-nums)`,
 `var(--flexcyon-roman-greek-nums), var(--flexcyon-roman-chinese-nums)`
 
 默认: 无( 类切换)
 选项 :
 
--罗曼语
--希腊语
+-罗曼语 -希腊语
+
 - 中国语
 
 ### Active Line Numbers inherits Relative Line Number Style
@@ -59,5 +58,6 @@ Style Settings
 目标CSS变量:`var(--flexcyon-active-inherits-rel-num)`
 
 默认 :false
+
 > Do note that I have to get creative for Greek and Roman as they do not
 > exactly have letters or numbers before I or alpha.

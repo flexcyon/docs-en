@@ -14,5 +14,3 @@ Usage:
 
 El estilo en sí se aplica también["italic-all"](../combined-styling/page-18.md)
 junto con["italic-content"](../content-styling/page-8.md).
-.
-

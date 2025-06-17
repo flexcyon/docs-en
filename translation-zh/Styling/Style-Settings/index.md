@@ -8,7 +8,6 @@ icon: material/cog-outline
 
 本页面下面的子页面详细列出可供
 主题。
-.
 
 ## Navigation
 

@@ -14,5 +14,3 @@ Usage:
 
 El estilo en sí se aplica también["center-all"](../combined-styling/page-13.md)
 junto con["center-content"](../content-styling/page-3.md).
-.
-

@@ -12,5 +12,3 @@ Metadatos de llamada: "bg-blue"
 
 El estilo en sí se aplica también["all-blue"](../combined-styling/page-2.md)
 junto con["title-blue"](../title-styling/page-2.md).
-.
-

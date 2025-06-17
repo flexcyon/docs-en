@@ -4,7 +4,6 @@ icon: material/format-font-size-increase
 ---
 
 Supera los tamaños de fuente predeterminados utilizados en la interfaz.
-.
 
 Formatos aceptados: px
 
@@ -14,14 +13,14 @@ Formatos aceptados: px
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Typography
-|   |   |   |-- ...
-|   |   |   |-- UI Font Size
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Typography
+| | | |-- ...
+| | | |-- UI Font Size
+| | | |-- ...
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -34,7 +33,8 @@ CSS Variable(s) targeted:`var(--font-ui-smaller)`
 Predeterminado: 12 (px)
 
 <span style="font-size: 12px"
->Muestra menor tamaño de fuente UI</span>
+
+> Muestra menor tamaño de fuente UI</span>
 
 ### Small UI Font size
 
@@ -43,7 +43,8 @@ CSS Variable(s) targeted:`var(--font-ui-small)`
 Predeterminado: 13 (px)
 
 <span style="font-size: 13px"
->Muestra pequeño tamaño de fuente UI</span>
+
+> Muestra pequeño tamaño de fuente UI</span>
 
 ### Medium UI Font size
 
@@ -52,7 +53,8 @@ CSS Variable(s) targeted:`var(--font-ui-medium)`
 Predeterminado: 15 (px)
 
 <span style="font-size: 15px"
->Tamaño de fuente UI medio de muestra</span>
+
+> Tamaño de fuente UI medio de muestra</span>
 
 ### Large UI Font size
 
@@ -61,4 +63,5 @@ CSS Variable(s) targeted:`var(--font-ui-large)`
 Predeterminado: 20 (px)
 
 <span style="font-size: 20px"
->MuestralargeTamaño de la fuente UI</span>
+
+> MuestralargeTamaño de la fuente UI</span>
