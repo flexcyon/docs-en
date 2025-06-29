@@ -55,11 +55,17 @@ Default: false (class toggle)
 
 CSS Classe(s) targeted: `var(--flexcyon-tree-item-verti-padding)`
 
-Default: 0.75 (px)
+Default: 1.25 (px)
 
 ### Horizontal Tree Item Padding
 
 CSS Classe(s) targeted: `var(--flexcyon-tree-item-horiz-padding)`
 
-Default: 8 (px)
+Default: 12 (px)
 
+### Wrap Long File Names
+Wrap long filenames to a new line instead of omitting the ending part.
+
+CSS Variable(s) targeted: `var(--flexcyon-wrap-long-filenames)`
+
+Default: true (class toggle)

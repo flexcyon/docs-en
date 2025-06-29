@@ -31,3 +31,22 @@ CSS目标变量:`var(--flexcyon-text-muted)`
 <span class="col-sqr" style="background-color: #6f768599"
 ></span
 >#6f768599 (英语).
+
+QQ 突出显示文字垂直铺设
+
+CSS目标变量: var(-flexcyon-highlight-verti-pating)
+
+默认:1 (px)
+
+* 横向突出显示文本 铺垫
+
+CSS目标变量: var(-弹性-高光-平面);
+;
+
+默认 :2.(px) (韩语).
+
+QQ 突出显示文本边框半径
+
+CSS目标变量: var(-flexcyon-highlight-border-radius) 目标变量:
+
+默认: 4( px)

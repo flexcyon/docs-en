@@ -50,10 +50,16 @@ CSS目标变量:`var(--flexcyon-minimalist-tree)`
 垂直树条
 
 CSS目标类别:`var(--flexcyon-tree-item-verti-padding)`
-默认: 0.75 (px)
+默认 :1.5 (px) (中文(简体) ).
 
 水平树项
 
 CSS目标类别:`var(--flexcyon-tree-item-horiz-padding)`
-默认: 8 (px)
+默认: 12 (px)
 
+QQ 环绕长文件名称
+将长文件名保存到新行, 而不是省略结尾部分 。
+.
+
+CSS目标变量:`var(--flexcyon-wrap-long-filenames)`
+默认 :true(类切换)

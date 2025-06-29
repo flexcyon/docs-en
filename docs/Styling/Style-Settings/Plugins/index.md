@@ -179,3 +179,23 @@ Options:
 
 - Right aligned center align
 
+___
+
+### Various Complements
+#### Vertical Suggestion Padding
+CSS Variable(s) targeted: `var(--flexcyon-var-comps-sugg-vert-padding)`
+
+Default: 7 (px)
+
+#### Horizontal Suggestion Padding
+CSS Variable(s) targeted: `var(--flexcyon-var-comps-sugg-horiz-padding)`
+
+Default: 12 (px)
+
+#### Compact Suggestion Mode
+Overrides defaults. Uses padding 4px 8px.
+
+CSS Variable(s) targeted: `var(--flexcyon-var-comps-compact-mode)`
+
+Default: false (class toggle)
+

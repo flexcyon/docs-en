@@ -87,7 +87,19 @@ Default: `linear-gradient(to right, var(--text-accent), var(--color-blue), var(-
 
 CSS Variable(s) targeted: `var(--flexcyon-quote-val)`
 
-Default: ""
+Default: "This is a placeholder quote\ain the Flexcyon Theme."
+
+#### Quote Attribution Prefix
+
+CSS Variable(s) targeted: `var(--flexcyon-quote-credit-prefix)`
+
+Default: "-"
+
+#### Quote Attribution
+
+CSS Variable(s) targeted: `var(--flexcyon-quote-credit)`
+
+Default: "bladeacer"
 
 #### Quote font size
 
@@ -143,22 +155,22 @@ Default: false (class toggle)
 
 ___
 
-### Side Dock Icons
+### Side Dock
 
 Configure the side dock icons
 
 #### Enable side dock icon effects
-
 > Rainbow effect on hover
+
 CSS Variable(s) targeted: `var(--flexcyon-sidedock-icon-effects)`
 
 Default: true (class toggle)
 
-#### Hide the side dock ribbon
+### Side Dock Ribbon Width
 
-CSS Variable(s) targeted: `var(--flexcyon-sidedock-ribbon-hidden)`
+CSS Variable(s) targeted: `var(--flexcyon-sidedock-ribbon-width)`
 
-Default: false (class toggle)
+Default: 48 (px)
 
 ___
 

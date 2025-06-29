@@ -44,3 +44,8 @@ CSS Variable(s) targeted: `var(--flexcyon-top-actions-alignment)`
 
 Default: center
 
+### View header breadcrumb max width
+
+CSS Variable(s) targeted: `var(--flexcyon-view-header-breadcrumb-max-w)`
+
+Default: 12.5 (vw)

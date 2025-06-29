@@ -53,11 +53,14 @@ Options:
 - Greek
 - Chinese
 
-### Active Line Numbers inherits Relative Line Number Style
+### Replace active line number with string
+Customise the active line number with your own string, defaults to "->"
 
-CSS Variable(s) targeted: `var(--flexcyon-active-inherits-rel-num)`
+CSS Variable(s) targeted: `var(--flexcyon-repl-active-line-num-str)`
 
-Default: false
+Default: false (class toggle)
 
-> Do note that I have to get creative for Greek and Roman as they do not
-> exactly have letters or numbers before I or alpha.
+### Replaced active line number string value
+CSS Variable(s) targeted: `var(--flexcyon-repl-active-line-str)
+
+Default: "->"

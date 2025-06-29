@@ -38,7 +38,7 @@ Default: 12 (px)
 
 CSS Variable(s) targeted: `var(--font-ui-small)`
 
-Default: 13 (px)
+Default: 14 (px)
 
 <span style="font-size: 13px">Sample small UI font size</span>
 
@@ -46,7 +46,7 @@ Default: 13 (px)
 
 CSS Variable(s) targeted: `var(--font-ui-medium)`
 
-Default: 15 (px)
+Default: 16 (px)
 
 <span style="font-size: 15px">Sample medium UI font size</span>
 
@@ -54,6 +54,6 @@ Default: 15 (px)
 
 CSS Variable(s) targeted: `var(--font-ui-large)`
 
-Default: 20 (px)
+Default: 18 (px)
 
 <span style="font-size: 20px">Sample large UI font size</span>

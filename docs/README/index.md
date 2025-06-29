@@ -15,14 +15,14 @@ icon: material/book-open-blank-variant-outline
 
 A Obsidian theme combining the colour schemes of Halcyon and Flexoki.
 
-I really liked the vibrant colours of the 
+I really liked the vibrant colours of the
 [Halcyon colour scheme](https://halcyon-theme.netlify.app/), and the inky
 aesthetic of the [Flexoki colour scheme](https://stephango.com/flexoki).
 Hence, I decided to combine the two which started this theme.
 
 ## Features
 
-[Here is a web showcase](https://share.note.sx/jze8bimb) of the features
+[Here is a web showcase](https://share.note.sx/r7rd6a8a#n1z0mQOPxar40bRJJ8yIY/c97ljRYkU+vUX34EJVhoE) of the features
 this theme has to offer.
 
 - Some features will not have a 1 to 1 correspondence to the main theme,

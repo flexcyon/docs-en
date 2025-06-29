@@ -42,3 +42,7 @@ QQ 顶级动作对齐
 CSS目标变量:`var(--flexcyon-top-actions-alignment)`
 默认 :center
 
+### 查看页眉面包屑最大宽度
+
+CSS目标变量:`var(--flexcyon-view-header-breadcrumb-max-w)`
+默认: 12.5 (vw)

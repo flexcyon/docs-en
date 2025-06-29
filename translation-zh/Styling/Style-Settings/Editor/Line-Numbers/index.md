@@ -50,9 +50,15 @@ CSS目标变量:`var(--flexcyon-roman-rel-nums)`, (中文).
 -希腊语
 - 中国语
 
-QQ 活动行号继承相对行号样式
+### 将活动行号替换为字符串
+用自己的字符串自定义活动行号,默认为“-
+>”
 
-CSS目标变量:`var(--flexcyon-active-inherits-rel-num)`
-默认 :false
-> 请注意,我必须获得创造 希腊和罗马,因为他们没有
-> 完全有字母或数字 之前我或阿尔法。
+CSS目标变量:`var(--flexcyon-repl-active-line-num-str)`
+默认 :false(类切换)
+
+### 已替换活动行号字符串值
+CSS目标变量:`var(-弹性-活性-线-str)
+
+默认: "-
+>"

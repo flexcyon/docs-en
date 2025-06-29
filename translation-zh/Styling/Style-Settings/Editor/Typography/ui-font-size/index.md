@@ -37,7 +37,7 @@ CSS目标变量:`var(--font-ui-smaller)`
 小型UI 字体大小
 
 CSS目标变量:`var(--font-ui-small)`
-默认: 13 (px)
+默认: 14 (px)
 
 <span style="font-size: 13px"
 >小UI字体大小样本</span>
@@ -45,7 +45,7 @@ CSS目标变量:`var(--font-ui-small)`
 *______________________________ 字体大小
 
 CSS目标变量:`var(--font-ui-medium)`
-默认: 15 (px)
+默认: 16 (px)
 
 <span style="font-size: 15px"
 >样本介质 UI 字体大小</span>
@@ -53,7 +53,7 @@ CSS目标变量:`var(--font-ui-medium)`
 ###LargeUI 字体大小
 
 CSS目标变量:`var(--font-ui-large)`
-默认: 20 (px)
+默认: 18 (px)
 
 <span style="font-size: 20px"
 >样本largeUI 字体大小</span>

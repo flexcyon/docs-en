@@ -23,7 +23,7 @@ icon: material/book-open-blank-variant-outline
 
 □ 特性
 
-[Here is a web showcase](https://share.note.sx/jze8bimb)[Here is a web showcase](https://share.note.sx/jze8bimb)专题
+[Here is a web showcase](https://share.note.sx/r7rd6a8a#n1z0mQOPxar40bRJJ8yIY/c97ljRYkU+vUX34EJVhoE)[Here is a web showcase](https://share.note.sx/r7rd6a8a#n1z0mQOPxar40bRJJ8yIY/c97ljRYkU+vUX34EJVhoE)专题
 这个主题必须提供。
 
 - 有些功能与主题没有1比1的对应关系,

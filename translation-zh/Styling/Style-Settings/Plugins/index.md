@@ -182,3 +182,21 @@ CSS目标类别:`.flexcyon-canvas-menu-bottom-left,`
 
 - 右对齐center对齐
 
+ 
+
+各种补充
+垂直建议放置
+CSS目标变量:`var(--flexcyon-var-comps-sugg-vert-padding)`
+默认: 7 (px)
+
+□ 横向建议
+CSS目标变量:`var(--flexcyon-var-comps-sugg-horiz-padding)`
+默认: 12 (px)
+
+压缩建议模式
+超过默认值 。 使用加压4px8px.
+.
+
+CSS目标变量:`var(--flexcyon-var-comps-compact-mode)`
+默认 :false(类切换)
+

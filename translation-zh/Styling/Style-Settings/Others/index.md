@@ -78,7 +78,17 @@ CSS目标变量:`var(--flexcyon-new-tab-bg-wrapper)`
 引用
 
 CSS目标变量:`var(--flexcyon-quote-val)`
-默认: ""
+默认 : “ 这是引用 Flexcyon 主题的占位符 。 ”
+
+引用分配前缀
+
+CSS目标变量:`var(--flexcyon-quote-credit-prefix)`
+默认: "-"
+
+引用归属
+
+CSS目标变量:`var(--flexcyon-quote-credit)`
+默认: "刀锋"
 
 #### 引用字体大小
 
@@ -125,19 +135,20 @@ CSS目标变量:`var(--flexcyon-empty-state-actions-disable)`
 
  
 
-### 边停靠图标
+### 侧舷
 
 配置侧对接图标
 
 #### 启用侧对接图标效果
 > 悬浮的彩虹效应
+
 CSS目标变量:`var(--flexcyon-sidedock-icon-effects)`
 默认 :true(类切换)
 
-#### 隐藏侧对接丝带
+### 侧面嵌入带宽度
 
-CSS目标变量:`var(--flexcyon-sidedock-ribbon-hidden)`
-默认 :false(类切换)
+CSS目标变量:`var(--flexcyon-sidedock-ribbon-width)`
+默认: 48 (px)
 
  
 
