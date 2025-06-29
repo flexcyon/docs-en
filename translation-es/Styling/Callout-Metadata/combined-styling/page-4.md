@@ -1,5 +1,5 @@
 ---
-title: Todo púrpura
+title: All Purple
 icon: material/format-color-fill
 ---
 

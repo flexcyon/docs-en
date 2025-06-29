@@ -1,5 +1,5 @@
 ---
-title: Cuadro
+title: Table
 icon: material/table-cog
 ---
 
@@ -13,11 +13,11 @@ Formatos aceptados: HEX, %, x.y
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Table
-| | |-- ...
-| |-- ...
+|   |-- Editor
+|   |   |-- ...
+|   |   |-- Table
+|   |   |-- ...
+|   |-- ...
 |-- ...
 ```
 
@@ -29,9 +29,8 @@ CSS Variable(s) targeted:`var(--table-border-color)`
 
 Default:
 <span class="col-sqr" style="background-color: #6f768566"
-
-> </span
-> #6f768566
+></span
+>#6f768566
 
 ### Table header size
 
@@ -40,11 +39,11 @@ CSS Variable(s) targeted:`var(--table-header-size)`
 Default:large
 
 <span style="font-size: large;"
-
-> Cabecera de mesa de muestra</span>
+>Cabecera de mesa de muestra</span>
 
 ### Width of table in reading mode
 
 CSS Variable(s) targeted:`var(--flexcyon-table-reading-mode-width)`
 
 Predeterminado: 100%
+

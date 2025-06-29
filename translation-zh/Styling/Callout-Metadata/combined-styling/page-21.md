@@ -11,6 +11,6 @@ icon: material/format-overline
 > [!info|overline-all] The title will be displayed as overline
 > The content will be displayed as overline
 ```
-> Shorthand for both ["overline-content"](../content-styling/page-11.md)
-> and ["overline-title"](../title-styling/page-21.md)
+> 两者的简称["overline-content"](../content-styling/page-11.md)["overline-content"](../content-styling/page-11.md)
+> 和["overline-title"](../title-styling/page-21.md)["overline-title"](../title-styling/page-21.md)
 

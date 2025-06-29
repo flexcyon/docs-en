@@ -1,5 +1,5 @@
 ---
-title: Título
+title: Heading 1 Title
 icon: material/format-header-1
 ---
 

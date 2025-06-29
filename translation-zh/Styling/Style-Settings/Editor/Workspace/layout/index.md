@@ -5,29 +5,29 @@ icon: material/page-layout-sidebar-left
 
 配置工作空间布局 。
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Workspace
-| | | |-- ...
-| | | |-- Layout
-| | |-- ...
-| |-- ...
-|-- ...
+|   |-- Editor
+|   |   |-- 。
+|   |   |-- Workspace
+|   |   |   |-- 。
+|   |   |   |-- Layout
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
-### Select workspace layout
+### 选择工作空间布局
 
-CSS Classe(s) targeted: `.flexcyon-workspace-card-layout,
-.flexcyon-workspace-angled-layout, .flexcyon-workspace-pl10k-layout`
-
+CSS目标类别:`.lexcyon-工作空间卡-挂载,
+,
+弹性工作空间倾斜排版, . flexcyon- 工作空间- pl10k- layout `
 默认: 无( 类选择)
 
 选项 :
@@ -35,10 +35,10 @@ CSS Classe(s) targeted: `.flexcyon-workspace-card-layout,
 - 卡片布局
 - 愤怒的布局
 - 动力级10k布局
-  > Workspace layout changes may need app reload or restart to take effect
+> 工作空间布局变化可能需要应用程序重新装入或重新启动才能生效
 
-### Enable TUI add-on for cards layout
+QQ 启用用于卡片布局的 TUI 附加
 
-目标CSS变量:`var(--flexcyon-workspace-cards-tui-ext)`
-
+CSS目标变量:`var(--flexcyon-workspace-cards-tui-ext)`
 默认 :true(类切换)
+

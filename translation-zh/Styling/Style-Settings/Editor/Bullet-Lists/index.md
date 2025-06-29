@@ -5,26 +5,25 @@ icon: material/format-list-bulleted
 
 在主题中配置项目列表
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Bullet Lists
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
-### Enable rainbow bullet lists
+启用彩虹弹丸列表
 
-目标CSS变量:`var(--flexcyon-rainbow-bullet-points)`
-
+CSS目标变量:`var(--flexcyon-rainbow-bullet-points)`
 默认 :false(类切换)
-> Might need app restart/reload to take effect.
+> 可能需要应用程序重启/ 重新装入才能生效 .
 

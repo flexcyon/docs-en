@@ -1,5 +1,5 @@
 ---
-title: Archivos
+title: Files
 icon: material/file-cog
 ---
 
@@ -11,11 +11,11 @@ Configurar árboles de archivos y estilos de carpeta.
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Files
-| | |-- ...
-| |-- ...
+|   |-- Editor
+|   |   |-- ...
+|   |   |-- Files
+|   |   |-- ...
+|   |-- ...
 |-- ...
 ```
 
@@ -62,3 +62,4 @@ Predeterminado: 0.75 (px)
 CSS Classe(s) targeted:`var(--flexcyon-tree-item-horiz-padding)`
 
 Predeterminado: 8 (px)
+

@@ -1,5 +1,5 @@
 ---
-title: Alineación vertical - Tategaki
+title: Vertical Alignment - Tategaki
 icon: material/align-horizontal-right
 ---
 

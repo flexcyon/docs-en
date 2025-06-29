@@ -12,6 +12,6 @@ icon: material/format-strikethrough
 > Content is shown as usual
 ```
 
-样式本身也适用于["line-through-all"](../combined-styling/page-23.md)
-页:1["line-through-content"](../content-styling/page-13.md)。
+样式本身也适用于["line-through-all"](../combined-styling/page-23.md)["line-through-all"](../combined-styling/page-23.md)
+页:1["line-through-content"](../content-styling/page-13.md)["line-through-content"](../content-styling/page-13.md)。
 

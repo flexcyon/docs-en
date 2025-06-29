@@ -7,32 +7,31 @@ icon: material/animation
 
 接受格式:s
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Workspace
-| | | |-- ...
-| | | |-- Animations
-| | | |-- ...
-| | |-- ...
-| |-- ...
-|-- ...
+|   |-- Editor
+|   |   |-- 。
+|   |   |-- Workspace
+|   |   |   |-- 。
+|   |   |   |-- Animations
+|   |   |   |-- 。
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
-### Animation type
+QQ 动画类型
 
-CSS 类目标:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
+CSS目标类别:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
 ,
 .flexcyon-anims-slim-tb,.flexcyon-anims-slim-bt,.flexcyon-spin-bt,.flexcyon-anims-spin-rl ' .
-
-> Changes may need an app reload/restart to take effect
+> 更改可能需要重新装入/ 重新启动程序才能生效
 
 默认: 无( 类选择)
 选项 :
@@ -43,14 +42,13 @@ CSS 类目标:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
 - 从下到上旋转
 - 向左旋转
 
-### Animation duration
+动画持续时间
 
-目标CSS变量:`var(--flexcyon-anim-duration)`
-
+CSS目标变量:`var(--flexcyon-anim-duration)`
 默认: 0. 5s
 
-### Animation easing function
+QQ 动画放松功能
 
-目标CSS变量:`var(--flexcyon-anim-easing)`
-
+CSS目标变量:`var(--flexcyon-anim-easing)`
 默认 :ease-in-out
+

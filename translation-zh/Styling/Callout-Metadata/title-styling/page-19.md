@@ -12,6 +12,6 @@ icon: material/format-letter-case-upper
 > Content is shown as usual
 ```
 
-样式本身也适用于["oblique-all"](../combined-styling/page-19.md)
-页:1["oblique-content"](../content-styling/page-9.md)。
+样式本身也适用于["oblique-all"](../combined-styling/page-19.md)["oblique-all"](../combined-styling/page-19.md)
+页:1["oblique-content"](../content-styling/page-9.md)["oblique-content"](../content-styling/page-9.md)。
 

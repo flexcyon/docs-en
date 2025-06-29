@@ -1,5 +1,5 @@
 ---
-title: Extensiones apoyadas
+title: Supported Extensions
 icon: material/hexagon-multiple-outline
 tags:
     - plugins

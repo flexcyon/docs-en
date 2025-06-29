@@ -3,7 +3,7 @@ title: 0.3.x 版本数
 icon: material/numeric-3-box-outline
 ---
 
-### Version 0.3.0 TUI Layout
+QQ版本 0.3.TUI 布局
 
 - 在卡片布局中添加提示的 TUI
 
@@ -11,8 +11,8 @@ icon: material/numeric-3-box-outline
 
 - 更改表格样式
 
-- 为标题指标、点名元数据添加 cssclass
-  倾斜点名标题和内容
+- 已经添加了CSS 类页 次
+倾斜点名标题和内容
 
 - 对日历插件添加支持
 
@@ -32,13 +32,13 @@ icon: material/numeric-3-box-outline
 
 - 顶部center
 
-- 中间左边
+- Center左边
 
 -左边
 
 - 下边center
 
-### Version 0.3.1 Tidying Up
+QQ版本 0.3.腾讯
 
 - 为以下项目增加点名元数据:
 
@@ -74,7 +74,7 @@ icon: material/numeric-3-box-outline
 
 - 改变面包屑的造型,以使用ASCII而不是emoji
 
-### Version 0.3.2 Animations
+QQ版本 0.3.动画
 
 - 斯图林 调整到社区存储项, 现有布局
 
@@ -103,24 +103,24 @@ icon: material/numeric-3-box-outline
 - 在网格编辑器背景角度添加选项
 
 - 为模式添加背景图像选项(设置的背景图像,
-  ,
-  提示等)
+,
+提示等)
 
-### Version 0.3.3 QOL Update
+QQ版本 0.3.QOL 更新
 
 - 增加可配置的缩进系数和倒塌头的缩进
-  样式设置菜单
+样式设置菜单
 
 - 添加写模式调用元数据工具,增加文本缩进和
-  段落间隔
+段落间隔
 
-- 还有一个CSS类供应商,允许您应用相同的文本
-  目标附注的缩进和段落间距递增
+- 还有一个CSS类提供者,允许您应用相同的文本
+目标附注的缩进和段落间距递增
 
 - 添加 Rhombus 编辑器背景选项
 
-- 您现在可以使用网格、 点或 Rhombus 作为左侧的背景选项
-  右侧边栏
+-  您现在可以使用网格、 点或 Rhombus 作为左侧的背景选项
+右侧边栏
 
 - 这些覆盖左右侧边栏背景url选项
 
@@ -138,10 +138,10 @@ icon: material/numeric-3-box-outline
 
 - 更改可能需要重新装入/重新启动程序才能生效
 
-### Version 0.3.4 Easter Egg Mode
+QQ版本 0.3.复活节鸡蛋模式
 
 - 翻译为隐藏,直到可配置的悬浮状态栏,对
-  长期状态栏
+长期状态栏
 
 - 固定文件探索器背景被打破
 
@@ -151,7 +151,7 @@ icon: material/numeric-3-box-outline
 
 - 添加可切换复活节彩蛋模式
 
-### Version 0.3.5 Configuration Update
+QQ版本 0.3.配置更新
 
 - 文件现在有自己的网站。
 
@@ -162,14 +162,14 @@ icon: material/numeric-3-box-outline
 - 增加全球亮度、对比度和饱和率的无障碍选项
 
 - 增加选项,使标题指标能够在全球范围内定制
-  不同标题级别。
+不同标题级别。
 - 标题指标现在更好地继承标题的基础颜色
 
 - 添加选项以配置弹出点名动画持续时间
 
 - 添加选项以配置元数据容器左侧粘贴
 
-### Version 0.3.6 Canvas Menu Update
+QQ版本 0.3.Canvas 菜单更新
 
 - 固定边栏背景问题
 

@@ -3,16 +3,17 @@ icon: material/script-text
 title: 更改日志
 ---
 
-#### Note
+#### 说明
 
 更改日志按最近到最近顺序显示版本。
 或者,如果你喜欢按时间顺序的更改日志,你可以使用
 用于查看相关子页的边栏或汉堡菜单。
 
-## Version 0.4.x
+ 
 
-### Version 0.4.4 Consistencies Update
+^ 0版 (英语).4.
 
+QQ版本 0.4.内容更新
 - 修补脚注对齐
 - 修正项目列表对齐
 - 已更改的默认突出显示颜色
@@ -22,8 +23,7 @@ title: 更改日志
 - 添加配置建议项的样式设置选项
 - 对 Omnisearch 插件添加支持
 
-### Version 0.4.3 Rainbow Repair
-
+QQ版本 0.4.彩虹维修
 - 固定彩虹子弹清单、彩虹文件夹、副码头图标效应
 - 添加配置树项的样式设置选项
 - 为彩虹文件夹选项添加颜色背景,而不是文本(使这个主题中的彩虹文件夹与其他主题更加一致)
@@ -31,11 +31,11 @@ title: 更改日志
 - 持续时间、计时功能、最小宽度
 - 固定维姆 要使用的状态`var(--font-ui-medium)`默认
 
-### Version 0.4.2 Relative Line Numbers
+QQ版本 0.4.相对行号
 
 - 被清除的复活节鸡蛋 模式类
 - 使用文件行宽度设置`cssclasses`
-- 在https://flexcyon-docs.readthedocs.io/zh-cne/latest/ 提供翻译的新文件网站
+- https://flexcyon-docs翻译的新文件网址.readthedocs.io/en/latest/ (中文(简体) ).
 - 旧文件贬值
 - 固定灯光模式背景颜色和主动行沟
 - 由Shimmering Focus改编的相对行号
@@ -46,7 +46,7 @@ title: 更改日志
 - 与TUI的固定背景颜色问题
 - 添加全局写入模式选项
 
-### Version 0.4.1 Quickfix Update
+QQ版本 0.4.快补更新
 
 - 在光线模式下修复 TUI 渲染
 
@@ -56,10 +56,10 @@ title: 更改日志
 
 - 修复未显示的嵌套
 
-### Version 0.4.0 Light Mode Update
+QQ版本 0.4.轻模式更新
 
-- 修改侧边栏背景亮度设置为`unset`. Was
-  之前引起诸如模糊卡伦德插件内容之类的问题。
+- 修改侧边栏背景亮度设置为`unset`。 。 。 。 曾经
+之前引起诸如模糊卡伦德插件内容之类的问题。
 
 - WIP灯主题(混合弹性灯+折纸彩色调色板)
 
@@ -70,7 +70,7 @@ title: 更改日志
 - 添加表头大小选项
 
 - 更新文档,以显示应用的颜色/不透明小预览
-  主题
+主题
 
 - 增加了主题功能的网络展示
 
@@ -84,9 +84,9 @@ title: 更改日志
 
 - 回归零(极端最小化模式),灵感来自Simmering Focus主题
 
-## Version 0.3.x
+^ 0版 (英语).3.
 
-### Version 0.3.6 Canvas Menu Update
+QQ版本 0.3.Canvas 菜单更新
 
 - 固定边栏背景问题
 
@@ -98,7 +98,7 @@ title: 更改日志
 
 - 添加画布卡菜单对齐选项( 多个选项)
 
-### Version 0.3.5 Configuration Update
+QQ版本 0.3.配置更新
 
 - 文件现在有自己的网站。
 
@@ -109,7 +109,7 @@ title: 更改日志
 - 增加全球亮度、对比度和饱和率的无障碍选项
 
 - 增加选项,以在全球启用标题指标,适合
-  不同的标题级别。
+不同的标题级别。
 
 - 标题指标现在更好地继承标题的基础颜色
 
@@ -117,10 +117,10 @@ title: 更改日志
 
 - 添加选项以配置元数据容器左侧粘贴
 
-### Version 0.3.4 Easter Egg Mode
+QQ版本 0.3.复活节鸡蛋模式
 
 - 翻译为隐藏,直到可配置的悬浮状态栏,对
-  长期状态栏
+长期状态栏
 
 - 固定文件探索器背景被打破
 
@@ -130,21 +130,21 @@ title: 更改日志
 
 - 添加可切换复活节彩蛋模式
 
-### Version 0.3.3 QOL Update
+QQ版本 0.3.QOL 更新
 
 - 增加可配置的缩进系数和倒塌头的缩进
-  样式设置菜单
+样式设置菜单
 
 - 添加写模式调用元数据工具,增加文本缩进和
-  段落间隔
+段落间隔
 
-- 还有一个CSS类供应商,允许您应用相同的文本
-  目标附注的缩进和段落间距递增
+- 还有一个CSS类提供者,允许您应用相同的文本
+目标附注的缩进和段落间距递增
 
 - 添加 Rhombus 编辑器背景选项
 
-- 您现在可以使用网格、 点或 Rhombus 作为左侧的背景选项
-  右侧边栏
+-  您现在可以使用网格、 点或 Rhombus 作为左侧的背景选项
+右侧边栏
 
 - 这些覆盖左右侧边栏背景url选项
 
@@ -162,7 +162,7 @@ title: 更改日志
 
 - 更改可能需要重新装入/重新启动程序才能生效
 
-### Version 0.3.2 Animations
+QQ版本 0.3.动画
 
 - 斯图林 调整到社区存储项, 现有布局
 
@@ -191,10 +191,10 @@ title: 更改日志
 - 在网格编辑器背景角度添加选项
 
 - 为模式添加背景图像选项(设置的背景图像,
-  ,
-  提示等)
+,
+提示等)
 
-### Version 0.3.1 Tidying Up
+QQ版本 0.3.腾讯
 
 - 为以下项目增加点名元数据:
 
@@ -230,7 +230,7 @@ title: 更改日志
 
 - 改变面包屑的造型,以使用ASCII而不是emoji
 
-### Version 0.3.0 TUI Layout
+QQ版本 0.3.TUI 布局
 
 - 在卡片布局中添加提示的 TUI
 
@@ -238,8 +238,8 @@ title: 更改日志
 
 - 更改表格样式
 
-- 增加了标题指标的cssclass、倾斜点名元数据
-  标题和内容
+- 已经添加了CSS 类用于标题指标的点名元数据
+标题和内容
 
 - 对日历插件添加支持
 
@@ -259,17 +259,19 @@ title: 更改日志
 
 - 顶部center
 
-- 中间左边
+- Center左边
 
 -左边
 
 - 下边center
 
-- [See the documentation](../index.md)详情
+- [See the documentation](../index.md)[See the documentation](../index.md)详情
 
-## Version 0.2.x
+ 
 
-### Version 0.2.2 Layout styling
+^ 0版 (英语).2.
+
+QQ版本 0.2.布局样式
 
 - 固定双引号复选框背景颜色
 
@@ -277,52 +279,52 @@ title: 更改日志
 
 - 用于社区物品效应的小型结构调整
 
-- 添加卡片、工作空间布局角度选项
+- 加卡片,倾斜工作空间布局选项
 
 - 如果您想要改变布局, 需要重新装入或重新启动应用程序
 
 - Vim模式状态文本和状态栏模式(阅读/预览等)文本
-  有颜色选项 :
+有颜色选项 :
 
 - 默认切换
 
-- 为状态栏添加卡片、角度(受Powerlevel10k启发)样式
+- 加卡片,谢谢,倾斜(受到Powerlevel10k的启发)状态栏的样式
 
 - 影响vim模式状态文本
 
 - 添加状态栏字体大小选项
 
-### Version 0.2.1 Small Update
+QQ版本 0.2.小更新
 
 - 已删除的窗口动画,因为它们不是表演者。
 
 - 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color`将
-  在使用点名元数据时, 总是返回相同的颜色组合 。
+在使用点名元数据时, 总是返回相同的颜色组合 。
 
 - 使活动文件背景效果更加一致
 
 - 添加 ASCII 艺术线高度选项
 
-- 为点和网格编辑器添加 cssclass 背景选项
+- 已经添加了CSS 类用于点和网格编辑器的背景选项
 
 - 为内含标题添加样式选项
 
-### Version 0.2.0 Aesthetics Update
+QQ版本 0.2.美学最新情况
 
 - 添加点名垂直边距、边框半径选项
 
 - 添加图像边框半径选项
 
 - 添加扩展调色板(可作为点名元数据工具或用于
-  css变量)
+css变量)
 
 - 添加弹出点名词,改编自
-  [Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)[Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
 
 - 新注释、新文件夹等顶级动作的固定不透明
 
 - 为模式、提示和设置添加窗口动画。
-  从下列选项中选择 :
+从下列选项中选择 :
 
 - 无(默认行为的更正)
 
@@ -334,7 +336,7 @@ title: 更改日志
 
 - 向左滑动
 
-- 您也可以配置动画持续时间
+-  您也可以配置动画持续时间
 
 - 在阅读模式和编辑模式中切换属性显示的选项
 
@@ -348,11 +350,13 @@ title: 更改日志
 
 - 添加点和网格背景选项
 
--见[documentation](../index.md)详情
+-见[documentation](../index.md)[documentation](../index.md)详情
 
-## Version 0.1.x
+ 
 
-### Version 0.1.1 Hotfixes
+^ 0版 (英语).1.
+
+QQ版本 0.1.热补
 
 - 添加了修改 ASCII 复选框字体大小的选项
 
@@ -370,7 +374,7 @@ title: 更改日志
 
 - 媒体嵌入器现在有可设定的垂直边距
 
-### Version 0.1.0: Utilities Update
+QQ版本 0.1.: 公用事业最新情况
 
 - 添加对空格重复插件的支持
 
@@ -398,29 +402,29 @@ title: 更改日志
 
 - 大写、大写、小写标题和内容
 
-- RTL, LTR, (英语),中间标题和内容
+- 拉特尔,LTR Center标题和内容
 
 - 塔特加基语(普通RTL)
 
 - 纵向LTR
 
-- 为下列人员增加分类:
+- 已经添加了CSS 类(单位:千美元)
 
 - 塔特加基语(普通RTL)
 
 - 纵向LTR
 
--见[documentation](../index.md)详情
+-见[documentation](../index.md)[documentation](../index.md)详情
 
 功劳:
 
 - `@OWA/bennyyip`在 Obisidian 成员团体的Discord 上为 Tategaki 片段
 
-- `@Tuck`在 Obsidian Members 组 Discord 上,用于修改链接颜色的选项
+- `@Tuck`编辑Obsidian成员组 Discord 更改链接颜色的选项
 
-### Version 0.0.5: Minor Changes
+0.5版本:小改动
 
-- 使ASCII艺术响应,你可以设置字体大小 li光标打开
+- 使ASCII艺术响应,你可以设置字体大小限制
 
 - 状态栏不与命令模式输入文本重叠
 
@@ -431,3 +435,4 @@ title: 更改日志
 - 添加隐藏左侧丝带的选项
 
 - 增加对全球顶级行动进行协调的选项
+

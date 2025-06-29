@@ -7,88 +7,79 @@ tags:
 
 配置呼叫的样式
 
-接受格式: px、rem、em、s
+接受格式 : px,rem额,斯
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Callouts
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
-### Callout Icon Right padding
+右侧挂起图标
 
-目标CSS变量:`var(--flexcyon-callout-icon-right-padding)`
-
+CSS目标变量:`var(--flexcyon-callout-icon-right-padding)`
 默认: 4( px)
 
-### First Codeblock Margin Top
+第一个代码块边角
 
-目标CSS变量:`var(--flexcyon-callout-first-codeblock-margin-top)`
+CSS目标变量:`var(--flexcyon-callout-first-codeblock-margin-top)`
+默认:1 (rem
 
-默认:1(雷姆)
+QQ 点名元数据背景不透明
 
-### Callout Metadata Background Opacity
-
-目标CSS变量:`var(--flexcyon-callout-bg-opacity)`
-
+CSS目标变量:`var(--flexcyon-callout-bg-opacity)`
 默认:20%
 
 <span style="opacity: 20%"
 >背景样本 不透明度</span>
 
-### Callout Vertical Margin
+垂直边距
 
-目标CSS变量:`var(--flexcyon-callout-vertical-margin)`
-
+CSS目标变量:`var(--flexcyon-callout-vertical-margin)`
 默认:1(em)
 
-### Callout Border Radius
+* 点名边界半径
 
-目标CSS变量:`var(--callout-radius)`
-
+CSS目标变量:`var(--callout-radius)`
 默认: 2 (px)
 
  
-### Flashcard callout
+QQ 闪付卡
 
-配置[flashcard callout](../../../Callout-Metadata/flashcard.md)。
+配置[flashcard callout](../../../Callout-Metadata/flashcard.md)[flashcard callout](../../../Callout-Metadata/flashcard.md)。
 
-#### Flashcard callout width
+QQ 闪卡点名宽度
 
-目标CSS变量:`var(--flexcyon-callouts-flashcard-width)`
-
+CSS目标变量:`var(--flexcyon-callouts-flashcard-width)`
 默认: 250 (px)
 
-#### Flashcard callout height
+闪卡呼喊高度
 
-目标CSS变量:`var(--flexcyon-callouts-flashcard-height)`
-
+CSS目标变量:`var(--flexcyon-callouts-flashcard-height)`
 默认: 250 (px)
 
-#### Flashcard callout animation duration
+QQ 闪卡点火动画持续时间
 
-目标CSS变量:`var(--flexcyon-callout-flashcard-animation-duration)`
-
+CSS目标变量:`var(--flexcyon-callout-flashcard-animation-duration)`
 默认: 0. 5s
 
  
-### Popup callout
+### 弹出点名
 
-配置[popup callout](../../../Callout-Metadata/popup.md)
+配置[popup callout](../../../Callout-Metadata/popup.md)[popup callout](../../../Callout-Metadata/popup.md)
 
-#### Popup callout animation duration
+#### 弹出呼叫动画持续时间
 
-目标CSS变量:`var(--flexcyon-callout-pop-animation-duration)`
-
+CSS目标变量:`var(--flexcyon-callout-pop-animation-duration)`
 默认值: 0.2s
 

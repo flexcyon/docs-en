@@ -1,5 +1,5 @@
 ---
-title: Alineación vertical - LTR
+title: Vertical Alignment - LTR
 icon: material/align-horizontal-left
 ---
 

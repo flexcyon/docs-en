@@ -3,46 +3,44 @@ title: 属性
 icon: material/axis-arrow-info
 ---
 
-配置文件属性/元数据/YAML的CSS变量
+配置CSS属性/元数据/YAML档案。
+.
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Properties
-| | |-- ...
-| |-- ...
-|-- ...
+|   |-- Editor
+|   |   |-- 。
+|   |   |-- Properties
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
 接受格式: px
 
-### Do not show properties in reading mode
+### 在读取模式中不显示属性
 
-目标CSS变量:`var(--flexcyon-metadata-display-reading-disabled)`
-
+CSS目标变量:`var(--flexcyon-metadata-display-reading-disabled)`
 默认 :true(类切换)
 
-### Do not show properties in live preview mode
+### 不在直播预览模式下显示属性
 
-目标CSS变量:`var(--flexcyon-metadata-display-editing-disabled)`
-
+CSS目标变量:`var(--flexcyon-metadata-display-editing-disabled)`
 默认 :false(类切换)
 
-### Enable rainbow metadata icons
+启用彩虹元数据图标
 
-目标CSS变量:`var(--flexcyon-metadata-rainbow-icons)`
-
+CSS目标变量:`var(--flexcyon-metadata-rainbow-icons)`
 默认 :false(类切换)
 
-### Metadata container left padding
+左侧元数据容器
 
-目标CSS变量:`var(--flexcyon-meta-container-padding-left)`
-
+CSS目标变量:`var(--flexcyon-meta-container-padding-left)`
 默认: 14 (px)
+

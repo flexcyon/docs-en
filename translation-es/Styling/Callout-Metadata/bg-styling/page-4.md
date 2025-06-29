@@ -1,5 +1,5 @@
 ---
-title: Antecedentes púrpura
+title: Purple Background
 icon: material/layers-outline
 ---
 
@@ -12,3 +12,4 @@ Metadatos de llamada: "bg-purple"
 
 El estilo en sí se aplica también["all-purple"](../combined-styling/page-4.md)
 junto con["title-purple"](../title-styling/page-4.md).
+

@@ -1,5 +1,5 @@
 ---
-title: Porcentaje ascendente de íconos
+title: Upscale Percentage of Icons
 icon: material/emoticon-plus-outline
 ---
 

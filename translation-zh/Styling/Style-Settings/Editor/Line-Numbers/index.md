@@ -5,59 +5,54 @@ icon: material/line-scan
 
 配置行号和相对行号
 
-接受格式:HEX,%,x.y
+接受格式:HEX百分比,x.y
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Line Numbers
-| | |-- ...
-| |-- ...
-|-- ...
+|   |-- Editor
+|   |   |-- 。
+|   |   |-- Line Numbers
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
-### Enable Relative Line Numbers
+QQ 启用相对行号
 
-目标CSS变量:`var(--flexcyon-enable-rel-nums)`
-
+CSS目标变量:`var(--flexcyon-enable-rel-nums)`
 默认 :false(类切换)
 
-### Relative and normal line numbers on different lines
+* 不同线路的相对和正常行号
 
-目标CSS变量:`var(--flexcyon-no-num-with-relative)`
-
+CSS目标变量:`var(--flexcyon-no-num-with-relative)`
 默认 :false
 
-### Only display relative line numbers
+### 只显示相对行号
 
-目标CSS变量:`var(--flexcyon-relative-num-only)`
-
+CSS目标变量:`var(--flexcyon-relative-num-only)`
 默认 :false
 
-### Configure Relative Line Number Style
+### 配置相对行号样式
 
-目标CSS变量:`var(--flexcyon-roman-rel-nums)`,
+CSS目标变量:`var(--flexcyon-roman-rel-nums)`, (中文).
+,
 `var(--flexcyon-roman-greek-nums), var(--flexcyon-roman-chinese-nums)`
-
 默认: 无( 类切换)
 选项 :
 
--罗曼语 -希腊语
-
+-罗曼语
+-希腊语
 - 中国语
 
-### Active Line Numbers inherits Relative Line Number Style
+QQ 活动行号继承相对行号样式
 
-目标CSS变量:`var(--flexcyon-active-inherits-rel-num)`
-
+CSS目标变量:`var(--flexcyon-active-inherits-rel-num)`
 默认 :false
-
-> Do note that I have to get creative for Greek and Roman as they do not
-> exactly have letters or numbers before I or alpha.
+> 请注意,我必须获得创造 希腊和罗马,因为他们没有
+> 完全有字母或数字 之前我或阿尔法。

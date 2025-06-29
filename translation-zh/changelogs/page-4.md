@@ -3,10 +3,10 @@ title: 版本0.4.x
 icon: material/numeric-4-box-outline
 ---
 
-### Version 0.4.0 Light Mode Update
+QQ版本 0.4.轻模式更新
 
 - 修改侧边栏背景亮度设置为`unset`。
-  以前引起诸如模糊卡伦德插件内容之类的问题
+以前引起诸如模糊卡伦德插件内容之类的问题
 
 - WIP灯主题(混合弹性灯+折纸彩色调色板)
 
@@ -17,7 +17,7 @@ icon: material/numeric-4-box-outline
 - 添加表头大小选项
 
 - 更新文档,以显示应用的颜色/不透明小预览
-  主题
+主题
 
 - 增加了主题功能的网络展示
 
@@ -31,7 +31,7 @@ icon: material/numeric-4-box-outline
 
 - 返回零(极端最小化模式),灵感来自Simmering Focus
 
-### Version 0.4.1 Quickfix Update
+QQ版本 0.4.快补更新
 
 - 在光线模式下修复 TUI 渲染
 
@@ -41,11 +41,11 @@ icon: material/numeric-4-box-outline
 
 - 修复未显示的嵌套
 
-### Version 0.4.2 Relative Line Numbers
+QQ版本 0.4.相对行号
 
 - 被清除的复活节鸡蛋 模式类
 - 使用文件行宽度设置`cssclasses`
-- 在https://flexcyon-docs.readthedocs.io/zh-cne/latest/ 提供翻译的新文件网站
+- https://flexcyon-docs翻译的新文件网址.readthedocs.io/en/latest/ (中文(简体) ).
 - 旧文件贬值
 - 固定灯光模式背景颜色和主动行沟
 - 由Shimmering Focus改编的相对行号
@@ -56,7 +56,7 @@ icon: material/numeric-4-box-outline
 - 与TUI的固定背景颜色问题
 - 添加全局写入模式选项
 
-### Version 0.4.3 Rainbow Repair
+QQ版本 0.4.彩虹维修
 
 - 固定彩虹子弹清单、彩虹文件夹、副码头图标效应
 - 添加配置树项的样式设置选项
@@ -65,8 +65,7 @@ icon: material/numeric-4-box-outline
 - 持续时间、计时功能、最小宽度
 - 固定维姆 要使用的状态`var(--font-ui-medium)`默认
 
-### Version 0.4.4 Consistencies Update
-
+QQ版本 0.4.内容更新
 - 修补脚注对齐
 - 修正项目列表对齐
 - 已更改的默认突出显示颜色

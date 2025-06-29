@@ -1,5 +1,5 @@
 ---
-title: Título Bar
+title: Title Bar
 icon: material/format-text-variant-outline
 ---
 

@@ -12,6 +12,6 @@ icon: material/align-horizontal-center
 > Content is shown as usual
 ```
 
-样式本身也适用于["center-all"](../combined-styling/page-13.md)
-页:1["center-content"](../content-styling/page-3.md)。
+样式本身也适用于["center-all"](../combined-styling/page-13.md)["center-all"](../combined-styling/page-13.md)
+页:1["center-content"](../content-styling/page-3.md)["center-content"](../content-styling/page-3.md)。
 

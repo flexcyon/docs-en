@@ -6,40 +6,40 @@ title: 工具和软件
 下列工具和软件对主题的形成不可或缺:
 及其文件资料。
 
-### Base application
+### 基础应用程序
 
-- 犹太教
+- Obsidian
 
-### Web Showcase
+QQ 网络显示大小写
 
-- Absidian 共享注释插件
+- Obsidian共享注释插件
 
-### Web Technologies
+网络技术
 
-- CSS系统
+- CSS
 
-- 最高委员会
+- SCSS
 
-### Text Editors
+QQ 文本编辑器
 
 - 维姆
 
 - VS代码
 
-### Version Control
+QQ 版本控制
 
-- 吉尔
+- Git
 
-- GitHub (英语)
+- GitHub
 
-### Documentation
+• 文件
 
-- 麦克道克
+- MkDocs
 
 - 和令人惊叹的生态系统 围绕它建立
 
-- MkDocs的材料
+- Material(单位:千美元)MkDocs
 
-- 读《Docs》
+- ReadTheDocs
 
-- 吉斯库斯
+- Giscus

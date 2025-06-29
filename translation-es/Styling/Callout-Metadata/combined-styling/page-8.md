@@ -1,5 +1,5 @@
 ---
-title: Todo naranja
+title: All Orange
 icon: material/format-color-fill
 ---
 

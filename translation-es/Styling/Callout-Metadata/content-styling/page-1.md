@@ -1,5 +1,5 @@
 ---
-title: Contenido RTL
+title: RTL Content
 icon: material/align-horizontal-right
 ---
 

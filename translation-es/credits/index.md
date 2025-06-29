@@ -1,6 +1,6 @@
 ---
 icon: material/heart
-title: Créditos
+title: Credits
 ---
 
 Un gran grito a Daniel
@@ -55,5 +55,5 @@ reglas horizontales
 -[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)tema
 para el modo RTZ y el estilo rápido
 
-\_\_
-Por último, pero no menos importante, _usted_ para usar el tema y leer la documentación:D
+__
+Por último, pero no menos importante, *usted* para usar el tema y leer la documentación:D

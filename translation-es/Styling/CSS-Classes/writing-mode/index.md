@@ -1,5 +1,5 @@
 ---
-title: Modo de escritura
+title: Writing Mode
 icon: material/keyboard
 ---
 
@@ -9,12 +9,13 @@ Agrega el texto indent y el párrafo aumentado espaciamiento a su editor. El tam
 ajustado en configuración de estilo.
 
 ```md
-cssclasses: - editor-writing
-
+cssclasses:
+    - editor-writing
 ---
 
-Your content will have increased text indent and paragraph spacing
+Your content will have increased text indent and paragraph spacing 
 ```
+
 
 ## Callout metadata provider
 
@@ -22,6 +23,7 @@ There is also a callout metadata provider for writing (which works in live previ
 and reading mode)
 
 ```md
-> [!note|writing] I will display as usual
-> I will have increased text indent and paragraph spacing
+>[!note|writing] I will display as usual
+> I will have increased text indent and paragraph spacing 
 ```
+

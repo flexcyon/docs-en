@@ -1,5 +1,5 @@
 ---
-title: Editor
+title: Editor Background
 icon: material/layers-edit
 ---
 

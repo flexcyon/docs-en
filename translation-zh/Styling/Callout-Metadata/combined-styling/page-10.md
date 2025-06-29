@@ -10,12 +10,10 @@ icon: material/palette-outline
 this theme
 > The background color will be the color mix of red and blue colors of this theme
 ```
-> Shorthand for both ["bg-color1-color2"](../bg-styling/page-10.md) and ["title-color1-color2"](../title-styling/page-10.md)
+> 两者的简称["bg-color1-color2"](../bg-styling/page-10.md)["bg-color1-color2"](../bg-styling/page-10.md)和["title-color1-color2"](../title-styling/page-10.md)["title-color1-color2"](../title-styling/page-10.md)
 
-也可以在自己的css片段中使用这种颜色,其形式为:
-> - `var(--color-color1-color2-mix)`: E.g. `var(--color-red-blue-mix)`
-> - `var(--color-color1-color2-mix-bg)`: E.g. `var(--color-red-blue-mix-bg)`
-
-
-要求[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette) 
+也可以用这种颜色css片段的形式是:
+> - `var(--color-color1-color2-mix)`页:1.`var(--color-red-blue-mix)`
+> - `var(--color-color1-color2-mix-bg)`页:1.`var(--color-red-blue-mix-bg)`
+要求[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette) 
 开始

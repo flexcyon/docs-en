@@ -14,3 +14,4 @@ Usage:
 
 El estilo en sí se aplica también["line-through-all"](../combined-styling/page-23.md)
 junto con["line-through-title"](../title-styling/page-23.md).
+

@@ -1,5 +1,5 @@
 ---
-title: Espacio de trabajo
+title: Workspace
 icon: material/layers-triple-outline
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Capitalizar a todos
+title: Capitalize All
 icon: material/caps-lock
 ---
 

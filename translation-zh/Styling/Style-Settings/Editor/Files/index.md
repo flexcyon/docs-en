@@ -5,32 +5,30 @@ icon: material/file-cog
 
 配置文件树和文件夹样式。
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Files
-| | |-- ...
-| |-- ...
-|-- ...
+|   |-- Editor
+|   |   |-- 。
+|   |   |-- Files
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
-### Enable dimmed file extensions in file explorer
+### 在文件探索器中启用 dimmed 文件扩展名
 
-目标CSS变量:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
-
+CSS目标变量:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 默认 :true(类切换)
 
-### Select folder style
+### 选择文件夹样式
 
-CSS类目标:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
-
+CSS目标类别:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 默认: 无( 类选择)
 
 选项 :
@@ -39,26 +37,23 @@ CSS类目标:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-m
 - 替代文件夹样式
 - Markdown 文件树样式
 
-### Colour background instead of text for rainbow folders
+### 彩虹文件夹的颜色背景而非文本
 
-CSS类目标:`var(--flexcyon-is-bg-rainbow)`
-
+CSS目标类别:`var(--flexcyon-is-bg-rainbow)`
 默认 :false
 
-### Enable minimalist trees
+启用最小化树
 
-目标CSS变量:`var(--flexcyon-minimalist-tree)`
-
+CSS目标变量:`var(--flexcyon-minimalist-tree)`
 默认 :false(类切换)
 
-### Vertical Tree Item Padding
+垂直树条
 
-CSS类目标:`var(--flexcyon-tree-item-verti-padding)`
-
+CSS目标类别:`var(--flexcyon-tree-item-verti-padding)`
 默认: 0.75 (px)
 
-### Horizontal Tree Item Padding
+水平树项
 
-CSS类目标:`var(--flexcyon-tree-item-horiz-padding)`
-
+CSS目标类别:`var(--flexcyon-tree-item-horiz-padding)`
 默认: 8 (px)
+

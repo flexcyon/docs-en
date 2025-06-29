@@ -1,5 +1,5 @@
 ---
-title: Todo azul
+title: All Blue
 icon: material/format-color-fill
 ---
 

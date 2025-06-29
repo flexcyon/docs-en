@@ -13,5 +13,6 @@ icon: material/card-text-outline
 > which will show on hover
 ```
 
-[Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout)
-for configuration options.
+[Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout)[Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout) 
+用于配置选项。
+.

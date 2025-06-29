@@ -1,9 +1,9 @@
 ---
-title: 标题3
+title: 标题3 标题
 icon: material/format-header-3
 ---
 
-点名元数据: "h3- title"
+点名元数据: "h3标题"
 
 用法 :
 

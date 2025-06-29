@@ -11,6 +11,6 @@ icon: material/format-text-variant
 > [!info|oblique-all] The title will be displayed as oblique
 > The content will be displayed as oblique
 ```
-> Shorthand for both ["oblique-content"](../content-styling/page-9.md)
-> and ["oblique-title"](../title-styling/page-19.md)
+> 两者的简称["oblique-content"](../content-styling/page-9.md)["oblique-content"](../content-styling/page-9.md)
+> 和["oblique-title"](../title-styling/page-19.md)["oblique-title"](../title-styling/page-19.md)
 

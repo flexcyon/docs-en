@@ -47,7 +47,9 @@ Default: 70 (vh)
 ### Prompt alignment
 
 CSS Classe(s) targeted: `.flexcyon-prompt-align-bottom-left,
-.flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-left,
+,
+.flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-izquierda,
+,
 .flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`
 
 Predeterminado: ninguno (clase selecto)
@@ -55,7 +57,7 @@ Opciones:
 
 - Arriba a la izquierda
 - Topcenter
-  -Centerizquierda
+-Centerizquierda
 - El fondo izquierdo
 - Bottomcenter
 

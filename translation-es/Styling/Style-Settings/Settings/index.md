@@ -1,5 +1,5 @@
 ---
-title: Ajustes
+title: Settings
 icon: material/cogs
 ---
 
@@ -13,9 +13,9 @@ Formatos aceptados: x.y, rem, px
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- ...
-| |-- Settings
-| |-- ...
+|   |-- ...
+|   |-- Settings
+|   |-- ...
 |-- ...
 ```
 
@@ -46,8 +46,7 @@ CSS Variable(s) targeted:`var(--flexcyon-comm-item-opacity)`
 Predeterminado: 0.89
 
 <span style="opacity: 0.89"
-
-> Muestra opacidad de los elementos comunitarios (no seleccionados)</span>
+>Muestra opacidad de los elementos comunitarios (no seleccionados)</span>
 
 ### Installed tooltip left margin
 
@@ -67,7 +66,7 @@ CSS Variable(s) targeted:`var(--flexcyon-enable-alt-active-item-effect)`
 
 Default:true(de clase)
 
-\_\_
+__
 
 ### Style Settings
 
@@ -86,3 +85,4 @@ Predeterminado: 4 (px)
 CSS Variable(s) targeted:`var(--flexcyon-style-settings-dim-collapsed-headings)`
 
 Default:true
+

@@ -30,13 +30,13 @@ Default:true
 
 CSS Classe(s) targeted:`var(--flexcyon-cursor-duration)`
 
-Default: 95 (ms)
+Por defecto: 95 ms
 
 ### Smooth cursor timing function
 
 CSS Classe(s) targeted:`var(--flexcyon-cursor-timing-fn)`
 
-Default: ease
+Predeterminado: facilidad
 
 ### Smooth cursor minimum width
 

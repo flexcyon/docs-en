@@ -1,5 +1,5 @@
 ---
-title: Peso de la fuente Todos
+title: Font weight All
 icon: material/format-bold
 ---
 

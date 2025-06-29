@@ -1,12 +1,12 @@
 ---
-title: Versión 0.4.x
+title: Version 0.4.x
 icon: material/numeric-4-box-outline
 ---
 
 ### Version 0.4.0 Light Mode Update
 
 - Cambio de la barra lateral de fondo de brillo predeterminado a`unset`.
-  Antes estaba causando problemas como borroso contenido de plugin de Calender.
+Antes estaba causando problemas como borroso contenido de plugin de Calender.
 
 - Tema ligero WIP (mixes flexoki light + paleta de colores origami)
 
@@ -17,7 +17,7 @@ icon: material/numeric-4-box-outline
 - opción de tamaño de la cabecera de mesa
 
 - Documentación actualizada para mostrar una pequeña vista previa de colores/opacidad aplicada por
-  el tema
+el tema
 
 - Muestra web agregada de las características del tema
 
@@ -66,7 +66,6 @@ icon: material/numeric-4-box-outline
 - Vim fijo Mode Status to use`var(--font-ui-medium)`por defecto
 
 ### Version 0.4.4 Consistencies Update
-
 - Corrección de la nota de pie de página
 - Corrección de alineación de la lista de balas
 - Color resaltado por defecto cambiado

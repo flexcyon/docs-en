@@ -1,5 +1,5 @@
 ---
-title: Funda baja
+title: Lowercase All
 icon: material/format-letter-case-lower
 ---
 

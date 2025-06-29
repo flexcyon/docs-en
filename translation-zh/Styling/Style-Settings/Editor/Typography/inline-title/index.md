@@ -5,43 +5,40 @@ icon: material/format-underline-wavy
 
 接受格式: em, 数字
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Typography
-|   |   |   |-- ...
+|   |   |   |-- 。
 |   |   |   |-- Inline title
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |   |-- 。
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
 <span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
 内置标题样本</span>
 
-### Inline title font size
+### 内嵌标题字体大小
 
-目标CSS变量:`var(--inline-title-size)`
+CSS目标变量:`var(--inline-title-size)`
+默认 :1.02(他们)
 
-默认: 1.802(em)
+### 内含标题字体重量
 
-### Inline title font weight
-
-目标CSS变量:`var(--inline-title-weight)`
-
+CSS目标变量:`var(--inline-title-weight)`
 默认: 700
 
-### Inline title font height
+### 内嵌标题字体高度
 
-目标CSS变量:`var(--inline-title-height)`
-
-默认: 1.2
+CSS目标变量:`var(--inline-title-height)`
+默认 :1.
 

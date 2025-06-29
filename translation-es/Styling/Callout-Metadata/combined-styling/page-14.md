@@ -1,5 +1,5 @@
 ---
-title: Caso superior
+title: Uppercase All
 icon: material/format-letter-case-upper
 ---
 

@@ -11,12 +11,11 @@ icon: material/layers-off-outline
 > [!warning|transparent-bg] The background color will be transparent
 > Content and title is shown as usual
 ```
-
 或
-
 ```md
 > [!warning|bg-transparent] The background color will be transparent
 > Content and title is shown as usual
 ```
 
 也会这样
+

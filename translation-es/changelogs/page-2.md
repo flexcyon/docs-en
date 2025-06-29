@@ -1,5 +1,5 @@
 ---
-title: Versión 0.2.x
+title: Version 0.2.x
 icon: material/numeric-2-box-outline
 ---
 
@@ -10,15 +10,15 @@ icon: material/numeric-2-box-outline
 - Opción de radio de la imagen agregada
 
 - Paleta de color extendida (puede utilizarse como fuentes de metadatos de llamada o en
-  variables css)
+variables css)
 
 - Llamada popup agregada, adaptada a
-  [Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
 
 - Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 
 - Animaciones de ventana agregadas para modals, impulsos y ajustes.
-  Elija entre las siguientes opciones:
+Elija entre las siguientes opciones:
 
 - Ninguna (Revierte al comportamiento predeterminado)
 
@@ -52,7 +52,7 @@ para más detalles
 - Animaciones de ventana eliminadas ya que no son performant.
 
 - Colores extendidos actualizados para que`*-color1-color2`y`*-color-2-color`
-  siempre devolverá la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
+siempre devolverá la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
 
 - Efecto activo de fondo de archivos más consistente
 
@@ -75,7 +75,7 @@ para más detalles
 - Necesidad de volver a cargar o reiniciar la aplicación si desea cambiar los diseños
 
 - Texto del estado del modo Vim y modo de barra de estado (leer / vista previa en vivo etc) texto ahora
-  tiene una opción de color:
+tiene una opción de color:
 - Desactivado por defecto
 - Añadir tarjeta, en ángulo (inspirado por Powerlevel10k) estilos para barra de estado
 - Afecta el texto del estado del modo vim también

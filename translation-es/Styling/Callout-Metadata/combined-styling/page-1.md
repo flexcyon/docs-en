@@ -1,5 +1,5 @@
 ---
-title: Vacío
+title: Empty
 icon: material/cancel
 ---
 

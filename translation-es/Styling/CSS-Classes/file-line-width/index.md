@@ -1,5 +1,5 @@
 ---
-title: Línea de archivos Width
+title: File Line Width
 icon: material/arrow-expand-horizontal
 ---
 

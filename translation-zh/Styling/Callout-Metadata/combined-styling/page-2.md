@@ -9,6 +9,6 @@ icon: material/format-color-fill
 > [!tip|all-blue] Title will be blue
 > The background color will be blue
 ```
-> Shorthand for both ["bg-blue"](../bg-styling/page-2.md)
-> and ["title-blue"](../title-styling/page-2.md)
+> 两者的简称["bg-blue"](../bg-styling/page-2.md)["bg-blue"](../bg-styling/page-2.md)
+> 和["title-blue"](../title-styling/page-2.md)["title-blue"](../title-styling/page-2.md)
 

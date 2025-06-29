@@ -13,13 +13,13 @@ Formatos aceptados: px, número, rem
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Typography
-| | | |-- Headings
-| | | |-- ...
-| | |-- ...
-| |-- ...
+|   |-- Editor
+|   |   |-- ...
+|   |   |-- Typography
+|   |   |   |-- Headings
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
 |-- ...
 ```
 
@@ -30,7 +30,6 @@ Style Settings
 CSS Variable(s) targeted:`var(--flexcyon-headings-coloured-enabled)`
 
 Default:true(de clase)
-
 > Inherits from accent colors like `--color-blue`, `--color-red` etc
 
 ### Enable soft glow for headings
@@ -49,7 +48,6 @@ Si usted está buscando aplicarlos en una base por nota,[click here](../../../..
 CSS Variable(s) targeted:`var(--flexcyon-headings-indicator-h1)`
 
 Default:false(de clase)
-
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-1.md)
 
 #### For Heading 2
@@ -57,7 +55,6 @@ Default:false(de clase)
 CSS Variable(s) targeted:`var(--flexcyon-headings-indicator-h2)`
 
 Default:false(de clase)
-
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-2.md)
 
 #### For Heading 3
@@ -65,7 +62,6 @@ Default:false(de clase)
 CSS Variable(s) targeted:`var(--flexcyon-headings-indicator-h3)`
 
 Default:false(de clase)
-
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-3.md)
 
 #### For Heading 4
@@ -73,7 +69,6 @@ Default:false(de clase)
 CSS Variable(s) targeted:`var(--flexcyon-headings-indicator-h4)`
 
 Default:false(de clase)
-
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-4.md)
 
 #### For Heading 5
@@ -81,7 +76,6 @@ Default:false(de clase)
 CSS Variable(s) targeted:`var(--flexcyon-headings-indicator-h5)`
 
 Default:false(de clase)
-
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-5.md)
 
 #### For Heading 6
@@ -89,10 +83,9 @@ Default:false(de clase)
 CSS Variable(s) targeted:`var(--flexcyon-headings-indicator-h6)`
 
 Default:false(de clase)
-
 > The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-6.md)
 
-\_\_
+__
 
 ### Font size
 
@@ -150,7 +143,7 @@ Default: 1 (em)
 <h6 style="font-weight: 575; font-size: 1em;"
 >Muestra h6</h6>
 
-\_\_
+__
 
 ### Font weight
 
@@ -208,7 +201,7 @@ Predeterminado: 575
 <h6 style="font-weight: 575; font-size: 1em;"
 >Muestra h6</h6>
 
-\_\_
+__
 
 ### Line Height
 
@@ -248,7 +241,7 @@ CSS Variable(s) targeted:`var(--h6-line-height)`
 
 Predeterminado: 1.5
 
-\_\_
+__
 
 ### Underline
 
@@ -257,7 +250,6 @@ Predeterminado: 1.5
 CSS Variable(s) targeted:`var(--flexcyon-h1-underline-enabled)`
 
 Default:false(de clase)
-
 > The size of the underline scales with your font weight
 
 #### Enable underline for Heading 2

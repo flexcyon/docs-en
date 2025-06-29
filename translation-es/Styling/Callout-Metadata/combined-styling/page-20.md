@@ -1,5 +1,5 @@
 ---
-title: ¡Todos
+title: Dashed All
 icon: material/format-color-text
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Números de línea
+title: Line Numbers
 icon: material/line-scan
 ---
 
@@ -13,11 +13,11 @@ Formatos aceptados: HEX, %, x.y
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Line Numbers
-| | |-- ...
-| |-- ...
+|   |-- Editor
+|   |   |-- ...
+|   |   |-- Line Numbers
+|   |   |-- ...
+|   |-- ...
 |-- ...
 ```
 
@@ -44,6 +44,7 @@ Default:false
 ### Configure Relative Line Number Style
 
 CSS Variable(s) targeted:`var(--flexcyon-roman-rel-nums)`,
+,
 `var(--flexcyon-roman-greek-nums), var(--flexcyon-roman-chinese-nums)`
 
 Default: ninguno (clase toggle)
@@ -58,6 +59,5 @@ Opciones:
 CSS Variable(s) targeted:`var(--flexcyon-active-inherits-rel-num)`
 
 Default:false
-
 > Do note that I have to get creative for Greek and Roman as they do not
 > exactly have letters or numbers before I or alpha.

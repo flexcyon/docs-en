@@ -1,5 +1,5 @@
 ---
-title: Índice
+title: Lowercase Content
 icon: material/format-letter-case-lower
 ---
 
@@ -14,3 +14,4 @@ Usage:
 
 El estilo en sí se aplica también["lowercase-all"](../combined-styling/page-15.md)
 junto con["lowercase-title"](../title-styling/page-15.md).
+

@@ -1,5 +1,5 @@
 ---
-title: LTR 数据 全体
+title: LTR 代码 全体
 icon: material/align-horizontal-left
 ---
 
@@ -11,5 +11,5 @@ icon: material/align-horizontal-left
 > [!info|ltr-all] The title will be displayed as ltr
 > The content will be displayed as ltr
 ```
-> Shorthand for both ["ltr-content"](../content-styling/page-2.md)
-> and ["ltr-title"](../title-styling/page-12.md)
+> 两者的简称["ltr-content"](../content-styling/page-2.md)["ltr-content"](../content-styling/page-2.md)
+> 和["ltr-title"](../title-styling/page-12.md)["ltr-title"](../title-styling/page-12.md)

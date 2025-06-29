@@ -1,5 +1,5 @@
 ---
-title: Índice
+title: Italic Content
 icon: material/format-italic
 ---
 
@@ -14,3 +14,4 @@ Usage:
 
 El estilo en sí se aplica también["italic-all"](../combined-styling/page-18.md)
 junto con["italic-title"](../title-styling/page-18.md).
+

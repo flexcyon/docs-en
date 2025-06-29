@@ -1,5 +1,5 @@
 ---
-title: Índice
+title: Uppercase Content
 icon: material/format-letter-case-upper
 ---
 
@@ -14,3 +14,4 @@ Usage:
 
 El estilo en sí se aplica también["uppercase-all"](../combined-styling/page-14.md)
 junto con["uppercase-title"](../title-styling/page-14.md).
+

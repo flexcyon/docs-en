@@ -1,5 +1,5 @@
 ---
-title: Capitalizar el título
+title: Capitalize Title
 icon: material/caps-lock
 ---
 
@@ -14,3 +14,4 @@ Usage:
 
 El estilo en sí se aplica también["caps-all"](../combined-styling/page-16.md)
 junto con["caps-content"](../content-styling/page-6.md).
+

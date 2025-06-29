@@ -1,5 +1,5 @@
 ---
-title: Índice general
+title: Overline Content
 icon: material/format-overline
 ---
 
@@ -14,3 +14,4 @@ Usage:
 
 El estilo en sí se aplica también["overline-all"](../combined-styling/page-21.md)
 junto con["overline-title"](../title-styling/page-21.md).
+

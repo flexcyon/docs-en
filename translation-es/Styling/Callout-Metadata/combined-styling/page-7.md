@@ -1,5 +1,5 @@
 ---
-title: Todos verdes
+title: All Green
 icon: material/format-color-fill
 ---
 

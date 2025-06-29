@@ -1,5 +1,5 @@
 ---
-title: Listas ordenadas + no ordenadas
+title: Ordered + Unordered Lists
 icon: material/format-list-bulleted-type
 ---
 > `li-style_type`

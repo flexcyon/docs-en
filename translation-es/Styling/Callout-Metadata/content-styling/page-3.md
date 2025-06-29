@@ -1,5 +1,5 @@
 ---
-title: Índice
+title: Center Content
 icon: material/align-horizontal-center
 ---
 
@@ -14,3 +14,4 @@ Usage:
 
 El estilo en sí se aplica también["center-all"](../combined-styling/page-13.md)
 junto con["center-title"](../title-styling/page-13.md).
+

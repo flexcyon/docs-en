@@ -1,5 +1,5 @@
 ---
-title: Propiedades
+title: Properties
 icon: material/axis-arrow-info
 ---
 
@@ -11,11 +11,11 @@ Configura variables CSS para propiedades/metadatos/YAML de archivos.
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Properties
-| | |-- ...
-| |-- ...
+|   |-- Editor
+|   |   |-- ...
+|   |   |-- Properties
+|   |   |-- ...
+|   |-- ...
 |-- ...
 ```
 
@@ -46,3 +46,4 @@ Default:false(de clase)
 CSS Variable(s) targeted:`var(--flexcyon-meta-container-padding-left)`
 
 Predeterminado: 14 (px)
+

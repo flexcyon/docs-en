@@ -9,67 +9,61 @@ icon: material/dots-horizontal
 
 接受格式: px
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
-| |-- ...
-| |-- Others
+|   |-- 。
+|   |-- Others
 ```
+□ 配置选项
 
-## Configuration Options
+虚拟文本
 
-### Vim Mode Text
+#### 启用维姆 模式文本
 
-#### Enable Vim Mode Text
-
-目标CSS变量:`var(--flexcyon-vim-mode-text-enable)`
-
+CSS目标变量:`var(--flexcyon-vim-mode-text-enable)`
 默认 :true(类切换)
 
-#### Vim mode text left positioning
+#### Vim 模式左侧文本定位
 
-目标CSS变量:`var(--flexcyon-vim-mode-left-positioning)`
-
+CSS目标变量:`var(--flexcyon-vim-mode-left-positioning)`
 默认: 6 (px)
 
-#### Vim mode text bottom positioning
+#### Vim 模式文本底部定位
 
-目标CSS变量:`var(--flexcyon-vim-mode-left-positioning)`
-
+CSS目标变量:`var(--flexcyon-vim-mode-left-positioning)`
 默认 : - 4 (px)
 
-#### Insert Mode Text
+插入模式文本
 
-目标CSS变量:`var(--flexcyon-vim-insert-text)`
-
+CSS目标变量:`var(--flexcyon-vim-insert-text)`
 默认: "INSERT"
 
-#### Normal Mode Text
+普通模式文本
 
-目标CSS变量:`var(--flexcyon-vim-normal-text)`
-
+CSS目标变量:`var(--flexcyon-vim-normal-text)`
 默认: "NORMAL"
 
-#### Command Mode Text
+QQ 命令模式文本
 
-目标CSS变量:`var(--flexcyon-vim-command-text)`
-
+CSS目标变量:`var(--flexcyon-vim-command-text)`
 默认: "COMMAND"
 
-### New Tab Appearance
+ 
+
+新标签外观
 
 自定义新空标签的占位
 
 接受格式: px
 
-#### Add before empty state title
+#### 在空状态标题前添加
 
-CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
-
-> Changing this may take an app reload/restart to take effect
+CSS目标类别:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
+> 更改此选项可能要重新装入/ 重新启动才能生效
 
 默认: 无( 类选择)
 选项 :
@@ -77,305 +71,261 @@ CSS类目标:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 - ASCII艺术
 - 引语
 
-#### Background for add before empty state title
+#### 在空状态标题前添加的背景
 
-目标CSS变量:`var(--flexcyon-new-tab-bg-wrapper)`
-
+CSS目标变量:`var(--flexcyon-new-tab-bg-wrapper)`
 默认 :`linear-gradient(to right, var(--text-accent), var(--color-blue), var(--color-cyan))`
+引用
 
-#### Quote
-
-目标CSS变量:`var(--flexcyon-quote-val)`
-
+CSS目标变量:`var(--flexcyon-quote-val)`
 默认: ""
 
-#### Quote font size
+#### 引用字体大小
 
-目标CSS变量:`var(--flexcyon-quote-font-size)`
-
+CSS目标变量:`var(--flexcyon-quote-font-size)`
 默认: 24 (px)
+> 换行符作为`\a`和`\`以`\\`
+ASCII艺术
 
-> Line breaks are escaped as `\a` and `\` is escaped as `\\`
-
-#### ASCII Art
-
-目标CSS变量:`var(--flexcyon-ascii-art)`
-
+CSS目标变量:`var(--flexcyon-ascii-art)`
 默认 :
-
 ```md
 " \a\
- ******\_\_\_****** \a\
- **\_ \_\_**/** /**\_\_**** ****\_\_\_\_**** ******\_\_****** \a\
- ** /\_ ** /\_ _ \\_ |/\_/ **_/_ / / / ** \\_ \_\_ \\ \a\
- _ **/ \_ / / **/\_
-
-> < / /\_\_ _ /_/ // /\_/ / / / / \a\
-
+    _______________                                       \a\
+    ___  ____/__  /________  ____________  ______________ \a\
+    __  /_   __  /_  _ \\_  |/_/  ___/_  / / /  __ \\_  __ \\ \a\
+    _  __/   _  / /  __/_
+>  < / /__ _  /_/ // /_/ /  / / / \a\
     /_/      /_/  \\___//_/|_| \\___/ _\\__, / \\____//_/ /_/ \a\
                                     /____/                \a\a\a "
 ```
+> ASCII 艺术串需要逃脱CSS换成这样,换行就是
+> 以`\a`和`\`以`\\`
+ASCII 艺术字体大小限制
 
-> The ASCII art string needs to be escaped for CSS to render it, line breaks are
-> escaped as `\a` and `\` is escaped as `\\`
-
-#### ASCII art font size limit
-
-目标CSS变量:`var(--flexcyon-ascii-max-font-size)`
-
+CSS目标变量:`var(--flexcyon-ascii-max-font-size)`
 默认: 14 (px)
 
-#### ASCII art line height
+ASCII 艺术线高度
 
-目标CSS变量:`var(--flexcyon-ascii-line-height)`
-
-> Changes line height for quote as welll
+CSS目标变量:`var(--flexcyon-ascii-line-height)`
+> 更改引用的行高 welll
 
 默认:1
 
-#### Disable Empty State title
+#### 禁用空状态标题
 
-目标CSS变量:`var(--flexcyon-empty-state-title-disable)`
-
+CSS目标变量:`var(--flexcyon-empty-state-title-disable)`
 默认 :true(类切换)
 
-#### Disable Empty State Actions
+#### 禁用空状态动作
 
-目标CSS变量:`var(--flexcyon-empty-state-actions-disable)`
-
+CSS目标变量:`var(--flexcyon-empty-state-actions-disable)`
 默认 :false(类切换)
 
-### Side Dock Icons
+ 
+
+### 边停靠图标
 
 配置侧对接图标
 
-#### Enable side dock icon effects
-
-> Rainbow effect on hover
-> 目标CSS变量:`var(--flexcyon-sidedock-icon-effects)`
-
+#### 启用侧对接图标效果
+> 悬浮的彩虹效应
+CSS目标变量:`var(--flexcyon-sidedock-icon-effects)`
 默认 :true(类切换)
 
-#### Hide the side dock ribbon
+#### 隐藏侧对接丝带
 
-目标CSS变量:`var(--flexcyon-sidedock-ribbon-hidden)`
-
+CSS目标变量:`var(--flexcyon-sidedock-ribbon-hidden)`
 默认 :false(类切换)
 
-### Tooltip radius
+ 
+
+* 工具提示半径
 
 配置工具提示半径
 
-#### Small radius
+#### 小半径
 
-目标CSS变量:`var(--radius-s)`
-
+CSS目标变量:`var(--radius-s)`
 默认: 2 (px)
 
-#### Medium radius
+#### 中半径
 
-目标CSS变量:`var(--radius-m)`
-
+CSS目标变量:`var(--radius-m)`
 默认: 4( px)
 
-#### Large radius
+####Large半径
 
-目标CSS变量:`var(--radius-l)`
-
+CSS目标变量:`var(--radius-l)`
 默认: 6 (px)
 
-#### Extra large radius
+____________________ 额外large半径
 
-目标CSS变量:`var(--radius-xl)`
-
+CSS目标变量:`var(--radius-xl)`
 默认: 8 (px)
 
-### Sidebar Background
+ 
+
+++ 侧边栏背景
 
 在左右侧边栏配置背景图像。
 
 接受格式: px,%
 
-#### Select background in sidebar
+#### 在侧边栏选择背景
 
-CSS类目标:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-bg-rhombus`
-
-> Overrides background image declaration below, configures in both left and
-> right sidebar
+CSS目标类别:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-bg-rhombus`
+> 覆盖下面的背景图像声明,在左侧和左侧配置
+> 右侧边栏
 
 默认: 无( 类选择)
 选项 :
 
 - 绳子
-- 点缀 -罗姆布斯
+- 点缀
+-罗姆布斯
 
-#### Left sidebar background image url
+#### 左侧边栏背景图像 URL
 
-目标CSS变量:`var(--flexcyon-bg-image-sidebar-left-url)`
-
+CSS目标变量:`var(--flexcyon-bg-image-sidebar-left-url)`
 默认: url (")
+> 要工作, 请在双引号之间添加您的 URL, 例如:
+`url("https://fake_domain/not_a_real_image.png")`
+#### 右侧栏背景图像 URL
 
-> For urls to work, add your URL between the double quotes e.g. a value of:
-> `url("https://fake_domain/not_a_real_image.png")`
-
-#### Right sidebar background image url
-
-目标CSS变量:`var(--flexcyon-bg-image-sidebar-right-url)`
-
+CSS目标变量:`var(--flexcyon-bg-image-sidebar-right-url)`
 默认: url (")
+> 要工作, 请在双引号之间添加您的 URL, 例如:
+`url("https://fake_domain/not_a_real_image.png")`
+• 侧边栏背景图像混合模式
 
-> For urls to work, add your URL between the double quotes e.g. a value of:
-> `url("https://fake_domain/not_a_real_image.png")`
-
-#### Sidebar Background image blend mode
-
-目标CSS变量:`var(--flexcyon-bg-image-blend-mode)`
-
+CSS目标变量:`var(--flexcyon-bg-image-blend-mode)`
 默认 :darken
 
-#### Sidebar Background image repeat
+• 侧边栏背景图像重复
 
-目标CSS变量:`var(--flexcyon-bg-image-repeat)`
-
+CSS目标变量:`var(--flexcyon-bg-image-repeat)`
 默认 :no-repeat
 
-#### Sidebar Background image blur
+• 侧边栏背景图像模糊
 
-目标CSS变量:`var(--flexcyon-bg-image-blur)`
-
+CSS目标变量:`var(--flexcyon-bg-image-blur)`
 默认:1px
+> 将在下次更新时更改为 0px
 
-> Will be changed to 0px next update
+++ 侧边栏背景图像亮度
 
-#### Sidebar Background image brightness
-
-目标CSS变量:`var(--flexcyon-bg-image-brightness)`
-
+CSS目标变量:`var(--flexcyon-bg-image-brightness)`
 默认 :unset
+> 接受百分比值为55%
 
-> Accepts percentage values like 55%
+++ 侧边栏背景图像大小
 
-#### Sidebar Background image size
-
-目标CSS变量:`var(--flexcyon-bg-image-size)`
-
+CSS目标变量:`var(--flexcyon-bg-image-size)`
 默认 :contain
 
-#### Sidebar Background image position
+++ 侧边栏背景图像位置
 
-目标CSS变量:`var(--flexcyon-bg-image-position)`
-
+CSS目标变量:`var(--flexcyon-bg-image-position)`
 默认 :center
 
-### Modal Background
+ 
+
+++ 模块背景
 
 在设置菜单、 提示等背景中配置背景图像
 
 接受格式: px,%
 
-#### Modal Background image url
+QQ 模式背景图像 URL
 
-目标CSS变量:`var(--flexcyon-modal-bg-url)`
-
+CSS目标变量:`var(--flexcyon-modal-bg-url)`
 默认: url (")
+> 要工作, 请在双引号之间添加您的 URL, 例如:
+`url("https://fake_domain/not_a_real_image.png")`
+\\\ 背景图像混合模式
 
-> For urls to work, add your URL between the double quotes e.g. a value of:
-> `url("https://fake_domain/not_a_real_image.png")`
-
-#### Modal Background image blend mode
-
-目标CSS变量:`var(--flexcyon-modal-image-blend-mode)`
-
+CSS目标变量:`var(--flexcyon-modal-image-blend-mode)`
 默认 :lighten
 
-#### Modal Background image repeat
+QQ 模式背景图像重复
 
-目标CSS变量:`var(--flexcyon-modal-image-repeat)`
-
+CSS目标变量:`var(--flexcyon-modal-image-repeat)`
 默认 :no-repeat
 
-#### Modal Background image blur
+\\\ 背景图像模糊
 
-目标CSS变量:`var(--flexcyon-modal-image-blur)`
-
+CSS目标变量:`var(--flexcyon-modal-image-blur)`
 默认:1px
 
-#### Modal Background image brightness
+\\\ 背景图像亮度
 
-目标CSS变量:`var(--flexcyon-bg-modal-brightness)`
-
+CSS目标变量:`var(--flexcyon-bg-modal-brightness)`
 默认 :unset
+> 接受百分比值为55%
 
-> Accepts percentage values like 55%
+QQ 模块背景图像大小
 
-#### Modal background image size
-
-目标CSS变量:`var(--flexcyon-modal-image-size)`
-
+CSS目标变量:`var(--flexcyon-modal-image-size)`
 默认 :cover
 
-#### Modal background image position
+QQ 模块背景图像位置
 
-目标CSS变量:`var(--flexcyon-modal-image-position)`
-
+CSS目标变量:`var(--flexcyon-modal-image-position)`
 默认 :center
 
-### Easter egg mode
+ 
 
-堕地，见[here for reasons](../../../README/page-5.md)。
+### 复活节彩蛋模式
 
-### Accessibility
+堕地，见[here for reasons](../../../README/page-5.md)[here for reasons](../../../README/page-5.md)。
+
+ 
+
+* 无障碍
 
 切换访问选项
-
-> Note that changing these will change how the entire theme renders.
+> 注意改变这些会改变整个主题的形成方式。
 >
-> Tweaking these values too much may make the theme look ugly
+> 调整这些价值可能让主题看起来很丑陋
 
-### Global brightness ratio
+全球亮度比
 
-目标CSS变量:`var(--flexcyon-brightness-ratio)`
-
+CSS目标变量:`var(--flexcyon-brightness-ratio)`
 默认:1
 
-### Global contrast ratio
+全球对比比
 
-目标CSS变量:`var(--flexcyon-contrast-ratio)`
-
+CSS目标变量:`var(--flexcyon-contrast-ratio)`
 默认:1
+> 例如,如果想要像OLED屏幕上那样略作对比,请尝试数值
+> 1 到1.
 
-> E.g. if you want slightly more contrast like on an OLED screen, try values
-> between 1 to 1.5
+全球饱和率
 
-### Global saturation ratio
-
-目标CSS变量:`var(--flexcyon-saturation-ratio)`
-
+CSS目标变量:`var(--flexcyon-saturation-ratio)`
 默认:1
+> 用于修改颜色饱和度
 
-> Use to modify the saturation of colors
+ 
+□ 模式
 
-## Modes
+QQ 返回零模式
+> 由"闪烁焦点"主题启发的极端最小主义。 多数UI 元素
+> 在徘徊之前不显示。 不推荐移动。
 
-### Return to Zero mode
-
-> Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements
-> are not displayed until hovered on. Will not recommend on mobile.
-
-目标CSS变量:`var(--flexcyon-rtz-mode)`
-
+CSS目标变量:`var(--flexcyon-rtz-mode)`
 默认 :false(类切换)
 
-### Enable Writing Mode globally
+QQ 启用写入 全球模式
+> 和它的csslass对应的一样,除了全球应用
 
-> Like its cssclass counterpart, except applied globally
-
-目标CSS变量:`var(--flexcyon-editor-writing)`
-
+CSS目标变量:`var(--flexcyon-editor-writing)`
 默认 :false(类切换)
 
-### Writing mode indentation
+### 写入模式缩进
 
-目标CSS变量:`var(--flexcyon-editor-writing-indentation)`
-
+CSS目标变量:`var(--flexcyon-editor-writing-indentation)`
 默认: 16 (px)
+

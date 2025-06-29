@@ -1,15 +1,14 @@
 ---
-title: Paleta de color extendida - Título
+title: Extended color palette - Title
 icon: material/palette-outline
 ---
-
 > `title-color1-color2-`
 
 Usage:
 
 ```md
-> [!tip|title-red-blue] Title will be the color mix of red and blue colors of
-> this theme
+> [!tip|title-red-blue] Title will be the color mix of red and blue colors of 
+this theme
 > The background color will be as usual
 ```
 
@@ -18,3 +17,4 @@ El estilo en sí se aplica también
 
 Requisitos[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)
 a seguir
+

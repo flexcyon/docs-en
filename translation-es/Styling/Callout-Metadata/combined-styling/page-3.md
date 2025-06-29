@@ -1,5 +1,5 @@
 ---
-title: Todos rojos
+title: All Red
 icon: material/format-color-fill
 ---
 

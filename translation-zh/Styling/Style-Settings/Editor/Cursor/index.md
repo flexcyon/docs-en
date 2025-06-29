@@ -5,41 +5,37 @@ icon: material/cursor-text
 
 配置曲轴
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 | |-- Editor
-| | |-- ...
+| | |-- 。
 | | |-- Cursor
-| |-- ...
-|-- ...
+| |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
-### Enable smooth cursor
+QQ 启用平滑光标
 
-CSS类目标:`var(--flexcyon-enable-smooth-cursor)`
-
+CSS目标类别:`var(--flexcyon-enable-smooth-cursor)`
 默认 :true
 
-### Smooth cursor transition duration
+XQ 平滑光标的过渡持续时间
 
-CSS类目标:`var(--flexcyon-cursor-duration)`
-
+CSS目标类别:`var(--flexcyon-cursor-duration)`
 默认值: 95( ms)
 
-### Smooth cursor timing function
+QQ 光标平滑计时函数
 
-CSS类目标:`var(--flexcyon-cursor-timing-fn)`
-
+CSS目标类别:`var(--flexcyon-cursor-timing-fn)`
 默认值:易
 
-### Smooth cursor minimum width
+QQ 光标最小宽度
 
-CSS类目标:`var(--flexcyon-cursor-min-width)`
-
+CSS目标类别:`var(--flexcyon-cursor-min-width)`
 默认 :unset

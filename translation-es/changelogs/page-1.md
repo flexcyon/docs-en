@@ -1,5 +1,5 @@
 ---
-title: Versión 0.1.x y abajo
+title: Version 0.1.x and below
 icon: material/numeric-1-box-outline
 ---
 
@@ -82,3 +82,4 @@ Créditos:
 - Más elementos de la interfaz de usuario están reducidos para la consistencia
 
 - Los medios de comunicación tienen ahora margen vertical que se puede establecer
+

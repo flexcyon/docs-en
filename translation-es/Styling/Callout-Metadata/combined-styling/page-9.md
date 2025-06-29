@@ -1,5 +1,5 @@
 ---
-title: Todos los amarillos
+title: All Yellow
 icon: material/format-color-fill
 ---
 

@@ -7,31 +7,29 @@ icon: material/multimedia
 
 接受格式: px
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Media
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
-### Media Embed Vertical margin
+### 媒体嵌入的垂直边距
 
-目标CSS变量:`var(--flexcyon-media-embed-vertical-margin)`
-
+CSS目标变量:`var(--flexcyon-media-embed-vertical-margin)`
 默认: 8 (px)
 
-### Image border radius
+### 图像边框半径
 
-目标CSS变量:`var(--img-border-radius)`
-
+CSS目标变量:`var(--img-border-radius)`
 默认: 15 (px)
 

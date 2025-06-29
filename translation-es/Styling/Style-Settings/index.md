@@ -1,5 +1,5 @@
 ---
-title: Ajustes de estilo
+title: Style Settings
 icon: material/cog-outline
 ---
 

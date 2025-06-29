@@ -1,5 +1,5 @@
 ---
-title: Otros
+title: Others
 icon: material/dots-horizontal
 ---
 
@@ -15,8 +15,8 @@ Formatos aceptados: px
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- ...
-| |-- Others
+|   |-- ...
+|   |-- Others
 ```
 
 ## Configuration Options
@@ -59,7 +59,7 @@ CSS Variable(s) targeted:`var(--flexcyon-vim-command-text)`
 
 Default: "COMMAND"
 
-\_\_
+__
 
 ### New Tab Appearance
 
@@ -70,7 +70,6 @@ Formatos aceptados: px
 #### Add before empty state title
 
 CSS Classe(s) targeted:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
-
 > Changing this may take an app reload/restart to take effect
 
 Predeterminado: ninguno (clase selecto)
@@ -96,7 +95,6 @@ Default: ""
 CSS Variable(s) targeted:`var(--flexcyon-quote-font-size)`
 
 Predeterminado: 24 (px)
-
 > Line breaks are escaped as `\a` and `\` is escaped as `\\`
 
 #### ASCII Art
@@ -107,17 +105,14 @@ Default:
 
 ```md
 " \a\
- ******\_\_\_****** \a\
- **\_ \_\_**/** /**\_\_**** ****\_\_\_\_**** ******\_\_****** \a\
- ** /\_ ** /\_ _ \\_ |/\_/ **_/_ / / / ** \\_ \_\_ \\ \a\
- _ **/ \_ / / **/\_
-
-> < / /\_\_ _ /_/ // /\_/ / / / / \a\
-
+    _______________                                       \a\
+    ___  ____/__  /________  ____________  ______________ \a\
+    __  /_   __  /_  _ \\_  |/_/  ___/_  / / /  __ \\_  __ \\ \a\
+    _  __/   _  / /  __/_
+>  < / /__ _  /_/ // /_/ /  / / / \a\
     /_/      /_/  \\___//_/|_| \\___/ _\\__, / \\____//_/ /_/ \a\
                                     /____/                \a\a\a "
 ```
-
 > The ASCII art string needs to be escaped for CSS to render it, line breaks are
 > escaped as `\a` and `\` is escaped as `\\`
 
@@ -130,7 +125,6 @@ Predeterminado: 14 (px)
 #### ASCII art line height
 
 CSS Variable(s) targeted:`var(--flexcyon-ascii-line-height)`
-
 > Changes line height for quote as welll
 
 Predeterminado: 1
@@ -147,16 +141,15 @@ CSS Variable(s) targeted:`var(--flexcyon-empty-state-actions-disable)`
 
 Default:false(de clase)
 
-\_\_
+__
 
 ### Side Dock Icons
 
 Configurar los iconos de muelle lateral
 
 #### Enable side dock icon effects
-
 > Rainbow effect on hover
-> CSS Variable(s) targeted:`var(--flexcyon-sidedock-icon-effects)`
+CSS Variable(s) targeted:`var(--flexcyon-sidedock-icon-effects)`
 
 Default:true(de clase)
 
@@ -166,7 +159,7 @@ CSS Variable(s) targeted:`var(--flexcyon-sidedock-ribbon-hidden)`
 
 Default:false(de clase)
 
-\_\_
+__
 
 ### Tooltip radius
 
@@ -196,7 +189,7 @@ CSS Variable(s) targeted:`var(--radius-xl)`
 
 Predeterminado: 8 (px)
 
-\_\_
+__
 
 ### Sidebar Background
 
@@ -207,7 +200,6 @@ Formatos aceptados: px, %
 #### Select background in sidebar
 
 CSS Classe(s) targeted:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-bg-rhombus`
-
 > Overrides background image declaration below, configures in both left and
 > right sidebar
 
@@ -223,18 +215,16 @@ Opciones:
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-sidebar-left-url)`
 
 Predeterminado: url("")
-
 > For urls to work, add your URL between the double quotes e.g. a value of:
-> `url("https://fake_domain/not_a_real_image.png")`
+`url("https://fake_domain/not_a_real_image.png")`
 
 #### Right sidebar background image url
 
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-sidebar-right-url)`
 
 Predeterminado: url("")
-
 > For urls to work, add your URL between the double quotes e.g. a value of:
-> `url("https://fake_domain/not_a_real_image.png")`
+`url("https://fake_domain/not_a_real_image.png")`
 
 #### Sidebar Background image blend mode
 
@@ -253,7 +243,6 @@ Default:no-repeat
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-blur)`
 
 Predeterminado: 1px
-
 > Will be changed to 0px next update
 
 #### Sidebar Background image brightness
@@ -261,7 +250,6 @@ Predeterminado: 1px
 CSS Variable(s) targeted:`var(--flexcyon-bg-image-brightness)`
 
 Default:unset
-
 > Accepts percentage values like 55%
 
 #### Sidebar Background image size
@@ -276,7 +264,7 @@ CSS Variable(s) targeted:`var(--flexcyon-bg-image-position)`
 
 Default:center
 
-\_\_
+__
 
 ### Modal Background
 
@@ -289,9 +277,8 @@ Formatos aceptados: px, %
 CSS Variable(s) targeted:`var(--flexcyon-modal-bg-url)`
 
 Predeterminado: url("")
-
 > For urls to work, add your URL between the double quotes e.g. a value of:
-> `url("https://fake_domain/not_a_real_image.png")`
+`url("https://fake_domain/not_a_real_image.png")`
 
 #### Modal Background image blend mode
 
@@ -316,7 +303,6 @@ Predeterminado: 1px
 CSS Variable(s) targeted:`var(--flexcyon-bg-modal-brightness)`
 
 Default:unset
-
 > Accepts percentage values like 55%
 
 #### Modal background image size
@@ -331,18 +317,17 @@ CSS Variable(s) targeted:`var(--flexcyon-modal-image-position)`
 
 Default:center
 
-\_\_
+__
 
 ### Easter egg mode
 
 Deprecatado. See[here for reasons](../../../README/page-5.md).
 
-\_\_
+__
 
 ### Accessibility
 
 Toggle accessibility options
-
 > Note that changing these will change how the entire theme renders.
 >
 > Tweaking these values too much may make the theme look ugly
@@ -358,7 +343,6 @@ Predeterminado: 1
 CSS Variable(s) targeted:`var(--flexcyon-contrast-ratio)`
 
 Predeterminado: 1
-
 > E.g. if you want slightly more contrast like on an OLED screen, try values
 > between 1 to 1.5
 
@@ -367,15 +351,12 @@ Predeterminado: 1
 CSS Variable(s) targeted:`var(--flexcyon-saturation-ratio)`
 
 Predeterminado: 1
-
 > Use to modify the saturation of colors
 
-\_\_
-
+__
 ## Modes
 
 ### Return to Zero mode
-
 > Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements
 > are not displayed until hovered on. Will not recommend on mobile.
 
@@ -384,7 +365,6 @@ CSS Variable(s) targeted:`var(--flexcyon-rtz-mode)`
 Default:false(de clase)
 
 ### Enable Writing Mode globally
-
 > Like its cssclass counterpart, except applied globally
 
 CSS Variable(s) targeted:`var(--flexcyon-editor-writing)`
@@ -393,6 +373,8 @@ Default:false(de clase)
 
 ### Writing mode indentation
 
+
 CSS Variable(s) targeted:`var(--flexcyon-editor-writing-indentation)`
 
 Predeterminado: 16 (px)
+

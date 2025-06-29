@@ -1,5 +1,5 @@
 ---
-title: Título en línea
+title: Inline Title
 icon: material/format-underline-wavy
 ---
 

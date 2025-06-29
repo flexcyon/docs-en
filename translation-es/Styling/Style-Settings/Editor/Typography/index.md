@@ -1,5 +1,5 @@
 ---
-title: Tipografía
+title: Typography
 icon: material/format-text
 ---
 
@@ -14,11 +14,11 @@ Formatos aceptados: HEX
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Typography
-| | |-- ...
-| |-- ...
+|   |-- Editor
+|   |   |-- ...
+|   |   |-- Typography
+|   |   |-- ...
+|   |-- ...
 |-- ...
 ```
 
@@ -30,6 +30,5 @@ CSS Variable(s) targeted:`var(--flexcyon-text-muted)`
 
 Default:
 <span class="col-sqr" style="background-color: #6f768599"
-
-> </span
-> #6f768599
+></span
+>#6f768599

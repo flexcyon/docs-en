@@ -1,5 +1,5 @@
 ---
-title: Peso fuente Título
+title: Font weight Title
 icon: material/format-bold
 ---
 
@@ -15,10 +15,11 @@ Formatos aceptados para`value`:
 Usage:
 
 ```md
-> [!info|w-900-title] I will have a font weight of 900 in live preview and
-> reading mode/reading mode
+> [!info|w-900-title] I will have a font weight of 900 in live preview and 
+reading mode/reading mode
 > Content is shown as usual
 ```
 
 El estilo en sí se aplica también["w-`value`-all"](../combined-styling/page-24.md)
 junto con["w-`value`-content"](../content-styling/page-14.md).
+

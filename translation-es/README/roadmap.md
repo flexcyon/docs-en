@@ -1,7 +1,7 @@
 ---
 icon: material/map-legend
 tags:
-  - logs
+    - logs
 ---
 
 # Roadmap
@@ -12,7 +12,7 @@ desea agregar pero puede ser demasiado tiempo para que yo pueda manejar.
 ## Misc
 
 - Añadir mejores capturas de pantalla
-  > Add more CSS classes
+> Add more CSS classes
 
 ### Plugins/snippets
 
@@ -20,7 +20,8 @@ desea agregar pero puede ser demasiado tiempo para que yo pueda manejar.
 - También podría mirar:
 - Tareas
 - QuickAdd (variables css por defecto)
-- Tabs verticales, etc -`publish.css`
+- Tabs verticales, etc
+-`publish.css`
 
 ### Other styling options
 

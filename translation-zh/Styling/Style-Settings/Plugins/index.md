@@ -5,167 +5,155 @@ icon: material/hexagon-outline
 
 用于配置官方支持的插件
 
-接受格式:HEX、雷姆、x.y,%
+接受格式: 汉斯,remx.y,% (单位:千美元)
 
-## Navigation
+□ 导航
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
-| |-- ...
-| |-- Plugins
-| |-- ...
+|   |-- 。
+|   |-- Plugins
+|   |-- 。
 ```
 
-## Configuration Options
+□ 配置选项
 
-### Alternate file tree
+### 替代文件树
 
-#### Folders font size
+QQ 文件夹字体大小
 
-目标CSS变量:`var(--oz-fta-folder-font-size)`
-
-默认: 0.925 (rem)
+CSS目标变量:`var(--oz-fta-folder-font-size)`
+默认: 0.925 (rem
 
 <span style="font-size: 0.925rem"
+>样本 另选文件树文件夹字体大小</span>
 
-> 样本 另选文件树文件夹字体大小</span>
+#### 文件夹字体颜色
 
-#### Folders font color
-
-目标CSS变量:`var(--oz-fta-folder-pane-file-name-color)`
-
+CSS目标变量:`var(--oz-fta-folder-pane-file-name-color)`
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #080808"
-
-> </span
-> #080808 (英语).
+></span
+>#080808 (英语).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #d3d5d3"
+></span
+>#d3d5d3 (英语:
 
-> </span
-> #d3d5d3 (英语:
+#### 活动文件夹颜色
 
-#### Active folder color
-
-目标CSS变量:`var(--oz-fta-all-panes-active-text-color)`
-
+CSS目标变量:`var(--oz-fta-all-panes-active-text-color)`
 默认( 灯光模式) :
 <span class="col-sqr" style="background-color: #080808"
-
-> </span
-> #080808 (英语).
+></span
+>#080808 (英语).
 
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #d3d5d3"
+></span
+>#d3d5d3 (英语:
 
-> </span
-> #d3d5d3 (英语:
+#### 文件字体大小
 
-#### Files font size
-
-目标CSS变量:`var(--oz-fta-file-font-size)`
-
-默认: 0.9 (rem)
+CSS目标变量:`var(--oz-fta-file-font-size)`
+默认: 0.9 (rem
 
 <span style="font-size: 0.9rem"
+>样本 替代文件树文件字体大小</san>
 
-> 样本 替代文件树文件字体大小</san>
+#### 文件字体颜色
 
-#### Files font color
-
-目标CSS变量:`var(--oz-fta-file-pane-file-name-color)`
-
+CSS目标变量:`var(--oz-fta-file-pane-file-name-color)`
 默认 :
 <span class="col-sqr" style="background-color: #6f768599"
+></span
+>#6f768599 (英语).
 
-> </span
-> #6f768599 (英语).
+#### 禁用文件夹图标
 
-#### Disable folder icons
-
-目标CSS变量:`var(--flexcyon-oz-folder-icons-disabled)`
-
+CSS目标变量:`var(--flexcyon-oz-folder-icons-disabled)`
 默认 :false(类切换)
 
-#### Disable file tree header
+#### 禁用文件树头
 
-目标CSS变量:`var(--flexcyon-oz-file-tree-header-disabled)`
-
+CSS目标变量:`var(--flexcyon-oz-file-tree-header-disabled)`
 默认 :false(类切换)
 
-#### Enable Alternate folder count
+QQ 启用替代文件夹计数
 
-目标CSS变量:`var(--flexcyon-oz-alternate-folder-count)`
-
+CSS目标变量:`var(--flexcyon-oz-alternate-folder-count)`
 默认 :false(类切换)
 
-#### Enabled dimmed file extensions in file tree
+QQ 在文件树上启用了 dimmed 文件扩展名
 
-目标CSS变量:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
-
+CSS目标变量:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
 默认 :true(类切换)
 
-### Full Calendar
+ 
 
-接受格式: x.y,%
+QQ 完整日历
 
-#### Opacity of dimmed full calendar items
+接受格式:x.y%
 
-目标CSS变量:`var(--flexcyon-fc-dimmed-items-opacity)`
+#### 阴暗的日历全部项目不透明
 
+CSS目标变量:`var(--flexcyon-fc-dimmed-items-opacity)`
 默认: 0.89
 
 <span style="opacity: 0.89"
+>阴暗的完整日历项目的样本不透明</span>
 
-> 阴暗的完整日历项目的样本不透明</span>
+ 
 
-### Dataview
+数据视图
 
 接受格式: px
 
-#### Horizontal padding of dataview error messages
+数据视图错误消息的横向编码
 
-目标CSS变量:`var(--flexcyon-dataview-horizontal-padding)`
-
+CSS目标变量:`var(--flexcyon-dataview-horizontal-padding)`
 默认: 8 (px)
 
-### Canvas
+ 
+
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}请说
 
 定义 Canvas 核心插件的样式。
 
 接受格式: px, RGB
 
-#### Blur inactive Canvas nodes
+#### 模糊的不活动 Canvas 节点
 
-目标CSS变量:`var(--flexcyon-canvas-blur-inactive-nodes)`
-
+CSS目标变量:`var(--flexcyon-canvas-blur-inactive-nodes)`
 默认 :false(类切换)
 
-#### Blur intensity for inactive nodes
+#### 不活动节点的模糊强度
 
 用上一个设置来设置不活动画布节点的模糊强度
 和所有箭头/箭头。
 
-目标CSS变量:`var(--flexcyon-canvas-blur-intensity)`
-
+CSS目标变量:`var(--flexcyon-canvas-blur-intensity)`
 默认:1 (px)
 
-#### Canvas card menu alignment
+#### Canvas 卡片菜单对齐
 
 配置画布卡菜单的对齐 。
 
-CSS类目标:`.flexcyon-canvas-menu-bottom-left,`
-`.flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center, (中文).
+CSS目标类别:`.flexcyon-canvas-menu-bottom-left,`
+`
+.flexcyon-canvas-menu-底部右侧 .flexcyon-canvas-menu-top-center, (中文).
 ,
-.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
-.flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
-.flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center, (中文).
+.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-reat, . .flexcyon-canvas-menu-top-left-right, 互联网档案馆的存檔,存档日期2014-03-02.,.
 ,
-.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align`
-
+. . . . . . . center. . . . . . .
+,
+.flexcyon-canvas-menu-lcenter-bottom,.flexcyon-canvas-menu-rcenter-)是中国大陆的特有种center, (中文).
+,
+.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bound, .flexcyon-canvas-menu-center-aign (英语).
+`
 默认: 无( 类选择)
 
 选项 :
@@ -193,3 +181,4 @@ CSS类目标:`.flexcyon-canvas-menu-bottom-left,`
 - 右对齐底部
 
 - 右对齐center对齐
+

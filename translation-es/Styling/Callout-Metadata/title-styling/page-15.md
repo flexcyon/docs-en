@@ -1,5 +1,5 @@
 ---
-title: Título
+title: Lowercase Title
 icon: material/format-letter-case-lower
 ---
 
@@ -14,3 +14,4 @@ Usage:
 
 El estilo en sí se aplica también["lowercase-all"](../combined-styling/page-14.md)
 junto con["lowercase-content"](../content-styling/page-4.md).
+

@@ -1,5 +1,5 @@
 ---
-title: Animaciones
+title: Animations
 icon: material/animation
 ---
 
@@ -13,14 +13,14 @@ Formatos aceptados: s
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Workspace
-| | | |-- ...
-| | | |-- Animations
-| | | |-- ...
-| | |-- ...
-| |-- ...
+|   |-- Editor
+|   |   |-- ...
+|   |   |-- Workspace
+|   |   |   |-- ...
+|   |   |   |-- Animations
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- ...
 |-- ...
 ```
 
@@ -31,7 +31,6 @@ Style Settings
 CSS Classe(s) targeted: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
 ,
 .flexcyon-anims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl`
-
 > Changes may need an app reload/restart to take effect
 
 Predeterminado: ninguno (clase selecto)
@@ -54,3 +53,4 @@ Predeterminado: 0.5s
 CSS Variable(s) targeted:`var(--flexcyon-anim-easing)`
 
 Default:ease-in-out
+

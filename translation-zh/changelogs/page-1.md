@@ -5,9 +5,9 @@ icon: material/numeric-1-box-outline
 
 0.0.5以下版本没有文献记载,因为它们缺乏显著特征
 
-## Version 0.0.5: Minor Changes
+^ 0. 5版本: 小改动
 
-- 使ASCII艺术响应,你可以设置字体大小 li光标打开
+- 使ASCII艺术响应,你可以设置字体大小限制
 
 - 状态栏不与命令模式输入文本重叠
 
@@ -19,7 +19,7 @@ icon: material/numeric-1-box-outline
 
 - 增加对全球顶级行动进行协调的选项
 
-## Version 0.1.0: Utilities Update
+^ 0版 (英语).1.: 公用事业最新情况
 
 - 添加对空格重复插件的支持
 
@@ -47,13 +47,13 @@ icon: material/numeric-1-box-outline
 
 - 大写、大写、小写标题和内容
 
-- RTL, LTR, (英语),中间标题和内容
+- 拉特尔,LTR Center标题和内容
 
 - 塔特加基语(普通RTL)
 
 - 纵向LTR
 
-- 为下列人员增加分类:
+- 已经添加了CSS 类(单位:千美元)
 
 - 塔特加基语(普通RTL)
 
@@ -63,9 +63,9 @@ icon: material/numeric-1-box-outline
 
 - `@OWA/bennyyip`在 Obisidian 成员团体的Discord 上为 Tategaki 片段
 
-- `@Tuck`在 Obsidian Members 组 Discord 上,用于修改链接颜色的选项
+- `@Tuck`编辑Obsidian成员组 Discord 更改链接颜色的选项
 
-## Version 0.1.1 Hotfixes
+^ 0版 (英语).1.热补
 
 - 添加了修改 ASCII 复选框字体大小的选项
 
@@ -82,3 +82,4 @@ icon: material/numeric-1-box-outline
 - 更多的UI元素因一致性而暗淡
 
 - 媒体嵌入器现在有可设定的垂直边距
+

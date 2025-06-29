@@ -1,6 +1,6 @@
 ---
 icon: material/script-text
-title: Cambios
+title: Changelogs
 ---
 
 #### Note
@@ -9,12 +9,11 @@ Los changelogs muestran versiones en orden de lo más reciente al menos reciente
 O, si prefiere los cambios en el orden cronológico, puede utilizar
 el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 
-\_\_
+__
 
 ## Version 0.4.x
 
 ### Version 0.4.4 Consistencies Update
-
 - Corrección de la nota de pie de página
 - Corrección de alineación de la lista de balas
 - Color resaltado por defecto cambiado
@@ -25,7 +24,6 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 - Soporte añadido para el plugin Omnisearch
 
 ### Version 0.4.3 Rainbow Repair
-
 - Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral
 - Añadir Opciones de configuración de estilo para configurar el relleno de elementos de árbol
 - Agregado fondo de color en lugar de texto para las opciones de carpetas de arco iris (hace carpetas de arco iris en este tema más consistentes con las de otros temas)
@@ -61,7 +59,7 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 ### Version 0.4.0 Light Mode Update
 
 - Cambio de la barra lateral de fondo de brillo predeterminado a`unset`. Was
-  anteriormente causando problemas como borroso contenido de plugin Calender.
+anteriormente causando problemas como borroso contenido de plugin Calender.
 
 - Tema ligero WIP (mixes flexoki light + paleta de colores origami)
 
@@ -72,7 +70,7 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 - opción de tamaño de la cabecera de mesa
 
 - Documentación actualizada para mostrar una pequeña vista previa de colores/opacidad aplicada por
-  el tema
+el tema
 
 - Muestra web agregada de las características del tema
 
@@ -111,7 +109,7 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 - Opciones de accesibilidad adicionales para el brillo, contraste y saturación global
 
 - Opción agregada para permitir indicadores de encabezado a nivel mundial, personalizable para
-  diferentes niveles de rumbo.
+diferentes niveles de rumbo.
 
 - Los indicadores de encabezado ahora mejor heredan del color base del encabezado
 
@@ -122,7 +120,7 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 ### Version 0.3.4 Easter Egg Mode
 
 - Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
-  barras de estado más largas
+barras de estado más largas
 
 - Se rompió el fondo de explorador de archivos fijos
 
@@ -135,18 +133,18 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 ### Version 0.3.3 QOL Update
 
 - Factor de indentación configurable añadido y regulación de cabeceras colapsadas
-  Menú Ajustes de estilo
+Menú Ajustes de estilo
 
 - Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
-  párrafo espaciamiento
+párrafo espaciamiento
 
 - También tiene un proveedor de clase CSS que le permite aplicar el mismo texto
-  indent and paragraph spacing increases to the target note
+indent and paragraph spacing increases to the target note
 
 - Add rhombus editor background option
 
 - Ahora puede utilizar la rejilla, punteado o rhombus como opciones de fondo para la izquierda
-  y barra lateral derecha
+y barra lateral derecha
 
 - Estas opciones de url de fondo lateral izquierdo y derecho
 
@@ -193,8 +191,8 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 - opción agregada al fondo del editor de cuadrícula angular
 
 - Opción de imagen de fondo agregada para modals (imagen de fondo para la configuración,
-  ,
-  impulsos, etc.
+,
+impulsos, etc.
 
 ### Version 0.3.1 Tidying Up
 
@@ -241,7 +239,7 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 - Cambios en el estilo de mesa
 
 - Cisclases adicionales para los indicadores de encabezado, metadatos de llamada para inclinar el callout
-  título y contenido
+título y contenido
 
 - Añadido soporte para plugin de calendario
 
@@ -269,7 +267,7 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 
 -[See the documentation](../index.md)para más detalles
 
-\_\_
+__
 
 ## Version 0.2.x
 
@@ -286,7 +284,7 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 - Necesidad de volver a cargar o reiniciar la aplicación si desea cambiar los diseños
 
 - Texto del estado del modo Vim y modo de barra de estado (leer / vista previa en vivo etc) texto ahora
-  tiene una opción de color:
+tiene una opción de color:
 
 - Desactivado por defecto
 
@@ -301,7 +299,7 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 - Animaciones de ventana eliminadas ya que no son performant.
 
 - Colores extendidos actualizados para que`*-color1-color2`y`*-color-2-color`voluntad
-  siempre devolver la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
+siempre devolver la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
 
 - Efecto activo de fondo de archivos más consistente
 
@@ -318,15 +316,15 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 - Opción de radio de la imagen agregada
 
 - Paleta de color extendida (puede utilizarse como fuentes de metadatos de llamada o en
-  variables css)
+variables css)
 
 - Llamada popup agregada, adaptada a
-  [Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
 
 - Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 
 - Animaciones de ventana agregadas para modals, impulsos y ajustes.
-  Elija entre las siguientes opciones:
+Elija entre las siguientes opciones:
 
 - Ninguna (Revierte al comportamiento predeterminado)
 
@@ -354,7 +352,7 @@ el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
 
 - Ver el[documentation](../index.md)para más detalles
 
-\_\_
+__
 
 ## Version 0.1.x
 
@@ -437,3 +435,4 @@ Créditos:
 - Añadir opción para ocultar la cinta lateral izquierda
 
 - Agregar opción para alinear las principales acciones a nivel mundial
+

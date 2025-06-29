@@ -13,11 +13,11 @@ Formatos aceptados: s, px
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Status Bar
-| | |-- ...
-| |-- ...
+|   |-- Editor
+|   |   |-- ...
+|   |   |-- Status Bar
+|   |   |-- ...
+|   |-- ...
 |-- ...
 ```
 
@@ -55,8 +55,7 @@ CSS Variable(s) targeted:`var(--flexcyon-status-hide-hover-function)`
 
 Default:ease-out
 
-\_\_
-
+__
 ### Text Configuration
 
 #### Use text instead of icons for mode status
@@ -83,7 +82,7 @@ CSS Variable(s) targeted:`var(--flexcyon-status-live-text)`
 
 Default: "LIVE"
 
-\_\_
+__
 
 ### Status Bar Styling
 
@@ -102,6 +101,7 @@ Predeterminado: 12.5 (px)
 #### Select status bar style
 
 CSS Classe(s) targeted: `.flexcyon-status-style-angled,
+,
 .flexcyon-status-style-card, .flexcyon-status-style-pl10k`
 
 Predeterminado: ninguno (clase selecto)
@@ -116,3 +116,4 @@ Opciones:
 CSS Variable(s) targeted:`var(--flexcyon-status-text-enable-color)`
 
 Default:false(de clase)
+

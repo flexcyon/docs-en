@@ -26,9 +26,9 @@ Por lo tanto, decidí combinar los dos que comenzaron este tema.
 este tema tiene que ofrecer.
 
 - Algunas características no tendrán una correspondencia de 1 a 1 con el tema principal,
-  ,
-  pero este sitio debe darle una vista previa de cómo el tema mira antes
-  instalarlo
+,
+pero este sitio debe darle una vista previa de cómo el tema mira antes
+instalarlo
 
 ### What this theme has
 
@@ -49,7 +49,7 @@ este tema tiene que ofrecer.
 ### What this theme does not have
 
 - múltiples esquemas de color (aunque puede anular el existente
-  con el suyo, ver[Style Settings](../Styling/Style-Settings/index.md))
+con el suyo, ver[Style Settings](../Styling/Style-Settings/index.md))
 - casillas de verificación alternas
 - fuentes incrustadas, svgs
 
@@ -61,7 +61,9 @@ este tema tiene que ofrecer.
 
 Aquí están algunos fragmentos recomendados para añadir a su bóveda y utilizar junto a Flexcyon:
 
--[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet) -[Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling) -[MCL Multi Column and Gallery Cards by efemkay](https://github.com/efemkay/obsidian-modular-css-layout)
+-[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
+-[Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling)
+-[MCL Multi Column and Gallery Cards by efemkay](https://github.com/efemkay/obsidian-modular-css-layout)
 
 ## Roadmap
 
@@ -75,7 +77,8 @@ Los Cambios para este tema se pueden encontrar[here](../changelogs/index.md)
 
 Siéntete libre de hablar de ello en:
 
--[this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357). -[this Obsidian forum topic](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)
+-[this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357).
+-[this Obsidian forum topic](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)
 
 Alternativamente, puede abrir un problema en
 [the repository](https://github.com/bladeacer/flexcyon/issues)o
@@ -92,3 +95,4 @@ See[here](../Styling/Style-Settings/index.md)
 ## License
 
 La licencia para el tema se puede encontrar[here](./license.md)
+

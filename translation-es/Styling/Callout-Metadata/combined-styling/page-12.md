@@ -1,5 +1,5 @@
 ---
-title: LTR Todos
+title: LTR All
 icon: material/align-horizontal-left
 ---
 

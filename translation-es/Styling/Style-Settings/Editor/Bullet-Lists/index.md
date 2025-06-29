@@ -1,5 +1,5 @@
 ---
-title: Listas de balas
+title: Bullet Lists
 icon: material/format-list-bulleted
 ---
 

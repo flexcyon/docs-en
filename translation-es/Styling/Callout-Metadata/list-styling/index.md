@@ -31,8 +31,9 @@ Para escribir una lista no ordenada en Obsidian. uso:
 - ...
 ```
 
-\_\_
+__
 Q. ¿Por qué`style_type`¿nombres tanto tiempo?
 ?
 
 A. Bueno son tipos de estilo estandarizados disponibles en los principales navegadores
+

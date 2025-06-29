@@ -1,5 +1,5 @@
 ---
-title: Todo rosado
+title: All Pink
 icon: material/format-color-fill
 ---
 

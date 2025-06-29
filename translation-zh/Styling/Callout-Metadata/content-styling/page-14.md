@@ -19,6 +19,6 @@ icon: material/format-bold
 > Content will have a bold font weight
 ```
 
-样式本身也适用于["w-`value`-all"](../combined-styling/page-24.md)
-页:1["w-`value`-title"](../title-styling/page-24.md)。
+样式本身也适用于["w-`value`-all"](../combined-styling/page-24.md)["w-`value`-all"](../combined-styling/page-24.md)
+页:1["w-`value`-title"](../title-styling/page-24.md)["w-`value`-title"](../title-styling/page-24.md)。
 
