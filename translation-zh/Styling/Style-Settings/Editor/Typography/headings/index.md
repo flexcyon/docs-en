@@ -85,49 +85,49 @@ CSS目标变量:`var(--flexcyon-headings-indicator-h6)`
 * 标题 1 字体大小
 
 CSS目标变量:`var(--h1-size)`
-默认 :1.02(他们)
+默认 :1.1803 (他们)
 
-<h1 style="font-weight: 700; font-size: 1.802em;"
+<h1 style="font-size: 1.81803em;"
 >样本h1</h1>
 
 * 标题2字体大小
 
 CSS目标变量:`var(--h2-size)`
-默认 :1.02(他们)
+默认 :1.1803 (他们)
 
-<h2 style="font-weight: 675; font-size: 1.602em;"
+<h2 style="font-size: 1.61803em;"
 >样本h2</h2>
 
 标题 3 字体大小
 
 CSS目标变量:`var(--h3-size)`
-默认 :1.24(他们)
+默认 :1.1803 (他们)
 
-<h3 style="font-weight: 650; font-size: 1.424em;"
+<h3 style="font-size: 1.41803em;"
 >样本h3</h3>
 
 * 标题4字体大小
 
 CSS目标变量:`var(--h4-size)`
-默认 :1.66(他们)
+默认 :1.1803 (他们)
 
-<h4 style="font-weight: 625; font-size: 1.266;"
+<h4 style="font-size: 1.21803em;"
 >样本h4</h4>
 
 * 标题5字体大小
 
 CSS目标变量:`var(--h5-size)`
-默认 :1.25(他们)
+默认 :1.1803 (他们)
 
-<h5 style="font-weight: 600; font-size: 1.125em;"
+<h5 style="font-size: 1.11803em;"
 >样本h5</h5>
 
 标题6字体大小
 
 CSS目标变量:`var(--h6-size)`
-默认:1(em)
+默认 :1.1803 (他们)
 
-<h6 style="font-weight: 575; font-size: 1em;"
+<h6 style="font-size: 1.01803em;"
 >样本h6</h6>
 
  
@@ -139,7 +139,7 @@ CSS目标变量:`var(--h6-size)`
 CSS目标变量:`var(--h1-weight)`
 默认: 700
 
-<h1 style="font-weight: 700; font-size: 1.802em;"
+<h1 style="font-weight: 700;"
 >样本h1</h1>
 
 * 标题2字体重量
@@ -147,7 +147,7 @@ CSS目标变量:`var(--h1-weight)`
 CSS目标变量:`var(--h2-weight)`
 默认: 675
 
-<h2 style="font-weight: 675; font-size: 1.602em;"
+<h2 style="font-weight: 675;"
 >样本h2</h2>
 
 3 字体重量
@@ -155,7 +155,7 @@ CSS目标变量:`var(--h2-weight)`
 CSS目标变量:`var(--h3-weight)`
 默认: 650
 
-<h3 style="font-weight: 650; font-size: 1.424em;"
+<h3 style="font-weight: 650;"
 >样本h3</h3>
 
 * 标题4字体重量
@@ -163,7 +163,7 @@ CSS目标变量:`var(--h3-weight)`
 CSS目标变量:`var(--h4-weight)`
 默认: 625
 
-<h4 style="font-weight: 625; font-size: 1.266;"
+<h4 style="font-weight: 625;"
 >样本h4</h4>
 
 * 标题5字体重量
@@ -171,7 +171,7 @@ CSS目标变量:`var(--h4-weight)`
 CSS目标变量:`var(--h5-weight)`
 默认: 600
 
-<h5 style="font-weight: 600; font-size: 1.125em;"
+<h5 style="font-weight: 600;"
 >样本h5</h5>
 
 6 字型重量
@@ -179,7 +179,7 @@ CSS目标变量:`var(--h5-weight)`
 CSS目标变量:`var(--h6-weight)`
 默认: 575
 
-<h6 style="font-weight: 575; font-size: 1em;"
+<h6 style="font-weight: 575;"
 >样本h6</h6>
 
  

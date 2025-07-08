@@ -199,3 +199,17 @@ CSS Variable(s) targeted: `var(--flexcyon-var-comps-compact-mode)`
 
 Default: false (class toggle)
 
+___
+### Omnisearch
+
+#### Disable Omnisearch Icons
+
+CSS Classe(s) targeted: `var(--flexcyon-omnisearch-no-icons)`
+
+Default: false (class toggle)
+
+#### Omnisearch Body Left Margin
+
+CSS Classe(s) targeted: `var(--flexcyon-omnisearch-body-margin-left-margin-left)`
+
+Default: 1.45 (rem)

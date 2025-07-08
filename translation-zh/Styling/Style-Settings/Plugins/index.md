@@ -200,3 +200,15 @@ CSS目标变量:`var(--flexcyon-var-comps-sugg-horiz-padding)`
 CSS目标变量:`var(--flexcyon-var-comps-compact-mode)`
 默认 :false(类切换)
 
+ 
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}谢谢 {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}谢谢
+
+#### 禁用 Omnisear 图标
+
+CSS目标类别:`var(--flexcyon-omnisearch-no-icons)`
+默认 :false(类切换)
+
+左边边 Omnifer 身体
+
+CSS目标类别:`var(--flexcyon-omnisearch-body-margin-left-margin-left)`
+默认: 1.45 (rem

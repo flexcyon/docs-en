@@ -100,49 +100,49 @@ ___
 
 CSS Variable(s) targeted: `var(--h1-size)`
 
-Default: 1.802 (em)
+Default: 1.81803 (em)
 
-<h1 style="font-weight: 700; font-size: 1.802em;">Sample h1</h1>
+<h1 style="font-size: 1.81803em;">Sample h1</h1>
 
 #### Heading 2 font size
 
 CSS Variable(s) targeted: `var(--h2-size)`
 
-Default: 1.602 (em)
+Default: 1.61803 (em)
 
-<h2 style="font-weight: 675; font-size: 1.602em;">Sample h2</h2>
+<h2 style="font-size: 1.61803em;">Sample h2</h2>
 
 #### Heading 3 font size
 
 CSS Variable(s) targeted: `var(--h3-size)`
 
-Default: 1.424 (em)
+Default: 1.41803 (em)
 
-<h3 style="font-weight: 650; font-size: 1.424em;">Sample h3</h3>
+<h3 style="font-size: 1.41803em;">Sample h3</h3>
 
 #### Heading 4 font size
 
 CSS Variable(s) targeted: `var(--h4-size)`
 
-Default: 1.266 (em)
+Default: 1.21803 (em)
 
-<h4 style="font-weight: 625; font-size: 1.266;">Sample h4</h4>
+<h4 style="font-size: 1.21803em;">Sample h4</h4>
 
 #### Heading 5 font size
 
 CSS Variable(s) targeted: `var(--h5-size)`
 
-Default: 1.125 (em)
+Default: 1.11803 (em)
 
-<h5 style="font-weight: 600; font-size: 1.125em;">Sample h5</h5>
+<h5 style="font-size: 1.11803em;">Sample h5</h5>
 
 #### Heading 6 font size
 
 CSS Variable(s) targeted: `var(--h6-size)`
 
-Default: 1 (em)
+Default: 1.01803 (em)
 
-<h6 style="font-weight: 575; font-size: 1em;">Sample h6</h6>
+<h6 style="font-size: 1.01803em;">Sample h6</h6>
 
 ___
 
@@ -154,7 +154,7 @@ CSS Variable(s) targeted: `var(--h1-weight)`
 
 Default: 700
 
-<h1 style="font-weight: 700; font-size: 1.802em;">Sample h1</h1>
+<h1 style="font-weight: 700;">Sample h1</h1>
 
 #### Heading 2 font weight
 
@@ -162,7 +162,7 @@ CSS Variable(s) targeted: `var(--h2-weight)`
 
 Default: 675
 
-<h2 style="font-weight: 675; font-size: 1.602em;">Sample h2</h2>
+<h2 style="font-weight: 675;">Sample h2</h2>
 
 #### Heading 3 font weight
 
@@ -170,7 +170,7 @@ CSS Variable(s) targeted: `var(--h3-weight)`
 
 Default: 650
 
-<h3 style="font-weight: 650; font-size: 1.424em;">Sample h3</h3>
+<h3 style="font-weight: 650;">Sample h3</h3>
 
 #### Heading 4 font weight
 
@@ -178,7 +178,7 @@ CSS Variable(s) targeted: `var(--h4-weight)`
 
 Default: 625
 
-<h4 style="font-weight: 625; font-size: 1.266;">Sample h4</h4>
+<h4 style="font-weight: 625;">Sample h4</h4>
 
 #### Heading 5 font weight
 
@@ -186,7 +186,7 @@ CSS Variable(s) targeted: `var(--h5-weight)`
 
 Default: 600
 
-<h5 style="font-weight: 600; font-size: 1.125em;">Sample h5</h5>
+<h5 style="font-weight: 600;">Sample h5</h5>
 
 #### Heading 6 font weight
 
@@ -194,7 +194,7 @@ CSS Variable(s) targeted: `var(--h6-weight)`
 
 Default: 575
 
-<h6 style="font-weight: 575; font-size: 1em;">Sample h6</h6>
+<h6 style="font-weight: 575;">Sample h6</h6>
 
 ___
 

@@ -11,6 +11,17 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 
 ___
 ## Version 0.5.x
+### 0.5.1 Debug Update
+- Fixed highlighted search result visual bug, thanks to `@Moy` on the Obsidian Members' Group
+- Default message on UI element hover is improved for light mode
+- Fix ASCII checkbox alignment once again
+- Vim mode status now uses your interface font
+- Add change opacity of block ID labels, defaults to 0.55
+- Default heading font sizes are now changed to inherit from the Golden Ratio
+- Added remove Omnisearch icons and Omnisearch result body left margin options
+- Added syntax highlighting modes: Catppuccin, Lego, Monochrome
+- Style Setting option to disable horizontal rules in reading mode, hr colours more consistent across editing and reading modes
+
 ### Version 0.5.0 Revamp Update
 - Added about and help section in Style Settings
 - Omnisearch highlighting is now more consistent with the default search highlight
