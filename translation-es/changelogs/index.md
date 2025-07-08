@@ -1,19 +1,65 @@
 ---
 icon: material/script-text
-title: Changelogs
+title: Cambios
 ---
 
-#### Note
+##### Nota
 
 Los changelogs muestran versiones en orden de lo más reciente al menos reciente.
 O, si prefiere los cambios en el orden cronológico, puede utilizar
-el menú de barra lateral o hamburguesa para ver las subpáginas relevantes.
+la barra lateral o el menú de hamburguesa para ver el sub relevante-edades.
+.
 
-__
+___
+## Versión 0.5.
+## 0.5.Actualización de Debug
+- Resultado de búsqueda fijo resaltado fallo visual, gracias a`@Moy`sobre elObsidianGrupo de Miembros
+- El mensaje predeterminado sobre el elemento UI se mejora para el modo de luz
+- Fijar la casilla de verificación ASCII una vez más
+- El estado del modo Vim ahora utiliza su fuente de interfaz
+- Agregue la opacidad del cambio de etiquetas de identificación de bloques, por defecto a 0.55
+- Los tamaños de letra de encabezado predeterminado ahora se cambian para heredar de la relación de oro
+- Añadido quitar iconos de Omnisearch y Omnisearch resultado cuerpo margen izquierda opciones
+- Modos de resaltado de sintaxis añadido: Catppuccin, Lego, Monochrome
+- Opción de configuración de estilo para desactivar las reglas horizontales en modo lectura, colores hr más consistentes a través de modos de edición y lectura
 
-## Version 0.4.x
+## Versión 0.5.Revamp Update
+- Añadido y sección de ayuda en configuración de estilo
+- El resaltado de Omnisearch es ahora más consistente con el resaltado de búsqueda predeterminado
+- Fijar la casilla de verificación ASCII con un color de fondo
+- Soporte añadido para varios complementos Plugin con algunas opciones de configuración
+- Boda de Sugerencia Horizontal y Vertical
+- Sugerencia compacta Modo
+- Incremento predeterminado del elemento de árbol horizontal padding a 12px
+- Incremento predeterminado del elemento de árbol vertical1.5px
+- Colocación de elementos de árbol aplicado a File Tree Alternative
+- Hacer envoltura de línea para nombres de archivos largos. Aplicar el envoltorio de línea predeterminado a File Tree Alternativas también (incluyendo títulos y todos)
+- Reemplazado "número de línea activa hereda estilo relativo de número de línea" con "reemplazar número de línea activa con cadena". Defaults to "`-
+>`". Puede configurarse con Ajustes de Estilo
+- Controles menores a Graph View. Bodas configurables a través de Ajustes de Estilo
+- Mayor ancho predeterminado de cinta a 48px, añadido opción Ajustes de estilo para configurarlo.
+.
+- Icono de colapso de los Alineados con texto como títulos de carpetas, etc
+- Texto destacado ahora tiene un poco de radio fronterizo y relleno, y mayor peso de la fuente
+- Dimmed enclosing símbolos de formato como`*`en *test* para ver **better** mientras se edita
+- Dibujos menores al menú Ajustes de Estilo
+- Vim fluida duración de la transición predeterminada del cursor reducido a`70ms`
+- Los elementos de carpeta y archivo alternativos del árbol de archivos ahora heredan del tamaño de fuente UI, las etiquetas de cuenta de archivos ahora son más grandes, y la vista de carpeta debe verse mejor.
+.
+- Las extensiones de archivo desmontadas ahora heredan del tamaño de la fuente UI
+- Los íconos han aumentado el padding
+- Ahora puede configurar el ancho máximo de la cuna del encabezado de la vista (escalas con ancho del puerto)
+- Agregue la opción de configuración de estilo para el radio de texto marcado y relleno.
+.
+- Aumentar los iconos de cabecera de pestañas relleno
+- Agregar fuente-metadatos amily callout (basados en fuentes monoespaciales, de texto e interfaz)
+- Tamaños de fuente UI modificados por defecto
+- Opción para cambiar el estilo de lista predeterminada para listas numeradas en modo de lectura (todas las opciones proporcionadas)
+- Dividir texto de cita y citar atribución (nombre o fuente) en diferenteCSSVariables
 
-### Version 0.4.4 Consistencies Update
+## Versión 0.4.
+
+## Versión 0.4.Actualización de las coherencias
 - Corrección de la nota de pie de página
 - Corrección de alineación de la lista de balas
 - Color resaltado por defecto cambiado
@@ -23,7 +69,7 @@ __
 - Agregue la opción Configuración de estilo para configurar el relleno de elementos sugerencias
 - Soporte añadido para el plugin Omnisearch
 
-### Version 0.4.3 Rainbow Repair
+## Versión 0.4.Reparación de arco iris
 - Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral
 - Añadir Opciones de configuración de estilo para configurar el relleno de elementos de árbol
 - Agregado fondo de color en lugar de texto para las opciones de carpetas de arco iris (hace carpetas de arco iris en este tema más consistentes con las de otros temas)
@@ -31,11 +77,11 @@ __
 - duración, función de tiempo, anchura mínima
 - Vim fijo Mode Status to use`var(--font-ui-medium)`por defecto
 
-### Version 0.4.2 Relative Line Numbers
+## Versión 0.4.Números relativos de línea
 
 - Huevo de Pascua removido Modo de cosas
 - Ajuste de ancho de línea de archivo utilizando`cssclasses`
-- Nuevo sitio de documentación con traducciones en https://flexcyon-docs.readthedocs.io/es/latest/
+- Nuevo sitio de documentación con traducciones en https://flexcyon-ocs.readthedocs.io/en/latest/
 - La documentación vieja está deprecatada
 - Colores de fondo del modo de luz fijo y el engranaje de línea activa
 - Números de línea relativos adaptados de Shimmering Focus
@@ -46,17 +92,17 @@ __
 - Edición de fondo fija con TUI
 - Agregar opción de modo de escritura global
 
-### Version 0.4.1 Quickfix Update
+## Versión 0.4.Actualización de Quickfix
 
 - Fijar el renderizado TUI en modo de luz
 
 - Fijar la barra lateral izquierda cuando la cinta no está habilitada
 
-- Fijar texto resaltado bg específicamente con sugerencias-luz
+- Fijar texto resaltado bg específicamente con sugerencia-ighlight
 
 - Fijar las incrustaciones sin mostrar
 
-### Version 0.4.0 Light Mode Update
+## Versión 0.4.Actualización del modo de luz
 
 - Cambio de la barra lateral de fondo de brillo predeterminado a`unset`. Was
 anteriormente causando problemas como borroso contenido de plugin Calender.
@@ -84,9 +130,9 @@ el tema
 
 - Regresar a Zero (modo minimalista del ultra) inspirado en el tema Shimmering Focus
 
-## Version 0.3.x
+## Versión 0.3.
 
-### Version 0.3.6 Canvas Menu Update
+## Versión 0.3.Actualización de menús
 
 - Cuestiones de fondo de barra lateral fija
 
@@ -98,7 +144,7 @@ el tema
 
 - Opciones de alineación del menú de la tarjeta de lienzo (plenty de opciones)
 
-### Version 0.3.5 Configuration Update
+## Versión 0.3.Actualización de configuración
 
 - La documentación ahora tiene su propio sitio.
 
@@ -117,7 +163,7 @@ diferentes niveles de rumbo.
 
 - opción agregada para configurar los contenedores de metadatos
 
-### Version 0.3.4 Easter Egg Mode
+## Versión 0.3.Modo de huevo de Pascua
 
 - Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
 barras de estado más largas
@@ -130,7 +176,7 @@ barras de estado más largas
 
 - Modo de huevo de Pascua reversible
 
-### Version 0.3.3 QOL Update
+## Versión 0.3.Actualización de QOL
 
 - Factor de indentación configurable añadido y regulación de cabeceras colapsadas
 Menú Ajustes de estilo
@@ -138,7 +184,7 @@ Menú Ajustes de estilo
 - Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
 párrafo espaciamiento
 
-- También tiene un proveedor de clase CSS que le permite aplicar el mismo texto
+- También tiene unCSSproveedor de clase que le permite aplicar el mismo texto
 indent and paragraph spacing increases to the target note
 
 - Add rhombus editor background option
@@ -156,13 +202,13 @@ y barra lateral derecha
 
 - Añada antes de la nueva pestaña título de estado vacío ahora predeterminado a ninguno:
 
-- Si usted está usando citas o arte ASCII, hacer re-enable it
+- Si usas citas o arte ASCII, haz re-nable it
 
 - Ahora puede configurar el color de fondo para las citas o arte ASCII
 
 - Los cambios pueden necesitar una recarga de la aplicación/restaurante para entrar en vigor
 
-### Version 0.3.2 Animations
+## Versión 0.3.Animaciones
 
 - Styling Ajustes a la tienda comunitaria, diseños existentes
 
@@ -194,7 +240,7 @@ y barra lateral derecha
 ,
 impulsos, etc.
 
-### Version 0.3.1 Tidying Up
+## Versión 0.3.Tidying Up
 
 - Servicios de metadatos adicionales para:
 
@@ -202,7 +248,7 @@ impulsos, etc.
 
 - título y contenido itálico y oblicuo
 
-- dashed, dotted, double, overline, underline and line-through for title and content
+- destrozado, dotado, doble, overline, subline y linea-hrough para título y contenido
 
 - Apply Heading 1 a 6 estilos para título
 
@@ -230,9 +276,9 @@ impulsos, etc.
 
 - Cambia el estilo de las migas de pan para usar ASCII en lugar de emoji
 
-### Version 0.3.0 TUI Layout
+## Versión 0.3.TUI Layout
 
-- Añadido TUI inspirado add-on al diseño de tarjetas
+- Añadido TUI inspirado agregar-n a la distribución de tarjetas
 
 - Activado por defecto
 
@@ -265,13 +311,13 @@ título y contenido
 
 - Bottomcenter
 
--[See the documentation](../index.md)para más detalles
+-[See the documentation](../index.md)[See the documentation](../index.md)para más detalles
 
-__
+___
 
-## Version 0.2.x
+## Versión 0.2.
 
-### Version 0.2.2 Layout styling
+## Versión 0.2.Su estilo
 
 - Color de fondo de dobles comillas fijas
 
@@ -294,7 +340,7 @@ tiene una opción de color:
 
 - Opciones de tamaño de la barra de estado añadido
 
-### Version 0.2.1 Small Update
+## Versión 0.2.Pequeña actualización
 
 - Animaciones de ventana eliminadas ya que no son performant.
 
@@ -309,17 +355,17 @@ siempre devolver la misma mezcla de color cuando se utiliza en las utilidades de
 
 - Opciones de estilo añadido para el título en línea
 
-### Version 0.2.0 Aesthetics Update
+## Versión 0.2.Actualización de estética
 
 - Añadido margen vertical de llamada, opción de radio fronterizo
 
 - Opción de radio de la imagen agregada
 
 - Paleta de color extendida (puede utilizarse como fuentes de metadatos de llamada o en
-variables css)
+cssvariables)
 
 - Llamada popup agregada, adaptada a
-[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
 
 - Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 
@@ -350,13 +396,13 @@ Elija entre las siguientes opciones:
 
 - Opciones de fondo dotted y grid
 
-- Ver el[documentation](../index.md)para más detalles
+- Ver el[documentation](../index.md)[documentation](../index.md)para más detalles
 
-__
+___
 
-## Version 0.1.x
+## Versión 0.1.
 
-### Version 0.1.1 Hotfixes
+## Versión 0.1.Hotfixes
 
 - opción agregada para cambiar el tamaño de la fuente ASCII
 
@@ -374,7 +420,7 @@ __
 
 - Los medios de comunicación tienen ahora margen vertical que se puede establecer
 
-### Version 0.1.0: Utilities Update
+## Versión 0.1.: Actualización de las utilidades
 
 - Apoyo añadido para el enchufe de repetición espaciada
 
@@ -414,17 +460,17 @@ __
 
 - LTR vertical
 
-- Ver el[documentation](../index.md)para más detalles
+- Ver el[documentation](../index.md)[documentation](../index.md)para más detalles
 
 Créditos:
 
 -`@OWA/bennyyip`sobre la discordia del grupo de miembros obisidianos para el tategaki
 
--`@Tuck`en la discordia del grupo de miembros obsidianos para opciones para cambiar el color de enlace
+-`@Tuck`sobre elObsidianDiscordia de grupo de miembros para opciones para cambiar el color de enlace
 
-### Version 0.0.5: Minor Changes
+### Versión 0.0.5: Cambios Menores
 
-- Made ASCII art responsive, usted puede establecer un tamaño de fuente limiten él
+- Made ASCII art responsive, puede establecer un límite de tamaño de fuente en él
 
 - La barra de estado no se solapa con el texto de entrada del modo de comando
 

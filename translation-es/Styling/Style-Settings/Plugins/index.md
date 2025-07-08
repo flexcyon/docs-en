@@ -11,30 +11,28 @@ Formatos aceptados: HEX, rem, x.y, %
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
-|   |-- ...
+|   |-- 。
 |   |-- Plugins
-|   |-- ...
+|   |-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Alternate file tree
+### Árbol de archivo alternativo
 
-#### Folders font size
+### Folders font size
 
-CSS Variable(s) targeted:`var(--oz-fta-folder-font-size)`
-
+CSSVariable(s) targeted:`var(--oz-fta-folder-font-size)`
 Default: 0.925 (rem)
 
 <span style="font-size: 0.925rem"
 >Muestra Árbol de archivo alternativo Folders tamaño de la fuente</span>
 
-#### Folders font color
+##### Folders font color
 
-CSS Variable(s) targeted:`var(--oz-fta-folder-pane-file-name-color)`
-
+CSSVariable(s) targeted:`var(--oz-fta-folder-pane-file-name-color)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #080808"
 ></span
@@ -45,10 +43,9 @@ Default (modo oscuro):
 ></span
 >#d3d5d3
 
-#### Active folder color
+##### Color de carpeta activo
 
-CSS Variables(s) targeted:`var(--oz-fta-all-panes-active-text-color)`
-
+CSSVariables(s) dirigidas:`var(--oz-fta-all-panes-active-text-color)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #080808"
 ></span
@@ -59,76 +56,68 @@ Default (modo oscuro):
 ></span
 >#d3d5d3
 
-#### Files font size
+##### Tamaño de fuente de archivos
 
-CSS Variable(s) targeted:`var(--oz-fta-file-font-size)`
-
+CSSVariable(s) targeted:`var(--oz-fta-file-font-size)`
 Predeterminado: 0.9 (rem)
 
 <span style="font-size: 0.9rem"
 >Muestra Árbol de archivos alternativos tamaño de fuente</san>
 
-#### Files font color
+##### Files font color
 
-CSS Variable(s) targeted:`var(--oz-fta-file-pane-file-name-color)`
-
+CSSVariable(s) targeted:`var(--oz-fta-file-pane-file-name-color)`
 Default:
 <span class="col-sqr" style="background-color: #6f768599"
 ></span
 >#6f768599
 
-#### Disable folder icons
+##### Desactivar iconos de carpetas
 
-CSS Variable(s) targeted:`var(--flexcyon-oz-folder-icons-disabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-oz-folder-icons-disabled)`
 Default:false(de clase)
 
-#### Disable file tree header
+##### Cabecera de árbol de archivos deshabilitado
 
-CSS Variable(s) targeted:`var(--flexcyon-oz-file-tree-header-disabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-oz-file-tree-header-disabled)`
 Default:false(de clase)
 
 #### Enable Alternate folder count
 
-CSS Variable(s) targeted:`var(--flexcyon-oz-alternate-folder-count)`
-
+CSSVariable(s) targeted:`var(--flexcyon-oz-alternate-folder-count)`
 Default:false(de clase)
 
 #### Enabled dimmed file extensions in file tree
 
-CSS Variable(s) targeted:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
 Default:true(de clase)
 
-__
+___
 
 ### Full Calendar
 
 Formatos aceptados: x.y, %
 
-#### Opacity of dimmed full calendar items
+##### Opacity of dimmed full calendario items
 
-CSS Variables(s) targeted:`var(--flexcyon-fc-dimmed-items-opacity)`
-
+CSSVariables(s) dirigidas:`var(--flexcyon-fc-dimmed-items-opacity)`
 Predeterminado: 0.89
 
 <span style="opacity: 0.89"
 >Opacidad de muestra de elementos de calendario completo</span>
 
-__
+___
 
 ### Dataview
 
 Formatos aceptados: px
 
-#### Horizontal padding of dataview error messages
+### Padding horizontal de mensajes de error de la vista de datos
 
-CSS Variables(s) targeted:`var(--flexcyon-dataview-horizontal-padding)`
-
+CSSVariables(s) dirigidas:`var(--flexcyon-dataview-horizontal-padding)`
 Predeterminado: 8 (px)
 
-__
+___
 
 ### Canvas
 
@@ -136,38 +125,35 @@ Define estilos para el plugin Canvas núcleo.
 
 Formatos aceptados: px, RGB
 
-#### Blur inactive Canvas nodes
+##### Nodos de Canvas inactivos Blur
 
-CSS Variable(s) targeted:`var(--flexcyon-canvas-blur-inactive-nodes)`
-
+CSSVariable(s) targeted:`var(--flexcyon-canvas-blur-inactive-nodes)`
 Default:false(de clase)
 
-#### Blur intensity for inactive nodes
+##### Intensidad Blur para los nodos inactivos
 
 Usado con el ajuste anterior para establecer la intensidad de borda de los nodos de tela inactivos
 y todas las flechas/edges.
 
-CSS Variable(s) targeted:`var(--flexcyon-canvas-blur-intensity)`
-
+CSSVariable(s) targeted:`var(--flexcyon-canvas-blur-intensity)`
 Predeterminado: 1 (px)
 
-#### Canvas card menu alignment
+##### Ajuste del menú de la tarjeta
 
 Configurar la alineación del menú de la tarjeta de lienzo.
 
-CSS Classe(s) targeted:`.flexcyon-canvas-menu-bottom-left,`
+CSSClasse(s) targeted:`.flexcyon-canvas-menu-bottom-left,`
 `
-.flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
+.flexcyon-anvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
 ,
-.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
+.flexcyon-anvas-menu-top-left, .flexcyon-canvas-menu-top-right,
 ,
-.flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
+.flexcyon-anvas-menu-lcenter-center, .flexcyon-anvas-menu-lcenter-top,
 ,
-.flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center,
+.flexcyon-anvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center,
 ,
-.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align
+.flexcyon-anvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align
 `
-
 Predeterminado: ninguno (clase selecto)
 
 Opciones:
@@ -196,3 +182,33 @@ Opciones:
 
 - Bien alineadocenteralign
 
+___
+
+## Varios Complementos
+#### Vertical Suggestion Padding
+CSSVariable(s) targeted:`var(--flexcyon-var-comps-sugg-vert-padding)`
+Predeterminado: 7 (px)
+
+#### Horizontal Suggestion Padding
+CSSVariable(s) targeted:`var(--flexcyon-var-comps-sugg-horiz-padding)`
+Predeterminado: 12 (px)
+
+##### Compacto Modo de Sugerencia
+Supera los defectos. Usa el relleno 4px 8px.
+.
+
+CSSVariable(s) targeted:`var(--flexcyon-var-comps-compact-mode)`
+Default:false(de clase)
+
+___
+### Omnisearch
+
+##### Desactivar los iconos de Omnisearch
+
+CSSClasse(s) targeted:`var(--flexcyon-omnisearch-no-icons)`
+Default:false(de clase)
+
+#### Omnisearch Body Left Margin
+
+CSSClasse(s) targeted:`var(--flexcyon-omnisearch-body-margin-left-margin-left)`
+Default:1.5 (rem)

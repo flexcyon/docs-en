@@ -1,9 +1,9 @@
 ---
-title: No Title
+title: No Título
 icon: material/cancel
 ---
 
-Metadatos sin derecho
+Metadatos de llamada: "no-itle
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > Content wil show as usual
 ```
 
-El estilo en sí se aplica también["empty"](../combined-styling/page-1.md)
-junto con["no-icon"](../icon-styling/page-1.md).
+El estilo en sí se aplica también["empty"](../combined-styling/page-1.md)["empty"](../combined-styling/page-1.md)
+junto con["no-icon"](../icon-styling/page-1.md)["no-icon"](../icon-styling/page-1.md).
 

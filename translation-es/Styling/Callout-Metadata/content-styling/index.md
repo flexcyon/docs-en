@@ -1,8 +1,8 @@
 ---
-title: Content Styling
+title: Índice
 icon: material/contain
 ---
 
-En esta subpágina puedes encontrar ejemplos de uso para el estilo de contenido
+En este subs-edad, puede encontrar ejemplos de uso para el estilo de contenido
 llamadas usando metadatos de llamada.
 

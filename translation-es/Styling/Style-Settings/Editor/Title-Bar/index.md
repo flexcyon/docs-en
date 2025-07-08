@@ -1,5 +1,5 @@
 ---
-title: Title Bar
+title: Título Bar
 icon: material/format-text-variant-outline
 ---
 
@@ -9,20 +9,19 @@ Para la configuración de la barra de títulos, active los efectos de la palanca
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Title Bar
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
 ### Titlebar Button Effects
 
-CSS Variable(s) targeted:`var(--flexcyon-titlebar-button-effects)`
-
+CSSVariable(s) targeted:`var(--flexcyon-titlebar-button-effects)`
 Default:true(de clase)

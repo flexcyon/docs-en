@@ -3,7 +3,7 @@ title: Status Bar
 icon: material/state-machine
 ---
 
-Define las variables CSS para configurar la barra de estado
+DefinesCSSvariables para configurar la barra de estado
 
 Formatos aceptados: s, px
 
@@ -11,99 +11,87 @@ Formatos aceptados: s, px
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Status Bar
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Status Bar Hide Until Hover
+### Status Bar Hide until Hover
 
-#### Hide until hover
+##### Escóndete hasta el buceador
 
-CSS Variable(s) targeted:`var(--flexcyon-status-hide-until-hover)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-hide-until-hover)`
 Default:false(de clase)
 
-#### Text when hide until hover enabled
+##### Texto cuando se esconde hasta que se haya habilitado el soporte
 
-CSS Variable(s) targeted:`var(--flexcyon-status-hide-until-hover-text)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-hide-until-hover-text)`
 Predeterminado: "Mostrar estado"
 
-#### Translation for showing status bar on hover
+### Traducción para mostrar la barra de estado en la palanca
 
-CSS Variable(s) targeted:`var(--flexcyon-status-hide-until-hover-translation)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-hide-until-hover-translation)`
 Predeterminado: 1500px
 
-#### Transition duration for showing status bar on hover
+#### Duración de la transición para mostrar la barra de estado en la palanca
 
-CSS Variable(s) targeted:`var(--flexcyon-status-hide-hover-duration)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-hide-hover-duration)`
 Default: 0.35 (s)
 
-#### Transition timing function for showing status bar on hover
+#### Función de sincronización de transición para mostrar barra de estado en el aparador
 
-CSS Variable(s) targeted:`var(--flexcyon-status-hide-hover-function)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-hide-hover-function)`
 Default:ease-out
 
-__
-### Text Configuration
+___
+### Configuración de texto
 
-#### Use text instead of icons for mode status
+##### Use texto en lugar de iconos para el estado de modo
 
-CSS Variable(s) targeted:`var(--flexcyon-status-text-mode)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-text-mode)`
 Default:false(de clase)
 
-#### Reading Mode Text
+##### Texto del modo lectura
 
-CSS Variable(s) targeted:`var(--flexcyon-status-reading-text)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-reading-text)`
 Default: "READ"
 
-#### Source Mode Text
+##### Texto del Modo Fuente
 
-CSS Variable(s) targeted:`var(--flexcyon-status-source-text)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-source-text)`
 Default: "SOURCE"
 
 #### Live Preview Mode Text
 
-CSS Variable(s) targeted:`var(--flexcyon-status-live-text)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-live-text)`
 Default: "LIVE"
 
-__
+___
 
 ### Status Bar Styling
 
-#### Show status bar on mobile
+##### Mostrar la barra de estado en móvil
 
-CSS Variable(s) targeted:`var(--flexcyon-status-mobile-enabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-mobile-enabled)`
 Default:false(de clase)
 
-#### Status bar font size
+##### Tamaño de la fuente de la barra de estado
 
-CSS Variable(s) targeted:`var(--status-bar-font-size)`
-
+CSSVariable(s) targeted:`var(--status-bar-font-size)`
 Predeterminado: 12.5 (px)
 
-#### Select status bar style
+##### Seleccione estilo de barra de estado
 
-CSS Classe(s) targeted: `.flexcyon-status-style-angled,
+CSSClasse(s) targeted: `.flexcyon-tatus-style-angled,
 ,
-.flexcyon-status-style-card, .flexcyon-status-style-pl10k`
-
+.flexcyon-tatus-style-card, .flexcyon-status-style-pl10k`
 Predeterminado: ninguno (clase selecto)
 Opciones:
 
@@ -111,9 +99,8 @@ Opciones:
 - Tarjetas
 - Powerlevel10k
 
-#### Enable status text color
+##### Color de texto de estado habilitado
 
-CSS Variable(s) targeted:`var(--flexcyon-status-text-enable-color)`
-
+CSSVariable(s) targeted:`var(--flexcyon-status-text-enable-color)`
 Default:false(de clase)
 

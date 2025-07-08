@@ -55,5 +55,8 @@ horizontal rules
 - [Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus) theme
 for RTZ mode and prompt styling
 
+- `@Moy` on the Obsidian Members' Group Discord for fix to highligh search result
+visual bug
+
 ___
 Last but not least, *you* for using the theme and reading the documentation :D

@@ -1,11 +1,11 @@
 ---
-title: Version 0.3.x
+title: Versión 0.3.x
 icon: material/numeric-3-box-outline
 ---
 
-### Version 0.3.0 TUI Layout
+## Versión 0.3.TUI Layout
 
-- Añadido TUI inspirado add-on al diseño de tarjetas
+- Añadido TUI inspirado agregar-n a la distribución de tarjetas
 
 - Activado por defecto
 
@@ -38,7 +38,7 @@ titulo de llamada y contenido
 
 - Bottomcenter
 
-### Version 0.3.1 Tidying Up
+## Versión 0.3.Tidying Up
 
 - Servicios de metadatos adicionales para:
 
@@ -46,7 +46,7 @@ titulo de llamada y contenido
 
 - título y contenido itálico y oblicuo
 
-- dashed, dotted, double, overline, underline and line-through for title and content
+- destrozado, dotado, doble, overline, subline y linea-hrough para título y contenido
 
 - Apply Heading 1 a 6 estilos para título
 
@@ -74,7 +74,7 @@ titulo de llamada y contenido
 
 - Cambia el estilo de las migas de pan para usar ASCII en lugar de emoji
 
-### Version 0.3.2 Animations
+## Versión 0.3.Animaciones
 
 - Styling Ajustes a la tienda comunitaria, diseños existentes
 
@@ -106,7 +106,7 @@ titulo de llamada y contenido
 ,
 impulsos, etc.
 
-### Version 0.3.3 QOL Update
+## Versión 0.3.Actualización de QOL
 
 - Factor de indentación configurable añadido y regulación de cabeceras colapsadas
 Menú Ajustes de estilo
@@ -114,7 +114,7 @@ Menú Ajustes de estilo
 - Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
 párrafo espaciamiento
 
-- También tiene un proveedor de clase CSS que le permite aplicar el mismo texto
+- También tiene unCSSproveedor de clase que le permite aplicar el mismo texto
 indent and paragraph spacing increases to the target note
 
 - Add rhombus editor background option
@@ -132,13 +132,13 @@ y barra lateral derecha
 
 - Añada antes de la nueva pestaña título de estado vacío ahora predeterminado a ninguno:
 
-- Si usted está usando citas o arte ASCII, hacer re-enable it
+- Si usas citas o arte ASCII, haz re-nable it
 
 - Ahora puede configurar el color de fondo para las citas o arte ASCII
 
 - Los cambios pueden necesitar una recarga de la aplicación/restaurante para entrar en vigor
 
-### Version 0.3.4 Easter Egg Mode
+## Versión 0.3.Modo de huevo de Pascua
 
 - Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
 barras de estado más largas
@@ -151,7 +151,7 @@ barras de estado más largas
 
 - Modo de huevo de Pascua reversible
 
-### Version 0.3.5 Configuration Update
+## Versión 0.3.Actualización de configuración
 
 - La documentación ahora tiene su propio sitio.
 
@@ -169,7 +169,7 @@ para diferentes niveles de rumbo.
 
 - opción agregada para configurar los contenedores de metadatos
 
-### Version 0.3.6 Canvas Menu Update
+## Versión 0.3.Actualización de menús
 
 - Cuestiones de fondo de barra lateral fija
 

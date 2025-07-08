@@ -1,5 +1,5 @@
 ---
-title: Bullet Lists
+title: Listas de balas
 icon: material/format-list-bulleted
 ---
 
@@ -9,22 +9,21 @@ Configurar listas de balas en el tema
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Bullet Lists
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
 ### Enable rainbow bullet lists
 
-CSS Variable(s) targeted:`var(--flexcyon-rainbow-bullet-points)`
-
+CSSVariable(s) targeted:`var(--flexcyon-rainbow-bullet-points)`
 Default:false(de clase)
-> Might need app restart/reload to take effect.
+> Podría necesitar reiniciar/recargar de la aplicación para entrar en vigor.
 

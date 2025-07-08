@@ -205,6 +205,13 @@ def create_and_install_venv(venv_name=".venv", requirements_file="requirements.t
         except Exception as e:
             logger.error(f"An unexpected error occurred during pip install: {e}", exc_info=True)
             sys.exit(1)
+
+        # Ensure libretranslate is in requirements.txt for language support
+        with open(requirements_file, "r+") as f:
+            lines = f.readlines()
+            if not any("libretranslate" in line for line in lines):
+                f.write("libretranslate==1.6.5\n")
+                logger.info("Added 'libretranslate==1.6.5' to requirements.txt for English, Chinese, and Spanish support.")
     else:
         logger.warning(
             f"'{requirements_file}' not found. Skipping standard Python dependency installation."
@@ -212,7 +219,6 @@ def create_and_install_venv(venv_name=".venv", requirements_file="requirements.t
 
     logger.info("Local virtual environment setup complete.")
     logger.info(f"\nTo manually activate the virtual environment for your session, run:")
-    logger.info(f"  {activate_command}")
     logger.info(f"Then you can run your application using 'python {rel2abspath('your_app_name.py')}' or similar.")
 
 
@@ -315,7 +321,7 @@ def run_libretranslate_models_init(venv_python_path: str):
 
 def run_translate_script(venv_python_path: str):
     """
-    Executes the translate.py script using the venv's Python interpreter.
+    Executes the translate.py script using the venv's Python interpreter for both Chinese and Spanish.
     """
     translate_script_path = rel2abspath("translate.py")
 
@@ -323,22 +329,24 @@ def run_translate_script(venv_python_path: str):
         logger.error(f"Translate script not found at '{translate_script_path}'. Cannot run.")
         sys.exit(1)
     
-    logger.info(f"Attempting to run translation script: {translate_script_path}")
-    try:
-        subprocess.run(
-            [venv_python_path, translate_script_path],
-            check=True,
-            stdout=sys.stdout,
-            stderr=sys.stderr,
-        )
-        logger.info("Translation script completed successfully.")
-    except subprocess.CalledProcessError as e:
-        logger.error(f"Translation script failed with error: {e}", exc_info=True)
-        logger.error(f"Command failed: {' '.join(e.cmd)}")
-        sys.exit(1)
-    except Exception as e:
-        logger.error(f"An unexpected error occurred while running translate.py: {e}", exc_info=True)
-        sys.exit(1)
+    logger.info(f"Attempting to run translation script: {translate_script_path} for zh and es")
+    for lang in ["zh", "es"]:
+        try:
+            logger.info(f"Running translation for language: {lang}")
+            subprocess.run(
+                [venv_python_path, translate_script_path, "--lang", lang],
+                check=True,
+                stdout=sys.stdout,
+                stderr=sys.stderr,
+            )
+            logger.info(f"Translation script completed successfully for {lang}.")
+        except subprocess.CalledProcessError as e:
+            logger.error(f"Translation script failed with error: {e}", exc_info=True)
+            logger.error(f"Command failed: {' '.join(e.cmd)}")
+            sys.exit(1)
+        except Exception as e:
+            logger.error(f"An unexpected error occurred while running translate.py for {lang}: {e}", exc_info=True)
+            sys.exit(1)
 
 
 def main():

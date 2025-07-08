@@ -1,11 +1,11 @@
 ---
-title: File Line Width
+title: Línea de archivos Width
 icon: material/arrow-expand-horizontal
 ---
 
 # Usage
 
-Configurar el ancho de la línea de archivo en una base por nota
+Configurar el ancho de la línea de archivo en un per-ote basis
 
 ```md
 cssclasses:

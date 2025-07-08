@@ -1,8 +1,8 @@
 ---
-title: CSS Classes
+title: CSS Clases
 icon: material/code-braces
 ---
 
-Esta página y sus subpáginas consisten en clases de CSS que puedes utilizar para personalizar
+Esta página y su sub-edades compuestas porCSSclases que puedes utilizar para personalizar
 tu bóveda.
 

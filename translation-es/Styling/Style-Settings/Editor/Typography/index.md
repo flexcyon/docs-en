@@ -1,5 +1,5 @@
 ---
-title: Typography
+title: Tipografía
 icon: material/format-text
 ---
 
@@ -12,23 +12,41 @@ Formatos aceptados: HEX
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Typography
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Muted text color
+### Color de texto mudo
 
-CSS Variable(s) targeted:`var(--flexcyon-text-muted)`
-
+CSSVariable(s) targeted:`var(--flexcyon-text-muted)`
 Default:
 <span class="col-sqr" style="background-color: #6f768599"
 ></span
 >#6f768599
+
+## Texto de alto nivel
+
+CSSVariable(s) targeted: var(--flexcyon-ighlight-verti-padding)
+
+Predeterminado: 1 (px)
+
+Texto de alto nivel Horizontal Padding
+
+CSSVariable(s) targeted: var(--flexcyon-ighlight-horiz-padding);
+;
+
+Default:2.(px)
+
+### Highlight Text Border Radius
+
+CSSVariable(s) targeted: var(--flexcyon-ighlight-border-radius)
+
+Predeterminado: 4 (px)

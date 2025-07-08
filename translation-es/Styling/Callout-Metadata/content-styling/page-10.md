@@ -1,9 +1,9 @@
 ---
-title: Dashed Content
+title: Contenido derramado
 icon: material/format-color-text
 ---
 
-Metadatos de Callout: "contenido en ruinas"
+Metadatos de llamada: "destruido"-ontent
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > The content will be displayed as dashed
 ```
 
-El estilo en sí se aplica también["dashed-all"](../combined-styling/page-20.md)
-junto con["dashed-title"](../title-styling/page-20.md).
+El estilo en sí se aplica también["dashed-all"](../combined-styling/page-20.md)["dashed-all"](../combined-styling/page-20.md)
+junto con["dashed-title"](../title-styling/page-20.md)["dashed-title"](../title-styling/page-20.md).
 

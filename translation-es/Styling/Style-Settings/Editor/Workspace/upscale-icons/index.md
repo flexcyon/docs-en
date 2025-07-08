@@ -1,5 +1,5 @@
 ---
-title: Upscale Percentage of Icons
+title: Porcentaje ascendente de íconos
 icon: material/emoticon-plus-outline
 ---
 
@@ -7,32 +7,30 @@ icon: material/emoticon-plus-outline
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Workspace
 |   |   |   |-- Upscale percentage of icons
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-#### Upscale percentage of icons 1
+##### Porcentaje de escala de iconos 1
 
-CSS Variable(s) targeted:`var(--upsize)`
-
+CSSVariable(s) targeted:`var(--upsize)`
 Predeterminado: 103%
 
 <span style="scale: 103%"
 >Porcentaje de aumento de muestras 1</span>
 
-#### Upscale percentage of icons 2
+##### Porcentaje de escala de iconos 2
 
-CSS Variable(s) targeted:`var(--expand)`
-
+CSSVariable(s) targeted:`var(--expand)`
 Predeterminado: 110%
 
 <span style="scale: 110%"

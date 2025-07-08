@@ -1,5 +1,5 @@
 ---
-title: Inline Title
+title: Título en línea
 icon: material/format-underline-wavy
 ---
 
@@ -9,39 +9,36 @@ Formatos aceptados: em, número
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Typography
-|   |   |   |-- ...
+|   |   |   |-- 。
 |   |   |   |-- Inline title
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |   |-- 。
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
 <span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
 Título de muestra en línea</span>
 
-### Inline title font size
+### Tamaño de fuente de título en línea
 
-CSS Variable(s) targeted:`var(--inline-title-size)`
+CSSVariable(s) targeted:`var(--inline-title-size)`
+Default:1.02 (em)
 
-Predeterminado: 1.802 (em)
+### Peso de fuente de título en línea
 
-### Inline title font weight
-
-CSS Variable(s) targeted:`var(--inline-title-weight)`
-
+CSSVariable(s) targeted:`var(--inline-title-weight)`
 Predeterminado: 700
 
-### Inline title font height
+### Altura de fuente de título en línea
 
-CSS Variable(s) targeted:`var(--inline-title-height)`
-
-Default: 1.2
+CSSVariable(s) targeted:`var(--inline-title-height)`
+Default:1.
 

@@ -7,22 +7,25 @@ tags:
 # Roadmap
 
 La hoja de ruta no se actualizará a menudo. Sin embargo, representa algunas características I
-desea agregar pero puede ser demasiado tiempo para que yo pueda manejar.
+deseo de añadir pero puede ser demasiado tiempo-asumiendo que me encargue.
+.
 
 ## Misc
 
 - Añadir mejores capturas de pantalla
-> Add more CSS classes
+> Añadir másCSSclases
 
 ### Plugins/snippets
 
 - Soporte para más plugins
 - También podría mirar:
 - Tareas
-- QuickAdd (variables css por defecto)
-- Tabs verticales, etc
--`publish.css`
-
+    <!-- - Excalidraw (too difficult to style) -->
+    - QuickAdd (override default css variables)
+    - Vertical Tabs etc
+- `publish.css`
 ### Other styling options
 
 - Mermaid Chart Styling
+<!-- - [ ] PDF export styling (class select). Not happening when it is 
+impossible to debug -->

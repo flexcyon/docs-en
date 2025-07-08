@@ -1,9 +1,9 @@
 ---
-title: Oblique Content
+title: Contenido oblicua
 icon: material/format-text-variant
 ---
 
-Metadatos de llamada: "contenido oblicuo"
+Metadatos de llamada: "oblicua"-ontent
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > The content will be displayed as oblique
 ```
 
-El estilo en sí se aplica también["oblique-all"](../combined-styling/page-19.md)
-junto con["oblique-title"](../title-styling/page-19.md).
+El estilo en sí se aplica también["oblique-all"](../combined-styling/page-19.md)["oblique-all"](../combined-styling/page-19.md)
+junto con["oblique-title"](../title-styling/page-19.md)["oblique-title"](../title-styling/page-19.md).
 

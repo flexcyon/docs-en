@@ -3,7 +3,7 @@ title: Strikethrough Content
 icon: material/format-strikethrough
 ---
 
-Metadatos Callout: "line-through-content"
+Metadatos de llamada: "Línea-hrough-content"
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > The content will be displayed as strikethrough
 ```
 
-El estilo en sí se aplica también["line-through-all"](../combined-styling/page-23.md)
-junto con["line-through-title"](../title-styling/page-23.md).
+El estilo en sí se aplica también["line-through-all"](../combined-styling/page-23.md)["line-through-all"](../combined-styling/page-23.md)
+junto con["line-through-title"](../title-styling/page-23.md)["line-through-title"](../title-styling/page-23.md).
 

@@ -1,9 +1,9 @@
 ---
-title: Heading 1 Title
+title: Título
 icon: material/format-header-1
 ---
 
-Metadatos de callout: "h1-title"
+Metadatos de llamada: "h1-itle
 
 Usage:
 

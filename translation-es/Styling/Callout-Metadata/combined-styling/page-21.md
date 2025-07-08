@@ -3,7 +3,7 @@ title: Overline All
 icon: material/format-overline
 ---
 
-Metadatos de llamada: "sobre todo"
+Metadatos de llamada: "overline"-ll"
 
 Usage:
 
@@ -11,6 +11,6 @@ Usage:
 > [!info|overline-all] The title will be displayed as overline
 > The content will be displayed as overline
 ```
-> Shorthand for both ["overline-content"](../content-styling/page-11.md)
-> and ["overline-title"](../title-styling/page-21.md)
+> Shorthand para ambos["overline-content"](../content-styling/page-11.md)["overline-content"](../content-styling/page-11.md)
+> y["overline-title"](../title-styling/page-21.md)["overline-title"](../title-styling/page-21.md)
 

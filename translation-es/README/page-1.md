@@ -1,5 +1,5 @@
 ---
-title: Screenshots
+title: Captura
 icon: material/image
 ---
 

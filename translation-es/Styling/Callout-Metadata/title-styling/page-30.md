@@ -1,9 +1,9 @@
 ---
-title: Heading 6 Title
+title: Título
 icon: material/format-header-6
 ---
 
-Metadatos de callout: "h6-title"
+Metadatos de llamada: "h6-itle
 
 Usage:
 

@@ -1,5 +1,5 @@
 ---
-title: Heading indicators
+title: Indicadores de referencia
 icon: material/format-letter-case
 ---
 

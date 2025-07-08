@@ -1,19 +1,19 @@
 ---
-title: Version 0.2.x
+title: Versión 0.2.x
 icon: material/numeric-2-box-outline
 ---
 
-## Version 0.2.0 Aesthetics Update
+## Versión 0.2.Actualización de estética
 
 - Añadido margen vertical de llamada, opción de radio fronterizo
 
 - Opción de radio de la imagen agregada
 
 - Paleta de color extendida (puede utilizarse como fuentes de metadatos de llamada o en
-variables css)
+cssvariables)
 
 - Llamada popup agregada, adaptada a
-[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
 
 - Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 
@@ -44,10 +44,10 @@ Elija entre las siguientes opciones:
 
 - Opciones de fondo dotted y grid
 
--[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
+-[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
 para más detalles
 
-## Version 0.2.1 Small Update
+## Versión 0.2.Pequeña actualización
 
 - Animaciones de ventana eliminadas ya que no son performant.
 
@@ -62,7 +62,7 @@ siempre devolverá la misma mezcla de color cuando se utiliza en las utilidades 
 
 - Opciones de estilo añadido para el título en línea
 
-## Version 0.2.2 Layout styling
+## Versión 0.2.Su estilo
 
 - Color de fondo de dobles comillas fijas
 

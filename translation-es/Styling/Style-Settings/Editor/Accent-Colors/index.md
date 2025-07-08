@@ -1,11 +1,11 @@
 ---
-title: Accent Colors
+title: Colores Accent
 icon: material/format-color-fill
 ---
 
 Colores definidos anula los defectos de tema para los colores de encabezado y otros elementos de interfaz de usuario.
 También incluye overriding los colores de acento.
-> These colors overrides the standard css variables like var(--color-cyan)
+> Estos colores anulan el estándarcssvariables como var(--color-yan)
 
 Formatos aceptados: RGB, HEX
 
@@ -13,21 +13,20 @@ Formatos aceptados: RGB, HEX
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
 |   |   |-- Accent Colors
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Cyan Color
+## Cyan Color
 
-CSS Variable(s) targeted:`var(--flexcyon-cyan)`,`var(--color-cyan-rgb)`
-
+CSSVariable(s) targeted:`var(--flexcyon-cyan)`,`var(--color-cyan-rgb)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #3b9ba1"
 ></span
@@ -38,10 +37,9 @@ Default (modo oscuro):
 ></span
 >#3cb9c2
 
-### Green Color
+## Green Color
 
-CSS Variable(s) targeted:`var(--flexcyon-lime-green)`,`var(--color-green-rgb)`
-
+CSSVariable(s) targeted:`var(--flexcyon-lime-green)`,`var(--color-green-rgb)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #689523"
 ></span
@@ -52,10 +50,9 @@ Default (modo oscuro):
 ></span
 >#a1c05c
 
-### Orange Color
+## Orange Color
 
-CSS Variable(s) targeted:`var(--flexcyon-orange)`,`var(--color-orange-rgb)`
-
+CSSVariable(s) targeted:`var(--flexcyon-orange)`,`var(--color-orange-rgb)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #ed8126"
 ></span
@@ -66,10 +63,9 @@ Default (modo oscuro):
 ></span
 >#cc8449
 
-### Yellow Color
+## Amarillo Color
 
-CSS Variable(s) targeted:`var(--flexcyon-yellow)`,`var(--color-yellow-rgb)`
-
+CSSVariable(s) targeted:`var(--flexcyon-yellow)`,`var(--color-yellow-rgb)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #e8c62a"
 ></span
@@ -80,10 +76,9 @@ Default (modo oscuro):
 ></span
 >#c29e42
 
-### Purple Color
+## Purple Color
 
-CSS Variable(s) targeted:`var(--flexcyon-purple-lilac)`,`var(--color-purple-rgb)`
-
+CSSVariable(s) targeted:`var(--flexcyon-purple-lilac)`,`var(--color-purple-rgb)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #6f49ae"
 ></span
@@ -94,10 +89,9 @@ Default (modo oscuro):
 ></span
 >#a461c8
 
-### Red Color
+## Red Color
 
-CSS Variable(s) targeted:`var(--flexcyon-red-salmon)`,`var(--color-red-rgb)`
-
+CSSVariable(s) targeted:`var(--flexcyon-red-salmon)`,`var(--color-red-rgb)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #eb5325"
 ></span
@@ -108,10 +102,9 @@ Default (modo oscuro):
 ></span
 >#c03a47
 
-### Blue Color
+## Blue Color
 
-CSS Variable(s) targeted:`var(--flexcyon-blue)`,`var(--color-blue-rgb)`
-
+CSSVariable(s) targeted:`var(--flexcyon-blue)`,`var(--color-blue-rgb)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #5c9fe4"
 ></span
@@ -122,10 +115,9 @@ Default (modo oscuro):
 ></span
 >#5a8fcd
 
-### Pink Color
+## Pink Color
 
-CSS Variable(s) targeted:`var(--flexcyon-pink)`,`var(--color-pink-rgb)`
-
+CSSVariable(s) targeted:`var(--flexcyon-pink)`,`var(--color-pink-rgb)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #e389ca"
 ></span
@@ -138,8 +130,7 @@ Default (modo oscuro):
 
 ### Accent Color
 
-CSS Variable(s) targeted:`var(--flexcyon-accent)`
-
+CSSVariable(s) targeted:`var(--flexcyon-accent)`
 Default (modo oscuro):
 <span class="col-sqr" style="background-color: #5770b9"
 ></span
@@ -152,7 +143,6 @@ Default (modo oscuro):
 
 ### Enabled Extended Color Palette
 
-CSS Variable(s) targeted:`var(--flexcyon-ext-colors-enabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-ext-colors-enabled)`
 Default:true
 

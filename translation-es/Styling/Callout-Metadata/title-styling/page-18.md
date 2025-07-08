@@ -3,7 +3,7 @@ title: Italic Title
 icon: material/format-italic
 ---
 
-Metadatos de llamada: "título ciudadano"
+Metadatos de llamada: "italic"-itle
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["italic-all"](../combined-styling/page-18.md)
-junto con["italic-content"](../content-styling/page-8.md).
+El estilo en sí se aplica también["italic-all"](../combined-styling/page-18.md)["italic-all"](../combined-styling/page-18.md)
+junto con["italic-content"](../content-styling/page-8.md)["italic-content"](../content-styling/page-8.md).
 

@@ -1,7 +1,7 @@
 ---
-title: Callout Metadata
+title: Metadatos de Callout
 icon: material/information-outline
 ---
 
-Esta página y sus subpáginas consisten en metadatos callout que puedes utilizar para
+Esta página y su sub-edad consiste en metadatos de llamada que se puede utilizar
 personalice su bóveda.

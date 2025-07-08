@@ -1,9 +1,9 @@
 ---
-title: LTR Content
+title: Índice
 icon: material/align-horizontal-left
 ---
 
-Metadatos Callout: "ltr-content"
+Metadatos de llamada: "ltr-ontent
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > The content will be displayed as ltr
 ```
 
-El estilo en sí se aplica también["ltr-all"](../combined-styling/page-12.md)
-junto con["ltr-title"](../title-styling/page-12.md).
+El estilo en sí se aplica también["ltr-all"](../combined-styling/page-12.md)["ltr-all"](../combined-styling/page-12.md)
+junto con["ltr-title"](../title-styling/page-12.md)["ltr-title"](../title-styling/page-12.md).
 

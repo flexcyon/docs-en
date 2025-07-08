@@ -1,5 +1,5 @@
 ---
-title: Font weight Content
+title: Peso de la fuente
 icon: material/format-bold
 ---
 
@@ -19,6 +19,6 @@ Usage:
 > Content will have a bold font weight
 ```
 
-El estilo en sí se aplica también["w-`value`-all"](../combined-styling/page-24.md)
-junto con["w-`value`-title"](../title-styling/page-24.md).
+El estilo en sí se aplica también["w-`value`-all"](../combined-styling/page-24.md)["w-`value`-all"](../combined-styling/page-24.md)
+junto con["w-`value`-title"](../title-styling/page-24.md)["w-`value`-title"](../title-styling/page-24.md).
 

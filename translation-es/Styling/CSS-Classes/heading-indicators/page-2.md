@@ -1,5 +1,5 @@
 ---
-title: Heading indicators - H2
+title: Indicadores de referencia - H2
 icon: material/format-header-2
 ---
 

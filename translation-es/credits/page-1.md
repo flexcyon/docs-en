@@ -1,24 +1,24 @@
 ---
 icon: material/server
-title: Tools and Software
+title: Herramientas y software
 ---
 
 Las siguientes herramientas y software fueron indispensables para la elaboración del tema
 y su documentación.
 
-### Base application
+### Aplicación de la base
 
-- Obsidian
+-Obsidian
 
 ### Web Showcase
 
-- Obsidian Share Note plugin
+-ObsidianShare Note plugin
 
 ### Web Technologies
 
-- CSS
+-CSS
 
-- SCSS
+-SCSS
 
 ### Text Editors
 
@@ -28,18 +28,18 @@ y su documentación.
 
 ### Version Control
 
-- Git
+-Git
 
-- GitHub
+-GitHub
 
 ### Documentation
 
-- MkDocs
+-MkDocs
 
 - y el impresionante ecosistema construido alrededor de él
 
-- Material para MkDocs
+-MaterialparaMkDocs
 
-- ReadTheDocs
+-ReadTheDocs
 
-- Giscus
+-Giscus

@@ -1,9 +1,9 @@
 ---
-title: Capitalize Content
+title: Capitalizar el contenido
 icon: material/caps-lock
 ---
 
-Metadatos Callout: "caps-content"
+Metadatos de llamada: "caps-ontent
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > The content will be displayed as caps
 ```
 
-El estilo en sí se aplica también["caps-all"](../combined-styling/page-16.md)
-junto con["caps-title"](../title-styling/page-16.md).
+El estilo en sí se aplica también["caps-all"](../combined-styling/page-16.md)["caps-all"](../combined-styling/page-16.md)
+junto con["caps-title"](../title-styling/page-16.md)["caps-title"](../title-styling/page-16.md).
 

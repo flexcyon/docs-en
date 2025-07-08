@@ -1,9 +1,9 @@
 ---
-title: Heading 4 Title
+title: Título
 icon: material/format-header-4
 ---
 
-Metadatos de llamada: "h4-title"
+Metadatos de llamada: "h4-itle
 
 Usage:
 

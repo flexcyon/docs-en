@@ -1,14 +1,14 @@
 ---
-title: All Yellow
+title: Todos los amarillos
 icon: material/format-color-fill
 ---
 
-Metadatos de llamada: "todo amarillo"
+Metadatos de llamada: "todos-ellow
 
 ```md
 > [!tip|all-yellow] Title will be yellow
 > The background color will be yellow
 ```
-> Shorthand for both ["bg-yellow"](../bg-styling/page-9.md)
-> and ["title-yellow"](../title-styling/page-9.md)
+> Shorthand para ambos["bg-yellow"](../bg-styling/page-9.md)["bg-yellow"](../bg-styling/page-9.md)
+> y["title-yellow"](../title-styling/page-9.md)["title-yellow"](../title-styling/page-9.md)
 

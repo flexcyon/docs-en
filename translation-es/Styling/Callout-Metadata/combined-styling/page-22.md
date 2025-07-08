@@ -3,7 +3,7 @@ title: Underline All
 icon: material/format-underline
 ---
 
-Metadatos de callout: "comprendido todo"
+Metadatos de llamada: "en línea-ll"
 
 Usage:
 
@@ -11,6 +11,6 @@ Usage:
 > [!info|underline-all] The title will be displayed as underline
 > The content will be displayed as underline
 ```
-> Shorthand for both ["underline-content"](../content-styling/page-12.md)
-> and ["underline-title"](../title-styling/page-22.md)
+> Shorthand para ambos["underline-content"](../content-styling/page-12.md)["underline-content"](../content-styling/page-12.md)
+> y["underline-title"](../title-styling/page-22.md)["underline-title"](../title-styling/page-22.md)
 

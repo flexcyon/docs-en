@@ -9,37 +9,33 @@ Configure el curosr
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 | |-- Editor
-| | |-- ...
+| | |-- 。
 | | |-- Cursor
-| |-- ...
-|-- ...
+| |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
 ### Enable smooth cursor
 
-CSS Classe(s) targeted:`var(--flexcyon-enable-smooth-cursor)`
-
+CSSClasse(s) targeted:`var(--flexcyon-enable-smooth-cursor)`
 Default:true
 
-### Smooth cursor transition duration
+### Smooth cursor duración de transición
 
-CSS Classe(s) targeted:`var(--flexcyon-cursor-duration)`
-
+CSSClasse(s) targeted:`var(--flexcyon-cursor-duration)`
 Por defecto: 95 ms
 
-### Smooth cursor timing function
+### Función de sincronización del cursor
 
-CSS Classe(s) targeted:`var(--flexcyon-cursor-timing-fn)`
-
+CSSClasse(s) targeted:`var(--flexcyon-cursor-timing-fn)`
 Predeterminado: facilidad
 
-### Smooth cursor minimum width
+### Smooth cursor ancho mínimo
 
-CSS Classe(s) targeted:`var(--flexcyon-cursor-min-width)`
-
+CSSClasse(s) targeted:`var(--flexcyon-cursor-min-width)`
 Default:unset

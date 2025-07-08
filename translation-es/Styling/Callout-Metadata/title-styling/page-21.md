@@ -1,9 +1,9 @@
 ---
-title: Overline Title
+title: Título general
 icon: material/format-overline
 ---
 
-Metadatos Callout: "sobreline-title"
+Metadatos de llamada: "overline"-itle
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["overline-all"](../combined-styling/page-21.md)
-junto con["overline-content"](../content-styling/page-11.md).
+El estilo en sí se aplica también["overline-all"](../combined-styling/page-21.md)["overline-all"](../combined-styling/page-21.md)
+junto con["overline-content"](../content-styling/page-11.md)["overline-content"](../content-styling/page-11.md).
 

@@ -1,9 +1,9 @@
 ---
-title: Lowercase Title
+title: Título
 icon: material/format-letter-case-lower
 ---
 
-Metadatos de callout: "bajo-título"
+Metadatos de llamada: "bajo maletín-itle
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["lowercase-all"](../combined-styling/page-14.md)
-junto con["lowercase-content"](../content-styling/page-4.md).
+El estilo en sí se aplica también["lowercase-all"](../combined-styling/page-14.md)["lowercase-all"](../combined-styling/page-14.md)
+junto con["lowercase-content"](../content-styling/page-4.md)["lowercase-content"](../content-styling/page-4.md).
 

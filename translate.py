@@ -802,12 +802,23 @@ if __name__ == "__main__":
     logger.info(f"translate.py: Current working directory: {os.getcwd()}")
     logger.info(f"translate.py: Translation parameters: Language={args.lang}, Input='{args.input_dir}', Output='{args.output_dir if args.output_dir else './translation-' + args.lang}', API='{args.api_url}'")
 
-    run_translation(
-        target_language=args.lang,
-        input_directory=args.input_dir,
-        output_directory=args.output_dir,
-        api_url=args.api_url
-    )
+    # If --lang is not specified (i.e., default 'zh'), run both zh and es
+    if not any(arg.startswith('--lang') for arg in sys.argv):
+        for lang in ["zh", "es"]:
+            logger.info(f"translate.py: Running translation for language: {lang}")
+            run_translation(
+                target_language=lang,
+                input_directory=args.input_dir,
+                output_directory=None,  # Use default output dir per language
+                api_url=args.api_url
+            )
+    else:
+        run_translation(
+            target_language=args.lang,
+            input_directory=args.input_dir,
+            output_directory=args.output_dir,
+            api_url=args.api_url
+        )
     logger.info("--------------------------------------------------")
 
 

@@ -1,9 +1,9 @@
 ---
-title: Underline Title
+title: Título de referencia
 icon: material/format-underline
 ---
 
-Metadatos Callout: "subline-title"
+Metadatos de llamada: "en línea-itle
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["underline-all"](../combined-styling/page-22.md)
-junto con["underline-content"](../content-styling/page-12.md).
+El estilo en sí se aplica también["underline-all"](../combined-styling/page-22.md)["underline-all"](../combined-styling/page-22.md)
+junto con["underline-content"](../content-styling/page-12.md)["underline-content"](../content-styling/page-12.md).
 

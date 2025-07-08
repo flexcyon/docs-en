@@ -3,7 +3,7 @@ title: Oblique All
 icon: material/format-text-variant
 ---
 
-Metadatos de callout: "oblique-all"
+Metadatos de llamada: "oblicua"-ll"
 
 Usage:
 
@@ -11,6 +11,6 @@ Usage:
 > [!info|oblique-all] The title will be displayed as oblique
 > The content will be displayed as oblique
 ```
-> Shorthand for both ["oblique-content"](../content-styling/page-9.md)
-> and ["oblique-title"](../title-styling/page-19.md)
+> Shorthand para ambos["oblique-content"](../content-styling/page-9.md)["oblique-content"](../content-styling/page-9.md)
+> y["oblique-title"](../title-styling/page-19.md)["oblique-title"](../title-styling/page-19.md)
 

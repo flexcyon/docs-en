@@ -11,18 +11,19 @@ icon: material/book-open-blank-variant-outline
     <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?style=for-the-badge&sort=semver" alt="Releases">
 </a>
 
-# About Flexcyon
+Acerca de Flexcyon
 
-Un tema obsidiano que combina los esquemas de color de Halcyon y Flexoki.
+AObsidiantema que combina los esquemas de color de Halcyon y Flexoki.
+.
 
 Me gustó mucho los colores vibrantes de los
-[Halcyon colour scheme](https://halcyon-theme.netlify.app/), y el inky
-estética de la[Flexoki colour scheme](https://stephango.com/flexoki).
+[Halcyon colour scheme](https://halcyon-theme.netlify.app/)[Halcyon colour scheme](https://halcyon-theme.netlify.app/), y el inky
+estética de la[Flexoki colour scheme](https://stephango.com/flexoki)[Flexoki colour scheme](https://stephango.com/flexoki).
 Por lo tanto, decidí combinar los dos que comenzaron este tema.
 
-## Features
+## Características
 
-[Here is a web showcase](https://share.note.sx/jze8bimb)de las características
+[Here is a web showcase](https://share.note.sx/r7rd6a8a#n1z0mQOPxar40bRJJ8yIY/c97ljRYkU+vUX34EJVhoE)[Here is a web showcase](https://share.note.sx/r7rd6a8a#n1z0mQOPxar40bRJJ8yIY/c97ljRYkU+vUX34EJVhoE)de las características
 este tema tiene que ofrecer.
 
 - Algunas características no tendrán una correspondencia de 1 a 1 con el tema principal,
@@ -30,7 +31,7 @@ este tema tiene que ofrecer.
 pero este sitio debe darle una vista previa de cómo el tema mira antes
 instalarlo
 
-### What this theme has
+### Qué tema tiene
 
 - estado del modo vim (cuando se utiliza keybinds vim integrado)
 - Opciones de barra de estado como Powerlevel10k inspirado estilo barra de estado
@@ -40,59 +41,59 @@ instalarlo
 - un esquema de color oscuro y ligero
 - Cajas de verificación ASCII
 - Opciones de dirección como subline, numerado, coloreado
-- A[plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
-- Workspace Diseños como diseño de tarjetas con TUI inspirado add-on, diseño angular
+- A[plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)[plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
+- Workspace Diseños como diseño de tarjetas con TUI inspirado agregar-n, diseño angular
 - Configurar imágenes de fondo modal e izquierdo
 - Opciones de animación para pestañas
-- Y muchos más...
+- Y muchos más。
 
-### What this theme does not have
+### Qué tema no tiene
 
 - múltiples esquemas de color (aunque puede anular el existente
-con el suyo, ver[Style Settings](../Styling/Style-Settings/index.md))
+con el suyo, ver[Style Settings](../Styling/Style-Settings/index.md)[Style Settings](../Styling/Style-Settings/index.md))
 - casillas de verificación alternas
 - fuentes incrustadas, svgs
 
 #### Easter Egg Mode
 
-**Deprecated**, see[here](./page-5.md)
+**Deprecated**, see[here](./page-5.md)[here](./page-5.md)
 
-### Recommended snippets
+### Snippets recomendados
 
 Aquí están algunos fragmentos recomendados para añadir a su bóveda y utilizar junto a Flexcyon:
 
--[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
--[Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling)
--[MCL Multi Column and Gallery Cards by efemkay](https://github.com/efemkay/obsidian-modular-css-layout)
+-[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
+-[Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling)[Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling)
+-[MCL Multi Column and Gallery Cards by efemkay](https://github.com/efemkay/obsidian-modular-css-layout)[MCL Multi Column and Gallery Cards by efemkay](https://github.com/efemkay/obsidian-modular-css-layout)
 
 ## Roadmap
 
-La hoja de ruta para este tema se puede encontrar[here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md).
+La hoja de ruta para este tema se puede encontrar[here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md)[here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md).
 
 ## Changelogs
 
-Los Cambios para este tema se pueden encontrar[here](../changelogs/index.md)
+Los Cambios para este tema se pueden encontrar[here](../changelogs/index.md)[here](../changelogs/index.md)
 
-### Questions, Issues?
-
+## Preguntas, ¿Problemas?
+?
 Siéntete libre de hablar de ello en:
 
--[this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357).
--[this Obsidian forum topic](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)
+-[this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357)[this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357).
+-[this Obsidian forum topic](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)[this Obsidian forum topic](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)
 
 Alternativamente, puede abrir un problema en
-[the repository](https://github.com/bladeacer/flexcyon/issues)o
-[start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions)aquí.
+[the repository](https://github.com/bladeacer/flexcyon/issues)[the repository](https://github.com/bladeacer/flexcyon/issues)o
+[start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions)[start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions)aquí.
 
 ## Design Principles
 
-See[here](./page-4.md)
+See[here](./page-4.md)[here](./page-4.md)
 
-## Style Settings
+## Ajustes de estilo
 
-See[here](../Styling/Style-Settings/index.md)
+See[here](../Styling/Style-Settings/index.md)[here](../Styling/Style-Settings/index.md)
 
 ## License
 
-La licencia para el tema se puede encontrar[here](./license.md)
+La licencia para el tema se puede encontrar[here](./license.md)[here](./license.md)
 

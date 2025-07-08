@@ -11,47 +11,43 @@ Formatos aceptados: px, vw, vh
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 | |-- Editor
-| | |-- ...
+| | |-- 。
 | | |-- Workspace
-| | | |-- ...
+| | | |-- 。
 | | | |-- Prompts
-| | | |-- ...
-| | |-- ...
-| |-- ...
-|-- ...
+| | | |-- 。
+| | |-- 。
+| |-- 。
+|-- 。
 ```
 
 ## Configuration Prompts
 
-### Prompt width
+## Prompt broad
 
-CSS Variable(s) targeted:`var(--prompt-width)`
-
+CSSVariable(s) targeted:`var(--prompt-width)`
 Predeterminado: 700 (px)
 
-### Prompt max width
+## Prompt max broad
 
-CSS Variable(s) targeted:`var(--prompt-max-width)`
-
+CSSVariable(s) targeted:`var(--prompt-max-width)`
 Default: 80 (vw)
 
-### Prompt max height
+## Prompt max height
 
-CSS Variable(s) targeted:`var(--prompt-max-height)`
-
+CSSVariable(s) targeted:`var(--prompt-max-height)`
 Default: 70 (vh)
 
 ### Prompt alignment
 
-CSS Classe(s) targeted: `.flexcyon-prompt-align-bottom-left,
+CSSClasse(s) targeted: `.flexcyon-remate-align-bottom-left,
 ,
-.flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-izquierda,
+.flexcyon-trut-align-bottom-center, .flexcyon-- ¿quécenter-izquierda,
 ,
-.flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`
-
+.flexcyon-.flexcyon-prompt-align-top-leftcenter`
 Predeterminado: ninguno (clase selecto)
 Opciones:
 
@@ -61,14 +57,12 @@ Opciones:
 - El fondo izquierdo
 - Bottomcenter
 
-### Suggestion item vertical padding
+## Artículo de sugerencia relleno vertical
 
-CSS Variable(s) targeted:`var(--flexcyon-suggestion-verti-padding)`
-
+CSSVariable(s) targeted:`var(--flexcyon-suggestion-verti-padding)`
 Predeterminado: 8 (px)
 
-### Suggestion item horizontal padding
+## Artículo de sugerencia padding horizontal
 
-CSS Variable(s) targeted:`var(--flexcyon-suggestion-horiz-padding)`
-
+CSSVariable(s) targeted:`var(--flexcyon-suggestion-horiz-padding)`
 Predeterminado: 12 (px)

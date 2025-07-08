@@ -1,5 +1,5 @@
 ---
-title: Settings
+title: Ajustes
 icon: material/cogs
 ---
 
@@ -11,78 +11,69 @@ Formatos aceptados: x.y, rem, px
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
-|   |-- ...
+|   |-- 。
 |   |-- Settings
-|   |-- ...
-|-- ...
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
 ### Smiley Toggle Icons in Settings
 
-CSS Variable(s) targeted:`var(--flexcyon-settings-smiley-icons-enabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-settings-smiley-icons-enabled)`
 Default:true(de clase)
 
-### Coloured Icons in Settings
+### Iconos coloreados en configuraciones
 
-CSS Variable(s) targeted:`var(--flexcyon-settings-coloured-icons)`
-
+CSSVariable(s) targeted:`var(--flexcyon-settings-coloured-icons)`
 Default:false(de clase)
 
 ### Enable community item effects
 
-CSS Variable(s) targeted:`var(--flexcyon-settings-comm-item-enabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-settings-comm-item-enabled)`
 Default:true(de clase)
 
-### Opacity of community items (unselected)
+## Opacity of community items (unselected)
 
-CSS Variable(s) targeted:`var(--flexcyon-comm-item-opacity)`
-
+CSSVariable(s) targeted:`var(--flexcyon-comm-item-opacity)`
 Predeterminado: 0.89
 
 <span style="opacity: 0.89"
 >Muestra opacidad de los elementos comunitarios (no seleccionados)</span>
 
-### Installed tooltip left margin
+### El margen izquierdo de herramientas instalado
 
-CSS Variable(s) targeted:`var(--flexcyon-settings-installed-tooltip-left-margin)`
-
+CSSVariable(s) targeted:`var(--flexcyon-settings-installed-tooltip-left-margin)`
 Default: 1 (rem)
 
-### Do not show scrollbar in settings
+### No mostrar barra de desplazamiento en la configuración
 
-CSS Variable(s) targeted:`var(--flexcyon-settings-scrollbar-removed)`
-
+CSSVariable(s) targeted:`var(--flexcyon-settings-scrollbar-removed)`
 Default:true(de clase)
 
-### Enabled alternate active item effect in settings
+### Activado efecto de elemento activo alternativo en la configuración
 
-CSS Variable(s) targeted:`var(--flexcyon-enable-alt-active-item-effect)`
-
+CSSVariable(s) targeted:`var(--flexcyon-enable-alt-active-item-effect)`
 Default:true(de clase)
 
-__
+___
 
-### Style Settings
+## Ajustes de estilo
 
 Configurar la apariencia para los ajustes de estilo
 
 Formatos aceptados: px
 
-#### Indentation width between style settings headings
+#### Ancho de identificación entre las partidas de configuración de estilo
 
-CSS Variable(s) targeted:`var(--flexcyon-style-settings-indent-width)`
-
+CSSVariable(s) targeted:`var(--flexcyon-style-settings-indent-width)`
 Predeterminado: 4 (px)
 
-#### Dim collapsed style settings headings
+##### Dim configuración de estilo colapsado encabezados
 
-CSS Variable(s) targeted:`var(--flexcyon-style-settings-dim-collapsed-headings)`
-
+CSSVariable(s) targeted:`var(--flexcyon-style-settings-dim-collapsed-headings)`
 Default:true
 

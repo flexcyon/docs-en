@@ -3,7 +3,7 @@ title: Tilt Title
 icon: material/angle-acute
 ---
 
-Metadatos de callout: "tilt-title"
+Metadatos de llamada: "tilt"-itle
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["tilt-all"](../combined-styling/page-17.md)
-junto con["tilt-content"](../content-styling/page-7.md).
+El estilo en sí se aplica también["tilt-all"](../combined-styling/page-17.md)["tilt-all"](../combined-styling/page-17.md)
+junto con["tilt-content"](../content-styling/page-7.md)["tilt-content"](../content-styling/page-7.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Extended color palette - Background
+title: Paleta de color extendida - Antecedentes
 icon: material/palette-outline
 ---
 > `bg-color1-color2-`
@@ -10,9 +10,9 @@ Usage:
 > The background color will be the color mix of red and blue colors of this theme
 ```
 
-El estilo en sí se aplica también["all-color1-color2"](../combined-styling/page-10.md)
-junto con["title-color1-color2"](../title-styling/page-10.md).
+El estilo en sí se aplica también["all-color1-color2"](../combined-styling/page-10.md)["all-color1-color2"](../combined-styling/page-10.md)
+junto con["title-color1-color2"](../title-styling/page-10.md)["title-color1-color2"](../title-styling/page-10.md).
 
-Requisitos[this Style Settings option](../../Style6Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette) 
+Requisitos[this Style Settings option](../../Style6Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)[this Style Settings option](../../Style6Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette) 
 para seguir.
 

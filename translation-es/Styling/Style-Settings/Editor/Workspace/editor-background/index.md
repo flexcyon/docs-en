@@ -1,5 +1,5 @@
 ---
-title: Editor Background
+title: Editor
 icon: material/layers-edit
 ---
 
@@ -10,25 +10,24 @@ Formatos aceptados: px, deg
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Workspace
-|   |   |   |-- ...
+|   |   |   |-- 。
 |   |   |   |-- Editor Background
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |   |-- 。
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Select Background Type
+### Select Background Tipo
 
-CSS Classe(s) targeted:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
-
+CSSClasse(s) targeted:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
 Predeterminado: ninguno (clase selecto)
 Opciones:
 
@@ -36,21 +35,18 @@ Opciones:
 - Dotted Background
 - Antecedentes de Rhombus
 
-### Rotation value for grid and rhombus background
+### Valor de rotación para la rejilla y el fondo rhombus
 
-CSS Variable(s) targeted:`var(--flexcyon-editor-bg-rotation)`
-
+CSSVariable(s) targeted:`var(--flexcyon-editor-bg-rotation)`
 Default: 0 (deg)
 
-### Width between each dot/line for grid/dotted background
+## Ancho entre cada punto/línea para la rejilla / fondo a punto
 
-CSS Variable(s) targeted:`var(--flexcyon-editor-bg-width)`
-
+CSSVariable(s) targeted:`var(--flexcyon-editor-bg-width)`
 Predeterminado: 15 (px)
 
-### Size of dots for dotted background
+### Tamaño de los puntos para fondo punteado
 
-CSS Variable(s) targeted:`var(--flexcyon-editor-dot-size)`
-
+CSSVariable(s) targeted:`var(--flexcyon-editor-dot-size)`
 Predeterminado: 2 (px)
 

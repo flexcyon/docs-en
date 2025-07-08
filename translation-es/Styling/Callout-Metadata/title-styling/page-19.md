@@ -1,9 +1,9 @@
 ---
-title: Oblique Title
+title: Título oblicua
 icon: material/format-letter-case-upper
 ---
 
-Metadatos de callout: "oblicua-título"
+Metadatos de llamada: "oblicua"-itle
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["oblique-all"](../combined-styling/page-19.md)
-junto con["oblique-content"](../content-styling/page-9.md).
+El estilo en sí se aplica también["oblique-all"](../combined-styling/page-19.md)["oblique-all"](../combined-styling/page-19.md)
+junto con["oblique-content"](../content-styling/page-9.md)["oblique-content"](../content-styling/page-9.md).
 

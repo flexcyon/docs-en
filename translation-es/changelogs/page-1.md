@@ -1,13 +1,13 @@
 ---
-title: Version 0.1.x and below
+title: Versión 0.1.x y abajo
 icon: material/numeric-1-box-outline
 ---
 
 Versiones abajo 0.0.5 no se documentan ya que carecen de características notables.
 
-## Version 0.0.5: Minor Changes
+## Version 0.0.5: Cambios Menores
 
-- Made ASCII art responsive, usted puede establecer un tamaño de fuente limiten él
+- Made ASCII art responsive, puede establecer un límite de tamaño de fuente en él
 
 - La barra de estado no se solapa con el texto de entrada del modo de comando
 
@@ -19,7 +19,7 @@ Versiones abajo 0.0.5 no se documentan ya que carecen de características notabl
 
 - Agregar opción para alinear las principales acciones a nivel mundial
 
-## Version 0.1.0: Utilities Update
+## Versión 0.1.: Actualización de las utilidades
 
 - Apoyo añadido para el enchufe de repetición espaciada
 
@@ -63,9 +63,9 @@ Créditos:
 
 -`@OWA/bennyyip`sobre la discordia del grupo de miembros obisidianos para el tategaki
 
--`@Tuck`en la discordia del grupo de miembros obsidianos para opciones para cambiar el color de enlace
+-`@Tuck`sobre elObsidianDiscordia de grupo de miembros para opciones para cambiar el color de enlace
 
-## Version 0.1.1 Hotfixes
+## Versión 0.1.Hotfixes
 
 - opción agregada para cambiar el tamaño de la fuente ASCII
 

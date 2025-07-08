@@ -1,5 +1,5 @@
 ---
-title: Heading indicators - H6
+title: Indicadores de referencia - H6
 icon: material/format-header-6
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: Underline Content
+title: Índice
 icon: material/format-underline
 ---
 
-Metadatos de llamada: "contenido en línea"
+Metadatos de llamada: "en línea-ontent
 
 Usage:
 ```md
@@ -11,4 +11,4 @@ Usage:
 > The content will be displayed as underline
 ```
 
-El estilo en sí se aplica también["underline-all"](../combined-styling/page-22.md)junto con["underline-title"](../title-styling/page-22.md).
+El estilo en sí se aplica también["underline-all"](../combined-styling/page-22.md)["underline-all"](../combined-styling/page-22.md)junto con["underline-title"](../title-styling/page-22.md)["underline-title"](../title-styling/page-22.md).

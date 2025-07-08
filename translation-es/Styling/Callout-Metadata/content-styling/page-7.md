@@ -1,9 +1,9 @@
 ---
-title: Tilt Content
+title: Contenido de inclinación
 icon: material/angle-acute
 ---
 
-Metadatos Callout: "tilt-content"
+Metadatos de llamada: "tilt"-ontent
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > The content will be tilted
 ```
 
-El estilo en sí se aplica también["tilt-all"](../combined-styling/page-17.md)
-junto con["tilt-title"](../title-styling/page-17.md).
+El estilo en sí se aplica también["tilt-all"](../combined-styling/page-17.md)["tilt-all"](../combined-styling/page-17.md)
+junto con["tilt-title"](../title-styling/page-17.md)["tilt-title"](../title-styling/page-17.md).
 

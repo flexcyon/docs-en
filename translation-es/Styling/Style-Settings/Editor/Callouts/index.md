@@ -13,82 +13,73 @@ Formatos aceptados: px, rem, em, s
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Callouts
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Callout Icon Right padding
+## Callout Icon Right padding
 
-CSS Variable(s) targeted:`var(--flexcyon-callout-icon-right-padding)`
-
+CSSVariable(s) targeted:`var(--flexcyon-callout-icon-right-padding)`
 Predeterminado: 4 (px)
 
-### First Codeblock Margin Top
+## First Codeblock Margin Top
 
-CSS Variable(s) targeted:`var(--flexcyon-callout-first-codeblock-margin-top)`
-
+CSSVariable(s) targeted:`var(--flexcyon-callout-first-codeblock-margin-top)`
 Default: 1 (rem)
 
-### Callout Metadata Background Opacity
+## Callout Metadata Background Opacity
 
-CSS Variable(s) targeted:`var(--flexcyon-callout-bg-opacity)`
-
+CSSVariable(s) targeted:`var(--flexcyon-callout-bg-opacity)`
 Default: 20%
 
 <span style="opacity: 20%"
 >Muestra de antecedentes Opacity</span>
 
-### Callout Vertical Margin
+## Callout Vertical Margin
 
-CSS Variable(s) targeted:`var(--flexcyon-callout-vertical-margin)`
-
+CSSVariable(s) targeted:`var(--flexcyon-callout-vertical-margin)`
 Default: 1 (em)
 
-### Callout Border Radius
+## Callout Border Radius
 
-CSS Variable(s) targeted:`var(--callout-radius)`
-
+CSSVariable(s) targeted:`var(--callout-radius)`
 Predeterminado: 2 (px)
 
-__
+___
 ### Flashcard callout
 
-Configura los[flashcard callout](../../../Callout-Metadata/flashcard.md).
+Configura los[flashcard callout](../../../Callout-Metadata/flashcard.md)[flashcard callout](../../../Callout-Metadata/flashcard.md).
 
-#### Flashcard callout width
+#### Flashcard callout ancho
 
-CSS Variable(s) targeted:`var(--flexcyon-callouts-flashcard-width)`
-
+CSSVariable(s) targeted:`var(--flexcyon-callouts-flashcard-width)`
 Predeterminado: 250 (px)
 
 #### Flashcard callout height
 
-CSS Variable(s) targeted:`var(--flexcyon-callouts-flashcard-height)`
-
+CSSVariable(s) targeted:`var(--flexcyon-callouts-flashcard-height)`
 Predeterminado: 250 (px)
 
-#### Flashcard callout animation duration
+#### Flashcard callout duración de la animación
 
-CSS Variable(s) targeted:`var(--flexcyon-callout-flashcard-animation-duration)`
-
+CSSVariable(s) targeted:`var(--flexcyon-callout-flashcard-animation-duration)`
 Predeterminado: 0.5s
 
-__
-### Popup callout
+___
+### Llamada de emergencia
 
-Configura los[popup callout](../../../Callout-Metadata/popup.md)
+Configura los[popup callout](../../../Callout-Metadata/popup.md)[popup callout](../../../Callout-Metadata/popup.md)
 
-#### Popup callout animation duration
+##### Duración de la animación de llamada de popup
 
-CSS Variable(s) targeted:`var(--flexcyon-callout-pop-animation-duration)`
-
+CSSVariable(s) targeted:`var(--flexcyon-callout-pop-animation-duration)`
 Predeterminado: 0.2s
 

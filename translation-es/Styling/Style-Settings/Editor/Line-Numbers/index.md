@@ -1,5 +1,5 @@
 ---
-title: Line Numbers
+title: Números de línea
 icon: material/line-scan
 ---
 
@@ -11,42 +11,38 @@ Formatos aceptados: HEX, %, x.y
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Line Numbers
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
 ### Enable Relative Line Numbers
 
-CSS Variable(s) targeted:`var(--flexcyon-enable-rel-nums)`
-
+CSSVariable(s) targeted:`var(--flexcyon-enable-rel-nums)`
 Default:false(de clase)
 
-### Relative and normal line numbers on different lines
+## Números relativos y normales de línea en diferentes líneas
 
-CSS Variable(s) targeted:`var(--flexcyon-no-num-with-relative)`
-
+CSSVariable(s) targeted:`var(--flexcyon-no-num-with-relative)`
 Default:false
 
-### Only display relative line numbers
+### Sólo muestra números de línea relativos
 
-CSS Variable(s) targeted:`var(--flexcyon-relative-num-only)`
-
+CSSVariable(s) targeted:`var(--flexcyon-relative-num-only)`
 Default:false
 
-### Configure Relative Line Number Style
+### Número de línea relativa configura
 
-CSS Variable(s) targeted:`var(--flexcyon-roman-rel-nums)`,
+CSSVariable(s) targeted:`var(--flexcyon-roman-rel-nums)`,
 ,
 `var(--flexcyon-roman-greek-nums), var(--flexcyon-roman-chinese-nums)`
-
 Default: ninguno (clase toggle)
 Opciones:
 
@@ -54,10 +50,13 @@ Opciones:
 - Griego
 - Chino
 
-### Active Line Numbers inherits Relative Line Number Style
+### Reemplazar el número de línea activa con cadena
+Personalizar el número de línea activa con su propia cadena, predeterminado a "- título"
 
-CSS Variable(s) targeted:`var(--flexcyon-active-inherits-rel-num)`
+CSSVariable(s) targeted:`var(--flexcyon-repl-active-line-num-str)`
+Default:false(de clase)
 
-Default:false
-> Do note that I have to get creative for Greek and Roman as they do not
-> exactly have letters or numbers before I or alpha.
+### Valor de cadena de números activos reemplazado
+CSSVariable(s) targeted: `var(--flexcyon-epl-active-line-str)
+
+Predeterminado: "- Conf"

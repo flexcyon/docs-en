@@ -1,9 +1,9 @@
 ---
-title: Version 0.4.x
+title: Versión 0.4.x
 icon: material/numeric-4-box-outline
 ---
 
-### Version 0.4.0 Light Mode Update
+## Versión 0.4.Actualización del modo de luz
 
 - Cambio de la barra lateral de fondo de brillo predeterminado a`unset`.
 Antes estaba causando problemas como borroso contenido de plugin de Calender.
@@ -31,21 +31,21 @@ el tema
 
 - Regreso a Zero (modo minimalista del ultra) inspirado en Shimmering Focus
 
-### Version 0.4.1 Quickfix Update
+## Versión 0.4.Actualización de Quickfix
 
 - Fijar el renderizado TUI en modo de luz
 
 - Fijar la barra lateral izquierda cuando la cinta no está habilitada
 
-- Fijar texto resaltado bg específicamente con sugerencias-luz
+- Fijar texto resaltado bg específicamente con sugerencia-ighlight
 
 - Fijar las incrustaciones sin mostrar
 
-### Version 0.4.2 Relative Line Numbers
+## Versión 0.4.Números relativos de línea
 
 - Huevo de Pascua removido Modo de cosas
 - Ajuste de ancho de línea de archivo utilizando`cssclasses`
-- Nuevo sitio de documentación con traducciones en https://flexcyon-docs.readthedocs.io/es/latest/
+- Nuevo sitio de documentación con traducciones en https://flexcyon-ocs.readthedocs.io/en/latest/
 - La documentación vieja está deprecatada
 - Colores de fondo del modo de luz fijo y el engranaje de línea activa
 - Números de línea relativos adaptados de Shimmering Focus
@@ -56,7 +56,7 @@ el tema
 - Edición de fondo fija con TUI
 - Agregar opción de modo de escritura global
 
-### Version 0.4.3 Rainbow Repair
+## Versión 0.4.Reparación de arco iris
 
 - Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral
 - Añadir Opciones de configuración de estilo para configurar el relleno de elementos de árbol
@@ -65,7 +65,7 @@ el tema
 - duración, función de tiempo, anchura mínima
 - Vim fijo Mode Status to use`var(--font-ui-medium)`por defecto
 
-### Version 0.4.4 Consistencies Update
+## Versión 0.4.Actualización de las coherencias
 - Corrección de la nota de pie de página
 - Corrección de alineación de la lista de balas
 - Color resaltado por defecto cambiado

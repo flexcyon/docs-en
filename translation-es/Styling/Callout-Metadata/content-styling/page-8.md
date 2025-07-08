@@ -1,9 +1,9 @@
 ---
-title: Italic Content
+title: Contenido didáctico
 icon: material/format-italic
 ---
 
-Metadatos de llamada: "contenido-italico"
+Metadatos de llamada: "italic"-ontent
 
 Usage:
 
@@ -12,6 +12,6 @@ Usage:
 > The content will be displayed as italic
 ```
 
-El estilo en sí se aplica también["italic-all"](../combined-styling/page-18.md)
-junto con["italic-title"](../title-styling/page-18.md).
+El estilo en sí se aplica también["italic-all"](../combined-styling/page-18.md)["italic-all"](../combined-styling/page-18.md)
+junto con["italic-title"](../title-styling/page-18.md)["italic-title"](../title-styling/page-18.md).
 

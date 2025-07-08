@@ -11,27 +11,25 @@ Formatos aceptados: px
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Media
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Media Embed Vertical margin
+### Media Insertar margen vertical
 
-CSS Variable(s) targeted:`var(--flexcyon-media-embed-vertical-margin)`
-
+CSSVariable(s) targeted:`var(--flexcyon-media-embed-vertical-margin)`
 Predeterminado: 8 (px)
 
-### Image border radius
+### Radio fronterizo de imagen
 
-CSS Variable(s) targeted:`var(--img-border-radius)`
-
+CSSVariable(s) targeted:`var(--img-border-radius)`
 Predeterminado: 15 (px)
 

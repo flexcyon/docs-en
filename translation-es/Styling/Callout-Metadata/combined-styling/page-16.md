@@ -1,9 +1,9 @@
 ---
-title: Capitalize All
+title: Capitalizar a todos
 icon: material/caps-lock
 ---
 
-Metadatos de callout: "caps-all"
+Metadatos de llamada: "caps-ll"
 
 Usage:
 
@@ -11,5 +11,5 @@ Usage:
 > [!info|caps-all] The title will be displayed as caps
 > The content will be displayed as caps
 ```
-> Shorthand for both ["caps-content"](../content-styling/page-6.md)
-> and ["caps-title"](../title-styling/page-16.md)
+> Shorthand para ambos["caps-content"](../content-styling/page-6.md)["caps-content"](../content-styling/page-6.md)
+> y["caps-title"](../title-styling/page-16.md)["caps-title"](../title-styling/page-16.md)

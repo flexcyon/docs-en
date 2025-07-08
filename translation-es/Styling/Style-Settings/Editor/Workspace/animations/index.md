@@ -1,5 +1,5 @@
 ---
-title: Animations
+title: Animaciones
 icon: material/animation
 ---
 
@@ -11,27 +11,27 @@ Formatos aceptados: s
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Workspace
-|   |   |   |-- ...
+|   |   |   |-- 。
 |   |   |   |-- Animations
-|   |   |   |-- ...
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |   |-- 。
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
 ### Animation type
 
-CSS Classe(s) targeted: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
+CSSClasse(s) targeted: `.flexcyon-nims-slide-rtl, .flexcyon-anims-slide-ltr,
 ,
-.flexcyon-anims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl`
-> Changes may need an app reload/restart to take effect
+.flexcyon-nims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl`
+> Los cambios pueden necesitar una nueva descarga de la aplicación/restaurante para tener efecto
 
 Predeterminado: ninguno (clase selecto)
 Opciones:
@@ -42,15 +42,13 @@ Opciones:
 - Girar en el fondo para arriba
 - Girar en la derecha a la izquierda
 
-### Animation duration
+### Duración de la animación
 
-CSS Variable(s) targeted:`var(--flexcyon-anim-duration)`
-
+CSSVariable(s) targeted:`var(--flexcyon-anim-duration)`
 Predeterminado: 0.5s
 
-### Animation easing function
+### Función de estimulación
 
-CSS Variable(s) targeted:`var(--flexcyon-anim-easing)`
-
+CSSVariable(s) targeted:`var(--flexcyon-anim-easing)`
 Default:ease-in-out
 

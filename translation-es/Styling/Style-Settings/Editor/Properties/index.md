@@ -1,49 +1,46 @@
 ---
-title: Properties
+title: Propiedades
 icon: material/axis-arrow-info
 ---
 
-Configura variables CSS para propiedades/metadatos/YAML de archivos.
+ConfiguresCSSvariables para propiedades/metadatos/YAMLde archivos.
+.
 
 ## Navigation
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Properties
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
 Formatos aceptados: px
 
-### Do not show properties in reading mode
+### No mostrar propiedades en modo de lectura
 
-CSS Variable(s) targeted:`var(--flexcyon-metadata-display-reading-disabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-metadata-display-reading-disabled)`
 Default:true(de clase)
 
-### Do not show properties in live preview mode
+### No mostrar propiedades en modo de vista previa en vivo
 
-CSS Variable(s) targeted:`var(--flexcyon-metadata-display-editing-disabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-metadata-display-editing-disabled)`
 Default:false(de clase)
 
 ### Enable rainbow metadata icons
 
-CSS Variable(s) targeted:`var(--flexcyon-metadata-rainbow-icons)`
-
+CSSVariable(s) targeted:`var(--flexcyon-metadata-rainbow-icons)`
 Default:false(de clase)
 
 ### Metadata container left padding
 
-CSS Variable(s) targeted:`var(--flexcyon-meta-container-padding-left)`
-
+CSSVariable(s) targeted:`var(--flexcyon-meta-container-padding-left)`
 Predeterminado: 14 (px)
 

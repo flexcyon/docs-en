@@ -1,7 +1,7 @@
 ---
-title: Background Styling
+title: Antecedentes
 icon: material/flip-to-back
 ---
 
-En esta subpágina, puede encontrar ejemplos de uso para cambiar el callout
+En este subs-edad, puede encontrar ejemplos de uso para cambiar el callout
 fondo usando metadatos de llamada.

@@ -55,5 +55,8 @@ tUI 上加号
 - [Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)主题
 用于 RTZ 模式和即时样式
 
+- `@Moy`编辑Obsidian成员组 Discord 以修正高维搜索结果
+视觉错误
+
  
 最后但并非最不重要的是, *你* 用于使用主题和阅读文档 :D

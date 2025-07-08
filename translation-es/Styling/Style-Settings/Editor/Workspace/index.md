@@ -1,5 +1,5 @@
 ---
-title: Workspace
+title: Espacio de trabajo
 icon: material/layers-triple-outline
 ---
 
@@ -12,36 +12,48 @@ Formatos aceptados: x.y, rem
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Workspace
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### File line width
+### Ancho de línea de archivo
 
-CSS Variable(s) targeted:`var(--file-line-width)`
-
+CSSVariable(s) targeted:`var(--file-line-width)`
 Predeterminado: 50 (rem)
 
-### Opacity of dimmed elements
+## Opacity of dimmed elements
 
-CSS Variable(s) targeted:`var(--dimmed)`
-
+CSSVariable(s) targeted:`var(--dimmed)`
 Predeterminado: 0.55
 
 <span style="opacity: 0.55"
 >Elemento desmontado de muestras</span>
 
-### Top Actions alignment
+## Opacity of Block labels
+CSSClasse(s) targeted:`var(--flexcyon-block-label-opacity)`
+Predeterminado: 0.55
 
-CSS Variable(s) targeted:`var(--flexcyon-top-actions-alignment)`
+<span style="opacity: 0.55"
+>Elemento desmontado de muestras</span>
 
+### Disable reglas horizontales en modo de lectura
+CSSClasse(s) targeted:`var(--flexcyon-hr-no-reading)`
+Default:false(de clase)
+
+## Top Actions alignment
+
+CSSVariable(s) targeted:`var(--flexcyon-top-actions-alignment)`
 Default:center
 
+### Ver la cabeza de la miga de pan max ancho
+
+CSSVariable(s) targeted:`var(--flexcyon-view-header-breadcrumb-max-w)`
+Predeterminado: 12.5 (vw)

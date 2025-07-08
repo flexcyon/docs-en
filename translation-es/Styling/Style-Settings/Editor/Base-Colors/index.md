@@ -1,5 +1,5 @@
 ---
-title: Base Colors
+title: Colores de base
 icon: material/format-color-highlight
 ---
 
@@ -12,22 +12,21 @@ Formatos aceptados: HEX
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Base Colors
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Base Color 01
+## Base Color 01
 
-CSS Variable(s) targeted:`var(--flexcyon-base-01)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-01)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #faf7ef"
 ></span
@@ -38,10 +37,9 @@ Default (modo oscuro):
 ></span
 >#14161c
 
-### Base Color 02
+## Base Color 02
 
-CSS Variable(s) targeted:`var(--flexcyon-base-02)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-02)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #edebe5"
 ></span
@@ -52,10 +50,9 @@ Default (modo oscuro):
 ></span
 >#191d28
 
-### Base Color 03
+## Base Color 03
 
-CSS Variable(s) targeted:`var(--flexcyon-base-03)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-03)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #dddcd6"
 ></span
@@ -68,8 +65,7 @@ Default (modo oscuro):
 
 ### Base Color 04
 
-CSS Variable(s) targeted:`var(--flexcyon-base-04)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-04)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #d3d3ce"
 ></span
@@ -80,10 +76,9 @@ Default (modo oscuro):
 ></span
 >#4d566b
 
-### Base Color 05
+## Base Color 05
 
-CSS Variable(s) targeted:`var(--flexcyon-base-05)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-05)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #b4b3af"
 ></span
@@ -94,10 +89,9 @@ Default (modo oscuro):
 ></span
 >#6f7685
 
-### Base dark grey
+### Base gris oscuro
 
-CSS Variable(s) targeted:`var(--flexcyon-base-grey-dark)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-grey-dark)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #797876"
 ></span
@@ -108,10 +102,9 @@ Default (modo oscuro):
 ></span
 >#898c93
 
-### Base light grey
+### Base gris claro
 
-CSS Variable(s) targeted:`var(--flexcyon-base-grey-light)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-grey-light)`
 Default (modo de luz):
 <span class="col-sqr" style="background-color: #080808"
 ></span
@@ -122,28 +115,25 @@ Default (modo oscuro):
 ></span
 >#d3d5d3
 
-### Base grey tab
+### Base gris
 
-CSS Variable(s) targeted:`var(--flexcyon-base-grey-token)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-grey-token)`
 Default:
 <span class="col-sqr" style="background-color: #586582"
 ></span
 >#586582
 
-### Base grey scroll 
+### Base gris
 
-CSS Variable(s) targeted:`var(--flexcyon-base-grey-scroll)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-grey-scroll)`
 Default:
 <span class="col-sqr" style="background-color: #3f495e"
 ></span
 >#3f495e
 
-### Base grey scroll hover
+### Hoja de desplazamiento gris base
 
-CSS Variable(s) targeted:`var(--flexcyon-base-grey-scroll-hover)`
-
+CSSVariable(s) targeted:`var(--flexcyon-base-grey-scroll-hover)`
 Default:
 <span class="col-sqr" style="background-color: #5d6782"
 ></span

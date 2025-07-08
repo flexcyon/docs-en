@@ -1,5 +1,5 @@
 ---
-title: Files
+title: Archivos
 icon: material/file-cog
 ---
 
@@ -9,28 +9,26 @@ Configurar árboles de archivos y estilos de carpeta.
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Files
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Enable dimmed file extensions in file explorer
+### Habilitar extensiones de archivo dimmed en el explorador de archivos
 
-CSS Variable(s) targeted:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
-
+CSSVariable(s) targeted:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 Default:true(de clase)
 
-### Select folder style
+### Seleccionar estilo de carpeta
 
-CSS Classe(s) targeted:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
-
+CSSClasse(s) targeted:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 Predeterminado: ninguno (clase selecto)
 
 Opciones:
@@ -39,27 +37,29 @@ Opciones:
 - Estilo de carpeta alternativo
 - Estilo de árbol de archivos
 
-### Colour background instead of text for rainbow folders
+### Color de fondo en lugar de texto para carpetas arco iris
 
-CSS Classe(s) targeted:`var(--flexcyon-is-bg-rainbow)`
-
+CSSClasse(s) targeted:`var(--flexcyon-is-bg-rainbow)`
 Default:false
 
-### Enable minimalist trees
+#### Enable minimalist trees
 
-CSS Variable(s) targeted:`var(--flexcyon-minimalist-tree)`
-
+CSSVariable(s) targeted:`var(--flexcyon-minimalist-tree)`
 Default:false(de clase)
 
 ### Vertical Tree Item Padding
 
-CSS Classe(s) targeted:`var(--flexcyon-tree-item-verti-padding)`
-
-Predeterminado: 0.75 (px)
+CSSClasse(s) targeted:`var(--flexcyon-tree-item-verti-padding)`
+Default:1.5 px)
 
 ### Horizontal Tree Item Padding
 
-CSS Classe(s) targeted:`var(--flexcyon-tree-item-horiz-padding)`
+CSSClasse(s) targeted:`var(--flexcyon-tree-item-horiz-padding)`
+Predeterminado: 12 (px)
 
-Predeterminado: 8 (px)
+### Wrap Long File Names
+Envuelve nombres de archivo largos a una nueva línea en lugar de omitir la parte final.
+.
 
+CSSVariable(s) targeted:`var(--flexcyon-wrap-long-filenames)`
+Default:true(de clase)

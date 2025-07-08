@@ -1,5 +1,5 @@
 ---
-title: Layout
+title: A ti
 icon: material/page-layout-sidebar-left
 ---
 
@@ -9,26 +9,25 @@ Configurar el diseño del espacio de trabajo.
 
 ```md
 Style Settings
-|-- ...
+|-- 。
 |-- Flexcyon Style Settings
 |   |-- Editor
-|   |   |-- ...
+|   |   |-- 。
 |   |   |-- Workspace
-|   |   |   |-- ...
+|   |   |   |-- 。
 |   |   |   |-- Layout
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- 。
+|   |-- 。
+|-- 。
 ```
 
-## Configuration Options
+## Opciones de configuración
 
-### Select workspace layout
+### Seleccionar diseño del espacio de trabajo
 
-CSS Classe(s) targeted: '.flexcyon-workspace-card-layout,
+CSSClasse(s) targeted: `.flexcyon-orkspace-card-layout,
 ,
-.flexcyon-workspace-angled-layout, .flexcyon-workspace-pl10k-layout`
-
+.flexcyon-orkspace-angled-layout, .flexcyon-workspace-pl10k-layout`
 Predeterminado: ninguno (clase selecto)
 
 Opciones:
@@ -36,11 +35,10 @@ Opciones:
 - Tarjetas de diseño
 - Ángulo
 - Powerlevel10k Layout
-> Workspace layout changes may need app reload or restart to take effect
+> Los cambios de diseño del espacio de trabajo pueden necesitar volver a cargar o reiniciar aplicaciones para tener efecto
 
-### Enable TUI add-on for cards layout
+### Enable TUI add-n para el diseño de tarjetas
 
-CSS Variable(s) targeted:`var(--flexcyon-workspace-cards-tui-ext)`
-
+CSSVariable(s) targeted:`var(--flexcyon-workspace-cards-tui-ext)`
 Default:true(de clase)
 

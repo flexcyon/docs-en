@@ -1,14 +1,14 @@
 ---
-title: All Orange
+title: Todo naranja
 icon: material/format-color-fill
 ---
 
-Metadatos de llamada: "todo naranja"
+Metadatos de llamada: "todos-rango
 
 ```md
 > [!tip|all-orange] Title will be orange
 > The background color will be orange
 ```
-> Shorthand for both ["bg-orange"](../bg-styling/page-8.md)
-> and ["title-orange"](../title-styling/page-8.md)
+> Shorthand para ambos["bg-orange"](../bg-styling/page-8.md)["bg-orange"](../bg-styling/page-8.md)
+> y["title-orange"](../title-styling/page-8.md)["title-orange"](../title-styling/page-8.md)
 
