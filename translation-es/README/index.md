@@ -3,12 +3,12 @@ title: README
 icon: material/book-open-blank-variant-outline
 ---
 
-<img src="https://img.shields.io/badge/downloads-900+-6E4E9B?style=for-the-badge&logo=obsidian&color=%23483699" alt="Downloads badge">
+<img src="https://img.shields.io/badge/dynamic/json?query=%24%5B%22flexcyon%22%5D.download&url=https%3A%2F%2Freleases.obsidian.md%2Fstats%2Ftheme&style=for-the-badge&label=Downloads&logo=obsidian" alt="Downloads badge" referrerpolicy="noreferrer">
 <a href="https://github.com/bladeacer/flexcyon/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/bladeacer/flexcyon?style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/github/license/bladeacer/flexcyon?style=for-the-badge" alt="License" referrerpolicy="noreferrer">
 </a>
 <a href="https://github.com/bladeacer/flexcyon/releases">
-    <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?style=for-the-badge&sort=semver" alt="Releases">
+    <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?style=for-the-badge&sort=semver" alt="Releases" referrerpolicy="noreferrer">
 </a>
 
 Acerca de Flexcyon
