@@ -4,6 +4,7 @@ icon: material/numeric-1-box-outline
 ---
 
 Versiones abajo 0.0.5 no se documentan ya que carecen de características notables.
+.
 
 ## Version 0.0.5: Cambios Menores
 
@@ -13,7 +14,7 @@ Versiones abajo 0.0.5 no se documentan ya que carecen de características notabl
 
 - opción adicional para habilitar la barra de estado en el móvil
 
-- Opción de altura de línea agregada en tipografía para partidas
+- Opción de altura de línea agregada en tipografía para las partidas
 
 - Añadir opción para ocultar la cinta lateral izquierda
 
@@ -49,13 +50,13 @@ Versiones abajo 0.0.5 no se documentan ya que carecen de características notabl
 
 - RTL, LTR,CenterTítulo y contenido
 
-- Tategaki (TL vertical)
+- Tategaki (RTL vertical)
 
 - LTR vertical
 
 - Cisclases adicionales para
 
-- Tategaki (TL vertical)
+- Tategaki (RTL vertical)
 
 - LTR vertical
 
@@ -67,7 +68,7 @@ Créditos:
 
 ## Versión 0.1.Hotfixes
 
-- opción agregada para cambiar el tamaño de la fuente ASCII
+- opción adicional para cambiar el tamaño de la fuente ASCII
 
 - Iconos sonrientes fijos en el móvil
 
@@ -75,7 +76,7 @@ Créditos:
 
 - Opciones adicionales para cambiar la visibilidad de las propiedades en modo de lectura y vista previa en vivo
 
-- Añadido soporte para el plugin Dataview
+- Apoyo añadido para el plugin Dataview
 
 - Puntos de bala arco iris añadidos (desactivados por defecto)
 

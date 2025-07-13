@@ -10,6 +10,6 @@ icon: material/layers-outline
 > The background color will be orange
 ```
 
-样式本身也适用于["all-orange"](../combined-styling/page-8.md)["all-orange"](../combined-styling/page-8.md)
-页:1["title-orange"](../title-styling/page-8.md)["title-orange"](../title-styling/page-8.md)。
+风格本身也适用于["all-orange"](../combined-styling/page-8.md)
+页:1["title-orange"](../title-styling/page-8.md)。
 

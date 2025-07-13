@@ -12,6 +12,6 @@ Usage:
 > The content will be displayed as rtl
 ```
 
-El estilo en sí se aplica también["rtl-all"](../combined-styling/page-11.md)["rtl-all"](../combined-styling/page-11.md)
-junto con["rtl-title"](../title-styling/page-11.md)["rtl-title"](../title-styling/page-11.md)
+El estilo en sí se aplica también["rtl-all"](../combined-styling/page-11.md)
+junto con["rtl-title"](../title-styling/page-11.md)
 

@@ -28,7 +28,7 @@ Style Settings
 选择背景 类型
 
 CSS目标类别:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
-默认: 无( 类选择)
+默认: 无( 选择类)
 选项 :
 
 - 网格背景

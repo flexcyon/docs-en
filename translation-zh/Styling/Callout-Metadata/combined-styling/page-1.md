@@ -16,6 +16,6 @@ icon: material/cancel
 > [!info|empty] Neither the title and callout icon will show
 > Content is shown as usual
 ```
-> 两者的简称["no-icon"](../icon-styling/page-1.md)["no-icon"](../icon-styling/page-1.md)
-> 和["no-title"](../title-styling/page-1.md)["no-title"](../title-styling/page-1.md)
+> 两者的简称["no-icon"](../icon-styling/page-1.md)
+> 和["no-title"](../title-styling/page-1.md)
 

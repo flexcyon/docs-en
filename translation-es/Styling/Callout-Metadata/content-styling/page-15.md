@@ -10,6 +10,7 @@ Metadatos de llamada: "font-"nterface-content"
 > The text font will use the interface font
 ```
 
-El estilo en sí se aplica también["font-interface-all"](../combined-styling/page-25.md)["font-interface-all"](../combined-styling/page-25.md)
-junto con["font-interface-title"](../title-styling/page-31.md)["font-interface-title"](../title-styling/page-31.md).
+El estilo en sí se aplica también["font-interface-all"](../combined-styling/page-25.md)
+junto con["font-interface-title"](../title-styling/page-31.md).
+.
 

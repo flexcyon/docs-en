@@ -10,6 +10,6 @@ icon: material/select-color
 > The background color will display as usual
 ```
 
-样式本身也适用于["all-pink"](../combined-styling/page-6.md)["all-pink"](../combined-styling/page-6.md)
-页:1["bg-pink"](../bg-styling/page-6.md)["bg-pink"](../bg-styling/page-6.md)。
+风格本身也适用于["all-pink"](../combined-styling/page-6.md)
+页:1["bg-pink"](../bg-styling/page-6.md)。
 

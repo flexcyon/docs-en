@@ -11,5 +11,5 @@ icon: material/angle-acute
 > [!info|tilt-all] The title will be displayed as uppercase
 > The content will be tilted
 ```
-> 两者的简称["tilt-content"](../content-styling/page-7.md)["tilt-content"](../content-styling/page-7.md)
-> 和["uppercase-title"](../title-styling/page-17.md)["uppercase-title"](../title-styling/page-17.md)
+> 两者的简称["tilt-content"](../content-styling/page-7.md)
+> 和["uppercase-title"](../title-styling/page-17.md)

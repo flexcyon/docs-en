@@ -11,5 +11,5 @@ Usage:
 > [!info|italic-all] The title will be displayed as italic
 > The content will be displayed as italic
 ```
-> Shorthand para ambos["italic-content"](../content-styling/page-8.md)["italic-content"](../content-styling/page-8.md)
-> y["italic-title"](../title-styling/page-18.md)["italic-title"](../title-styling/page-18.md)
+> Shorthand para ambos["italic-content"](../content-styling/page-8.md)
+> y["italic-title"](../title-styling/page-18.md)

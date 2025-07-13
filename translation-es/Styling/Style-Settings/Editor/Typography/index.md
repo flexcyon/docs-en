@@ -3,8 +3,9 @@ title: Tipografía
 icon: material/format-text
 ---
 
-Colores definidos para el color de texto mudo, estilo para encabezados, y control UI
+Colores definidos para el color de texto mudo, estilo para las partidas, y control UI
 tamaños de fuentes.
+.
 
 Formatos aceptados: HEX
 

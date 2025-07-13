@@ -21,19 +21,19 @@ logger = logging.getLogger(__name__)
 def start_libretranslate(target_language):
     """Start LibreTranslate server using the CLI if not already running, only loading en and the target language."""
     api_url = "http://localhost:5000/translate"
-    
+
     # Check if server is already running
     try:
-        requests.get(f"{api_url.replace('/translate', '/health')}", timeout=2)
-        logger.info("LibreTranslate server is already running.")
-        return None # Return None if already running, no new process to manage
+        return _extracted_from_start_libretranslate_7(
+            api_url, "LibreTranslate server is already running.", None
+        )
     except requests.exceptions.ConnectionError:
         logger.info("LibreTranslate server not detected, attempting to start...")
     except Exception as e:
         logger.warning(f"Unexpected error during health check: {e}")
 
     logger.info(f"[START] Starting LibreTranslate server using CLI (only en and {target_language})...")
-    
+
     # Determine libretranslate executable path from within the venv
     # sys.executable points to the venv's python interpreter
     venv_bin_dir = os.path.dirname(sys.executable)
@@ -68,12 +68,14 @@ def start_libretranslate(target_language):
         # Wait for server to start
         for _ in range(30): # Wait up to 30 seconds
             try:
-                requests.get(f"{api_url.replace('/translate', '/health')}", timeout=2)
-                logger.info("[START] LibreTranslate server started successfully.")
-                return process # Return the process object so it can be terminated later
+                return _extracted_from_start_libretranslate_7(
+                    api_url,
+                    "[START] LibreTranslate server started successfully.",
+                    process,
+                )
             except requests.exceptions.ConnectionError:
                 time.sleep(1)
-        
+
         logger.error("Failed to start LibreTranslate server within timeout.")
         if process.poll() is None: # If process is still running, try to terminate it
             process.terminate()
@@ -84,6 +86,13 @@ def start_libretranslate(target_language):
     except Exception as e:
         logger.error(f"Error attempting to start LibreTranslate: {e}")
         return None
+
+
+# TODO Rename this here and in `start_libretranslate`
+def _extracted_from_start_libretranslate_7(api_url, arg1, arg2):
+    requests.get(f"{api_url.replace('/translate', '/health')}", timeout=2)
+    logger.info(arg1)
+    return arg2
 
 # --- Translation Functions ---
 # Note: Ensure requests, json are imported at the top of this file
@@ -154,14 +163,12 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
 
     def api_lang_code(lang):
         """Extracts the base language code from a locale string."""
-        if not lang:
-            return lang
-        return lang.split('-')[0].split('_')[0]
+        return lang.split('-')[0].split('_')[0] if lang else lang
 
     api_source = api_lang_code(source_lang)
     api_target = api_lang_code(target_lang)
 
-    results: dict[int, str] = {}  
+    results: dict[int, str] = {}
     untranslated_indices = []
     untranslated_lines_for_api = [] # This list will only contain non-empty, non-cached lines
 
@@ -180,16 +187,21 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
                     end_index = match.end()
                     x = start_index
                     y = end_index
-                    
+
                     # Recursively translate parts around the cached segment
-                    translated_before = translate_text(line[0:x], target_lang=target_lang, edit_cache=edit_cache, api_url=api_url)
+                    translated_before = translate_text(
+                        line[:x],
+                        target_lang=target_lang,
+                        edit_cache=edit_cache,
+                        api_url=api_url,
+                    )
                     translated_after = translate_text(line[y+1:], target_lang=target_lang, edit_cache=edit_cache, api_url=api_url)
-                    
+
                     placeholder = f"{translated_before}{edit_cache[key]}{translated_after}"
                     results[idx] = placeholder
                     found_in_edit_cache = True
                     break;
-            
+
             if not found_in_edit_cache:
                 if cache_key in translation_cache:
                     results[idx] = translation_cache[cache_key]
@@ -266,7 +278,7 @@ def batch_translate_text(lines, source_lang="en", target_lang=None, translation_
             # On any other error, revert to original lines for the affected indices
             for idx in untranslated_indices:
                 results[idx] = lines[idx]
-    
+
     # Return the results in the original order, filling any gaps
     final_translated_lines = [results[i] for i in range(len(lines))]
     return final_translated_lines
@@ -375,12 +387,24 @@ def preserve_links_code_mit_html(line, target_language, translation_cache, edit_
         r')', 
         re.IGNORECASE
     )
-    parts = combined_pattern.split(line)
+    # Use finditer to split while preserving all tokens and their order, avoiding duplication
+    parts = []
+    last_end = 0
+    for match in combined_pattern.finditer(line):
+        start, end = match.span()
+        if last_end < start:
+            # Add the text before the match (to be translated)
+            parts.append(line[last_end:start])
+        # Add the matched special token (to be preserved)
+        parts.append(line[start:end])
+        last_end = end
+    if last_end < len(line):
+        parts.append(line[last_end:])
 
     # Helper function to check if a part matches any of the special patterns
     def is_special(part_to_check):
         if not part_to_check or not part_to_check.strip():
-            return True # Treat empty/whitespace parts as special (not to be translated)
+            return False # Only treat empty/whitespace as NOT special (so they can be translated if needed)
         return (
             code_block_pattern.fullmatch(part_to_check) is not None or
             inline_code_pattern.fullmatch(part_to_check) is not None or
@@ -391,25 +415,14 @@ def preserve_links_code_mit_html(line, target_language, translation_cache, edit_
             literal_pattern.fullmatch(part_to_check) is not None
         )
 
+    # Prepare translation queue
     to_translate = []
-    translatable_parts_map = {} # Map original part index to its content for translation
-    original_parts_index = 0
-
     for part in parts:
-        if part is None: # Skip None results from re.split
-            continue
-        if not is_special(part):
-            # Only add non-empty, non-special, non-whitespace parts to translation queue
-            if part.strip():
-                to_translate.append(part)
-                translatable_parts_map[original_parts_index] = part
-            else:
-                # Keep whitespace as is, but don't send for translation
-                pass 
-        original_parts_index += 1
+        if not is_special(part) and part.strip():
+            to_translate.append(part)
 
     if not to_translate:
-        return ''.join(p if p is not None else '' for p in parts) # Join all parts, including None as empty string
+        return ''.join(parts)
 
     # Perform batch translation
     translated_batch_results = batch_translate_text(
@@ -425,18 +438,14 @@ def preserve_links_code_mit_html(line, target_language, translation_cache, edit_
     translation_queue_index = 0 # Index for translated_batch_results
 
     for part in parts:
-        if part is None:
-            rebuilt_parts.append('')
-        elif not is_special(part) and part.strip():
+        if not is_special(part) and part.strip():
             # This part was sent for translation
             if translation_queue_index < len(translated_batch_results):
                 rebuilt_parts.append(translated_batch_results[translation_queue_index])
                 translation_queue_index += 1
             else:
-                # Fallback if somehow translated_batch_results is shorter than expected
-                rebuilt_parts.append(part) 
+                rebuilt_parts.append(part)
         else:
-            # This was a special part, append as is
             rebuilt_parts.append(part)
 
     rebuilt = ''.join(rebuilt_parts)
@@ -450,26 +459,58 @@ def is_table_row(line):
     # Matches lines like | a | b | c |
     return bool(re.match(r'^\s*\|.*\|\s*$', line.strip()))
 
-def translate_markdown(input_folder, output_folder, target_language, translation_cache, edit_cache, api_url):
+def translate_markdown(
+    input_folder: str,
+    output_folder: str,
+    target_language: str,
+    translation_cache: dict,
+    edit_cache: dict,
+    api_url: str
+) -> None:
     """
     Recursively translates Markdown files in the input folder and saves
     the translated files to the output folder, processing by blocks.
     Preserves formatting, YAML, code, headings, HTML comments, and inline code/MIT.
     """
-
     html_comment_start_pattern = re.compile(r'<!--')
     html_comment_end_pattern = re.compile(r'-->')
     heading_pattern = re.compile(r'^\s*#{1,6}\s')
     yaml_sep_pattern = re.compile(r'^\s*---\s*$')
+
+    def translate_yaml_line(line: str) -> str:
+        """Translate only the 'title' field in YAML front matter."""
+        m = re.match(r'^(\s*title\s*:\s*)(.*)$', line)
+        if m:
+            prefix, title_val = m.groups()
+            translated_title = translate_text(
+                title_val,
+                target_lang=target_language,
+                edit_cache=edit_cache,
+                api_url=api_url
+            )
+            return f"{prefix}{translated_title}\n"
+        return line
+
+    def translate_blockquote(line: str) -> str:
+        """Translate content within blockquotes, preserving prefix."""
+        prefix_match = re.match(r'^(\s*>+\s*)(.*)', line)
+        if prefix_match:
+            prefix = prefix_match[1]
+            content = prefix_match[2]
+            translated_content = preserve_links_code_mit_html(
+                content, target_language, translation_cache, edit_cache, api_url
+            )
+            return f"{prefix}{translated_content}\n" if line.endswith("\n") else f"{prefix}{translated_content}"
+        return line
 
     for root, dirs, files in os.walk(input_folder):
         logger.info(f"\n[WALK] Walking directory: {root}")
         # Prune search space to avoid non-content directories
         dirs[:] = [d for d in dirs if d not in ['.git', '.venv', '__pycache__', 'node_modules', 'dist', 'build']]
 
-        if dirs: # Check if there are subdirectories to process after pruning
+        if dirs:
             logger.info(f"Subdirectories to process: {dirs}")
-        
+
         for filename in files:
             if not filename.endswith(".md"):
                 continue
@@ -487,9 +528,8 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                 in_code_block = False
                 in_yaml_block = False
                 in_html_comment = False
-                # html_comment_buffer = [] # No longer needed if comments are just skipped/preserved
                 in_table = False
-                table_heading_translated = False # Track if header row was translated
+                table_heading_translated = False
 
                 i = 0
                 while i < len(markdown_lines):
@@ -509,7 +549,6 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                         i += 1
                         continue
 
-
                     # YAML block handling
                     if yaml_sep_pattern.match(line):
                         in_yaml_block = not in_yaml_block
@@ -518,20 +557,16 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                         continue
                     if in_yaml_block:
                         try:
-                            # Only translate 'title' in YAML front matter
-                            m = re.match(r'^(\s*title\s*:\s*)(.*)$', line)
-                            if m:
-                                prefix, title_val = m.groups()
-                                translated_title = translate_text(title_val, target_lang=target_language, edit_cache=edit_cache, api_url=api_url)
-                                translated_lines.append(f"{prefix}{translated_title}\n")
-                            else:
-                                translated_lines.append(line)
+                            translated_lines.append(translate_yaml_line(line))
                         except Exception as e:
-                            logger.error(f"[YAML block error in {input_filepath}] Line: '{line.strip()}' Error: {e}", exc_info=True)
-                            translated_lines.append(line) # Fallback to original line on error
+                            logger.error(
+                                f"[YAML block error in {input_filepath}] Line: '{line.strip()}' Error: {e}",
+                                exc_info=True
+                            )
+                            translated_lines.append(line)
                         i += 1
                         continue
-                    
+
                     # Code block handling
                     if stripped.startswith("```"):
                         in_code_block = not in_code_block
@@ -542,28 +577,19 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                         translated_lines.append(line)
                         i += 1
                         continue
-                    
+
                     # Markdown heading
                     if heading_pattern.match(line):
-                        # Headings often contain identifiers that should not be translated
-                        # or are short enough not to need complex preservation.
-                        # Translate full heading line and apply post-processing if needed.
-                        translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, edit_cache, api_url)
+                        translated_line = preserve_links_code_mit_html(
+                            line, target_language, translation_cache, edit_cache, api_url
+                        )
                         translated_lines.append(translated_line)
                         i += 1
                         continue
-                    
+
                     # Blockquote
                     if line.lstrip().startswith(">"):
-                        # Translate content within blockquotes
-                        prefix_match = re.match(r'^(\s*>+\s*)(.*)', line)
-                        if prefix_match:
-                            prefix = prefix_match.group(1)
-                            content = prefix_match.group(2)
-                            translated_content = preserve_links_code_mit_html(content, target_language, translation_cache, edit_cache, api_url)
-                            translated_lines.append(f"{prefix}{translated_content}\n" if line.endswith("\n") else f"{prefix}{translated_content}")
-                        else:
-                            translated_lines.append(line) # Should not happen if lstrip().startswith is true
+                        translated_lines.append(translate_blockquote(line))
                         i += 1
                         continue
 
@@ -572,38 +598,46 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                         translated_lines.append(line)
                         i += 1
                         continue
-                    
+
                     # Table detection and translation
                     if is_table_row(line):
                         if (i + 1 < len(markdown_lines)) and is_table_separator(markdown_lines[i + 1]):
-                            # This is a table header row
-                            translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, edit_cache, api_url)
-                            translated_lines.append(translated_line.rstrip("\n") + "\n" if line.endswith("\n") else translated_line)
+                            # Table header row
+                            translated_line = preserve_links_code_mit_html(
+                                line, target_language, translation_cache, edit_cache, api_url
+                            )
+                            translated_lines.append(
+                                translated_line.rstrip("\n") + "\n" if line.endswith("\n") else translated_line
+                            )
                             in_table = True
                             table_heading_translated = True
                             i += 1
                             continue
-                        elif in_table and table_heading_translated: # This implies the separator was processed
-                            # This is a table content row (after header and separator)
-                            translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, edit_cache, api_url)
-                            translated_lines.append(translated_line.rstrip("\n") + "\n" if line.endswith("\n") else translated_line)
+                        elif in_table and table_heading_translated:
+                            # Table content row
+                            translated_line = preserve_links_code_mit_html(
+                                line, target_language, translation_cache, edit_cache, api_url
+                            )
+                            translated_lines.append(
+                                translated_line.rstrip("\n") + "\n" if line.endswith("\n") else translated_line
+                            )
                             i += 1
                             continue
-                    
-                    # If it's a table separator line, just append it
+
+                    # Table separator line
                     if is_table_separator(line):
                         translated_lines.append(line)
-                        in_table = True # Remain in table context
+                        in_table = True
                         i += 1
                         continue
                     else:
-                        # Reset table context if it's not a table-related line
                         in_table = False
                         table_heading_translated = False
 
-                    # Otherwise, translate general text line (preserving links, inline code, MIT, etc.)
-                    translated_line = preserve_links_code_mit_html(line, target_language, translation_cache, edit_cache, api_url)
-                    # Preserve original line endings exactly
+                    # General text line
+                    translated_line = preserve_links_code_mit_html(
+                        line, target_language, translation_cache, edit_cache, api_url
+                    )
                     if line.endswith("\n\n"):
                         translated_lines.append(translated_line.rstrip("\n") + "\n\n")
                     elif line.endswith("\n"):
@@ -615,32 +649,25 @@ def translate_markdown(input_folder, output_folder, target_language, translation
                 with open(output_filepath, 'w', encoding='utf-8') as outfile:
                     content = ''.join(translated_lines)
                     # --- Post-translation cleanup and fixes ---
-                    # These regexes need to be carefully ordered and tested
                     content = re.sub(r"\( e\)`bladeacer/flexcyon`\)", "(`bladeacer/flexcyon`)", content)
-                    content = re.sub(r'怎么样\?*', '', content) # Remove common Chinese filler
-                    content = fix_chinese_full_stop(content) # Apply Chinese full stop rules
-                    # Ensure blockquote markers are on their own line if they follow non-newline content (e.g., from translation)
+                    content = re.sub(r'怎么样\?*', '', content)
+                    content = fix_chinese_full_stop(content)
                     content = re.sub(r'(?<!\n)\s*>(?=[^\n])', r'\n>', content)
-                    content = re.sub(r" \.$", "", content) # Remove dangling space before dot (common translation artifact)
-                    content = re.sub(r"^\.$", "", content) # Remove standalone dot on a line
-                    # Replace all occurrences of '。/' with './' (common translation error for path-like strings)
-                    content = re.sub(r'。/', './', content) 
-                    # Ensure <hr> tags are always on their own line (if they got messed up by translation)
-                    # This regex ensures a newline before and after the <hr> tag, and handles existing newlines
+                    content = re.sub(r" \.$", "", content)
+                    content = re.sub(r"^\.$", "", content)
+                    content = re.sub(r'。/', './', content)
                     content = re.sub(r'(?<!\n)(<hr[^>]*>)(?!\n)', r'\n\1\n', content)
-                    # Further cleanup for multiple newlines created by previous regexes
-                    content = re.sub(r'\n{3,}', '\n\n', content) # Max two newlines
-                    content = re.sub(r'\s*(\r?\n)\s*(\r?\n)\s*(<hr[^>]*>)\s*(\r?\n)\s*(\r?\n)\s*', r'\n\n\3\n\n', content) # Clean around HR
-                    content = re.sub(r'(```)\s*\n+\s*(.*?)\s*\n+\s*(```)', r'\1\n\2\n\3', content, flags=re.DOTALL) # Clean newlines around code blocks
-                    content = re.sub(r'(\`[^\`]+\`)\s*\n+\s*', r'\1\n', content) # Remove newlines after inline code if it creates extra
-                    
+                    content = re.sub(r'\n{3,}', '\n\n', content)
+                    content = re.sub(r'\s*(\r?\n)\s*(\r?\n)\s*(<hr[^>]*>)\s*(\r?\n)\s*(\r?\n)\s*', r'\n\n\3\n\n', content)
+                    content = re.sub(r'(```)\s*\n+\s*(.*?)\s*\n+\s*(```)', r'\1\n\2\n\3', content, flags=re.DOTALL)
+                    content = re.sub(r'(\`[^\`]+\`)\s*\n+\s*', r'\1\n', content)
+
                     outfile.write(content)
 
                 logger.info(f"- [WRITE] Translated {input_filepath} -> {output_filepath}")
 
             except Exception as e:
                 logger.error(f"Error processing {input_filepath}: {e}", exc_info=True)
-                # traceback.print_exc() # Use logger.error with exc_info=True for logging traceback
 
 def save_cache(translation_cache, target_language):
     # Save cache per language only
@@ -773,7 +800,7 @@ if __name__ == "__main__":
     # Example usage when translate.py is run directly
     # For command-line arguments, you'd typically use argparse here too
     # Example: python translate.py --lang zh --input-dir ./docs --output-dir ./translated_docs_zh
-    
+
     # Initialize an argument parser for translate.py itself
     parser = argparse.ArgumentParser(description="Run translation process for Markdown documentation.")
     parser.add_argument(
@@ -800,7 +827,9 @@ if __name__ == "__main__":
     logger.info("--------------------------------------------------")
     logger.info(f"translate.py: Running with Python: {sys.executable}")
     logger.info(f"translate.py: Current working directory: {os.getcwd()}")
-    logger.info(f"translate.py: Translation parameters: Language={args.lang}, Input='{args.input_dir}', Output='{args.output_dir if args.output_dir else './translation-' + args.lang}', API='{args.api_url}'")
+    logger.info(
+        f"translate.py: Translation parameters: Language={args.lang}, Input='{args.input_dir}', Output='{args.output_dir or f'./translation-{args.lang}'}', API='{args.api_url}'"
+    )
 
     # If --lang is not specified (i.e., default 'zh'), run both zh and es
     if not any(arg.startswith('--lang') for arg in sys.argv):
@@ -820,5 +849,3 @@ if __name__ == "__main__":
             api_url=args.api_url
         )
     logger.info("--------------------------------------------------")
-
-

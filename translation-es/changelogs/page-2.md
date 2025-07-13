@@ -13,11 +13,12 @@ icon: material/numeric-2-box-outline
 cssvariables)
 
 - Llamada popup agregada, adaptada a
-[Ukiyo](https://github.com/technerium/obsidian-ukiyo)[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
 
 - Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 
 - Animaciones de ventana agregadas para modals, impulsos y ajustes.
+.
 Elija entre las siguientes opciones:
 
 - Ninguna (Revierte al comportamiento predeterminado)
@@ -44,15 +45,17 @@ Elija entre las siguientes opciones:
 
 - Opciones de fondo dotted y grid
 
--[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
+-[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
 para más detalles
 
 ## Versión 0.2.Pequeña actualización
 
 - Animaciones de ventana eliminadas ya que no son performant.
+.
 
 - Colores extendidos actualizados para que`*-color1-color2`y`*-color-2-color`
 siempre devolverá la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
+.
 
 - Efecto activo de fondo de archivos más consistente
 
@@ -66,7 +69,7 @@ siempre devolverá la misma mezcla de color cuando se utiliza en las utilidades 
 
 - Color de fondo de dobles comillas fijas
 
-- Apoyo añadido para el plugin de Estadísticas Vault
+- Apoyo añadido para el plugin de estadísticas por defecto
 
 - Tejidos menores para efectos de productos comunitarios
 

@@ -3,10 +3,11 @@ icon: material/scale-balance
 ---
 
 # 许可证
-主题根据[MIT License](https://mit-license.org)[MIT License](https://mit-license.org)能够
-查找[here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE)[here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE)。
+主题根据[MIT License](https://mit-license.org)能够
+查找[here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE)。
 
 或者,你可以在这里查看它。
+.
 
 □ □ □ □ 源代码许可证
 

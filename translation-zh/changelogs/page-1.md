@@ -3,7 +3,8 @@ title: 0.1.x及以下版本
 icon: material/numeric-1-box-outline
 ---
 
-0.0.5以下版本没有文献记载,因为它们缺乏显著特征
+0.5以下版本没有文献记载,因为它们缺乏显著特征。
+.
 
 ^ 0. 5版本: 小改动
 
@@ -13,7 +14,7 @@ icon: material/numeric-1-box-outline
 
 - 添加选项以启用移动状态栏
 
-- 在标题的打印中添加行高选项
+- 在标题打印中添加行高选项
 
 - 添加隐藏左侧丝带的选项
 
@@ -37,7 +38,7 @@ icon: material/numeric-1-box-outline
 
 - 添加了 ASCII 复选框
 
-- 为下列项目增加点名公用事业
+- 为下列项目增加点名公用事业:
 
 - 没有图标
 
@@ -49,19 +50,19 @@ icon: material/numeric-1-box-outline
 
 - 拉特尔,LTR Center标题和内容
 
-- 塔特加基语(普通RTL)
+- 塔特加基(Vertical RTL)
 
 - 纵向LTR
 
 - 已经添加了CSS 类(单位:千美元)
 
-- 塔特加基语(普通RTL)
+- 塔特加基(Vertical RTL)
 
 - 纵向LTR
 
 功劳:
 
-- `@OWA/bennyyip`在 Obisidian 成员团体的Discord 上为 Tategaki 片段
+- `@OWA/bennyyip`在 Obisidian 成员团体的Discord 上为 Tategaki 片断
 
 - `@Tuck`编辑Obsidian成员组 Discord 更改链接颜色的选项
 
@@ -73,7 +74,7 @@ icon: material/numeric-1-box-outline
 
 - 增加标题和背景色调元数据工具
 
-- 在阅读模式和直播预览中切换属性可见度的附加选项
+- 添加选项以切换阅读模式和直播预览中属性的可见度
 
 - 对 Dataview 插件添加支持
 

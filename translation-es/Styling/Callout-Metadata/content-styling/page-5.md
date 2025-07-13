@@ -12,6 +12,7 @@ Usage:
 > The content will be displayed as lowercase
 ```
 
-El estilo en sí se aplica también["lowercase-all"](../combined-styling/page-15.md)["lowercase-all"](../combined-styling/page-15.md)
-junto con["lowercase-title"](../title-styling/page-15.md)["lowercase-title"](../title-styling/page-15.md).
+El estilo en sí se aplica también["lowercase-all"](../combined-styling/page-15.md)
+junto con["lowercase-title"](../title-styling/page-15.md).
+.
 

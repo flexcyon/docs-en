@@ -5,7 +5,8 @@ icon: material/grid
 
 {\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0} 使用量
 
-向编辑器背景添加网格。 大小可以在样式设置中调整
+向编辑器背景添加网格。 大小可以在样式设置中调整。
+.
 
 ```md
 cssclasses:

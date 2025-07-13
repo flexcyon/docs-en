@@ -5,6 +5,7 @@ icon: material/format-header-3
 
 Añádase un indicador de la partida 3s. aparecerá en la lectura, edición y
 modo fuente.
+.
 
 Usage:
 

@@ -42,7 +42,7 @@ titulo de llamada y contenido
 
 - Servicios de metadatos adicionales para:
 
-- cuadrícula y fondo punteado
+- cuadrícula y fondo dotado
 
 - título y contenido itálico y oblicuo
 
@@ -56,17 +56,19 @@ titulo de llamada y contenido
 
 - Iconos sonrientes fijos (esperadamente por última vez)
 
-- Opciones adicionales para añadir y configurar los fondos de imagen en las barras laterales izquierda y derecha
+- Opciones agregadas para añadir y configurar los fondos de imagen en las barras laterales izquierda y derecha
 
 - Modificaciones de la luz a los elementos de navegación en la palanca, Calendario plugin de estilo
 
-- Ligeras pinzas para editor de fondo teñido y rejilla de fondo estilo.
+- Ligeras pinzas para editor de fondo teñido y estilo de fondo de cuadrícula.
+.
 
 - La barra de títulos se adapta ahora al estilo de diseño seleccionado
 
-- Opción agregada para difuminar los nodos de Canvas inactivos para el plugin de Canvas núcleo
+- opción agregada para desdibujar los nodos inactivos de Canvas para el plugin de Canvas núcleo
 
 - Los cambios de fondo del editor ahora afectan el plugin de Canvas núcleo.
+.
 
 - Tal vez necesite volver a cargar / reiniciar para los cambios de configuración de estilo para aparecer en el Canvas
 
@@ -96,7 +98,7 @@ titulo de llamada y contenido
 
 - Añadido servicio de metadatos de llamada de tarjetas flash
 
-- opción agregada para añadir cotización personalizada antes del título de estado vacío
+- opción añadida para añadir cotización personalizada antes del título de estado vacío
 
 - No es seleccionable con el arte ASCII, el arte ASCII es seleccionado por defecto
 
@@ -108,7 +110,7 @@ impulsos, etc.
 
 ## Versión 0.3.Actualización de QOL
 
-- Factor de indentación configurable añadido y regulación de cabeceras colapsadas
+- Factor de indentación configurable agregado y regulación de cabeceras colapsadas
 Menú Ajustes de estilo
 
 - Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
@@ -126,7 +128,7 @@ y barra lateral derecha
 
 - Cita ahora usa el mismo color que el arte ASCII
 
-- La cita por defecto se actualiza para no ser un rickroll
+- La cita predeterminada se actualiza para no ser un rickroll
 
 - Añadido soporte para plugin Kanban
 
@@ -143,7 +145,7 @@ y barra lateral derecha
 - Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
 barras de estado más largas
 
-- Se rompió el fondo de explorador de archivos fijos
+- Trasfondo de explorador de archivos fijos roto
 
 - opción de árbol de archivo marcado adicional para estilo de carpeta
 
@@ -154,6 +156,7 @@ barras de estado más largas
 ## Versión 0.3.Actualización de configuración
 
 - La documentación ahora tiene su propio sitio.
+.
 
 - opción de brillo suave para las partidas
 
@@ -163,6 +166,7 @@ barras de estado más largas
 
 - Opción agregada para permitir indicadores de encabezado a nivel mundial, personalizable
 para diferentes niveles de rumbo.
+.
 - Los indicadores de encabezado ahora mejor heredan del color base del encabezado
 
 - opción agregada para configurar la duración de la animación popup callout

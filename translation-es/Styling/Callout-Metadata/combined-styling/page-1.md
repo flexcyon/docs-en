@@ -16,6 +16,6 @@ Alternativamente, puede utilizar:
 > [!info|empty] Neither the title and callout icon will show
 > Content is shown as usual
 ```
-> Shorthand para ambos["no-icon"](../icon-styling/page-1.md)["no-icon"](../icon-styling/page-1.md)
-> y["no-title"](../title-styling/page-1.md)["no-title"](../title-styling/page-1.md)
+> Shorthand para ambos["no-icon"](../icon-styling/page-1.md)
+> y["no-title"](../title-styling/page-1.md)
 

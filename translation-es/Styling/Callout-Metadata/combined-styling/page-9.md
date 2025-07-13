@@ -9,6 +9,6 @@ Metadatos de llamada: "todos-ellow
 > [!tip|all-yellow] Title will be yellow
 > The background color will be yellow
 ```
-> Shorthand para ambos["bg-yellow"](../bg-styling/page-9.md)["bg-yellow"](../bg-styling/page-9.md)
-> y["title-yellow"](../title-styling/page-9.md)["title-yellow"](../title-styling/page-9.md)
+> Shorthand para ambos["bg-yellow"](../bg-styling/page-9.md)
+> y["title-yellow"](../title-styling/page-9.md)
 

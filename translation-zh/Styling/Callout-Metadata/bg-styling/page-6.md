@@ -10,6 +10,6 @@ icon: material/layers-outline
 > The background color will be pink
 ```
 
-样式本身也适用于["all-pink"](../combined-styling/page-6.md)["all-pink"](../combined-styling/page-6.md)
-页:1["title-pink"](../title-styling/page-6.md)["title-pink"](../title-styling/page-6.md)。
+风格本身也适用于["all-pink"](../combined-styling/page-6.md)
+页:1["title-pink"](../title-styling/page-6.md)。
 

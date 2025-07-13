@@ -11,5 +11,5 @@ icon: material/align-horizontal-right
 > [!info|rtl-all] The title will be displayed as rtl
 > The content will be displayed as rtl
 ```
-> 两者的简称["rtl-content"](../content-styling/page-1.md)["rtl-content"](../content-styling/page-1.md)
-> 和["rtl-title"](../title-styling/page-11.md)["rtl-title"](../title-styling/page-11.md)
+> 两者的简称["rtl-content"](../content-styling/page-1.md)
+> 和["rtl-title"](../title-styling/page-11.md)

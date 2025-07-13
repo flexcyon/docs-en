@@ -12,6 +12,6 @@ icon: material/caps-lock
 > Content is shown as usual
 ```
 
-样式本身也适用于["caps-all"](../combined-styling/page-16.md)["caps-all"](../combined-styling/page-16.md)
-页:1["caps-content"](../content-styling/page-6.md)["caps-content"](../content-styling/page-6.md)。
+风格本身也适用于["caps-all"](../combined-styling/page-16.md)
+页:1["caps-content"](../content-styling/page-6.md)。
 

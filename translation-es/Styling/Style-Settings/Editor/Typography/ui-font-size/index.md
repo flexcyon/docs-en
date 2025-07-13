@@ -4,6 +4,7 @@ icon: material/format-font-size-increase
 ---
 
 Supera los tamaños de fuente predeterminados utilizados en la interfaz.
+.
 
 Formatos aceptados: px
 

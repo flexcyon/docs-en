@@ -9,18 +9,19 @@ icon: material/numeric-2-box-outline
 
 - 添加图像边框半径选项
 
-- 添加扩展调色板(可作为点名元数据工具或用于
+- 添加扩展色调色板(可用作点名元数据工具或用于
 css变量)
 
 - 添加弹出点名词,改编自
-[Ukiyo](https://github.com/technerium/obsidian-ukiyo)[Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)由 Vaykinov 和 wizentex 编写的主题
 
 - 新注释、新文件夹等顶级动作的固定不透明
 
 - 为模式、提示和设置添加窗口动画。
+.
 从下列选项中选择 :
 
-- 无(默认行为的更正)
+- 无(默认行为更正)
 
 - 向上滑动
 
@@ -38,21 +39,23 @@ css变量)
 
 - 不显示编辑模式中的属性默认已禁用
 
-- 添加选项以启用最小化(文件夹/外线)树
+- 添加选项以启用最小值(文件夹/外线)树
 
-- 为文件探索者添加彩虹文件夹
+- 为文件浏览器添加彩虹文件夹
 
 - 添加点和网格背景选项
 
-- [See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
+- [See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
 详情
 
 ^ 0版 (英语).2.小更新
 
 - 已删除的窗口动画,因为它们不是表演者。
+.
 
 - 更新扩展颜色,以便`*-color1-color2`和`*-color-2-color`
 在使用点名元数据时, 总是返回相同的颜色组合 。
+.
 
 - 使活动文件背景效果更加一致
 
@@ -66,13 +69,13 @@ css变量)
 
 - 固定双引号复选框背景颜色
 
-- 添加对“断层统计”插件的支持
+- 添加对Vault统计插件的支持
 
-- 用于社区物品效应的小型结构调整
+- 用于社区物品效应的小型型式扭矩
 
 - 加卡片,倾斜工作空间布局选项
 
-- 如果您想要改变布局, 需要重新装入或重新启动应用程序
+- 如果您想要更改布局, 需要重新装入或重新启动应用程序
 
 - Vim模式状态文本和状态栏模式(阅读/预览等)文本
 有颜色选项 :

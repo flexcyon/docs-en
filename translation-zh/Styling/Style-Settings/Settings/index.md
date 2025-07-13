@@ -3,7 +3,8 @@ title: 设置
 icon: material/cogs
 ---
 
-用于自定义设置的 UI 不同方面的外观 。
+用于自定义设置中各种 UI 方面的外观 。
+.
 
 接受格式: x.y ,remưμ㼯a
 

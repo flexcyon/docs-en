@@ -9,6 +9,6 @@ Metadatos de llamada: "font-"nterface-all"
 > [!info|font-interface-all] Title will use interface font
 > The text font will also use interface font
 ```
-> Shorthand para ambos["font-inteface-content"](../content-styling/page-15.md)["font-inteface-content"](../content-styling/page-15.md)
-> y["font-interface-title"](../title-styling/page-31.md)["font-interface-title"](../title-styling/page-31.md)
+> Shorthand para ambos["font-inteface-content"](../content-styling/page-15.md)
+> y["font-interface-title"](../title-styling/page-31.md)
 

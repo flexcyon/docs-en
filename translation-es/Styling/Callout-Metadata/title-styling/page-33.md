@@ -10,5 +10,6 @@ Metadatos de llamada: "font-onospace-title
 > The text font will display as usual
 ```
 
-El estilo en sí se aplica también["font-monospace-all"](../combined-styling/page-27.md)["font-monospace-all"](../combined-styling/page-27.md)
-junto con["font-monospace-content"](../content-styling/page-17.md)["font-monospace-content"](../content-styling/page-17.md).
+El estilo en sí se aplica también["font-monospace-all"](../combined-styling/page-27.md)
+junto con["font-monospace-content"](../content-styling/page-17.md).
+.

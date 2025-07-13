@@ -12,8 +12,9 @@ this theme
 ```
 
 El estilo en sí se aplica también
-["all-color1-color2"](../combined-styling/page-10.md)["all-color1-color2"](../combined-styling/page-10.md)junto con["bg-color1-color2"](../bg-styling/page-10.md)["bg-color1-color2"](../bg-styling/page-10.md).
+["all-color1-color2"](../combined-styling/page-10.md)junto con["bg-color1-color2"](../bg-styling/page-10.md).
+.
 
-Requisitos[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)
-a seguir
+Requisitos[this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)
+para seguir
 

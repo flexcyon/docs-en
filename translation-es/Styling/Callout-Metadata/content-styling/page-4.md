@@ -12,6 +12,7 @@ Usage:
 > The content will be displayed as uppercase
 ```
 
-El estilo en sí se aplica también["uppercase-all"](../combined-styling/page-14.md)["uppercase-all"](../combined-styling/page-14.md)
-junto con["uppercase-title"](../title-styling/page-14.md)["uppercase-title"](../title-styling/page-14.md).
+El estilo en sí se aplica también["uppercase-all"](../combined-styling/page-14.md)
+junto con["uppercase-title"](../title-styling/page-14.md).
+.
 

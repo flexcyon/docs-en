@@ -41,12 +41,12 @@ CSS目标变量:`var(--flexcyon-callout-bg-opacity)`
 默认:20%
 
 <span style="opacity: 20%"
->背景样本 不透明度</span>
+>背景样本 不透明</span>
 
 垂直边距
 
 CSS目标变量:`var(--flexcyon-callout-vertical-margin)`
-默认:1(em)
+默认:1 (em)
 
 * 点名边界半径
 
@@ -56,7 +56,7 @@ CSS目标变量:`var(--callout-radius)`
  
 QQ 闪付卡
 
-配置[flashcard callout](../../../Callout-Metadata/flashcard.md)[flashcard callout](../../../Callout-Metadata/flashcard.md)。
+配置[flashcard callout](../../../Callout-Metadata/flashcard.md)。
 
 QQ 闪卡点名宽度
 
@@ -71,12 +71,12 @@ CSS目标变量:`var(--flexcyon-callouts-flashcard-height)`
 QQ 闪卡点火动画持续时间
 
 CSS目标变量:`var(--flexcyon-callout-flashcard-animation-duration)`
-默认: 0. 5s
+默认值: 0. 5s
 
  
 ### 弹出点名
 
-配置[popup callout](../../../Callout-Metadata/popup.md)[popup callout](../../../Callout-Metadata/popup.md)
+配置[popup callout](../../../Callout-Metadata/popup.md)
 
 #### 弹出呼叫动画持续时间
 

@@ -11,5 +11,5 @@ icon: material/caps-lock
 > [!info|caps-all] The title will be displayed as caps
 > The content will be displayed as caps
 ```
-> 两者的简称["caps-content"](../content-styling/page-6.md)["caps-content"](../content-styling/page-6.md)
-> 和["caps-title"](../title-styling/page-16.md)["caps-title"](../title-styling/page-16.md)
+> 两者的简称["caps-content"](../content-styling/page-6.md)
+> 和["caps-title"](../title-styling/page-16.md)

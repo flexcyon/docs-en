@@ -12,6 +12,6 @@ icon: material/align-horizontal-left
 > Content is shown as usual
 ```
 
-样式本身也适用于["ltr-all"](../combined-styling/page-12.md)["ltr-all"](../combined-styling/page-12.md)
-页:1["ltr-content"](../content-styling/page-2.md)["ltr-content"](../content-styling/page-2.md)。
+风格本身也适用于["ltr-all"](../combined-styling/page-12.md)
+页:1["ltr-content"](../content-styling/page-2.md)。
 

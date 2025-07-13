@@ -28,7 +28,7 @@ Style Settings
 CSSClasse(s) targeted: `.flexcyon-yntax-catppuccin,
 ,
 .flexcyon-yntax-lego, .flexcyon-syntax-monochrome `
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 Opciones:
 
 - Catppuccin

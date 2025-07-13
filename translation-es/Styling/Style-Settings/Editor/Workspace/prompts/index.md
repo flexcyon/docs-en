@@ -4,6 +4,7 @@ icon: material/text-box
 ---
 
 Configurar los avisos tales como el aviso de comando, conmutador rápido etc.
+.
 
 Formatos aceptados: px, vw, vh
 
@@ -48,7 +49,7 @@ CSSClasse(s) targeted: `.flexcyon-remate-align-bottom-left,
 .flexcyon-trut-align-bottom-center, .flexcyon-- ¿quécenter-izquierda,
 ,
 .flexcyon-.flexcyon-prompt-align-top-leftcenter`
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 Opciones:
 
 - Arriba a la izquierda

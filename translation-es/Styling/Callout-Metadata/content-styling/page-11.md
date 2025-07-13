@@ -12,6 +12,7 @@ Usage:
 > The content will be displayed as overline
 ```
 
-El estilo en sí se aplica también["overline-all"](../combined-styling/page-21.md)["overline-all"](../combined-styling/page-21.md)
-junto con["overline-title"](../title-styling/page-21.md)["overline-title"](../title-styling/page-21.md).
+El estilo en sí se aplica también["overline-all"](../combined-styling/page-21.md)
+junto con["overline-title"](../title-styling/page-21.md).
+.
 

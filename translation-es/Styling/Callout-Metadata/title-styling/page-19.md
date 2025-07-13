@@ -12,6 +12,7 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["oblique-all"](../combined-styling/page-19.md)["oblique-all"](../combined-styling/page-19.md)
-junto con["oblique-content"](../content-styling/page-9.md)["oblique-content"](../content-styling/page-9.md).
+El estilo en sí se aplica también["oblique-all"](../combined-styling/page-19.md)
+junto con["oblique-content"](../content-styling/page-9.md).
+.
 

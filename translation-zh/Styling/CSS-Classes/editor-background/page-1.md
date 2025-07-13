@@ -5,7 +5,8 @@ icon: material/dots-grid
 
 {\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0} 使用量
 
-在编辑器背景中添加重复点。 大小可以在样式设置中调整
+在编辑器背景中添加重复点。 大小可以在样式设置中调整。
+.
 
 ```md
 cssclasses:

@@ -28,12 +28,12 @@ CSS目标类别:`var(--flexcyon-enable-smooth-cursor)`
 XQ 平滑光标的过渡持续时间
 
 CSS目标类别:`var(--flexcyon-cursor-duration)`
-默认值: 95( ms)
+默认: 95( ms)
 
 QQ 光标平滑计时函数
 
 CSS目标类别:`var(--flexcyon-cursor-timing-fn)`
-默认值:易
+默认: 容易
 
 QQ 光标最小宽度
 

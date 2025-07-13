@@ -5,7 +5,7 @@ icon: material/format-bold
 
 点名元数据 : "W -`value`-标题"
 
-已接受的格式`value`数字 :
+已接受的格式`value`编号 :
 
 - 100至900人(增加100人)
 - 大胆
@@ -20,6 +20,6 @@ reading mode/reading mode
 > Content is shown as usual
 ```
 
-样式本身也适用于["w-`value`-all"](../combined-styling/page-24.md)["w-`value`-all"](../combined-styling/page-24.md)
-页:1["w-`value`-content"](../content-styling/page-14.md)["w-`value`-content"](../content-styling/page-14.md)。
+风格本身也适用于["w-`value`-all"](../combined-styling/page-24.md)
+页:1["w-`value`-content"](../content-styling/page-14.md)。
 

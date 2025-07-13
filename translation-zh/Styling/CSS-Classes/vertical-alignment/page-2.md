@@ -5,7 +5,7 @@ icon: material/align-horizontal-right
 
 {\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0} 使用量
 
-在读取模式下将水平右对左( RTL) 应用到您的笔记
+在读取模式下对您的笔记应用水平右对左( RTL)
 
 用法 :
 

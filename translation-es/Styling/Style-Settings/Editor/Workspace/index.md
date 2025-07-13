@@ -35,14 +35,14 @@ CSSVariable(s) targeted:`var(--dimmed)`
 Predeterminado: 0.55
 
 <span style="opacity: 0.55"
->Elemento desmontado de muestras</span>
+>Elemento de vidrio</span>
 
 ## Opacity of Block labels
 CSSClasse(s) targeted:`var(--flexcyon-block-label-opacity)`
 Predeterminado: 0.55
 
 <span style="opacity: 0.55"
->Elemento desmontado de muestras</span>
+>Elemento de vidrio</span>
 
 ### Disable reglas horizontales en modo de lectura
 CSSClasse(s) targeted:`var(--flexcyon-hr-no-reading)`

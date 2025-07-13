@@ -10,6 +10,7 @@ Metadatos de llamada: "font-ext-contento
 > The text font will use the text font
 ```
 
-El estilo en sí se aplica también["font-text-all"](../combined-styling/page-26.md)["font-text-all"](../combined-styling/page-26.md)
-junto con["font-text-title"](../title-styling/page-32.md)["font-text-title"](../title-styling/page-32.md).
+El estilo en sí se aplica también["font-text-all"](../combined-styling/page-26.md)
+junto con["font-text-title"](../title-styling/page-32.md).
+.
 

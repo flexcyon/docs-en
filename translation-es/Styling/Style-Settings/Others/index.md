@@ -65,11 +65,11 @@ Formatos aceptados: px
 CSSClasse(s) targeted:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 > Cambiar esto puede tomar una recarga de la aplicación / reiniciar para tener efecto
 
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 Opciones:
 
 - Arte ASCII
-- Cita
+- Cita.
 
 ##### Antecedentes para añadir antes del título de estado vacío
 
@@ -121,7 +121,7 @@ Predeterminado: 14 (px)
 CSSVariable(s) targeted:`var(--flexcyon-ascii-line-height)`
 > Cambios línea de altura para la cotización as welll
 
-Predeterminado: 1
+Default: 1
 
 ##### Título del Estado Vacío
 
@@ -137,7 +137,7 @@ ___
 
 ### Side Dock
 
-Configurar los iconos de muelle lateral
+Configure los iconos de muelle lateral
 
 ##### Permite efectos de icono de muelle lateral
 > Efecto del arco iris en el tubo
@@ -181,6 +181,7 @@ ___
 ### Sidebar Background
 
 Configurar imágenes de fondo en las barras laterales izquierda y derecha.
+.
 
 Formatos aceptados: px, %
 
@@ -190,7 +191,7 @@ CSSClasse(s) targeted:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, fle
 > Supera la declaración de imagen de fondo a continuación, configura en izquierda y
 > barra lateral derecha
 
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 Opciones:
 
 - Grid
@@ -290,7 +291,8 @@ ___
 
 ### Modo de huevo de Pascua
 
-Deprecatado. See[here for reasons](../../../README/page-5.md)[here for reasons](../../../README/page-5.md).
+Deprecatado. See[here for reasons](../../../README/page-5.md).
+.
 
 ___
 
@@ -304,19 +306,19 @@ Toggle accessibility options
 ### Global brightness ratio
 
 CSSVariable(s) targeted:`var(--flexcyon-brightness-ratio)`
-Predeterminado: 1
+Default: 1
 
 ## Global contrast ratio
 
 CSSVariable(s) targeted:`var(--flexcyon-contrast-ratio)`
-Predeterminado: 1
+Default: 1
 > Por ejemplo, si quieres un poco más de contraste como en una pantalla OLED, prueba valores
 > entre 1 y 11.
 
 ## Global saturation ratio
 
 CSSVariable(s) targeted:`var(--flexcyon-saturation-ratio)`
-Predeterminado: 1
+Default: 1
 > Uso para modificar la saturación de colores
 
 ___

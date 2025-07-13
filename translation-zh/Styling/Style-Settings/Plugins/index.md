@@ -122,6 +122,7 @@ CSS目标变量:`var(--flexcyon-dataview-horizontal-padding)`
 {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}请说
 
 定义 Canvas 核心插件的样式。
+.
 
 接受格式: px, RGB
 
@@ -134,6 +135,7 @@ CSS目标变量:`var(--flexcyon-canvas-blur-inactive-nodes)`
 
 用上一个设置来设置不活动画布节点的模糊强度
 和所有箭头/箭头。
+.
 
 CSS目标变量:`var(--flexcyon-canvas-blur-intensity)`
 默认:1 (px)
@@ -141,20 +143,22 @@ CSS目标变量:`var(--flexcyon-canvas-blur-intensity)`
 #### Canvas 卡片菜单对齐
 
 配置画布卡菜单的对齐 。
+.
 
 CSS目标类别:`.flexcyon-canvas-menu-bottom-left,`
-`
+[原件:英文]
 .flexcyon-canvas-menu-底部右侧 .flexcyon-canvas-menu-top-center, (中文).
 ,
-.flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-reat, . .flexcyon-canvas-menu-top-left-right, 互联网档案馆的存檔,存档日期2014-03-02.,.
+.flexcyon-canvas-menu-top-左侧 .flexcyon-canvas-menu-top-右侧 .
 ,
-. . . . . . . center. . . . . . .
+. . . . . . . . . center. . . . . . .
 ,
 .flexcyon-canvas-menu-lcenter-bottom,.flexcyon-canvas-menu-rcenter-)是中国大陆的特有种center, (中文).
 ,
-.flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bound, .flexcyon-canvas-menu-center-aign (英语).
-`
-默认: 无( 类选择)
+.flexcyon-canvas-menu-rcenter-top,.flexcyon-canvas-menu-rcenter-bottom,.flexcyon-canvas-menu-center-aign (英语).
+[原件:英文]
+
+默认: 无( 选择类)
 
 选项 :
 

@@ -4,6 +4,7 @@ icon: material/page-layout-sidebar-left
 ---
 
 Configurar el diseño del espacio de trabajo.
+.
 
 ## Navigation
 
@@ -28,12 +29,12 @@ Style Settings
 CSSClasse(s) targeted: `.flexcyon-orkspace-card-layout,
 ,
 .flexcyon-orkspace-angled-layout, .flexcyon-workspace-pl10k-layout`
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 
 Opciones:
 
 - Tarjetas de diseño
-- Ángulo
+- Ángulo.
 - Powerlevel10k Layout
 > Los cambios de diseño del espacio de trabajo pueden necesitar volver a cargar o reiniciar aplicaciones para tener efecto
 

@@ -12,6 +12,7 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["dashed-all"](../combined-styling/page-20.md)["dashed-all"](../combined-styling/page-20.md)
-junto con["dashed-content"](../content-styling/page-10.md)["dashed-content"](../content-styling/page-10.md).
+El estilo en sí se aplica también["dashed-all"](../combined-styling/page-20.md)
+junto con["dashed-content"](../content-styling/page-10.md).
+.
 

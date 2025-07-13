@@ -10,6 +10,7 @@ Metadatos de llamada: "bg-lue
 > The background color will be blue
 ```
 
-El estilo en sí se aplica también["all-blue"](../combined-styling/page-2.md)["all-blue"](../combined-styling/page-2.md)
-junto con["title-blue"](../title-styling/page-2.md)["title-blue"](../title-styling/page-2.md).
+El estilo en sí se aplica también["all-blue"](../combined-styling/page-2.md)
+junto con["title-blue"](../title-styling/page-2.md).
+.
 

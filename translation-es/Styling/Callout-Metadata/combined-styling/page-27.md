@@ -9,6 +9,6 @@ Metadatos de llamada: "font-onospace-all
 > [!info|font-monospace-all] Title will use monospace font
 > The text font will also use monospace font
 ```
-> Shorthand para ambos["font-monospace-content"](../content-styling/page-17.md)["font-monospace-content"](../content-styling/page-17.md)
-> y["font-monospace-title"](../title-styling/page-33.md)["font-monospace-title"](../title-styling/page-33.md)
+> Shorthand para ambos["font-monospace-content"](../content-styling/page-17.md)
+> y["font-monospace-title"](../title-styling/page-33.md)
 

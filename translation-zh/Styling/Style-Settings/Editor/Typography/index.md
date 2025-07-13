@@ -5,6 +5,7 @@ icon: material/format-text
 
 定义变音文本颜色、 标题样式及控制 UI
 字体大小。
+.
 
 接受格式 :HEX
 

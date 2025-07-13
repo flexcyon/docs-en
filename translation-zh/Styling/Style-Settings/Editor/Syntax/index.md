@@ -28,7 +28,7 @@ XQ 弹性语法加亮模式
 CSS目标类别:`.flexcyon-syntax-cappuccin,
 ,
 .flexcyon-语法-lego,.flexcyon-语法-单色 `
-默认: 无( 类选择)
+默认: 无( 选择类)
 选项 :
 
 - 猫头鹰

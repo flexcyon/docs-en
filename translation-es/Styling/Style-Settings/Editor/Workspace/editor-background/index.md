@@ -28,7 +28,7 @@ Style Settings
 ### Select Background Tipo
 
 CSSClasse(s) targeted:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 Opciones:
 
 - Antecedentes de presión

@@ -20,6 +20,7 @@ reading mode/reading mode
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["w-`value`-all"](../combined-styling/page-24.md)["w-`value`-all"](../combined-styling/page-24.md)
-junto con["w-`value`-content"](../content-styling/page-14.md)["w-`value`-content"](../content-styling/page-14.md).
+El estilo en sí se aplica también["w-`value`-all"](../combined-styling/page-24.md)
+junto con["w-`value`-content"](../content-styling/page-14.md).
+.
 

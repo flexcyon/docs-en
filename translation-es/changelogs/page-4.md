@@ -5,16 +5,18 @@ icon: material/numeric-4-box-outline
 
 ## Versión 0.4.Actualización del modo de luz
 
-- Cambio de la barra lateral de fondo de brillo predeterminado a`unset`.
+- El brillo de fondo de barra lateral cambiada por defecto`unset`.
+.
 Antes estaba causando problemas como borroso contenido de plugin de Calender.
+.
 
 - Tema ligero WIP (mixes flexoki light + paleta de colores origami)
 
 - Otros cambios erróneos
 
-- Agregado a la parpaeta de color extendida, por defecto
+- Agregado a la parrilla de colores extendida, por defecto
 
-- opción de tamaño de la cabecera de mesa
+- opción de tamaño de cabecera de mesa
 
 - Documentación actualizada para mostrar una pequeña vista previa de colores/opacidad aplicada por
 el tema
@@ -49,7 +51,7 @@ el tema
 - La documentación vieja está deprecatada
 - Colores de fondo del modo de luz fijo y el engranaje de línea activa
 - Números de línea relativos adaptados de Shimmering Focus
-- Agregar opciones para configurar números romanos, letras griegas inferiores
+- Añadir opciones para configurar números romanos, letras griegas inferiores
 - Agregar opciones para mostrar sólo números de línea relativos, números de línea relativos y números de línea normales en diferentes líneas
 - Añadir opción para mover el número de línea activa para adaptar el estilo relativo número de línea
 - Indicador de encabezados fijos`cssclasses`no trabajar
@@ -67,10 +69,10 @@ el tema
 
 ## Versión 0.4.Actualización de las coherencias
 - Corrección de la nota de pie de página
-- Corrección de alineación de la lista de balas
+- Fijar alineación de la lista de balas
 - Color resaltado por defecto cambiado
 - Las casillas de verificación ASCII ahora utilizan el mismo gradiente de color que las carpetas de arco iris en este tema
 - Añadido más opciones de casilla de verificación ASCII (ver la demostración web)
 - Text wrap to newline when file explorer file/folder title overflows
-- Agregue la opción Configuración de estilo para configurar el relleno de elementos sugerencias
-- Soporte añadido para el plugin Omnisearch
+- Agregue la opción Ajustes Estilo para configurar el relleno de elementos sugerencias
+- Añadido soporte para plugin Omnisearch

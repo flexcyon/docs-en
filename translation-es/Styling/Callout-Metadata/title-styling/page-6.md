@@ -10,6 +10,7 @@ Metadatos de llamada: "título"-tinta
 > The background color will display as usual
 ```
 
-El estilo en sí se aplica también["all-pink"](../combined-styling/page-6.md)["all-pink"](../combined-styling/page-6.md)
-junto con["bg-pink"](../bg-styling/page-6.md)["bg-pink"](../bg-styling/page-6.md).
+El estilo en sí se aplica también["all-pink"](../combined-styling/page-6.md)
+junto con["bg-pink"](../bg-styling/page-6.md).
+.
 

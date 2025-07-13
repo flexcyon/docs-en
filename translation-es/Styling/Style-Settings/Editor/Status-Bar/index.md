@@ -92,7 +92,7 @@ Predeterminado: 12.5 (px)
 CSSClasse(s) targeted: `.flexcyon-tatus-style-angled,
 ,
 .flexcyon-tatus-style-card, .flexcyon-status-style-pl10k`
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 Opciones:
 
 - Angled

@@ -5,7 +5,8 @@ icon: material/rhombus-split-outline
 
 {\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0} 使用量
 
-在编辑器背景中添加重复的rhombi模式。 旋转可以调整
+在编辑器背景中添加重复的rhombi模式。 旋转可以调整。
+.
 
 ```md
 cssclasses:

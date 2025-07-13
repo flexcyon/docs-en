@@ -4,6 +4,7 @@ icon: material/link
 ---
 
 Configure el color de los enlaces.
+.
 
 Formatos aceptados: HEX
 

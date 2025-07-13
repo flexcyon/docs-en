@@ -13,5 +13,6 @@ Usage:
 > which will show on hover
 ```
 
-[Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout)[Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout) 
+[Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout) 
 para opciones de configuración.
+.

@@ -9,6 +9,6 @@ Metadatos de llamada: "todos-lue
 > [!tip|all-blue] Title will be blue
 > The background color will be blue
 ```
-> Shorthand para ambos["bg-blue"](../bg-styling/page-2.md)["bg-blue"](../bg-styling/page-2.md)
-> y["title-blue"](../title-styling/page-2.md)["title-blue"](../title-styling/page-2.md)
+> Shorthand para ambos["bg-blue"](../bg-styling/page-2.md)
+> y["title-blue"](../title-styling/page-2.md)
 

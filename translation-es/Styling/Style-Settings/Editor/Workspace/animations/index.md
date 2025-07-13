@@ -3,7 +3,8 @@ title: Animaciones
 icon: material/animation
 ---
 
-Configurar animaciones de transición de los impulsos, modales y tab container.
+Configure animaciones de transición de los impulsos, modales y tab container.
+.
 
 Formatos aceptados: s
 
@@ -33,7 +34,7 @@ CSSClasse(s) targeted: `.flexcyon-nims-slide-rtl, .flexcyon-anims-slide-ltr,
 .flexcyon-nims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl`
 > Los cambios pueden necesitar una nueva descarga de la aplicación/restaurante para tener efecto
 
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 Opciones:
 
 - Diapositiva de izquierda a derecha

@@ -4,6 +4,7 @@ icon: material/file-cog
 ---
 
 Configurar árboles de archivos y estilos de carpeta.
+.
 
 ## Navigation
 
@@ -29,7 +30,7 @@ Default:true(de clase)
 ### Seleccionar estilo de carpeta
 
 CSSClasse(s) targeted:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 
 Opciones:
 

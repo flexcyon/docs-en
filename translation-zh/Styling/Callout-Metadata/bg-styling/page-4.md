@@ -10,6 +10,6 @@ icon: material/layers-outline
 > The background color will be purple
 ```
 
-样式本身也适用于["all-purple"](../combined-styling/page-4.md)["all-purple"](../combined-styling/page-4.md)
-页:1["title-purple"](../title-styling/page-4.md)["title-purple"](../title-styling/page-4.md)。
+风格本身也适用于["all-purple"](../combined-styling/page-4.md)
+页:1["title-purple"](../title-styling/page-4.md)。
 

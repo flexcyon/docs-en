@@ -10,6 +10,7 @@ Metadatos de llamada: "título"-rango
 > The background color will display as usual
 ```
 
-El estilo en sí se aplica también["all-orange"](../combined-styling/page-8.md)["all-orange"](../combined-styling/page-8.md)
-junto con["bg-orange"](../bg-styling/page-8.md)["bg-orange"](../bg-styling/page-8.md).
+El estilo en sí se aplica también["all-orange"](../combined-styling/page-8.md)
+junto con["bg-orange"](../bg-styling/page-8.md).
+.
 

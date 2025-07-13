@@ -15,6 +15,6 @@ icon: material/format-list-bulleted-type
 ```
 
  
-已接受的格式`style_type`数字 : 那个[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
+已接受的格式`style_type`编号 : 那个[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
 想要对命令和未命令的列表使用相同的样式时使用

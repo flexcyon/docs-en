@@ -5,6 +5,7 @@ icon: material/format-letter-case
 
 为所有标题添加标题指标。 将在阅读、编辑中出现
 和源模式。
+.
 
 用法 :
 

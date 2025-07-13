@@ -5,6 +5,7 @@ icon: material/format-color-highlight
 
 Colores definidos anula los defectos de tema para los colores base utilizados en el fondo
 y otros elementos de la UI.
+.
 
 Formatos aceptados: HEX
 

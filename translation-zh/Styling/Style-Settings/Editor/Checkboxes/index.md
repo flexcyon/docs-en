@@ -4,18 +4,19 @@ icon: material/checkbox-outline
 ---
 
 在此子页面中, 您可以找到用于复选框样式的用例 。
+.
 
 □ 截图
 
 <figure markdown="span">
-<img src=./././././assets/screenshots/ascii_checkboxes1.png'宽度="800".
-备选案文=“图1:ASCII复选框”>
+<img src=. /././././assets/screenshots/ascii_checkboxes1.png"宽度="800".
+备选案文=“图1:ASCII 复选框”>
     <figcaption
 >图1 ASCII 复选框</figcaption>
 </figure>
 
 <figure markdown="span">
-<img src=./././././资产/屏幕截图/ascii_checkboxes2.png"宽度="800".
+[img src=]././././././assets/screenshots/ascii_checkboxes2.png"宽度="800".
 alt=“图2:源模式中的 ASCII 复选框”>
     <figcaption
 >图2:源模式下的 ASCII 复选框</figcaption>

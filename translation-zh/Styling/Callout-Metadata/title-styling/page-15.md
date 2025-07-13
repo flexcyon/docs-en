@@ -12,6 +12,6 @@ icon: material/format-letter-case-lower
 > Content is shown as usual
 ```
 
-样式本身也适用于["lowercase-all"](../combined-styling/page-14.md)["lowercase-all"](../combined-styling/page-14.md)
-页:1["lowercase-content"](../content-styling/page-4.md)["lowercase-content"](../content-styling/page-4.md)。
+风格本身也适用于["lowercase-all"](../combined-styling/page-14.md)
+页:1["lowercase-content"](../content-styling/page-4.md)。
 

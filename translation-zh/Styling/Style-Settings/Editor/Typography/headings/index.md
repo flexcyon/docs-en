@@ -40,43 +40,44 @@ CSS目标变量:`var(--flexcyon-headings-glow-enabled)`
 * 启用全球标题指标
 
 定制全球面前哪些标题有标题指标。
-如果你打算逐笔应用,[click here](../../../../CSS-Classes/heading-indicators/index.md)[click here](../../../../CSS-Classes/heading-indicators/index.md)
+.
+如果你打算逐笔应用,[click here](../../../../CSS-Classes/heading-indicators/index.md)
 
 标题1
 
 CSS目标变量:`var(--flexcyon-headings-indicator-h1)`
 默认 :false(类切换)
-> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-1.md)[found here](../../../../CSS-Classes/heading-indicators/page-1.md)
+> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-1.md)
 
 标题2
 
 CSS目标变量:`var(--flexcyon-headings-indicator-h2)`
 默认 :false(类切换)
-> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-2.md)[found here](../../../../CSS-Classes/heading-indicators/page-2.md)
+> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-2.md)
 
 标题3
 
 CSS目标变量:`var(--flexcyon-headings-indicator-h3)`
 默认 :false(类切换)
-> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-3.md)[found here](../../../../CSS-Classes/heading-indicators/page-3.md)
+> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-3.md)
 
 标题4
 
 CSS目标变量:`var(--flexcyon-headings-indicator-h4)`
 默认 :false(类切换)
-> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-4.md)[found here](../../../../CSS-Classes/heading-indicators/page-4.md)
+> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-4.md)
 
 标题5
 
 CSS目标变量:`var(--flexcyon-headings-indicator-h5)`
 默认 :false(类切换)
-> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-5.md)[found here](../../../../CSS-Classes/heading-indicators/page-5.md)
+> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-5.md)
 
 标题6
 
 CSS目标变量:`var(--flexcyon-headings-indicator-h6)`
 默认 :false(类切换)
-> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-6.md)[found here](../../../../CSS-Classes/heading-indicators/page-6.md)
+> 那个CSS等同类可以是[found here](../../../../CSS-Classes/heading-indicators/page-6.md)
 
  
 

@@ -3,7 +3,7 @@ title: 标题栏
 icon: material/format-text-variant-outline
 ---
 
-对于标题栏的配置, 启用标题栏按钮上的彩虹悬浮效果
+对于标题栏的配置,启用标题栏按钮上的彩虹悬浮效果
 
 □ 导航
 

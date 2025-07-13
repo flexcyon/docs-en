@@ -14,7 +14,7 @@ icon: material/cursor-default
 > in reading mode, which will show its contents on hover
 ```
 
-[Click here](../Style-Settings/Editor/Callouts/index.md#popup-callout)[Click here](../Style-Settings/Editor/Callouts/index.md#popup-callout)
+[Click here](../Style-Settings/Editor/Callouts/index.md#popup-callout)
 用于配置选项。
 .
 

@@ -4,6 +4,7 @@ icon: material/file-cog
 ---
 
 配置文件树和文件夹样式。
+.
 
 □ 导航
 
@@ -29,7 +30,7 @@ CSS目标变量:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 ### 选择文件夹样式
 
 CSS目标类别:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
-默认: 无( 类选择)
+默认: 无( 选择类)
 
 选项 :
 

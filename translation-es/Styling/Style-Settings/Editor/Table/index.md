@@ -4,6 +4,7 @@ icon: material/table-cog
 ---
 
 Definir el color para las fronteras de mesa, y el ancho de las tablas en modo de lectura.
+.
 
 Formatos aceptados: HEX, %, x.y
 

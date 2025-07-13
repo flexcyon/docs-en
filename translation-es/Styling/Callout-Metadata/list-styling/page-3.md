@@ -15,6 +15,6 @@ icon: material/format-list-bulleted-type
 ```
 
 ___
-Formatos aceptados para`style_type`: El[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
+Formatos aceptados para`style_type`: El[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
 Utilice cuando desea aplicar el mismo estilo a las listas ordenadas y sin orden

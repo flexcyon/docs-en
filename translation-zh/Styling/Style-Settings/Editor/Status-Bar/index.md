@@ -90,12 +90,12 @@ CSS目标变量:`var(--status-bar-font-size)`
 #### 选择状态栏样式
 
 CSS目标类别:`.lexcyon-status-style-倾斜
-.flexcyon-status-style-card,.flexcyon-style-style-pl10k ' 
+.flexcyon-status-style-card,.flexcyon-status-style-pl10k ' .
 
-默认: 无( 类选择)
+默认: 无( 选择类)
 选项 :
 
-- 愤怒
+- 愤怒的
 - 纸牌
 - 动力级10k
 

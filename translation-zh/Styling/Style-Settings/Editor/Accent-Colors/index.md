@@ -3,8 +3,10 @@ title: 调色器
 icon: material/format-color-fill
 ---
 
-定义的颜色覆盖标题颜色和其他UI元素的主题默认值
+定义的颜色覆盖标题颜色和其他UI元素的主题默认值。
+.
 包括超音调颜色
+.
 > 这些颜色超过了标准cssvar(- color- cyan) 等变量
 
 接受格式:RGB,HEX
@@ -35,7 +37,7 @@ CSS目标变量:`var(--flexcyon-cyan)`, (中文),`var(--color-cyan-rgb)`
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #3cb9c2"
 ></span
-># 3cb9c2 (英语).
+>#3cb9c2 (中文(简体) ).
 
 QQ 绿色
 
@@ -100,7 +102,7 @@ CSS目标变量:`var(--flexcyon-red-salmon)`, (中文),`var(--color-red-rgb)`
 默认( 暗模式) :
 <span class="col-sqr" style="background-color: #c03a47"
 ></span
->#c03a47 (中文(简体) ).
+>{\fn黑体\fs22\bord1\shad0\3ahbe\4ah00\fscx67\fscy66\2chffffff\3ch808080}我看见了
 
 蓝色
 

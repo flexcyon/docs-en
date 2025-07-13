@@ -4,6 +4,7 @@ icon: material/cogs
 ---
 
 Para personalizar la apariencia de varios aspectos de interfaz de usuario de configuración.
+.
 
 Formatos aceptados: x.y, rem, px
 
@@ -39,10 +40,10 @@ Default:true(de clase)
 ## Opacity of community items (unselected)
 
 CSSVariable(s) targeted:`var(--flexcyon-comm-item-opacity)`
-Predeterminado: 0.89
+Default: 0.89
 
 <span style="opacity: 0.89"
->Muestra opacidad de los elementos comunitarios (no seleccionados)</span>
+>Opacidad de muestras de elementos comunitarios (no seleccionados)</span>
 
 ### El margen izquierdo de herramientas instalado
 

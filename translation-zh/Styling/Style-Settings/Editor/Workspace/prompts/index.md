@@ -3,7 +3,8 @@ title: 提示
 icon: material/text-box
 ---
 
-配置命令提示器, 快速切换器等提示 。
+配置命令即时, 快速切换器等提示 。
+.
 
 接受格式: px, vw, vh
 
@@ -47,8 +48,9 @@ CSS目标类别:`.flexcyon-prompt-alimpt-lignown-left,
 ,
 . . . . . center. . . . . center- 左边
 ,
-.flexcyon-即时对齐左上方 .flexcyon-即时对齐上方 center`
-默认: 无( 类选择)
+.flexcyon-即时对齐左上方 .flexcyon-即时对齐上方 center[原件:英文]
+
+默认: 无( 选择类)
 选项 :
 
 - 左边

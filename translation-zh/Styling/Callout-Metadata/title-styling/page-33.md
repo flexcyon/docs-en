@@ -10,5 +10,5 @@ icon: material/format-title
 > The text font will display as usual
 ```
 
-样式本身也适用于["font-monospace-all"](../combined-styling/page-27.md)["font-monospace-all"](../combined-styling/page-27.md)
-页:1["font-monospace-content"](../content-styling/page-17.md)["font-monospace-content"](../content-styling/page-17.md)。
+风格本身也适用于["font-monospace-all"](../combined-styling/page-27.md)
+页:1["font-monospace-content"](../content-styling/page-17.md)。

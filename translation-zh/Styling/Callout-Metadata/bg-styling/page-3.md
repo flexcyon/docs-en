@@ -10,6 +10,6 @@ icon: material/layers-outline
 > The background color will be red
 ```
 
-样式本身也适用于["all-red"](../combined-styling/page-3.md)["all-red"](../combined-styling/page-3.md)
-页:1["title-red"](../title-styling/page-3.md)["title-red"](../title-styling/page-3.md)。
+风格本身也适用于["all-red"](../combined-styling/page-3.md)
+页:1["title-red"](../title-styling/page-3.md)。
 

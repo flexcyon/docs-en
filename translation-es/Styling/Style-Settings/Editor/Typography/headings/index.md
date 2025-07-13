@@ -40,43 +40,44 @@ Default:false(de clase)
 ### Indicadores de encabezamiento global
 
 Personalizar qué epígrafes tienen indicadores de encabezamiento en todo el mundo.
-Si usted está buscando para aplicarlos en un per-ote basis,[click here](../../../../CSS-Classes/heading-indicators/index.md)[click here](../../../../CSS-Classes/heading-indicators/index.md)
+.
+Si usted está buscando para aplicarlos en un per-ote basis,[click here](../../../../CSS-Classes/heading-indicators/index.md)
 
 #### For Heading 1
 
 CSSVariable(s) targeted:`var(--flexcyon-headings-indicator-h1)`
 Default:false(de clase)
-> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-1.md)[found here](../../../../CSS-Classes/heading-indicators/page-1.md)
+> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-1.md)
 
 #### For Heading 2
 
 CSSVariable(s) targeted:`var(--flexcyon-headings-indicator-h2)`
 Default:false(de clase)
-> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-2.md)[found here](../../../../CSS-Classes/heading-indicators/page-2.md)
+> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-2.md)
 
 #### For Heading 3
 
 CSSVariable(s) targeted:`var(--flexcyon-headings-indicator-h3)`
 Default:false(de clase)
-> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-3.md)[found here](../../../../CSS-Classes/heading-indicators/page-3.md)
+> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-3.md)
 
 #### For Heading 4
 
 CSSVariable(s) targeted:`var(--flexcyon-headings-indicator-h4)`
 Default:false(de clase)
-> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-4.md)[found here](../../../../CSS-Classes/heading-indicators/page-4.md)
+> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-4.md)
 
 #### For Heading 5
 
 CSSVariable(s) targeted:`var(--flexcyon-headings-indicator-h5)`
 Default:false(de clase)
-> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-5.md)[found here](../../../../CSS-Classes/heading-indicators/page-5.md)
+> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-5.md)
 
 #### For Heading 6
 
 CSSVariable(s) targeted:`var(--flexcyon-headings-indicator-h6)`
 Default:false(de clase)
-> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-6.md)[found here](../../../../CSS-Classes/heading-indicators/page-6.md)
+> ElCSSEl equivalente de clase puede ser[found here](../../../../CSS-Classes/heading-indicators/page-6.md)
 
 ___
 

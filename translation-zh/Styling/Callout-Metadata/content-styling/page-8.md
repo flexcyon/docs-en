@@ -12,6 +12,6 @@ icon: material/format-italic
 > The content will be displayed as italic
 ```
 
-样式本身也适用于["italic-all"](../combined-styling/page-18.md)["italic-all"](../combined-styling/page-18.md)
-页:1["italic-title"](../title-styling/page-18.md)["italic-title"](../title-styling/page-18.md)。
+风格本身也适用于["italic-all"](../combined-styling/page-18.md)
+页:1["italic-title"](../title-styling/page-18.md)。
 

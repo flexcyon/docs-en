@@ -7,6 +7,7 @@ icon: material/keyboard
 
 Agrega el texto indent y el párrafo aumentado espaciamiento a su editor. El tamaño puede ser
 ajustado en configuración de estilo.
+.
 
 ```md
 cssclasses:

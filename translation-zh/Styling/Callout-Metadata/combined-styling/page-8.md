@@ -9,6 +9,6 @@ icon: material/format-color-fill
 > [!tip|all-orange] Title will be orange
 > The background color will be orange
 ```
-> 两者的简称["bg-orange"](../bg-styling/page-8.md)["bg-orange"](../bg-styling/page-8.md)
-> 和["title-orange"](../title-styling/page-8.md)["title-orange"](../title-styling/page-8.md)
+> 两者的简称["bg-orange"](../bg-styling/page-8.md)
+> 和["title-orange"](../title-styling/page-8.md)
 

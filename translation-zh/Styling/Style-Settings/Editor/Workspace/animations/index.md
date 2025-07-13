@@ -3,7 +3,8 @@ title: 动画
 icon: material/animation
 ---
 
-配置提示、模式和标签容器的过渡动画。
+配置提示,模式和标签容器的过渡动画。
+.
 
 接受格式:s
 
@@ -33,7 +34,7 @@ CSS目标类别:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
 .flexcyon-anims-slim-tb,.flexcyon-anims-slim-bt,.flexcyon-spin-bt,.flexcyon-anims-spin-rl ' .
 > 更改可能需要重新装入/ 重新启动程序才能生效
 
-默认: 无( 类选择)
+默认: 无( 选择类)
 选项 :
 
 - 左到右幻灯片
@@ -45,7 +46,7 @@ CSS目标类别:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
 动画持续时间
 
 CSS目标变量:`var(--flexcyon-anim-duration)`
-默认: 0. 5s
+默认值: 0. 5s
 
 QQ 动画放松功能
 

@@ -6,6 +6,7 @@ title: Cambios
 ##### Nota
 
 Los changelogs muestran versiones en orden de lo más reciente al menos reciente.
+.
 O, si prefiere los cambios en el orden cronológico, puede utilizar
 la barra lateral o el menú de hamburguesa para ver el sub relevante-edades.
 .
@@ -61,13 +62,13 @@ ___
 
 ## Versión 0.4.Actualización de las coherencias
 - Corrección de la nota de pie de página
-- Corrección de alineación de la lista de balas
+- Fijar alineación de la lista de balas
 - Color resaltado por defecto cambiado
 - Las casillas de verificación ASCII ahora utilizan el mismo gradiente de color que las carpetas de arco iris en este tema
 - Añadido más opciones de casilla de verificación ASCII (ver la demostración web)
 - Text wrap to newline when file explorer file/folder title overflows
-- Agregue la opción Configuración de estilo para configurar el relleno de elementos sugerencias
-- Soporte añadido para el plugin Omnisearch
+- Agregue la opción Ajustes Estilo para configurar el relleno de elementos sugerencias
+- Añadido soporte para plugin Omnisearch
 
 ## Versión 0.4.Reparación de arco iris
 - Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral
@@ -85,7 +86,7 @@ ___
 - La documentación vieja está deprecatada
 - Colores de fondo del modo de luz fijo y el engranaje de línea activa
 - Números de línea relativos adaptados de Shimmering Focus
-- Agregar opciones para configurar números romanos, letras griegas inferiores
+- Añadir opciones para configurar números romanos, letras griegas inferiores
 - Agregar opciones para mostrar sólo números de línea relativos, números de línea relativos y números de línea normales en diferentes líneas
 - Añadir opción para mover el número de línea activa para adaptar el estilo relativo número de línea
 - Indicador de encabezados fijos`cssclasses`no trabajar
@@ -104,16 +105,17 @@ ___
 
 ## Versión 0.4.Actualización del modo de luz
 
-- Cambio de la barra lateral de fondo de brillo predeterminado a`unset`. Was
+- El brillo de fondo de barra lateral cambiada por defecto`unset`. Was
 anteriormente causando problemas como borroso contenido de plugin Calender.
+.
 
 - Tema ligero WIP (mixes flexoki light + paleta de colores origami)
 
 - Otros cambios erróneos
 
-- Agregado a la parpaeta de color extendida, por defecto
+- Agregado a la parrilla de colores extendida, por defecto
 
-- opción de tamaño de la cabecera de mesa
+- opción de tamaño de cabecera de mesa
 
 - Documentación actualizada para mostrar una pequeña vista previa de colores/opacidad aplicada por
 el tema
@@ -147,6 +149,7 @@ el tema
 ## Versión 0.3.Actualización de configuración
 
 - La documentación ahora tiene su propio sitio.
+.
 
 - opción de brillo suave para las partidas
 
@@ -156,6 +159,7 @@ el tema
 
 - Opción agregada para permitir indicadores de encabezado a nivel mundial, personalizable para
 diferentes niveles de rumbo.
+.
 
 - Los indicadores de encabezado ahora mejor heredan del color base del encabezado
 
@@ -168,7 +172,7 @@ diferentes niveles de rumbo.
 - Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
 barras de estado más largas
 
-- Se rompió el fondo de explorador de archivos fijos
+- Trasfondo de explorador de archivos fijos roto
 
 - opción de árbol de archivo marcado adicional para estilo de carpeta
 
@@ -178,7 +182,7 @@ barras de estado más largas
 
 ## Versión 0.3.Actualización de QOL
 
-- Factor de indentación configurable añadido y regulación de cabeceras colapsadas
+- Factor de indentación configurable agregado y regulación de cabeceras colapsadas
 Menú Ajustes de estilo
 
 - Añadido modo de escritura llamada utilidad metadatos, aumenta el número de texto y
@@ -196,7 +200,7 @@ y barra lateral derecha
 
 - Cita ahora usa el mismo color que el arte ASCII
 
-- La cita por defecto se actualiza para no ser un rickroll
+- La cita predeterminada se actualiza para no ser un rickroll
 
 - Añadido soporte para plugin Kanban
 
@@ -230,7 +234,7 @@ y barra lateral derecha
 
 - Añadido servicio de metadatos de llamada de tarjetas flash
 
-- opción agregada para añadir cotización personalizada antes del título de estado vacío
+- opción añadida para añadir cotización personalizada antes del título de estado vacío
 
 - No es seleccionable con el arte ASCII, el arte ASCII es seleccionado por defecto
 
@@ -244,7 +248,7 @@ impulsos, etc.
 
 - Servicios de metadatos adicionales para:
 
-- cuadrícula y fondo punteado
+- cuadrícula y fondo dotado
 
 - título y contenido itálico y oblicuo
 
@@ -258,17 +262,19 @@ impulsos, etc.
 
 - Iconos sonrientes fijos (esperadamente por última vez)
 
-- Opciones adicionales para añadir y configurar los fondos de imagen en las barras laterales izquierda y derecha
+- Opciones agregadas para añadir y configurar los fondos de imagen en las barras laterales izquierda y derecha
 
 - Modificaciones de la luz a los elementos de navegación en la palanca, Calendario plugin de estilo
 
-- Ligeras pinzas para editor de fondo teñido y rejilla de fondo estilo.
+- Ligeras pinzas para editor de fondo teñido y estilo de fondo de cuadrícula.
+.
 
 - La barra de títulos se adapta ahora al estilo de diseño seleccionado
 
-- Opción agregada para difuminar los nodos de Canvas inactivos para el plugin de Canvas núcleo
+- opción agregada para desdibujar los nodos inactivos de Canvas para el plugin de Canvas núcleo
 
 - Los cambios de fondo del editor ahora afectan el plugin de Canvas núcleo.
+.
 
 - Tal vez necesite volver a cargar / reiniciar para los cambios de configuración de estilo para aparecer en el Canvas
 
@@ -311,7 +317,7 @@ título y contenido
 
 - Bottomcenter
 
--[See the documentation](../index.md)[See the documentation](../index.md)para más detalles
+-[See the documentation](../index.md)para más detalles
 
 ___
 
@@ -321,7 +327,7 @@ ___
 
 - Color de fondo de dobles comillas fijas
 
-- Apoyo añadido para el plugin de Estadísticas Vault
+- Apoyo añadido para el plugin de estadísticas por defecto
 
 - Tejidos menores para efectos de productos comunitarios
 
@@ -343,9 +349,11 @@ tiene una opción de color:
 ## Versión 0.2.Pequeña actualización
 
 - Animaciones de ventana eliminadas ya que no son performant.
+.
 
 - Colores extendidos actualizados para que`*-color1-color2`y`*-color-2-color`voluntad
 siempre devolver la misma mezcla de color cuando se utiliza en las utilidades de metadatos callout.
+.
 
 - Efecto activo de fondo de archivos más consistente
 
@@ -365,11 +373,12 @@ siempre devolver la misma mezcla de color cuando se utiliza en las utilidades de
 cssvariables)
 
 - Llamada popup agregada, adaptada a
-[Ukiyo](https://github.com/technerium/obsidian-ukiyo)[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
+[Ukiyo](https://github.com/technerium/obsidian-ukiyo)Tema de vaykinov y wizentex
 
 - Opacidad fija de las principales acciones como nueva nota, nueva carpeta etc
 
 - Animaciones de ventana agregadas para modals, impulsos y ajustes.
+.
 Elija entre las siguientes opciones:
 
 - Ninguna (Revierte al comportamiento predeterminado)
@@ -396,7 +405,7 @@ Elija entre las siguientes opciones:
 
 - Opciones de fondo dotted y grid
 
-- Ver el[documentation](../index.md)[documentation](../index.md)para más detalles
+- Ver el[documentation](../index.md)para más detalles
 
 ___
 
@@ -404,7 +413,7 @@ ___
 
 ## Versión 0.1.Hotfixes
 
-- opción agregada para cambiar el tamaño de la fuente ASCII
+- opción adicional para cambiar el tamaño de la fuente ASCII
 
 - Iconos sonrientes fijos en el móvil
 
@@ -412,7 +421,7 @@ ___
 
 - Opciones adicionales para cambiar la visibilidad de las propiedades en modo de lectura y vista previa en vivo
 
-- Añadido soporte para el plugin Dataview
+- Apoyo añadido para el plugin Dataview
 
 - Puntos de bala arco iris añadidos (desactivados por defecto)
 
@@ -450,17 +459,17 @@ ___
 
 - RTL, LTR,CenterTítulo y contenido
 
-- Tategaki (TL vertical)
+- Tategaki (RTL vertical)
 
 - LTR vertical
 
 - Cisclases adicionales para
 
-- Tategaki (TL vertical)
+- Tategaki (RTL vertical)
 
 - LTR vertical
 
-- Ver el[documentation](../index.md)[documentation](../index.md)para más detalles
+- Ver el[documentation](../index.md)para más detalles
 
 Créditos:
 
@@ -476,7 +485,7 @@ Créditos:
 
 - opción adicional para habilitar la barra de estado en el móvil
 
-- Opción de altura de línea agregada en tipografía para partidas
+- Opción de altura de línea agregada en tipografía para las partidas
 
 - Añadir opción para ocultar la cinta lateral izquierda
 

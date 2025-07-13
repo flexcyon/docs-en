@@ -12,6 +12,7 @@ Usage:
 > Content is shown as usual
 ```
 
-El estilo en sí se aplica también["underline-all"](../combined-styling/page-22.md)["underline-all"](../combined-styling/page-22.md)
-junto con["underline-content"](../content-styling/page-12.md)["underline-content"](../content-styling/page-12.md).
+El estilo en sí se aplica también["underline-all"](../combined-styling/page-22.md)
+junto con["underline-content"](../content-styling/page-12.md).
+.
 

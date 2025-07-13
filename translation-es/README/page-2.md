@@ -26,8 +26,9 @@ Para instalar este tema a través de BRAT, vaya a`Settings
 5. Input`https://github.com/bladeacer/flexcyon`y luego haga clic`Add Theme`
 ## Style Settings Plugin
 
-La instalación de los ajustes de estilo es altamente recomendable para este tema, como la mayoría
+La instalación de configuración de estilo es altamente recomendable para este tema, como la mayoría
 la personalización y funcionalidad se construye alrededor de ella.
+.
 
-Documentación para la configuración de estilo de este tema se puede encontrar[here](../Styling/Style-Settings/index.md)[here](../Styling/Style-Settings/index.md)
+Documentación para la configuración de estilo de este tema se puede encontrar[here](../Styling/Style-Settings/index.md)
 

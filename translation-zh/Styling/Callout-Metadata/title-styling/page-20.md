@@ -12,6 +12,6 @@ icon: material/format-color-text
 > Content is shown as usual
 ```
 
-样式本身也适用于["dashed-all"](../combined-styling/page-20.md)["dashed-all"](../combined-styling/page-20.md)
-页:1["dashed-content"](../content-styling/page-10.md)["dashed-content"](../content-styling/page-10.md)。
+风格本身也适用于["dashed-all"](../combined-styling/page-20.md)
+页:1["dashed-content"](../content-styling/page-10.md)。
 

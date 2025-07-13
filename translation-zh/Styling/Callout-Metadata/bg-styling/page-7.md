@@ -10,6 +10,6 @@ icon: material/layers-outline
 > The background color will be green
 ```
 
-样式本身也适用于["all-green"](../combined-styling/page-7.md)["all-green"](../combined-styling/page-7.md)
-页:1["title-green"](../title-styling/page-7.md)["title-green"](../title-styling/page-7.md)。
+风格本身也适用于["all-green"](../combined-styling/page-7.md)
+页:1["title-green"](../title-styling/page-7.md)。
 

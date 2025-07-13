@@ -56,7 +56,8 @@ Predeterminado: 2 (px)
 ___
 ### Flashcard callout
 
-Configura los[flashcard callout](../../../Callout-Metadata/flashcard.md)[flashcard callout](../../../Callout-Metadata/flashcard.md).
+Configura los[flashcard callout](../../../Callout-Metadata/flashcard.md).
+.
 
 #### Flashcard callout ancho
 
@@ -76,7 +77,7 @@ Predeterminado: 0.5s
 ___
 ### Llamada de emergencia
 
-Configura los[popup callout](../../../Callout-Metadata/popup.md)[popup callout](../../../Callout-Metadata/popup.md)
+Configura los[popup callout](../../../Callout-Metadata/popup.md)
 
 ##### Duración de la animación de llamada de popup
 

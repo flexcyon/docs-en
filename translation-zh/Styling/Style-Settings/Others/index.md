@@ -3,7 +3,7 @@ title: 其他人员
 icon: material/dots-horizontal
 ---
 
-对于配置 vim 模式文本, 新建标签 appenance( ASCII 艺术), sidedock 图标,
+对于配置vim模式文本,新制表符 aperance(ASCII 艺术),侧式图标,
 ,
 工具提示半径
 
@@ -65,7 +65,7 @@ CSS目标变量:`var(--flexcyon-vim-command-text)`
 CSS目标类别:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 > 更改此选项可能要重新装入/ 重新启动才能生效
 
-默认: 无( 类选择)
+默认: 无( 选择类)
 选项 :
 
 - ASCII艺术
@@ -181,6 +181,7 @@ CSS目标变量:`var(--radius-xl)`
 ++ 侧边栏背景
 
 在左右侧边栏配置背景图像。
+.
 
 接受格式: px,%
 
@@ -190,7 +191,7 @@ CSS目标类别:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-
 > 覆盖下面的背景图像声明,在左侧和左侧配置
 > 右侧边栏
 
-默认: 无( 类选择)
+默认: 无( 选择类)
 选项 :
 
 - 绳子
@@ -290,7 +291,7 @@ CSS目标变量:`var(--flexcyon-modal-image-position)`
 
 ### 复活节彩蛋模式
 
-堕地，见[here for reasons](../../../README/page-5.md)[here for reasons](../../../README/page-5.md)。
+堕地。 见[here for reasons](../../../README/page-5.md)。
 
  
 

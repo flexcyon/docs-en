@@ -10,6 +10,6 @@ icon: material/table-of-contents
 > The text font will use the text font
 ```
 
-样式本身也适用于["font-text-all"](../combined-styling/page-26.md)["font-text-all"](../combined-styling/page-26.md)
-页:1["font-text-title"](../title-styling/page-32.md)["font-text-title"](../title-styling/page-32.md)。
+风格本身也适用于["font-text-all"](../combined-styling/page-26.md)
+页:1["font-text-title"](../title-styling/page-32.md)。
 

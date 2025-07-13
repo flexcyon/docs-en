@@ -12,6 +12,6 @@ icon: material/align-horizontal-right
 > Content is shown as usual
 ```
 
-样式本身也适用于["rtl-all"](../combined-styling/page-11.md)["rtl-all"](../combined-styling/page-11.md)
-页:1["rtl-content"](../content-styling/page-1.md)["rtl-content"](../content-styling/page-1.md)。
+风格本身也适用于["rtl-all"](../combined-styling/page-11.md)
+页:1["rtl-content"](../content-styling/page-1.md)。
 

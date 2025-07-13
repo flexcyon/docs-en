@@ -5,6 +5,7 @@ icon: material/format-letter-case
 
 Añádase un indicador de partida para todas las partidas. aparecerá en la lectura, edición
 y modo fuente.
+.
 
 Usage:
 

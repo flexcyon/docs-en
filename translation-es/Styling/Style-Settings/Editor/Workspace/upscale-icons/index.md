@@ -26,7 +26,7 @@ CSSVariable(s) targeted:`var(--upsize)`
 Predeterminado: 103%
 
 <span style="scale: 103%"
->Porcentaje de aumento de muestras 1</span>
+>Porcentaje de aumento de la muestra 1</span>
 
 ##### Porcentaje de escala de iconos 2
 
@@ -34,4 +34,4 @@ CSSVariable(s) targeted:`var(--expand)`
 Predeterminado: 110%
 
 <span style="scale: 110%"
->Porcentaje de aumento de muestras 2</span>
+>Porcentaje de aumento de la muestra 2</span>

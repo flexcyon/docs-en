@@ -101,10 +101,10 @@ Formatos aceptados: x.y, %
 ##### Opacity of dimmed full calendario items
 
 CSSVariables(s) dirigidas:`var(--flexcyon-fc-dimmed-items-opacity)`
-Predeterminado: 0.89
+Default: 0.89
 
 <span style="opacity: 0.89"
->Opacidad de muestra de elementos de calendario completo</span>
+>Opacidad de la muestra de elementos de calendario completo</span>
 
 ___
 
@@ -122,6 +122,7 @@ ___
 ### Canvas
 
 Define estilos para el plugin Canvas núcleo.
+.
 
 Formatos aceptados: px, RGB
 
@@ -132,8 +133,9 @@ Default:false(de clase)
 
 ##### Intensidad Blur para los nodos inactivos
 
-Usado con el ajuste anterior para establecer la intensidad de borda de los nodos de tela inactivos
+Utilizado con el ajuste anterior para establecer la intensidad de borda de los nodos de tela inactivos
 y todas las flechas/edges.
+.
 
 CSSVariable(s) targeted:`var(--flexcyon-canvas-blur-intensity)`
 Predeterminado: 1 (px)
@@ -141,6 +143,7 @@ Predeterminado: 1 (px)
 ##### Ajuste del menú de la tarjeta
 
 Configurar la alineación del menú de la tarjeta de lienzo.
+.
 
 CSSClasse(s) targeted:`.flexcyon-canvas-menu-bottom-left,`
 `
@@ -154,7 +157,7 @@ CSSClasse(s) targeted:`.flexcyon-canvas-menu-bottom-left,`
 ,
 .flexcyon-anvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align
 `
-Predeterminado: ninguno (clase selecto)
+Default: none (class select)
 
 Opciones:
 

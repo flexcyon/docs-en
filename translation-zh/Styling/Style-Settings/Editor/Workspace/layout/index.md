@@ -4,6 +4,7 @@ icon: material/page-layout-sidebar-left
 ---
 
 配置工作空间布局 。
+.
 
 □ 导航
 
@@ -28,7 +29,7 @@ Style Settings
 CSS目标类别:`.lexcyon-工作空间卡-挂载,
 ,
 弹性工作空间倾斜排版, . flexcyon- 工作空间- pl10k- layout `
-默认: 无( 类选择)
+默认: 无( 选择类)
 
 选项 :
 

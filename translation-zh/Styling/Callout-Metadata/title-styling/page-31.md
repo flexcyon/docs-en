@@ -10,6 +10,6 @@ icon: material/format-title
 > The text font will display as usual
 ```
 
-样式本身也适用于["font-interface-all"](../combined-styling/page-25.md)["font-interface-all"](../combined-styling/page-25.md)
-页:1["font-interface-content"](../content-styling/page-15.md)["font-interface-content"](../content-styling/page-15.md)。
+风格本身也适用于["font-interface-all"](../combined-styling/page-25.md)
+页:1["font-interface-content"](../content-styling/page-15.md)。
 

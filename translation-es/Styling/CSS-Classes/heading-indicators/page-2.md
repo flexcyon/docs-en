@@ -5,6 +5,7 @@ icon: material/format-header-2
 
 Añádase un indicador de la partida 2s. aparecerá en la lectura, edición y
 modo fuente.
+.
 
 Usage:
 

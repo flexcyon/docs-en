@@ -11,5 +11,5 @@ Usage:
 > [!info|caps-all] The title will be displayed as caps
 > The content will be displayed as caps
 ```
-> Shorthand para ambos["caps-content"](../content-styling/page-6.md)["caps-content"](../content-styling/page-6.md)
-> y["caps-title"](../title-styling/page-16.md)["caps-title"](../title-styling/page-16.md)
+> Shorthand para ambos["caps-content"](../content-styling/page-6.md)
+> y["caps-title"](../title-styling/page-16.md)

@@ -10,6 +10,6 @@ icon: material/table-of-contents
 > The text font will use the interface font
 ```
 
-样式本身也适用于["font-interface-all"](../combined-styling/page-25.md)["font-interface-all"](../combined-styling/page-25.md)
-页:1["font-interface-title"](../title-styling/page-31.md)["font-interface-title"](../title-styling/page-31.md)。
+风格本身也适用于["font-interface-all"](../combined-styling/page-25.md)
+页:1["font-interface-title"](../title-styling/page-31.md)。
 

@@ -4,7 +4,9 @@ icon: material/format-color-fill
 ---
 
 Colores definidos anula los defectos de tema para los colores de encabezado y otros elementos de interfaz de usuario.
+.
 También incluye overriding los colores de acento.
+.
 > Estos colores anulan el estándarcssvariables como var(--color-yan)
 
 Formatos aceptados: RGB, HEX
