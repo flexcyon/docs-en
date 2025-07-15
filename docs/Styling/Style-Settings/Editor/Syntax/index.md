@@ -1,0 +1,36 @@
+---
+title: Sintaxis
+icon: material/format-color-highlight
+---
+
+Configurar la sintaxis que resalta los colores
+
+Formatos aceptados: px
+
+## Navigation
+
+```md
+Style Settings
+|-- 。
+|-- Flexcyon Style Settings
+|   |-- Editor
+|   |   |-- 。
+|   |   |-- Syntax
+|   |   |-- 。
+|   |-- 。
+|-- 。
+```
+
+## Configuration Options
+
+### Flexcyon Syntax Highlighting Mode
+
+CSSClasse(s) targeted: `.flexcyon-yntax-catppuccin,
+,
+.flexcyon-yntax-lego, .flexcyon-syntax-monochrome `
+Default: none (class select)
+Opciones:
+
+- Catppuccin
+- Lego
+- Monocromo
