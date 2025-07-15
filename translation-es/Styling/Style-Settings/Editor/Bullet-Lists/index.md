@@ -19,7 +19,7 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 ### Enable rainbow bullet lists
 

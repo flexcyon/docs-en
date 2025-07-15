@@ -11,7 +11,7 @@ tags:
 > 对于尚未样式化的插件/片段,请随意
 > 打开 Pull 请求/ Feature 请求/开始讨论。
 
-□ 插件
+## Plugins
 
 [File Tree Alternative by Ozan Tellioglu](https://github.com/ozntel/file-tree-alternative)
 
@@ -35,6 +35,6 @@ tags:
 
 [Omnisearch by scambier](https://github.com/scambier/obsidian-omnisearch)
 
-□片断
+## Snippets
 
 [CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)

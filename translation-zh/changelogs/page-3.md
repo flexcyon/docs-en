@@ -3,7 +3,7 @@ title: 0.3.x 版本数
 icon: material/numeric-3-box-outline
 ---
 
-QQ版本 0.3.TUI 布局
+### Version 0.3.0 TUI Layout
 
 - 在卡片布局中添加提示的 TUI
 
@@ -11,7 +11,7 @@ QQ版本 0.3.TUI 布局
 
 - 更改表格样式
 
-- 已经添加了CSS 类页 次
+- 为标题指标、点名元数据添加 cssclass
 倾斜点名标题和内容
 
 - 对日历插件添加支持
@@ -38,7 +38,7 @@ QQ版本 0.3.TUI 布局
 
 - 下边center
 
-QQ版本 0.3.腾讯
+### Version 0.3.1 Tidying Up
 
 - 为以下项目增加点名元数据:
 
@@ -76,7 +76,7 @@ QQ版本 0.3.腾讯
 
 - 改变面包屑的造型,以使用ASCII而不是emoji
 
-QQ版本 0.3.动画
+### Version 0.3.2 Animations
 
 - 斯图林 调整到社区存储项, 现有布局
 
@@ -108,7 +108,7 @@ QQ版本 0.3.动画
 ,
 提示等)
 
-QQ版本 0.3.QOL 更新
+### Version 0.3.3 QOL Update
 
 - 增加可变缩进系数和倒塌头部的缩进
 样式设置菜单
@@ -140,7 +140,7 @@ QQ版本 0.3.QOL 更新
 
 - 更改可能需要重新装入/重新启动程序才能生效
 
-QQ版本 0.3.复活节鸡蛋模式
+### Version 0.3.4 Easter Egg Mode
 
 - 翻译为隐藏,直到可配置的悬浮状态栏。
 长期状态栏
@@ -153,7 +153,7 @@ QQ版本 0.3.复活节鸡蛋模式
 
 - 添加可切换复活节彩蛋模式
 
-QQ版本 0.3.配置更新
+### Version 0.3.5 Configuration Update
 
 - 文件现在有自己的网站。
 .
@@ -173,7 +173,7 @@ QQ版本 0.3.配置更新
 
 - 添加选项以配置元数据容器左侧粘贴
 
-QQ版本 0.3.Canvas 菜单更新
+### Version 0.3.6 Canvas Menu Update
 
 - 固定边栏背景问题
 

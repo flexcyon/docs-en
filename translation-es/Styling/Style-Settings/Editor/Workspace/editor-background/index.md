@@ -23,9 +23,9 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-### Select Background Tipo
+### Select Background Type
 
 CSSClasse(s) targeted:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
 Default: none (class select)
@@ -35,17 +35,17 @@ Opciones:
 - Dotted Background
 - Antecedentes de Rhombus
 
-### Valor de rotación para la rejilla y el fondo rhombus
+### Rotation value for grid and rhombus background
 
 CSSVariable(s) targeted:`var(--flexcyon-editor-bg-rotation)`
 Default: 0 (deg)
 
-## Ancho entre cada punto/línea para la rejilla / fondo a punto
+### Width between each dot/line for grid/dotted background
 
 CSSVariable(s) targeted:`var(--flexcyon-editor-bg-width)`
 Predeterminado: 15 (px)
 
-### Tamaño de los puntos para fondo punteado
+### Size of dots for dotted background
 
 CSSVariable(s) targeted:`var(--flexcyon-editor-dot-size)`
 Predeterminado: 2 (px)

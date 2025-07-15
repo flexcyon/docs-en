@@ -5,7 +5,7 @@ icon: material/format-list-bulleted
 
 在主题中配置项目列表
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -19,9 +19,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-启用彩虹弹丸列表
+### Enable rainbow bullet lists
 
 CSS目标变量:`var(--flexcyon-rainbow-bullet-points)`
 默认 :false(类切换)

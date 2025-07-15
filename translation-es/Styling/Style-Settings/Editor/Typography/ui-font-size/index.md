@@ -25,9 +25,9 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-### Smaller UI Tamaño de la fuente
+### Smaller UI Font size
 
 CSSVariable(s) targeted:`var(--font-ui-smaller)`
 Predeterminado: 12 (px)
@@ -35,7 +35,7 @@ Predeterminado: 12 (px)
 <span style="font-size: 12px"
 >Muestra menor tamaño de fuente UI</span>
 
-### Small UI Tamaño de la fuente
+### Small UI Font size
 
 CSSVariable(s) targeted:`var(--font-ui-small)`
 Predeterminado: 14 (px)
@@ -43,7 +43,7 @@ Predeterminado: 14 (px)
 <span style="font-size: 13px"
 >Muestra pequeño tamaño de fuente UI</span>
 
-### Medium UI Tamaño de la fuente
+### Medium UI Font size
 
 CSSVariable(s) targeted:`var(--font-ui-medium)`
 Predeterminado: 16 (px)
@@ -51,7 +51,7 @@ Predeterminado: 16 (px)
 <span style="font-size: 15px"
 >Tamaño de fuente UI medio de muestra</span>
 
-###LargeUI Tamaño fuente
+### Large UI Font size
 
 CSSVariable(s) targeted:`var(--font-ui-large)`
 Predeterminado: 18 (px)

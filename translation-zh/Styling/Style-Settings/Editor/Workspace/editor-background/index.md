@@ -6,7 +6,7 @@ icon: material/layers-edit
 在编辑器中配置背景
 接受格式: px, deg
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -23,9 +23,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-选择背景 类型
+### Select Background Type
 
 CSS目标类别:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
 默认: 无( 选择类)
@@ -35,17 +35,17 @@ CSS目标类别:`.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-
 - 点背景
 - 罗姆布斯背景
 
-网格和rhombus背景的旋转值
+### Rotation value for grid and rhombus background
 
 CSS目标变量:`var(--flexcyon-editor-bg-rotation)`
 默认: 0 (deg)
 
-网格/点背景的每个点/线之间的宽度
+### Width between each dot/line for grid/dotted background
 
 CSS目标变量:`var(--flexcyon-editor-bg-width)`
 默认: 15 (px)
 
-### 点背景的点大小
+### Size of dots for dotted background
 
 CSS目标变量:`var(--flexcyon-editor-dot-size)`
 默认: 2 (px)

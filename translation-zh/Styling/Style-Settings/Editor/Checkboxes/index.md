@@ -6,7 +6,7 @@ icon: material/checkbox-outline
 在此子页面中, 您可以找到用于复选框样式的用例 。
 .
 
-□ 截图
+## Screenshots
 
 <figure markdown="span">
 <img src=. /././././assets/screenshots/ascii_checkboxes1.png"宽度="800".
@@ -22,7 +22,7 @@ alt=“图2:源模式中的 ASCII 复选框”>
 >图2:源模式下的 ASCII 复选框</figcaption>
 </figure>
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -36,19 +36,19 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration options
 
-接受格式:rem
+接受格式:雷姆
 
-启用 ASCII 复选框
+### Enable ASCII checkboxes
 
 CSS目标变量:`var(--flexcyon-ascii-checkboxes-enabled)`
 默认 :true(类切换)
 
-QQ ASCII 复选框字体大小
+### ASCII checkboxes font size
 
 CSS目标变量:`var(--flexcyon-ascii-checkboxes-font-size)`
-默认: 1.2 (rem
+默认: 1.2 (雷姆)
 
 <span style="font-size: 1.2rem"
 >样本 ASCII 复选框字体大小</span>

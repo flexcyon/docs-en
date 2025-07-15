@@ -23,9 +23,9 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-### Color de texto mudo
+### Muted text color
 
 CSSVariable(s) targeted:`var(--flexcyon-text-muted)`
 Default:
@@ -33,13 +33,13 @@ Default:
 ></span
 >#6f768599
 
-## Texto de alto nivel
+### Highlight Text Vertical Padding
 
 CSSVariable(s) targeted: var(--flexcyon-ighlight-verti-padding)
 
 Predeterminado: 1 (px)
 
-Texto de alto nivel Horizontal Padding
+### Highlight Text Horizontal Padding
 
 CSSVariable(s) targeted: var(--flexcyon-ighlight-horiz-padding);
 ;

@@ -25,7 +25,7 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 ### Animation type
 
@@ -43,12 +43,12 @@ Opciones:
 - Girar en el fondo para arriba
 - Girar en la derecha a la izquierda
 
-### Duración de la animación
+### Animation duration
 
 CSSVariable(s) targeted:`var(--flexcyon-anim-duration)`
 Predeterminado: 0.5s
 
-### Función de estimulación
+### Animation easing function
 
 CSSVariable(s) targeted:`var(--flexcyon-anim-easing)`
 Default:ease-in-out

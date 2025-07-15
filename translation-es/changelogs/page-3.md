@@ -3,7 +3,7 @@ title: Versión 0.3.x
 icon: material/numeric-3-box-outline
 ---
 
-## Versión 0.3.TUI Layout
+### Version 0.3.0 TUI Layout
 
 - Añadido TUI inspirado agregar-n a la distribución de tarjetas
 
@@ -38,7 +38,7 @@ titulo de llamada y contenido
 
 - Bottomcenter
 
-## Versión 0.3.Tidying Up
+### Version 0.3.1 Tidying Up
 
 - Servicios de metadatos adicionales para:
 
@@ -76,7 +76,7 @@ titulo de llamada y contenido
 
 - Cambia el estilo de las migas de pan para usar ASCII en lugar de emoji
 
-## Versión 0.3.Animaciones
+### Version 0.3.2 Animations
 
 - Styling Ajustes a la tienda comunitaria, diseños existentes
 
@@ -108,7 +108,7 @@ titulo de llamada y contenido
 ,
 impulsos, etc.
 
-## Versión 0.3.Actualización de QOL
+### Version 0.3.3 QOL Update
 
 - Factor de indentación configurable agregado y regulación de cabeceras colapsadas
 Menú Ajustes de estilo
@@ -140,7 +140,7 @@ y barra lateral derecha
 
 - Los cambios pueden necesitar una recarga de la aplicación/restaurante para entrar en vigor
 
-## Versión 0.3.Modo de huevo de Pascua
+### Version 0.3.4 Easter Egg Mode
 
 - Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
 barras de estado más largas
@@ -153,7 +153,7 @@ barras de estado más largas
 
 - Modo de huevo de Pascua reversible
 
-## Versión 0.3.Actualización de configuración
+### Version 0.3.5 Configuration Update
 
 - La documentación ahora tiene su propio sitio.
 .
@@ -173,7 +173,7 @@ para diferentes niveles de rumbo.
 
 - opción agregada para configurar los contenedores de metadatos
 
-## Versión 0.3.Actualización de menús
+### Version 0.3.6 Canvas Menu Update
 
 - Cuestiones de fondo de barra lateral fija
 

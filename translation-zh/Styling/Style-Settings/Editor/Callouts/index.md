@@ -7,9 +7,9 @@ tags:
 
 配置呼叫的样式
 
-接受格式 : px,rem额,斯
+接受格式: px、rem、em、s
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -23,19 +23,19 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-右侧挂起图标
+### Callout Icon Right padding
 
 CSS目标变量:`var(--flexcyon-callout-icon-right-padding)`
 默认: 4( px)
 
-第一个代码块边角
+### First Codeblock Margin Top
 
 CSS目标变量:`var(--flexcyon-callout-first-codeblock-margin-top)`
-默认:1 (rem
+默认:1(雷姆)
 
-QQ 点名元数据背景不透明
+### Callout Metadata Background Opacity
 
 CSS目标变量:`var(--flexcyon-callout-bg-opacity)`
 默认:20%
@@ -43,42 +43,42 @@ CSS目标变量:`var(--flexcyon-callout-bg-opacity)`
 <span style="opacity: 20%"
 >背景样本 不透明</span>
 
-垂直边距
+### Callout Vertical Margin
 
 CSS目标变量:`var(--flexcyon-callout-vertical-margin)`
 默认:1 (em)
 
-* 点名边界半径
+### Callout Border Radius
 
 CSS目标变量:`var(--callout-radius)`
 默认: 2 (px)
 
  
-QQ 闪付卡
+### Flashcard callout
 
 配置[flashcard callout](../../../Callout-Metadata/flashcard.md)。
 
-QQ 闪卡点名宽度
+#### Flashcard callout width
 
 CSS目标变量:`var(--flexcyon-callouts-flashcard-width)`
 默认: 250 (px)
 
-闪卡呼喊高度
+#### Flashcard callout height
 
 CSS目标变量:`var(--flexcyon-callouts-flashcard-height)`
 默认: 250 (px)
 
-QQ 闪卡点火动画持续时间
+#### Flashcard callout animation duration
 
 CSS目标变量:`var(--flexcyon-callout-flashcard-animation-duration)`
 默认值: 0. 5s
 
  
-### 弹出点名
+### Popup callout
 
 配置[popup callout](../../../Callout-Metadata/popup.md)
 
-#### 弹出呼叫动画持续时间
+#### Popup callout animation duration
 
 CSS目标变量:`var(--flexcyon-callout-pop-animation-duration)`
 默认值: 0.2s

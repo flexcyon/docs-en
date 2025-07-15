@@ -5,9 +5,9 @@ icon: material/hexagon-outline
 
 用于配置官方支持的插件
 
-接受格式: 汉斯,remx.y,% (单位:千美元)
+接受格式:HEX、雷姆、x.y、%
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -18,19 +18,19 @@ Style Settings
 |   |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-### 替代文件树
+### Alternate file tree
 
-QQ 文件夹字体大小
+#### Folders font size
 
 CSS目标变量:`var(--oz-fta-folder-font-size)`
-默认: 0.925 (rem
+默认: 0.925(雷姆)
 
 <span style="font-size: 0.925rem"
 >样本 另选文件树文件夹字体大小</span>
 
-#### 文件夹字体颜色
+#### Folders font color
 
 CSS目标变量:`var(--oz-fta-folder-pane-file-name-color)`
 默认( 灯光模式) :
@@ -43,7 +43,7 @@ CSS目标变量:`var(--oz-fta-folder-pane-file-name-color)`
 ></span
 >#d3d5d3 (英语:
 
-#### 活动文件夹颜色
+#### Active folder color
 
 CSS目标变量:`var(--oz-fta-all-panes-active-text-color)`
 默认( 灯光模式) :
@@ -56,15 +56,15 @@ CSS目标变量:`var(--oz-fta-all-panes-active-text-color)`
 ></span
 >#d3d5d3 (英语:
 
-#### 文件字体大小
+#### Files font size
 
 CSS目标变量:`var(--oz-fta-file-font-size)`
-默认: 0.9 (rem
+默认: 0.9(雷姆)
 
 <span style="font-size: 0.9rem"
 >样本 替代文件树文件字体大小</san>
 
-#### 文件字体颜色
+#### Files font color
 
 CSS目标变量:`var(--oz-fta-file-pane-file-name-color)`
 默认 :
@@ -72,33 +72,33 @@ CSS目标变量:`var(--oz-fta-file-pane-file-name-color)`
 ></span
 >#6f768599 (英语).
 
-#### 禁用文件夹图标
+#### Disable folder icons
 
 CSS目标变量:`var(--flexcyon-oz-folder-icons-disabled)`
 默认 :false(类切换)
 
-#### 禁用文件树头
+#### Disable file tree header
 
 CSS目标变量:`var(--flexcyon-oz-file-tree-header-disabled)`
 默认 :false(类切换)
 
-QQ 启用替代文件夹计数
+#### Enable Alternate folder count
 
 CSS目标变量:`var(--flexcyon-oz-alternate-folder-count)`
 默认 :false(类切换)
 
-QQ 在文件树上启用了 dimmed 文件扩展名
+#### Enabled dimmed file extensions in file tree
 
 CSS目标变量:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
 默认 :true(类切换)
 
  
 
-QQ 完整日历
+### Full Calendar
 
-接受格式:x.y%
+接受格式: x.y,%
 
-#### 阴暗的日历全部项目不透明
+#### Opacity of dimmed full calendar items
 
 CSS目标变量:`var(--flexcyon-fc-dimmed-items-opacity)`
 默认: 0.89
@@ -108,30 +108,30 @@ CSS目标变量:`var(--flexcyon-fc-dimmed-items-opacity)`
 
  
 
-数据视图
+### Dataview
 
 接受格式: px
 
-数据视图错误消息的横向编码
+#### Horizontal padding of dataview error messages
 
 CSS目标变量:`var(--flexcyon-dataview-horizontal-padding)`
 默认: 8 (px)
 
  
 
-{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}请说
+### Canvas
 
 定义 Canvas 核心插件的样式。
 .
 
 接受格式: px, RGB
 
-#### 模糊的不活动 Canvas 节点
+#### Blur inactive Canvas nodes
 
 CSS目标变量:`var(--flexcyon-canvas-blur-inactive-nodes)`
 默认 :false(类切换)
 
-#### 不活动节点的模糊强度
+#### Blur intensity for inactive nodes
 
 用上一个设置来设置不活动画布节点的模糊强度
 和所有箭头/箭头。
@@ -140,7 +140,7 @@ CSS目标变量:`var(--flexcyon-canvas-blur-inactive-nodes)`
 CSS目标变量:`var(--flexcyon-canvas-blur-intensity)`
 默认:1 (px)
 
-#### Canvas 卡片菜单对齐
+#### Canvas card menu alignment
 
 配置画布卡菜单的对齐 。
 .
@@ -188,16 +188,16 @@ CSS目标类别:`.flexcyon-canvas-menu-bottom-left,`
 
  
 
-各种补充
-垂直建议放置
+### Various Complements
+#### Vertical Suggestion Padding
 CSS目标变量:`var(--flexcyon-var-comps-sugg-vert-padding)`
 默认: 7 (px)
 
-□ 横向建议
+#### Horizontal Suggestion Padding
 CSS目标变量:`var(--flexcyon-var-comps-sugg-horiz-padding)`
 默认: 12 (px)
 
-压缩建议模式
+#### Compact Suggestion Mode
 超过默认值 。 使用加压4px8px.
 .
 
@@ -205,14 +205,14 @@ CSS目标变量:`var(--flexcyon-var-comps-compact-mode)`
 默认 :false(类切换)
 
  
-{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}谢谢 {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}谢谢
+### Omnisearch
 
-#### 禁用 Omnisear 图标
+#### Disable Omnisearch Icons
 
 CSS目标类别:`var(--flexcyon-omnisearch-no-icons)`
 默认 :false(类切换)
 
-左边边 Omnifer 身体
+#### Omnisearch Body Left Margin
 
 CSS目标类别:`var(--flexcyon-omnisearch-body-margin-left-margin-left)`
-默认: 1.45 (rem
+默认: 1.45(雷姆)

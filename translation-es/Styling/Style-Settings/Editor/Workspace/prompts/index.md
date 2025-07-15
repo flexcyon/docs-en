@@ -27,17 +27,17 @@ Style Settings
 
 ## Configuration Prompts
 
-## Prompt broad
+### Prompt width
 
 CSSVariable(s) targeted:`var(--prompt-width)`
 Predeterminado: 700 (px)
 
-## Prompt max broad
+### Prompt max width
 
 CSSVariable(s) targeted:`var(--prompt-max-width)`
 Default: 80 (vw)
 
-## Prompt max height
+### Prompt max height
 
 CSSVariable(s) targeted:`var(--prompt-max-height)`
 Default: 70 (vh)
@@ -58,12 +58,12 @@ Opciones:
 - El fondo izquierdo
 - Bottomcenter
 
-## Artículo de sugerencia relleno vertical
+### Suggestion item vertical padding
 
 CSSVariable(s) targeted:`var(--flexcyon-suggestion-verti-padding)`
 Predeterminado: 8 (px)
 
-## Artículo de sugerencia padding horizontal
+### Suggestion item horizontal padding
 
 CSSVariable(s) targeted:`var(--flexcyon-suggestion-horiz-padding)`
 Predeterminado: 12 (px)

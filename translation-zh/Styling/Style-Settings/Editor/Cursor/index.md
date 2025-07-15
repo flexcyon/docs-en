@@ -5,7 +5,7 @@ icon: material/cursor-text
 
 配置曲轴
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -18,24 +18,24 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-QQ 启用平滑光标
+### Enable smooth cursor
 
 CSS目标类别:`var(--flexcyon-enable-smooth-cursor)`
 默认 :true
 
-XQ 平滑光标的过渡持续时间
+### Smooth cursor transition duration
 
 CSS目标类别:`var(--flexcyon-cursor-duration)`
 默认: 95( ms)
 
-QQ 光标平滑计时函数
+### Smooth cursor timing function
 
 CSS目标类别:`var(--flexcyon-cursor-timing-fn)`
 默认: 容易
 
-QQ 光标最小宽度
+### Smooth cursor minimum width
 
 CSS目标类别:`var(--flexcyon-cursor-min-width)`
 默认 :unset

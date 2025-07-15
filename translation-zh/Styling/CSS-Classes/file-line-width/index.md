@@ -3,7 +3,7 @@ title: 文件行宽度
 icon: material/arrow-expand-horizontal
 ---
 
-{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0} 使用量
+# Usage
 
 按注配置文件行宽度
 

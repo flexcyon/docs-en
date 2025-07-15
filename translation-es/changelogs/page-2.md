@@ -3,7 +3,7 @@ title: Versión 0.2.x
 icon: material/numeric-2-box-outline
 ---
 
-## Versión 0.2.Actualización de estética
+## Version 0.2.0 Aesthetics Update
 
 - Añadido margen vertical de llamada, opción de radio fronterizo
 
@@ -48,7 +48,7 @@ Elija entre las siguientes opciones:
 -[See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
 para más detalles
 
-## Versión 0.2.Pequeña actualización
+## Version 0.2.1 Small Update
 
 - Animaciones de ventana eliminadas ya que no son performant.
 .
@@ -65,7 +65,7 @@ siempre devolverá la misma mezcla de color cuando se utiliza en las utilidades 
 
 - Opciones de estilo añadido para el título en línea
 
-## Versión 0.2.Su estilo
+## Version 0.2.2 Layout styling
 
 - Color de fondo de dobles comillas fijas
 

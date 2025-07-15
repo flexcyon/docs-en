@@ -9,9 +9,9 @@ icon: material/format-color-fill
 .
 > 这些颜色超过了标准cssvar(- color- cyan) 等变量
 
-接受格式:RGB,HEX
+接受格式: RGB, HEX
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -24,9 +24,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-###青色
+### Cyan Color
 
 CSS目标变量:`var(--flexcyon-cyan)`, (中文),`var(--color-cyan-rgb)`
 默认( 灯光模式) :
@@ -39,7 +39,7 @@ CSS目标变量:`var(--flexcyon-cyan)`, (中文),`var(--color-cyan-rgb)`
 ></span
 >#3cb9c2 (中文(简体) ).
 
-QQ 绿色
+### Green Color
 
 CSS目标变量:`var(--flexcyon-lime-green)`, (中文),`var(--color-green-rgb)`
 默认( 灯光模式) :
@@ -52,7 +52,7 @@ CSS目标变量:`var(--flexcyon-lime-green)`, (中文),`var(--color-green-rgb)`
 ></span
 >#a1c05c (英语).
 
-橙色
+### Orange Color
 
 CSS目标变量:`var(--flexcyon-orange)`, (中文),`var(--color-orange-rgb)`
 默认( 灯光模式) :
@@ -65,7 +65,7 @@ CSS目标变量:`var(--flexcyon-orange)`, (中文),`var(--color-orange-rgb)`
 ></span
 >#cc8449 (英语).
 
-黄色
+### Yellow Color
 
 CSS目标变量:`var(--flexcyon-yellow)`, (中文),`var(--color-yellow-rgb)`
 默认( 灯光模式) :
@@ -78,7 +78,7 @@ CSS目标变量:`var(--flexcyon-yellow)`, (中文),`var(--color-yellow-rgb)`
 ></span
 >#c29e42 (英语).
 
-###紫色
+### Purple Color
 
 CSS目标变量:`var(--flexcyon-purple-lilac)`, (中文),`var(--color-purple-rgb)`
 默认( 灯光模式) :
@@ -91,7 +91,7 @@ CSS目标变量:`var(--flexcyon-purple-lilac)`, (中文),`var(--color-purple-rgb
 ></span
 >#a461c8 (英语).
 
-红色
+### Red Color
 
 CSS目标变量:`var(--flexcyon-red-salmon)`, (中文),`var(--color-red-rgb)`
 默认( 灯光模式) :
@@ -104,7 +104,7 @@ CSS目标变量:`var(--flexcyon-red-salmon)`, (中文),`var(--color-red-rgb)`
 ></span
 >{\fn黑体\fs22\bord1\shad0\3ahbe\4ah00\fscx67\fscy66\2chffffff\3ch808080}我看见了
 
-蓝色
+### Blue Color
 
 CSS目标变量:`var(--flexcyon-blue)`, (中文),`var(--color-blue-rgb)`
 默认( 灯光模式) :
@@ -117,7 +117,7 @@ CSS目标变量:`var(--flexcyon-blue)`, (中文),`var(--color-blue-rgb)`
 ></span
 >#5a8fcd (英语).
 
-### 粉红色
+### Pink Color
 
 CSS目标变量:`var(--flexcyon-pink)`, (中文),`var(--color-pink-rgb)`
 默认( 灯光模式) :
@@ -130,7 +130,7 @@ CSS目标变量:`var(--flexcyon-pink)`, (中文),`var(--color-pink-rgb)`
 ></span
 >#d458a3 (英语).
 
-角颜色
+### Accent Color
 
 CSS目标变量:`var(--flexcyon-accent)`
 默认( 暗模式) :
@@ -143,7 +143,7 @@ CSS目标变量:`var(--flexcyon-accent)`
 ></span
 >92a871号
 
-QQ 启用扩展色彩调色板
+### Enabled Extended Color Palette
 
 CSS目标变量:`var(--flexcyon-ext-colors-enabled)`
 默认 :true

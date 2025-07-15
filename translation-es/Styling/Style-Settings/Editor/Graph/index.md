@@ -21,7 +21,7 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 ### Graph View Controls Vertical Padding
 

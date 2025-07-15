@@ -6,7 +6,7 @@ icon: material/file-cog
 配置文件树和文件夹样式。
 .
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -20,14 +20,14 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-### 在文件探索器中启用 dimmed 文件扩展名
+### Enable dimmed file extensions in file explorer
 
 CSS目标变量:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 默认 :true(类切换)
 
-### 选择文件夹样式
+### Select folder style
 
 CSS目标类别:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 默认: 无( 选择类)
@@ -38,27 +38,27 @@ CSS目标类别:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyo
 - 替代文件夹样式
 - Markdown 文件树样式
 
-### 彩虹文件夹的颜色背景而非文本
+### Colour background instead of text for rainbow folders
 
 CSS目标类别:`var(--flexcyon-is-bg-rainbow)`
 默认 :false
 
-启用最小化树
+### Enable minimalist trees
 
 CSS目标变量:`var(--flexcyon-minimalist-tree)`
 默认 :false(类切换)
 
-垂直树条
+### Vertical Tree Item Padding
 
 CSS目标类别:`var(--flexcyon-tree-item-verti-padding)`
-默认 :1.5 (px) (中文(简体) ).
+默认: 1. 25 (px)
 
-水平树项
+### Horizontal Tree Item Padding
 
 CSS目标类别:`var(--flexcyon-tree-item-horiz-padding)`
 默认: 12 (px)
 
-QQ 环绕长文件名称
+### Wrap Long File Names
 将长文件名保存到新行, 而不是省略结尾部分 。
 .
 

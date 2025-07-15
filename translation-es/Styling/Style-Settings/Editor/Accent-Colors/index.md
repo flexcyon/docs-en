@@ -24,9 +24,9 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-## Cyan Color
+### Cyan Color
 
 CSSVariable(s) targeted:`var(--flexcyon-cyan)`,`var(--color-cyan-rgb)`
 Default (modo de luz):
@@ -39,7 +39,7 @@ Default (modo oscuro):
 ></span
 >#3cb9c2
 
-## Green Color
+### Green Color
 
 CSSVariable(s) targeted:`var(--flexcyon-lime-green)`,`var(--color-green-rgb)`
 Default (modo de luz):
@@ -52,7 +52,7 @@ Default (modo oscuro):
 ></span
 >#a1c05c
 
-## Orange Color
+### Orange Color
 
 CSSVariable(s) targeted:`var(--flexcyon-orange)`,`var(--color-orange-rgb)`
 Default (modo de luz):
@@ -65,7 +65,7 @@ Default (modo oscuro):
 ></span
 >#cc8449
 
-## Amarillo Color
+### Yellow Color
 
 CSSVariable(s) targeted:`var(--flexcyon-yellow)`,`var(--color-yellow-rgb)`
 Default (modo de luz):
@@ -78,7 +78,7 @@ Default (modo oscuro):
 ></span
 >#c29e42
 
-## Purple Color
+### Purple Color
 
 CSSVariable(s) targeted:`var(--flexcyon-purple-lilac)`,`var(--color-purple-rgb)`
 Default (modo de luz):
@@ -91,7 +91,7 @@ Default (modo oscuro):
 ></span
 >#a461c8
 
-## Red Color
+### Red Color
 
 CSSVariable(s) targeted:`var(--flexcyon-red-salmon)`,`var(--color-red-rgb)`
 Default (modo de luz):
@@ -104,7 +104,7 @@ Default (modo oscuro):
 ></span
 >#c03a47
 
-## Blue Color
+### Blue Color
 
 CSSVariable(s) targeted:`var(--flexcyon-blue)`,`var(--color-blue-rgb)`
 Default (modo de luz):
@@ -117,7 +117,7 @@ Default (modo oscuro):
 ></span
 >#5a8fcd
 
-## Pink Color
+### Pink Color
 
 CSSVariable(s) targeted:`var(--flexcyon-pink)`,`var(--color-pink-rgb)`
 Default (modo de luz):

@@ -3,7 +3,7 @@ title: 版本0.4.x
 icon: material/numeric-4-box-outline
 ---
 
-QQ版本 0.4.轻模式更新
+### Version 0.4.0 Light Mode Update
 
 - 修改侧边栏背景亮度设置为`unset`。
 以前引起诸如模糊卡伦德插件内容之类的问题。
@@ -32,7 +32,7 @@ QQ版本 0.4.轻模式更新
 
 - 返回零(极端最小化模式),灵感来自Simmering Focus
 
-QQ版本 0.4.快补更新
+### Version 0.4.1 Quickfix Update
 
 - 在光线模式下修复 TUI 渲染
 
@@ -42,7 +42,7 @@ QQ版本 0.4.快补更新
 
 - 修复未显示的嵌套
 
-QQ版本 0.4.相对行号
+### Version 0.4.2 Relative Line Numbers
 
 - 被移除的复活节鸡蛋 模式类
 - 使用文件行宽度设置`cssclasses`
@@ -57,7 +57,7 @@ QQ版本 0.4.相对行号
 - 与TUI的固定背景颜色问题
 - 添加全局写入模式选项
 
-QQ版本 0.4.彩虹维修
+### Version 0.4.3 Rainbow Repair
 
 - 固定彩虹子弹清单、彩虹文件夹、副码头图标效应
 - 添加配置树项的样式设置选项
@@ -66,7 +66,7 @@ QQ版本 0.4.彩虹维修
 - 持续时间、计时功能、最小宽度
 - 固定维姆 要使用的状态`var(--font-ui-medium)`默认
 
-QQ版本 0.4.内容更新
+### Version 0.4.4 Consistencies Update
 - 修补脚注对齐
 - 修正项目列表对齐
 - 已更改的默认突出显示颜色

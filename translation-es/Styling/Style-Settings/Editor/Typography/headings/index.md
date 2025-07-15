@@ -24,7 +24,7 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 ### Enable coloured headings
 
@@ -32,12 +32,12 @@ CSSVariable(s) targeted:`var(--flexcyon-headings-coloured-enabled)`
 Default:true(de clase)
 > Herencias de colores de acento como`--color-blue`,`--color-red`etc
 
-### Habilitar brillo suave para las partidas
+### Enable soft glow for headings
 
 CSSVariable(s) targeted:`var(--flexcyon-headings-glow-enabled)`
 Default:false(de clase)
 
-### Indicadores de encabezamiento global
+### Enable heading indicators globally
 
 Personalizar qué epígrafes tienen indicadores de encabezamiento en todo el mundo.
 .
@@ -81,9 +81,9 @@ Default:false(de clase)
 
 ___
 
-### Tamaño de la fuente
+### Font size
 
-### Dirección 1 tamaño de fuente
+#### Heading 1 font size
 
 CSSVariable(s) targeted:`var(--h1-size)`
 Default:1.1803 (em)
@@ -91,7 +91,7 @@ Default:1.1803 (em)
 <h1 style="font-size: 1.81803em;"
 >Muestra h1</h1>
 
-### Dirección 2 tamaño de fuente
+#### Heading 2 font size
 
 CSSVariable(s) targeted:`var(--h2-size)`
 Default:1.1803 (em)
@@ -99,7 +99,7 @@ Default:1.1803 (em)
 <h2 style="font-size: 1.61803em;"
 >Muestra h2</h2>
 
-### Dirección 3 tamaño de fuente
+#### Heading 3 font size
 
 CSSVariable(s) targeted:`var(--h3-size)`
 Default:1.1803 (em)
@@ -107,7 +107,7 @@ Default:1.1803 (em)
 <h3 style="font-size: 1.41803em;"
 >Muestra h3</h3>
 
-### Encabezamiento 4 tamaño de fuente
+#### Heading 4 font size
 
 CSSVariable(s) targeted:`var(--h4-size)`
 Default:1.1803 (em)
@@ -115,7 +115,7 @@ Default:1.1803 (em)
 <h4 style="font-size: 1.21803em;"
 >Muestra h4</h4>
 
-### Encabezamiento 5 tamaño de fuente
+#### Heading 5 font size
 
 CSSVariable(s) targeted:`var(--h5-size)`
 Default:1.1803 (em)
@@ -123,7 +123,7 @@ Default:1.1803 (em)
 <h5 style="font-size: 1.11803em;"
 >Muestra h5</h5>
 
-### Encabezamiento del tamaño de la fuente 6
+#### Heading 6 font size
 
 CSSVariable(s) targeted:`var(--h6-size)`
 Default:1.1803 (em)
@@ -133,9 +133,9 @@ Default:1.1803 (em)
 
 ___
 
-### Peso de la fuente
+### Font weight
 
-### Encabezamiento 1 peso de fuente
+#### Heading 1 font weight
 
 CSSVariable(s) targeted:`var(--h1-weight)`
 Predeterminado: 700
@@ -143,7 +143,7 @@ Predeterminado: 700
 <h1 style="font-weight: 700;"
 >Muestra h1</h1>
 
-### Encabezamiento 2 peso de fuente
+#### Heading 2 font weight
 
 CSSVariable(s) targeted:`var(--h2-weight)`
 Predeterminado: 675
@@ -151,7 +151,7 @@ Predeterminado: 675
 <h2 style="font-weight: 675;"
 >Muestra h2</h2>
 
-### Encabezamiento 3 peso de fuente
+#### Heading 3 font weight
 
 CSSVariable(s) targeted:`var(--h3-weight)`
 Predeterminado: 650
@@ -159,7 +159,7 @@ Predeterminado: 650
 <h3 style="font-weight: 650;"
 >Muestra h3</h3>
 
-### Encabezamiento 4 peso de fuente
+#### Heading 4 font weight
 
 CSSVariable(s) targeted:`var(--h4-weight)`
 Default: 625
@@ -167,7 +167,7 @@ Default: 625
 <h4 style="font-weight: 625;"
 >Muestra h4</h4>
 
-### Encabezamiento 5 peso de fuente
+#### Heading 5 font weight
 
 CSSVariable(s) targeted:`var(--h5-weight)`
 Predeterminado: 600
@@ -175,7 +175,7 @@ Predeterminado: 600
 <h5 style="font-weight: 600;"
 >Muestra h5</h5>
 
-### Encabezamiento 6 peso de fuente
+#### Heading 6 font weight
 
 CSSVariable(s) targeted:`var(--h6-weight)`
 Predeterminado: 575
@@ -185,41 +185,41 @@ Predeterminado: 575
 
 ___
 
-### Altura de línea
+### Line Height
 
-### Encabezamiento de 1 línea de altura
+#### Heading 1 line height
 
 CSSVariable(s) targeted:`var(--h1-line-height)`
 Default:1.
 
-### Encabezando 2 líneas de altura
+#### Heading 2 line height
 
 CSSVariable(s) targeted:`var(--h2-line-height)`
 Default:1.
 
-### Encabezando 3 líneas de altura
+#### Heading 3 line height
 
 CSSVariable(s) targeted:`var(--h3-line-height)`
 Default:1.
 
-### Encabezando 4 líneas de altura
+#### Heading 4 line height
 
 CSSVariable(s) targeted:`var(--h4-line-height)`
 Default:1.
 
-### Encabezamiento 5 líneas de altura
+#### Heading 5 line height
 
 CSSVariable(s) targeted:`var(--h5-line-height)`
 Default:1.
 
-### Encabezando la altura de 6 líneas
+#### Heading 6 line height
 
 CSSVariable(s) targeted:`var(--h6-line-height)`
 Default:1.
 
 ___
 
-#### Underline
+### Underline
 
 #### Enable underline for Heading 1
 

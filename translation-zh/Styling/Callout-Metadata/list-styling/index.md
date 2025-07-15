@@ -7,15 +7,16 @@ icon: material/format-list-bulleted-square
 使用点名元数据命令和不命令列表。
 .
 
-# 点名列表 #
+# Callout Lists
 
-这些都是一些公用事业,用于在其中订购和未订购清单Obsidian
+这些是Obsidian一些用于订制和未订制清单的公用事业。
+.
 
 已接受的格式`style_type`编号 : 那个[values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
 
-□ 注释
+## Note
 
-写入命令列表Obsidian使用 :
+要用 Obsidian 写一个命令列表,请使用:
 
 ```md
 1. Never
@@ -23,7 +24,7 @@ icon: material/format-list-bulleted-square
 3. Give
 4. 。
 ```
-写入未排序的列表Obsidian使用 :
+用欧比迪安语写一个无序列表。 使用 :
 ```md6- Never
 - Gonna
 - Give

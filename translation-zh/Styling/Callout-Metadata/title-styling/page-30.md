@@ -3,7 +3,7 @@ title: 标题6
 icon: material/format-header-6
 ---
 
-点名元数据: "h6标题"
+点名元数据:"h6-标题"
 
 用法 :
 

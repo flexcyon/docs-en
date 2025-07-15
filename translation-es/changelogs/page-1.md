@@ -6,7 +6,7 @@ icon: material/numeric-1-box-outline
 Versiones abajo 0.0.5 no se documentan ya que carecen de características notables.
 .
 
-## Version 0.0.5: Cambios Menores
+## Version 0.0.5: Minor Changes
 
 - Made ASCII art responsive, puede establecer un límite de tamaño de fuente en él
 
@@ -20,7 +20,7 @@ Versiones abajo 0.0.5 no se documentan ya que carecen de características notabl
 
 - Agregar opción para alinear las principales acciones a nivel mundial
 
-## Versión 0.1.: Actualización de las utilidades
+## Version 0.1.0: Utilities Update
 
 - Apoyo añadido para el enchufe de repetición espaciada
 
@@ -66,7 +66,7 @@ Créditos:
 
 -`@Tuck`sobre elObsidianDiscordia de grupo de miembros para opciones para cambiar el color de enlace
 
-## Versión 0.1.Hotfixes
+## Version 0.1.1 Hotfixes
 
 - opción adicional para cambiar el tamaño de la fuente ASCII
 

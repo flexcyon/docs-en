@@ -6,9 +6,9 @@ icon: material/table-cog
 定义表格边框的颜色,以及读取模式中的表格宽度。
 .
 
-接受格式:HEX百分比,x.y
+接受格式:HEX,%,x.y
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -22,9 +22,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-QQ 表格边框颜色
+### Table border color
 
 CSS目标变量:`var(--table-border-color)`
 默认 :
@@ -32,7 +32,7 @@ CSS目标变量:`var(--table-border-color)`
 ></span
 >#6f768566 (英语).
 
-表格页眉大小
+### Table header size
 
 CSS目标变量:`var(--table-header-size)`
 默认 :large
@@ -40,7 +40,7 @@ CSS目标变量:`var(--table-header-size)`
 <span style="font-size: large;"
 >表格标本</span>
 
-### 读取模式中的表格宽度
+### Width of table in reading mode
 
 CSS目标变量:`var(--flexcyon-table-reading-mode-width)`
 默认: 100%

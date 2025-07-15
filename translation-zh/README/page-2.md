@@ -3,7 +3,7 @@ title: 安装
 icon: material/download
 ---
 
-# Via社区商店(建议)
+# Via Community Store (recommended)
 
 要通过社区商店安装此主题, 请导航到`Settings
 > Appearance`
@@ -12,7 +12,7 @@ icon: material/download
 2. 国家.`Type "Flexcyon in the search bar
 > Select it
 > Click "Install and Use"`
-□ □ □ □ 通过布拉特
+## Via BRAT
 
 要通过 BRAT 安装此主题, 请导航到`Settings
 > Community Plugins
@@ -24,7 +24,7 @@ icon: material/download
 3个 单击`Options`
 4. 点击`Add Beta Theme`
 5.五。 投入`https://github.com/bladeacer/flexcyon`并单击`Add Theme`
-□ 样式设置插件
+## Style Settings Plugin
 
 高度推荐为这一主题安装样式设置, 因为大多数
 围绕它构建自定义和功能。

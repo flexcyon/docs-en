@@ -7,9 +7,9 @@ icon: material/format-color-highlight
 以及其他UI元素。
 .
 
-接受格式 :HEX
+接受格式: HEX
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -23,9 +23,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-QQ 基础颜色 01
+### Base Color 01
 
 CSS目标变量:`var(--flexcyon-base-01)`
 默认( 灯光模式) :
@@ -38,7 +38,7 @@ CSS目标变量:`var(--flexcyon-base-01)`
 ></span
 >#14161c (中文(简体) ).
 
-QQ 基本颜色 02
+### Base Color 02
 
 CSS目标变量:`var(--flexcyon-base-02)`
 默认( 灯光模式) :
@@ -51,7 +51,7 @@ CSS目标变量:`var(--flexcyon-base-02)`
 ></span
 >#191d28 (英语).
 
-QQ 基本颜色 03
+### Base Color 03
 
 CSS目标变量:`var(--flexcyon-base-03)`
 默认( 灯光模式) :
@@ -64,7 +64,7 @@ CSS目标变量:`var(--flexcyon-base-03)`
 ></span
 >24262 c 号
 
-QQ 基本颜色 04
+### Base Color 04
 
 CSS目标变量:`var(--flexcyon-base-04)`
 默认( 灯光模式) :
@@ -77,7 +77,7 @@ CSS目标变量:`var(--flexcyon-base-04)`
 ></span
 >#4d566b (英语).
 
-基色为 05
+### Base Color 05
 
 CSS目标变量:`var(--flexcyon-base-05)`
 默认( 灯光模式) :
@@ -90,7 +90,7 @@ CSS目标变量:`var(--flexcyon-base-05)`
 ></span
 >6f7685号
 
-### 浅灰色
+### Base dark grey
 
 CSS目标变量:`var(--flexcyon-base-grey-dark)`
 默认( 灯光模式) :
@@ -103,7 +103,7 @@ CSS目标变量:`var(--flexcyon-base-grey-dark)`
 ></span
 >#898c93 (英语).
 
-### 浅灰色
+### Base light grey
 
 CSS目标变量:`var(--flexcyon-base-grey-light)`
 默认( 灯光模式) :
@@ -116,7 +116,7 @@ CSS目标变量:`var(--flexcyon-base-grey-light)`
 ></span
 >#d3d5d3 (英语:
 
-### 浅灰色标签
+### Base grey tab
 
 CSS目标变量:`var(--flexcyon-base-grey-token)`
 默认 :
@@ -124,7 +124,7 @@ CSS目标变量:`var(--flexcyon-base-grey-token)`
 ></span
 >#586582号
 
-### 灰色底卷轴
+### Base grey scroll 
 
 CSS目标变量:`var(--flexcyon-base-grey-scroll)`
 默认 :
@@ -132,7 +132,7 @@ CSS目标变量:`var(--flexcyon-base-grey-scroll)`
 ></span
 >#3f495e (英语).
 
-### 浅灰色卷轴悬浮
+### Base grey scroll hover
 
 CSS目标变量:`var(--flexcyon-base-grey-scroll-hover)`
 默认 :

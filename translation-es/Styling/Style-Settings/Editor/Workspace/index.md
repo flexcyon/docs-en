@@ -22,14 +22,14 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-### Ancho de línea de archivo
+### File line width
 
 CSSVariable(s) targeted:`var(--file-line-width)`
 Predeterminado: 50 (rem)
 
-## Opacity of dimmed elements
+### Opacity of dimmed elements
 
 CSSVariable(s) targeted:`var(--dimmed)`
 Predeterminado: 0.55
@@ -37,23 +37,23 @@ Predeterminado: 0.55
 <span style="opacity: 0.55"
 >Elemento de vidrio</span>
 
-## Opacity of Block labels
+### Opacity of Block labels
 CSSClasse(s) targeted:`var(--flexcyon-block-label-opacity)`
 Predeterminado: 0.55
 
 <span style="opacity: 0.55"
 >Elemento de vidrio</span>
 
-### Disable reglas horizontales en modo de lectura
+### Disable horizontal rules in reading mode
 CSSClasse(s) targeted:`var(--flexcyon-hr-no-reading)`
 Default:false(de clase)
 
-## Top Actions alignment
+### Top Actions alignment
 
 CSSVariable(s) targeted:`var(--flexcyon-top-actions-alignment)`
 Default:center
 
-### Ver la cabeza de la miga de pan max ancho
+### View header breadcrumb max width
 
 CSSVariable(s) targeted:`var(--flexcyon-view-header-breadcrumb-max-w)`
 Predeterminado: 12.5 (vw)

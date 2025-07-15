@@ -19,9 +19,9 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-## Select Default Numbered List Style in Reading Mode
+### Select Default Numbered List Style in Reading Mode
 
 Default: ninguno (clase toggle)
 

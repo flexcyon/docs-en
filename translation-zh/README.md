@@ -1,4 +1,4 @@
-关于
+# About
 
 此处收录了用于
 [flexcyon theme](https://github.com/bladeacer/flexcyon)。

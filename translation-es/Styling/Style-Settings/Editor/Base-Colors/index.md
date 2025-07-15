@@ -23,9 +23,9 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-## Base Color 01
+### Base Color 01
 
 CSSVariable(s) targeted:`var(--flexcyon-base-01)`
 Default (modo de luz):
@@ -38,7 +38,7 @@ Default (modo oscuro):
 ></span
 >#14161c
 
-## Base Color 02
+### Base Color 02
 
 CSSVariable(s) targeted:`var(--flexcyon-base-02)`
 Default (modo de luz):
@@ -51,7 +51,7 @@ Default (modo oscuro):
 ></span
 >#191d28
 
-## Base Color 03
+### Base Color 03
 
 CSSVariable(s) targeted:`var(--flexcyon-base-03)`
 Default (modo de luz):
@@ -77,7 +77,7 @@ Default (modo oscuro):
 ></span
 >#4d566b
 
-## Base Color 05
+### Base Color 05
 
 CSSVariable(s) targeted:`var(--flexcyon-base-05)`
 Default (modo de luz):
@@ -90,7 +90,7 @@ Default (modo oscuro):
 ></span
 >#6f7685
 
-### Base gris oscuro
+### Base dark grey
 
 CSSVariable(s) targeted:`var(--flexcyon-base-grey-dark)`
 Default (modo de luz):
@@ -103,7 +103,7 @@ Default (modo oscuro):
 ></span
 >#898c93
 
-### Base gris claro
+### Base light grey
 
 CSSVariable(s) targeted:`var(--flexcyon-base-grey-light)`
 Default (modo de luz):
@@ -116,7 +116,7 @@ Default (modo oscuro):
 ></span
 >#d3d5d3
 
-### Base gris
+### Base grey tab
 
 CSSVariable(s) targeted:`var(--flexcyon-base-grey-token)`
 Default:
@@ -124,7 +124,7 @@ Default:
 ></span
 >#586582
 
-### Base gris
+### Base grey scroll 
 
 CSSVariable(s) targeted:`var(--flexcyon-base-grey-scroll)`
 Default:
@@ -132,7 +132,7 @@ Default:
 ></span
 >#3f495e
 
-### Hoja de desplazamiento gris base
+### Base grey scroll hover
 
 CSSVariable(s) targeted:`var(--flexcyon-base-grey-scroll-hover)`
 Default:

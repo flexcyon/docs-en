@@ -3,7 +3,7 @@ title: 垂直对齐 - Tategaki
 icon: material/align-horizontal-right
 ---
 
-{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0} 使用量
+# Usage
 
 在读取模式下对您的笔记应用水平右对左( RTL)
 

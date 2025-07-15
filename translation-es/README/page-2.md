@@ -3,7 +3,7 @@ title: Instalación
 icon: material/download
 ---
 
-# Via Community Store (recomendado)
+# Via Community Store (recommended)
 
 Para instalar este tema a través de la tienda comunitaria, navega por`Settings
 > Appearance`

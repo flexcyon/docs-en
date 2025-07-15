@@ -7,9 +7,9 @@ icon: material/format-text
 字体大小。
 .
 
-接受格式 :HEX
+接受格式: HEX
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -23,9 +23,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-### 静音文本颜色
+### Muted text color
 
 CSS目标变量:`var(--flexcyon-text-muted)`
 默认 :
@@ -33,20 +33,20 @@ CSS目标变量:`var(--flexcyon-text-muted)`
 ></span
 >#6f768599 (英语).
 
-QQ 突出显示文字垂直铺设
+### Highlight Text Vertical Padding
 
 CSS目标变量: var(-flexcyon-highlight-verti-pating)
 
 默认:1 (px)
 
-* 横向突出显示文本 铺垫
+### Highlight Text Horizontal Padding
 
 CSS目标变量: var(-弹性-高光-平面);
 ;
 
-默认 :2.(px) (韩语).
+默认: 2.5 (px)
 
-QQ 突出显示文本边框半径
+### Highlight Text Border Radius
 
 CSS目标变量: var(-flexcyon-highlight-border-radius) 目标变量:
 

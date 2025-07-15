@@ -7,33 +7,33 @@ title: 工具和软件
 及其文件资料。
 .
 
-### 基础应用程序
+### Base application
 
-- Obsidian
+- 犹太教
 
-QQ 网络显示大小写
+### Web Showcase
 
-- Obsidian共享注释插件
+- Absidian 共享注释插件
 
-网络技术
+### Web Technologies
 
 - CSS
 
 - SCSS
 
-QQ 文本编辑器
+### Text Editors
 
 - 维姆
 
 - VS代码
 
-QQ 版本控制
+### Version Control
 
 - Git
 
 - GitHub
 
-• 文件
+### Documentation
 
 - MkDocs
 

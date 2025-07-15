@@ -8,7 +8,7 @@ icon: material/graph
 
 接受格式: px
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -21,14 +21,14 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-XQ 图视图控件垂直铺设
+### Graph View Controls Vertical Padding
 
 CSS目标变量:`var(--graph-control-verti-padding)`
 默认: 6 (px)
 
-QQ 图像视图控制
+### Graph View Controls Horizontal Padding
 
 CSS目标变量:`var(--graph-control-horiz-padding)`
 默认: 12 (px)

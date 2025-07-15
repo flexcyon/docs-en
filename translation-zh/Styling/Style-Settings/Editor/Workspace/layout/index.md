@@ -6,7 +6,7 @@ icon: material/page-layout-sidebar-left
 配置工作空间布局 。
 .
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -22,13 +22,14 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-### 选择工作空间布局
+### Select workspace layout
 
 CSS目标类别:`.lexcyon-工作空间卡-挂载,
 ,
-弹性工作空间倾斜排版, . flexcyon- 工作空间- pl10k- layout `
+.flexcyon-工作空间-缠绕-铺设,.flexcyon-工作空间-pl10k-铺设 '
+
 默认: 无( 选择类)
 
 选项 :
@@ -38,7 +39,7 @@ CSS目标类别:`.lexcyon-工作空间卡-挂载,
 - 动力级10k布局
 > 工作空间布局变化可能需要应用程序重新装入或重新启动才能生效
 
-QQ 启用用于卡片布局的 TUI 附加
+### Enable TUI add-on for cards layout
 
 CSS目标变量:`var(--flexcyon-workspace-cards-tui-ext)`
 默认 :true(类切换)

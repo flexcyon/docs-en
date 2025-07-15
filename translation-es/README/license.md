@@ -10,7 +10,7 @@ encontrado[here](https://github.com/bladeacer/flexcyon/blob/master/LICENSE).
 Alternativamente, puedes verlo aquí.
 .
 
-## Licencia del código fuente
+## License from the source code
 
 ```md
 MIT License

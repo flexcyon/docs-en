@@ -22,7 +22,7 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 ### Internal Link Color
 
@@ -36,7 +36,7 @@ Default (modo oscuro):<span class="col-sqr" style="background-color: #a461c8"
 ></span
 >#a461c8
 
-## Enlace externo Color
+### External Link Color
 CSSVariable(s) targeted:`var(--flexcyon-external-link-color)`
 Default (modo de luz):<span class="col-sqr" style="background-color: #5c9fe4"
 ></span

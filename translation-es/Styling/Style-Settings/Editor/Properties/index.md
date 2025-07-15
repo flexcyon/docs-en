@@ -20,16 +20,16 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 Formatos aceptados: px
 
-### No mostrar propiedades en modo de lectura
+### Do not show properties in reading mode
 
 CSSVariable(s) targeted:`var(--flexcyon-metadata-display-reading-disabled)`
 Default:true(de clase)
 
-### No mostrar propiedades en modo de vista previa en vivo
+### Do not show properties in live preview mode
 
 CSSVariable(s) targeted:`var(--flexcyon-metadata-display-editing-disabled)`
 Default:false(de clase)

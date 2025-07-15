@@ -22,9 +22,9 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-### Seleccionar diseño del espacio de trabajo
+### Select workspace layout
 
 CSSClasse(s) targeted: `.flexcyon-orkspace-card-layout,
 ,
@@ -38,7 +38,7 @@ Opciones:
 - Powerlevel10k Layout
 > Los cambios de diseño del espacio de trabajo pueden necesitar volver a cargar o reiniciar aplicaciones para tener efecto
 
-### Enable TUI add-n para el diseño de tarjetas
+### Enable TUI add-on for cards layout
 
 CSSVariable(s) targeted:`var(--flexcyon-workspace-cards-tui-ext)`
 Default:true(de clase)

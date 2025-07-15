@@ -6,9 +6,9 @@ icon: material/link
 配置链接的颜色 。
 .
 
-接受格式:HEX
+接受格式: 美国
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -22,9 +22,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-QQ 内部链接颜色
+### Internal Link Color
 
 CSS目标变量:`var(--flexcyon-link-color)`
 默认( 灯光模式) :
@@ -36,7 +36,7 @@ CSS目标变量:`var(--flexcyon-link-color)`
 ></span
 >#a461c8 (英语).
 
-QQ 外部链接颜色
+### External Link Color
 CSS目标变量:`var(--flexcyon-external-link-color)`
 默认( 灯光模式) :<span class="col-sqr" style="background-color: #5c9fe4"
 ></span
@@ -46,7 +46,7 @@ CSS目标变量:`var(--flexcyon-external-link-color)`
 ></span
 >#5a8fcd (英语).
 
-QQ 未解析链接颜色
+### Unresolved Link Color
 CSS目标变量:`var(--flexcyon-link-unresolved-color)`
 默认( 灯光模式) :<span class="col-sqr" style="background-color: #6f49ae"
 ></span

@@ -6,7 +6,7 @@ icon: material/checkbox-outline
 En este subs-edad, puede encontrar ejemplos de uso para el estilo de las casillas de verificación.
 .
 
-## Capturas de pantalla
+## Screenshots
 
 <figure markdown="span">
 <img src="././././././assets/screenshots/ascii_checkboxes1.png" ancho="800"
@@ -36,7 +36,7 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration options
 
 Formatos aceptados: rem
 

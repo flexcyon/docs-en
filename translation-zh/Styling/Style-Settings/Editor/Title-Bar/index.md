@@ -5,7 +5,7 @@ icon: material/format-text-variant-outline
 
 对于标题栏的配置,启用标题栏按钮上的彩虹悬浮效果
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -19,9 +19,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-标题栏按钮效果
+### Titlebar Button Effects
 
 CSS目标变量:`var(--flexcyon-titlebar-button-effects)`
 默认 :true(类切换)

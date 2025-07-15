@@ -7,7 +7,7 @@ icon: material/multimedia
 
 接受格式: px
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -21,14 +21,14 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-### 媒体嵌入的垂直边距
+### Media Embed Vertical margin
 
 CSS目标变量:`var(--flexcyon-media-embed-vertical-margin)`
 默认: 8 (px)
 
-### 图像边框半径
+### Image border radius
 
 CSS目标变量:`var(--img-border-radius)`
 默认: 15 (px)

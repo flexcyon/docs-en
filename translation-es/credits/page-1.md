@@ -7,7 +7,7 @@ Las siguientes herramientas y software fueron indispensables para la elaboració
 y su documentación.
 .
 
-### Aplicación de la base
+### Base application
 
 -Obsidian
 

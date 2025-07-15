@@ -6,14 +6,15 @@ title: 贷项
 大声呼喊Daniel's
 [Halcyon theme](https://github.com/dbarenholz/halcyon-obsidian)和
 kepano's [flexoki](https://github.com/kepano/flexoki-obsidian)主题,两者
-下级MIT 许可证
+下级MIT执照。
+.
 
 此外,没有光线模式的颜色方案就不可能实现。
 不错[Origami theme](https://github.com/7368697661/Origami)
 (也列在MIT执照
 .
 
-□片断
+## Snippets
 
 - `@OWA/bennyyip`在 Obisidian 成员团体的Discord 上为 Tategaki 片断
 
@@ -23,14 +24,14 @@ kepano's [flexoki](https://github.com/kepano/flexoki-obsidian)主题,两者
 - `@Kapirklaa`在Obisidian成员团体Discord上(@ElsaTam on)GitHub用于
 背景图像片段
 
-- `@Nuno`编辑Obsidian Tab 动画片段的会员组 Discord
+- `@Nuno`关于 Tab 动画片段的 Obsidian Members Group Discord
 
 - [Enhanced File Explorer](https://github.com/LennZone/enhanced-file-explorer-tree)
 由 LennZone 编写用于标记下的文件树样式的主题
 
-□ 想法、反馈
+## Ideas, Feedback
 
-- `@Tuck`编辑Obsidian成员组更改链接选项的Discord
+- `@Tuck`在 Obsidian 成员组的Discord 选项上更改链接
 样式设置的颜色和缩进
 
 - `@Floodlight`提高一致性
@@ -50,13 +51,13 @@ tUI 上加号
 
 - `@Michael`全球标题指标Obisidian成员小组
 
-- `@Binaris`和`@Dante`编辑Obsidian用于修复的成员组批号
+- `@Binaris`和`@Dante`用于修复的 Obsidian 成员组的批号
 横向规则
 
 - [Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)主题
 用于 RTZ 模式和即时样式
 
-- `@Moy`编辑Obsidian成员组 Discord 以修正高维搜索结果
+- `@Moy`absidian Members' Group Discord 上对高维搜索结果进行修正
 视觉错误
 
  

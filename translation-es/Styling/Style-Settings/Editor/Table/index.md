@@ -22,9 +22,9 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-### Table border colour
+### Table border color
 
 CSSVariable(s) targeted:`var(--table-border-color)`
 Default:
@@ -32,7 +32,7 @@ Default:
 ></span
 >#6f768566
 
-## Table header size
+### Table header size
 
 CSSVariable(s) targeted:`var(--table-header-size)`
 Default:large
@@ -40,7 +40,7 @@ Default:large
 <span style="font-size: large;"
 >Cabecera de mesa de muestra</span>
 
-### Ancho de mesa en modo de lectura
+### Width of table in reading mode
 
 CSSVariable(s) targeted:`var(--flexcyon-table-reading-mode-width)`
 Predeterminado: 100%

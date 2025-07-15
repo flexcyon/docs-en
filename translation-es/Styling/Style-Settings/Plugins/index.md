@@ -18,11 +18,11 @@ Style Settings
 |   |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-### Árbol de archivo alternativo
+### Alternate file tree
 
-### Folders font size
+#### Folders font size
 
 CSSVariable(s) targeted:`var(--oz-fta-folder-font-size)`
 Default: 0.925 (rem)
@@ -30,7 +30,7 @@ Default: 0.925 (rem)
 <span style="font-size: 0.925rem"
 >Muestra Árbol de archivo alternativo Folders tamaño de la fuente</span>
 
-##### Folders font color
+#### Folders font color
 
 CSSVariable(s) targeted:`var(--oz-fta-folder-pane-file-name-color)`
 Default (modo de luz):
@@ -43,7 +43,7 @@ Default (modo oscuro):
 ></span
 >#d3d5d3
 
-##### Color de carpeta activo
+#### Active folder color
 
 CSSVariables(s) dirigidas:`var(--oz-fta-all-panes-active-text-color)`
 Default (modo de luz):
@@ -56,7 +56,7 @@ Default (modo oscuro):
 ></span
 >#d3d5d3
 
-##### Tamaño de fuente de archivos
+#### Files font size
 
 CSSVariable(s) targeted:`var(--oz-fta-file-font-size)`
 Predeterminado: 0.9 (rem)
@@ -64,7 +64,7 @@ Predeterminado: 0.9 (rem)
 <span style="font-size: 0.9rem"
 >Muestra Árbol de archivos alternativos tamaño de fuente</san>
 
-##### Files font color
+#### Files font color
 
 CSSVariable(s) targeted:`var(--oz-fta-file-pane-file-name-color)`
 Default:
@@ -72,12 +72,12 @@ Default:
 ></span
 >#6f768599
 
-##### Desactivar iconos de carpetas
+#### Disable folder icons
 
 CSSVariable(s) targeted:`var(--flexcyon-oz-folder-icons-disabled)`
 Default:false(de clase)
 
-##### Cabecera de árbol de archivos deshabilitado
+#### Disable file tree header
 
 CSSVariable(s) targeted:`var(--flexcyon-oz-file-tree-header-disabled)`
 Default:false(de clase)
@@ -98,7 +98,7 @@ ___
 
 Formatos aceptados: x.y, %
 
-##### Opacity of dimmed full calendario items
+#### Opacity of dimmed full calendar items
 
 CSSVariables(s) dirigidas:`var(--flexcyon-fc-dimmed-items-opacity)`
 Default: 0.89
@@ -112,7 +112,7 @@ ___
 
 Formatos aceptados: px
 
-### Padding horizontal de mensajes de error de la vista de datos
+#### Horizontal padding of dataview error messages
 
 CSSVariables(s) dirigidas:`var(--flexcyon-dataview-horizontal-padding)`
 Predeterminado: 8 (px)
@@ -126,12 +126,12 @@ Define estilos para el plugin Canvas núcleo.
 
 Formatos aceptados: px, RGB
 
-##### Nodos de Canvas inactivos Blur
+#### Blur inactive Canvas nodes
 
 CSSVariable(s) targeted:`var(--flexcyon-canvas-blur-inactive-nodes)`
 Default:false(de clase)
 
-##### Intensidad Blur para los nodos inactivos
+#### Blur intensity for inactive nodes
 
 Utilizado con el ajuste anterior para establecer la intensidad de borda de los nodos de tela inactivos
 y todas las flechas/edges.
@@ -140,7 +140,7 @@ y todas las flechas/edges.
 CSSVariable(s) targeted:`var(--flexcyon-canvas-blur-intensity)`
 Predeterminado: 1 (px)
 
-##### Ajuste del menú de la tarjeta
+#### Canvas card menu alignment
 
 Configurar la alineación del menú de la tarjeta de lienzo.
 .
@@ -187,7 +187,7 @@ Opciones:
 
 ___
 
-## Varios Complementos
+### Various Complements
 #### Vertical Suggestion Padding
 CSSVariable(s) targeted:`var(--flexcyon-var-comps-sugg-vert-padding)`
 Predeterminado: 7 (px)
@@ -196,7 +196,7 @@ Predeterminado: 7 (px)
 CSSVariable(s) targeted:`var(--flexcyon-var-comps-sugg-horiz-padding)`
 Predeterminado: 12 (px)
 
-##### Compacto Modo de Sugerencia
+#### Compact Suggestion Mode
 Supera los defectos. Usa el relleno 4px 8px.
 .
 
@@ -206,7 +206,7 @@ Default:false(de clase)
 ___
 ### Omnisearch
 
-##### Desactivar los iconos de Omnisearch
+#### Disable Omnisearch Icons
 
 CSSClasse(s) targeted:`var(--flexcyon-omnisearch-no-icons)`
 Default:false(de clase)

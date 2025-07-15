@@ -20,14 +20,14 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 ### Smiley Toggle Icons in Settings
 
 CSSVariable(s) targeted:`var(--flexcyon-settings-smiley-icons-enabled)`
 Default:true(de clase)
 
-### Iconos coloreados en configuraciones
+### Coloured Icons in Settings
 
 CSSVariable(s) targeted:`var(--flexcyon-settings-coloured-icons)`
 Default:false(de clase)
@@ -37,7 +37,7 @@ Default:false(de clase)
 CSSVariable(s) targeted:`var(--flexcyon-settings-comm-item-enabled)`
 Default:true(de clase)
 
-## Opacity of community items (unselected)
+### Opacity of community items (unselected)
 
 CSSVariable(s) targeted:`var(--flexcyon-comm-item-opacity)`
 Default: 0.89
@@ -45,35 +45,35 @@ Default: 0.89
 <span style="opacity: 0.89"
 >Opacidad de muestras de elementos comunitarios (no seleccionados)</span>
 
-### El margen izquierdo de herramientas instalado
+### Installed tooltip left margin
 
 CSSVariable(s) targeted:`var(--flexcyon-settings-installed-tooltip-left-margin)`
 Default: 1 (rem)
 
-### No mostrar barra de desplazamiento en la configuración
+### Do not show scrollbar in settings
 
 CSSVariable(s) targeted:`var(--flexcyon-settings-scrollbar-removed)`
 Default:true(de clase)
 
-### Activado efecto de elemento activo alternativo en la configuración
+### Enabled alternate active item effect in settings
 
 CSSVariable(s) targeted:`var(--flexcyon-enable-alt-active-item-effect)`
 Default:true(de clase)
 
 ___
 
-## Ajustes de estilo
+### Style Settings
 
 Configurar la apariencia para los ajustes de estilo
 
 Formatos aceptados: px
 
-#### Ancho de identificación entre las partidas de configuración de estilo
+#### Indentation width between style settings headings
 
 CSSVariable(s) targeted:`var(--flexcyon-style-settings-indent-width)`
 Predeterminado: 4 (px)
 
-##### Dim configuración de estilo colapsado encabezados
+#### Dim collapsed style settings headings
 
 CSSVariable(s) targeted:`var(--flexcyon-style-settings-dim-collapsed-headings)`
 Default:true

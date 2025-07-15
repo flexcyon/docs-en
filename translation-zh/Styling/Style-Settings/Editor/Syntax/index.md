@@ -7,7 +7,7 @@ icon: material/format-color-highlight
 
 接受格式: px
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -21,9 +21,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-XQ 弹性语法加亮模式
+### Flexcyon Syntax Highlighting Mode
 
 CSS目标类别:`.flexcyon-syntax-cappuccin,
 ,

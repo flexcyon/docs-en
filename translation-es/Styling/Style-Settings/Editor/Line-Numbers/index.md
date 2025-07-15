@@ -21,24 +21,24 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 ### Enable Relative Line Numbers
 
 CSSVariable(s) targeted:`var(--flexcyon-enable-rel-nums)`
 Default:false(de clase)
 
-## Números relativos y normales de línea en diferentes líneas
+### Relative and normal line numbers on different lines
 
 CSSVariable(s) targeted:`var(--flexcyon-no-num-with-relative)`
 Default:false
 
-### Sólo muestra números de línea relativos
+### Only display relative line numbers
 
 CSSVariable(s) targeted:`var(--flexcyon-relative-num-only)`
 Default:false
 
-### Número de línea relativa configura
+### Configure Relative Line Number Style
 
 CSSVariable(s) targeted:`var(--flexcyon-roman-rel-nums)`,
 ,
@@ -50,13 +50,13 @@ Opciones:
 - Griego
 - Chino
 
-### Reemplazar el número de línea activa con cadena
+### Replace active line number with string
 Personalizar el número de línea activa con su propia cadena, predeterminado a "- título"
 
 CSSVariable(s) targeted:`var(--flexcyon-repl-active-line-num-str)`
 Default:false(de clase)
 
-### Valor de cadena de números activos reemplazado
+### Replaced active line number string value
 CSSVariable(s) targeted: `var(--flexcyon-epl-active-line-str)
 
 Predeterminado: "- Conf"

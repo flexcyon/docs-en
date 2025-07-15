@@ -20,14 +20,14 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-### Habilitar extensiones de archivo dimmed en el explorador de archivos
+### Enable dimmed file extensions in file explorer
 
 CSSVariable(s) targeted:`var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 Default:true(de clase)
 
-### Seleccionar estilo de carpeta
+### Select folder style
 
 CSSClasse(s) targeted:`.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 Default: none (class select)
@@ -38,12 +38,12 @@ Opciones:
 - Estilo de carpeta alternativo
 - Estilo de árbol de archivos
 
-### Color de fondo en lugar de texto para carpetas arco iris
+### Colour background instead of text for rainbow folders
 
 CSSClasse(s) targeted:`var(--flexcyon-is-bg-rainbow)`
 Default:false
 
-#### Enable minimalist trees
+### Enable minimalist trees
 
 CSSVariable(s) targeted:`var(--flexcyon-minimalist-tree)`
 Default:false(de clase)

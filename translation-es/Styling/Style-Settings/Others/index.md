@@ -18,21 +18,21 @@ Style Settings
 |   |-- 。
 |   |-- Others
 ```
-## Opciones de configuración
+## Configuration Options
 
-Texto del Modo Vim
+### Vim Mode Text
 
-##### Enable Vim Texto del modo
+#### Enable Vim Mode Text
 
 CSSVariable(s) targeted:`var(--flexcyon-vim-mode-text-enable)`
 Default:true(de clase)
 
-##### Modo Vim texto izquierdo posicionamiento
+#### Vim mode text left positioning
 
 CSSVariable(s) targeted:`var(--flexcyon-vim-mode-left-positioning)`
 Predeterminado: 6 (px)
 
-##### Posición inferior del texto del modo Vim
+#### Vim mode text bottom positioning
 
 CSSVariable(s) targeted:`var(--flexcyon-vim-mode-left-positioning)`
 Predeterminado: -4 (px)
@@ -42,25 +42,25 @@ Predeterminado: -4 (px)
 CSSVariable(s) targeted:`var(--flexcyon-vim-insert-text)`
 Default: "INSERT"
 
-Texto del Modo Normal
+#### Normal Mode Text
 
 CSSVariable(s) targeted:`var(--flexcyon-vim-normal-text)`
 Default: "NORMAL"
 
-Texto del Modo del Mando
+#### Command Mode Text
 
 CSSVariable(s) targeted:`var(--flexcyon-vim-command-text)`
 Default: "COMMAND"
 
 ___
 
-## New Tab Appearance
+### New Tab Appearance
 
 Personalizar la tolerancia de nuevas pestañas vacías
 
 Formatos aceptados: px
 
-##### Add before empty state title
+#### Add before empty state title
 
 CSSClasse(s) targeted:`.flexcyon-ascii-enable, .flexcyon-quote-enable`
 > Cambiar esto puede tomar una recarga de la aplicación / reiniciar para tener efecto
@@ -71,11 +71,11 @@ Opciones:
 - Arte ASCII
 - Cita.
 
-##### Antecedentes para añadir antes del título de estado vacío
+#### Background for add before empty state title
 
 CSSVariable(s) targeted:`var(--flexcyon-new-tab-bg-wrapper)`
 Default:`linear-gradient(to right, var(--text-accent), var(--color-blue), var(--color-cyan))`
-##### Quote
+#### Quote
 
 CSSVariable(s) targeted:`var(--flexcyon-quote-val)`
 Default: "Esto es una cotización de marca de posición\ain el tema Flexcyon."
@@ -85,17 +85,17 @@ Default: "Esto es una cotización de marca de posición\ain el tema Flexcyon."
 CSSVariable(s) targeted:`var(--flexcyon-quote-credit-prefix)`
 Default: "-"
 
-##### Quote Attribution
+#### Quote Attribution
 
 CSSVariable(s) targeted:`var(--flexcyon-quote-credit)`
 Default: "bladeacer"
 
-##### Tamaño de la fuente
+#### Quote font size
 
 CSSVariable(s) targeted:`var(--flexcyon-quote-font-size)`
 Predeterminado: 24 (px)
 > Los descansos de la línea se escapan`\a`y`\`se escapó`\\`
-##### ASCII Art
+#### ASCII Art
 
 CSSVariable(s) targeted:`var(--flexcyon-ascii-art)`
 Default:
@@ -111,24 +111,24 @@ Default:
 ```
 > La cadena de arte ASCII necesita ser escapada paraCSSpara renderizarla, las roturas de línea
 > escaparon`\a`y`\`se escapó`\\`
-#### ASCII font size limit
+#### ASCII art font size limit
 
 CSSVariable(s) targeted:`var(--flexcyon-ascii-max-font-size)`
 Predeterminado: 14 (px)
 
-##### ASCII linea de arte altura
+#### ASCII art line height
 
 CSSVariable(s) targeted:`var(--flexcyon-ascii-line-height)`
 > Cambios línea de altura para la cotización as welll
 
 Default: 1
 
-##### Título del Estado Vacío
+#### Disable Empty State title
 
 CSSVariable(s) targeted:`var(--flexcyon-empty-state-title-disable)`
 Default:true(de clase)
 
-##### Disable Empty State Actions
+#### Disable Empty State Actions
 
 CSSVariable(s) targeted:`var(--flexcyon-empty-state-actions-disable)`
 Default:false(de clase)
@@ -139,13 +139,13 @@ ___
 
 Configure los iconos de muelle lateral
 
-##### Permite efectos de icono de muelle lateral
+#### Enable side dock icon effects
 > Efecto del arco iris en el tubo
 
 CSSVariable(s) targeted:`var(--flexcyon-sidedock-icon-effects)`
 Default:true(de clase)
 
-### Ancho de la cinta lateral
+### Side Dock Ribbon Width
 
 CSSVariable(s) targeted:`var(--flexcyon-sidedock-ribbon-width)`
 Default: 48 (px)
@@ -156,22 +156,22 @@ ___
 
 Configure el radio de punta de la herramienta
 
-##### Pequeño radio
+#### Small radius
 
 CSSVariable(s) targeted:`var(--radius-s)`
 Predeterminado: 2 (px)
 
-##### Radio mediana
+#### Medium radius
 
 CSSVariable(s) targeted:`var(--radius-m)`
 Predeterminado: 4 (px)
 
-#####Largeradio
+#### Large radius
 
 CSSVariable(s) targeted:`var(--radius-l)`
 Predeterminado: 6 (px)
 
-##### Extra#largeradio
+#### Extra large radius
 
 CSSVariable(s) targeted:`var(--radius-xl)`
 Predeterminado: 8 (px)
@@ -185,7 +185,7 @@ Configurar imágenes de fondo en las barras laterales izquierda y derecha.
 
 Formatos aceptados: px, %
 
-##### Seleccionar fondo en barra lateral
+#### Select background in sidebar
 
 CSSClasse(s) targeted:`.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-bg-rhombus`
 > Supera la declaración de imagen de fondo a continuación, configura en izquierda y
@@ -198,46 +198,46 @@ Opciones:
 - Dotted
 - Rhombus
 
-##### Imagen de fondo lateral izquierdo url
+#### Left sidebar background image url
 
 CSSVariable(s) targeted:`var(--flexcyon-bg-image-sidebar-left-url)`
 Predeterminado: url("")
 > Para que los urls funcionen, agregue su URL entre las citas dobles, por ejemplo, un valor de:
 `url("https://fake_domain/not_a_real_image.png")`
-##### Imagen de fondo de barra lateral derecha url
+#### Right sidebar background image url
 
 CSSVariable(s) targeted:`var(--flexcyon-bg-image-sidebar-right-url)`
 Predeterminado: url("")
 > Para que los urls funcionen, agregue su URL entre las citas dobles, por ejemplo, un valor de:
 `url("https://fake_domain/not_a_real_image.png")`
-#### Sidebar Modo de mezcla de imagen de fondo
+#### Sidebar Background image blend mode
 
 CSSVariable(s) targeted:`var(--flexcyon-bg-image-blend-mode)`
 Default:darken
 
-#### Sidebar Imagen de fondo repite
+#### Sidebar Background image repeat
 
 CSSVariable(s) targeted:`var(--flexcyon-bg-image-repeat)`
 Default:no-repeat
 
-#### Sidebar Fondo imagen borrosa
+#### Sidebar Background image blur
 
 CSSVariable(s) targeted:`var(--flexcyon-bg-image-blur)`
 Predeterminado: 1px
 > Se cambiará a 0px siguiente actualización
 
-#### Sidebar Iluminación de imagen de fondo
+#### Sidebar Background image brightness
 
 CSSVariable(s) targeted:`var(--flexcyon-bg-image-brightness)`
 Default:unset
 > Acepta valores porcentuales como 55%
 
-####
+#### Sidebar Background image size
 
 CSSVariable(s) targeted:`var(--flexcyon-bg-image-size)`
 Default:contain
 
-#### Sidebar Posición de imagen
+#### Sidebar Background image position
 
 CSSVariable(s) targeted:`var(--flexcyon-bg-image-position)`
 Default:center
@@ -250,46 +250,46 @@ Configurar imágenes de fondo en el fondo del menú de configuración, indicacio
 
 Formatos aceptados: px, %
 
-#### Imagen de fondo Modal
+#### Modal Background image url
 
 CSSVariable(s) targeted:`var(--flexcyon-modal-bg-url)`
 Predeterminado: url("")
 > Para que los urls funcionen, agregue su URL entre las citas dobles, por ejemplo, un valor de:
 `url("https://fake_domain/not_a_real_image.png")`
-#### Modo de mezcla de imagen de fondo
+#### Modal Background image blend mode
 
 CSSVariable(s) targeted:`var(--flexcyon-modal-image-blend-mode)`
 Default:lighten
 
-#### Repetición de imagen de fondo
+#### Modal Background image repeat
 
 CSSVariable(s) targeted:`var(--flexcyon-modal-image-repeat)`
 Default:no-repeat
 
-#### Modalidad de imagen de fondo
+#### Modal Background image blur
 
 CSSVariable(s) targeted:`var(--flexcyon-modal-image-blur)`
 Predeterminado: 1px
 
-#### Modalidad de imagen de fondo
+#### Modal Background image brightness
 
 CSSVariable(s) targeted:`var(--flexcyon-bg-modal-brightness)`
 Default:unset
 > Acepta valores porcentuales como 55%
 
-####
+#### Modal background image size
 
 CSSVariable(s) targeted:`var(--flexcyon-modal-image-size)`
 Default:cover
 
-#### Posición de imagen de fondo Modal
+#### Modal background image position
 
 CSSVariable(s) targeted:`var(--flexcyon-modal-image-position)`
 Default:center
 
 ___
 
-### Modo de huevo de Pascua
+### Easter egg mode
 
 Deprecatado. See[here for reasons](../../../README/page-5.md).
 .
@@ -308,14 +308,14 @@ Toggle accessibility options
 CSSVariable(s) targeted:`var(--flexcyon-brightness-ratio)`
 Default: 1
 
-## Global contrast ratio
+### Global contrast ratio
 
 CSSVariable(s) targeted:`var(--flexcyon-contrast-ratio)`
 Default: 1
 > Por ejemplo, si quieres un poco más de contraste como en una pantalla OLED, prueba valores
 > entre 1 y 11.
 
-## Global saturation ratio
+### Global saturation ratio
 
 CSSVariable(s) targeted:`var(--flexcyon-saturation-ratio)`
 Default: 1
@@ -324,20 +324,20 @@ Default: 1
 ___
 ## Modes
 
-### Volver al modo Cero
+### Return to Zero mode
 > El minimalismo extremo inspirado en el tema Shimmering Focus. La mayoría de los elementos de la UI
 > no se muestran hasta que se encendieron. No recomendará en el móvil.
 
 CSSVariable(s) targeted:`var(--flexcyon-rtz-mode)`
 Default:false(de clase)
 
-## Enable writing Mode globalmente
+### Enable Writing Mode globally
 > Como su contraparte cssclass, excepto aplicada globalmente
 
 CSSVariable(s) targeted:`var(--flexcyon-editor-writing)`
 Default:false(de clase)
 
-### Indentación del modo de escritura
+### Writing mode indentation
 
 CSSVariable(s) targeted:`var(--flexcyon-editor-writing-indentation)`
 Predeterminado: 16 (px)

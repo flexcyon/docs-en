@@ -3,7 +3,7 @@ title: Versión 0.4.x
 icon: material/numeric-4-box-outline
 ---
 
-## Versión 0.4.Actualización del modo de luz
+### Version 0.4.0 Light Mode Update
 
 - El brillo de fondo de barra lateral cambiada por defecto`unset`.
 .
@@ -33,7 +33,7 @@ el tema
 
 - Regreso a Zero (modo minimalista del ultra) inspirado en Shimmering Focus
 
-## Versión 0.4.Actualización de Quickfix
+### Version 0.4.1 Quickfix Update
 
 - Fijar el renderizado TUI en modo de luz
 
@@ -43,7 +43,7 @@ el tema
 
 - Fijar las incrustaciones sin mostrar
 
-## Versión 0.4.Números relativos de línea
+### Version 0.4.2 Relative Line Numbers
 
 - Huevo de Pascua removido Modo de cosas
 - Ajuste de ancho de línea de archivo utilizando`cssclasses`
@@ -58,7 +58,7 @@ el tema
 - Edición de fondo fija con TUI
 - Agregar opción de modo de escritura global
 
-## Versión 0.4.Reparación de arco iris
+### Version 0.4.3 Rainbow Repair
 
 - Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral
 - Añadir Opciones de configuración de estilo para configurar el relleno de elementos de árbol
@@ -67,7 +67,7 @@ el tema
 - duración, función de tiempo, anchura mínima
 - Vim fijo Mode Status to use`var(--font-ui-medium)`por defecto
 
-## Versión 0.4.Actualización de las coherencias
+### Version 0.4.4 Consistencies Update
 - Corrección de la nota de pie de página
 - Fijar alineación de la lista de balas
 - Color resaltado por defecto cambiado

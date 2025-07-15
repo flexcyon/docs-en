@@ -3,7 +3,7 @@ title: Versión 0.5.x
 icon: material/numeric-5-box-outline
 ---
 
-## Versión 0.5.Revamp Update
+### Version 0.5.0 Revamp Update
 - Añadido y sección de ayuda en configuración de estilo
 - El resaltado de Omnisearch es ahora más consistente con el resaltado de búsqueda predeterminado
 - Fijar la casilla de verificación ASCII con un color de fondo
@@ -37,7 +37,7 @@ icon: material/numeric-5-box-outline
 - Opción para cambiar el estilo de lista predeterminada para listas numeradas en modo de lectura (todas las opciones proporcionadas)
 - Dividir texto de cita y citar atribución (nombre o fuente) en diferenteCSSVariables
 
-## 0.5.Actualización de Debug
+### 0.5.1 Debug Update
 - Resultado de búsqueda fijo resaltado fallo visual, gracias a`@Moy`sobre elObsidianGrupo de Miembros
 - El mensaje predeterminado sobre el elemento UI se mejora para el modo de luz
 - Fijar la casilla de verificación ASCII una vez más

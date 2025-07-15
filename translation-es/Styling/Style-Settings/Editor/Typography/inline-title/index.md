@@ -22,22 +22,22 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 <span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
 Título de muestra en línea</span>
 
-### Tamaño de fuente de título en línea
+### Inline title font size
 
 CSSVariable(s) targeted:`var(--inline-title-size)`
 Default:1.02 (em)
 
-### Peso de fuente de título en línea
+### Inline title font weight
 
 CSSVariable(s) targeted:`var(--inline-title-weight)`
 Predeterminado: 700
 
-### Altura de fuente de título en línea
+### Inline title font height
 
 CSSVariable(s) targeted:`var(--inline-title-height)`
 Default:1.

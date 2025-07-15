@@ -1,5 +1,5 @@
 ---
-title: 首頁
+title: 页 次
 icon: material/home
 ---
 
@@ -23,12 +23,12 @@ icon: material/home
 > 总是准确的。 对于建议,请打开一个 PR 来修改翻译
 > 对应语言的缓存中文本。
 
-□ 快链接
+## Quick Links
 
 你可能在找一些链接
 .
 
-杂项
+### Misc
 
 - [README](./README/index.md)
 
@@ -40,11 +40,11 @@ icon: material/home
 
 - [Changelogs](./changelogs/index.md)
 
-{\fn黑体\fs20\shad2\2aH82\3aH20\4aH33\fscx95\3cH592001\be1}史蒂林 {\fn黑体\fs20\shad2\2aH82\3aH20\4aH33\fscx95\3cH592001\be1}你觉得呢
+### Styling
 
 - [Style Settings](./Styling/Style-Settings/index.md)
 
-关于评论
+### About Comments
 
 该网站的评论使用GitHub来文方的讨论情况
 代码存储器(`bladeacer/flexcyon`)作为后端。

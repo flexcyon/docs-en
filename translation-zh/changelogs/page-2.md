@@ -3,7 +3,7 @@ title: 版本0.2.x
 icon: material/numeric-2-box-outline
 ---
 
-^ 0版 (英语).2.美学最新情况
+## Version 0.2.0 Aesthetics Update
 
 - 添加点名垂直边距、边框半径选项
 
@@ -48,7 +48,7 @@ css变量)
 - [See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
 详情
 
-^ 0版 (英语).2.小更新
+## Version 0.2.1 Small Update
 
 - 已删除的窗口动画,因为它们不是表演者。
 .
@@ -61,11 +61,11 @@ css变量)
 
 - 添加 ASCII 艺术线高度选项
 
-- 已经添加了CSS 类用于点和网格编辑器的背景选项
+- 为点和网格编辑器添加 cssclass 背景选项
 
 - 为内含标题添加样式选项
 
-^ 0版 (英语).2.布局样式
+## Version 0.2.2 Layout styling
 
 - 固定双引号复选框背景颜色
 
@@ -73,13 +73,13 @@ css变量)
 
 - 用于社区物品效应的小型型式扭矩
 
-- 加卡片,倾斜工作空间布局选项
+- 添加卡片、工作空间布局角度选项
 
 - 如果您想要更改布局, 需要重新装入或重新启动应用程序
 
 - Vim模式状态文本和状态栏模式(阅读/预览等)文本
 有颜色选项 :
 - 默认切换
-- 加卡片,谢谢,倾斜(受到Powerlevel10k的启发)状态栏的样式
+- 为状态栏添加卡片、角度(受Powerlevel10k启发)样式
 - 影响vim模式状态文本
 - 添加状态栏字体大小选项

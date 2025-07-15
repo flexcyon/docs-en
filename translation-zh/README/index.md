@@ -11,9 +11,9 @@ icon: material/book-open-blank-variant-outline
     <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?style=for-the-badge&sort=semver" alt="Releases" referrerpolicy="noreferrer">
 </a>
 
-关于弹性体
+# About Flexcyon
 
-页:1Obsidian主题结合了Halcyon和Flexoki的颜色方案。
+一个将Halcyon和Flexoki的彩色方案结合起来的 Obsidian主题。
 .
 
 我真的很喜欢充满活力的颜色
@@ -22,7 +22,7 @@ icon: material/book-open-blank-variant-outline
 因此,我决定把开始这一主题的两个主题结合起来。
 .
 
-□ 特性
+## Features
 
 [Here is a web showcase](https://share.note.sx/j4wqojpy#xi8TbTY58w4JaoiHcPdRJA+V60W3jT0qDoLyUhkTE3U)专题
 这个主题必须提供。
@@ -33,7 +33,7 @@ icon: material/book-open-blank-variant-outline
 但是这个网站应该给你预览 主题之前的样子
 安装它
 
-### 主题是什么
+### What this theme has
 
 - vim 模式状态(当使用内置 vim 键宾时)
 - Powerlevel10k等状态栏选项
@@ -44,41 +44,41 @@ icon: material/book-open-blank-variant-outline
 - ASCII 复选框
 - 标题选项,如下划线、编号、彩色
 - 一个[plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
-- 工作空间布局,如卡片布局,带有TUI启发加成,倾斜版式
+- 工作空间布局,如卡片布局,带有TUI启发的加法,角度布局
 - 配置左侧、右侧栏和模式背景图像
 - 标签的动画选项
 - 还有。
 .
 
-### 这个主题没有
+### What this theme does not have
 
 - 多种颜色方案(尽管你可以推翻现有的方案)
 与你自己,看[Style Settings](../Styling/Style-Settings/index.md)页:1
 - 备用复选框
 - 嵌入式字体, svgs
 
-复活节鸡蛋模式
+#### Easter Egg Mode
 
 页:1[here](./page-5.md)
 
-### 建议片段
+### Recommended snippets
 
-这里有一些推荐片段来补充您笔记库并同时使用Flexcyon:
+这里有一些推荐的片段来添加到您的金库中,并与Flexcyon一起使用:
 
 - [CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
 - [Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling)
 - [MCL Multi Column and Gallery Cards by efemkay](https://github.com/efemkay/obsidian-modular-css-layout)
 
-□ 路线图
+## Roadmap
 
 可找到此主题的路线图[here](https://github.com/bladeacer/flexcyon/tree/master/docs/roadmap.md)。
 
-□ 更改日志
+## Changelogs
 
 查找此主题的 Changelogs[here](../changelogs/index.md)
 
-问题,问题?
-?
+### Questions, Issues?
+
 说说看吧
 
 - [this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357)。
@@ -89,15 +89,15 @@ icon: material/book-open-blank-variant-outline
 [start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions)在这里。
 .
 
-□ 设计原则
+## Design Principles
 
 见[here](./page-4.md)
 
-□ 样式设置
+## Style Settings
 
 见[here](../Styling/Style-Settings/index.md)
 
-□ 许可证
+## License
 
-那个许可证查找主题[here](./license.md)
+主题的许可可以找到[here](./license.md)
 

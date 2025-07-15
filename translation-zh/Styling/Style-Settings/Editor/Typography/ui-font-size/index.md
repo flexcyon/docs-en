@@ -8,7 +8,7 @@ icon: material/format-font-size-increase
 
 接受格式: px
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -25,9 +25,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-小型UI 字体大小
+### Smaller UI Font size
 
 CSS目标变量:`var(--font-ui-smaller)`
 默认: 12 (px)
@@ -35,7 +35,7 @@ CSS目标变量:`var(--font-ui-smaller)`
 <span style="font-size: 12px"
 >样本较小的 UI 字体大小</span>
 
-小型UI 字体大小
+### Small UI Font size
 
 CSS目标变量:`var(--font-ui-small)`
 默认: 14 (px)
@@ -43,7 +43,7 @@ CSS目标变量:`var(--font-ui-small)`
 <span style="font-size: 13px"
 >小UI字体大小样本</span>
 
-*______________________________ 字体大小
+### Medium UI Font size
 
 CSS目标变量:`var(--font-ui-medium)`
 默认: 16 (px)
@@ -51,7 +51,7 @@ CSS目标变量:`var(--font-ui-medium)`
 <span style="font-size: 15px"
 >样本介质 UI 字体大小</span>
 
-###LargeUI 字体大小
+### Large UI Font size
 
 CSS目标变量:`var(--font-ui-large)`
 默认: 18 (px)

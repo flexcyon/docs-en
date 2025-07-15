@@ -8,7 +8,7 @@ icon: material/text-box
 
 接受格式: px, vw, vh
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -25,24 +25,24 @@ Style Settings
 |-- 。
 ```
 
-□ 配置提示
+## Configuration Prompts
 
-QQ 提示宽度
+### Prompt width
 
 CSS目标变量:`var(--prompt-width)`
 默认: 700 (px)
 
-* 快速最大宽度
+### Prompt max width
 
 CSS目标变量:`var(--prompt-max-width)`
 默认: 80 (vw)
 
-快速最大高度
+### Prompt max height
 
 CSS目标变量:`var(--prompt-max-height)`
 默认: 70(vh)
 
-QQ 快速对齐
+### Prompt alignment
 
 CSS目标类别:`.flexcyon-prompt-alimpt-lignown-left,
 ,
@@ -59,12 +59,12 @@ CSS目标类别:`.flexcyon-prompt-alimpt-lignown-left,
 -左边
 - 下边center
 
-建议项 垂直粘贴
+### Suggestion item vertical padding
 
 CSS目标变量:`var(--flexcyon-suggestion-verti-padding)`
 默认: 8 (px)
 
-建议项水平粘贴
+### Suggestion item horizontal padding
 
 CSS目标变量:`var(--flexcyon-suggestion-horiz-padding)`
 默认: 12 (px)

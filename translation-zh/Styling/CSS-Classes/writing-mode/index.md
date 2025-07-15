@@ -3,7 +3,7 @@ title: 写入模式
 icon: material/keyboard
 ---
 
-{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0} 使用量
+# Usage
 
 在编辑器中添加文本缩进并增加段落间隔。 大小可以是
 在样式设置中调整。

@@ -11,7 +11,7 @@ icon: material/book-open-blank-variant-outline
     <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?style=for-the-badge&sort=semver" alt="Releases" referrerpolicy="noreferrer">
 </a>
 
-Acerca de Flexcyon
+# About Flexcyon
 
 AObsidiantema que combina los esquemas de color de Halcyon y Flexoki.
 .
@@ -23,7 +23,7 @@ estética de la[Flexoki colour scheme](https://stephango.com/flexoki).
 Por lo tanto, decidí combinar los dos que comenzaron este tema.
 .
 
-## Características
+## Features
 
 [Here is a web showcase](https://share.note.sx/j4wqojpy#xi8TbTY58w4JaoiHcPdRJA+V60W3jT0qDoLyUhkTE3U)de las características
 este tema tiene que ofrecer.
@@ -34,7 +34,7 @@ este tema tiene que ofrecer.
 pero este sitio debe darle una vista previa de cómo el tema mira antes
 instalarlo
 
-### Qué tema tiene
+### What this theme has
 
 - estado del modo vim (cuando se utiliza keybinds vim integrado)
 - Opciones de barra de estado como Powerlevel10k inspirado estilo barra de estado
@@ -51,7 +51,7 @@ instalarlo
 - Y muchos más。
 .
 
-### Qué tema no tiene
+### What this theme does not have
 
 - múltiples esquemas de color (aunque puede anular el existente
 con el suyo, ver[Style Settings](../Styling/Style-Settings/index.md))
@@ -62,7 +62,7 @@ con el suyo, ver[Style Settings](../Styling/Style-Settings/index.md))
 
 **Deprecated**, see[here](./page-5.md)
 
-### Snippets recomendados
+### Recommended snippets
 
 Aquí están algunos fragmentos recomendados para añadir a su bóveda y utilizar junto a Flexcyon:
 
@@ -79,8 +79,8 @@ La hoja de ruta para este tema se puede encontrar[here](https://github.com/blade
 
 Los Cambios para este tema se pueden encontrar[here](../changelogs/index.md)
 
-## Preguntas, ¿Problemas?
-?
+### Questions, Issues?
+
 Siéntete libre de hablar de ello en:
 
 -[this Discord thread](https://discord.com/channels/686053708261228577/1338130333698359357).
@@ -96,7 +96,7 @@ Alternativamente, puede abrir un problema en
 
 See[here](./page-4.md)
 
-## Ajustes de estilo
+## Style Settings
 
 See[here](../Styling/Style-Settings/index.md)
 

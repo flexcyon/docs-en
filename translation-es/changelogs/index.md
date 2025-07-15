@@ -3,7 +3,7 @@ icon: material/script-text
 title: Cambios
 ---
 
-##### Nota
+#### Note
 
 Los changelogs muestran versiones en orden de lo más reciente al menos reciente.
 .
@@ -12,8 +12,8 @@ la barra lateral o el menú de hamburguesa para ver el sub relevante-edades.
 .
 
 ___
-## Versión 0.5.
-## 0.5.Actualización de Debug
+## Version 0.5.x
+### 0.5.1 Debug Update
 - Resultado de búsqueda fijo resaltado fallo visual, gracias a`@Moy`sobre elObsidianGrupo de Miembros
 - El mensaje predeterminado sobre el elemento UI se mejora para el modo de luz
 - Fijar la casilla de verificación ASCII una vez más
@@ -24,7 +24,7 @@ ___
 - Modos de resaltado de sintaxis añadido: Catppuccin, Lego, Monochrome
 - Opción de configuración de estilo para desactivar las reglas horizontales en modo lectura, colores hr más consistentes a través de modos de edición y lectura
 
-## Versión 0.5.Revamp Update
+### Version 0.5.0 Revamp Update
 - Añadido y sección de ayuda en configuración de estilo
 - El resaltado de Omnisearch es ahora más consistente con el resaltado de búsqueda predeterminado
 - Fijar la casilla de verificación ASCII con un color de fondo
@@ -58,9 +58,9 @@ ___
 - Opción para cambiar el estilo de lista predeterminada para listas numeradas en modo de lectura (todas las opciones proporcionadas)
 - Dividir texto de cita y citar atribución (nombre o fuente) en diferenteCSSVariables
 
-## Versión 0.4.
+## Version 0.4.x
 
-## Versión 0.4.Actualización de las coherencias
+### Version 0.4.4 Consistencies Update
 - Corrección de la nota de pie de página
 - Fijar alineación de la lista de balas
 - Color resaltado por defecto cambiado
@@ -70,7 +70,7 @@ ___
 - Agregue la opción Ajustes Estilo para configurar el relleno de elementos sugerencias
 - Añadido soporte para plugin Omnisearch
 
-## Versión 0.4.Reparación de arco iris
+### Version 0.4.3 Rainbow Repair
 - Listas fijas de balas de arco iris, carpetas de arco iris, efectos de iconos de muelle lateral
 - Añadir Opciones de configuración de estilo para configurar el relleno de elementos de árbol
 - Agregado fondo de color en lugar de texto para las opciones de carpetas de arco iris (hace carpetas de arco iris en este tema más consistentes con las de otros temas)
@@ -78,7 +78,7 @@ ___
 - duración, función de tiempo, anchura mínima
 - Vim fijo Mode Status to use`var(--font-ui-medium)`por defecto
 
-## Versión 0.4.Números relativos de línea
+### Version 0.4.2 Relative Line Numbers
 
 - Huevo de Pascua removido Modo de cosas
 - Ajuste de ancho de línea de archivo utilizando`cssclasses`
@@ -93,7 +93,7 @@ ___
 - Edición de fondo fija con TUI
 - Agregar opción de modo de escritura global
 
-## Versión 0.4.Actualización de Quickfix
+### Version 0.4.1 Quickfix Update
 
 - Fijar el renderizado TUI en modo de luz
 
@@ -103,7 +103,7 @@ ___
 
 - Fijar las incrustaciones sin mostrar
 
-## Versión 0.4.Actualización del modo de luz
+### Version 0.4.0 Light Mode Update
 
 - El brillo de fondo de barra lateral cambiada por defecto`unset`. Was
 anteriormente causando problemas como borroso contenido de plugin Calender.
@@ -132,9 +132,9 @@ el tema
 
 - Regresar a Zero (modo minimalista del ultra) inspirado en el tema Shimmering Focus
 
-## Versión 0.3.
+## Version 0.3.x
 
-## Versión 0.3.Actualización de menús
+### Version 0.3.6 Canvas Menu Update
 
 - Cuestiones de fondo de barra lateral fija
 
@@ -146,7 +146,7 @@ el tema
 
 - Opciones de alineación del menú de la tarjeta de lienzo (plenty de opciones)
 
-## Versión 0.3.Actualización de configuración
+### Version 0.3.5 Configuration Update
 
 - La documentación ahora tiene su propio sitio.
 .
@@ -167,7 +167,7 @@ diferentes niveles de rumbo.
 
 - opción agregada para configurar los contenedores de metadatos
 
-## Versión 0.3.Modo de huevo de Pascua
+### Version 0.3.4 Easter Egg Mode
 
 - Traducción hecha para el escondite hasta que la barra configurable del estatus del hover, útil para
 barras de estado más largas
@@ -180,7 +180,7 @@ barras de estado más largas
 
 - Modo de huevo de Pascua reversible
 
-## Versión 0.3.Actualización de QOL
+### Version 0.3.3 QOL Update
 
 - Factor de indentación configurable agregado y regulación de cabeceras colapsadas
 Menú Ajustes de estilo
@@ -212,7 +212,7 @@ y barra lateral derecha
 
 - Los cambios pueden necesitar una recarga de la aplicación/restaurante para entrar en vigor
 
-## Versión 0.3.Animaciones
+### Version 0.3.2 Animations
 
 - Styling Ajustes a la tienda comunitaria, diseños existentes
 
@@ -244,7 +244,7 @@ y barra lateral derecha
 ,
 impulsos, etc.
 
-## Versión 0.3.Tidying Up
+### Version 0.3.1 Tidying Up
 
 - Servicios de metadatos adicionales para:
 
@@ -282,7 +282,7 @@ impulsos, etc.
 
 - Cambia el estilo de las migas de pan para usar ASCII en lugar de emoji
 
-## Versión 0.3.TUI Layout
+### Version 0.3.0 TUI Layout
 
 - Añadido TUI inspirado agregar-n a la distribución de tarjetas
 
@@ -321,9 +321,9 @@ título y contenido
 
 ___
 
-## Versión 0.2.
+## Version 0.2.x
 
-## Versión 0.2.Su estilo
+### Version 0.2.2 Layout styling
 
 - Color de fondo de dobles comillas fijas
 
@@ -346,7 +346,7 @@ tiene una opción de color:
 
 - Opciones de tamaño de la barra de estado añadido
 
-## Versión 0.2.Pequeña actualización
+### Version 0.2.1 Small Update
 
 - Animaciones de ventana eliminadas ya que no son performant.
 .
@@ -363,7 +363,7 @@ siempre devolver la misma mezcla de color cuando se utiliza en las utilidades de
 
 - Opciones de estilo añadido para el título en línea
 
-## Versión 0.2.Actualización de estética
+### Version 0.2.0 Aesthetics Update
 
 - Añadido margen vertical de llamada, opción de radio fronterizo
 
@@ -409,9 +409,9 @@ Elija entre las siguientes opciones:
 
 ___
 
-## Versión 0.1.
+## Version 0.1.x
 
-## Versión 0.1.Hotfixes
+### Version 0.1.1 Hotfixes
 
 - opción adicional para cambiar el tamaño de la fuente ASCII
 
@@ -429,7 +429,7 @@ ___
 
 - Los medios de comunicación tienen ahora margen vertical que se puede establecer
 
-## Versión 0.1.: Actualización de las utilidades
+### Version 0.1.0: Utilities Update
 
 - Apoyo añadido para el enchufe de repetición espaciada
 
@@ -477,7 +477,7 @@ Créditos:
 
 -`@Tuck`sobre elObsidianDiscordia de grupo de miembros para opciones para cambiar el color de enlace
 
-### Versión 0.0.5: Cambios Menores
+### Version 0.0.5: Minor Changes
 
 - Made ASCII art responsive, puede establecer un límite de tamaño de fuente en él
 

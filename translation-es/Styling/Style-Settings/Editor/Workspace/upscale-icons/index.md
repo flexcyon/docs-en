@@ -18,9 +18,9 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-##### Porcentaje de escala de iconos 1
+#### Upscale percentage of icons 1
 
 CSSVariable(s) targeted:`var(--upsize)`
 Predeterminado: 103%
@@ -28,7 +28,7 @@ Predeterminado: 103%
 <span style="scale: 103%"
 >Porcentaje de aumento de la muestra 1</span>
 
-##### Porcentaje de escala de iconos 2
+#### Upscale percentage of icons 2
 
 CSSVariable(s) targeted:`var(--expand)`
 Predeterminado: 110%

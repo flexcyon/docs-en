@@ -6,7 +6,7 @@ icon: material/language-css3
 如果你是想用Flexcyon的风格
 .
 
-□ 快链接
+## Quick Links
 
 - [Style Settings](./Style-Settings/index.md)
 - [CSS Classes](./CSS-Classes/index.md)

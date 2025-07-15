@@ -10,7 +10,7 @@ icon: material/cog-outline
 主题。
 .
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings

@@ -21,14 +21,14 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
-### Media Insertar margen vertical
+### Media Embed Vertical margin
 
 CSSVariable(s) targeted:`var(--flexcyon-media-embed-vertical-margin)`
 Predeterminado: 8 (px)
 
-### Radio fronterizo de imagen
+### Image border radius
 
 CSSVariable(s) targeted:`var(--img-border-radius)`
 Predeterminado: 15 (px)

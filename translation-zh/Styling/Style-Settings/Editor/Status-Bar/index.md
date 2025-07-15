@@ -7,7 +7,7 @@ icon: material/state-machine
 
 接受格式: s, px
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -21,75 +21,76 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-QQ 状态栏隐藏到 Hover
+### Status Bar Hide Until Hover
 
-#### 隐藏到徘徊
+#### Hide until hover
 
 CSS目标变量:`var(--flexcyon-status-hide-until-hover)`
 默认 :false(类切换)
 
-#### 隐藏时文本, 直到启用徘徊
+#### Text when hide until hover enabled
 
 CSS目标变量:`var(--flexcyon-status-hide-until-hover-text)`
 默认: “ 显示状态 ”
 
-显示悬浮状态栏的翻译
+#### Translation for showing status bar on hover
 
 CSS目标变量:`var(--flexcyon-status-hide-until-hover-translation)`
 默认: 1500px
 
-* 显示悬浮状态栏的过渡期
+#### Transition duration for showing status bar on hover
 
 CSS目标变量:`var(--flexcyon-status-hide-hover-duration)`
 默认: 0.35(s)
 
-盘旋时显示状态栏的过渡计时功能
+#### Transition timing function for showing status bar on hover
 
 CSS目标变量:`var(--flexcyon-status-hide-hover-function)`
 默认 :ease-out
 
  
-QQ 文本配置
+### Text Configuration
 
-#### 模式状态使用文本而不是图标
+#### Use text instead of icons for mode status
 
 CSS目标变量:`var(--flexcyon-status-text-mode)`
 默认 :false(类切换)
 
-#### 读取模式文本
+#### Reading Mode Text
 
 CSS目标变量:`var(--flexcyon-status-reading-text)`
 默认: "READ"
 
-#### 源模式文本
+#### Source Mode Text
 
 CSS目标变量:`var(--flexcyon-status-source-text)`
 默认: "资源"
 
-QQ 现场预览模式文本
+#### Live Preview Mode Text
 
 CSS目标变量:`var(--flexcyon-status-live-text)`
 默认: "LIVE"
 
  
 
-QQ 状态栏样式
+### Status Bar Styling
 
-#### 在移动中显示状态栏
+#### Show status bar on mobile
 
 CSS目标变量:`var(--flexcyon-status-mobile-enabled)`
 默认 :false(类切换)
 
-#### 状态栏字体大小
+#### Status bar font size
 
 CSS目标变量:`var(--status-bar-font-size)`
 默认: 12.5 (px)
 
-#### 选择状态栏样式
+#### Select status bar style
 
-CSS目标类别:`.lexcyon-status-style-倾斜
+CSS目标类别:`.lexcyon-status-states-trounded,
+,
 .flexcyon-status-style-card,.flexcyon-status-style-pl10k ' .
 
 默认: 无( 选择类)
@@ -99,7 +100,7 @@ CSS目标类别:`.lexcyon-status-style-倾斜
 - 纸牌
 - 动力级10k
 
-#### 启用状态文本颜色
+#### Enable status text color
 
 CSS目标变量:`var(--flexcyon-status-text-enable-color)`
 默认 :false(类切换)

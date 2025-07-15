@@ -8,7 +8,7 @@ icon: material/animation
 
 接受格式:s
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -25,9 +25,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-QQ 动画类型
+### Animation type
 
 CSS目标类别:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
 ,
@@ -43,12 +43,12 @@ CSS目标类别:`.flexcyon-anims-slip-rtl,.flexcyon-anims-slip-ltr,
 - 从下到上旋转
 - 向左旋转
 
-动画持续时间
+### Animation duration
 
 CSS目标变量:`var(--flexcyon-anim-duration)`
 默认值: 0. 5s
 
-QQ 动画放松功能
+### Animation easing function
 
 CSS目标变量:`var(--flexcyon-anim-easing)`
 默认 :ease-in-out

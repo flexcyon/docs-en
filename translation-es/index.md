@@ -29,7 +29,7 @@ Esto alberga la documentación en inglés para el
 Aquí están algunos enlaces que puede estar buscando.
 .
 
-#### Misc
+### Misc
 
 -[README](./README/index.md)
 
@@ -41,7 +41,7 @@ Aquí están algunos enlaces que puede estar buscando.
 
 -[Changelogs](./changelogs/index.md)
 
-#### Styling
+### Styling
 
 -[Style Settings](./Styling/Style-Settings/index.md)
 

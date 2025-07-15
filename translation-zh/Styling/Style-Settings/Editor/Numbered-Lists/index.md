@@ -5,7 +5,7 @@ icon: material/format-list-numbered
 
 在主题中配置编号列表
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -19,9 +19,9 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-在阅读模式中选择默认编号列表样式
+### Select Default Numbered List Style in Reading Mode
 
 默认: 无( 类切换)
 

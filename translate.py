@@ -107,7 +107,10 @@ def translate_text(text, source_lang="en", target_lang=None, edit_cache=None, ap
         raise ValueError("api_url must be provided")
 
     for key in edit_cache.keys():
-        if key[0] == text.strip():
+        if (
+            key[0] == text.strip()
+            or f"{key[0]}|||{source_lang}|||{target_lang}" == text.strip()
+        ):
             return edit_cache[key]
 
     key = (text, source_lang, target_lang)
@@ -474,7 +477,7 @@ def translate_markdown(
     """
     html_comment_start_pattern = re.compile(r'<!--')
     html_comment_end_pattern = re.compile(r'-->')
-    heading_pattern = re.compile(r'^\s*#{1,6}\s')
+    heading_pattern = re.compile(r'^\s{0,4}#{1,6}\s.*$')
     yaml_sep_pattern = re.compile(r'^\s*---\s*$')
 
     def translate_yaml_line(line: str) -> str:
@@ -580,10 +583,8 @@ def translate_markdown(
 
                     # Markdown heading
                     if heading_pattern.match(line):
-                        translated_line = preserve_links_code_mit_html(
-                            line, target_language, translation_cache, edit_cache, api_url
-                        )
-                        translated_lines.append(translated_line)
+                        # Exclude markdown headers from translation, just append as-is
+                        translated_lines.append(line)
                         i += 1
                         continue
 

@@ -18,24 +18,24 @@ Style Settings
 |-- 。
 ```
 
-## Opciones de configuración
+## Configuration Options
 
 ### Enable smooth cursor
 
 CSSClasse(s) targeted:`var(--flexcyon-enable-smooth-cursor)`
 Default:true
 
-### Smooth cursor duración de transición
+### Smooth cursor transition duration
 
 CSSClasse(s) targeted:`var(--flexcyon-cursor-duration)`
 Por defecto: 95 ms
 
-### Función de sincronización del cursor
+### Smooth cursor timing function
 
 CSSClasse(s) targeted:`var(--flexcyon-cursor-timing-fn)`
 Predeterminado: facilidad
 
-### Smooth cursor ancho mínimo
+### Smooth cursor minimum width
 
 CSSClasse(s) targeted:`var(--flexcyon-cursor-min-width)`
 Default:unset

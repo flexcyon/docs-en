@@ -3,7 +3,7 @@ title: 橙色标题
 icon: material/select-color
 ---
 
-点名元数据 : "标题 -橙
+点名元数据: "title-orange"
 
 ```md
 > [!info|title-orange] Title will be orange

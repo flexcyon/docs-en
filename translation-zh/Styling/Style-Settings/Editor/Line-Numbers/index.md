@@ -5,9 +5,9 @@ icon: material/line-scan
 
 配置行号和相对行号
 
-接受格式:HEX百分比,x.y
+接受格式:HEX,%,x.y
 
-□ 导航
+## Navigation
 
 ```md
 Style Settings
@@ -21,24 +21,24 @@ Style Settings
 |-- 。
 ```
 
-□ 配置选项
+## Configuration Options
 
-QQ 启用相对行号
+### Enable Relative Line Numbers
 
 CSS目标变量:`var(--flexcyon-enable-rel-nums)`
 默认 :false(类切换)
 
-* 不同线路的相对和正常行号
+### Relative and normal line numbers on different lines
 
 CSS目标变量:`var(--flexcyon-no-num-with-relative)`
 默认 :false
 
-### 只显示相对行号
+### Only display relative line numbers
 
 CSS目标变量:`var(--flexcyon-relative-num-only)`
 默认 :false
 
-### 配置相对行号样式
+### Configure Relative Line Number Style
 
 CSS目标变量:`var(--flexcyon-roman-rel-nums)`, (中文).
 ,
@@ -50,14 +50,14 @@ CSS目标变量:`var(--flexcyon-roman-rel-nums)`, (中文).
 -希腊语
 - 中国语
 
-### 将活动行号替换为字符串
+### Replace active line number with string
 用自己的字符串自定义活动行号,默认为“-
 >”
 
 CSS目标变量:`var(--flexcyon-repl-active-line-num-str)`
 默认 :false(类切换)
 
-### 已替换活动行号字符串值
+### Replaced active line number string value
 CSS目标变量:`var(-弹性-活性-线-str)
 
 默认: "-
