@@ -9,7 +9,7 @@ icon: material/format-color-fill
 .
 > 这些颜色超过了标准cssvar(- color- cyan) 等变量
 
-接受格式: RGB, HEX
+接受格式:RGB,HEX
 
 ## Navigation
 

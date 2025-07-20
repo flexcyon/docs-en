@@ -5,7 +5,7 @@ icon: material/line-scan
 
 配置行号和相对行号
 
-接受格式:HEX,%,x.y
+接受格式:HEX百分比,x.y
 
 ## Navigation
 

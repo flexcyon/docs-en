@@ -312,7 +312,7 @@ CSS目标变量:`var(--flexcyon-brightness-ratio)`
 CSS目标变量:`var(--flexcyon-contrast-ratio)`
 默认:1
 > 例如,如果想要像OLED屏幕上那样略作对比,请尝试数值
-> 1至1.5岁
+> 1 到1.
 
 ### Global saturation ratio
 

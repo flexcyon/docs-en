@@ -3,7 +3,7 @@ title: 全部橙色
 icon: material/format-color-fill
 ---
 
-点名元数据: "全橙色"
+点名元数据: "All-橙
 
 ```md
 > [!tip|all-orange] Title will be orange

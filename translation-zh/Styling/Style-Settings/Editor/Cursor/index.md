@@ -28,12 +28,12 @@ CSS目标类别:`var(--flexcyon-enable-smooth-cursor)`
 ### Smooth cursor transition duration
 
 CSS目标类别:`var(--flexcyon-cursor-duration)`
-默认: 95( ms)
+默认:42.5(毫秒)
 
 ### Smooth cursor timing function
 
 CSS目标类别:`var(--flexcyon-cursor-timing-fn)`
-默认: 容易
+默认: 便捷性
 
 ### Smooth cursor minimum width
 

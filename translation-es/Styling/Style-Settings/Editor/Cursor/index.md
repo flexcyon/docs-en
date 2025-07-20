@@ -28,12 +28,12 @@ Default:true
 ### Smooth cursor transition duration
 
 CSSClasse(s) targeted:`var(--flexcyon-cursor-duration)`
-Por defecto: 95 ms
+Por defecto: 42.5 ms
 
 ### Smooth cursor timing function
 
 CSSClasse(s) targeted:`var(--flexcyon-cursor-timing-fn)`
-Predeterminado: facilidad
+Predeterminado: facilidad-n
 
 ### Smooth cursor minimum width
 

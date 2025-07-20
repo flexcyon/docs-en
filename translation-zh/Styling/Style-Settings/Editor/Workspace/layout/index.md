@@ -28,8 +28,7 @@ Style Settings
 
 CSS目标类别:`.lexcyon-工作空间卡-挂载,
 ,
-.flexcyon-工作空间-缠绕-铺设,.flexcyon-工作空间-pl10k-铺设 '
-
+弹性工作空间倾斜排版, . flexcyon- 工作空间- pl10k- layout `
 默认: 无( 选择类)
 
 选项 :

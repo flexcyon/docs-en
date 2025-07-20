@@ -48,13 +48,13 @@ icon: material/numeric-1-box-outline
 
 - 大写、大写、小写标题和内容
 
-- RTL, LTR, (法语),Center标题和内容
+- 拉特尔,LTR Center标题和内容
 
 - 塔特加基(Vertical RTL)
 
 - 纵向LTR
 
-- 添加的css类用于
+- 已经添加了CSS 类(单位:千美元)
 
 - 塔特加基(Vertical RTL)
 
@@ -64,7 +64,7 @@ icon: material/numeric-1-box-outline
 
 - `@OWA/bennyyip`在 Obisidian 成员团体的Discord 上为 Tategaki 片断
 
-- `@Tuck`用于修改链接颜色的选项
+- `@Tuck`编辑Obsidian成员组 Discord 更改链接颜色的选项
 
 ## Version 0.1.1 Hotfixes
 

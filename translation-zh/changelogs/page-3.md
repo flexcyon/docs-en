@@ -11,7 +11,7 @@ icon: material/numeric-3-box-outline
 
 - 更改表格样式
 
-- 为标题指标、点名元数据添加 cssclass
+- 已经添加了CSS 类页 次
 倾斜点名标题和内容
 
 - 对日历插件添加支持

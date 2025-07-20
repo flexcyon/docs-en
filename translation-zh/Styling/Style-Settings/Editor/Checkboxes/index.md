@@ -38,7 +38,7 @@ Style Settings
 
 ## Configuration options
 
-接受格式:雷姆
+接受格式:rem
 
 ### Enable ASCII checkboxes
 
@@ -48,7 +48,7 @@ CSS目标变量:`var(--flexcyon-ascii-checkboxes-enabled)`
 ### ASCII checkboxes font size
 
 CSS目标变量:`var(--flexcyon-ascii-checkboxes-font-size)`
-默认: 1.2 (雷姆)
+默认: 1.2 (rem
 
 <span style="font-size: 1.2rem"
 >样本 ASCII 复选框字体大小</span>

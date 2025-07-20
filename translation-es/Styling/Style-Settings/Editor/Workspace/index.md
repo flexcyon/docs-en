@@ -44,10 +44,6 @@ Predeterminado: 0.55
 <span style="opacity: 0.55"
 >Elemento de vidrio</span>
 
-### Disable horizontal rules in reading mode
-CSSClasse(s) targeted:`var(--flexcyon-hr-no-reading)`
-Default:false(de clase)
-
 ### Top Actions alignment
 
 CSSVariable(s) targeted:`var(--flexcyon-top-actions-alignment)`

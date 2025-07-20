@@ -13,7 +13,7 @@ icon: material/book-open-blank-variant-outline
 
 # About Flexcyon
 
-一个将Halcyon和Flexoki的彩色方案结合起来的 Obsidian主题。
+页:1Obsidian主题结合了Halcyon和Flexoki的颜色方案。
 .
 
 我真的很喜欢充满活力的颜色
@@ -44,7 +44,7 @@ icon: material/book-open-blank-variant-outline
 - ASCII 复选框
 - 标题选项,如下划线、编号、彩色
 - 一个[plethora of cssclasses and callout customisation options](../Styling/CSS-Classes/index.md)
-- 工作空间布局,如卡片布局,带有TUI启发的加法,角度布局
+- 工作空间布局,如卡片布局,带有TUI启发加成,倾斜版式
 - 配置左侧、右侧栏和模式背景图像
 - 标签的动画选项
 - 还有。
@@ -63,7 +63,7 @@ icon: material/book-open-blank-variant-outline
 
 ### Recommended snippets
 
-这里有一些推荐的片段来添加到您的金库中,并与Flexcyon一起使用:
+这里有一些推荐片段来补充您笔记库并同时使用Flexcyon:
 
 - [CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
 - [Obsidian FileLink Styling by felixqueisler](https://github.com/felixqueisler/Obsidian-FileLink-Styling)
@@ -99,5 +99,5 @@ icon: material/book-open-blank-variant-outline
 
 ## License
 
-主题的许可可以找到[here](./license.md)
+那个许可证查找主题[here](./license.md)
 

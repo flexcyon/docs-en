@@ -6,7 +6,7 @@ icon: material/table-cog
 定义表格边框的颜色,以及读取模式中的表格宽度。
 .
 
-接受格式:HEX,%,x.y
+接受格式:HEX百分比,x.y
 
 ## Navigation
 

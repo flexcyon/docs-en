@@ -1,5 +1,5 @@
 ---
-title: 页 次
+title: 首頁
 icon: material/home
 ---
 

@@ -5,7 +5,7 @@ icon: material/align-horizontal-left
 
 # Usage
 
-水平应用 在读取模式中左对右( LTR) 到您的笔记
+水平应用 左对右LTR在读取模式下到注释
 
 ```md
 ---
@@ -15,7 +15,7 @@ cssclasses
 ```
 ## Callout metadata provider
 
-垂直 LTR 还有一个点名元数据提供者
+还有一个用于垂直的点名元数据提供者LTR
 ```md
 >[!info|vertical-ltr] The title will not display
 > The contents will be displayed as vertical ltr

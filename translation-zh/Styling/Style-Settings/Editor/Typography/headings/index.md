@@ -6,7 +6,7 @@ icon: material/format-header-pound
 定义CSS用于字体重等标题的样式变量。
 .
 
-接受格式: px, 数字, rem
+接受格式:px、数字、,rem
 
 ## Navigation
 
@@ -86,50 +86,50 @@ CSS目标变量:`var(--flexcyon-headings-indicator-h6)`
 #### Heading 1 font size
 
 CSS目标变量:`var(--h1-size)`
-默认: 1.81803 (em)
+默认 :1.1803 (他们)
 
 <h1 style="font-size: 1.81803em;"
->样本 h1</h1>
+>样本h1</h1>
 
 #### Heading 2 font size
 
 CSS目标变量:`var(--h2-size)`
-默认: 1.61803 (em)
+默认 :1.1803 (他们)
 
 <h2 style="font-size: 1.61803em;"
->样本 h2</h2>
+>样本h2</h2>
 
 #### Heading 3 font size
 
 CSS目标变量:`var(--h3-size)`
-默认: 1.41803 (em)
+默认 :1.1803 (他们)
 
 <h3 style="font-size: 1.41803em;"
->样本 h3</h3>
+>样本h3</h3>
 
 #### Heading 4 font size
 
 CSS目标变量:`var(--h4-size)`
-默认:1.21803(em)
+默认 :1.1803 (他们)
 
 <h4 style="font-size: 1.21803em;"
->样本 h4</h4>
+>样本h4</h4>
 
 #### Heading 5 font size
 
 CSS目标变量:`var(--h5-size)`
-默认: 1.11803(em)
+默认 :1.1803 (他们)
 
 <h5 style="font-size: 1.11803em;"
->样本 h5</h5>
+>样本h5</h5>
 
 #### Heading 6 font size
 
 CSS目标变量:`var(--h6-size)`
-默认: 1.01803 (em)
+默认 :1.1803 (他们)
 
 <h6 style="font-size: 1.01803em;"
->样本 h6</h6>
+>样本h6</h6>
 
  
 
@@ -141,7 +141,7 @@ CSS目标变量:`var(--h1-weight)`
 默认: 700
 
 <h1 style="font-weight: 700;"
->样本 h1</h1>
+>样本h1</h1>
 
 #### Heading 2 font weight
 
@@ -149,7 +149,7 @@ CSS目标变量:`var(--h2-weight)`
 默认: 675
 
 <h2 style="font-weight: 675;"
->样本 h2</h2>
+>样本h2</h2>
 
 #### Heading 3 font weight
 
@@ -157,7 +157,7 @@ CSS目标变量:`var(--h3-weight)`
 默认: 650
 
 <h3 style="font-weight: 650;"
->样本 h3</h3>
+>样本h3</h3>
 
 #### Heading 4 font weight
 
@@ -165,7 +165,7 @@ CSS目标变量:`var(--h4-weight)`
 默认: 625
 
 <h4 style="font-weight: 625;"
->样本 h4</h4>
+>样本h4</h4>
 
 #### Heading 5 font weight
 
@@ -173,7 +173,7 @@ CSS目标变量:`var(--h5-weight)`
 默认: 600
 
 <h5 style="font-weight: 600;"
->样本 h5</h5>
+>样本h5</h5>
 
 #### Heading 6 font weight
 
@@ -181,7 +181,7 @@ CSS目标变量:`var(--h6-weight)`
 默认: 575
 
 <h6 style="font-weight: 575;"
->样本 h6</h6>
+>样本h6</h6>
 
  
 
@@ -190,32 +190,32 @@ CSS目标变量:`var(--h6-weight)`
 #### Heading 1 line height
 
 CSS目标变量:`var(--h1-line-height)`
-默认: 1.2
+默认 :1.
 
 #### Heading 2 line height
 
 CSS目标变量:`var(--h2-line-height)`
-默认: 1.2
+默认 :1.
 
 #### Heading 3 line height
 
 CSS目标变量:`var(--h3-line-height)`
-默认: 1.3
+默认 :1.
 
 #### Heading 4 line height
 
 CSS目标变量:`var(--h4-line-height)`
-默认: 1.4
+默认 :1.
 
 #### Heading 5 line height
 
 CSS目标变量:`var(--h5-line-height)`
-默认: 1.5
+默认 :1.
 
 #### Heading 6 line height
 
 CSS目标变量:`var(--h6-line-height)`
-默认: 1.5
+默认 :1.
 
  
 

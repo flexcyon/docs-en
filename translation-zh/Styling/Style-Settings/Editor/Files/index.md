@@ -51,12 +51,12 @@ CSS目标变量:`var(--flexcyon-minimalist-tree)`
 ### Vertical Tree Item Padding
 
 CSS目标类别:`var(--flexcyon-tree-item-verti-padding)`
-默认: 1. 25 (px)
+默认: 2 (px)
 
 ### Horizontal Tree Item Padding
 
 CSS目标类别:`var(--flexcyon-tree-item-horiz-padding)`
-默认: 12 (px)
+默认: 10 (px)
 
 ### Wrap Long File Names
 将长文件名保存到新行, 而不是省略结尾部分 。

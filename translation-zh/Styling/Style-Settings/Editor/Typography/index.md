@@ -7,7 +7,7 @@ icon: material/format-text
 字体大小。
 .
 
-接受格式: HEX
+接受格式 :HEX
 
 ## Navigation
 
@@ -44,7 +44,7 @@ CSS目标变量: var(-flexcyon-highlight-verti-pating)
 CSS目标变量: var(-弹性-高光-平面);
 ;
 
-默认: 2.5 (px)
+默认 :2.(px) (韩语).
 
 ### Highlight Text Border Radius
 

@@ -5,7 +5,7 @@ icon: material/hexagon-outline
 
 用于配置官方支持的插件
 
-接受格式:HEX、雷姆、x.y、%
+接受格式: 汉斯,remx.y,% (单位:千美元)
 
 ## Navigation
 
@@ -25,7 +25,7 @@ Style Settings
 #### Folders font size
 
 CSS目标变量:`var(--oz-fta-folder-font-size)`
-默认: 0.925(雷姆)
+默认: 0.925 (rem
 
 <span style="font-size: 0.925rem"
 >样本 另选文件树文件夹字体大小</span>
@@ -59,7 +59,7 @@ CSS目标变量:`var(--oz-fta-all-panes-active-text-color)`
 #### Files font size
 
 CSS目标变量:`var(--oz-fta-file-font-size)`
-默认: 0.9(雷姆)
+默认: 0.9 (rem
 
 <span style="font-size: 0.9rem"
 >样本 替代文件树文件字体大小</san>
@@ -96,7 +96,7 @@ CSS目标变量:`var(--flexcyon-oz-dimmed-file-exts-enabled)`
 
 ### Full Calendar
 
-接受格式: x.y,%
+接受格式:x.y%
 
 #### Opacity of dimmed full calendar items
 
@@ -215,4 +215,4 @@ CSS目标类别:`var(--flexcyon-omnisearch-no-icons)`
 #### Omnisearch Body Left Margin
 
 CSS目标类别:`var(--flexcyon-omnisearch-body-margin-left-margin-left)`
-默认: 1.45(雷姆)
+默认: 1.45 (rem

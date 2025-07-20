@@ -7,7 +7,7 @@ icon: material/format-color-highlight
 以及其他UI元素。
 .
 
-接受格式: HEX
+接受格式 :HEX
 
 ## Navigation
 

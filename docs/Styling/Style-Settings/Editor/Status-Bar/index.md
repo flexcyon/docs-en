@@ -96,7 +96,7 @@ Default: false (class toggle)
 
 CSS Variable(s) targeted: `var(--status-bar-font-size)`
 
-Default: 12.5 (px)
+Default: 13.753255 (px)
 
 #### Select status bar style
 
@@ -115,4 +115,3 @@ Options:
 CSS Variable(s) targeted: `var(--flexcyon-status-text-enable-color)`
 
 Default: false (class toggle)
-

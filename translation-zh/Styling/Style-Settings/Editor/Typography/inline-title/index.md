@@ -30,7 +30,7 @@ Style Settings
 ### Inline title font size
 
 CSS目标变量:`var(--inline-title-size)`
-默认: 1.802(em)
+默认 :1.02(他们)
 
 ### Inline title font weight
 
@@ -40,5 +40,5 @@ CSS目标变量:`var(--inline-title-weight)`
 ### Inline title font height
 
 CSS目标变量:`var(--inline-title-height)`
-默认: 1.2
+默认 :1.
 

@@ -85,12 +85,11 @@ CSS目标变量:`var(--flexcyon-status-mobile-enabled)`
 #### Status bar font size
 
 CSS目标变量:`var(--status-bar-font-size)`
-默认: 12.5 (px)
+默认: 13.753255(px)
 
 #### Select status bar style
 
-CSS目标类别:`.lexcyon-status-states-trounded,
-,
+CSS目标类别:`.lexcyon-status-style-倾斜
 .flexcyon-status-style-card,.flexcyon-status-style-pl10k ' .
 
 默认: 无( 选择类)
@@ -104,4 +103,3 @@ CSS目标类别:`.lexcyon-status-states-trounded,
 
 CSS目标变量:`var(--flexcyon-status-text-enable-color)`
 默认 :false(类切换)
-

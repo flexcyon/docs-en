@@ -9,11 +9,11 @@ title: 工具和软件
 
 ### Base application
 
-- 犹太教
+- Obsidian
 
 ### Web Showcase
 
-- Absidian 共享注释插件
+- Obsidian共享注释插件
 
 ### Web Technologies
 

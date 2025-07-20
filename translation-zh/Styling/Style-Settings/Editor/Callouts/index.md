@@ -7,7 +7,7 @@ tags:
 
 配置呼叫的样式
 
-接受格式: px、rem、em、s
+接受格式 : px,rem额,斯
 
 ## Navigation
 
@@ -33,7 +33,7 @@ CSS目标变量:`var(--flexcyon-callout-icon-right-padding)`
 ### First Codeblock Margin Top
 
 CSS目标变量:`var(--flexcyon-callout-first-codeblock-margin-top)`
-默认:1(雷姆)
+默认:1 (rem
 
 ### Callout Metadata Background Opacity
 

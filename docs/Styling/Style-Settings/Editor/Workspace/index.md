@@ -45,12 +45,6 @@ Default: 0.55
 
 <span style="opacity: 0.55">Sample dimmed element</span>
 
-### Disable horizontal rules in reading mode
-CSS Classe(s) targeted: `var(--flexcyon-hr-no-reading)`
-
-Default: false (class toggle)
-
-
 ### Top Actions alignment
 
 CSS Variable(s) targeted: `var(--flexcyon-top-actions-alignment)`

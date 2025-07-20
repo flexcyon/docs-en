@@ -4,7 +4,7 @@ icon: material/file-edit
 ---
 
 在此子页面中,您可以在
-央视编辑。
+Obsidian编辑。
 .
 
 ## Navigation

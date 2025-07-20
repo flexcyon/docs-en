@@ -6,7 +6,7 @@ icon: material/cogs
 用于自定义设置中各种 UI 方面的外观 。
 .
 
-接受格式: x.y, rem, px
+接受格式: x.y ,remưμ㼯a
 
 ## Navigation
 
@@ -48,7 +48,7 @@ CSS目标变量:`var(--flexcyon-comm-item-opacity)`
 ### Installed tooltip left margin
 
 CSS目标变量:`var(--flexcyon-settings-installed-tooltip-left-margin)`
-默认:1(雷姆)
+默认:1 (rem
 
 ### Do not show scrollbar in settings
 

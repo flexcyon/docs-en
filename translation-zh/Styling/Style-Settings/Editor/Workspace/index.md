@@ -6,7 +6,7 @@ icon: material/layers-triple-outline
 启用可读行长时定义文件行宽度, 暗淡的不透明
 UI 元素, 在效果中使用的图标的升阶百分比
 
-接受格式: x.y, rem
+接受格式: x.y ,rem
 
 ## Navigation
 
@@ -27,7 +27,7 @@ Style Settings
 ### File line width
 
 CSS目标变量:`var(--file-line-width)`
-默认: 50( 缩写)
+默认: 50 (rem
 
 ### Opacity of dimmed elements
 
@@ -43,10 +43,6 @@ CSS目标类别:`var(--flexcyon-block-label-opacity)`
 
 <span style="opacity: 0.55"
 >样本稀释元素</span>
-
-### Disable horizontal rules in reading mode
-CSS目标类别:`var(--flexcyon-hr-no-reading)`
-默认 :false(类切换)
 
 ### Top Actions alignment
 
