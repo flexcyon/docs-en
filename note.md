@@ -29,3 +29,6 @@ translation.
 
 - Add more languages?
 
+## TODO
+- [ ] Split file into modules
+- [ ] Continue refactor 
