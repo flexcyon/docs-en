@@ -5,7 +5,7 @@ site_description: >-
 
 repo_url: https://github.com/bladeacer/flexcyon
 repo_name: bladeacer/flexcyon
-copyright: Copyright &copy; bladeacer 2025
+copyright: Copyright &copy; <a href="https://github.com/bladeacer" target="_blank" rel="noopener noreferrer">bladeacer</a> 2025
 
 plugins:
   - search:
@@ -25,11 +25,14 @@ plugins:
         - locale: zh
           default: true
           name: 简体中文
-          link: /docs-en/zh/
+          link: /zh/
           build: true
           site_name: Flexcyon 主题文档
           nav_translations:
             Foreword: 前言
+            README: 自述
+            About: 关于
+            copyright: 版权
   - git-revision-date-localized:
       enable_creation_date: true
 extra_css:
@@ -38,7 +41,7 @@ theme:
   name: material
   language: en
   custom_dir: docs/overrides
-  include_search_page: false
+  include_search_page: true
   search_index_only: true
   icon:
     repo: material/github
@@ -59,8 +62,8 @@ theme:
         icon: material/brightness-4
         name: Switch to dark mode
   font:
-    text: Source Sans Pro
-    code: Source Code Pro
+    text: Roboto Slab
+    code: Roboto Mono
 
   features:
     - header.autohide
@@ -89,3 +92,5 @@ theme:
 
 nav:
   - Foreword: "index.md"
+  - README: 
+    - About: "README/index.md"
