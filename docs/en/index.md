@@ -17,6 +17,7 @@ icon: material/home
 
 This hosts the English documentation for the
 [flexcyon theme](https://github.com/bladeacer/flexcyon).
+> The site is undergoing a re-struture, some links and sites may be broken.
 
 ## Quick Links
 
@@ -42,3 +43,4 @@ Here are some links you may be looking for.
 
 Comments on this website uses the GitHub discussions in the source
 code repository (`bladeacer/flexcyon`) as a back-end.
+
