@@ -1,5 +1,5 @@
 site_name: Flexcyon Theme Docs
-site_url: https://flexcyon-docs.readthedocs.io/
+site_url: https://flexcyon.github.io/docs-en
 site_description: >-
   Documentation for the Flexcyon Theme.
 
@@ -25,7 +25,7 @@ plugins:
         - locale: zh
           default: true
           name: 简体中文
-          link: /zh/
+          link: /docs-en/zh/
           build: true
           site_name: Flexcyon 主题文档
           nav_translations:
