@@ -32,7 +32,9 @@ plugins:
             Foreword: 前言
             README: 自述
             About: 关于
-            copyright: 版权
+            Copyright: 版权
+            Screenshots: 截屏 
+            Installation: 下载
   - git-revision-date-localized:
       enable_creation_date: true
 extra_css:
@@ -94,3 +96,5 @@ nav:
   - Foreword: "index.md"
   - README: 
     - About: "README/index.md"
+    - Screenshots: "README/page-1.md"
+    - Installation: "README/page-2.md"

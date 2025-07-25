@@ -1,5 +1,5 @@
 ---
-title: 前言
+title: Foreword
 icon: material/home
 ---
 

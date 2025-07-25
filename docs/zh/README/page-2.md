@@ -3,32 +3,30 @@ title: Installation
 icon: material/download
 ---
 
-# Via Community Store (recommended)
+# 通过社区主题商店 (推荐)
 
-To install this theme via the community store, navigate to  `Settings > Appearance`
+若您要通过社区商店下载此主题, 请导航到 `设置 > 外观`。
 
-1. Under `Themes`, click Manage
+1. 在 `主题` 下，单击管理。
 
-2. `Type "Flexcyon in the search bar > Select it > Click "Install and Use"`
+2. 在搜索栏中键入 `Flexcyon`, 选择它然后单击下载和使用。
 
-## Via BRAT
+## 通过 BRAT
 
-To install this theme via BRAT, navigate to `Settings > Community Plugins > Browse`
+若您要通过BRAT安装此主题，请导航到 `设置 > 第三方插件 > 浏览`。
 
-1. `Type "BRAT" in the search bar > Select it (the one by TftHacker) > Click install`
+1. 在搜索栏中键入 `BRAT`, 选择它(TftHacker 的), 然后单击安装。
 
-2. Wait for installation to complete then click `Enable`
+2. 等待安装完成, 然后单击 `启用`
 
-3. Click `Options`
+3. 单击 `选项`
 
-4. Click `Add Beta Theme`
+4. 单击 `Add Beta Theme`
 
-5. Input `https://github.com/bladeacer/flexcyon` and then click `Add Theme`
+5. 输入 `https://github.com/bladeacer/flexcyon`, 然后单击 `Add Theme`
 
-## Style Settings Plugin
+## 样式设置插件
 
-Installation of Style Settings is highly recommended for this theme, as most
-customisation and functionality is built around it.
+强烈建议为此主题安装 `Style Settings` 插件, 因为大多数定制和功能都是围绕它构建的。
 
-Documentation for style settings of this theme can be found [here](../Styling/Style-Settings/index.md)
-
+[单击此处](../Styling/Style-Settings/index.md) 查看此主题样式设置的文档

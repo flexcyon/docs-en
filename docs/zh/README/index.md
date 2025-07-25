@@ -1,5 +1,5 @@
 ---
-title: 自述
+title: README
 icon: material/book-open-blank-variant-outline
 ---
 
