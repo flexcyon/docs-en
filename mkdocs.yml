@@ -43,7 +43,7 @@ theme:
   name: material
   language: en
   custom_dir: docs/overrides
-  include_search_page: true
+  include_search_page: false
   search_index_only: true
   icon:
     repo: material/github
