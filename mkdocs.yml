@@ -31,14 +31,20 @@ plugins:
           nav_translations:
             Foreword: 前言
             README: 自述
-            About: 关于
+            About: 关于主题
             Copyright: 版权
-            Screenshots: 截屏 
+            Screenshots: 截图 
             Installation: 下载
+            Extensions: 附加插件或 CSS
+            Design Principles: 设计原则
+            License: 许可证
+            Roadmap: 路线图
+            Credits: 鸣谢
+            Contributors: 贡献者
   - git-revision-date-localized:
       enable_creation_date: true
 extra_css:
-  - docs/stylesheets/styles.css
+  - ./stylesheets/styles.css
 theme:
   name: material
   language: en
@@ -98,3 +104,9 @@ nav:
     - About: "README/index.md"
     - Screenshots: "README/page-1.md"
     - Installation: "README/page-2.md"
+    - Extensions: "README/page-3.md"
+    - Design Principles: "README/page-4.md"
+    - License: "README/license.md"
+    - Roadmap: "README/roadmap.md"
+  - Credits:
+    - Contributors: "credits/index.md"

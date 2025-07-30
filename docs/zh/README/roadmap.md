@@ -4,29 +4,27 @@ tags:
     - logs
 ---
 
-# Roadmap
+# 路线图
 
-The roadmap will not be updated often. However, it represents some features I
-wish to add but may be too time-consuming for me to handle.
+路线图不会经常更新。
+然而, 它代表了我想添加的一些功能, 但对我来说可能太耗时。
 
-## Misc
+## 未分类
 
-- Add better screenshots
+- 添加更好的截图
+- 具有测试特征奇偶性的亮暗模式
+- 添加更多ASCII和剪辑路径复选框
+- 添加文档翻译中支持的更多语言
 
-> Add more CSS classes
 
-### Plugins/snippets
+### 插件 / CSS
 
-- Support more plugins
-  - Could also look at:
-    - Tasks
-    <!-- - Excalidraw (too difficult to style) -->
-    - QuickAdd (override default css variables)
-    - Vertical Tabs etc
+- 支持更多插件, 例如:
+  - 任务
+  - QuickAdd 插件 (覆盖默认css变量)
+  - Vertical Tabs 插件等
 - `publish.css`
 
-### Other styling options
+### 其他造型选项
 
-- Mermaid Chart Styling
-<!-- - [ ] PDF export styling (class select). Not happening when it is 
-impossible to debug -->
+- PDF 导出样式

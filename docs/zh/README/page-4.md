@@ -5,18 +5,16 @@ tags:
     - styling
 ---
 
-This theme sets out to achieve the following
+这主题希望实现以下的目标:
 
-1. Be "reasonably opinionated", bundle features users use and cover some niche 
-ones too.
+1. 保持**"合理的固执己见"**, 捆绑用户使用的功能, 并涵盖一些不常见的用例。
 
-2. Be decently lightweight, this means *no embeds* (no fonts, SVGs)
+2. "相当轻", 这意味着主题*没有嵌入* (字体, SVG)
 
-3. Sane defaults
+3. 合理的默认设置
 
-4. Customisable with Style Settings
+4. 可使用 Style Settings 插件定制样式
 
-5. Dim inactive or unfocused UI elements to reduce information overload
+5. 淡化非活动或未聚焦的 UI 元素, 以减少信息过载
 
-6. Bundle numerous callout metadata utilites and cssclasses.
-
+6. 包括许多 callout 元数据实用程序和 cssclasses

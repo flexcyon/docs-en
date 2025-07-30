@@ -59,7 +59,7 @@ icon: material/book-open-blank-variant-outline
 - [这 Discord 线程](https://discord.com/channels/686053708261228577/1338130333698359357).
 - [这 Obsidian 论坛主题](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)
 
-或者, 您可以在存储库中[打开问题](https://github.com/bladeacer/flexcyon/issues)，或者在[此处开始 GitHub 讨论](https://github.com/bladeacer/flexcyon/discussions)。
+或者, 您可以在存储库中[打开问题](https://github.com/bladeacer/flexcyon/issues), 或者在[此处开始 GitHub 讨论](https://github.com/bladeacer/flexcyon/discussions)。
 
 ## 设计原则
 

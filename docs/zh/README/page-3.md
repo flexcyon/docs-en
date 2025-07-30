@@ -1,5 +1,5 @@
 ---
-title: Supported Extensions
+title: Extensions
 icon: material/hexagon-multiple-outline
 tags:
     - plugins
@@ -7,34 +7,33 @@ tags:
     - styling
 ---
 
-The following plugins/snippets are officially supported
-> For plugins/snippets that are not styled yet, feel free to
-> open a Pull Request/Feature Request/start a Discussion on it.
+官方支持以下插件/CSS。
+> 对于尚未设置样式的插件, 请随时在 GitHub 打开 Pull Request/Feature Request 或者开始讨论。
 
-## Plugins
+## 插件
 
-[File Tree Alternative by Ozan Tellioglu](https://github.com/ozntel/file-tree-alternative)
+[Ozan Tellioglu 的 File Tree Alternative 插件](https://github.com/ozntel/file-tree-alternative)
 
-[Highlightr by Chetachi](https://github.com/chetachiezikeuzor/Highlightr-Plugin)
+[Chetachi 的 Highlightr 插件](https://github.com/chetachiezikeuzor/Highlightr-Plugin)
 
-[Minitabs by ssjy1919](https://github.com/ssjy1919/Obsidian-minitabs)
+[ssjy1919 的 Minitabs 插件](https://github.com/ssjy1919/Obsidian-minitabs)
 
-[Full Calendar by Davis Haupt](https://github.com/obsidian-community/obsidian-full-calendar)
+[Davis Haupt 的 Full Calendar 插件](https://github.com/obsidian-community/obsidian-full-calendar)
 
-[Breadcrumbs by SkepticMystic](https://github.com/SkepticMystic/breadcrumbs)
+[SkepticMystic 的 Breadcrumbs 插件](https://github.com/SkepticMystic/breadcrumbs)
 
-[Spaced Repetition by Stephen Mwangi](https://github.com/st3v3nmw/obsidian-spaced-repetition)
+[Stephen Mwangi 的 Spaced Repetition 插件](https://github.com/st3v3nmw/obsidian-spaced-repetition)
 
-[Dataview by Michael Brenan](https://github.com/blacksmithgu/obsidian-dataview)
+[Michael Brenan 的 Dataview 插件](https://github.com/blacksmithgu/obsidian-dataview)
 
-[Vault Statistics by Bryuan Kyle](https://github.com/bkyle/obsidian-vault-statistics-plugin)
+[Bryuan Kyle 的 Vault Statistics 插件](https://github.com/bkyle/obsidian-vault-statistics-plugin)
 
-[Calendar by Liam Cain](https://github.com/liamcain/obsidian-calendar-plugin)
+[Liam Cain 的 Calendar 插件](https://github.com/liamcain/obsidian-calendar-plugin)
 
-[Kanban by mgmyers](https://github.com/mgmeyers/obsidian-kanban)
+[mgmyers 的 Kanban 插件](https://github.com/mgmeyers/obsidian-kanban)
 
-[Omnisearch by scambier](https://github.com/scambier/obsidian-omnisearch)
+[scambier 的 Omnisearch 插件](https://github.com/scambier/obsidian-omnisearch)
 
-## Snippets
+## CSS
 
-[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
+[HandaArchitect 的 CSS Banners](https://github.com/HandaArchitect/obsidian-banner-snippet)
