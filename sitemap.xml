@@ -2,114 +2,142 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://flexcyon.github.io/docs-en/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/README/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/README/license/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/license/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/license/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/README/page-1/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/page-1/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/page-1/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/README/page-2/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/page-2/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/page-2/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/README/page-3/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/page-3/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/page-3/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/README/page-4/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/page-4/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/page-4/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/README/roadmap/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/roadmap/"/>
     </url>
     <url>
+        <loc>https://flexcyon.github.io/docs-en/credits/</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/credits/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/credits/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/credits/page-1/</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/credits/page-1/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/credits/page-1/"/>
+    </url>
+    <url>
         <loc>https://flexcyon.github.io/docs-en/zh/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/README/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/README/license/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/license/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/license/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/README/page-1/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/page-1/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/page-1/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/README/page-2/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/page-2/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/page-2/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/README/page-3/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/page-3/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/page-3/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/README/page-4/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/page-4/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/page-4/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/README/roadmap/</loc>
-        <lastmod>2025-07-24</lastmod>
+        <lastmod>2025-07-30</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/README/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/README/roadmap/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/zh/credits/</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/credits/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/credits/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/zh/credits/page-1/</loc>
+        <lastmod>2025-07-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/credits/page-1/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/credits/page-1/"/>
     </url>
 </urlset>
