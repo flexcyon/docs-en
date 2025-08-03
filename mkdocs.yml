@@ -41,6 +41,9 @@ plugins:
             Roadmap: 路线图
             Credits: 鸣谢
             Contributors: 贡献者
+            Styling: 样式
+            Style Settings: 样式设置
+            Tools and Software: 工具与软件
   - git-revision-date-localized:
       enable_creation_date: true
 extra_css:
@@ -110,3 +113,41 @@ nav:
     - Roadmap: "README/roadmap.md"
   - Credits:
     - Contributors: "credits/index.md"
+    - Tools and Software: "credits/page-1.md"
+  - Styling:
+    - Styling: "Styling/index.md"
+    - Style Settings:
+      - Style Settings: "Styling/Style-Settings/index.md"
+      - Modes: "Styling/Style-Settings/Modes/index.md"
+      - Editor: 
+        - Editor: "Styling/Style-Settings/Editor/index.md"
+        - Accent Colors: "Styling/Style-Settings/Editor/Accent-Colors/index.md"
+        - Base Colors: "Styling/Style-Settings/Editor/Base-Colors/index.md"
+        - Typography: "Styling/Style-Settings/Editor/Typography/index.md"
+        - Headings: "Styling/Style-Settings/Editor/Headings/index.md"
+        - Inline Title: "Styling/Style-Settings/Editor/Inline-Title/index.md"
+        - Code Blocks: "Styling/Style-Settings/Editor/Code-Blocks/index.md"
+        - UI Font Size: "Styling/Style-Settings/Editor/UI-Font-Size/index.md"
+        - Table: "Styling/Style-Settings/Editor/Table/index.md"
+        - Files: "Styling/Style-Settings/Editor/Files/index.md"
+        - Workspace:
+          - Workspace: "Styling/Style-Settings/Editor/Workspace/index.md"
+          - Prompts: "Styling/Style-Settings/Editor/Workspace/prompts/index.md"
+        - Animations: "Styling/Style-Settings/Editor/Animations/index.md"
+        - Editor Background: "Styling/Style-Settings/Editor/Editor-Background/index.md"
+        - Layout: "Styling/Style-Settings/Editor/Layout/index.md"
+        - Callouts: "Styling/Style-Settings/Editor/Callouts/index.md"
+        - Horizontal Rule: "Styling/Style-Settings/Editor/Horizontal-Rule/index.md"
+        - Checkboxes: "Styling/Style-Settings/Editor/Checkboxes/index.md"
+        - Bullet Lists: "Styling/Style-Settings/Editor/Bullet-Lists/index.md"
+        - Numbered Lists: "Styling/Style-Settings/Editor/Numbered-Lists/index.md"
+        - Media: "Styling/Style-Settings/Editor/Media/index.md"
+        - Links: "Styling/Style-Settings/Editor/Links/index.md"
+        - Properties: "Styling/Style-Settings/Editor/Properties/index.md"
+        - Status Bar: "Styling/Style-Settings/Editor/Status-Bar/index.md"
+        - Title Bar: "Styling/Style-Settings/Editor/Title-Bar/index.md"
+        - Line Numbers: "Styling/Style-Settings/Editor/Line-Numbers/index.md"
+        - Cursor: "Styling/Style-Settings/Editor/Cursor/index.md"
+        - Graph: "Styling/Style-Settings/Editor/Graph/index.md"
+        - View Header: "Styling/Style-Settings/Editor/View-Header/index.md"
+        - Icons: "Styling/Style-Settings/Editor/Icons/index.md"

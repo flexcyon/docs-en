@@ -36,7 +36,7 @@ and its documentation.
 
 - MkDocs
 
-  - and the awesome ecosystem built around it
+      - and the awesome ecosystem built around it
 
 - Material for MkDocs
 

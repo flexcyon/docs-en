@@ -3,43 +3,43 @@ icon: material/server
 title: Tools and Software
 ---
 
-The following tools and software were indispensable in the making of the theme
-and its documentation.
+以下工具和软件是制作主题不可或缺的及其文件。
 
-### Base application
+### 基础应用程序
 
 - Obsidian
 
-### Web Showcase
+### 网络展示
 
 - Obsidian Share Note plugin
 
-### Web Technologies
+### Web 技术
 
 - CSS
 
 - SCSS
 
-### Text Editors
+### 文本编辑器
 
 - Vim
 
 - VS Code
 
-### Version Control
+### 版本控制
 
 - Git
 
 - GitHub
 
-### Documentation
+### 文件
 
 - MkDocs
 
-  - and the awesome ecosystem built around it
+      - 以及围绕它构建的出色工具
 
 - Material for MkDocs
 
 - ReadTheDocs
 
 - Giscus
+
