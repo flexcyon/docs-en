@@ -57,8 +57,6 @@ Enables the following settings, even if they are toggled off in style settings
 
 ~ ASCII checkboxes
 
-~ Coloured headings
-
 ~ Hide until hover status bar
 
 ~ Current status bar editing mode as text instead of icon
