@@ -1,5 +1,5 @@
 ---
-title: Extended color palette - Combined Styling
+title: Extended Colour Palette Combined
 icon: material/palette-outline
 ---
 

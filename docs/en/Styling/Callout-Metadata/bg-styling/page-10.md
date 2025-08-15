@@ -1,5 +1,5 @@
 ---
-title: Extended color palette - Background
+title: Extended Colour Palette Background
 icon: material/palette-outline
 ---
 
