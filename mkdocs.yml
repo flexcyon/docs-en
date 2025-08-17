@@ -261,4 +261,37 @@ nav:
       - Interface Font Title: "Styling/Callout-Metadata/title-styling/page-31.md"
       - Text Font Title: "Styling/Callout-Metadata/title-styling/page-32.md"
       - Monospace Font Title: "Styling/Callout-Metadata/title-styling/page-33.md"
+  - CSS Classes:
+    - CSS Classes: "Styling/CSS-Classes/index.md"
+    - Editor Background: 
+      - Editor Background: "Styling/CSS-Classes/editor-background/index.md" 
+      - Dotted Background: "Styling/CSS-Classes/editor-background/page-1.md" 
+      - Grid Background: "Styling/CSS-Classes/editor-background/page-2.md" 
+      - Rhombus Background: "Styling/CSS-Classes/editor-background/page-3.md" 
+    - File Line Width:
+      - File Line Width: "Styling/CSS-Classes/file-line-width/index.md"
+    - Heading Indicators:
+      - Heading Indicators: "Styling/CSS-Classes/heading-indicators/index.md"
+      - Heading 1 Indicators: "Styling/CSS-Classes/heading-indicators/page-1.md"
+      - Heading 2 Indicators: "Styling/CSS-Classes/heading-indicators/page-2.md"
+      - Heading 3 Indicators: "Styling/CSS-Classes/heading-indicators/page-3.md"
+      - Heading 4 Indicators: "Styling/CSS-Classes/heading-indicators/page-4.md"
+      - Heading 5 Indicators: "Styling/CSS-Classes/heading-indicators/page-5.md"
+      - Heading 6 Indicators: "Styling/CSS-Classes/heading-indicators/page-6.md"
+    - Vertical Alignment:
+      - Vertical Alignment: "Styling/CSS-Classes/vertical-alignment/index.md"
+      - LTR Vertical Alignment: "Styling/CSS-Classes/vertical-alignment/page-1.md"
+      - Tategaki Vertical Alignment: "Styling/CSS-Classes/vertical-alignment/page-2.md"
+    - Writing Mode:
+      - Writing Mode: "Styling/CSS-Classes/writing-mode/index.md"
+  - Changelogs:
+    - Changelogs: "changelogs/index.md"
+    - Beta:
+      - Beta: "changelogs/beta/index.md"
+      - Version 0.1.x: "changelogs/beta/page-1.md"
+      - Version 0.2.x: "changelogs/beta/page-2.md"
+      - Version 0.3.x: "changelogs/beta/page-3.md"
+      - Version 0.4.x: "changelogs/beta/page-4.md"
+      - Version 0.5.x: "changelogs/beta/page-5.md"
+      - Version 0.6.x: "changelogs/beta/page-6.md"
   - Tags: "tags.md"

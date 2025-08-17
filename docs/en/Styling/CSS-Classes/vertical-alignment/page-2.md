@@ -16,5 +16,12 @@ cssclasses
 ---
 ```
 
-Add link to tategaki in callout
+## Callout metadata provider
+
+There is also a callout metadata provider for Tategaki
+
+```md
+>[!info|tategaki] The title will not display
+> The contents will be displayed as vertical rtl
+```
 
