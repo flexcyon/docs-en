@@ -3,11 +3,11 @@ title: Typography
 icon: material/format-text
 ---
 
-Defined colors for muted text color
+定义静音文本颜色的颜色
 
-Accepted Formats: HEX
+接受的格式: HEX
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -21,29 +21,29 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Muted text color
+### 静音文本颜色
 
-CSS Variable(s) targeted: `var(--flexcyon-text-muted)`
+目标 CSS 变量: `var(--flexcyon-text-muted)`
 
-Default:
+默认:
 <span class="col-sqr" style="background-color: #6f768599"></span> #6f768599
 
-### Highlight Text Vertical Padding
+### 突出显示文本垂直填充
 
-CSS Variable(s) targeted: var(--flexcyon-highlight-verti-padding)
+目标 CSS 变量: `var(--flexcyon-highlight-verti-padding)`
 
-Default: 1 (px)
+默认: 1 (px)
 
-### Highlight Text Horizontal Padding
+### 突出显示文本水平填充
 
-CSS Variable(s) targeted: var(--flexcyon-highlight-horiz-padding)
+目标 CSS 变量: `var(--flexcyon-highlight-horiz-padding)`
 
-Default: 2.5 (px)
+默认: 2.5 (px)
 
-### Highlight Text Border Radius
+### 突出显示文本边框圆角
 
-CSS Variable(s) targeted: var(--flexcyon-highlight-border-radius)
+目标 CSS 变量: `var(--flexcyon-highlight-border-radius)`
 
-Default: 4 (px)
+默认: 4 (px)

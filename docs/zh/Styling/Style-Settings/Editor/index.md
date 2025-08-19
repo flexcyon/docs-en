@@ -3,10 +3,9 @@ title: Editor
 icon: material/file-edit
 ---
 
-In this sub-page, you can find usage examples for styling of elements in the
-Obsidian editor.
+在此子页面中, 您可以找到 Obsidian 编辑器中元素样式的使用示例。
 
-## Navigation
+## 导航
 
 ```md
 Style Settings

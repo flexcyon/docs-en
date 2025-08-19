@@ -3,7 +3,7 @@ title: Typography
 icon: material/format-text
 ---
 
-Defined colors for muted text color
+Defines colors for muted text color
 
 Accepted Formats: HEX
 
@@ -13,11 +13,11 @@ Accepted Formats: HEX
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Typography
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- ...
+| | |-- Typography
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -32,18 +32,18 @@ Default:
 
 ### Highlight Text Vertical Padding
 
-CSS Variable(s) targeted: var(--flexcyon-highlight-verti-padding)
+CSS Variable(s) targeted: `var(--flexcyon-highlight-verti-padding)`
 
 Default: 1 (px)
 
 ### Highlight Text Horizontal Padding
 
-CSS Variable(s) targeted: var(--flexcyon-highlight-horiz-padding)
+CSS Variable(s) targeted: `var(--flexcyon-highlight-horiz-padding)`
 
 Default: 2.5 (px)
 
 ### Highlight Text Border Radius
 
-CSS Variable(s) targeted: var(--flexcyon-highlight-border-radius)
+CSS Variable(s) targeted: `var(--flexcyon-highlight-border-radius)`
 
 Default: 4 (px)

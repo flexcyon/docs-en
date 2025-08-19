@@ -3,14 +3,13 @@ title: Accent Colors
 icon: material/format-color-fill
 ---
 
-Defined colors overrides theme defaults for heading colors and other UI elements.
-Also includes overriding the accent colors.
+定义的颜色会覆盖标题颜色和其他UI元素的主题默认值。还包括覆盖强调色。
 
-> These colors overrides the standard css variables like var(--color-cyan)
+> 这些颜色覆盖了标准 CSS 变量, 如 `var(--color-cyan)`
 
-Accepted Formats: RGB, HEX
+接受的格式: RGB, HEX
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -23,100 +22,100 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Cyan Color
+### 青色
 
-CSS Variable(s) targeted: `var(--flexcyon-cyan)`, `var(--color-cyan-rgb)`
+目标 CSS 变量: `var(--flexcyon-cyan)`, `var(--color-cyan-rgb)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #3b9ba1"></span> #3b9ba1
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #3cb9c2"></span> #3cb9c2
 
-### Green Color
+### 绿色
 
-CSS Variable(s) targeted: `var(--flexcyon-lime-green)`, `var(--color-green-rgb)`
+目标 CSS 变量: `var(--flexcyon-lime-green)`, `var(--color-green-rgb)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #689523"></span> #689523
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #a1c05c"></span> #a1c05c
 
-### Orange Color
+### 橙色
 
-CSS Variable(s) targeted: `var(--flexcyon-orange)`, `var(--color-orange-rgb)`
+目标 CSS 变量: `var(--flexcyon-orange)`, `var(--color-orange-rgb)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #ed8126"></span> #ed8126
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #cc8449"></span> #cc8449
 
-### Yellow Color
+### 黄色
 
-CSS Variable(s) targeted: `var(--flexcyon-yellow)`, `var(--color-yellow-rgb)`
+目标 CSS 变量: `var(--flexcyon-yellow)`, `var(--color-yellow-rgb)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #e8c62a"></span> #e8c62a
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #c29e42"></span> #c29e42
 
-### Purple Color
+### 紫色
 
-CSS Variable(s) targeted: `var(--flexcyon-purple-lilac)`, `var(--color-purple-rgb)`
+目标 CSS 变量: `var(--flexcyon-purple-lilac)`, `var(--color-purple-rgb)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
 
-### Red Color
+### 红色
 
-CSS Variable(s) targeted: `var(--flexcyon-red-salmon)`, `var(--color-red-rgb)`
+目标 CSS 变量: `var(--flexcyon-red-salmon)`, `var(--color-red-rgb)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #eb5325"></span> #eb5325
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #c03a47"></span> #c03a47
 
-### Blue Color
+### 蓝色
 
-CSS Variable(s) targeted: `var(--flexcyon-blue)`, `var(--color-blue-rgb)`
+目标 CSS 变量: `var(--flexcyon-blue)`, `var(--color-blue-rgb)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #5c9fe4"></span> #5c9fe4
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #5a8fcd"></span> #5a8fcd
 
-### Pink Color
+### 粉红色
 
-CSS Variable(s) targeted: `var(--flexcyon-pink)`, `var(--color-pink-rgb)`
+目标 CSS 变量: `var(--flexcyon-pink)`, `var(--color-pink-rgb)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #e389ca"></span> #e389ca
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #d458a3"></span> #d458a3
 
-### Accent Color
+### 强调色
 
-CSS Variable(s) targeted: `var(--flexcyon-accent)`
+目标 CSS 变量: `var(--flexcyon-accent)`
 
-Default (dark mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #5770b9"></span> #5770b9
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #92a871"></span> #92a871
 
-### Enabled Extended Color Palette
+### 启用扩展调色板
 
-CSS Variable(s) targeted: `var(--flexcyon-ext-colors-enabled)`
+目标 CSS 变量: `var(--flexcyon-ext-colors-enabled)`
 
-Default: true
+默认: true

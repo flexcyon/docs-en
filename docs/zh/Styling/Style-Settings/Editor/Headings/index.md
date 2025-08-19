@@ -3,11 +3,11 @@ title: Headings
 icon: material/format-header-pound
 ---
 
-Defines CSS variables for styling related to headings like font weight.
+定义 CSS 变量, 用于与字体粗细等标题相关的样式。
 
-Accepted Formats: px, number, rem
+接受的格式 : px, number, rem
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -21,265 +21,266 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Enable coloured headings
+### 启用彩色标题
 
-CSS Variable(s) targeted: `var(--flexcyon-headings-coloured-enabled)`
+目标 CSS 变量: `var(--flexcyon-headings-coloured-enabled)`
 
-Default: true (class toggle)
+默认: true (类切换)
 
 > Inherits from accent colors like `--color-blue`, `--color-red` etc
 
-### Enable soft glow for headings
+### 为标题启用柔和的发光
 
-CSS Variable(s) targeted: `var(--flexcyon-headings-glow-enabled)`
+目标 CSS 变量: `var(--flexcyon-headings-glow-enabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### About Enable heading indicators globally
+### 关于全局启用标题指示器
 
-Customise which headings have heading indicators before them globally.
-If you are looking to apply them on a per-note basis, [click here](../../../../CSS-Classes/heading-indicators/index.md)
+在全局范围内自定义哪些标题前面有标题指示符。
+
+如果您希望按笔记应用它们, 请[单击此处](../../../../Styling/CSS-Classes/heading-indicators/index.md)。
 
 ---
 
-## Heading 1
+## 标题 1
 
-### Enable heading indicators globally for Heading 1
+### 为标题 1 启用全局标题指示器
 
-CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h1)`
+目标 CSS 变量: `var(--flexcyon-headings-indicator-h1)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-1.md)
+> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-1.md)
 
-### Heading 1 font size
+### 标题 1 字体大小
 
-CSS Variable(s) targeted: `var(--h1-size)`
+目标 CSS 变量: `var(--h1-size)`
 
-Default: 1.81803 (em)
+默认: 1.81803 (em)
 
 <h1 style="font-size: 1.81803em;">Sample h1</h1>
 
-### Heading 1 font weight
+### 标题 1 字重
 
-CSS Variable(s) targeted: `var(--h1-weight)`
+目标 CSS 变量: `var(--h1-weight)`
 
-Default: 700
+默认: 700
 
 <h1 style="font-weight: 700;">Sample h1</h1>
 
-### Heading 1 line height
+### 标题 1 行高
 
-CSS Variable(s) targeted: `var(--h1-line-height)`
+目标 CSS 变量: `var(--h1-line-height)`
 
-Default: 1.2
+默认: 1.2
 
-### Enable underline for Heading 1
+### 为标题 1 启用下划线
 
-CSS Variable(s) targeted: `var(--flexcyon-h1-underline-enabled)`
+目标 CSS 变量: `var(--flexcyon-h1-underline-enabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-> The size of the underline scales with your font weight
+> 下划线的大小与字体粗细成比例
 
 ---
 
-## Heading 2
+## 标题 2
 
-### Enable heading indicators globally for Heading 2
+### 为标题 2 启用全局标题指示器
 
-CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h2)`
+目标 CSS 变量: `var(--flexcyon-headings-indicator-h2)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-2.md)
+> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-2.md)
 
-### Heading 2 font size
+### 标题 2 字体大小
 
-CSS Variable(s) targeted: `var(--h2-size)`
+目标 CSS 变量: `var(--h2-size)`
 
-Default: 1.61803 (em)
+默认: 1.61803 (em)
 
 <h2 style="font-size: 1.61803em;">Sample h2</h2>
 
-### Heading 2 font weight
+### 标题 2 字重
 
-CSS Variable(s) targeted: `var(--h2-weight)`
+目标 CSS 变量: `var(--h2-weight)`
 
-Default: 675
+默认: 675
 
 <h2 style="font-weight: 675;">Sample h2</h2>
 
-### Heading 2 line height
+### 标题 2 行高
 
-CSS Variable(s) targeted: `var(--h2-line-height)`
+目标 CSS 变量: `var(--h2-line-height)`
 
-Default: 1.2
+默认: 1.2
 
-### Enable underline for Heading 2
+### 为标题 2 启用下划线
 
-CSS Variable(s) targeted: `var(--flexcyon-h2-underline-enabled)`
+目标 CSS 变量: `var(--flexcyon-h2-underline-enabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
 ---
 
-## Heading 3
+## 标题 3
 
-### Enable headings indicators globally for Heading 3
+### 为标题 3 启用全局标题指示器
 
-CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h3)`
+目标 CSS 变量: `var(--flexcyon-headings-indicator-h3)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-3.md)
+> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-3.md)
 
-### Heading 3 font size
+### 标题 3 字体大小
 
-CSS Variable(s) targeted: `var(--h3-size)`
+目标 CSS 变量: `var(--h3-size)`
 
-Default: 1.41803 (em)
+默认: 1.41803 (em)
 
 <h3 style="font-size: 1.41803em;">Sample h3</h3>
 
-### Heading 3 font weight
+### 标题 3 字重
 
-CSS Variable(s) targeted: `var(--h3-weight)`
+目标 CSS 变量: `var(--h3-weight)`
 
-Default: 650
+默认: 650
 
 <h3 style="font-weight: 650;">Sample h3</h3>
 
-### Heading 3 line height
+### 标题 3 行高
 
-CSS Variable(s) targeted: `var(--h3-line-height)`
+目标 CSS 变量: `var(--h3-line-height)`
 
-Default: 1.3
+默认: 1.3
 
-### Enable underline for Heading 3
+### Enable underline for 标题 3
 
-CSS Variable(s) targeted: `var(--flexcyon-h3-underline-enabled)`
+目标 CSS 变量: `var(--flexcyon-h3-underline-enabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
 ---
 
-## Heading 4
+## 标题 4
 
-### Enable headings indicators globally for Heading 4
+### 为标题 4 启用全局标题指示器
 
-CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h4)`
+目标 CSS 变量: `var(--flexcyon-headings-indicator-h4)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-4.md)
+> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-4.md)
 
-### Heading 4 font size
+### 标题 4 字体大小
 
-CSS Variable(s) targeted: `var(--h4-size)`
+目标 CSS 变量: `var(--h4-size)`
 
-Default: 1.21803 (em)
+默认: 1.21803 (em)
 
 <h4 style="font-size: 1.21803em;">Sample h4</h4>
 
-### Heading 4 font weight
+### 标题 4 字重
 
-CSS Variable(s) targeted: `var(--h4-weight)`
+目标 CSS 变量: `var(--h4-weight)`
 
-Default: 625
+默认: 625
 
 <h4 style="font-weight: 625;">Sample h4</h4>
 
-### Heading 4 line height
+### 标题 4 行高
 
-CSS Variable(s) targeted: `var(--h4-line-height)`
+目标 CSS 变量: `var(--h4-line-height)`
 
-Default: 1.4
+默认: 1.4
 
-### Enable underline for Heading 4
+### 为标题 4 启用下划线
 
-CSS Variable(s) targeted: `var(--flexcyon-h4-underline-enabled)`
+目标 CSS 变量: `var(--flexcyon-h4-underline-enabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
 ---
 
-## Heading 5
+## 标题 5
 
-### Enable headings indicators globally for Heading 5
+### 为标题 5 启用全局标题指示器
 
-CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h5)`
+目标 CSS 变量: `var(--flexcyon-headings-indicator-h5)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-5.md)
+> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-5.md)
 
-### Heading 5 font size
+### 标题 5 字体大小
 
-CSS Variable(s) targeted: `var(--h5-size)`
+目标 CSS 变量: `var(--h5-size)`
 
-Default: 1.11803 (em)
+默认: 1.11803 (em)
 
 <h5 style="font-size: 1.11803em;">Sample h5</h5>
 
-### Heading 5 font weight
+### 标题 5 字重
 
-CSS Variable(s) targeted: `var(--h5-weight)`
+目标 CSS 变量: `var(--h5-weight)`
 
-Default: 600
+默认: 600
 
 <h5 style="font-weight: 600;">Sample h5</h5>
 
-### Heading 5 line height
+### 标题 5 行高
 
-CSS Variable(s) targeted: `var(--h5-line-height)`
+目标 CSS 变量: `var(--h5-line-height)`
 
-Default: 1.5
+默认: 1.5
 
-### Enable underline for Heading 5
+### 为标题 5 启用下划线
 
-CSS Variable(s) targeted: `var(--flexcyon-h5-underline-enabled)`
+目标 CSS 变量: `var(--flexcyon-h5-underline-enabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
 ---
 
-## Heading 6
+## 标题 6
 
-### Enable headings indicators globally for Heading 6
+### 为标题 6 启用全局标题指示器
 
-CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h6)`
+目标 CSS 变量: `var(--flexcyon-headings-indicator-h6)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-6.md)
+> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-6.md)
 
-### Heading 6 font size
+### 标题 6 字体大小
 
-CSS Variable(s) targeted: `var(--h6-size)`
+目标 CSS 变量: `var(--h6-size)`
 
-Default: 1.01803 (em)
+默认: 1.01803 (em)
 
 <h6 style="font-size: 1.01803em;">Sample h6</h6>
 
-### Heading 6 font weight
+### 标题 6 字重
 
-CSS Variable(s) targeted: `var(--h6-weight)`
+目标 CSS 变量: `var(--h6-weight)`
 
-Default: 575
+默认: 575
 
 <h6 style="font-weight: 575;">Sample h6</h6>
 
-### Heading 6 line height
+### 标题 6 行高
 
-CSS Variable(s) targeted: `var(--h6-line-height)`
+目标 CSS 变量: `var(--h6-line-height)`
 
-Default: 1.5
+默认: 1.5
 
-### Enable underline for Heading 6
+### 为标题 6 启用下划线
 
-CSS Variable(s) targeted: `var(--flexcyon-h6-underline-enabled)`
+目标 CSS 变量: `var(--flexcyon-h6-underline-enabled)`
 
-Default: false (class toggle)
+默认: false (类切换)

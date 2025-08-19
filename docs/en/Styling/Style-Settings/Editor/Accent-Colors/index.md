@@ -5,6 +5,7 @@ icon: material/format-color-fill
 
 Defined colors overrides theme defaults for heading colors and other UI elements.
 Also includes overriding the accent colors.
+
 > These colors overrides the standard css variables like var(--color-cyan)
 
 Accepted Formats: RGB, HEX
@@ -15,10 +16,10 @@ Accepted Formats: RGB, HEX
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- Accent Colors
-|   |   |-- ...
-|   |-- ...
+| |-- Editor
+| | |-- Accent Colors
+| | |-- ...
+| |-- ...
 |-- ...
 ```
 
@@ -114,9 +115,8 @@ Default (dark mode):
 Default (dark mode):
 <span class="col-sqr" style="background-color: #92a871"></span> #92a871
 
-### Enabled Extended Color Palette
+### Enable Extended Color Palette
 
 CSS Variable(s) targeted: `var(--flexcyon-ext-colors-enabled)`
 
 Default: true
-

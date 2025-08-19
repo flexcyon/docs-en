@@ -49,6 +49,11 @@ plugins:
             Beta: 测试版
             Version: 版本
             Modes: 模式
+            Editor: 编辑器
+            Accent Colors: 强调色
+            Base Colors: 基础色
+            Typography: 排版
+            Headings: 标题
   - git-revision-date-localized:
       enable_creation_date: true
 extra_css:
