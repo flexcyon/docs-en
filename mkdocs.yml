@@ -56,6 +56,8 @@ plugins:
             Headings: 标题
             Inline Title: 行内标题
             Code Blocks: 代码块
+            UI Font Size: UI 字体大小
+            Table: 表格
   - git-revision-date-localized:
       enable_creation_date: true
 extra_css:

@@ -3,11 +3,11 @@ title: Table
 icon: material/table-cog
 ---
 
-Define color for table borders, and the width of tables in reading mode.
+定义表边框的颜色以及读取模式下表的宽度。
 
-Accepted formats: HEX, %, x.y
+接受的格式: HEX, %, x.y
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -21,25 +21,25 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Table border color
+### 表格边框颜色
 
-CSS Variable(s) targeted: `var(--table-border-color)`
+目标 CSS 变量: `var(--table-border-color)`
 
-Default:
+默认:
 <span class="col-sqr" style="background-color: #6f768566"></span> #6f768566
 
-### Table header size
+### 表头大小
 
-CSS Variable(s) targeted: `var(--table-header-size)`
+目标 CSS 变量: `var(--table-header-size)`
 
-Default: large
+默认: large
 
 <span style="font-size: large;">Sample table header</span>
 
-### Width of table in reading mode
+### Reading Mode 下的表格宽度
 
-CSS Variable(s) targeted: `var(--flexcyon-table-reading-mode-width)`
+目标 CSS 变量: `var(--flexcyon-table-reading-mode-width)`
 
-Default: 100%
+默认: 100%

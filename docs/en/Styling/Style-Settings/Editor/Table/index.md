@@ -3,7 +3,7 @@ title: Table
 icon: material/table-cog
 ---
 
-Define color for table borders, and the width of tables in reading mode.
+Defines colour for table borders, and the width of tables in reading mode.
 
 Accepted formats: HEX, %, x.y
 
