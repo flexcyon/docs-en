@@ -3,9 +3,10 @@ title: Inline Title
 icon: material/format-underline-wavy
 ---
 
-Accepted Formats: em, number
 
-## Navigation
+接受的格式: em, number
+
+## 导航
 
 ```md
 Style Settings
@@ -19,25 +20,25 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
 <span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
 Sample inline title</span>
 
-### Inline title font size
+### 行内标题字体大小
 
-CSS Variable(s) targeted: `var(--inline-title-size)`
+目标 CSS 变量: `var(--inline-title-size)`
 
-Default: 1.802 (em)
+默认: 1.802 (em)
 
-### Inline title font weight
+### 行内标题字重
 
-CSS Variable(s) targeted: `var(--inline-title-weight)`
+目标 CSS 变量: `var(--inline-title-weight)`
 
-Default: 700
+默认: 700
 
-### Inline title font height
+### 行内标题行高度
 
-CSS Variable(s) targeted: `var(--inline-title-height)`
+目标 CSS 变量: `var(--inline-title-height)`
 
-Default: 1.2
+默认: 1.2

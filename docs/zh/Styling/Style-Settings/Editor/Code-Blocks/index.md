@@ -3,11 +3,11 @@ title: Code Blocks
 icon: material/format-color-highlight
 ---
 
-Configure code blocks in the theme
+在主题中配置代码块
 
-Accepted formats: px
+接受的格式: px
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -21,44 +21,44 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Flexcyon Syntax Highlighting Mode
+### Flexcyon 语法高亮显示模式
 
-CSS Classe(s) targeted: `.flexcyon-syntax-catppuccin,
+目标 CSS 类: `.flexcyon-syntax-catppuccin,
 .flexcyon-syntax-lego, .flexcyon-syntax-monochrome`
 
-Default: none (class select)
-Options:
+默认: none (类选项)
+选项:
 
 - Catppuccin
-- Lego
-- Monochrome
+- Lego (乐高)
+- Monochrome (单色)
 
-### About Code Block File Extension
+### 关于代码块文件扩展名
 
-Customise the code block file extension, only appears in Live Preview mode.
+自定义代码块文件扩展名, 仅在 Live Preview 模式下显示。
 
-### Make Code Block File Extension lowercase
+### 使代码块文件扩展名小写
 
-CSS Classe(s) targeted: `.flexcyon-codeblock-fmt-ext`
+目标 CSS 类: `.flexcyon-codeblock-fmt-ext`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Add Prefix before Code Block File Extension
+### 在代码块扩展之前添加前缀
 
-CSS Classe(s) targeted: `.flexcyon-codeblock-prefix-ext`
+目标 CSS 类: `.flexcyon-codeblock-prefix-ext`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Customise Prefix before Code Block Extension
+### 在代码块扩展之前自定义前缀
 
-CSS Variable(s) targeted: `var(--flexcyon-codeblock-ext-prefix)`
+目标 CSS 变量: `var(--flexcyon-codeblock-ext-prefix)`
 
-Default: "."
+默认: "."
 
-### Code Block File Extension Font Weight
+### 代码块文件扩展名字重
 
-CSS Variable(s) targeted: `var(--flexcyon-code-file-ext-font-w)`
+目标 CSS 变量: `var(--flexcyon-code-file-ext-font-w)`
 
-Default: 500
+默认: 500

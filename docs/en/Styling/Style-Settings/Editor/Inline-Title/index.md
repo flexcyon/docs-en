@@ -36,7 +36,7 @@ CSS Variable(s) targeted: `var(--inline-title-weight)`
 
 Default: 700
 
-### Inline title font height
+### Inline title line height
 
 CSS Variable(s) targeted: `var(--inline-title-height)`
 

@@ -54,6 +54,8 @@ plugins:
             Base Colors: 基础色
             Typography: 排版
             Headings: 标题
+            Inline Title: 行内标题
+            Code Blocks: 代码块
   - git-revision-date-localized:
       enable_creation_date: true
 extra_css:
