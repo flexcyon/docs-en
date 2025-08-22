@@ -30,6 +30,7 @@ CSS Classe(s) targeted: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
 > Changes may need an app reload/restart to take effect
 
 Default: none (class select)
+
 Options:
 
 - Slide in Left to Right

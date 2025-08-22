@@ -28,6 +28,7 @@ plugins:
           link: /zh/
           build: true
           site_name: Flexcyon 主题文档
+
           nav_translations:
             Foreword: 前言
             README: 自述
@@ -58,6 +59,11 @@ plugins:
             Code Blocks: 代码块
             UI Font Size: UI 字体大小
             Table: 表格
+            Files: 文件
+            Workspace: 工作区
+            Prompts: 提示
+            Animations: 动画
+
   - git-revision-date-localized:
       enable_creation_date: true
 extra_css:

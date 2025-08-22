@@ -3,11 +3,11 @@ title: Prompts
 icon: material/text-box
 ---
 
-Configure prompts such as the command prompt, quick switcher etc.
+配置命令提示符, 快速切换器等提示。
 
-Accepted Formats: px, vw, vh
+接受的格式: px, vw, vh
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -24,49 +24,50 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Prompts
+## 配置选项
 
-### Prompt width
+### 提示宽度
 
-CSS Variable(s) targeted: `var(--prompt-width)`
+目标 CSS 变量: `var(--prompt-width)`
 
-Default: 700 (px)
+默认: 700 (px)
 
-### Prompt max width
+### 提示最高宽度
 
-CSS Variable(s) targeted: `var(--prompt-max-width)`
+目标 CSS 变量: `var(--prompt-max-width)`
 
-Default: 80 (vw)
+默认: 80 (vw)
 
-### Prompt max height
+### 提示最大高度
 
-CSS Variable(s) targeted: `var(--prompt-max-height)`
+目标 CSS 变量: `var(--prompt-max-height)`
 
-Default: 70 (vh)
+默认: 70 (vh)
 
-### Prompt alignment
+### 提示对齐
 
-CSS Classe(s) targeted: `.flexcyon-prompt-align-bottom-left,
+目标 CSS 类: `.flexcyon-prompt-align-bottom-left,
 .flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-left,
 .flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`
 
-Default: none (class select)
-Options:
+默认: none (类选项)
 
-- Top left
-- Top center
-- Center left
-- Bottom left
-- Bottom center
+选项:
 
-### Suggestion item vertical padding
+- Top left (左上角)
+- Top center (顶部中央)
+- Center left (左部中央)
+- Bottom left (左下角)
+- Bottom center (底部中央)
 
-CSS Variable(s) targeted: `var(--flexcyon-suggestion-verti-padding)`
+### 建议项垂直填充
 
-Default: 8 (px)
+目标 CSS 变量: `var(--flexcyon-suggestion-verti-padding)`
 
-### Suggestion item horizontal padding
+默认: 8 (px)
 
-CSS Variable(s) targeted: `var(--flexcyon-suggestion-horiz-padding)`
+### 建议项水平填充
 
-Default: 12 (px)
+目标 CSS 变量: `var(--flexcyon-suggestion-horiz-padding)`
+
+默认: 12 (px)

@@ -3,11 +3,11 @@ title: Animations
 icon: material/animation
 ---
 
-Configure transition animations of prompts, modals and tab container.
+配置提示模态和选项卡容器的过渡动画。
 
-Accepted Formats: s
+接受的格式: s
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -21,41 +21,42 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Animation type
+### 动画类型
 
 CSS Classe(s) targeted: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
 .flexcyon-anims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl, .flexcyon-anims-scale-up`
 
-> Changes may need an app reload/restart to take effect
+> 更改可能需要重新加载应用程序或重新启动才能生效
 
-Default: none (class select)
-Options:
+默认: none (类选项)
 
-- Slide in Left to Right
-- Slide in Right to Left
-- Slide in Top to Bottom
-- Rotate in Bottom to Top
-- Rotate in Right to Left
-- Scale Up
+选项:
 
-### Animation duration
+- Slide in Left to Right (从左向右滑动)
+- Slide in Right to Left (从右向左滑动)
+- Slide in Top to Bottom (从上到下滑动)
+- Rotate in Bottom to Top (从下到上旋转)
+- Rotate in Right to Left (从右向左旋转)
+- Scale Up (扩大)
 
-CSS Variable(s) targeted: `var(--flexcyon-anim-duration)`
+### 动画持续时间
 
-Default: 0.3s
+目标 CSS 变量: `var(--flexcyon-anim-duration)`
 
-### Animation easing function
+默认: 0.3s
 
-CSS Variable(s) targeted: `var(--flexcyon-anim-easing)`
+### 动画缓动函数
 
-Default: ease-in
+目标 CSS 变量: `var(--flexcyon-anim-easing)`
 
-### Animation slide amount
+默认: ease-in
 
-The amount of pixels the slide animations will slide
+### 动画滑动量
 
-CSS Variable(s) targeted: `var(--flexcyon-anim-slide-amount)`
+滑动动画的滑动量。
 
-Default: 56.63105 (px)
+目标 CSS 变量: `var(--flexcyon-anim-slide-amount)`
+
+默认: 56.63105 (px)

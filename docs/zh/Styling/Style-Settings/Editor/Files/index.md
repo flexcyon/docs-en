@@ -3,9 +3,9 @@ title: Files
 icon: material/file-cog
 ---
 
-Configure file trees and folder styles.
+配置文件树和文件夹样式。
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -19,54 +19,54 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Enable dimmed file extensions in file explorer
+### 启用变暗的文件扩展名
 
-CSS Variable(s) targeted: `var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
+目标 CSS 变量: `var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 
-Default: true (class toggle)
+默认: true (类切换)
 
-### Select folder style
+### 文件夹样式
 
-CSS Classe(s) targeted: `.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
+目标 CSS 类: `.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 
-Default: none (class select)
+默认: none (类选项)
 
-Options:
+选项:
 
-- Rainbow folders
-- Alternate folder style
-- Markdown file tree style
+- Rainbow folders (彩虹)
+- Alternate folder style (备用)
+- Markdown file tree style (Markdown 文件树)
 
-### Colour background instead of text for rainbow folders
+### 彩虹文件夹彩色背景代替彩色文本
 
-CSS Classe(s) targeted: `var(--flexcyon-is-bg-rainbow)`
+目标 CSS 类: `var(--flexcyon-is-bg-rainbow)`
 
-Default: false
+默认: false
 
-### Enable minimalist trees
+### 启用极简文件树
 
-CSS Variable(s) targeted: `var(--flexcyon-minimalist-tree)`
+目标 CSS 变量: `var(--flexcyon-minimalist-tree)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Vertical Tree Item Padding
+### 垂直树项目填充
 
-CSS Classe(s) targeted: `var(--flexcyon-tree-item-verti-padding)`
+目标 CSS 类: `var(--flexcyon-tree-item-verti-padding)`
 
-Default: 2 (px)
+默认: 2 (px)
 
-### Horizontal Tree Item Padding
+### 水平树项目填充
 
-CSS Classe(s) targeted: `var(--flexcyon-tree-item-horiz-padding)`
+目标 CSS 类: `var(--flexcyon-tree-item-horiz-padding)`
 
-Default: 10 (px)
+默认: 10 (px)
 
-### Wrap Long File Names
+### 换行长文件名
 
-Wrap long filenames to a new line instead of omitting the ending part.
+将长文件名换行, 而不是省略末尾部分。
 
-CSS Variable(s) targeted: `var(--flexcyon-wrap-long-filenames)`
+目标 CSS 变量: `var(--flexcyon-wrap-long-filenames)`
 
-Default: true (class toggle)
+默认: true (类切换)

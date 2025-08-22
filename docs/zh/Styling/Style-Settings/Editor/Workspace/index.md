@@ -3,11 +3,11 @@ title: Workspace
 icon: material/layers-triple-outline
 ---
 
-Defines file line width when readable line length is enabled, opacity of dimmed
+在启用可读行长度时定义文件行宽度, 调暗元素的不透明度。
 
-Accepted Formats: x.y, rem
+接受的格式: x.y, rem
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -21,32 +21,32 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### File line width
+### 文件行宽度
 
-CSS Variable(s) targeted: `var(--file-line-width)`
+目标 CSS 变量: `var(--file-line-width)`
 
-Default: 50 (rem)
+默认: 50 (rem)
 
-### Opacity of dimmed elements
+### 暗淡元素的不透明度
 
-CSS Variable(s) targeted: `var(--dimmed)`
+目标 CSS 变量: `var(--dimmed)`
 
-Default: 0.55
-
-<span style="opacity: 0.55">Sample dimmed element</span>
-
-### Opacity of Block labels
-
-CSS Classe(s) targeted: `var(--flexcyon-block-label-opacity)`
-
-Default: 0.55
+默认: 0.55
 
 <span style="opacity: 0.55">Sample dimmed element</span>
 
-### Top Actions alignment
+### 块标签的不透明性
 
-CSS Variable(s) targeted: `var(--flexcyon-top-actions-alignment)`
+目标 CSS 类: `var(--flexcyon-block-label-opacity)`
 
-Default: center
+默认: 0.55
+
+<span style="opacity: 0.55">Sample dimmed element</span>
+
+### 顶部操作对齐
+
+目标 CSS 变量: `var(--flexcyon-top-actions-alignment)`
+
+默认: center

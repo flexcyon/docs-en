@@ -51,6 +51,7 @@ CSS Classe(s) targeted: `.flexcyon-prompt-align-bottom-left,
 .flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`
 
 Default: none (class select)
+
 Options:
 
 - Top left
