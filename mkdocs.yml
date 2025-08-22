@@ -63,6 +63,8 @@ plugins:
             Workspace: 工作区
             Prompts: 提示
             Animations: 动画
+            Editor Background: 编辑背景 
+            Layout: 布局 
 
   - git-revision-date-localized:
       enable_creation_date: true

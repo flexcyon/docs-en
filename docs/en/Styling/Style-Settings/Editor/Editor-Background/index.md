@@ -4,6 +4,7 @@ icon: material/layers-edit
 ---
 
 Configure the background in the editor
+
 Accepted formats: px, deg
 
 ## Navigation
@@ -27,6 +28,7 @@ Style Settings
 CSS Classe(s) targeted: `.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
 
 Default: none (class select)
+
 Options:
 
 - Grid Background

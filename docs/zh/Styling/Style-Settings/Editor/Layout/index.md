@@ -3,9 +3,9 @@ title: Layout
 icon: material/page-layout-sidebar-left
 ---
 
-Configure the workspace layout.
+配置工作区布局。
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -19,25 +19,25 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Select workspace layout
+### 选择工作区布局
 
-CSS Classe(s) targeted: `.flexcyon-workspace-card-layout,
+目标 CSS 类: `.flexcyon-workspace-card-layout,
 .flexcyon-workspace-angled-layout, .flexcyon-workspace-pl10k-layout`
 
-Default: none (class select)
+默认: none (类选项)
 
-Options:
+选项:
 
-- Cards Layout
-- Angled Layout
-- Powerlevel10k Layout
+- Cards Layout (卡片布局)
+- Angled Layout (倾斜布局)
+- Powerlevel10k Layout (Powerlevel10k 灵感布局)
 
-> Workspace layout changes may need app reload or restart to take effect
+> 工作区布局更改可能需要重新加载或重新启动应用程序才能生效
 
-### Enable TUI add-on for cards layout
+### 启用 TUI 附加进行卡片布局
 
-CSS Variable(s) targeted: `var(--flexcyon-workspace-cards-tui-ext)`
+目标 CSS 变量: `var(--flexcyon-workspace-cards-tui-ext)`
 
-Default: true (class toggle)
+默认: true (类切换)

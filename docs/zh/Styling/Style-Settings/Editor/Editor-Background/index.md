@@ -3,10 +3,11 @@ title: Editor Background
 icon: material/layers-edit
 ---
 
-Configure the background in the editor
-Accepted formats: px, deg
+在编辑器中配置背景。
 
-## Navigation
+接受的格式: px, deg
+
+## 导航
 
 ```md
 Style Settings
@@ -20,33 +21,34 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Select Background Type
+### 选择背景类型
 
-CSS Classe(s) targeted: `.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
+目标 CSS 类: `.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
 
-Default: none (class select)
-Options:
+默认: none (类选项)
 
-- Grid Background
-- Dotted Background
-- Rhombus Background
+选项:
 
-### Rotation value for grid and rhombus background
+- Grid Background (网格背景)
+- Dotted Background (虚线背景)
+- Rhombus Background (菱形背景)
 
-CSS Variable(s) targeted: `var(--flexcyon-editor-bg-rotation)`
+### 网格和菱形背景的旋转值
 
-Default: 0 (deg)
+目标 CSS 变量: `var(--flexcyon-editor-bg-rotation)`
 
-### Width between each dot/line for grid/dotted background
+默认: 0 (deg)
 
-CSS Variable(s) targeted: `var(--flexcyon-editor-bg-width)`
+### 网格/虚线背景的每个点/线之间的宽度
 
-Default: 15 (px)
+目标 CSS 变量: `var(--flexcyon-editor-bg-width)`
 
-### Size of dots for dotted background
+默认: 15 (px)
 
-CSS Variable(s) targeted: `var(--flexcyon-editor-dot-size)`
+### 虚线背景中点的大小
 
-Default: 2 (px)
+目标 CSS 变量: `var(--flexcyon-editor-dot-size)`
+
+默认: 2 (px)
