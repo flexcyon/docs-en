@@ -5,11 +5,11 @@ tags:
   - callouts
 ---
 
-Configure styling of callouts
+配置标注样式。
 
-Accepted Formats: px, rem, em, s
+接受的格式: px, rem, em, s
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -23,72 +23,72 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Callout Icon Right padding
+### 标注图标右侧填充
 
-CSS Variable(s) targeted: `var(--flexcyon-callout-icon-right-padding)`
+目标 CSS 变量: `var(--flexcyon-callout-icon-right-padding)`
 
-Default: 4 (px)
+默认: 4 (px)
 
-### First Codeblock Margin Top
+### 第一个代码块边距顶部
 
-CSS Variable(s) targeted: `var(--flexcyon-callout-first-codeblock-margin-top)`
+目标 CSS 变量: `var(--flexcyon-callout-first-codeblock-margin-top)`
 
-Default: 1 (rem)
+默认: 1 (rem)
 
-### Callout Metadata Background Opacity
+### 标注元数据背景不透明度
 
-CSS Variable(s) targeted: `var(--flexcyon-callout-bg-opacity)`
+目标 CSS 变量: `var(--flexcyon-callout-bg-opacity)`
 
-Default: 20%
+默认: 20%
 
 <span style="opacity: 20%">Sample Background Opacity</span>
 
-### Callout Vertical Margin
+### 标注垂直边距
 
-CSS Variable(s) targeted: `var(--flexcyon-callout-vertical-margin)`
+目标 CSS 变量: `var(--flexcyon-callout-vertical-margin)`
 
-Default: 1 (em)
+默认: 1 (em)
 
-### Callout Border Radius
+### 标注文本边框半径
 
-CSS Variable(s) targeted: `var(--callout-radius)`
+目标 CSS 变量: `var(--callout-radius)`
 
-Default: 2 (px)
-
----
-
-### Flashcard callout
-
-Configures the [flashcard callout](../../../Callout-Metadata/flashcard.md).
-
-#### Flashcard callout width
-
-CSS Variable(s) targeted: `var(--flexcyon-callouts-flashcard-width)`
-
-Default: 250 (px)
-
-#### Flashcard callout height
-
-CSS Variable(s) targeted: `var(--flexcyon-callouts-flashcard-height)`
-
-Default: 250 (px)
-
-#### Flashcard callout animation duration
-
-CSS Variable(s) targeted: `var(--flexcyon-callout-flashcard-animation-duration)`
-
-Default: 0.5s
+默认: 2 (px)
 
 ---
 
-### Popup callout
+### 抽认卡标注
 
-Configures the [popup callout](../../../Callout-Metadata/popup.md)
+配置[抽认卡标注](../../../Callout-Metadata/flashcard.md)。
 
-#### Popup callout animation duration
+#### 抽认卡标注宽度
 
-CSS Variable(s) targeted: `var(--flexcyon-callout-pop-animation-duration)`
+目标 CSS 变量: `var(--flexcyon-callouts-flashcard-width)`
 
-Default: 0.2s
+默认: 250 (px)
+
+#### 抽认卡标注高度
+
+目标 CSS 变量: `var(--flexcyon-callouts-flashcard-height)`
+
+默认: 250 (px)
+
+#### 抽认卡标注动画持续时间
+
+目标 CSS 变量: `var(--flexcyon-callout-flashcard-animation-duration)`
+
+默认: 0.5s
+
+---
+
+### 弹出式标注
+
+配置[弹出式标注](../../../Callout-Metadata/popup.md)。
+
+#### 弹出式标注动画持续时间
+
+目标 CSS 变量: `var(--flexcyon-callout-pop-animation-duration)`
+
+默认: 0.2s

@@ -65,6 +65,7 @@ plugins:
             Animations: 动画
             Editor Background: 编辑背景 
             Layout: 布局 
+            Callouts: 标注
 
   - git-revision-date-localized:
       enable_creation_date: true
