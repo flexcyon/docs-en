@@ -55,10 +55,10 @@ Style Settings
 选项:
 
 - Top left (左上角)
-- Top center (顶部中央)
-- Center left (左部中央)
+- Top center (顶部中心)
+- Center left (左部中心)
 - Bottom left (左下角)
-- Bottom center (底部中央)
+- Bottom center (底部中心)
 
 ### 建议项垂直填充
 

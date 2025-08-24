@@ -3,11 +3,11 @@ title: Links
 icon: material/link
 ---
 
-Configure the color of links.
+配置链接的颜色。
 
-Accepted formats: HEX
+接受的格式: HEX
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -21,29 +21,29 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Internal Link Color
+### 内部链接颜色
 
-CSS Variable(s) targeted: `var(--flexcyon-link-color)`
+目标 CSS 变量: `var(--flexcyon-link-color)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
 
-Default (dark mode): <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
+默认 (暗模式): <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
 
-### External Link Color
+### 外部链接颜色
 
-CSS Variable(s) targeted: `var(--flexcyon-external-link-color)`
+目标 CSS 变量: `var(--flexcyon-external-link-color)`
 
-Default (light mode): <span class="col-sqr" style="background-color: #5c9fe4"></span> #5c9fe4
+默认 (灯光模式): <span class="col-sqr" style="background-color: #5c9fe4"></span> #5c9fe4
 
-Default (dark mode): <span class="col-sqr" style="background-color: #5a8fcd"></span> #5a8fcd
+默认 (暗模式): <span class="col-sqr" style="background-color: #5a8fcd"></span> #5a8fcd
 
-### Unresolved Link Color
+### 未解析的链接颜色
 
-CSS Variable(s) targeted: `var(--flexcyon-link-unresolved-color)`
+目标 CSS 变量: `var(--flexcyon-link-unresolved-color)`
 
-Default (light mode): <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
+默认 (灯光模式): <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
 
-Default (dark mode): <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
+默认 (暗模式): <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8

@@ -70,6 +70,10 @@ plugins:
             Checkboxes: 复选框 
             Bullet Lists: 项目列表 
             Numbered Lists: 编号列表 
+            Media: 媒体
+            Links: 链接
+            Properties: 属性
+            Status Bar: 状态栏 
 
   - git-revision-date-localized:
       enable_creation_date: true

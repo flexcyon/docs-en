@@ -3,9 +3,9 @@ title: Properties
 icon: material/axis-arrow-info
 ---
 
-Configures CSS variables for properties/metadata/YAML of files.
+为文件的属性 / 元数据 / YAML 配置 CSS 变量。
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -19,30 +19,30 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-Accepted Formats: px
+接受的格式: px
 
-### Do not show properties in reading mode
+### 在 Reading Mode 下不显示属性
 
-CSS Variable(s) targeted: `var(--flexcyon-metadata-display-reading-disabled)`
+目标 CSS 变量: `var(--flexcyon-metadata-display-reading-disabled)`
 
-Default: true (class toggle)
+默认: true (类切换)
 
-### Do not show properties in live preview mode
+### 在 Live Preview 下不显示属性
 
-CSS Variable(s) targeted: `var(--flexcyon-metadata-display-editing-disabled)`
+目标 CSS 变量: `var(--flexcyon-metadata-display-editing-disabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Enable rainbow metadata icons
+### 启用彩虹元数据图标
 
-CSS Variable(s) targeted: `var(--flexcyon-metadata-rainbow-icons)`
+目标 CSS 变量: `var(--flexcyon-metadata-rainbow-icons)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Metadata container left padding
+### 元数据容器左侧填充
 
-CSS Variable(s) targeted: `var(--flexcyon-meta-container-padding-left)`
+目标 CSS 变量: `var(--flexcyon-meta-container-padding-left)`
 
-Default: 14 (px)
+默认: 14 (px)

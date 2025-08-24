@@ -23,13 +23,30 @@ Style Settings
 
 ## Configuration Options
 
-### Status Bar Hide Until Hover
+### Status Bar
 
-#### Hide until hover
+#### Hide until trigger
 
-CSS Variable(s) targeted: `var(--flexcyon-status-hide-until-hover)`
+CSS Classe(s) targeted: `.flexcyon-status-hide-until-hover
+.flexcyon-status-hide-until-hold`
 
-Default: false (class toggle)
+Default: none (Class select)
+
+Options:
+
+- Hide until hover
+- Hide until hold
+
+#### Status bar alignment
+CSS Classe(s) targeted: `.flexcyon-status-left-align
+.flexcyon-status-centre-align`
+
+Default: none (Class select)
+
+Options:
+
+- Left
+- Centre
 
 #### Text when hide until hover enabled
 
@@ -41,7 +58,7 @@ Default: "Show status"
 
 CSS Variable(s) targeted: `var(--flexcyon-status-hide-until-hover-translation)`
 
-Default: 1500px
+Default: 1500 (px)
 
 #### Transition duration for showing status bar on hover
 
@@ -104,6 +121,7 @@ CSS Classe(s) targeted: `.flexcyon-status-style-angled,
 .flexcyon-status-style-card, .flexcyon-status-style-pl10k`
 
 Default: none (class select)
+
 Options:
 
 - Angled
