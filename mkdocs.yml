@@ -66,6 +66,10 @@ plugins:
             Editor Background: 编辑背景 
             Layout: 布局 
             Callouts: 标注
+            Horizontal Rule: 水平标尺
+            Checkboxes: 复选框 
+            Bullet Lists: 项目列表 
+            Numbered Lists: 编号列表 
 
   - git-revision-date-localized:
       enable_creation_date: true

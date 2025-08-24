@@ -3,9 +3,9 @@ title: Horizontal Rules
 icon: material/ruler
 ---
 
-Configure horizontal rules in the theme
+在主题中配置水平标尺。
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -19,42 +19,42 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Disable horizontal rules in reading mode
+### 在 Reading Mode 下不显示水平标尺
 
-CSS Classe(s) targeted: `.flexcyon-hr-no-reading`
+目标 CSS 类: `.flexcyon-hr-no-reading`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Horizontal Rule Colour
+### 水平标尺颜色
 
-CSS Variable(s) targeted: `var(--hr-color)`
+目标 CSS 变量: `var(--hr-color)`
 
-Default: #393e48
+默认: #393e48
 
 <span color="#393e48">Example hr colour</span>
 
-### Add custom string inside horizontal rules
+### 在水平标尺内添加自定义文本
 
-CSS Classe(s) targeted: `.flexcyon-cust-str-hr`
+目标 CSS 类: `.flexcyon-cust-str-hr`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Horizontal rule custom string content
+### 水平标尺自定义文本内容
 
-CSS Variable(s) targeted: `var(--flexcyon-cust-hr-str)`
+目标 CSS 变量: `var(--flexcyon-cust-hr-str)`
 
-Default: "f"
+默认: "f"
 
-### Horizontal rule custom string font size
+### 水平标尺自定义字体大小
 
-CSS Variable(s) targeted: `var(--flexcyon-cust-hr-str-font-size)`
+目标 CSS 变量: `var(--flexcyon-cust-hr-str-font-size)`
 
-Default: 1.11803 (em)
+默认: 1.11803 (em)
 
-### Horizontal rule custom string horizontal padding
+### 水平尺自定义水平填充
 
-CSS Variable(s) targeted: `var(--flexcyon-cust-hr-str-horiz-padding)`
+目标 CSS 变量: `var(--flexcyon-cust-hr-str-horiz-padding)`
 
-Default: 8 (px)
+默认: 8 (px)

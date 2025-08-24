@@ -3,9 +3,10 @@ title: Numbered Lists
 icon: material/format-list-numbered
 ---
 
-Configure numbered lists in the theme
+在主题中配置编号列表
 
-## Navigation
+
+## 导航
 
 ```md
 Style Settings
@@ -19,10 +20,10 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Select Default Numbered List Style in Reading Mode
+### 在 Reading Mode 下选择默认编号列表样式
 
-Default: none (class toggle)
+默认: none (类切换)
 
-Options: Too many to list, [view options here](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values).
+选项: 要列出的选项太多, 您可以在 [此处查看](https://developer.mozilla.org/zh-CN/docs/Web/CSS/list-style-type#Values)。

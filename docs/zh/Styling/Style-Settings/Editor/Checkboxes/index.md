@@ -3,23 +3,23 @@ title: Checkboxes
 icon: material/checkbox-outline
 ---
 
-In this sub-page, you can find usage examples for styling of checkboxes.
+在此子页面中, 您可以找到复选框样式的使用示例。
 
-## Screenshots
+## 截图
 
 <figure markdown="span">
-    <img src="../../../../assets/screenshots/ascii_checkboxes1.png" width="800"
-    alt="Figure 1: ASCII Checkboxes">
-    <figcaption>Figure 1: ASCII Checkboxes</figcaption>
+    <img src="../../../../../assets/screenshots/ascii_checkboxes1.png" width="800"
+    alt="图1:ASCII复选框">
+    <figcaption>图1:ASCII复选框</figcaption>
 </figure>
 
 <figure markdown="span">
-    <img src="../../../../assets/screenshots/ascii_checkboxes2.png" width="800"
-    alt="Figure 2: ASCII Checkboxes in source mode">
-    <figcaption>Figure 2: ASCII Checkboxes in source mode</figcaption>
+    <img src="../../../../../assets/screenshots/ascii_checkboxes2.png" width="800"
+    alt="图2：Source Mode 下的ASCII复选框">
+    <figcaption>图2：Source Mode 下的ASCII复选框</figcaption>
 </figure>
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -33,26 +33,26 @@ Style Settings
 |-- ...
 ```
 
-## Configuration options
+## 配置选项
 
-Accepted formats: rem
+接受的格式: rem
 
-### Enable ASCII checkboxes
+### 启用 ASCII 复选框
 
-CSS Variable(s) targeted: `var(--flexcyon-ascii-checkboxes-enabled)`
+目标 CSS 变量: `var(--flexcyon-ascii-checkboxes-enabled)`
 
-Default: true (class toggle)
+默认: true (类切换)
 
-### ASCII checkboxes font size
+### ASCII 复选框字体大小
 
-CSS Variable(s) targeted: `var(--flexcyon-ascii-checkboxes-font-size)`
+目标 CSS 变量: `var(--flexcyon-ascii-checkboxes-font-size)`
 
-Default: 1.2 (rem)
+默认: 1.2 (rem)
 
 <span style="font-size: 1.2rem">Sample ASCII checkboxes font size</span>
 
-### Enable Clip Path checkboxes
+### 启用剪辑路径复选框
 
-CSS Variable(s) targeted: `var(--flexcyon-clip-path-checkboxes-enabled)`
+目标 CSS 变量: `var(--flexcyon-clip-path-checkboxes-enabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
