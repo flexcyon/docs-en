@@ -3,7 +3,7 @@ title: Title Bar
 icon: material/format-text-variant-outline
 ---
 
-For configuration of the titlebar, enable rainbow hover effects on titlebar buttons
+For configuration of the title bar, enable rainbow hover effects on title bar buttons
 
 ## Navigation
 

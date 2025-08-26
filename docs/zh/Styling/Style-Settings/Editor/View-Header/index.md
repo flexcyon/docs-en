@@ -3,9 +3,9 @@ title: View Header
 icon: material/format-header-equal
 ---
 
-Defines options for displaying dynamic screen dimensions and device operating system details.
+定义显示动态屏幕尺寸和设备操作系统详细信息的选项。
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -19,34 +19,34 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### View header breadcrumb max width
+### 视图标题面包屑最大宽度
 
-CSS Variable(s) targeted: `var(--flexcyon-view-header-breadcrumb-max-w)`
+目标 CSS 变量: `var(--flexcyon-view-header-breadcrumb-max-w)`
 
-Default: 12.5 (vw)
+默认: 12.5 (vw)
 
-### Display device operating system details in view header
+### 在视图标题中显示设备操作系统详细信息
 
-CSS Classe(s) targeted: `.flexcyon-display-os`
+目标 CSS 类: `.flexcyon-display-os`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Device operating system details right padding
+### 设备操作系统详细信息右侧填充
 
-CSS Variable(s) targeted: `var(--flexcyon-os-detail-padding-r)`
+目标 CSS 变量: `var(--flexcyon-os-detail-padding-r)`
 
-Default: 24 (px)
+默认: 24 (px)
 
-### Display Screen Dimensions
+### 显示屏尺寸
 
-CSS Classe(s) targeted: `.flexcyon-display-screen-dimens`
+目标 CSS 类: `.flexcyon-display-screen-dimens`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Display screen dimensions left padding
+### 显示屏尺寸左侧填充
 
-CSS Variable(s) targeted: `var(--flexcyon-screen-dimens-padding-l)`
+目标 CSS 变量: `var(--flexcyon-screen-dimens-padding-l)`
 
-Default: 16 (px)
+默认: 16 (px)

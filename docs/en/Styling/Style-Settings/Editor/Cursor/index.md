@@ -3,7 +3,7 @@ title: Cursor
 icon: material/cursor-text
 ---
 
-Configure the curosr
+Configure the cursor
 
 ## Navigation
 

@@ -1,9 +1,9 @@
 ---
-title: Upscale Percentage of Icons
+title: Icons
 icon: material/emoticon-plus-outline
 ---
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -11,45 +11,44 @@ Style Settings
 |-- Flexcyon Style Settings
 | |-- Editor
 | | |-- ...
-| | |-- Workspace
-| | | |-- Upscale percentage of icons
+| | |-- Icons
 | | |-- ...
 | |-- ...
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-#### Upscale percentage of icons 1
+### 1 号图标的高档百分比
 
-CSS Variable(s) targeted: `var(--upsize)`
+目标 CSS 变量: `var(--upsize)`
 
-Default: 103%
+默认: 103%
 
 <span style="scale: 103%">Sample upscale percentage 1</span>
 
-#### Upscale percentage of icons 2
+### 2 号图标的高档百分比
 
-CSS Variable(s) targeted: `var(--expand)`
+目标 CSS 变量: `var(--expand)`
 
-Default: 110%
+默认: 110%
 
 <span style="scale: 110%">Sample upscale percentage 2</span>
 
-### Smiley Toggle Icons in Settings
+### 设置中的笑脸切换图标
 
-CSS Classe(s) targeted: `.flexcyon-settings-smiley-icons-enabled`
+目标 CSS 类: `.flexcyon-settings-smiley-icons-enabled`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Load ASCII Icon Set
+### 加载 ASCII 图标集
 
-CSS Classe(s) targeted: `.flexcyon-ascii-icon-set`
+目标 CSS 类: `.flexcyon-ascii-icon-set`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Ensure community plugin icons take precedence
+### 确保社区插件图标优先
 
-CSS Classe(s) targeted: `.flexcyon-ensure-plugin-icon`
+目标 CSS 类: `.flexcyon-ensure-plugin-icon`
 
-Default: true (class toggle)
+默认: true (类切换)

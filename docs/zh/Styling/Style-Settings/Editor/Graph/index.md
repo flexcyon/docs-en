@@ -3,13 +3,11 @@ title: Graph
 icon: material/graph
 ---
 
-Configure the graph view controls
+配置图形视图控件。
 
-> other configuration options may be added in the future, no promises :)
+接受的格式: px
 
-Accepted Formats: px
-
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -22,16 +20,16 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Graph View Controls Vertical Padding
+### 图形视图控件垂直填充
 
-CSS Variable(s) targeted: `var(--graph-control-verti-padding)`
+目标 CSS 变量: `var(--graph-control-verti-padding)`
 
-Default: 6 (px)
+默认: 6 (px)
 
-### Graph View Controls Horizontal Padding
+### 图形视图控件水平填充
 
-CSS Variable(s) targeted: `var(--graph-control-horiz-padding)`
+目标 CSS 变量: `var(--graph-control-horiz-padding)`
 
-Default: 12 (px)
+默认: 12 (px)

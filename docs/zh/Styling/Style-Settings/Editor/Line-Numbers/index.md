@@ -3,11 +3,11 @@ title: Line Numbers
 icon: material/line-scan
 ---
 
-Configure line numbers and relative line numbers
+配置行号和相对行号。
 
-Accepted formats: HEX, %, x.y
+接受的格式: HEX, %, x.y
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -21,48 +21,49 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Enable Relative Line Numbers
+### 启用相对行号
 
-CSS Variable(s) targeted: `var(--flexcyon-enable-rel-nums)`
+目标 CSS 变量: `var(--flexcyon-enable-rel-nums)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Relative and normal line numbers on different lines
+### 相对线号和默认线号在不同的线上
 
-CSS Variable(s) targeted: `var(--flexcyon-no-num-with-relative)`
+目标 CSS 变量: `var(--flexcyon-no-num-with-relative)`
 
-Default: false
+默认: false
 
-### Only display relative line numbers
+### 仅显示相对行号
 
-CSS Variable(s) targeted: `var(--flexcyon-relative-num-only)`
+目标 CSS 变量: `var(--flexcyon-relative-num-only)`
 
-Default: false
+默认: false
 
-### Configure Relative Line Number Style
+### 配置相对行号样式
 
-CSS Variable(s) targeted: `var(--flexcyon-roman-rel-nums)`,
+目标 CSS 变量: `var(--flexcyon-roman-rel-nums)`,
 `var(--flexcyon-roman-greek-nums), var(--flexcyon-roman-chinese-nums)`
 
-Default: none (class toggle)
+默认: none (类切换)
+
 Options:
 
-- Roman
-- Greek
-- Chinese
+- Roman (罗马语)
+- Greek (希腊语)
+- Chinese (中文)
 
-### Replace active line number with string
+### 用字符串替换活动行号
 
-Customise the active line number with your own string, defaults to "->"
+使用您自己的字符串自定义活动行号, 默认为 "->"
 
-CSS Variable(s) targeted: `var(--flexcyon-repl-active-line-num-str)`
+目标 CSS 变量: `var(--flexcyon-repl-active-line-num-str)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Replaced active line number string value
+### 替换了活动行号字符串
 
-CSS Variable(s) targeted: `var(--flexcyon-repl-active-line-str)
+目标 CSS 变量: `var(--flexcyon-repl-active-line-str)
 
-Default: "->"
+默认: "->"

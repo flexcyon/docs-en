@@ -74,6 +74,12 @@ plugins:
             Links: 链接
             Properties: 属性
             Status Bar: 状态栏 
+            Title Bar: 标题栏 
+            Line Numbers: 行号
+            Cursor: 光标
+            Graph: 图形视图
+            View Header: 视图标题 
+            Icons: 图标
 
   - git-revision-date-localized:
       enable_creation_date: true

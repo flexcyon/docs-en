@@ -3,9 +3,9 @@ title: Title Bar
 icon: material/format-text-variant-outline
 ---
 
-For configuration of the titlebar, enable rainbow hover effects on titlebar buttons
+用于配置标题栏, 并在标题栏按钮上启用彩虹悬停效果。
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -19,10 +19,10 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Titlebar Button Effects
+### 标题栏按钮效果
 
-CSS Variable(s) targeted: `var(--flexcyon-titlebar-button-effects)`
+目标 CSS 变量: `var(--flexcyon-titlebar-button-effects)`
 
-Default: true (class toggle)
+默认: true (类切换)

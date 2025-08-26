@@ -47,6 +47,7 @@ CSS Variable(s) targeted: `var(--flexcyon-roman-rel-nums)`,
 `var(--flexcyon-roman-greek-nums), var(--flexcyon-roman-chinese-nums)`
 
 Default: none (class toggle)
+
 Options:
 
 - Roman
