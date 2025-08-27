@@ -80,6 +80,8 @@ plugins:
             Graph: 图形视图
             View Header: 视图标题 
             Icons: 图标
+            Settings: 设置 
+            Plugins: 插件
 
   - git-revision-date-localized:
       enable_creation_date: true

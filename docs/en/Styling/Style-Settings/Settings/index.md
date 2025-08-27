@@ -53,11 +53,15 @@ CSS Variable(s) targeted: `var(--flexcyon-settings-scrollbar-removed)`
 
 Default: true (class toggle)
 
-### Enabled alternate active item effect in settings
+### Enable alternate active item effect in settings
 
 CSS Variable(s) targeted: `var(--flexcyon-enable-alt-active-item-effect)`
 
 Default: true (class toggle)
+
+<!--- 
+TODO: Add Input box padding settings here later.
+--->
 
 ___
 

@@ -3,11 +3,11 @@ title: Settings
 icon: material/cogs
 ---
 
-For customising the appearance of various UI aspects of settings.
+用于自定义设置的各种 UI 方面的外观。
 
-Accepted Formats: x.y, rem, px
+接受的格式: x.y, rem, px
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -19,62 +19,66 @@ Style Settings
 |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Coloured Icons in Settings
+### 设置中的彩色图标
 
-CSS Variable(s) targeted: `var(--flexcyon-settings-coloured-icons)`
+目标 CSS 变量: `var(--flexcyon-settings-coloured-icons)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Enable community item effects
+### 启用社区项目样式
 
-CSS Variable(s) targeted: `var(--flexcyon-settings-comm-item-enabled)`
+目标 CSS 变量: `var(--flexcyon-settings-comm-item-enabled)`
 
-Default: true (class toggle)
+默认: true (类切换)
 
-### Opacity of community items (unselected)
+### 社区项目的不透明性 (未选中)
 
-CSS Variable(s) targeted: `var(--flexcyon-comm-item-opacity)`
+目标 CSS 变量: `var(--flexcyon-comm-item-opacity)`
 
-Default: 0.89
+默认: 0.89
 
 <span style="opacity: 0.89">Sample opacity of community items (unselected)</span>
 
-### Installed tooltip left margin
+### 工具提示左侧边距
 
-CSS Variable(s) targeted: `var(--flexcyon-settings-installed-tooltip-left-margin)`
+目标 CSS 变量: `var(--flexcyon-settings-installed-tooltip-left-margin)`
 
-Default: 1 (rem)
+默认: 1 (rem)
 
-### Do not show scrollbar in settings
+### 在设置中不显示滚动条
 
-CSS Variable(s) targeted: `var(--flexcyon-settings-scrollbar-removed)`
+目标 CSS 变量: `var(--flexcyon-settings-scrollbar-removed)`
 
-Default: true (class toggle)
+默认: true (类切换)
 
-### Enabled alternate active item effect in settings
+### 在设置中启用备用活跃项样式
 
-CSS Variable(s) targeted: `var(--flexcyon-enable-alt-active-item-effect)`
+目标 CSS 变量: `var(--flexcyon-enable-alt-active-item-effect)`
 
-Default: true (class toggle)
+默认: true (类切换)
+
+<!--- 
+TODO: Add Input box padding settings here later.
+--->
 
 ---
 
-### Style Settings
+### 样式设置
 
-Configure the appearance for style settings
+为样式设置配置外观
 
-Accepted Formats: px
+接受的格式: px
 
-#### Indentation width between style settings headings
+#### 样式设置标题之间的缩进宽度
 
-CSS Variable(s) targeted: `var(--flexcyon-style-settings-indent-width)`
+目标 CSS 变量: `var(--flexcyon-style-settings-indent-width)`
 
-Default: 4 (px)
+默认: 4 (px)
 
-#### Dim collapsed style settings headings
+#### 暗淡的折叠样式设置标题
 
-CSS Variable(s) targeted: `var(--flexcyon-style-settings-dim-collapsed-headings)`
+目标 CSS 变量: `var(--flexcyon-style-settings-dim-collapsed-headings)`
 
-Default: true
+默认: true

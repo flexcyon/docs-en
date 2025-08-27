@@ -5,9 +5,9 @@ icon: material/hexagon-outline
 
 For configuration of officially supported plugins
 
-Accepted formats: HEX, rem, x.y, %
+接受的格式: HEX, rem, x.y, %
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
@@ -18,201 +18,205 @@ Style Settings
 | |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Alternate file tree
+### Alternate file tree 插件
 
-#### Folders font size
+#### 文件夹字体大小
 
-CSS Variable(s) targeted: `var(--oz-fta-folder-font-size)`
+目标 CSS 变量: `var(--oz-fta-folder-font-size)`
 
-Default: 0.925 (rem)
+默认: 0.925 (rem)
 
 <span style="font-size: 0.925rem">Sample Alternate file tree Folders font size</span>
 
-#### Folders font color
+#### 文件夹字体颜色
 
-CSS Variable(s) targeted: `var(--oz-fta-folder-pane-file-name-color)`
+目标 CSS 变量: `var(--oz-fta-folder-pane-file-name-color)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #080808"></span> #080808
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #d3d5d3"></span> #d3d5d3
 
-#### Active folder color
+#### 活跃文件夹颜色
 
-CSS Variables(s) targeted: `var(--oz-fta-all-panes-active-text-color)`
+目标 CSS 变量: `var(--oz-fta-all-panes-active-text-color)`
 
-Default (light mode):
+默认 (灯光模式):
 <span class="col-sqr" style="background-color: #080808"></span> #080808
 
-Default (dark mode):
+默认 (暗模式):
 <span class="col-sqr" style="background-color: #d3d5d3"></span> #d3d5d3
 
-#### Files font size
+#### 文件字体大小
 
-CSS Variable(s) targeted: `var(--oz-fta-file-font-size)`
+目标 CSS 变量: `var(--oz-fta-file-font-size)`
 
-Default: 0.9 (rem)
+默认: 0.9 (rem)
 
 <span style="font-size: 0.9rem">Sample Alternate file tree Files font size</san>
 
-#### Files font color
+#### 文件字体颜色
 
-CSS Variable(s) targeted: `var(--oz-fta-file-pane-file-name-color)`
+目标 CSS 变量: `var(--oz-fta-file-pane-file-name-color)`
 
-Default:
+默认:
 <span class="col-sqr" style="background-color: #6f768599"></span> #6f768599
 
-#### Disable folder icons
+#### 不使用文件夹图标
 
-CSS Variable(s) targeted: `var(--flexcyon-oz-folder-icons-disabled)`
+目标 CSS 变量: `var(--flexcyon-oz-folder-icons-disabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-#### Disable file tree header
+#### 不使用文件树头
 
-CSS Variable(s) targeted: `var(--flexcyon-oz-file-tree-header-disabled)`
+目标 CSS 变量: `var(--flexcyon-oz-file-tree-header-disabled)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-#### Enable Alternate folder count
+#### 启用备用文件夹计数
 
-CSS Variable(s) targeted: `var(--flexcyon-oz-alternate-folder-count)`
+目标 CSS 变量: `var(--flexcyon-oz-alternate-folder-count)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-#### Enabled dimmed file extensions in file tree
+#### 在文件树中启用暗显的文件扩展名
 
-CSS Variable(s) targeted: `var(--flexcyon-oz-dimmed-file-exts-enabled)`
+目标 CSS 变量: `var(--flexcyon-oz-dimmed-file-exts-enabled)`
 
-Default: true (class toggle)
+默认: true (类切换)
 
 ---
 
-### Full Calendar
+### Full Calendar 插件
 
-Accepted formats: x.y, %
+接受的格式: x.y, %
 
-#### Opacity of dimmed full calendar items
+#### 暗淡 Full Calendar 插件项目的不透明度
 
-CSS Variables(s) targeted: `var(--flexcyon-fc-dimmed-items-opacity)`
+目标 CSS 变量: `var(--flexcyon-fc-dimmed-items-opacity)`
 
-Default: 0.89
+默认: 0.89
 
 <span style="opacity: 0.89">Sample opacity of dimmed full calendar items</span>
 
 ---
 
-### Dataview
+### Dataview 插件
 
-Accepted formats: px
+接受的格式: px
 
-#### Horizontal padding of dataview error messages
+#### Dataview 插件错误消息的水平填充
 
-CSS Variables(s) targeted: `var(--flexcyon-dataview-horizontal-padding)`
+目标 CSS 变量: `var(--flexcyon-dataview-horizontal-padding)`
 
-Default: 8 (px)
+默认: 8 (px)
 
 ---
 
-### Canvas
+### Canvas 插件
 
-Defines styles for the core Canvas plugin.
+定义核心 Canvas 插件的样式
 
-Accepted formats: px, RGB
+接受的格式: px, RGB
 
-#### Blur inactive Canvas nodes
+#### 模糊非活跃 Canvas 节点
 
-CSS Variable(s) targeted: `var(--flexcyon-canvas-blur-inactive-nodes)`
+目标 CSS 变量: `var(--flexcyon-canvas-blur-inactive-nodes)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-#### Blur intensity for inactive nodes
+#### 非活跃节点的模糊强度
 
-Used with the previous setting to set the blur intensity of inactive canvas nodes
-and all arrows/edges.
+与前面的设置一起使用，以设置非活动画布节点的模糊强度
+以及所有箭头/边。
 
-CSS Variable(s) targeted: `var(--flexcyon-canvas-blur-intensity)`
+目标 CSS 变量: `var(--flexcyon-canvas-blur-intensity)`
 
-Default: 1 (px)
+默认: 1 (px)
 
-#### Canvas card menu alignment
+#### Canvas 卡菜单对齐
 
-Configure the alignment of the canvas card menu.
+配置 Canvas 卡菜单的对齐方式。
 
-CSS Classe(s) targeted: `.flexcyon-canvas-menu-bottom-left,`
+目标 CSS 类: `.flexcyon-canvas-menu-bottom-left,`
 `.flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
 .flexcyon-canvas-menu-top-left, .flexcyon-canvas-menu-top-right,
 .flexcyon-canvas-menu-lcenter-center, .flexcyon-canvas-menu-lcenter-top,
 .flexcyon-canvas-menu-lcenter-bottom, .flexcyon-canvas-menu-rcenter-center,
 .flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align`
 
-Default: none (class select)
+默认: none (类选项)
 
-Options:
+选项:
 
-- Bottom left
+- Bottom left (左下角)
 
-- Bottom right
+- Bottom right (右下角)
 
-- Top center
+- Top center (顶部中心)
 
-- Top left
+- Top left (左上角)
 
-- Top right
+- Top right (右上角)
 
-- Left aligned center
+- Left aligned center (左对齐中心)
 
-- Left aligned top
+- Left aligned top (左对齐顶部)
 
-- Left aligned bottom
+- Left aligned bottom (左对齐底部)
 
-- Right aligned center
+- Right aligned center (右对齐中心)
 
-- Right aligned top
+- Right aligned top (右对齐顶部)
 
-- Right aligned bottom
+- Right aligned bottom (右对齐底部)
 
-- Right aligned center align
-
----
-
-### Various Complements
-
-#### Vertical Suggestion Padding
-
-CSS Variable(s) targeted: `var(--flexcyon-var-comps-sugg-vert-padding)`
-
-Default: 7 (px)
-
-#### Horizontal Suggestion Padding
-
-CSS Variable(s) targeted: `var(--flexcyon-var-comps-sugg-horiz-padding)`
-
-Default: 12 (px)
-
-#### Compact Suggestion Mode
-
-Overrides defaults. Uses padding 4px 8px.
-
-CSS Variable(s) targeted: `var(--flexcyon-var-comps-compact-mode)`
-
-Default: false (class toggle)
+- Right aligned center align (右对齐中心对齐)
 
 ---
 
-### Omnisearch
+### Various Complements 插件
 
-#### Disable Omnisearch Icons
+#### 垂直建议填充
 
-CSS Classe(s) targeted: `var(--flexcyon-omnisearch-no-icons)`
+目标 CSS 变量: `var(--flexcyon-var-comps-sugg-vert-padding)`
 
-Default: false (class toggle)
+默认: 7 (px)
 
-#### Omnisearch Body Left Margin
+#### 水平建议填充
 
-CSS Classe(s) targeted: `var(--flexcyon-omnisearch-body-margin-left-margin-left)`
+目标 CSS 变量: `var(--flexcyon-var-comps-sugg-horiz-padding)`
 
-Default: 1.45 (rem)
+默认: 12 (px)
+
+#### 紧凑型建议模式
+
+覆盖默认值。使用 padding 4px 8px.
+
+目标 CSS 变量: `var(--flexcyon-var-comps-compact-mode)`
+
+默认: false (类切换)
+
+---
+
+### Omnisearch 插件
+
+#### 不使用 Omnisearch 图标
+
+目标 CSS 类: `var(--flexcyon-omnisearch-no-icons)`
+
+默认: false (类切换)
+
+#### Omnisearch 机身左边缘
+
+目标 CSS 类: `var(--flexcyon-omnisearch-body-margin-left-margin-left)`
+
+默认: 1.45 (rem)
+
+<!---
+TODO: Add Bases section for this and English docs
+--->
