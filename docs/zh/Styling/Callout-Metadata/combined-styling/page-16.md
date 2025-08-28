@@ -3,14 +3,14 @@ title: Capitalize All
 icon: material/caps-lock
 ---
 
-Callout metadata: "caps-all"
+Callout 元数据: "caps-all"
 
-Usage:
+用法:
 
 ```md
 > [!info|caps-all] The title will be displayed as caps
 > The content will be displayed as caps
 ```
 
-> Shorthand for both ["caps-content"](../content-styling/page-6.md) 
-> and ["caps-title"](../title-styling/page-16.md)
+> ["caps-content"](../content-styling/page-6.md) 和 ["caps-title"](../title-styling/page-16.md) 的简写
+

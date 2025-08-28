@@ -3,14 +3,14 @@ title: Tilt All
 icon: material/angle-acute
 ---
 
-Callout metadata: "tilt-all"
+Callout 元数据: "tilt-all"
 
-Usage:
+用法:
 
 ```md
 > [!info|tilt-all] The title will be displayed as uppercase
 > The content will be tilted
 ```
 
-> Shorthand for both ["tilt-content"](../content-styling/page-7.md) 
-> and ["uppercase-title"](../title-styling/page-17.md)
+> ["tilt-content"](../content-styling/page-7.md) 和 ["tilt-title"](../title-styling/page-17.md) 的简写
+

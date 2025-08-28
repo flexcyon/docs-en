@@ -3,14 +3,13 @@ title: Italic All
 icon: material/format-italic
 ---
 
-Callout metadata: "italic-all"
+Callout 元数据: "italic-all"
 
-Usage:
+用法:
 
 ```md
 > [!info|italic-all] The title will be displayed as italic
 > The content will be displayed as italic
 ```
 
-> Shorthand for both ["italic-content"](../content-styling/page-8.md) 
-> and ["italic-title"](../title-styling/page-18.md)
+> ["italic-content"](../content-styling/page-8.md) 和 ["italic-title"](../title-styling/page-18.md) 的简写

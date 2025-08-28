@@ -3,7 +3,7 @@ title: Others
 icon: material/dots-horizontal
 ---
 
-For configuring vim mode text, new tab apperance (ASCII art), sidedock icons,
+For configuring vim mode text, new tab appearance (ASCII art), sidedock icons,
 tooltip radius
 
 Accepted formats: px
@@ -62,7 +62,7 @@ ___
 
 ### New Tab Appearance
 
-Customize the apperance of new empty tabs
+Customize the appearance of new empty tabs
 
 Accepted Formats: px
 
@@ -72,6 +72,7 @@ CSS Classe(s) targeted: `.flexcyon-ascii-enable, .flexcyon-quote-enable`
 > Changing this may take an app reload/restart to take effect
 
 Default: none (class select)
+
 Options:
 
 - ASCII Art
@@ -217,6 +218,7 @@ CSS Classe(s) targeted: `.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, f
 > right sidebar
 
 Default: none (class select)
+
 Options:
 
 - Grid
@@ -255,8 +257,7 @@ Default: no-repeat
 
 CSS Variable(s) targeted: `var(--flexcyon-bg-image-blur)`
 
-Default: 1px
-> Will be changed to 0px next update
+Default: 0 (px)
 
 #### Sidebar Background image brightness
 
@@ -309,7 +310,7 @@ Default: no-repeat
 
 CSS Variable(s) targeted: `var(--flexcyon-modal-image-blur)`
 
-Default: 1px
+Default: 0 (px)
 
 #### Modal Background image brightness
 

@@ -3,9 +3,9 @@ title: Flashcard
 icon: material/card-text-outline
 ---
 
-Callout metadata: "flashcard"
+Callout 元数据: "flashcard"
 
-Usage:
+用法:
 
 ```md
 > [!info|flashcard] The title and the callout will styled nicely to resemble a card
@@ -13,5 +13,4 @@ Usage:
 > which will show on hover
 ```
 
-[Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout) 
-for configuration options.
+[单击此处](../Style-Settings/Editor/Callouts/index.md#flashcard-callout) 查看配置选项

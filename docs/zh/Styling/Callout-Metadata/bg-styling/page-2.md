@@ -3,13 +3,11 @@ title: Blue Background
 icon: material/layers-outline
 ---
 
-Callout metadata: "bg-blue"
+Callout 元数据: "bg-blue"
 
 ```md
 > [!info|bg-blue] Title will display as usual
 > The background color will be blue
 ```
 
-The style itself is also applied to ["all-blue"](../combined-styling/page-2.md)
-along with ["title-blue"](../title-styling/page-2.md).
-
+这种风格本身也适用于 ["all-blue"](../combined-styling/page-2.md) 和 ["title-blue"](../title-styling/page-2.md)。

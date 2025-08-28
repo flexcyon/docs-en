@@ -3,13 +3,12 @@ title: All Yellow
 icon: material/format-color-fill
 ---
 
-Callout metadata: "all-yellow"
+Callout 元数据: "all-yellow"
 
 ```md
 > [!tip|all-yellow] Title will be yellow
 > The background color will be yellow
 ```
 
-> Shorthand for both ["bg-yellow"](../bg-styling/page-9.md)
-> and ["title-yellow"](../title-styling/page-9.md)
+> ["bg-yellow"](../bg-styling/page-9.md) 和 ["title-yellow"](../title-styling/page-9.md) 的简写
 

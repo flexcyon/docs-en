@@ -3,15 +3,13 @@ title: Oblique All
 icon: material/format-text-variant
 ---
 
-Callout metadata: "oblique-all"
+Callout 元数据: "oblique-all"
 
-Usage:
+用法:
 
 ```md
 > [!info|oblique-all] The title will be displayed as oblique
 > The content will be displayed as oblique
 ```
 
-> Shorthand for both ["oblique-content"](../content-styling/page-9.md)
-> and ["oblique-title"](../title-styling/page-19.md)
-
+> ["oblique-content"](../content-styling/page-9.md) 和 ["oblique-title"](../title-styling/page-19.md) 的简写

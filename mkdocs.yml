@@ -82,6 +82,49 @@ plugins:
             Icons: 图标
             Settings: 设置 
             Plugins: 插件
+            Others: 其他
+            Callout Metadata: Callout 元数据 
+            Flashcard: 抽认卡
+            Popup: 弹出
+            Background Styling: 背景样式 
+            Transparent Background: 透明背景 
+            Blue Background: 蓝色背景
+            Red Background: 红色背景
+            Purple Background: 紫色背景
+            Cyan Background: 青色背景
+            Pink Background: 粉红色背景
+            Green Background: 绿色背景
+            Orange Background: 橙色背景
+            Yellow Background: 黄色背景
+            Extended Colour Palette Background: 扩展调色板背景
+            Combined Styling: 组合样式
+            Empty: 空
+            All Blue: 全蓝色
+            All Red: 全红色
+            All Purple: 全紫色
+            All Cyan: 全青色
+            All Pink: 全粉红色
+            All Green: 全绿色
+            All Orange: 全橙色
+            All Yellow: 全黄色
+            Extended Colour Palette Combined: 扩展调色板组合 
+            RTL All: 全 RTL
+            LTR All: 全 LTR
+            Center All: 全中心
+            Uppercase All: 全大写
+            Lowercase All: 全小写
+            Capitalize All: 全首字母大写
+            Tilt All: 全倾斜
+            Italic All: 全斜体
+            Oblique All: 全斜
+            Dashed All: 全虚线
+            Overline All: 全上划线
+            Underline All: 全下划线
+            Strikethrough All: 全中划线
+            Font Weight All: 全字重
+            Interface Font All: 全界面字体
+            Text Font All: 全文本字体
+            Monospace Font All: 全等宽字体
 
   - git-revision-date-localized:
       enable_creation_date: true
@@ -226,10 +269,10 @@ nav:
           - Center All: "Styling/Callout-Metadata/combined-styling/page-13.md"
           - Uppercase All: "Styling/Callout-Metadata/combined-styling/page-14.md"
           - Lowercase All: "Styling/Callout-Metadata/combined-styling/page-15.md"
-          - Captialize All: "Styling/Callout-Metadata/combined-styling/page-16.md"
+          - Capitalize All: "Styling/Callout-Metadata/combined-styling/page-16.md"
           - Tilt All: "Styling/Callout-Metadata/combined-styling/page-17.md"
           - Italic All: "Styling/Callout-Metadata/combined-styling/page-18.md"
-          - Oblique: "Styling/Callout-Metadata/combined-styling/page-19.md"
+          - Oblique All: "Styling/Callout-Metadata/combined-styling/page-19.md"
           - Dashed All: "Styling/Callout-Metadata/combined-styling/page-20.md"
           - Overline All: "Styling/Callout-Metadata/combined-styling/page-21.md"
           - Underline All: "Styling/Callout-Metadata/combined-styling/page-22.md"

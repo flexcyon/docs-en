@@ -4,6 +4,7 @@ icon: material/palette-outline
 ---
 
 > `all-color1-color2-`
+
 Usage:
 
 ```md

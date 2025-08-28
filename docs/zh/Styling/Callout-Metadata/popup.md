@@ -3,9 +3,9 @@ title: Popup
 icon: material/cursor-default
 ---
 
-Callout metadata: "$pop"
+Callout 元数据: "$pop"
 
-Usage:
+用法:
 
 ```md
 > [!info|$pop] The callout will be shown as normal in editing mode
@@ -13,6 +13,4 @@ Usage:
 > in reading mode, which will show its contents on hover
 ```
 
-[Click here](../Style-Settings/Editor/Callouts/index.md#popup-callout)
-for configuration options.
-
+[单击此处](../Style-Settings/Editor/Callouts/index.md#popup-callout) 查看配置选项

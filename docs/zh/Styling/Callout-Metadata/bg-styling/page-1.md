@@ -3,21 +3,20 @@ title: Transparent Background
 icon: material/layers-off-outline
 ---
 
-Callout metadata: "transparent-bg" or "bg-transparent"
+Callout 元数据: "transparent-bg" 或 "bg-transparent"
 
-Usage:
+用法:
 
 ```md
 > [!warning|transparent-bg] The background color will be transparent
 > Content and title is shown as usual
 ```
 
-or
+或
 
 ```md
 > [!warning|bg-transparent] The background color will be transparent
 > Content and title is shown as usual
 ```
 
-Will render the same.
-
+将呈现相同的样式
