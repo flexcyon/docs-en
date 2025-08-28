@@ -3,15 +3,13 @@ title: LTR Content
 icon: material/align-horizontal-left
 ---
 
-Callout metadata: "ltr-content"
+Callout 元数据: "ltr-content"
 
-Usage:
+用法:
 
 ```md
 > [!info|ltr-content] The title will be displayed as usual
 > The content will be displayed as ltr
 ```
 
-The style itself is also applied to ["ltr-all"](../combined-styling/page-12.md)
-along with ["ltr-title"](../title-styling/page-12.md).
-
+这种风格本身也适用于 ["ltr-all"](../combined-styling/page-12.md) 和 ["ltr-title"](../title-styling/page-12.md)。

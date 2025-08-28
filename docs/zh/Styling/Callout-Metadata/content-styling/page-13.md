@@ -3,15 +3,13 @@ title: Strikethrough Content
 icon: material/format-strikethrough
 ---
 
-Callout metadata: "line-through-content"
+Callout 元数据: "line-through-content"
 
-Usage:
+用法:
 
 ```md
 > [!info|line-through-content] The title will be displayed as usual
 > The content will be displayed as strikethrough
 ```
 
-The style itself is also applied to ["line-through-all"](../combined-styling/page-23.md)
-along with ["line-through-title"](../title-styling/page-23.md).
-
+这种风格本身也适用于 ["line-through-all"](../combined-styling/page-23.md) 和 ["line-through-title"](../title-styling/page-23.md)。

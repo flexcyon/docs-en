@@ -5,7 +5,7 @@ icon: material/format-list-bulleted
 
 > `ul-style_type`
 
-Usage:
+用法:
 
 ```md
 >[!info|ul-lower-roman] Your title as usual
@@ -14,4 +14,3 @@ Usage:
 > 3. The bullet point render as the roman numeral iii in reading/live preview
 > ...
 ```
-

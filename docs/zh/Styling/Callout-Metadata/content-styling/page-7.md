@@ -3,15 +3,13 @@ title: Tilt Content
 icon: material/angle-acute
 ---
 
-Callout metadata: "tilt-content"
+Callout 元数据: "tilt-content"
 
-Usage:
+用法:
 
 ```md
 > [!info|tilt-content] The title will be displayed as usual
 > The content will be tilted
 ```
 
-The style itself is also applied to ["tilt-all"](../combined-styling/page-17.md)
-along with ["tilt-title"](../title-styling/page-17.md).
-
+这种风格本身也适用于 ["tilt-all"](../combined-styling/page-17.md) 和 ["tilt-title"](../title-styling/page-17.md)。

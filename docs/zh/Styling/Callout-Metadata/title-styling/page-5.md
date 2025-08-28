@@ -3,13 +3,11 @@ title: Cyan Title
 icon: material/select-color
 ---
 
-Callout metadata: "title-cyan"
+Callout 元数据: "title-cyan"
 
 ```md
 > [!info|title-cyan] Title will be cyan
 > The background color will display as usual
 ```
 
-The style itself is also applied to ["all-cyan"](../combined-styling/page-5.md)
-along with ["bg-cyan"](../bg-styling/page-5.md).
-
+这种风格本身也适用于 ["all-cyan"](../combined-styling/page-5.md) 和 ["bg-cyan"](../title-styling/page-5.md)。

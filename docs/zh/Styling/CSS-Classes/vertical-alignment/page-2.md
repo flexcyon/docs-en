@@ -1,13 +1,11 @@
----
+```---
 title: Vertical Alignment - Tategaki
 icon: material/align-horizontal-right
 ---
 
-# Usage
+# 用法
 
-Applies Horizontal Right-to-Left (RTL) to your notes in reading mode
-
-Usage:
+在 Reading 模式下对笔记应用水平从右向左（RTL）
 
 ```md
 ---
@@ -16,5 +14,11 @@ cssclasses
 ---
 ```
 
-Add link to tategaki in callout
+## Callout 元数据提供者
 
+Tategaki 还有一个 Callout 元数据提供者
+
+```md
+>[!info|tategaki] The title will not display
+> The contents will be displayed as vertical rtl
+```

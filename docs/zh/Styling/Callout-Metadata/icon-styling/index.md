@@ -3,6 +3,4 @@ title: Icon Styling
 icon: material/emoticon
 ---
 
-In this sub-page, you can find usage examples for icon styling of
-callouts using callout metadata.
-
+在此子页面中, 您可以找到使用 Callout 元数据对标注进行图标样式设置的使用示例。

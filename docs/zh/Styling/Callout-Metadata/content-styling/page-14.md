@@ -3,22 +3,20 @@ title: Font weight Content
 icon: material/format-bold
 ---
 
-Callout metadata: "w-`value`-content"
+Callout 元数据: "w-`value`-content"
 
-Accepted Formats for `value`:
+"value" 的可接受格式:
 
-- 100 to 900 (in increments of 100)
-- bold
-- bolder
-- lighter
+- 100 至 900 (以 100 为增量)
+- bold (粗体)
+- bolder (更粗体)
+- lighter (浅体)
 
-Usage:
+用法:
 
 ```md
 > [!info|w-bold-content] I will be display as usual
 > Content will have a bold font weight
 ```
 
-The style itself is also applied to ["w-`value`-all"](../combined-styling/page-24.md)
-along with ["w-`value`-title"](../title-styling/page-24.md).
-
+这种风格本身也适用于 ["w-`value`-all"](../combined-styling/page-24.md) 和 ["w-`value`-title"](../title-styling/page-24.md)。

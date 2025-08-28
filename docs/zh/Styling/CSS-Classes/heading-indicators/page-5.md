@@ -3,10 +3,9 @@ title: Heading indicators - H5
 icon: material/format-header-5
 ---
 
-Add a heading indicator for heading 5s. Will appear in reading, editing and
-source mode.
+为标题 5 添加标题指示器。将出现在 Reading, Live Preview 和 Source 模式中。
 
-Usage:
+用法:
 
 ```md
 cssclasses:
@@ -17,5 +16,4 @@ cssclasses:
 Others headings display as usual
 ```
 
-The Style Settings equivalent to enabling this globally can be [found here](../../Style-Settings/Editor/Typography/headings/index.md#for-heading-5)
-
+有关全局启用此选项的样式设置等效项, 请[单击此处](../../Style-Settings/Editor/Headings/index.md#5_1)。

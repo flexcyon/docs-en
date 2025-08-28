@@ -15,12 +15,9 @@ icon: material/format-list-numbered
 
 ___
 
-- There is no standard implementation for upper Greek
+"列表项内与文本一起" 是什么意思？
 
-What does "inside the list item along with the text mean"?
-
-> Effectively, the list item number/letter/whatever will inherit the indentation
-> of the list item. Think of writing:
+> 实际上, 列表项编号/字母/任何内容都将继承缩进的列表项。例如写作：
 
 ```md
   1. Never
@@ -28,11 +25,10 @@ What does "inside the list item along with the text mean"?
   3. Give
 ```
 
-instead of
+而不是
 
 ```
 1. Never
 2. Gonna
 3. Give
 ```
-

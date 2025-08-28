@@ -3,18 +3,17 @@ title: List Styling
 icon: material/format-list-bulleted-square
 ---
 
-In this sub-page, you can find usage examples for changing the styling of
-ordered and unordered lists using callout metadata.
+在此子页面中，您可以找到使用 Callout 元数据更改有序和无序列表样式的使用示例。
 
-# Callout Lists
+# Callout 列表
 
-These are some utilities for styling ordered and unordered lists in Obsidian.
+这些是一些用于在应用程序中设置有序和无序列表样式的实用程序。
 
-Accepted Formats for `style_type`: The [values that are defined in the MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type#Values)
+`style_type` 的接受格式: [MDN Web 文档中定义的值](https://developer.mozilla.org/zh-CN/docs/Web/CSS/list-style-type#Values)
 
-## Note
+## 提示
 
-To write an ordered list in Obsidian, use:
+要在应用程序中编写有序列表, 请使用:
 
 ```md
 1. Never
@@ -23,16 +22,17 @@ To write an ordered list in Obsidian, use:
 4. ...
 ```
 
-To write an unordered list in Obsidian. use:
+要在应用程序中编写无序列表, 请使用:
 
-```md6- Never
+```md
+- Never
 - Gonna
 - Give
 - ...
 ```
 
 ___
-Q. Why are the `style_type` names so long?
 
-A. Well they are standardised style types available in major browsers
+问: 为什么 `style_type` 名称这么长？
 
+答: 它们是主流浏览器中可用的标准化样式类型

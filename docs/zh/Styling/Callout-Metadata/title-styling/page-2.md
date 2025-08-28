@@ -3,13 +3,11 @@ title: Blue Title
 icon: material/select-color
 ---
 
-Callout metadata: "title-blue"
+Callout 元数据: "title-blue"
 
 ```md
 > [!info|title-blue] Title will be blue
 > The background color will display as usual
 ```
 
-The style itself is also applied to ["all-blue"](../combined-styling/page-2.md) 
-along with ["bg-blue"](../bg-styling/page-2.md).
-
+这种风格本身也适用于 ["all-blue"](../combined-styling/page-2.md) 和 ["bg-blue"](../title-styling/page-2.md)。

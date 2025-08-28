@@ -3,9 +3,9 @@ title: Vertical Alignment - LTR
 icon: material/align-horizontal-left
 ---
 
-# Usage
+# 用法
 
-Applies Horizontal Left-to-Right (LTR) to your notes in reading mode
+在 Reading 模式下对笔记应用水平从左到右（LTR）
 
 ```md
 ---
@@ -14,12 +14,11 @@ cssclasses
 ---
 ```
 
-## Callout metadata provider
+## Callout 元数据提供者
 
-There is also a callout metadata provider for Vertical LTR
+垂直 LTR 还有一个标注元数据提供程序
 
 ```md
 >[!info|vertical-ltr] The title will not display
 > The contents will be displayed as vertical ltr
 ```
-

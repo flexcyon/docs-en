@@ -125,6 +125,80 @@ plugins:
             Interface Font All: 全界面字体
             Text Font All: 全文本字体
             Monospace Font All: 全等宽字体
+            Content Styling: 内容样式 
+            RTL Content: RTL 内容 
+            LTR Content: LTR 内容 
+            Center Content: 中心内容 
+            Uppercase Content: 大写内容 
+            Lowercase Content: 小写内容 
+            Capitalize Content: 首字母大写内容
+            Tilt Content: 倾斜内容
+            Italic Content: 斜体内容
+            Oblique Content: 斜内容
+            Dashed Content: 虚线内容
+            Overline Content: 上划线内容
+            Underline Content: 下划线内容
+            Strikethrough Content: 中划线内容
+            Font Weight Content: 字重内容
+            Interface Font Content: 界面字体内容
+            Text Font Content: 文本字体内容
+            Monospace Font Content: 等宽字体内容
+            Icon Styling: 图标样式 
+            No Icon: 无图标 
+            List Styling: 列表样式 
+            Ordered List Styling: 有序列表样式 
+            Unordered List Styling: 无序列表样式 
+            Combined List Styling: 组合列表样式 
+            Title Styling: 标题样式 
+            No Title: 无标题
+            Blue Title: 蓝色标题
+            Red Title: 红色标题
+            Purple Title: 紫色标题
+            Cyan Title: 青色标题
+            Pink Title: 粉红色标题
+            Green Title: 绿色标题
+            Orange Title: 橙色标题
+            Yellow Title: 黄色标题
+            Extended Colour Palette Title: 扩展调色板标题
+            RTL Title: RTL 标题
+            LTR Title: LTR 标题
+            Center Title: 中心标题
+            Uppercase Title: 大写标题
+            Lowercase Title: 小写标题
+            Capitalize Title: 首字母大写标题
+            Tilt Title: 倾斜标题
+            Italic Title: 斜体标题
+            Oblique Title: 斜标题
+            Dashed Title: 虚线标题
+            Overline Title: 上划线标题
+            Underline Title: 下划线标题
+            Strikethrough Title: 中划线标题
+            Font Weight Title: 字重标题
+            Interface Font Title: 界面字体标题
+            Text Font Title: 文本字体标题
+            Monospace Font Title: 等宽字体标题
+            Heading 1 Title: 标题 1 标题
+            Heading 2 Title: 标题 2 标题
+            Heading 3 Title: 标题 3 标题
+            Heading 4 Title: 标题 4 标题
+            Heading 5 Title: 标题 5 标题
+            Heading 6 Title: 标题 6 标题
+            CSS Classes: CSS 类
+            Dotted Background: 虚线背景
+            Grid Background: 网格背景
+            Rhombus Background: 菱形背景
+            File Line Width: 文件行宽度 
+            Heading Indicators: 标题指示器 
+            Heading 1 Indicators: 标题 1 指标 
+            Heading 2 Indicators: 标题 2 指标 
+            Heading 3 Indicators: 标题 3 指标 
+            Heading 4 Indicators: 标题 4 指标 
+            Heading 5 Indicators: 标题 5 指标 
+            Heading 6 Indicators: 标题 6 指标 
+            Vertical Alignment: 垂直对齐 
+            LTR Vertical Alignment: LTR 垂直对齐 
+            RTL Vertical Alignment: RTL 垂直对齐 
+            Writing Mode: 写入模式 
 
   - git-revision-date-localized:
       enable_creation_date: true
@@ -319,7 +393,7 @@ nav:
           - Green Title: "Styling/Callout-Metadata/title-styling/page-7.md"
           - Orange Title: "Styling/Callout-Metadata/title-styling/page-8.md"
           - Yellow Title: "Styling/Callout-Metadata/title-styling/page-9.md"
-          - Extended Color Palette Title: "Styling/Callout-Metadata/title-styling/page-10.md"
+          - Extended Colour Palette Title: "Styling/Callout-Metadata/title-styling/page-10.md"
           - RTL Title: "Styling/Callout-Metadata/title-styling/page-11.md"
           - LTR Title: "Styling/Callout-Metadata/title-styling/page-12.md"
           - Center Title: "Styling/Callout-Metadata/title-styling/page-13.md"

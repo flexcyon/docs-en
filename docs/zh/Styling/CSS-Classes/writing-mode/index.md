@@ -3,10 +3,9 @@ title: Writing Mode
 icon: material/keyboard
 ---
 
-# Usage
+# 用法
 
-Adds text indent and increased paragraph spacing to your editor. Size can be
-adjusted in style settings.
+在编辑器中添加文本缩进和增加段落间距。可以在样式设置中调整大小。
 
 ```md
 cssclasses:
@@ -18,13 +17,11 @@ Your content will have increased text indent and paragraph spacing
 
 <!-- Link to style settings adjustment. -->
 
-## Callout metadata provider
+## Callout 元数据提供者
 
-There is also a callout metadata provider for writing (which works in live preview
-and reading mode)
+还有一个用于写入的调出元数据提供程序（在 Live Preview 和 Reading 模式下）
 
 ```md
 >[!note|writing] I will display as usual
 > I will have increased text indent and paragraph spacing 
 ```
-

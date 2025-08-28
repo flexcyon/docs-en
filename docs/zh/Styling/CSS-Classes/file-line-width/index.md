@@ -3,9 +3,9 @@ title: File Line Width
 icon: material/arrow-expand-horizontal
 ---
 
-# Usage
+# 用法
 
-Configure the file line width on a per-note basis
+按每个文件配置文件行宽度
 
 ```md
 cssclasses:
@@ -16,7 +16,7 @@ Your content will have a file line width of 50 viewport width (50 percent of you
 screen's size)
 ```
 
-Other Values supported:
+支持的其他值:
 
 - `.editor-50vw`
 - `.editor-55vw`

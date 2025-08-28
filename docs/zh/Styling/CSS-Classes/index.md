@@ -3,6 +3,4 @@ title: CSS Classes
 icon: material/code-braces
 ---
 
-This page and its sub-pages consists of CSS classes you can use to customise
-your vault.
-
+此页面及其子页面由可用于自定义的 CSS 类组成

@@ -3,15 +3,13 @@ title: Capitalize Title
 icon: material/caps-lock
 ---
 
-Callout metadata: "caps-title"
+Callout 元数据: "caps-title"
 
-Usage:
+用法:
 
 ```md
 > [!info|caps-title] The title will be displayed as caps
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["caps-all"](../combined-styling/page-16.md)
-along with ["caps-content"](../content-styling/page-6.md).
-
+这种风格本身也适用于 ["caps-all"](../combined-styling/page-16.md) 和 ["caps-content"](../content-styling/page-6.md)。

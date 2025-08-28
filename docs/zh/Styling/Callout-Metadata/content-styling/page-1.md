@@ -3,15 +3,13 @@ title: RTL Content
 icon: material/align-horizontal-right
 ---
 
-Callout metadata: "rtl-content"
+Callout 元数据: "rtl-content"
 
-Usage:
+用法:
 
 ```md
 > [!info|rtl-content] The title will be displayed as usual
 > The content will be displayed as rtl
 ```
 
-The style itself is also applied to ["rtl-all"](../combined-styling/page-11.md)
-along with ["rtl-title"](../title-styling/page-11.md)
-
+这种风格本身也适用于 ["rtl-all"](../combined-styling/page-11.md) 和 ["rtl-title"](../title-styling/page-11.md)。

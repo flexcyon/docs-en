@@ -159,7 +159,7 @@ Style Settings
 
 默认: 1.3
 
-### Enable underline for 标题 3
+### 为标题 3 启用下划线
 
 目标 CSS 变量: `var(--flexcyon-h3-underline-enabled)`
 

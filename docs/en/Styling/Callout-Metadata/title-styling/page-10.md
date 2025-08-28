@@ -16,6 +16,6 @@ this theme
 The style itself is also applied to
 ["all-color1-color2"](../combined-styling/page-10.md) along with ["bg-color1-color2"](../bg-styling/page-10.md).
 
-Requires [this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enabled-extended-color-palette)
+Requires [this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enable-extended-color-palette)
 to be on
 

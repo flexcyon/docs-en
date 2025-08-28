@@ -17,5 +17,5 @@ cssclasses:
 Others headings display as usual
 ```
 
-The Style Settings equivalent to enabling this globally can be [found here](../../Style-Settings/Editor/Typography/headings/index.md#for-heading-4)
+The Style Settings equivalent to enabling this globally can be [found here](../../Style-Settings/Editor/Headings/index.md#enable-heading-indicators-globally-for-heading-4)
 

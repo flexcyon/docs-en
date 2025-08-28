@@ -3,9 +3,9 @@ title: Rhombus background
 icon: material/rhombus-split-outline
 ---
 
-# Usage
+# 用法
 
-Adds a repeating pattern of rhombi to your editor background. Rotation can be adjusted.
+将菱形的重复图案添加到编辑器背景中。旋转可以调整。
 
 ```md
 cssclasses:
@@ -15,10 +15,9 @@ cssclasses:
 Your content will render as usual
 ```
 
-## Callout metadata provider
+## Callout 元数据提供者
 
-There is also a callout metadata provider for rhombus background (which works in
-live preview and reading mode)
+主题还有一个用于虚线背景的 Callout 元数据提供程序（在 Live Preview 和 Reading 模式下）
 
 ```md
 >[!note|bg-rhombus] I will display as usual

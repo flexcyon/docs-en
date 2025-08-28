@@ -3,13 +3,11 @@ title: Red Title
 icon: material/select-color
 ---
 
-Callout metadata: "title-red"
+Callout 元数据: "title-red"
 
 ```md
 > [!info|title-red] Title will be red
 > The background color will display as usual
 ```
 
-The style itself is also applied to ["all-red"](../combined-styling/page-3.md)
-along with ["bg-red"](../bg-styling/page-3.md).
-
+这种风格本身也适用于 ["all-red"](../combined-styling/page-3.md) 和 ["bg-red"](../title-styling/page-3.md)。

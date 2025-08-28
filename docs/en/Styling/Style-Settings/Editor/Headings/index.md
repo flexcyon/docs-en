@@ -40,7 +40,7 @@ Default: false (class toggle)
 ### About Enable heading indicators globally
 
 Customise which headings have heading indicators before them globally.
-If you are looking to apply them on a per-note basis, [click here](../../../../CSS-Classes/heading-indicators/index.md)
+If you are looking to apply them on a per-note basis, [click here](../../../CSS-Classes/heading-indicators/index.md)
 
 ___
 ## Heading 1
@@ -51,7 +51,7 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h1)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-1.md)
+> The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-1.md)
 
 ### Heading 1 font size
 
@@ -91,7 +91,7 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h2)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-2.md)
+> The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-2.md)
 
 ### Heading 2 font size
 
@@ -124,13 +124,13 @@ Default: false (class toggle)
 ___
 ## Heading 3
 
-### Enable headings indicators globally for Heading 3
+### Enable heading indicators globally for Heading 3
 
 CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h3)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-3.md)
+> The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-3.md)
 
 ### Heading 3 font size
 
@@ -163,13 +163,13 @@ Default: false (class toggle)
 ___
 ## Heading 4
 
-### Enable headings indicators globally for Heading 4
+### Enable heading indicators globally for Heading 4
 
 CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h4)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-4.md)
+> The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-4.md)
 
 ### Heading 4 font size
 
@@ -202,13 +202,13 @@ Default: false (class toggle)
 ___
 ## Heading 5
 
-### Enable headings indicators globally for Heading 5
+### Enable heading indicators globally for Heading 5
 
 CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h5)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-5.md)
+> The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-5.md)
 
 ### Heading 5 font size
 
@@ -241,13 +241,13 @@ Default: false (class toggle)
 ___
 ## Heading 6
 
-### Enable headings indicators globally for Heading 6
+### Enable heading indicators globally for Heading 6
 
 CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h6)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../../CSS-Classes/heading-indicators/page-6.md)
+> The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-6.md)
 
 ### Heading 6 font size
 

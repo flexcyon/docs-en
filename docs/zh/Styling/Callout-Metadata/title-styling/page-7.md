@@ -3,13 +3,11 @@ title: Green Title
 icon: material/select-color
 ---
 
-Callout metadata: "title-green"
+Callout 元数据: "title-green"
 
 ```md
 > [!info|title-green] Title will be green
 > The background color will display as usual
 ```
 
-The style itself is also applied to ["all-green"](../combined-styling/page-7.md)
-along with ["bg-green"](../bg-styling/page-7.md).
-
+这种风格本身也适用于 ["all-green"](../combined-styling/page-7.md) 和 ["bg-green"](../title-styling/page-7.md)。

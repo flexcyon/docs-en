@@ -3,13 +3,11 @@ title: Orange Title
 icon: material/select-color
 ---
 
-Callout metadata: "title-orange"
+Callout 元数据: "title-orange"
 
 ```md
 > [!info|title-orange] Title will be orange
 > The background color will display as usual
 ```
 
-The style itself is also applied to ["all-orange"](../combined-styling/page-8.md)
-along with ["bg-orange"](../bg-styling/page-8.md).
-
+这种风格本身也适用于 ["all-orange"](../combined-styling/page-8.md) 和 ["bg-orange"](../title-styling/page-8.md)。
