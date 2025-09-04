@@ -30,6 +30,41 @@ Style Settings
 默认:
 <span class="col-sqr" style="background-color: #6f768599"></span> #6f768599
 
+### 默认文本颜色
+
+目标 CSS 变量: `var(--text-normal)`
+
+默认 (灯光模式):
+<span class="col-sqr" style="background-color: #080808"></span> #080808
+
+默认 (暗模式):
+<span class="col-sqr" style="background-color: #d3d5d3"></span> #d3d5d3
+
+### 默认行高度
+
+目标 CSS 变量: `var(--line-height-normal)`
+
+默认: 1.5 (px)
+
+### UI 行高度
+用于搜索结果, 树项目,工具提示和其他较小的空间。开发者文档中的描述。
+
+目标 CSS 变量: `var(--line-height-tight)`
+
+默认: 1.3 (px)
+
+### 默认单词间距
+
+目标 CSS 变量: `var(--flexcyon-w-spacing)`
+
+默认: 0 (px)
+
+### 默认字母间距
+
+目标 CSS 变量: `var(--flexcyon-l-spacing)`
+
+默认: 0 (px)
+
 ### 突出显示文本垂直填充
 
 目标 CSS 变量: `var(--flexcyon-highlight-verti-padding)`

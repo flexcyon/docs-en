@@ -199,6 +199,13 @@ plugins:
             LTR Vertical Alignment: LTR 垂直对齐 
             RTL Vertical Alignment: RTL 垂直对齐 
             Writing Mode: 写入模式 
+            Version 1.0.x: 版本 1.0.x
+            Version 0.1.x: 版本 0.1.x
+            Version 0.2.x: 版本 0.2.x
+            Version 0.3.x: 版本 0.3.x
+            Version 0.4.x: 版本 0.4.x
+            Version 0.5.x: 版本 0.5.x
+            Version 0.6.x: 版本 0.6.x
 
   - git-revision-date-localized:
       enable_creation_date: true
@@ -442,6 +449,7 @@ nav:
           - Writing Mode: "Styling/CSS-Classes/writing-mode/index.md"
   - Changelogs:
       - Changelogs: "changelogs/index.md"
+      - Version 1.0.x: "changelogs/page-1.md"
       - Beta:
           - Beta: "changelogs/beta/index.md"
           - Version 0.1.x: "changelogs/beta/page-1.md"

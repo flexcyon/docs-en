@@ -1,24 +1,9 @@
 ---
-icon: material/script-text
-title: Changelogs
----
-
-#### Note
-
-The changelogs show versions in order of most recent to least recent.
-Or, if you prefer the changelogs in chronological order, you can use
-the sidebar or hamburger menu to view the relevant sub-pages.
-
+title: Version 1.0.x and below
+icon: material/numeric-1
 ---
 
 ## Version 1.0.x
-
-### 1.0.1 Typography Update
-
-- Added experimental Bases style settings
-- Modified some Style Settings to use variable-select for better performance. Legacy options are kept for backwards compatibility
-- Added an experimental Loading Indicator when Obsidian starts up
-- You can now configure the normal text colour, line height, letter and word spacing of text throughout the theme.
 
 ### 1.0.0 Update
 
@@ -46,8 +31,9 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 - Improved Chinese translation and documentation organisation
   - Other languages will not be supported as I do not know them and relying too much on machines for translations is a bad thing
 
----
+### 1.0.1 Typography Update
 
-Beta changelogs can be [found here](./beta/index.md).
-
-I will not be bothering to translate these.
+- Added experimental Bases style settings
+- Modified some Style Settings to use variable-select for better performance. Legacy options are kept for backwards compatibility
+- Added an experimental Loading Indicator when Obsidian starts up
+- You can now configure the normal text colour, line height, letter and word spacing of text throughout the theme.
