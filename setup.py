@@ -145,7 +145,7 @@ def main():
     parser.add_argument(
         "--setup",
         action="store_true",
-        help="Create/recreate .venv and install dependencies from site-reqs.txt."
+        help="Create/recreate .venv and install dependencies from requirements.txt."
     )
     parser.add_argument(
         "--serve",
@@ -159,8 +159,8 @@ def main():
     )
     parser.add_argument(
         "--reqs-file",
-        default="site-reqs.txt",
-        help="Path to the requirements file (default: site-reqs.txt)."
+        default="requirements.txt",
+        help="Path to the requirements file (default: requirements.txt)."
     )
 
     args = parser.parse_args()
