@@ -37,3 +37,9 @@ icon: material/numeric-1
 - Modified some Style Settings to use variable-select for better performance. Legacy options are kept for backwards compatibility
 - Added an experimental Loading Indicator when Obsidian starts up
 - You can now configure the normal text colour, line height, letter and word spacing of text throughout the theme.
+
+### 1.0.2 Fixed Highlighting
+
+- Text highlighting is now fixed
+  - Thanks to `weiss-d` on GitHub and `arthur` on the OMG Discord
+- Added more Bases styling options

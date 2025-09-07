@@ -13,6 +13,11 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 
 ## Version 1.0.x
 
+### 1.0.2 Fixed Highlighting
+- Text highlighting is now fixed
+  - Thanks to `weiss-d` on GitHub and `arthur` on the OMG Discord
+- Added more Bases styling options
+
 ### 1.0.1 Typography Update
 
 - Added experimental Bases style settings

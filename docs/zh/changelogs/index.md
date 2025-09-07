@@ -13,6 +13,12 @@ title: Changelogs
 
 ## 1.0.x 版本
 
+### 1.0.2 固定突出显示
+- 文本突出显示现已修复
+  - 感谢 GitHub 上的 `weiss-d` 和 OMG Discord 上的 `arthur`
+- 添加了更多 Bases 插件样式选项
+
+
 ### 1.0.1 排版更新
 
 - 添加了实验 Bases 插件样式设置
