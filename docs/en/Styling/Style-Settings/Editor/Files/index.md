@@ -23,9 +23,21 @@ Style Settings
 
 ### Enable dimmed file extensions in file explorer
 
-CSS Variable(s) targeted: `var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
+CSS Classe(s) targeted: `var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 
 Default: true (class toggle)
+
+### Enable Active File Indicator
+
+CSS Classe(s) targeted: `var(--flexcyon-enable-active-file-indicator)`
+
+Default: false (class toggle)
+
+### Active File Indicator value
+
+CSS Variable(s) targeted: `var(--flexcyon-active-indicator)`
+
+Default: ">> "
 
 ### Select folder style
 

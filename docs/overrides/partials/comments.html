@@ -18,6 +18,17 @@
             async>
     </script>
 
+  <!-- Update Giscus language based on URL -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+    var url = window.location.href;
+
+    // Check if the URL contains the language path
+    if (url.includes('/zh/')) {
+      giscus.setAttribute("data-lang", "zh-CN");
+    }
+  </script>
+
   <!-- Synchronize Giscus theme with palette -->
   <script>
     var giscus = document.querySelector("script[src*=giscus]")

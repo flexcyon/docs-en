@@ -33,6 +33,22 @@ Style Settings
 
 默认: false (类切换)
 
+### 选项卡编号
+
+在 RTZ 模式下默认启用。
+
+目标 CSS 类: `.flexcyon-number-tabs`
+
+默认: false (类切换)
+
+### 删除选项卡标题
+
+在 RTZ 模式下默认启用。
+
+目标 CSS 类: `.flexcyon-remove-tab-headers`
+
+默认: false (类切换)
+
 ### 设备操作系统详细信息右侧填充
 
 目标 CSS 变量: `var(--flexcyon-os-detail-padding-r)`

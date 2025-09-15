@@ -11,6 +11,23 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 
 ---
 
+## Version 1.1.x
+
+### 1.1.0 Callouts Update
+
+- Changed (slightly reduced) default line heights in the theme
+	- You can configure them to your liking
+- Added more callout style setting options
+- You can now use any valid lucide icon as a custom callout. It replaces the default icon with the lucide icon you input.
+	- This does not have a callout metadata equivalent
+- You can now specify all callout metadata as a custom callout. E.g. `>[!|empty]` and `>[!empty]` both do the same thing
+- Updated ASCII Icon Set
+- You can number your tabs and remove their titles (enabled by default in RTZ mode). You can also toggle it separately.
+- Added Experimental TUI callouts and an option to enable them for all callouts
+- Added toggleable active file indicator
+- Styled core search plugin
+- More view header styling for pl10k layout
+
 ## Version 1.0.x
 
 ### 1.0.2 Fixed Highlighting

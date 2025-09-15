@@ -51,11 +51,35 @@ CSS Variable(s) targeted: `var(--flexcyon-callout-vertical-margin)`
 
 Default: 1 (em)
 
+### Callout Vertical Padding
+
+CSS Variable(s) targeted: `var(--flexcyon-callout-vertical-padding)`
+
+Default: 12 (px)
+
+### Callout Horizontal Padding
+
+CSS Variable(s) targeted: `var(--flexcyon-callout-horiz-padding)`
+
+Default: 24 (px)
+
 ### Callout Border Radius
 
 CSS Variable(s) targeted: `var(--callout-radius)`
 
 Default: 2 (px)
+
+### Callout Added Border Radius
+
+CSS Variable(s) targeted: `var(--flexcyon-callout-radix)`
+
+Default: 16 (px)
+
+### Enable TUI Callouts by default
+
+CSS Classe(s) targeted: `.flexcyon-tui-callouts`
+
+Default: false (class toggle)
 
 ___
 ### Flashcard callout

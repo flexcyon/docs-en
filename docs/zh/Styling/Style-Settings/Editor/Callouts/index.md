@@ -51,11 +51,35 @@ Style Settings
 
 默认: 1 (em)
 
+### 标注垂直填充
+
+目标 CSS 变量: `var(--flexcyon-callout-vertical-padding)`
+
+默认: 12 (px)
+
+### 标注水平填充
+
+目标 CSS 变量: `var(--flexcyon-callout-horiz-padding)`
+
+默认: 24 (px)
+
 ### 标注文本边框半径
 
 目标 CSS 变量: `var(--callout-radius)`
 
 默认: 2 (px)
+
+### 标注添加了边框半径
+
+目标 CSS 变量: `var(--flexcyon-callout-radix)`
+
+默认: 16 (px)
+
+### 默认情况下启用 TUI 标注
+
+CSS Classe(s) targeted: `.flexcyon-tui-callouts`
+
+默认: false (类切换)
 
 ---
 

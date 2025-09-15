@@ -27,6 +27,18 @@ Style Settings
 
 默认: true (类切换)
 
+### 启用现用文件指示器
+
+目标 CSS 类: `var(--flexcyon-enable-active-file-indicator)`
+
+默认: false (类切换)
+
+### 现用文件指示器符值
+
+目标 CSS 变量: `var(--flexcyon-active-indicator)`
+
+默认: ">> "
+
 ### 文件夹样式
 
 目标 CSS 类: `.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`

@@ -33,6 +33,22 @@ CSS Classe(s) targeted: `.flexcyon-display-os`
 
 Default: false (class toggle)
 
+### Number tabs
+
+Enabled by default in RTZ mode.
+
+CSS Classe(s) targeted: `.flexcyon-number-tabs`
+
+Default: false (class toggle)
+
+### Remove Tab Headers
+
+Enabled by default in RTZ mode.
+
+CSS Classe(s) targeted: `.flexcyon-remove-tab-headers`
+
+Default: false (class toggle)
+
 ### Device operating system details right padding
 
 CSS Variable(s) targeted: `var(--flexcyon-os-detail-padding-r)`

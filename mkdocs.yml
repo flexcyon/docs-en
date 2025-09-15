@@ -86,6 +86,7 @@ plugins:
             Callout Metadata: Callout 元数据 
             Flashcard: 抽认卡
             Popup: 弹出
+            Center Image: 图像居中
             Background Styling: 背景样式 
             Transparent Background: 透明背景 
             Blue Background: 蓝色背景
@@ -145,6 +146,7 @@ plugins:
             Monospace Font Content: 等宽字体内容
             Icon Styling: 图标样式 
             No Icon: 无图标 
+            Lucide Icons: Lucide 图标 
             List Styling: 列表样式 
             Ordered List Styling: 有序列表样式 
             Unordered List Styling: 无序列表样式 
@@ -199,7 +201,7 @@ plugins:
             LTR Vertical Alignment: LTR 垂直对齐 
             RTL Vertical Alignment: RTL 垂直对齐 
             Writing Mode: 写入模式 
-            Version 1.0.x: 版本 1.0.x
+            Version 1.x.x: 版本 1.x.x
             Version 0.1.x: 版本 0.1.x
             Version 0.2.x: 版本 0.2.x
             Version 0.3.x: 版本 0.3.x
@@ -321,6 +323,8 @@ nav:
       - Callout Metadata: "Styling/Callout-Metadata/index.md"
       - Flashcard: "Styling/Callout-Metadata/flashcard.md"
       - Popup: "Styling/Callout-Metadata/popup.md"
+      - Center Image: "Styling/Callout-Metadata/center-img.md"
+      - TUI: "Styling/Callout-Metadata/tui.md"
       - Background Styling:
           - Background Styling: "Styling/Callout-Metadata/bg-styling/index.md"
           - Transparent Background: "Styling/Callout-Metadata/bg-styling/page-1.md"
@@ -384,6 +388,7 @@ nav:
       - Icon Styling:
           - Icon Styling: "Styling/Callout-Metadata/icon-styling/index.md"
           - No Icon: "Styling/Callout-Metadata/icon-styling/page-1.md"
+          - Lucide Icons: "Styling/Callout-Metadata/icon-styling/lucide.md"
       - List Styling:
           - List Styling: "Styling/Callout-Metadata/list-styling/index.md"
           - Ordered List Styling: "Styling/Callout-Metadata/list-styling/page-1.md"
@@ -449,7 +454,7 @@ nav:
           - Writing Mode: "Styling/CSS-Classes/writing-mode/index.md"
   - Changelogs:
       - Changelogs: "changelogs/index.md"
-      - Version 1.0.x: "changelogs/page-1.md"
+      - Version 1.x.x: "changelogs/page-1.md"
       - Beta:
           - Beta: "changelogs/beta/index.md"
           - Version 0.1.x: "changelogs/beta/page-1.md"
