@@ -60,3 +60,16 @@ icon: material/numeric-1
 - 添加了可切换的活动文件指示器
 - 样式化搜索插件
 - pl10k 布局的更多视图标题样式
+
+### 1.1.1 垂直样式
+
+- 添加了 Callout 元数据选项, 用于在标注中设置 Lucide 图标。使用 Lucide 图标设置时, 整个 Callout
+元数据或自定义标注部分必须与 Lucide 图标值匹配, 否则图标将无法呈现。
+    - 例如，`>[!lucide-git-fork|title-orange]` 而不是
+`>[!note|lucide-git-fork title-orange]` 或 `>[!title-orange|lucide-git-fork]`
+    - （您不能指定多个自定义标注类型，但可以使用标注元数据进行修改）
+- 将 "垂直 LTR" Callout 元数据重命名为 "vert-ltr”
+- 添加了可选择的默认 Callout 样式。选项包括 TUI, 简化和垂直。这些还具有 Callout 元数据和自定义标注等效项。
+    - 自定义标注和 Callout 元数据选项是互斥的，但可以覆盖所选的默认 Callout 样式
+- 更新社区部分外观和社区导航项目
+- 添加了可切换的垂直导航样式

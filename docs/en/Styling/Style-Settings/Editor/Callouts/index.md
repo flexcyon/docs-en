@@ -75,11 +75,17 @@ CSS Variable(s) targeted: `var(--flexcyon-callout-radix)`
 
 Default: 16 (px)
 
-### Enable TUI Callouts by default
+### Select callout style
 
-CSS Classe(s) targeted: `.flexcyon-tui-callouts`
+CSS Classe(s) targeted: `.flexcyon-tui-callouts, .flexcyon-plain-callouts, .flexcyon-vert-callouts`
 
-Default: false (class toggle)
+Default: none (class select)
+
+Options:
+
+-  TUI Callouts
+-  Plain Callouts
+-  Vertical Callouts
 
 ___
 ### Flashcard callout

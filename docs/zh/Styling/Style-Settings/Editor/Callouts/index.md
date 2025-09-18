@@ -75,11 +75,17 @@ Style Settings
 
 默认: 16 (px)
 
-### 默认情况下启用 TUI 标注
+### 选择 Callout 样式
 
-CSS Classe(s) targeted: `.flexcyon-tui-callouts`
+目标 CSS 类: `.flexcyon-tui-callouts, .flexcyon-plain-callouts, .flexcyon-vert-callouts`
 
-默认: false (类切换)
+默认: none (类选项)
+
+选项:
+
+- TUI (文本用户界面) Callouts
+- Plain (简化) Callouts
+- Vertical (垂直) Callouts
 
 ---
 

@@ -19,7 +19,6 @@ cssclasses
 There is also a callout metadata provider for Vertical LTR
 
 ```md
->[!info|vertical-ltr] The title will not display
+>[!info|vert-ltr] The title will not display
 > The contents will be displayed as vertical ltr
 ```
-

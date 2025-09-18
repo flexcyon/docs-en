@@ -12,6 +12,14 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 ---
 
 ## Version 1.1.x
+### 1.1.1 Vertical Styling
+- Added callout metadata option for setting lucide icon in callouts. When using lucide icon setting, either the entire callout metadata or custom callout section must match the lucide icon value else the icon will not render.
+	- E.g. `>[!lucide-git-fork|title-orange]` instead of `>[!note|lucide-git-fork title-orange]` or `>[!title-orange|lucide-git-fork]` (you cannot specify multiple custom callout types, but can modify with callout metadata)
+	- Renamed `vertical-ltr` callout metadata to `vert-ltr`
+- Added selectable default callout style. Options include TUI, Plain and Vertical. These also have callout metadata and custom callout equivalents.
+	- The custom callout and callout metadata options are mutally exclusive but can override the default callout style selected
+- Updated community store appearance and community item effects
+- Added toggleable vertical navigation style
 
 ### 1.1.0 Callouts Update
 

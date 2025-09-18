@@ -39,6 +39,12 @@ CSS Variable(s) targeted: `var(--flexcyon-active-indicator)`
 
 Default: ">> "
 
+### Enable vertical navigation
+
+CSS Variable(s) targeted: `var(--flexcyon-vertical-nav)`
+
+Default: false (class toggle)
+
 ### Select folder style
 
 CSS Classe(s) targeted: `.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`

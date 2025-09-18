@@ -39,6 +39,12 @@ Style Settings
 
 默认: ">> "
 
+### 启用垂直导航样式
+
+目标 CSS 变量: `var(--flexcyon-vertical-nav)`
+
+默认: false (类切换)
+
 ### 文件夹样式
 
 目标 CSS 类: `.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`

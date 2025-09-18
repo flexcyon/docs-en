@@ -19,6 +19,6 @@ cssclasses
 垂直 LTR 还有一个标注元数据提供程序
 
 ```md
->[!info|vertical-ltr] The title will not display
+>[!info|vert-ltr] The title will not display
 > The contents will be displayed as vertical ltr
 ```
