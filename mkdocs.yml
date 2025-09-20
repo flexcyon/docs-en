@@ -87,6 +87,8 @@ plugins:
             Flashcard: 抽认卡
             Popup: 弹出
             Center Image: 图像居中
+            Plain: 简化
+            Vertical: 垂直
             Background Styling: 背景样式 
             Transparent Background: 透明背景 
             Blue Background: 蓝色背景
@@ -325,6 +327,8 @@ nav:
       - Popup: "Styling/Callout-Metadata/popup.md"
       - Center Image: "Styling/Callout-Metadata/center-img.md"
       - TUI: "Styling/Callout-Metadata/tui.md"
+      - Plain: "Styling/Callout-Metadata/plain.md"
+      - Vertical: "Styling/Callout-Metadata/vertical.md"
       - Background Styling:
           - Background Styling: "Styling/Callout-Metadata/bg-styling/index.md"
           - Transparent Background: "Styling/Callout-Metadata/bg-styling/page-1.md"

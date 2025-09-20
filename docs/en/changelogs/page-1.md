@@ -69,3 +69,14 @@ icon: material/numeric-1
 	- The custom callout and callout metadata options are mutally exclusive but can override the default callout style selected
 - Updated community store appearance and community item effects
 - Added toggleable vertical navigation style
+
+### 1.1.2 Vertical Fixes
+- Fixed vertical layout not working for specific UI region
+- Added more useful error messages to Bases 
+	- e.g. when the Base query result is empty (no notes found matching specified criteria), or a specific note property cannot be found for some note
+- Added styling for core Web Viewer plugin
+- You can now specify a colour for callouts like `vert-orange`, `tui border-purple`, `plain-yellow`. Each corresponds to a specific callout style.
+	- Like the callout styles, the metadata providers are mutually exclusive.
+	- Whether you write the option in callout metadata or as a custom callout is up to you
+- Fixed first iframe padding top in callouts
+- Slightly improved performance of sidebar background options

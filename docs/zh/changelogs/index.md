@@ -12,6 +12,16 @@ title: Changelogs
 ---
 
 ## 1.1.x 版本
+### 1.1.2 垂直修补
+- 修复了垂直布局不适用于特定 UI 区域的问题
+- 向 Bases 添加了更多有用的错误消息
+- 例如，当 Bases 查询结果为空 (找不到符合指定条件的文件), 或者找不到某个笔记的特定文件属性时
+- 为核心 Web Viewer 插件添加样式
+- 现在, 您可以为 `vert-orange` `tui border-purple`, `plain-yellow` 等 Callout 指定颜色。每个对应一个特定的标注样式。
+- 与 Callout 样式一样，元数据提供程序是互斥的。
+- 是写入 Callout 元数据还是作为自定义 Callout, 由您选择
+- 修复了 Callout 中的第一个 iframe 填充顶部
+- 侧边栏背景选项的性能略有提升
 
 ### 1.1.1 垂直样式
 - 添加了 Callout 元数据选项, 用于在标注中设置 Lucide 图标。使用 Lucide 图标设置时, 整个 Callout

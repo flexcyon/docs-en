@@ -12,6 +12,17 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 ---
 
 ## Version 1.1.x
+### 1.1.2 Vertical Fixes
+- Fixed vertical layout not working for specific UI region
+- Added more useful error messages to Bases 
+	- e.g. when the Base query result is empty (no notes found matching specified criteria), or a specific note property cannot be found for some note
+- Added styling for core Web Viewer plugin
+- You can now specify a colour for callouts like `vert-orange`, `tui border-purple`, `plain-yellow`. Each corresponds to a specific callout style.
+	- Like the callout styles, the metadata providers are mutually exclusive.
+	- Whether you write the option in callout metadata or as a custom callout is up to you
+- Fixed first iframe padding top in callouts
+- Slightly improved performance of sidebar background options
+
 ### 1.1.1 Vertical Styling
 - Added callout metadata option for setting lucide icon in callouts. When using lucide icon setting, either the entire callout metadata or custom callout section must match the lucide icon value else the icon will not render.
 	- E.g. `>[!lucide-git-fork|title-orange]` instead of `>[!note|lucide-git-fork title-orange]` or `>[!title-orange|lucide-git-fork]` (you cannot specify multiple custom callout types, but can modify with callout metadata)
