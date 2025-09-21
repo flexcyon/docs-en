@@ -12,6 +12,10 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 ---
 
 ## Version 1.1.x
+### 1.1.3 Headings Fix
+- Fixed broken heading indicator settings
+- Fixed heading indicator overlap with collapse icon
+
 ### 1.1.2 Vertical Fixes
 - Fixed vertical layout not working for specific UI region
 - Added more useful error messages to Bases 

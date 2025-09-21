@@ -80,3 +80,8 @@ icon: material/numeric-1
 	- Whether you write the option in callout metadata or as a custom callout is up to you
 - Fixed first iframe padding top in callouts
 - Slightly improved performance of sidebar background options
+
+### 1.1.3 Headings Fix
+- Fixed broken heading indicator settings
+- Fixed heading indicator overlap with collapse icon
+
