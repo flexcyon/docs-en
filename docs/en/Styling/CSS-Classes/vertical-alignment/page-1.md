@@ -5,7 +5,7 @@ icon: material/align-horizontal-left
 
 # Usage
 
-Applies Horizontal Left-to-Right (LTR) to your notes in reading mode
+Applies Vertical Left-to-Right (LTR) to your notes in reading mode
 
 ```md
 ---

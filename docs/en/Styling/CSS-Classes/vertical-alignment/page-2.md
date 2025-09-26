@@ -5,7 +5,7 @@ icon: material/align-horizontal-right
 
 # Usage
 
-Applies Horizontal Right-to-Left (RTL) to your notes in reading mode
+Applies Vertical Right-to-Left (RTL) to your notes in reading mode
 
 Usage:
 
