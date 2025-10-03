@@ -44,3 +44,19 @@ CSS Variable(s) targeted: `var(--flexcyon-table-reading-mode-width)`
 
 Default: 100%
 
+### Table Cell Vertical Padding
+CSS Variable(s) targeted: `var(--flexcyon-td-verti-padding)`
+
+Default: 5 (px)
+
+### Table Cell Horizontal Padding
+CSS Variable(s) targeted: `var(--flexcyon-td-horiz-padding)`
+
+Default: 10 (px)
+
+### Table Cell Live Preview Scaling
+CSS Variable(s) targeted: `var(--flexcyon-td-live-pad-scale)`
+
+Default: 0.2
+
+> More specifically the scaling of padding compared to the specified values

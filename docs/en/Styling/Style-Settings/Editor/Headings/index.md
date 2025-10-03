@@ -82,6 +82,18 @@ CSS Variable(s) targeted: `var(--flexcyon-h1-underline-enabled)`
 Default: false (class toggle)
 > The size of the underline scales with your font weight
 
+### Heading 1 alignment
+
+CSS Variable(s) targeted: `var(--flexcyon-heading-1-alignment)`
+
+Default: left (class select)
+
+Options:
+
+- Left
+- Center
+- Right
+
 ___
 ## Heading 2
 
@@ -120,6 +132,18 @@ Default: 1.2
 CSS Variable(s) targeted: `var(--flexcyon-h2-underline-enabled)`
 
 Default: false (class toggle)
+
+### Heading 2 alignment
+
+CSS Variable(s) targeted: `var(--flexcyon-heading-2-alignment)`
+
+Default: left (class select)
+
+Options:
+
+- Left
+- Center
+- Right
 
 ___
 ## Heading 3
@@ -160,6 +184,18 @@ CSS Variable(s) targeted: `var(--flexcyon-h3-underline-enabled)`
 
 Default: false (class toggle)
 
+### Heading 3 alignment
+
+CSS Variable(s) targeted: `var(--flexcyon-heading-3-alignment)`
+
+Default: left (class select)
+
+Options:
+
+- Left
+- Center
+- Right
+
 ___
 ## Heading 4
 
@@ -198,6 +234,18 @@ Default: 1.4
 CSS Variable(s) targeted: `var(--flexcyon-h4-underline-enabled)`
 
 Default: false (class toggle)
+
+### Heading 4 alignment
+
+CSS Variable(s) targeted: `var(--flexcyon-heading-4-alignment)`
+
+Default: left (class select)
+
+Options:
+
+- Left
+- Center
+- Right
 
 ___
 ## Heading 5
@@ -238,6 +286,18 @@ CSS Variable(s) targeted: `var(--flexcyon-h5-underline-enabled)`
 
 Default: false (class toggle)
 
+### Heading 5 alignment
+
+CSS Variable(s) targeted: `var(--flexcyon-heading-5-alignment)`
+
+Default: left (class select)
+
+Options:
+
+- Left
+- Center
+- Right
+
 ___
 ## Heading 6
 
@@ -276,3 +336,15 @@ Default: 1.5
 CSS Variable(s) targeted: `var(--flexcyon-h6-underline-enabled)`
 
 Default: false (class toggle)
+
+### Heading 6 alignment
+
+CSS Variable(s) targeted: `var(--flexcyon-heading-6-alignment)`
+
+Default: left (class select)
+
+Options:
+
+- Left
+- Center
+- Right

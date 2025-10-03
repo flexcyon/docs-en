@@ -85,3 +85,18 @@ icon: material/numeric-1
 - Fixed broken heading indicator settings
 - Fixed heading indicator overlap with collapse icon
 
+## Version 1.2.x
+
+### 1.2.0 Retrospect Update
+- Fixed File Properties in vertical navigation
+- Fixed Right Sidebar Toggle Button disappearing in vertical navigation
+- Updated Full Calendar Plugin styling
+- Added Style Settings options for tables
+- Tweaked some background colours in the theme
+- Updated Style Settings and active item background
+- Added Style Settings option to set heading text alignment
+- Added Styling for Core Slides plugin
+- Added Styling for Tasks plugin
+- Added option to place workspace ribbon (sidedock icons)
+- Added options to place vault switcher at the top, reverse vault switcher and actions
+- Added toggleable active line highlight when not in reading mode

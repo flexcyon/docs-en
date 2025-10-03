@@ -173,6 +173,23 @@ CSS Variable(s) targeted: `var(--flexcyon-sidedock-ribbon-width)`
 
 Default: 48 (px)
 
+### Place workspace ribbon at the top
+
+CSS Variable(s) targeted: `var(--flexcyon-ribbon-top)`
+
+Default: false (class toggle)
+
+### Place vault switcher at the top
+
+CSS Variable(s) targeted: `var(--flexcyon-vault-switch-top)`
+
+Default: false (class toggle)
+
+### Reverse order of vault switcher and actions
+
+CSS Variable(s) targeted: `var(--flexcyon-vault-reverse)`
+
+Default: false (class toggle)
 ___
 
 ### Tooltip radius

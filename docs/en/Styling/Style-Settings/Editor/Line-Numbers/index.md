@@ -23,6 +23,12 @@ Style Settings
 
 ## Configuration Options
 
+### Highlight Active Line
+
+CSS Variable(s) targeted: `var(--flexcyon-highlight-active-line)`
+
+Default: false (class toggle)
+
 ### Enable Relative Line Numbers
 
 CSS Variable(s) targeted: `var(--flexcyon-enable-rel-nums)`

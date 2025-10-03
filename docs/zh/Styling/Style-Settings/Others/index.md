@@ -157,11 +157,11 @@ Style Settings
 
 ---
 
-### 侧坞
+### 工作区侧停靠带
 
-配置侧坞图标
+配置工作区侧停靠带图标
 
-#### 启用侧坞图标样式
+#### 启用工作区侧停靠带图标样式
 
 > 悬停时的彩虹效果
 
@@ -169,11 +169,29 @@ Style Settings
 
 默认: true (类切换)
 
-### 侧坞带宽度
+### 工作区侧停靠带宽度
 
 目标 CSS 变量: `var(--flexcyon-sidedock-ribbon-width)`
 
 默认: 48 (px)
+
+### 将工作区功能区放置在顶部
+
+目标 CSS 变量: `var(--flexcyon-ribbon-top)`
+
+默认: false (类切换)
+
+### 将 Vault 切换器放置在顶部
+
+目标 CSS 变量: `var(--flexcyon-vault-switch-top)`
+
+默认: false (类切换)
+
+### Vault 切换器的逆序及其动作
+
+目标 CSS 变量: `var(--flexcyon-vault-reverse)`
+
+默认: false (类切换)
 
 ---
 

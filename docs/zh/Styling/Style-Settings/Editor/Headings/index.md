@@ -85,6 +85,18 @@ Style Settings
 
 > 下划线的大小与字体粗细成比例
 
+### 标题 1 对齐
+
+目标 CSS 变量: `var(--flexcyon-heading-1-alignment)`
+
+默认: left (类选项)
+
+选项:
+
+- Left (左边)
+- Center (中心)
+- Right (右边)
+
 ---
 
 ## 标题 2
@@ -124,6 +136,18 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-h2-underline-enabled)`
 
 默认: false (类切换)
+
+### 标题 2 对齐
+
+目标 CSS 变量: `var(--flexcyon-heading-2-alignment)`
+
+默认: left (类选项)
+
+选项:
+
+- Left (左边)
+- Center (中心)
+- Right (右边)
 
 ---
 
@@ -165,6 +189,18 @@ Style Settings
 
 默认: false (类切换)
 
+### 标题 3 对齐
+
+目标 CSS 变量: `var(--flexcyon-heading-3-alignment)`
+
+默认: left (类选项)
+
+选项:
+
+- Left (左边)
+- Center (中心)
+- Right (右边)
+
 ---
 
 ## 标题 4
@@ -204,6 +240,18 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-h4-underline-enabled)`
 
 默认: false (类切换)
+
+### 标题 4 对齐
+
+目标 CSS 变量: `var(--flexcyon-heading-4-alignment)`
+
+默认: left (类选项)
+
+选项:
+
+- Left (左边)
+- Center (中心)
+- Right (右边)
 
 ---
 
@@ -245,6 +293,18 @@ Style Settings
 
 默认: false (类切换)
 
+### 标题 5 对齐
+
+目标 CSS 变量: `var(--flexcyon-heading-5-alignment)`
+
+默认: left (类选项)
+
+选项:
+
+- Left (左边)
+- Center (中心)
+- Right (右边)
+
 ---
 
 ## 标题 6
@@ -284,3 +344,15 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-h6-underline-enabled)`
 
 默认: false (类切换)
+
+### 标题 6 对齐
+
+目标 CSS 变量: `var(--flexcyon-heading-6-alignment)`
+
+默认: left (类选项)
+
+选项:
+
+- Left (左边)
+- Center (中心)
+- Right (右边)

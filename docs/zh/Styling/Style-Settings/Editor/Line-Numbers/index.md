@@ -22,6 +22,11 @@ Style Settings
 ```
 
 ## 配置选项
+### 突出显示活动行
+
+目标 CSS 变量: `var(--flexcyon-highlight-active-line)`
+
+默认: false (类切换)
 
 ### 启用相对行号
 

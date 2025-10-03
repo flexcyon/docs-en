@@ -43,3 +43,20 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-table-reading-mode-width)`
 
 默认: 100%
+
+### 表格单元格垂直填充
+目标 CSS 变量: `var(--flexcyon-td-verti-padding)`
+
+默认: 5 (px)
+
+### 表格单元格水平填充
+目标 CSS 变量: `var(--flexcyon-td-horiz-padding)`
+
+默认: 10 (px)
+
+### 表格单元格 Live Preview 缩放
+目标 CSS 变量: `var(--flexcyon-td-live-pad-scale)`
+
+默认: 0.2
+
+> 更具体地说是与指定值相比, 填充的比例

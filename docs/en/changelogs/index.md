@@ -10,8 +10,23 @@ Or, if you prefer the changelogs in chronological order, you can use
 the sidebar or hamburger menu to view the relevant sub-pages.
 
 ---
+## Version 1.2.x
+### 1.2.0 Retrospect Update
+- Fixed File Properties in vertical navigation
+- Fixed Right Sidebar Toggle Button disappearing in vertical navigation
+- Updated Full Calendar Plugin styling
+- Added Style Settings options for tables
+- Tweaked some background colours in the theme
+- Updated Style Settings and active item background
+- Added Style Settings option to set heading text alignment
+- Added Styling for Core Slides plugin
+- Added Styling for Tasks plugin
+- Added option to place workspace ribbon (sidedock icons)
+- Added options to place vault switcher at the top, reverse vault switcher and actions
+- Added toggleable active line highlight when not in reading mode
 
 ## Version 1.1.x
+
 ### 1.1.3 Headings Fix
 - Fixed broken heading indicator settings
 - Fixed heading indicator overlap with collapse icon
