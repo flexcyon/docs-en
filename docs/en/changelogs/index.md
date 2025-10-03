@@ -11,6 +11,9 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 
 ---
 ## Version 1.2.x
+### 1.2.1 Settings Update
+- Fixed duplicate Style Settings entries, thanks to `@saberzero` on the OMG Discord
+
 ### 1.2.0 Retrospect Update
 - Fixed File Properties in vertical navigation
 - Fixed Right Sidebar Toggle Button disappearing in vertical navigation

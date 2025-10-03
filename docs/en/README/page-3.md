@@ -35,6 +35,8 @@ The following plugins/snippets are officially supported
 
 [Omnisearch by scambier](https://github.com/scambier/obsidian-omnisearch)
 
+[Tasks by Clara Macrae and Ilyas Landikov (created by Martinb Schenck)](https://github.com/obsidian-tasks-group/obsidian-tasks)
+
 ## Snippets
 
 [CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)

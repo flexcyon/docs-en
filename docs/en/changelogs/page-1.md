@@ -100,3 +100,6 @@ icon: material/numeric-1
 - Added option to place workspace ribbon (sidedock icons)
 - Added options to place vault switcher at the top, reverse vault switcher and actions
 - Added toggleable active line highlight when not in reading mode
+
+### 1.2.1 Settings Update
+- Fixed duplicate Style Settings entries, thanks to `@saberzero` on the OMG Discord
