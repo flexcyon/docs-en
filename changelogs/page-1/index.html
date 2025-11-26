@@ -6665,6 +6665,73 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#version-13x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version 1.3.x
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Version 1.3.x">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#130-animations-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.0 Animations Update
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.0 Animations Update">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7149,6 +7216,73 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#version-13x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version 1.3.x
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Version 1.3.x">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#130-animations-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.0 Animations Update
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.0 Animations Update">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7297,6 +7431,63 @@
 <ul>
 <li>Fixed duplicate Style Settings entries, thanks to <code>@saberzero</code> on the OMG Discord</li>
 </ul>
+<h2 id="version-13x">Version 1.3.x</h2>
+<h3 id="130-animations-update">1.3.0 Animations Update</h3>
+<h4 id="features">Features</h4>
+<ul>
+<li>You can now use a different set of animations between notes and other parts of the UI like modals.</li>
+<li>Added fade in animation which is set as the default over the old slide left to right for Flex Max mode</li>
+<li>Added Style Settings options for initial opacity in animations and initial scaling for scale up animation</li>
+<li>Added fixes for Banner snippet support in the theme<ul>
+<li>There is now a visual indicator in line gutters to help locate where the banner image is defined in the current note</li>
+<li>Due to the Obsidian editor's lazy rendering, it is recommended to specify the banner image source near the top of the file</li>
+</ul>
+</li>
+<li>Added option to set modal background darken intensity</li>
+<li>Added ASCII art scale factor option<ul>
+<li>It is recommended to write a CSS snippet to extensively customise your own ASCII art</li>
+</ul>
+</li>
+<li>Added alternate link styling (Willemstad inspired)</li>
+<li>Added error handling for Bases when no link is found for file</li>
+<li>Added letter spacing option for replace active line number with custom string setting</li>
+<li>Add style setting to toggle if TUI callouts should have their icons displayed none by default (defaults to false)</li>
+<li>Add font size callouts, inherits UI font sizes like smaller, small, medium or large.</li>
+<li>Added opacity callouts, lets you set the opacity of callout title, content or both at once.</li>
+<li>Added view header options to specify view header title padding in Angled and Powerlevel10k layouts</li>
+<li>Added Opacity callouts in increments of 0.05 </li>
+<li>Core slides plugin now has slide numbers in presentation view (up to 99 slides)</li>
+<li>ASCII art now appears in core slides plugin pause presentation mode (press b to trigger)</li>
+<li>Added Stylised Pinned Icons</li>
+<li>Added Style Settings plugin check</li>
+<li>Added toggle display properties title</li>
+</ul>
+<h4 id="changes">Changes</h4>
+<ul>
+<li>Updated styling of backlinks and outgoing links view</li>
+<li>Slightly tweaked Alternate File Tree create and delete dialog titles</li>
+<li>Improved existing styling of mermaid diagrams</li>
+<li>Improved sidebar background code</li>
+<li>Improved ASCII art code, empty state actions are now disabled by default.</li>
+<li>Deprecate web demo since does not translate the theme's aesthetics well</li>
+</ul>
+<h4 id="fixes">Fixes</h4>
+<ul>
+<li>Fixed animations, they now apply to your notes and sidebar content as well</li>
+<li>Fixed horizontal rule custom string to work in reading mode as well</li>
+<li>Fixed TUI callout appearance. Note that un-collapsing large code snippets like mermaid diagrams in callouts will cause rendering delays. This applies to all callouts, even default ones.</li>
+<li>Fixed display operating system and screen dimensions to work without tab title bar enabled<ul>
+<li>Split tabs and debug related style settings into their own section</li>
+</ul>
+</li>
+<li>Fixed extended colour palette to properly support all combinations of base colour variables</li>
+<li>Made Bases text alignment consistent</li>
+<li>Core slides plugin is now smoother and more consistent with the theme</li>
+<li>Fixed default ASCII art alignment to make more sense, configurable in Style Settings</li>
+<li>Fixed inline math inside highlight</li>
+<li>Fixed default TUI callout icon not inheriting icon colour</li>
+<li>Fixed default no metadata in reading mode</li>
+</ul>
 
 
 
@@ -7319,7 +7510,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 3, 2025 23:21:13 UTC">October 3, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 26, 2025 01:18:35 UTC">November 26, 2025</span>
   </span>
 
     
