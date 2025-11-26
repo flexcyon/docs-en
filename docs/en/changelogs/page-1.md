@@ -103,3 +103,52 @@ icon: material/numeric-1
 
 ### 1.2.1 Settings Update
 - Fixed duplicate Style Settings entries, thanks to `@saberzero` on the OMG Discord
+
+## Version 1.3.x
+
+### 1.3.0 Animations Update
+#### Features
+- You can now use a different set of animations between notes and other parts of the UI like modals.
+- Added fade in animation which is set as the default over the old slide left to right for Flex Max mode
+- Added Style Settings options for initial opacity in animations and initial scaling for scale up animation
+- Added fixes for Banner snippet support in the theme
+	- There is now a visual indicator in line gutters to help locate where the banner image is defined in the current note
+	- Due to the Obsidian editor's lazy rendering, it is recommended to specify the banner image source near the top of the file
+- Added option to set modal background darken intensity
+- Added ASCII art scale factor option
+	- It is recommended to write a CSS snippet to extensively customise your own ASCII art
+- Added alternate link styling (Willemstad inspired)
+- Added error handling for Bases when no link is found for file
+- Added letter spacing option for replace active line number with custom string setting
+- Add style setting to toggle if TUI callouts should have their icons displayed none by default (defaults to false)
+- Add font size callouts, inherits UI font sizes like smaller, small, medium or large.
+- Added opacity callouts, lets you set the opacity of callout title, content or both at once.
+- Added view header options to specify view header title padding in Angled and Powerlevel10k layouts
+- Added Opacity callouts in increments of 0.05 
+- Core slides plugin now has slide numbers in presentation view (up to 99 slides)
+- ASCII art now appears in core slides plugin pause presentation mode (press b to trigger)
+- Added Stylised Pinned Icons
+- Added Style Settings plugin check
+- Added toggle display properties title
+
+#### Changes
+- Updated styling of backlinks and outgoing links view
+- Slightly tweaked Alternate File Tree create and delete dialog titles
+- Improved existing styling of mermaid diagrams
+- Improved sidebar background code
+- Improved ASCII art code, empty state actions are now disabled by default.
+- Deprecate web demo since does not translate the theme's aesthetics well
+
+#### Fixes
+- Fixed animations, they now apply to your notes and sidebar content as well
+- Fixed horizontal rule custom string to work in reading mode as well
+- Fixed TUI callout appearance. Note that un-collapsing large code snippets like mermaid diagrams in callouts will cause rendering delays. This applies to all callouts, even default ones.
+- Fixed display operating system and screen dimensions to work without tab title bar enabled
+	- Split tabs and debug related style settings into their own section
+- Fixed extended colour palette to properly support all combinations of base colour variables
+- Made Bases text alignment consistent
+- Core slides plugin is now smoother and more consistent with the theme
+- Fixed default ASCII art alignment to make more sense, configurable in Style Settings
+- Fixed inline math inside highlight
+- Fixed default TUI callout icon not inheriting icon colour
+- Fixed default no metadata in reading mode
