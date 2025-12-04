@@ -129,6 +129,11 @@ Default:
 > The ASCII art string needs to be escaped for CSS to render it, line breaks are
 > escaped as `\a` and `\` is escaped as `\\`
 
+It is highly recommended to use a CSS snippet to manage and configure individual
+ASCII art.
+
+An example can be [found here](https://github.com/bladeacer/obsi-snip-coll/blob/main/snippets/flexcyon/new-tab/tree-ascii.md).
+
 #### ASCII art font size limit
 
 CSS Variable(s) targeted: `var(--flexcyon-ascii-max-font-size)`
@@ -138,9 +143,21 @@ Default: 14 (px)
 #### ASCII art line height
 
 CSS Variable(s) targeted: `var(--flexcyon-ascii-line-height)`
-> Changes line height for quote as welll
+> Changes line height for quote as well
 
 Default: 1
+
+#### ASCII art scaling factor
+
+CSS Variable(s) targeted: `var(--flexcyon-ascii-scaling-factor)`
+
+Default: 1
+
+#### ASCII art text alignment
+
+CSS Variable(s) targeted: `var(--flexcyon-ascii-alignment)`
+
+Default: left
 
 #### Disable Empty State title
 
@@ -347,3 +364,9 @@ Default: cover
 CSS Variable(s) targeted: `var(--flexcyon-modal-image-position)`
 
 Default: center
+
+#### Modal background darkness intensity
+
+CSS Variable(s) targeted: `var(--flexcyon-modal-dark-intensity)`
+
+Default: 1

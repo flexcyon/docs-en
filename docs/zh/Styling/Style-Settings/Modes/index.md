@@ -15,128 +15,127 @@ Style Settings
 | |-- ...
 ```
 
-## Configuration Options
+## 配置选项
 
-### Return to Zero mode
+### RTZ 模式
 
-> Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements
-> are not displayed until hovered on. Will not recommend on mobile. Does not work with Flex Max mode.
+> 受 Shimmering Focus 主题启发的极端极简主义. 大多数 UI 元素在悬停之前不会显示.
+> 不推荐在手机上使用. 不适与 Flex Max 模式使用.
 
-CSS Variable(s) targeted: `var(--flexcyon-rtz-mode)`
+目标 CSS 变量: `var(--flexcyon-rtz-mode)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Flex Max mode
+### Flex Max 模式
 
-> An extremely opinionated set up which showcases the unique customisation in this theme, with features working out of the box. If some options are not too your taste you can disable this mode and customise the theme more yourself, it will reset the theme to a clean slate customisations wise. There are also other default options enabled which you may or may not like. See below for the list of options it enables on your behalf.
+> 一个非常有主见的设置, 展示了这个主题的独特定制, 功能开箱即用. 如果某些选项不太适合您, 您可以禁用此模式并更多地自定义主题, 它将重置主题为全新的自定义. 还有其他启用的默认选项, 您可能喜欢也可能不喜欢. 请参阅下文, 了解它为您启用的选项列表.
 
-_This mode is recommended for users who do not know where to start in terms of customisation. **For those who wish to customise the theme extensively or those who may not like this set of defaults, disabling this mode is recommended**._
+> 如果您不知道从哪里开始自定义主题, 建议使用此模式。**若些希望广泛定制主题或不喜欢某些默认设置, 建议不使用此模式**
 
-CSS Variable(s) targeted: `var(--flexcyon-flex-max-mode)`
+目标 CSS 变量: `var(--flexcyon-flex-max-mode)`
 
-Default: true (class toggle)
+默认: true (类切换)
 
-### Flex Max mode enabled settings options
+### Flex Max 模式启用设置
 
-Enables the following settings, even if they are toggled off in style settings
+启用以下设置, 即使在样式设置中已将其关闭。
 
-~ smiley icons
+* 笑脸图标
 
-~ ensure community plugin icons take precedence
+* 确保社区插件图标优先
 
-~ left to right animation type
+* 淡入标签动画
 
-~ animations in Style Settings container
+* 从左到右的模态动画
 
-~ ASCII art
+* 样式设置容器中的动画
 
-~ custom horizontal rule string
+* ASCII 艺术
 
-~ Powerlevel10k inspired layout and status bar style
+* 水平标尺自定义字体
 
-~ ASCII checkboxes
+* 受 Powerlevel10k 启发的布局和状态栏风格
 
-~ Hide until hover status bar
+* 隐藏直到悬停状态栏
 
-~ Current status bar editing mode as text instead of icon
+* 当前状态栏编辑模式为文本而非图标
 
-~ Vim mode status
+* Vim 模式状态
 
-~ Coloured headings
+* 彩色标题
 
-~ Extended colour palette
+* 扩展调色板
 
-~ Dimmed file extensions
+* 文件扩展名变暗
 
-~ Wrap long filenames
+* 换行长文件名
 
-~ ASCII checkboxes
+* ASCII 复选框
 
-~ Clip Path checkboxes
+* Clip Path 复选框
 
-~ Do not show properties in Reading mode
+* 设置中的彩色图标
 
-~ Coloured icons in settings
+* 社区项目效果
 
-~ Community item effects
+* 在设置中不显示滚动条
 
-~ Do not show scrollbar in settings
+* Alternate File Tree 插件的文件扩展名已变暗
 
-~ Dimmed file extensions for Alternate File Tree Plugin
+* 禁用空状态标题
 
-~ Disable Empty state title
+* 启用侧坞图标效果
 
-~ Enable side dock icon effects
+* 小写代码块文件扩展名 (Live Preview 模式)
 
-~ Lowercase code block file extensions (Live Preview)
+* 为代码块文件扩展名添加前缀 (Live Preview 模式)
 
-~ Add prefix to code block file extension (Live Preview)
 
-You should be able to configure these settings as if they were enabled normally. The theme has many other settings options for you to explore, some of which are enabled by default like smooth cursor.
+您应该能够配置这些设置, 就像它们正常启用一样. 这主题还有许多其他设置选项供您探索, 其中一些默认情况下是启用的, 如平滑光标.
 
-### Enable Writing Mode globally
+### 全局启用书写模式
 
 > Like its cssclass counterpart, except applied globally
 
-CSS Variable(s) targeted: `var(--flexcyon-editor-writing)`
+目标 CSS 变量: `var(--flexcyon-editor-writing)`
 
-Default: false (class toggle)
+默认: false (类切换)
 
-### Writing mode indentation
+### 书写模式缩进
 
-CSS Variable(s) targeted: `var(--flexcyon-editor-writing-indentation)`
+目标 CSS 变量: `var(--flexcyon-editor-writing-indentation)`
 
-Default: 16 (px)
+默认: 16 (px)
 
 ---
 
-### Accessibility
+### 无障碍
 
-Toggle accessibility options
+切换辅助功能选项
 
 > Note that changing these will change how the entire theme renders.
 >
 > Tweaking these values too much may make the theme look ugly
 
-### Global brightness ratio
+### 全局亮度比
 
-CSS Variable(s) targeted: `var(--flexcyon-brightness-ratio)`
+目标 CSS 变量: `var(--flexcyon-brightness-ratio)`
 
-Default: 1
+默认: 1
 
-### Global contrast ratio
+### 全局对比度
 
-CSS Variable(s) targeted: `var(--flexcyon-contrast-ratio)`
+目标 CSS 变量: `var(--flexcyon-contrast-ratio)`
 
-Default: 1
+默认: 1
 
 > E.g. if you want slightly more contrast like on an OLED screen, try values
 > between 1 to 1.5
 
-### Global saturation ratio
+### 全局饱和比
 
-CSS Variable(s) targeted: `var(--flexcyon-saturation-ratio)`
+目标 CSS 变量: `var(--flexcyon-saturation-ratio)`
 
-Default: 1
+默认: 1
 
 > Use to modify the saturation of colors

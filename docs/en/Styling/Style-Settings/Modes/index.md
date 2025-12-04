@@ -41,57 +41,57 @@ Default: true (class toggle)
 
 Enables the following settings, even if they are toggled off in style settings
 
-~ smiley icons
+* smiley icons
 
-~ ensure community plugin icons take precedence
+* ensure community plugin icons take precedence
 
-~ left to right animation type
+* fade in tab animation
 
-~ animations in Style Settings container
+* left to right modal animation
 
-~ ASCII art
+* animations in Style Settings container
 
-~ custom horizontal rule string
+* ASCII art
 
-~ Powerlevel10k inspired layout and status bar style
+* custom horizontal rule string
 
-~ ASCII checkboxes
+* Powerlevel10k inspired layout and status bar style
 
-~ Hide until hover status bar
+* ASCII checkboxes
 
-~ Current status bar editing mode as text instead of icon
+* Hide until hover status bar
 
-~ Vim mode status
+* Current status bar editing mode as text instead of icon
 
-~ Coloured headings
+* Vim mode status
 
-~ Extended colour palette
+* Coloured headings
 
-~ Dimmed file extensions
+* Extended colour palette
 
-~ Wrap long filenames
+* Dimmed file extensions
 
-~ ASCII checkboxes
+* Wrap long filenames
 
-~ Clip Path checkboxes
+* ASCII checkboxes
 
-~ Do not show properties in Reading mode
+* Clip Path checkboxes
 
-~ Coloured icons in settings
+* Coloured icons in settings
 
-~ Community item effects
+* Community item effects
 
-~ Do not show scrollbar in settings
+* Do not show scrollbar in settings
 
-~ Dimmed file extensions for Alternate File Tree Plugin
+* Dimmed file extensions for Alternate File Tree Plugin
 
-~ Disable Empty state title
+* Disable Empty state title
 
-~ Enable side dock icon effects
+* Enable side dock icon effects
 
-~ Lowercase code block file extensions (Live Preview)
+* Lowercase code block file extensions (Live Preview)
 
-~ Add prefix to code block file extension (Live Preview)
+* Add prefix to code block file extension (Live Preview)
 
 You should be able to configure these settings as if they were enabled normally. The theme has many other settings options for you to explore, some of which are enabled by default like smooth cursor.
 

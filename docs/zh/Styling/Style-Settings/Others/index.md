@@ -118,16 +118,20 @@ Style Settings
 
 ```md
 " \a\
- **\*\***\_\_\_**\*\*** \a\
- **\_ \_\_**/** /**\_\_\***\* \*\***\_\_\_\_\***\* \*\*\*\***\_\_**\*\*** \a\
- ** /\_ ** /\_ _ \\_ |/\_/ **_/_ / / / ** \\_ \_\_ \\ \a\
- _ **/ \_ / / **/_> < / /\_\_ _ /_/ // /_/ / / / / \a\
- /_/ /_/ \\**_//_/|_| \\_**/ _\\**, / \\\_\_**//_/ /\_/ \a\
- /\_\_\_\_/ \a\a\a "
+    _______________                                       \a\
+    ___  ____/__  /________  ____________  ______________ \a\
+    __  /_   __  /_  _ \\_  |/_/  ___/_  / / /  __ \\_  __ \\ \a\
+    _  __/   _  / /  __/_>  < / /__ _  /_/ // /_/ /  / / / \a\
+    /_/      /_/  \\___//_/|_| \\___/ _\\__, / \\____//_/ /_/ \a\
+                                    /____/                \a\a\a "
 ```
 
 > ASCII 艺术字符串需要转义以便 CSS 渲染, 换行符是
 > 转义为 `\a`，而 `\` 则转义为 `\\`
+
+强烈建议使用 CSS 代码段来管理和配置 ASCII 艺术
+
+[例如](https://github.com/bladeacer/obsi-snip-coll/blob/main/snippets/flexcyon/new-tab/tree-ascii.md).
 
 #### ASCII 艺术字体大小限制
 
@@ -139,9 +143,21 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-ascii-line-height)`
 
-> Changes line height for quote as welll
+> Changes line height for quote as well
 
 默认: 1
+
+#### ASCII 艺术缩放比例
+
+目标 CSS 变量: `var(--flexcyon-ascii-scaling-factor)`
+
+默认: 1
+
+#### ASCII 艺术文本对齐
+
+目标 CSS 变量: `var(--flexcyon-ascii-alignment)`
+
+默认: left (左)
 
 #### 不使用空状态标题
 
@@ -357,3 +373,10 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-modal-image-position)`
 
 默认: center
+
+
+#### 模态背景暗度
+
+目标 CSS 变量: `var(--flexcyon-modal-dark-intensity)`
+
+默认: 1
