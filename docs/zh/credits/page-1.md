@@ -9,10 +9,6 @@ title: Tools and Software
 
 - Obsidian
 
-### 网络展示
-
-- Obsidian Share Note plugin
-
 ### Web 技术
 
 - CSS
@@ -31,7 +27,7 @@ title: Tools and Software
 
 - GitHub
 
-### 文件
+### 文档
 
 - MkDocs
 
@@ -43,3 +39,14 @@ title: Tools and Software
 
 - Giscus
 
+<strong><a href="https://departuremono.com" target="_blank" rel="noopener noreferrer">Departure Mono</a></strong>
+<br />
+是 Helena Zhang 的等宽像素字体
+
+根据<a href="https://openfontlicense.org" target="_blank" rel="noopener noreferrer">SIL开放字体许可证</a>获得许可
+
+<strong><a href="https://github.com/microsoft/cascadia-code" target="_blank" rel="noopener noreferrer">Cascadia Code</a></strong>
+<br />
+Microsoft 的字体
+
+根据<a href="https://openfontlicense.org" target="_blank" rel="noopener noreferrer">SIL开放字体许可证</a>获得许可

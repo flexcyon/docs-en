@@ -46,3 +46,11 @@ CSS Variable(s) targeted: `var(--flexcyon-link-unresolved-color)`
 Default (light mode): <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
 
 Default (dark mode): <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
+
+### Enable alternate link styling
+
+Inspired by Willemstad theme's headings.
+
+CSS Classe(s) targeted: `var(--flexcyon-alt-link-style)`
+
+Default: false (class toggle)

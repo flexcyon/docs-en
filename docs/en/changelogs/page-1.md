@@ -152,3 +152,4 @@ icon: material/numeric-1
 - Fixed inline math inside highlight
 - Fixed default TUI callout icon not inheriting icon colour
 - Fixed default no metadata in reading mode
+- Removed left align status bar setting as it was too hardcoded

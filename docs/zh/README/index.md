@@ -36,13 +36,12 @@ icon: material/book-open-blank-variant-outline
 - 选项卡的动画选项
 - 还有更多功能即将推出...
 
-
 ### 这主题没有的特征
-- 多种配色方案 
-    - 您也可以用自己的配色方案覆盖默认配色方案, 请参阅 [样式设置](../Styling/Style-Settings/index.md)
+
+- 多种配色方案
+  - 您也可以用自己的配色方案覆盖默认配色方案, 请参阅 [样式设置](../Styling/Style-Settings/index.md)
 - 备选复选框
 - 嵌入式字体、`svg`
-
 
 ## 路线图
 

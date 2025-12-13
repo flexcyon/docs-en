@@ -210,6 +210,7 @@ plugins:
             Version 0.4.x: 版本 0.4.x
             Version 0.5.x: 版本 0.5.x
             Version 0.6.x: 版本 0.6.x
+            Supported Versions: 支持版本
 
   - git-revision-date-localized:
       enable_creation_date: true
@@ -228,20 +229,18 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: slate
-      primary: indigo
-      accent: deep-purple
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: Switch to light mode
     - media: "(prefers-color-scheme: dark)"
-      primary: indigo
-      accent: deep-purple
+      scheme: default
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to dark mode
-  font:
-    text: Roboto Slab
-    code: Roboto Mono
 
   features:
     - header.autohide
@@ -278,6 +277,7 @@ nav:
       - Design Principles: "README/page-4.md"
       - License: "README/license.md"
       - Roadmap: "README/roadmap.md"
+      - Supported Versions: "README/support_vers.md"
   - Credits:
       - Contributors: "credits/index.md"
       - Tools and Software: "credits/page-1.md"

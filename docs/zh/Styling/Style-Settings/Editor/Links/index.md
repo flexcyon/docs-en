@@ -47,3 +47,11 @@ Style Settings
 默认 (灯光模式): <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
 
 默认 (暗模式): <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
+
+### 启用交替链接样式
+
+Inspired by Willemstad theme's headings.
+
+CSS Classe(s) targeted: `var(--flexcyon-alt-link-style)`
+
+: false (class toggle)
