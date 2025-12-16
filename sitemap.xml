@@ -218,6 +218,20 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Callout-Metadata/flashcard/"/>
     </url>
     <url>
+        <loc>https://flexcyon.github.io/docs-en/Styling/Callout-Metadata/font-size/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Callout-Metadata/font-size/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Callout-Metadata/font-size/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/Styling/Callout-Metadata/opacity/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Callout-Metadata/opacity/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Callout-Metadata/opacity/"/>
+    </url>
+    <url>
         <loc>https://flexcyon.github.io/docs-en/Styling/Callout-Metadata/plain/</loc>
         <lastmod>2025-12-16</lastmod>
         <changefreq>daily</changefreq>
@@ -1002,6 +1016,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Cursor/"/>
     </url>
     <url>
+        <loc>https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Debug/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Debug/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Debug/"/>
+    </url>
+    <url>
         <loc>https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Editor-Background/</loc>
         <lastmod>2025-12-16</lastmod>
         <changefreq>daily</changefreq>
@@ -1105,6 +1126,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Table/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Table/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Tabs/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Tabs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Tabs/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Title-Bar/</loc>
@@ -1469,6 +1497,20 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Callout-Metadata/flashcard/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Callout-Metadata/flashcard/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/zh/Styling/Callout-Metadata/font-size/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Callout-Metadata/font-size/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Callout-Metadata/font-size/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/zh/Styling/Callout-Metadata/opacity/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Callout-Metadata/opacity/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Callout-Metadata/opacity/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/Styling/Callout-Metadata/plain/</loc>
@@ -2255,6 +2297,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Cursor/"/>
     </url>
     <url>
+        <loc>https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Debug/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Debug/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Debug/"/>
+    </url>
+    <url>
         <loc>https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Editor-Background/</loc>
         <lastmod>2025-12-16</lastmod>
         <changefreq>daily</changefreq>
@@ -2358,6 +2407,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Table/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Table/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Tabs/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Tabs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Tabs/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Title-Bar/</loc>
