@@ -57,9 +57,9 @@ Default: false (class toggle)
 
 CSS Variable(s) targeted: `var(--h1-size)`
 
-Default: 1.81803 (em)
+Default: 1.818 (em)
 
-<h1 style="font-size: 1.81803em;">Sample h1</h1>
+<h1 style="font-size: 1.818em;">Sample h1</h1>
 
 ### Heading 1 font weight
 
@@ -109,9 +109,9 @@ Default: false (class toggle)
 
 CSS Variable(s) targeted: `var(--h2-size)`
 
-Default: 1.61803 (em)
+Default: 1.618 (em)
 
-<h2 style="font-size: 1.61803em;">Sample h2</h2>
+<h2 style="font-size: 1.618em;">Sample h2</h2>
 
 ### Heading 2 font weight
 
@@ -160,9 +160,9 @@ Default: false (class toggle)
 
 CSS Variable(s) targeted: `var(--h3-size)`
 
-Default: 1.41803 (em)
+Default: 1.418 (em)
 
-<h3 style="font-size: 1.41803em;">Sample h3</h3>
+<h3 style="font-size: 1.418em;">Sample h3</h3>
 
 ### Heading 3 font weight
 
@@ -211,9 +211,9 @@ Default: false (class toggle)
 
 CSS Variable(s) targeted: `var(--h4-size)`
 
-Default: 1.21803 (em)
+Default: 1.218 (em)
 
-<h4 style="font-size: 1.21803em;">Sample h4</h4>
+<h4 style="font-size: 1.218em;">Sample h4</h4>
 
 ### Heading 4 font weight
 
@@ -262,9 +262,9 @@ Default: false (class toggle)
 
 CSS Variable(s) targeted: `var(--h5-size)`
 
-Default: 1.11803 (em)
+Default: 1.118 (em)
 
-<h5 style="font-size: 1.11803em;">Sample h5</h5>
+<h5 style="font-size: 1.118em;">Sample h5</h5>
 
 ### Heading 5 font weight
 
@@ -313,9 +313,9 @@ Default: false (class toggle)
 
 CSS Variable(s) targeted: `var(--h6-size)`
 
-Default: 1.01803 (em)
+Default: 1.018 (em)
 
-<h6 style="font-size: 1.01803em;">Sample h6</h6>
+<h6 style="font-size: 1.018em;">Sample h6</h6>
 
 ### Heading 6 font weight
 
@@ -328,7 +328,6 @@ Default: 575
 ### Heading 6 line height
 
 CSS Variable(s) targeted: `var(--h6-line-height)`
-
 Default: 1.5
 
 ### Enable underline for Heading 6

@@ -27,17 +27,17 @@ Style Settings
 
 目标 CSS 变量: `var(--font-ui-smaller)`
 
-默认: 12.94424 (px)
+默认: 12.9442 (px)
 
-<span style="font-size: 12.94424px">Sample smaller UI font size</span>
+<span style="font-size: 12.9442px">Sample smaller UI font size</span>
 
 ### 小 UI 字体大小
 
 目标 CSS 变量: `var(--font-ui-small)`
 
-默认: 14.56227 (px)
+默认: 14.5622 (px)
 
-<span style="font-size: 14.56227px">Sample small UI font size</span>
+<span style="font-size: 14.5622px">Sample small UI font size</span>
 
 ### 中 UI 字体大小
 
@@ -45,12 +45,12 @@ Style Settings
 
 默认: 16.1803 (px)
 
-<span style="font-size: 16.1803px">Sample medium UI font size</span>
+<span style="font-size: 16.180px">Sample medium UI font size</span>
 
 ### 大 UI 字体大小
 
 目标 CSS 变量: `var(--font-ui-large)`
 
-默认: 17.79833 (px)
+默认: 17.7983 (px)
 
-<span style="font-size: 17.79833px">Sample large UI font size</span>
+<span style="font-size: 17.7983px">Sample large UI font size</span>

@@ -68,6 +68,12 @@ CSS Variable(s) targeted: `var(--flexcyon-repl-active-line-num-str)`
 Default: false (class toggle)
 
 ### Replaced active line number string value
-CSS Variable(s) targeted: `var(--flexcyon-repl-active-line-str)
+CSS Variable(s) targeted: `var(--flexcyon-repl-active-line-str)`
 
 Default: "->"
+
+### Replaced active line number string letter spacing
+
+CSS Variable(s) targeted: `var(--flexcyon-repl-active-str-space)`
+
+Default: 0 (px)

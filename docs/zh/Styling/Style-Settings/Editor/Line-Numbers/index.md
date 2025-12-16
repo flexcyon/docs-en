@@ -67,8 +67,14 @@ Options:
 
 默认: false (类切换)
 
-### 替换了活动行号字符串
+### 替换活动行号字符串
 
 目标 CSS 变量: `var(--flexcyon-repl-active-line-str)
 
 默认: "->"
+
+### 替换活动行号字符串字距离
+
+目标 CSS 变量: `var(--flexcyon-repl-active-str-space)`
+
+默认: 0 (px)

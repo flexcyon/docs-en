@@ -38,15 +38,17 @@ Options:
 - Hide until hold
 
 #### Status bar alignment
-CSS Classe(s) targeted: `.flexcyon-status-left-align
+CSS Classe(s) targeted: `.flexcyon-status-right-align
 .flexcyon-status-centre-align`
 
 Default: none (Class select)
 
 Options:
 
-- Left
 - Centre
+- Right
+
+Left align was removed as it was too hardcoded.
 
 #### Text when hide until hover enabled
 
@@ -64,7 +66,7 @@ Default: 1500 (px)
 
 CSS Variable(s) targeted: `var(--flexcyon-status-hide-hover-duration)`
 
-Default: 0.35 (s)
+Default: 0.325 (s)
 
 #### Transition timing function for showing status bar on hover
 
@@ -113,7 +115,7 @@ Default: false (class toggle)
 
 CSS Variable(s) targeted: `var(--status-bar-font-size)`
 
-Default: 13.753255 (px)
+Default: 13.7533 (px)
 
 #### Select status bar style
 

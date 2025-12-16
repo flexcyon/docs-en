@@ -46,7 +46,7 @@ Default: "f"
 ### Horizontal rule custom string font size
 CSS Variable(s) targeted: `var(--flexcyon-cust-hr-str-font-size)`
 
-Default: 1.11803 (em)
+Default: 1.118 (em)
 
 ### Horizontal rule custom string horizontal padding
 CSS Variable(s) targeted: `var(--flexcyon-cust-hr-str-horiz-padding)`

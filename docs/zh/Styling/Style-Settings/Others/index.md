@@ -169,7 +169,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-empty-state-actions-disable)`
 
-默认: false (类切换)
+默认: true (类切换)
 
 ---
 

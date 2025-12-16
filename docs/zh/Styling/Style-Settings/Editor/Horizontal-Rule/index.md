@@ -51,7 +51,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-cust-hr-str-font-size)`
 
-默认: 1.11803 (em)
+默认: 1.118 (em)
 
 ### 水平尺自定义水平填充
 

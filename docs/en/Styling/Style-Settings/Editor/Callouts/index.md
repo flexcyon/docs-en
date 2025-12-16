@@ -83,9 +83,16 @@ Default: none (class select)
 
 Options:
 
--  TUI Callouts
--  Plain Callouts
--  Vertical Callouts
+- TUI Callouts
+- Plain Callouts
+- Vertical Callouts
+
+### Disable icons for TUI callout
+
+
+CSS Classe(s) targeted: `.flexcyon-tui-no-icons`
+
+Default: false (class toggle)
 
 ___
 ### Flashcard callout

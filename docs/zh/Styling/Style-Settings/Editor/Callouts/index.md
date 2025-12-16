@@ -87,6 +87,12 @@ Style Settings
 - Plain (简化) Callouts
 - Vertical (垂直) Callouts
 
+### 不显示 TUI Callout 的图标
+
+目标 CSS 类: `.flexcyon-tui-no-icons`
+
+默认: false (类切换)
+
 ---
 
 ### 抽认卡标注

@@ -59,9 +59,9 @@ Style Settings
 
 目标 CSS 变量: `var(--h1-size)`
 
-默认: 1.81803 (em)
+默认: 1.818 (em)
 
-<h1 style="font-size: 1.81803em;">Sample h1</h1>
+<h1 style="font-size: 1.818em;">Sample h1</h1>
 
 ### 标题 1 字重
 
@@ -113,9 +113,9 @@ Style Settings
 
 目标 CSS 变量: `var(--h2-size)`
 
-默认: 1.61803 (em)
+默认: 1.618 (em)
 
-<h2 style="font-size: 1.61803em;">Sample h2</h2>
+<h2 style="font-size: 1.618em;">Sample h2</h2>
 
 ### 标题 2 字重
 
@@ -165,9 +165,9 @@ Style Settings
 
 目标 CSS 变量: `var(--h3-size)`
 
-默认: 1.41803 (em)
+默认: 1.418 (em)
 
-<h3 style="font-size: 1.41803em;">Sample h3</h3>
+<h3 style="font-size: 1.418em;">Sample h3</h3>
 
 ### 标题 3 字重
 
@@ -217,9 +217,9 @@ Style Settings
 
 目标 CSS 变量: `var(--h4-size)`
 
-默认: 1.21803 (em)
+默认: 1.218 (em)
 
-<h4 style="font-size: 1.21803em;">Sample h4</h4>
+<h4 style="font-size: 1.218em;">Sample h4</h4>
 
 ### 标题 4 字重
 
@@ -269,9 +269,9 @@ Style Settings
 
 目标 CSS 变量: `var(--h5-size)`
 
-默认: 1.11803 (em)
+默认: 1.118 (em)
 
-<h5 style="font-size: 1.11803em;">Sample h5</h5>
+<h5 style="font-size: 1.118em;">Sample h5</h5>
 
 ### 标题 5 字重
 
@@ -321,9 +321,9 @@ Style Settings
 
 目标 CSS 变量: `var(--h6-size)`
 
-默认: 1.01803 (em)
+默认: 1.018 (em)
 
-<h6 style="font-size: 1.01803em;">Sample h6</h6>
+<h6 style="font-size: 1.018em;">Sample h6</h6>
 
 ### 标题 6 字重
 

@@ -39,15 +39,17 @@ Style Settings
 
 #### 状态栏对齐
 
-目标 CSS 类: `.flexcyon-status-left-align
+目标 CSS 类: `.flexcyon-status-right-align
 .flexcyon-status-centre-align`
 
 默认: none (类选项)
 
 选项:
 
-- Left (左)
 - Centre (中心)
+- Right (右)
+
+右对齐被删除, 因为它太硬编码.
 
 #### 在启用悬停之前隐藏文本
 
@@ -65,7 +67,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-status-hide-hover-duration)`
 
-默认: 0.35 (s)
+默认: 0.325 (s)
 
 #### 悬停状态栏显示的转换定时函数
 
@@ -115,7 +117,7 @@ Style Settings
 
 目标 CSS 变量: `var(--status-bar-font-size)`
 
-默认: 13.753255 (px)
+默认: 13.7533 (px)
 
 #### 选择状态栏样式
 

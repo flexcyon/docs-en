@@ -169,7 +169,7 @@ Default: true (class toggle)
 
 CSS Variable(s) targeted: `var(--flexcyon-empty-state-actions-disable)`
 
-Default: false (class toggle)
+Default: true (class toggle)
 
 ___
 

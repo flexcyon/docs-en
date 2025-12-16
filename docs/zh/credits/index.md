@@ -8,6 +8,8 @@ kepano 的 [flexoki 主题](https://github.com/kepano/flexoki-obsidian), 这两�
 
 此外, 如果没有优雅的 [Origami 主题](https://github.com/7368697661/Origami) (也在 MIT 许可证), 下光模式配色方案恐怕不会被创建。
 
+如果您有兴趣为主题做出贡献, 请查看[关于贡献](/#contributing).
+
 ## CSS
 - `@OWA/bennyyip` 在 Obsidian Members Group (OMG) Discord 为 tategaki 写的 CSS
 

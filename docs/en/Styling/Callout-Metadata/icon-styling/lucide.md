@@ -16,6 +16,8 @@ fork icon
 ## Note
 When using lucide icon setting, either the entire callout metadata or custom callout section must match the lucide icon value else the icon will not render.
 
-- E.g. `>[!lucide-git-fork|title-orange]` instead of `>[!note|lucide-git-fork title-orange]` or `>[!title-orange|lucide-git-fork]`
+- E.g. `>[!lucide-git-fork|title-orange bg-blue]` instead of `>[!bg-blue|lucide-git-fork title-orange]` or `>[!lucide-git-fork title-orange|bg-blue]`
 
-(you cannot specify multiple custom callout types, but can modify with callout metadata)
+In short, you cannot use Lucide icon callout type within the same callout type or metadata.
+
+This feature **requires at least Obsidian Version 1.9.12**.

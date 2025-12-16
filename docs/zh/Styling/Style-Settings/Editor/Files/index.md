@@ -27,6 +27,13 @@ Style Settings
 
 默认: true (类切换)
 
+
+### 变暗的文件扩展名字体大小
+
+目标 CSS 变量: `var(--flexcyon-exp-dimmed-nav-size)`
+
+默认: 13.3623 (px)
+
 ### 启用现用文件指示器
 
 目标 CSS 类: `var(--flexcyon-enable-active-file-indicator)`

@@ -27,6 +27,12 @@ CSS Classe(s) targeted: `var(--flexcyon-file-exp-dimmed-file-exts-enabled)`
 
 Default: true (class toggle)
 
+### Dimmed File Extensions font size
+
+CSS Variable(s) targeted: `var(--flexcyon-exp-dimmed-nav-size)`
+
+Default: 13.3623 (px)
+
 ### Enable Active File Indicator
 
 CSS Classe(s) targeted: `var(--flexcyon-enable-active-file-indicator)`
