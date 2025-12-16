@@ -79,12 +79,16 @@ plugins:
             Cursor: 光标
             Graph: 图形视图
             View Header: 视图标题 
+            Debug: 调试
+            Tabs: 标签页
             Icons: 图标
             Settings: 设置 
             Plugins: 插件
             Others: 其他
             Callout Metadata: Callout 元数据 
             Flashcard: 抽认卡
+            Opacity: 不透明度
+            Font Size: 字体大小
             Popup: 弹出
             Center Image: 图像居中
             Plain: 简化
@@ -317,6 +321,8 @@ nav:
           - Cursor: "Styling/Style-Settings/Editor/Cursor/index.md"
           - Graph: "Styling/Style-Settings/Editor/Graph/index.md"
           - View Header: "Styling/Style-Settings/Editor/View-Header/index.md"
+          - Debug: "Styling/Style-Settings/Editor/Debug/index.md"
+          - Tabs: "Styling/Style-Settings/Editor/Tabs/index.md"
           - Icons: "Styling/Style-Settings/Editor/Icons/index.md"
       - Settings: "Styling/Style-Settings/Settings/index.md"
       - Plugins: "Styling/Style-Settings/Plugins/index.md"
@@ -324,6 +330,8 @@ nav:
   - Callout Metadata:
       - Callout Metadata: "Styling/Callout-Metadata/index.md"
       - Flashcard: "Styling/Callout-Metadata/flashcard.md"
+      - Opacity: "Styling/Callout-Metadata/opacity.md"
+      - Font Size: "Styling/Callout-Metadata/font-size.md"
       - Popup: "Styling/Callout-Metadata/popup.md"
       - Center Image: "Styling/Callout-Metadata/center-img.md"
       - TUI: "Styling/Callout-Metadata/tui.md"

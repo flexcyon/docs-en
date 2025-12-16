@@ -75,7 +75,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-anim-slide-amount)`
 
-默认: 56.63105 (px)
+默认: 56.6311 (px)
 
 ### 样式设置容器中启用动画
 

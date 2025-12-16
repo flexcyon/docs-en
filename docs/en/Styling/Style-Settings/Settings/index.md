@@ -21,12 +21,6 @@ Style Settings
 
 ## Configuration Options
 
-### Coloured Icons in Settings
-
-CSS Variable(s) targeted: `var(--flexcyon-settings-coloured-icons)`
-
-Default: false (class toggle)
-
 ### Enable community item effects
 
 CSS Variable(s) targeted: `var(--flexcyon-settings-comm-item-enabled)`

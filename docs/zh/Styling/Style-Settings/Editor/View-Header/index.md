@@ -3,8 +3,6 @@ title: View Header
 icon: material/format-header-equal
 ---
 
-定义显示动态屏幕尺寸和设备操作系统详细信息的选项。
-
 ## 导航
 
 ```md
@@ -27,42 +25,18 @@ Style Settings
 
 默认: 12.5 (vw)
 
-### 在视图标题中显示设备操作系统详细信息
+### 模式视图标题垂直填充
 
-目标 CSS 类: `.flexcyon-display-os`
+Angled 和 Powerlevel10k等模式下视图标题的垂直填充.
 
-默认: false (类切换)
+目标 CSS 变量: `var(--flexcyon-mode-view-header-title-verti-padding)`
 
-### 选项卡编号
+默认: 4 (px)
 
-在 RTZ 模式下默认启用。
+### 模式视图标题水平填充
 
-目标 CSS 类: `.flexcyon-number-tabs`
+Angled 和 Powerlevel10k等模式下视图标题的水平填充.
 
-默认: false (类切换)
+目标 CSS 变量: `var(--flexcyon-mode-view-header-title-horiz-padding)`
 
-### 删除选项卡标题
-
-在 RTZ 模式下默认启用。
-
-目标 CSS 类: `.flexcyon-remove-tab-headers`
-
-默认: false (类切换)
-
-### 设备操作系统详细信息右侧填充
-
-目标 CSS 变量: `var(--flexcyon-os-detail-padding-r)`
-
-默认: 24 (px)
-
-### 显示屏尺寸
-
-目标 CSS 类: `.flexcyon-display-screen-dimens`
-
-默认: false (类切换)
-
-### 显示屏尺寸左侧填充
-
-目标 CSS 变量: `var(--flexcyon-screen-dimens-padding-l)`
-
-默认: 16 (px)
+默认: 12 (px)

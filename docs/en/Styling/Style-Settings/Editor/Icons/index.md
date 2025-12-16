@@ -52,3 +52,15 @@ Default: false (class toggle)
 CSS Classe(s) targeted: `.flexcyon-ensure-plugin-icon`
 
 Default: true (class toggle)
+
+### Coloured Icons in Settings
+
+CSS Variable(s) targeted: `var(--flexcyon-settings-coloured-icons)`
+
+Default: false (class toggle)
+
+### Stylised pin icons
+
+CSS Variable(s) targeted: `var(--flexcyon-stylised-pins)`
+
+Default: true (class toggle)

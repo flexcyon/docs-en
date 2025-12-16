@@ -27,7 +27,7 @@ Accepted Formats: px
 
 CSS Variable(s) targeted: `var(--flexcyon-metadata-display-reading-disabled)`
 
-Default: true (class toggle)
+Default: false (class toggle)
 
 ### Do not show properties in live preview mode
 
@@ -47,3 +47,8 @@ CSS Variable(s) targeted: `var(--flexcyon-meta-container-padding-left)`
 
 Default: 14 (px)
 
+### Do not show properties title
+
+CSS Classe(s) targeted: `var(--flexcyon-metadata-no-properties-title)`
+
+默认: false (类切换)

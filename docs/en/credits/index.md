@@ -12,7 +12,7 @@ In addition, the light mode colour scheme would not be possible without the
 elegant [Origami theme](https://github.com/7368697661/Origami)
 (which is also under the MIT License).
 
-If you are interested in contributing to Flexcyon, view the section on [contributing](/#contributing).
+If you are interested in contributing to Flexcyon, view the section on [contributing](../#contributing).
 
 ## Snippets
 

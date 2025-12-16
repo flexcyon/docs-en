@@ -76,7 +76,7 @@ The amount of pixels the slide animations will slide
 
 CSS Variable(s) targeted: `var(--flexcyon-anim-slide-amount)`
 
-Default: 56.63105 (px)
+Default: 56.6311 (px)
 
 ### Enable Animations in Style Settings Container
 

@@ -25,19 +25,19 @@ Style Settings
 
 ### 在 Reading Mode 下不显示属性
 
-目标 CSS 变量: `var(--flexcyon-metadata-display-reading-disabled)`
+目标 CSS 类: `var(--flexcyon-metadata-display-reading-disabled)`
 
-默认: true (类切换)
+默认: false (类切换)
 
 ### 在 Live Preview 下不显示属性
 
-目标 CSS 变量: `var(--flexcyon-metadata-display-editing-disabled)`
+目标 CSS 类: `var(--flexcyon-metadata-display-editing-disabled)`
 
 默认: false (类切换)
 
 ### 启用彩虹元数据图标
 
-目标 CSS 变量: `var(--flexcyon-metadata-rainbow-icons)`
+目标 CSS 类: `var(--flexcyon-metadata-rainbow-icons)`
 
 默认: false (类切换)
 
@@ -46,3 +46,9 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-meta-container-padding-left)`
 
 默认: 14 (px)
+
+### 不显示属性标题
+
+目标 CSS 类: `var(--flexcyon-metadata-no-properties-title)`
+
+默认: false (类切换)

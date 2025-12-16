@@ -21,12 +21,6 @@ Style Settings
 
 ## 配置选项
 
-### 设置中的彩色图标
-
-目标 CSS 变量: `var(--flexcyon-settings-coloured-icons)`
-
-默认: false (类切换)
-
 ### 启用社区项目样式
 
 目标 CSS 变量: `var(--flexcyon-settings-comm-item-enabled)`
