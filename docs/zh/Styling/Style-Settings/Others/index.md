@@ -131,7 +131,7 @@ Style Settings
 
 强烈建议使用 CSS 代码段来管理和配置 ASCII 艺术
 
-[例如](https://github.com/bladeacer/obsi-snip-coll/blob/main/snippets/flexcyon/new-tab/tree-ascii.md).
+[例如](https://github.com/bladeacer/obsi-snip-coll/blob/main/snippets/flexcyon/new-tab/placeholder-ascii.md).
 
 #### ASCII 艺术字体大小限制
 
