@@ -1,0 +1,17 @@
+[project]
+name = "docs-en"
+version = "0.1.0"
+description = "Documentation for the Flexcyon theme"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "mkdocs",
+  "mkdocs-material",
+  "mkdocs-material-extensions",
+  "mkdocs-static-i18n",
+  "mkdocs-git-revision-date-localized-plugin",
+  "pymdown-extensions",
+  "PyYAML",
+  "watchdog"
+]
+
