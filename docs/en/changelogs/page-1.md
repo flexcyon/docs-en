@@ -160,7 +160,6 @@ icon: material/numeric-1
 - You can now specify target font family group (text, interface or monospace) for ASCII art and quote
 	- For the ASCII art to look good, we recommend using a monospace font like Source Code Pro.
 - You can now configure highlight text colour and opacity
-- Fixed tooltips
 - Added "Do not display status bar in new tab" option.
 	- Alternatively, you can set the opacity of status bar in new tabs. The default value is 0.55.
 - Added "Bases Card Label Opacity" settings, default value is 0.85
@@ -172,8 +171,8 @@ icon: material/numeric-1
 - Added Table Heading and Cell alignment related settings, split existing settings for Table Heading and Cell
 - Added Table Cell Font Size setting, renamed "Table Header size" to "Table Header font size" to be more specific. Both let you select from UI font size options now.
 - Added "Do not display inline title" setting, has a cssclass equivalent `no-inline-title`
-- Added "Do not display view header" setting
-- Added Mobile section and "Revert 1.11 Navigation UI" setting, reverts to old vault picker and navigation to pre 1.11 styling.
+- Added "Do not display view header" `cssclass`
+- Added Mobile section and "Revert 1.11 Navigation UI" setting, reverts old vault picker and navigation to pre 1.11 styling.
 
 #### Changes
 - Style Settings duration unit changed from s to ms
@@ -183,7 +182,7 @@ icon: material/numeric-1
 - Changed example tree ASCII to Figlet placeholder due to unclear copyright and licensing
 - Changed ASCII art text alignment to have a dropdown of options instead of being a text input
 - Modified community items background colour
-- Coloured headings no longer appear in PDF export output, credits Fancy-a-Story theme dev Kapirklaa for print (PDF export) styling
+- Coloured headings no longer appear in PDF export output, credits to Fancy-a-Story theme dev Kapirklaa for print (PDF export) styling
 - Fixed device operating details in pl10k, add left padding setting. Existing right padding setting has its default changed.
 
 #### Fixes
