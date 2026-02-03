@@ -6882,6 +6882,73 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#version-14x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version 1.4.x
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Version 1.4.x">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#140-colours-revisited" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.0 Colours Revisited
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4.0 Colours Revisited">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7433,6 +7500,73 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#version-14x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Version 1.4.x
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Version 1.4.x">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#140-colours-revisited" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.0 Colours Revisited
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4.0 Colours Revisited">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -7639,6 +7773,56 @@
 <li>Fixed default no metadata in reading mode</li>
 <li>Removed left align status bar setting as it was too hardcoded</li>
 </ul>
+<h2 id="version-14x">Version 1.4.x</h2>
+<h3 id="140-colours-revisited">1.4.0 Colours Revisited</h3>
+<h4 id="features_1">Features</h4>
+<ul>
+<li>You can now specify target font family group (text, interface or monospace) for ASCII art and quote<ul>
+<li>For the ASCII art to look good, we recommend using a monospace font like Source Code Pro.</li>
+</ul>
+</li>
+<li>You can now configure highlight text colour and opacity</li>
+<li>Added "Do not display status bar in new tab" option.<ul>
+<li>Alternatively, you can set the opacity of status bar in new tabs. The default value is 0.55.</li>
+</ul>
+</li>
+<li>Added "Bases Card Label Opacity" settings, default value is 0.85</li>
+<li>Added Typewriter Mode (dim all but active line), opacity is configurable with default value of 0.55. You can also set it via a <code>cssclass</code>.</li>
+<li>You can now set a default cursor type when it is not specified by the app</li>
+<li>You can now select the colour used for each heading when coloured headings is enabled</li>
+<li>Added Bases View Vertical and Horizontal Padding settings, affects Base file content. Defaults to 16 px for both</li>
+<li>Added Bases Embed padding, defaults to 4px</li>
+<li>Added Table Heading and Cell alignment related settings, split existing settings for Table Heading and Cell</li>
+<li>Added Table Cell Font Size setting, renamed "Table Header size" to "Table Header font size" to be more specific. Both let you select from UI font size options now.</li>
+<li>Added "Do not display inline title" setting, has a cssclass equivalent <code>no-inline-title</code></li>
+<li>Added "Do not display view header" <code>cssclass</code></li>
+<li>Added Mobile section and "Revert 1.11 Navigation UI" setting, reverts old vault picker and navigation to pre 1.11 styling.</li>
+</ul>
+<h4 id="changes_1">Changes</h4>
+<ul>
+<li>Style Settings duration unit changed from s to ms<ul>
+<li>Affected settings include alt file tree, animations, popup &amp; flashcard callout, status hide until hover and cursor duration</li>
+</ul>
+</li>
+<li>Theme now uses <code>oklch</code> colour space for some derivative colours</li>
+<li>Moved input related settings into its own section under <code>Editor &gt; Input</code></li>
+<li>Changed example tree ASCII to Figlet placeholder due to unclear copyright and licensing</li>
+<li>Changed ASCII art text alignment to have a dropdown of options instead of being a text input</li>
+<li>Modified community items background colour</li>
+<li>Coloured headings no longer appear in PDF export output, credits to Fancy-a-Story theme dev Kapirklaa for print (PDF export) styling</li>
+<li>Fixed device operating details in pl10k, add left padding setting. Existing right padding setting has its default changed.</li>
+</ul>
+<h4 id="fixes_1">Fixes</h4>
+<ul>
+<li>Fixed tooltips and interactive accent</li>
+<li>Fixed pl10k styling</li>
+<li>Fixed alternate link styling, it now inherits existing link colour variables and uses <code>oklch</code></li>
+<li>Improved performance of animations in the theme</li>
+<li>Overscroll behaviour defined where needed</li>
+<li>Cleaned up and fixed parts of the codebase</li>
+<li>Fixed border radius in pl10k mode view header</li>
+<li>Fixed vertical navigation padding when ribbon is shown</li>
+</ul>
 
 
 
@@ -7661,7 +7845,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="December 13, 2025 14:03:54 UTC">December 13, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 3, 2026 13:39:08 UTC">February 3, 2026</span>
   </span>
 
     
