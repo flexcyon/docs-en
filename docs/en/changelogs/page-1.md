@@ -153,3 +153,45 @@ icon: material/numeric-1
 - Fixed default TUI callout icon not inheriting icon colour
 - Fixed default no metadata in reading mode
 - Removed left align status bar setting as it was too hardcoded
+
+## Version 1.4.x
+### 1.4.0 Colours Revisited
+#### Features
+- You can now specify target font family group (text, interface or monospace) for ASCII art and quote
+	- For the ASCII art to look good, we recommend using a monospace font like Source Code Pro.
+- You can now configure highlight text colour and opacity
+- Fixed tooltips
+- Added "Do not display status bar in new tab" option.
+	- Alternatively, you can set the opacity of status bar in new tabs. The default value is 0.55.
+- Added "Bases Card Label Opacity" settings, default value is 0.85
+- Added Typewriter Mode (dim all but active line), opacity is configurable with default value of 0.55. You can also set it via a `cssclass`.
+- You can now set a default cursor type when it is not specified by the app
+- You can now select the colour used for each heading when coloured headings is enabled
+- Added Bases View Vertical and Horizontal Padding settings, affects Base file content. Defaults to 16 px for both
+- Added Bases Embed padding, defaults to 4px
+- Added Table Heading and Cell alignment related settings, split existing settings for Table Heading and Cell
+- Added Table Cell Font Size setting, renamed "Table Header size" to "Table Header font size" to be more specific. Both let you select from UI font size options now.
+- Added "Do not display inline title" setting, has a cssclass equivalent `no-inline-title`
+- Added "Do not display view header" setting
+- Added Mobile section and "Revert 1.11 Navigation UI" setting, reverts to old vault picker and navigation to pre 1.11 styling.
+
+#### Changes
+- Style Settings duration unit changed from s to ms
+	- Affected settings include alt file tree, animations, popup & flashcard callout, status hide until hover and cursor duration
+- Theme now uses `oklch` colour space for some derivative colours
+- Moved input related settings into its own section under `Editor > Input`
+- Changed example tree ASCII to Figlet placeholder due to unclear copyright and licensing
+- Changed ASCII art text alignment to have a dropdown of options instead of being a text input
+- Modified community items background colour
+- Coloured headings no longer appear in PDF export output, credits Fancy-a-Story theme dev Kapirklaa for print (PDF export) styling
+- Fixed device operating details in pl10k, add left padding setting. Existing right padding setting has its default changed.
+
+#### Fixes
+- Fixed tooltips and interactive accent
+- Fixed pl10k styling
+- Fixed alternate link styling, it now inherits existing link colour variables and uses `oklch`
+- Improved performance of animations in the theme
+- Overscroll behaviour defined where needed
+- Cleaned up and fixed parts of the codebase
+- Fixed border radius in pl10k mode view header
+- Fixed vertical navigation padding when ribbon is shown

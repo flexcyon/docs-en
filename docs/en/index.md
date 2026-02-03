@@ -18,12 +18,6 @@ icon: material/home
 This hosts the English documentation for the
 [flexcyon theme](https://github.com/bladeacer/flexcyon).
 
-> Currently, there are some Style Settings options undergoing refactor for
-> better performance.
->
-> There are legacy options kept for backwards compatibility if you are using
-> earlier version of the application
-
 ## Quick Links
 
 Here are some links you may be looking for.

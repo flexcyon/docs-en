@@ -165,4 +165,4 @@ title: Changelogs
 
 Beta 变更日志可以在[这里找到](./beta/index.md)。
 
-我不会翻译这些。
+我不会翻译这些日志。
