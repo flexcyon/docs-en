@@ -78,6 +78,21 @@ Options:
 - ASCII Art
 - Quote
 
+#### New tab font group
+
+CSS Variable(s) targeted: `var(--flexcyon-new-tab-font-group)`
+
+> For ASCII art to look good, we recommend the using a monospace font like
+> Source Code Pro
+
+Default: none (class select)
+
+Options:
+
+- Monospace Font
+- Interface Font
+- Text
+
 #### Background for add before empty state title
 
 CSS Variable(s) targeted: `var(--flexcyon-new-tab-bg-wrapper)`

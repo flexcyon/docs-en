@@ -78,6 +78,21 @@ Style Settings
 - ASCII Art (ASCII 艺术)
 - Quote (引用)
 
+#### 新选项卡字体组
+
+目标 CSS 变量: `var(--flexcyon-new-tab-font-group)`
+
+> 为了使 ASCII 艺术看起来更好, 我们建议使用等宽字体, 如
+> Source Code Pro
+
+默认: none (变量选项)
+
+选择:
+
+- Monospace Font (等宽字体)
+- Interface Font (界面字体)
+- Text (默认字体)
+
 #### 空状态标题前添加的背景
 
 目标 CSS 变量: `var(--flexcyon-new-tab-bg-wrapper)`
@@ -373,7 +388,6 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-modal-image-position)`
 
 默认: center
-
 
 #### 模态背景暗度
 
