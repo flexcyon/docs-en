@@ -388,14 +388,10 @@
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Styling">
+      <ul class="md-nav__list">
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#questions-issues" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -403,6 +399,16 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -7105,14 +7111,10 @@
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Styling">
+      <ul class="md-nav__list">
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#questions-issues" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7120,6 +7122,16 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -7173,17 +7185,37 @@
 
   <h1>Foreword</h1>
 
-<p align="left">
-    <a href="https://www.moritzjung.dev/obsidian-stats/themes/flexcyon-1/">
+<div align="center">
+    <a href="https://flexcyon.github.io/docs-en/">
+        <img alt="English Documentation" src="https://img.shields.io/badge/english-docs-blue?style=for-the-badge">
+    </a>
+    <a href="https://flexcyon.github.io/docs-en/">
+        <img alt="中文文档" src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E6%96%87%E6%A1%A3-purple?style=for-the-badge">
+    </a>
+    <a href="https://matrix.to/#/#flexcyon-space:matrix.org">
+        <img alt="Matrix Space" src="https://img.shields.io/matrix/flexcyon-space%3Amatrix.org?style=for-the-badge&logo=matrix&label=Matrix%20Space">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://www.moritzjung.dev/obsidian-stats/themes/flexcyon">
+    <a href="https://www.moritzjung.dev/obsidian-stats/themes/flexcyon">
         <img src="https://img.shields.io/badge/dynamic/json?query=%24%5B%22flexcyon%22%5D.download&url=https%3A%2F%2Freleases.obsidian.md%2Fstats%2Ftheme&style=for-the-badge&label=Downloads&logo=obsidian" referrerpolicy="noreferrer">
     </a>
+    <a href="https://github.com/bladeacer/flexcyon/releases/latest">
+        <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?style=for-the-badge&sort=semver&logo=semantic-release" referrerpolicy="noreferrer">
+    </a>
+    <img alt="Min App Version" src="https://img.shields.io/github/manifest-json/minAppVersion/bladeacer/flexcyon?style=for-the-badge&logo=semver">
+</div>
+
+<div align="center">
     <a href="https://github.com/bladeacer/flexcyon/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/bladeacer/flexcyon?style=for-the-badge" referrerpolicy="noreferrer"> 
     </a>
-    <a href="https://github.com/bladeacer/flexcyon/releases/latest">
-        <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?style=for-the-badge&sort=semver" referrerpolicy="noreferrer">
+    <a href="https://github.com/flexcyon/docs-en">
+        <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/flexcyon/docs-en/github-pages?style=for-the-badge&logo=github">
     </a>
-</p>
+</div>
 
 <p>This hosts the English documentation for the
 <a href="https://github.com/bladeacer/flexcyon">flexcyon theme</a>.</p>
@@ -7212,18 +7244,24 @@
 <li><a href="Styling/Style-Settings/">Style Settings</a></li>
 </ul>
 <hr />
-<h2 id="questions-issues">Questions, Issues?</h2>
+<h4 id="questions-issues">Questions, Issues?</h4>
 <p>Feel free to talk about it at:</p>
 <ul>
-<li><a href="https://discord.com/channels/686053708261228577/1338130333698359357">this Discord thread</a>.</li>
+<li><a href="https://matrix.to/#/#flexcyon-space:matrix.org">this Matrix Space</a></li>
 <li><a href="https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869">this Obsidian forum topic</a></li>
+<li><a href="https://discord.com/channels/686053708261228577/1338130333698359357">this Discord thread</a></li>
+<li><a href="https://github.com/bladeacer/flexcyon/discussions">start a GitHub discussion</a></li>
 </ul>
+<p>Methods of communication are listed in order of preference.</p>
 <h2 id="contributing">Contributing</h2>
+<p>When contributing do open an issue at
+<a href="https://github.com/bladeacer/flexcyon/issues">the repository</a> or
+<a href="https://github.com/bladeacer/flexcyon/discussions">start a GitHub discussion</a> first.</p>
 <p>You can create your own fork before making a pull request.</p>
 <blockquote>
-<p>Before doing this, do open an issue at the repository first.</p>
+<p>Before doing this, do open an issue at this repository first.</p>
 </blockquote>
-<p>The repository comes with some scripts. The important ones include:</p>
+<p>This repository comes with some scripts. The important ones include:</p>
 <ul>
 <li><code>npm run dev</code>: SCSS to CSS compiler, assumes you have
 <a href="https://sass-lang.com/">Sass</a> (Dart, Node) installed</li>
@@ -7235,9 +7273,6 @@ your file changes are saved.</li>
 </ul>
 <p>If you prefer to use CSS instead of SCSS, place your proposed code changes or
 snippets in the <code>css/</code> folder. The maintainer will try to integrate them.</p>
-<p>Alternatively, you can open an issue at
-<a href="https://github.com/bladeacer/flexcyon/issues">the repository</a> or
-<a href="https://github.com/bladeacer/flexcyon/discussions">start a GitHub discussion</a> here.</p>
 <p>Do note that this repository has its own <a href="https://github.com/bladeacer/flexcyon/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a>
 and <a href="https://github.com/bladeacer/flexcyon/blob/master/CONTRIBUTING.md">Contributing Guide</a>.</p>
 <h3 id="about-comments">About Comments</h3>
@@ -7265,7 +7300,7 @@ code repository (<code>bladeacer/flexcyon</code>) as a back-end.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 3, 2026 12:47:56 UTC">February 3, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 22, 2026 14:02:46 UTC">February 22, 2026</span>
   </span>
 
     
