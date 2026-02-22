@@ -11,7 +11,10 @@ icon: material/home
         <img src="https://img.shields.io/github/license/bladeacer/flexcyon?label=许可证&style=for-the-badge" referrerpolicy="noreferrer" alt="许可证">
     </a>
     <a href="https://github.com/bladeacer/flexcyon/releases/latest">
-        <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?label=版本&style=for-the-badge&sort=semver" referrerpolicy="noreferrer" alt="版本">
+        <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?label=最低版本&style=for-the-badge&sort=semver" referrerpolicy="noreferrer" alt="最低版本">
+    </a>
+    <a href="https://matrix.to/#/#flexcyon-space:matrix.org">
+        <img alt="Matrix" src="https://img.shields.io/matrix/flexcyon-space%3Amatrix.org?style=for-the-badge&logo=matrix&label=Matrix%20Space">
     </a>
 </p>
 
