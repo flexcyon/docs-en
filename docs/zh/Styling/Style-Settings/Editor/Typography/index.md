@@ -65,6 +65,29 @@ Style Settings
 
 默认: 0 (px)
 
+### 突出显示文本颜色
+
+目标 CSS 变量: `var(--flexcyon-highlight-colour)`
+
+默认: Cyan - 青色 (变量选项)
+
+选项:
+
+- Cyan (青色)
+- Blue (蓝色)
+- Purple (紫色)
+- Pink (粉红色)
+- Red (红色)
+- Orange (橙色)
+- Yellow (黄色)
+- Green (绿色)
+
+### 突出显示文本不透明度
+
+目标 CSS 变量: `var(--flexcyon-highlight-opacity)`
+
+默认: 22.5%
+
 ### 突出显示文本垂直填充
 
 目标 CSS 变量: `var(--flexcyon-highlight-verti-padding)`

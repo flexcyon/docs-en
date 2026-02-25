@@ -64,6 +64,29 @@ CSS Variable(s) targeted: `var(--flexcyon-l-spacing)`
 
 Default: 0 (px)
 
+### Highlight Text Colour
+
+CSS Variable(s) targeted: `var(--flexcyon-highlight-colour)`
+
+Default: Cyan (variable select)
+
+Options:
+
+- Cyan
+- Blue
+- Purple
+- Pink
+- Red
+- Orange
+- Yellow
+- Green
+
+### Highlight text opacity
+
+CSS Variable(s) targeted: `var(--flexcyon-highlight-opacity)`
+
+Default: 22.5%
+
 ### Highlight Text Vertical Padding
 
 CSS Variable(s) targeted: `var(--flexcyon-highlight-verti-padding)`
