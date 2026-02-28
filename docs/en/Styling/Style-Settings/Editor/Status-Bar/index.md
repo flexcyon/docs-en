@@ -5,7 +5,7 @@ icon: material/state-machine
 
 Defines CSS variables to configure the status bar
 
-Accepted Formats: s, px
+Accepted Formats: ms, px
 
 ## Navigation
 
@@ -66,7 +66,7 @@ Default: 1500 (px)
 
 CSS Variable(s) targeted: `var(--flexcyon-status-hide-hover-duration)`
 
-Default: 0.325 (s)
+Default: 325 (ms)
 
 #### Transition timing function for showing status bar on hover
 
@@ -135,3 +135,15 @@ Options:
 CSS Variable(s) targeted: `var(--flexcyon-status-text-enable-color)`
 
 Default: false (class toggle)
+
+#### Do not show status bar in new tab
+
+CSS Variable(s) targeted: `var(--flexcyon-no-status-in-new-tab)`
+
+Default: false (class toggle)
+
+#### Opacity of status bar in new tab
+
+CSS Variable(s) targeted: `var(--flexcyon-status-new-tab-opacity)`
+
+Default: 0.55

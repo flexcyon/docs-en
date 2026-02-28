@@ -7,7 +7,7 @@ tags:
 
 Configure styling of callouts
 
-Accepted Formats: px, rem, em, s
+Accepted Formats: px, rem, em, ms
 
 ## Navigation
 
@@ -115,7 +115,7 @@ Default: 250 (px)
 
 CSS Variable(s) targeted: `var(--flexcyon-callout-flashcard-animation-duration)`
 
-Default: 0.5s
+Default: 500 (ms)
 
 ___
 ### Popup callout
@@ -126,5 +126,5 @@ Configures the [popup callout](../../../Callout-Metadata/popup.md)
 
 CSS Variable(s) targeted: `var(--flexcyon-callout-pop-animation-duration)`
 
-Default: 0.2s
+Default: 200 (ms)
 

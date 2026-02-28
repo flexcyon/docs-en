@@ -7,7 +7,7 @@ tags:
 
 配置标注样式。
 
-接受的格式: px, rem, em, s
+接受的格式: px, rem, em, ms
 
 ## 导航
 
@@ -115,7 +115,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-callout-flashcard-animation-duration)`
 
-默认: 0.5s
+默认: 500 (ms)
 
 ---
 
@@ -127,4 +127,4 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-callout-pop-animation-duration)`
 
-默认: 0.2s
+默认: 200 (ms)

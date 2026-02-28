@@ -26,6 +26,8 @@ CSS Classe(s) targeted: `var(--flexcyon-enable-smooth-cursor)`
 
 Default: true
 
+> Technically the caret, as was pointed out.
+
 ### Smooth cursor transition duration
 
 CSS Classe(s) targeted: `var(--flexcyon-cursor-duration)`

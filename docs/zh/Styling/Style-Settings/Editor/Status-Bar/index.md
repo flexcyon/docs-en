@@ -5,7 +5,7 @@ icon: material/state-machine
 
 定义 CSS 变量以配置状态栏。
 
-接受的格式: s, px
+接受的格式: ms, px
 
 ## 导航
 
@@ -67,7 +67,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-status-hide-hover-duration)`
 
-默认: 0.325 (s)
+默认: 325 (ms)
 
 #### 悬停状态栏显示的转换定时函数
 
@@ -134,6 +134,18 @@ Style Settings
 
 #### 启用状态文本颜色
 
-目标 CSS 变量: `var(--flexcyon-status-text-enable-color)`
+目标 CSS 类: `var(--flexcyon-status-text-enable-color)`
 
 默认: false (类切换)
+
+#### 不在新选项卡中显示状态栏
+
+目标 CSS 类: `var(--flexcyon-no-status-in-new-tab)`
+
+默认: false (类切换)
+
+#### 新选项卡中状态栏的不透明性
+
+目标 CSS 变量: `var(--flexcyon-status-new-tab-opacity)`
+
+默认: 0.55

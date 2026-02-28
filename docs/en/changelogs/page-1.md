@@ -160,7 +160,7 @@ icon: material/numeric-1
 - You can now specify target font family group (text, interface or monospace) for ASCII art and quote
 	- For the ASCII art to look good, we recommend using a monospace font like Source Code Pro.
 - You can now configure highlight text colour and opacity
-- Added "Do not display status bar in new tab" option.
+- Added "Do not show status bar in new tab" option.
 	- Alternatively, you can set the opacity of status bar in new tabs. The default value is 0.55.
 - Added "Bases Card Label Opacity" settings, default value is 0.85
 - Added Typewriter Mode (dim all but active line), opacity is configurable with default value of 0.55. You can also set it via a `cssclass`.

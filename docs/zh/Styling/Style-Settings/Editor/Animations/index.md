@@ -5,7 +5,7 @@ icon: material/animation
 
 配置提示模态和选项卡容器的过渡动画。
 
-接受的格式: s
+接受的格式: ms
 
 ## 导航
 
@@ -61,7 +61,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-anim-duration)`
 
-默认: 0.3s
+默认: 300 (ms)
 
 ### 动画缓动函数
 

@@ -5,7 +5,7 @@ icon: material/animation
 
 Configure transition animations of prompts, modals and tab container.
 
-Accepted Formats: s
+Accepted Formats: ms
 
 ## Navigation
 
@@ -63,7 +63,7 @@ Options:
 
 CSS Variable(s) targeted: `var(--flexcyon-anim-duration)`
 
-Default: 0.3s
+Default: 300 (ms)
 
 ### Animation easing function
 
