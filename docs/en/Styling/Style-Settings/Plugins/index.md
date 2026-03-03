@@ -213,3 +213,106 @@ Default: false (class toggle)
 CSS Classe(s) targeted: `var(--flexcyon-omnisearch-body-margin-left-margin-left)`
 
 Default: 1.45 (rem)
+
+___
+### Bases
+
+#### Bases View Vertical Padding
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-padding-horiz)`
+
+Default: 16 (px)
+
+#### Bases View Horizontal Padding
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-padding-horiz)`
+
+Default: 16 (px)
+
+#### Bases Embed Padding
+
+CSS Variable(s) targeted: `var(--bases-embed-padding)`
+
+Default: 4 (px)
+
+___
+
+#### Bases Cards View
+
+##### Bases Card Label Opacity
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-cards-label-opacity)`
+
+Default: 0.85
+
+##### Default string when Card View item image not found
+
+CSS Variable(s) targeted: `var(--bases-no-img-str)`
+
+Default: "No image path could be found for this file"
+
+##### Bases Card Border Radius
+
+CSS Variable(s) targeted: `var(--bases-border-r)`
+
+Default: 16 (px)
+
+##### Bases Card Group Padding
+
+CSS Variable(s) targeted: `var(--bases-cards-group-padding)`
+
+Default: 16 (px)
+
+##### Bases Card Padding Top
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-card-padding-top)`
+
+Default: 8 (px)
+
+##### Bases Card Padding Right
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-card-padding-right)`
+
+Default: 0 (px)
+
+##### Bases Card Padding Bottom
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-card-padding-bottom)`
+
+Default: 0 (px)
+
+##### Bases Card Padding Left
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-card-padding-left)`
+
+Default: 2 (px)
+
+##### Bases Card View Flex Grow
+
+This is the factor of how long the Card View takes to scale depending on tab size.
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-card-flex-grow)`
+
+Default: 0.55
+
+___
+
+#### Bases Table View
+
+##### Bases Table Cell left padding
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-td-padding-l)`
+
+Default: 2 (px)
+
+##### Bases Table Cell Content Alignment
+
+CSS Variable(s) targeted: `var(--flexcyon-bases-table-content-alignment)`
+
+Default: left (variable select)
+
+Options:
+
+- Left
+- Center
+- Right
