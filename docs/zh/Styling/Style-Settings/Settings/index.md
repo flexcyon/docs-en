@@ -53,10 +53,6 @@ Style Settings
 
 默认: true (类切换)
 
-<!--- 
-TODO: Add Input box padding settings here later.
---->
-
 ---
 
 ### 样式设置

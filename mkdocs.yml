@@ -82,6 +82,7 @@ plugins:
             Debug: 调试
             Tabs: 标签页
             Icons: 图标
+            Input: 输入
             Settings: 设置 
             Plugins: 插件
             Others: 其他
@@ -324,6 +325,7 @@ nav:
           - Debug: "Styling/Style-Settings/Editor/Debug/index.md"
           - Tabs: "Styling/Style-Settings/Editor/Tabs/index.md"
           - Icons: "Styling/Style-Settings/Editor/Icons/index.md"
+          - Input: "Styling/Style-Settings/Editor/Input/index.md"
       - Settings: "Styling/Style-Settings/Settings/index.md"
       - Plugins: "Styling/Style-Settings/Plugins/index.md"
       - Others: "Styling/Style-Settings/Others/index.md"

@@ -53,10 +53,6 @@ CSS Variable(s) targeted: `var(--flexcyon-enable-alt-active-item-effect)`
 
 Default: true (class toggle)
 
-<!--- 
-TODO: Add Input box padding settings here later.
---->
-
 ___
 
 ### Style Settings
@@ -76,4 +72,3 @@ Default: 4 (px)
 CSS Variable(s) targeted: `var(--flexcyon-style-settings-dim-collapsed-headings)`
 
 Default: true
-
