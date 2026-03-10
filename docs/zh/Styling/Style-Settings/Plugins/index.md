@@ -217,6 +217,106 @@ Style Settings
 
 默认: 1.45 (rem)
 
-<!---
-TODO: Add Bases section for this and English docs
---->
+---
+
+### Bases 插件
+
+#### Bases 视图垂直填充
+
+目标 CSS 变量: `var(--flexcyon-bases-padding-horiz)`
+
+默认: 16 (px)
+
+#### Bases 视图水平填充
+
+目标 CSS 变量: `var(--flexcyon-bases-padding-horiz)`
+
+默认: 16 (px)
+
+#### Bases 嵌入填充
+
+目标 CSS 变量: `var(--bases-embed-padding)`
+
+默认: 4 (px)
+
+___
+
+#### Bases 卡片视图
+
+##### Bases 卡片标签不透明
+
+目标 CSS 变量: `var(--flexcyon-bases-cards-label-opacity)`
+
+默认: 0.85
+
+##### 未找到 Bases 卡片视图项目图像的默认字符串
+
+目标 CSS 变量: `var(--bases-no-img-str)`
+
+默认: "No image path could be found for this file"
+
+##### Bases 卡边界半径
+
+目标 CSS 变量: `var(--bases-border-r)`
+
+默认: 16 (px)
+
+##### Bases 卡片组填充
+
+目标 CSS 变量: `var(--bases-cards-group-padding)`
+
+默认: 16 (px)
+
+##### Bases 卡片衬垫顶部
+
+目标 CSS 变量: `var(--flexcyon-bases-card-padding-top)`
+
+默认: 8 (px)
+
+##### Bases 右侧卡片填充
+
+目标 CSS 变量: `var(--flexcyon-bases-card-padding-right)`
+
+默认: 0 (px)
+
+##### Bases 卡片衬垫底部
+
+目标 CSS 变量: `var(--flexcyon-bases-card-padding-bottom)`
+
+默认: 0 (px)
+
+##### Bases 左侧卡片填充
+
+目标 CSS 变量: `var(--flexcyon-bases-card-padding-left)`
+
+默认: 2 (px)
+
+##### Bases 卡片视图柔性增长
+
+这是卡视图根据选项卡大小缩放所需时间的因素.
+
+目标 CSS 变量: `var(--flexcyon-bases-card-flex-grow)`
+
+默认: 0.55
+
+___
+
+#### Bases 表格视图
+
+##### Bases 表格单元格左侧填充
+
+目标 CSS 变量: `var(--flexcyon-bases-td-padding-l)`
+
+默认: 2 (px)
+
+##### Bases 表格单元格内容对齐
+
+目标 CSS 变量: `var(--flexcyon-bases-table-content-alignment)`
+
+默认: left (变量切换)
+
+Options:
+
+- Left (左)
+- Center (中心)
+- Right (右)

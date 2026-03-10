@@ -13,6 +13,7 @@ title: Changelogs
 ## 1.4.x 版本
 ### 1.4.0 再访颜色
 #### 功能
+- Bases 样式设置的改变不再是实验性的
 - 现在, 您可以为 ASCII 艺术和引号指定目标字体系列 (text, interface 或 monospace)
   - 为 ASCII 艺术, 我们建议使用类似等宽字体, 例如 Source Code Pro.
 - 现在, 您可以配置突出显示文本的颜色和不透明度

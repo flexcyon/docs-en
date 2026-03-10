@@ -157,6 +157,7 @@ icon: material/numeric-1
 ## Version 1.4.x
 ### 1.4.0 Colours Revisited
 #### Features
+- Bases Style Settings are no longer marked as experimental
 - You can now specify target font family group (text, interface or monospace) for ASCII art and quote
 	- For the ASCII art to look good, we recommend using a monospace font like Source Code Pro.
 - You can now configure highlight text colour and opacity
