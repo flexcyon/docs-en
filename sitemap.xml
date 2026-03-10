@@ -1072,6 +1072,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Inline-Title/"/>
     </url>
     <url>
+        <loc>https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Input/</loc>
+        <lastmod>2026-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Input/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Input/"/>
+    </url>
+    <url>
         <loc>https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Layout/</loc>
         <lastmod>2026-03-10</lastmod>
         <changefreq>daily</changefreq>
@@ -2351,6 +2358,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Inline-Title/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Inline-Title/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Input/</loc>
+        <lastmod>2026-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Input/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/Style-Settings/Editor/Input/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/Styling/Style-Settings/Editor/Layout/</loc>
