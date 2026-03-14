@@ -208,6 +208,7 @@ plugins:
             LTR Vertical Alignment: LTR 垂直对齐 
             Tategaki Vertical Alignment: Tategaki 垂直对齐 
             Writing Mode: 写入模式 
+            Typewriter Mode: Typewriter 模式
             Version 1.x.x: 版本 1.x.x
             Version 0.1.x: 版本 0.1.x
             Version 0.2.x: 版本 0.2.x
@@ -466,6 +467,8 @@ nav:
           - Tategaki Vertical Alignment: "Styling/CSS-Classes/vertical-alignment/page-2.md"
       - Writing Mode:
           - Writing Mode: "Styling/CSS-Classes/writing-mode/index.md"
+      - Typewriter Mode:
+          - Typewriter Mode: "Styling/CSS-Classes/typewriter-mode/index.md"
   - Changelogs:
       - Changelogs: "changelogs/index.md"
       - Version 1.x.x: "changelogs/page-1.md"

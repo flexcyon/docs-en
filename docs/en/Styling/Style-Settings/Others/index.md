@@ -174,6 +174,12 @@ CSS Variable(s) targeted: `var(--flexcyon-ascii-alignment)`
 
 Default: left
 
+Options:
+
+- Left
+- Center
+- Right
+
 #### Disable Empty State title
 
 CSS Variable(s) targeted: `var(--flexcyon-empty-state-title-disable)`

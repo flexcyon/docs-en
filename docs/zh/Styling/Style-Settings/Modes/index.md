@@ -93,6 +93,30 @@ Style Settings
 
 您应该能够配置这些设置, 就像它们正常启用一样. 这主题还有许多其他设置选项供您探索, 其中一些默认情况下是启用的, 如平滑光标.
 
+### Typewriter 模式
+
+目标 CSS 类: `var(--flexcyon-typewriter-mode)`
+
+在 Source 和 Live Preview 模式下, 降低除活动行之外的所有行的不透明度.
+
+默认: false (类切换)
+  
+### Typewriter Mode Opacity
+
+Typewriter 模式下变暗的非活动行的不透明度.
+
+目标 CSS 变量: `var(--flexcyon-typewriter-mode-opacity)`
+
+默认: 0.55
+
+### Reverse 模式
+
+反转 UI 中内容的呈现
+
+目标 CSS 变量: `var(--flexcyon-reverse-mode)`
+
+默认: false (类切换)
+
 ### 全局启用书写模式
 
 > Like its cssclass counterpart, except applied globally

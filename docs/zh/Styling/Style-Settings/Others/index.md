@@ -174,6 +174,12 @@ Style Settings
 
 默认: left (左)
 
+选项:
+
+- Left (左)
+- Center (中心)
+- Right (右)
+
 #### 不使用空状态标题
 
 目标 CSS 变量: `var(--flexcyon-empty-state-title-disable)`

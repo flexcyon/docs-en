@@ -93,7 +93,33 @@ Enables the following settings, even if they are toggled off in style settings
 
 * Add prefix to code block file extension (Live Preview)
 
-You should be able to configure these settings as if they were enabled normally. The theme has many other settings options for you to explore, some of which are enabled by default like smooth cursor.
+You should be able to configure these settings as if they were enabled normally.
+The theme has many other settings options for you to explore, some of which are
+enabled by default like smooth cursor.
+
+### Typewriter Mode
+
+CSS Classe(s) targeted: `var(--flexcyon-typewriter-mode)`
+
+Reduce opacity of all but the active line in source and live preview mode
+
+Default: false (class toggle)
+  
+### Typewriter Mode Opacity
+
+Opacity of dimmed non-active lines in typewriter mode
+
+CSS Variable(s) targeted: `var(--flexcyon-typewriter-mode-opacity)`
+
+Default: 0.55
+
+### Reverse Mode
+
+Reverses the rendering of stuff in the UI.
+
+CSS Variable(s) targeted: `var(--flexcyon-reverse-mode)`
+
+Default: false (class toggle)
 
 ### Enable Writing Mode globally
 
