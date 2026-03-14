@@ -53,6 +53,25 @@ Default: false (class toggle)
 
 > The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-1.md)
 
+### Heading 1 Colour
+
+CSS Variable(s) targeted: `var(--flexcyon-h1-color)`
+
+Colour of Heading 1 when coloured headings is enabled.
+
+Default: Blue (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
+
 ### Heading 1 font size
 
 CSS Variable(s) targeted: `var(--h1-size)`
@@ -105,6 +124,25 @@ Default: false (class toggle)
 
 > The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-2.md)
 
+### Heading 2 Colour
+
+CSS Variable(s) targeted: `var(--flexcyon-h2-color)`
+
+Colour of Heading 2 when coloured headings is enabled.
+
+Default: Purple (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
+
 ### Heading 2 font size
 
 CSS Variable(s) targeted: `var(--h2-size)`
@@ -155,6 +193,25 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h3)`
 Default: false (class toggle)
 
 > The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-3.md)
+
+### Heading 3 Colour
+
+CSS Variable(s) targeted: `var(--flexcyon-h3-color)`
+
+Colour of Heading 3 when coloured headings is enabled.
+
+Default: Cyan (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
 
 ### Heading 3 font size
 
@@ -207,6 +264,25 @@ Default: false (class toggle)
 
 > The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-4.md)
 
+### Heading 4 Colour
+
+CSS Variable(s) targeted: `var(--flexcyon-h4-color)`
+
+Colour of Heading 4 when coloured headings is enabled.
+
+Default: Pink (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
+
 ### Heading 4 font size
 
 CSS Variable(s) targeted: `var(--h4-size)`
@@ -258,6 +334,25 @@ Default: false (class toggle)
 
 > The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-5.md)
 
+### Heading 5 Colour
+
+CSS Variable(s) targeted: `var(--flexcyon-h5-color)`
+
+Colour of Heading 5 when coloured headings is enabled.
+
+Default: Green (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
+
 ### Heading 5 font size
 
 CSS Variable(s) targeted: `var(--h5-size)`
@@ -308,6 +403,25 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h6)`
 Default: false (class toggle)
 
 > The CSS Class equivalent can be [found here](../../../CSS-Classes/heading-indicators/page-6.md)
+
+### Heading 6 Colour
+
+CSS Variable(s) targeted: `var(--flexcyon-h6-color)`
+
+Colour of Heading 6 when coloured headings is enabled.
+
+Default: Yellow (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
 
 ### Heading 6 font size
 

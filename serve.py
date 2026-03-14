@@ -23,7 +23,7 @@ class MarkdownChangeHandler(FileSystemEventHandler):
         if event.src_path.endswith('.md'):
             current_time = time.time()
             if (current_time - self._last_trigger_time) > self.debounce_time:
-                logger.info(f"📝 Change Detected: {event.src_path}")
+                logger.info(f"Change Detected: {event.src_path}")
                 self.restart_required = True
                 self._last_trigger_time = current_time
 
