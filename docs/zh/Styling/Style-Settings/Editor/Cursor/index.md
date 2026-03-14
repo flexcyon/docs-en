@@ -20,6 +20,16 @@ Style Settings
 
 ## 配置选项
 
+### 默认光标类型
+
+目标 CSS 变量: `var(--flexcyon-cursor-type)`
+
+当应用程序未指定光标类型时, 设置光标类型。
+
+默认: auto (变量选项)
+
+选项: 有关选项的完整列表, 请查看 [MDN 上的光标样式](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/cursor)
+
 ### 启用平滑光标
 
 目标 CSS 类: `var(--flexcyon-enable-smooth-cursor)`
