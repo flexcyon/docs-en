@@ -55,6 +55,25 @@ Style Settings
 
 > CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-1.md)
 
+### 标题 1 颜色
+
+目标 CSS 变量: `var(--flexcyon-h1-color)`
+
+启用彩色标题时标题 1 的颜色。
+
+默认: Blue (蓝色) (变量选项)
+
+选项:
+
+* Cyan (青色)
+* Blue (蓝色)
+* Purple (紫色)
+* Pink (粉红色)
+* Red (红色)
+* Orange (橙色)
+* Yellow (黄色)
+* Green (绿色)
+
 ### 标题 1 字体大小
 
 目标 CSS 变量: `var(--h1-size)`
@@ -109,6 +128,25 @@ Style Settings
 
 > CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-2.md)
 
+### 标题 2 颜色
+
+目标 CSS 变量: `var(--flexcyon-h2-color)`
+
+启用彩色标题时标题 2 的颜色。
+
+默认: Purple (紫色) (变量选项)
+
+选项:
+
+* Cyan (青色)
+* Blue (蓝色)
+* Purple (紫色)
+* Pink (粉红色)
+* Red (红色)
+* Orange (橙色)
+* Yellow (黄色)
+* Green (绿色)
+
 ### 标题 2 字体大小
 
 目标 CSS 变量: `var(--h2-size)`
@@ -160,6 +198,25 @@ Style Settings
 默认: false (类切换)
 
 > CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-3.md)
+
+### 标题 3 颜色
+
+目标 CSS 变量: `var(--flexcyon-h3-color)`
+
+启用彩色标题时标题 3 的颜色。
+
+默认: Cyan (青色) (变量选项)
+
+选项:
+
+* Cyan (青色)
+* Blue (蓝色)
+* Purple (紫色)
+* Pink (粉红色)
+* Red (红色)
+* Orange (橙色)
+* Yellow (黄色)
+* Green (绿色)
 
 ### 标题 3 字体大小
 
@@ -213,6 +270,25 @@ Style Settings
 
 > CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-4.md)
 
+### 标题 4 颜色
+
+目标 CSS 变量: `var(--flexcyon-h4-color)`
+
+启用彩色标题时标题 4 的颜色。
+
+默认: Pink (粉红色) (变量选项)
+
+选项:
+
+* Cyan (青色)
+* Blue (蓝色)
+* Purple (紫色)
+* Pink (粉红色)
+* Red (红色)
+* Orange (橙色)
+* Yellow (黄色)
+* Green (绿色)
+
 ### 标题 4 字体大小
 
 目标 CSS 变量: `var(--h4-size)`
@@ -265,6 +341,25 @@ Style Settings
 
 > CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-5.md)
 
+### 标题 5 颜色
+
+目标 CSS 变量: `var(--flexcyon-h5-color)`
+
+启用彩色标题时标题 5 的颜色。
+
+默认: Green (绿色) (变量选项)
+
+选项:
+
+* Cyan (青色)
+* Blue (蓝色)
+* Purple (紫色)
+* Pink (粉红色)
+* Red (红色)
+* Orange (橙色)
+* Yellow (黄色)
+* Green (绿色)
+
 ### 标题 5 字体大小
 
 目标 CSS 变量: `var(--h5-size)`
@@ -316,6 +411,25 @@ Style Settings
 默认: false (类切换)
 
 > CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-6.md)
+
+### 标题 6 颜色
+
+目标 CSS 变量: `var(--flexcyon-h6-color)`
+
+启用彩色标题时标题 6 的颜色。
+
+默认: Yellow (黄色) (变量选项)
+
+选项:
+
+* Cyan (青色)
+* Blue (蓝色)
+* Purple (紫色)
+* Pink (粉红色)
+* Red (红色)
+* Orange (橙色)
+* Yellow (黄色)
+* Green (绿色)
 
 ### 标题 6 字体大小
 
