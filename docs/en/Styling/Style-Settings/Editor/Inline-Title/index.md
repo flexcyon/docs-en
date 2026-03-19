@@ -41,3 +41,9 @@ Default: 700
 CSS Variable(s) targeted: `var(--inline-title-height)`
 
 Default: 1.2
+
+### Do not display inline title
+
+CSS Classe(s) targeted: `var(--flexcyon-no-inline-title)`
+
+Default: false (class toggle)

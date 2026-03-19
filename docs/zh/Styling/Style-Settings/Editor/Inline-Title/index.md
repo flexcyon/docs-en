@@ -42,3 +42,9 @@ Sample inline title</span>
 目标 CSS 变量: `var(--inline-title-height)`
 
 默认: 1.2
+
+### 不显行内标题
+
+目标 CSS 类: `var(--flexcyon-no-inline-title)`
+
+默认: false (类切换)
