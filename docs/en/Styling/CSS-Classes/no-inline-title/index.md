@@ -5,7 +5,7 @@ icon: material/format-strikethrough-variant
 
 # Usage
 
-Does no display inline title.
+Does not display inline title.
 
 ```md
 cssclasses:
