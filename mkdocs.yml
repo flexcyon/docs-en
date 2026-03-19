@@ -50,6 +50,7 @@ plugins:
             Beta: 测试版
             Version: 版本
             Modes: 模式
+            Mobile: 手机设备
             Editor: 编辑器
             Accent Colors: 强调色
             Base Colors: 基础色
@@ -294,6 +295,7 @@ nav:
   - Style Settings:
       - Style Settings: "Styling/Style-Settings/index.md"
       - Modes: "Styling/Style-Settings/Modes/index.md"
+      - Mobile: "Styling/Style-Settings/Mobile/index.md"
       - Editor:
           - Editor: "Styling/Style-Settings/Editor/index.md"
           - Accent Colors: "Styling/Style-Settings/Editor/Accent-Colors/index.md"
