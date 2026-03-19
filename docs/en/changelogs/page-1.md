@@ -195,3 +195,4 @@ icon: material/numeric-1
 - Cleaned up and fixed parts of the codebase
 - Fixed border radius in pl10k mode view header
 - Fixed vertical navigation padding when ribbon is shown
+- Banner snippet live preview hotfix

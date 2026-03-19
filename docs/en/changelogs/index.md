@@ -51,6 +51,7 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 - Cleaned up and fixed parts of the codebase
 - Fixed border radius in pl10k mode view header
 - Fixed vertical navigation padding when ribbon is shown
+- Banner snippet live preview hotfix
 
 ## Version 1.3.x
 ### 1.3.0 Animations Update
