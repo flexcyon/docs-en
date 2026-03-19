@@ -27,11 +27,17 @@ Style Settings
 
 默认: false (类切换)
 
+### 设备操作系统详细信息左侧填充
+
+目标 CSS 变量: `var(--flexcyon-os-detail-padding-l)`
+
+默认: 12 (px)
+
 ### 设备操作系统详细信息右侧填充
 
 目标 CSS 变量: `var(--flexcyon-os-detail-padding-r)`
 
-默认: 24 (px)
+默认: 8 (px)
 
 ### 显示屏尺寸
 
