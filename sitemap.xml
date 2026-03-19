@@ -176,6 +176,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/CSS-Classes/no-inline-title/"/>
     </url>
     <url>
+        <loc>https://flexcyon.github.io/docs-en/Styling/CSS-Classes/no-view-header/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/CSS-Classes/no-view-header/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/CSS-Classes/no-view-header/"/>
+    </url>
+    <url>
         <loc>https://flexcyon.github.io/docs-en/Styling/CSS-Classes/typewriter-mode/</loc>
         <lastmod>2026-03-19</lastmod>
         <changefreq>daily</changefreq>
@@ -1476,6 +1483,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/CSS-Classes/no-inline-title/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/CSS-Classes/no-inline-title/"/>
+    </url>
+    <url>
+        <loc>https://flexcyon.github.io/docs-en/zh/Styling/CSS-Classes/no-view-header/</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://flexcyon.github.io/docs-en/zh/Styling/CSS-Classes/no-view-header/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://flexcyon.github.io/docs-en/Styling/CSS-Classes/no-view-header/"/>
     </url>
     <url>
         <loc>https://flexcyon.github.io/docs-en/zh/Styling/CSS-Classes/typewriter-mode/</loc>
