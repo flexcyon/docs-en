@@ -3,6 +3,18 @@ title: Foreword
 icon: material/home
 ---
 
+<div align="center">
+    <a href="https://flexcyon.github.io/docs-en/">
+        <img alt="English Documentation" src="https://img.shields.io/badge/english-docs-blue?style=for-the-badge">
+    </a>
+    <a href="https://flexcyon.github.io/docs-en/zh">
+    <img alt="中文文档" src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E6%96%87%E6%A1%A3-purple?style=for-the-badge">
+    </a>
+    <a href="https://matrix.to/#/#flexcyon-space:matrix.org">
+        <img alt="Matrix" src="https://img.shields.io/matrix/flexcyon-space%3Amatrix.org?style=for-the-badge&logo=matrix&label=Matrix%20Space">
+    </a>
+</div>
+
 <p align="left" style="scale: 1.1;margin-left:5%;">
     <a href="https://www.moritzjung.dev/obsidian-stats/themes/flexcyon-1/">
         <img src="https://img.shields.io/badge/dynamic/json?query=%24%5B%22flexcyon%22%5D.download&url=https%3A%2F%2Freleases.obsidian.md%2Fstats%2Ftheme&style=for-the-badge&label=下载数&logo=obsidian" referrerpolicy="noreferrer" alt="下载数">
