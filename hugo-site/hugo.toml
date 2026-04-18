@@ -16,3 +16,36 @@ path = "github.com/imfing/hextra"
     languageName = "简体中文"
     contentDir = "content/zh"
     weight = 2
+
+# Documentation Link
+[[menu.main]]
+  name = "Documentation"
+  pageRef = "/docs"
+  weight = 1
+
+# Blog Link
+[[menu.main]]
+  name = "Blog"
+  pageRef = "/blog"
+  weight = 2
+
+# About Link
+[[menu.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 3
+
+# Search Bar (Hextra specific)
+[[menu.main]]
+  name = "Search"
+  weight = 4
+  [menu.main.params]
+    type = "search"
+
+# External GitHub Link
+[[menu.main]]
+  name = "GitHub"
+  weight = 5
+  url = "https://github.com/imfing/hextra"
+  [menu.main.params]
+    icon = "github"

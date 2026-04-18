@@ -44,7 +44,7 @@ Here are some links you may be looking for.
 
 ### Misc
 
-- [README](./README/index.md)
+- [README](./README/_index.md)
 
 - [License](./README/license.md)
 
