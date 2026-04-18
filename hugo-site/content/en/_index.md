@@ -44,19 +44,19 @@ Here are some links you may be looking for.
 
 ### Misc
 
-- [README](./README/_index.md)
+- [README](./readme)
 
-- [License](./README/license.md)
+- [License](./readme/license)
 
-- [Roadmap](./README/roadmap.md)
+- [Roadmap](./readme/roadmap)
 
-- [Credits](./credits/index.md)
+- [Credits](./credits)
 
-- [Changelogs](./changelogs/index.md)
+- [Changelogs](./changelogs)
 
 ### Styling
 
-- [Style Settings](./Styling/Style-Settings/index.md)
+- [Style Settings](./stylign/style-settings)
 
 ___
 

@@ -3,6 +3,7 @@ title: Foreword
 icon: material/home
 ---
 
+{{ <rawhtml> }}
 <div align="center">
     <a href="https://flexcyon.github.io/docs-en/">
         <img alt="English Documentation" src="https://img.shields.io/badge/english-docs-blue?style=for-the-badge">
@@ -29,6 +30,7 @@ icon: material/home
         <img alt="Matrix" src="https://img.shields.io/matrix/flexcyon-space%3Amatrix.org?style=for-the-badge&logo=matrix&label=Matrix%20Space">
     </a>
 </p>
+{{ </rawhtml> }}
 
 这里存放着 [Flexcyon 主题](https://github.com/bladeacer/flexcyon) 的中文文档。
 

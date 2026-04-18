@@ -2,50 +2,53 @@ baseURL = 'https://flexcyon.github.io/docs-en/'
 locale = 'en-gb'
 title = 'Flexcyon Documentation'
 defaultContentLanguage = "en"
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [module.imports]
 path = "github.com/imfing/hextra"
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    contentDir = "content/en"
-    weight = 1
+[languages.en]
+languageName = "English"
+contentDir = "content/en"
+languageCode = "en-gb"
+# weight = 1
 
-  [languages.zh]
-    languageName = "简体中文"
-    contentDir = "content/zh"
-    weight = 2
+[languages.zh]
+languageName = "简体中文"
+contentDir = "content/zh"
+languageCode = "zh-cn"
+# weight = 2
 
-# Documentation Link
-[[menu.main]]
-  name = "Documentation"
-  pageRef = "/docs"
-  weight = 1
+[params]
+  defaultContentLanguageInSubdir = true
 
-# Blog Link
-[[menu.main]]
-  name = "Blog"
-  pageRef = "/blog"
-  weight = 2
+  [params.navbar]
+    displayLanguageSwitch = true
 
-# About Link
-[[menu.main]]
-  name = "About"
-  pageRef = "/about"
-  weight = 3
-
-# Search Bar (Hextra specific)
 [[menu.main]]
   name = "Search"
-  weight = 4
+  weight = 1
   [menu.main.params]
     type = "search"
 
-# External GitHub Link
+[[menu.main]]
+  name = "Theme Toggle"
+  weight = 2
+  [menu.main.params]
+    type = "theme-toggle"
+    label = true
+
+[[menu.main]]
+  name = "Language Switcher"
+  weight = 3
+  [menu.main.params]
+    type = "language-switch"
+    label = true
+
 [[menu.main]]
   name = "GitHub"
-  weight = 5
-  url = "https://github.com/imfing/hextra"
+  weight = 4
+  url = "https://github.com/bladeacer/flexcyon"
   [menu.main.params]
     icon = "github"
+
