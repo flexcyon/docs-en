@@ -203,6 +203,6 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 
 ---
 
-Beta changelogs can be [found here](./beta/index.md).
+Beta changelogs can be [found here](./beta).
 
 I will not be bothering to translate these.

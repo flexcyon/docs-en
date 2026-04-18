@@ -7,4 +7,4 @@ help:
 	@echo "  serve         Runs hugo server"
 
 serve:
-	hugo server --disableFastRender
+	cd hugo-site && hugo server --disableFastRender

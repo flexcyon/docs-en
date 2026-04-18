@@ -208,6 +208,6 @@ title: Changelogs
 
 ---
 
-Beta 变更日志可以在[这里找到](./beta/index.md)。
+Beta 变更日志可以在[这里找到](./beta)。
 
 我不会翻译这些日志。

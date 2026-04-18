@@ -7,48 +7,57 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [module.imports]
 path = "github.com/imfing/hextra"
 
+
 [languages.en]
 languageName = "English"
 contentDir = "content/en"
 languageCode = "en-gb"
-# weight = 1
+
 
 [languages.zh]
+title = "Flexcyon 中文文档"
 languageName = "简体中文"
 contentDir = "content/zh"
 languageCode = "zh-cn"
-# weight = 2
+
 
 [params]
-  defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = true
 
-  [params.navbar]
-    displayLanguageSwitch = true
+[params.navbar]
+displayLanguageSwitch = true
 
-[[menu.main]]
-  name = "Search"
-  weight = 1
-  [menu.main.params]
-    type = "search"
 
 [[menu.main]]
-  name = "Theme Toggle"
-  weight = 2
-  [menu.main.params]
-    type = "theme-toggle"
-    label = true
+name = "Search"
+weight = 1
+
+[menu.main.params]
+type = "search"
+
 
 [[menu.main]]
-  name = "Language Switcher"
-  weight = 3
-  [menu.main.params]
-    type = "language-switch"
-    label = true
+name = "Theme Toggle"
+weight = 2
+
+[menu.main.params]
+type = "theme-toggle"
+label = true
+
 
 [[menu.main]]
-  name = "GitHub"
-  weight = 4
-  url = "https://github.com/bladeacer/flexcyon"
-  [menu.main.params]
-    icon = "github"
+name = "Language Switcher"
+weight = 3
 
+[menu.main.params]
+type = "language-switch"
+label = true
+
+
+[[menu.main]]
+name = "GitHub"
+weight = 4
+url = "https://github.com/bladeacer/flexcyon"
+
+[menu.main.params]
+icon = "github"
