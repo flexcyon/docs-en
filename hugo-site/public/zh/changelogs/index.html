@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><script src="/docs-en/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=docs-en/livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="robots" content="noindex, nofollow" />
+  <link rel="icon shortcut" href="/docs-en/favicon.ico" sizes="32x32" />
+<link rel="icon" href="/docs-en/favicon.svg" type="image/svg+xml" id="favicon-svg" />
+<link rel="icon" href="/docs-en/favicon-16x16.png" type="image/png" sizes="16x16" />
+<link rel="icon" href="/docs-en/favicon-32x32.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/docs-en/apple-touch-icon.png" sizes="180x180" />
+<link fetchpriority="low" href="/docs-en/site.webmanifest" rel="manifest" />
+<title>Changelogs – Flexcyon Documentation</title>
+  <meta name="description" content="注意 变更日志按最新到最新的顺序显示版本。
+如果您更喜欢按时间顺序查看变更日志, 可以使用侧边栏或汉堡包菜单查看相关子页面。
+1.4.x 版本 1.4.0 再访颜色 功能 Bases 样式设置的改变不再是实验性的 现在, 您可以为 ASCII 艺术和引号指定目标字体系列 (text, interface 或 monospace) 为 ASCII 艺术, 我们建议使用类似等宽字体, 例如 Source Code Pro. 现在, 您可以配置突出显示文本的颜色和不透明度 修复工具提示 添加了 “不在新选项卡中显示状态栏” 选项 或者, 您可以在新选项卡中设置状态栏的不透明度. 默认值为 0.55. 添加了 “Bases 卡片标签不透明度” 设置, 默认值为 0.55 添加了 Typewriter 模式 (除活动行外全部变不透明), 不透明度可配置. 默认值为 0.55. 您也可以通过 cssclass 进行设置。 现在, 当应用程序中未指定默认光标时, 您可以设置它 现在, 您可以选择彩色标题时每个标题使用的颜色 添加了 Bases 视图垂直和水平填充设置, 影响 Bases 文件内容. 两者的默认值均为 16px 添加了 Bases 嵌入填充, 默认为 4px 添加了与表头和单元格对齐相关的设置, 拆分了表头和单元格的现有设置 增加了表格单元格字体大小设置, 将 “表头大小” 重命名为 “表头字体大小” 以更具体. 现在, 这两个选项都允许您从 UI 字体大小选项中进行选择 添加了 “不显示内联标题” 设置, 具有 csslcass 等效的 no-inline-title 添加了 “不显示视图标题” cssclass 添加了移动部分和 “恢复 1.11 导航 UI” 设置, 恢复到旧的 vault 选择器, 导航到 1.11 之前的版本 变化 样式设置持续时间单位从 s 更改为 ms 受影响的设置包括 alt 文件树、动画、弹出和抽认卡 callout、悬停前的状态隐藏和光标持续时间 主题现在为一些衍生颜色使用 oklch 颜色空间 将输入相关设置移动到 Editor &gt; Input 下的独立部分 由于版权和许可不明确, 将示例树 ASCII 更改为 Figlet 占位符 更改了 ASCII 艺术文本对齐方式, 使其具有选项下拉列表, 而不是文本输入 修改了社区项目背景颜色 彩色标题不再出现在 PDF 导出输出中, 归功于 Fancy-a-Story 主题开发人员 Kapirklaa 的打印 (PDF 导出) 样式 在 pl10k 模式中修复了设备操作细节, 添加了左侧填充设置. 现有的右侧填充设置的默认值已更改. 修复 修复工具提示和交互式强调色 修复 pl10k 样式 修复了替代链接样式, 它现在继承了现有的链接颜色变量并使用 oklch 提高了主题中动画的性能 在需要时定义超限行为 清理并修复代码库的部分 pl10k 模式视图标题中的固定边界半径 修复显示功能区时的垂直导航填充 Banner CSS 代码片段修补程序 1.3.x 版本 1.3.0 动画更新 功能 现在, 您可以在笔记与模态框等 UI 其他部分之间使用不同的动画集。 新增淡入动画效果, 作为 Flex Max 模式的默认设置, 取代原有的从左至右滑动效果 新增动画初始透明度和放大动画初始缩放比例的样式设置选项 添加了主题中 Banner CSS 代码片段支持的修复 在行间距留白处新增了视觉指示标记, 可辅助定位当前笔记中横幅图片的定义位置 由于 Obsidian 编辑器的惰性渲染特性, 建议在文件顶部附近指定横幅图片的来源 新增设置模态背景暗化强度的选项 新增了ASCII艺术缩放比例选项 建议编写一段CSS代码以全面自定义你的ASCII艺术作品 增加了备用链接样式 (受威廉斯塔德风格启发) 当未找到文件链接时, 为 Bases 添加错误处理 为替换活动行号为自定义字符串设置增加了字母间距选项 添加样式设置以切换TUI标注的图标是否默认不显示 (默认为 false) 添加字体大小标注, 继承 UI 字体大小, 如较小、较小、中等或较大。 添加了不透明度标注, 您可以一次设置标注标题、内容或两者的不透明度。 添加了视图标题选项, 以指定Angled和Powerlevel10k布局中的视图标题填充 以 0.05 的增量添加不透明度标注 核心 Slides 插件现在在演示视图中有幻灯片编号 (最多99张幻灯片) ASCII 艺术现在以核心幻灯片插件暂停演示模式出现 (按 b 触发) 添加了风格化的固定图标 添加了样式设置插件启动检查 添加了切换显示属性标题 删除了左对齐状态栏设置, 因为它太硬编码了 变化 更新了反向链接和传出链接视图的样式 稍微调整了 Alternate File Tree 创建和删除对话框标题 改进了 Mermaid 图的现有样式 改进的侧边栏背景代码 改进的 ASCII 艺术代码, 空状态操作现在默认禁用。 弃用网络演示, 因为它不能很好地翻译主题的美学 修复 修复了动画, 它们现在也适用于您的笔记和侧边栏内容 修复了水平规则自定义字符串在读取模式下也能工作的问题 修复了 TUI 标注外观。请注意, 取消折叠大代码片段 (如标注中的 Mermaid图) 会导致渲染延迟。这适用于所有标注, 即使是默认标注。 修复了在未启用选项卡标题栏的情况下显示操作系统和屏幕尺寸的问题 拆分选项卡并将相关样式设置调试到自己的部分 修复了扩展调色板, 以正确支持基础颜色变量的所有组合 使 Bases 文本对齐一致 核心幻灯片插件现在更流畅, 与主题更一致 修复了默认 ASCII 艺术对齐, 可在样式设置中配置 修复了突出显示中的行内数字 修复了默认 TUI Callout 图标不继承图标颜色的问题 修复了 Reading 模式下默认没有元数据 1.2.x 版本 1.2.1 设置更新 由于 OMG Discord 上的 @saberzero, 修复了重复的样式设置条目 1.2.0 回顾更新 固定垂直导航中的文件属性 修复了垂直导航中右侧栏切换按钮消失的问题 更新了 Full Calendar 插件样式 为表格添加了样式设置选项 调整了主题中的一些背景颜色 更新了样式设置和活动项目背景 添加了 “样式设置” 选项以设置标题文本对齐方式 为核心 Slides 插件添加了样式 添加了 Tasks 插件样式 添加了放置工作区功能区 (侧边栏图标) 的选项 添加了将 Vault 切换器放置在顶部, 反向 Vault 切换器和操作的选项 在不处于 Reading Mode 时添加了可切换的活动行高亮显示 1.1.x 版本 1.1.3 标题修补 修补程序损坏的标题指示器设置 修补程序标题指示器与折叠图标重叠 1.1.2 垂直修补 修复了垂直布局不适用于特定 UI 区域的问题 向 Bases 添加了更多有用的错误消息 例如，当 Bases 查询结果为空 (找不到符合指定条件的文件), 或者找不到某个笔记的特定文件属性时 为核心 Web Viewer 插件添加样式 现在, 您可以为 vert-orange tui border-purple, plain-yellow 等 Callout 指定颜色。每个对应一个特定的标注样式。 与 Callout 样式一样，元数据提供程序是互斥的。 是写入 Callout 元数据还是作为自定义 Callout, 由您选择 修复了 Callout 中的第一个 iframe 填充顶部 侧边栏背景选项的性能略有提升 1.1.1 垂直样式 添加了 Callout 元数据选项, 用于在标注中设置 Lucide 图标。使用 Lucide 图标设置时, 整个 Callout 元数据或自定义标注部分必须与 Lucide 图标值匹配, 否则图标将无法呈现。 例如，&gt;[!lucide-git-fork|title-orange] 而不是 &gt;[!note|lucide-git-fork title-orange] 或 &gt;[!title-orange|lucide-git-fork] （您不能指定多个自定义标注类型，但可以使用标注元数据进行修改） 将 “垂直 LTR” Callout 元数据重命名为 “vert-ltr” 添加了可选择的默认 Callout 样式。选项包括 TUI, 简化和垂直。这些还具有 Callout 元数据和自定义标注等效项。 自定义标注和 Callout 元数据选项是互斥的，但可以覆盖所选的默认 Callout 样式 更新社区部分外观和社区导航项目 添加了可切换的垂直导航样式 1.1.0 标注更新 更改（略微降低）主题中的默认线高度 您可以根据自己的喜好进行配置 添加了更多详图索引样式设置选项 现在, 您可以将任何有效的 Lucide 图标用作自定义标注。它将默认图标替换为您输入的清晰图标。 这没有等效的标注元数据 现在，您可以将所有标注元数据指定为自定义标注。例如，&gt;[!|empty] 和 &gt;[!empty] 都会呈现相同的样式。 更新 ASCII 图标集 您可以对选项卡进行编号并删除其标题（默认情况下在RTZ模式下启用）。您也可以单独切换它。 添加了实验性 TUI 标注, 并提供了一个选项, 使其适用于所有标注 添加了可切换的活动文件指示器 样式化搜索插件 pl10k 布局的更多视图标题样式 1.0.x 版本 1.0.2 固定突出显示 文本突出显示现已修复 感谢 GitHub 上的 weiss-d 和 OMG Discord 上的 arthur 添加了更多 Bases 插件样式选项 1.0.1 排版更新 添加了实验 Bases 插件样式设置 修改了一些样式设置, 使用变量选择以获得更好的性能。保留传统选项以实现向后兼容性 在应用程序启动时添加了一个实验性的加载指示器 现在, 您可以配置整个主题中文本的正常文本颜色, 行高, 字母和单词间距。 1.0.0 更新 添加了 “样式设置” 选项, 用于更改状态栏对齐方式, 隐藏直到悬停动画适应当前选定的对齐方式。 未选择对齐方式时, 默认为右对齐。 将 “悬停前隐藏” 替换为 “悬停前保持” 选项。命名为 “隐藏直到触发” 删除了水平规则自定义字符串左百分比, 因为我从 Willemstad 主题作者那里学会了如何将 &lt;div&gt; 居中 添加了当前操作系统和屏幕尺寸的可切换显示。 屏幕尺寸归功于这位开发人员和这位开发人员还有这位开发人员 。 视图标题项的默认对齐方式更好。 将视图标题面包屑最大宽度移动到新的视图标题部分 添加了可切换选项, 以显示操作系统详细信息和屏幕尺寸, 并可配置填充 将大多数与图标相关的样式设置移动到自己的部分 添加了可切换的ASCII图标集 笑脸图标现在默认设置为关闭 添加了 WIP Iconic 插件支持, 您可以切换插件是否覆盖笑脸和 ASCII 图标 修复了动画, 动画现在也显示在堆叠的选项卡中。如果它们显示在 “样式设置” 容器中, 则可以切换。 将模式移动到自己的部分，由于 Obsidian Members’ Group Discord 上的 @orionp，添加了 Flex Max 模式 Flex Max 模式默认启用, 适用于那些不知道从哪里开始定制主题的人 (合理的默认设置) 默认情况下, 一些默认启用的样式设置将 Flex Max 处理 将默认情况下启用的长列表设置移动到文档中 修复了 tategaki 和垂直 LTR 标注元数据中的断字间距。 为编辑器顶部边距添加了样式设置选项 在 Live Preview 中为代码块文件扩展名添加了自定义选项 改进中文翻译和文档组织 其他语言将不受支持, 因为我不了解它们, 过度依赖机器进行翻译不太好 Beta 变更日志可以在这里找到。" /><link rel="canonical" href="http://localhost:1313/docs-en/zh/changelogs/" itemprop="url" />
+
+<meta property="og:title" content="Changelogs">
+<meta
+  property="og:description"
+  content="
+    
+      注意
+    变更日志按最新到最新的顺序显示版本。
+如果您更喜欢按时间顺序查看变更日志, 可以使用侧边栏或汉堡包菜单查看相关子页面。
+
+1.4.x 版本
+    1.4.0 再访颜色
+    功能
+    
+Bases 样式设置的改变不再是实验性的
+现在, 您可以为 ASCII 艺术和引号指定目标字体系列 (text, interface 或 monospace)
+
+为 ASCII 艺术, 我们建议使用类似等宽字体, 例如 Source Code Pro.
+
+
+现在, 您可以配置突出显示文本的颜色和不透明度
+修复工具提示
+添加了 &ldquo;不在新选项卡中显示状态栏&rdquo; 选项
+
+或者, 您可以在新选项卡中设置状态栏的不透明度. 默认值为 0.55.
+
+
+添加了 &ldquo;Bases 卡片标签不透明度&rdquo; 设置, 默认值为 0.55
+添加了 Typewriter 模式 (除活动行外全部变不透明), 不透明度可配置. 默认值为 0.55. 您也可以通过 cssclass 进行设置。
+现在, 当应用程序中未指定默认光标时, 您可以设置它
+现在, 您可以选择彩色标题时每个标题使用的颜色
+添加了 Bases 视图垂直和水平填充设置, 影响 Bases 文件内容. 两者的默认值均为 16px
+添加了 Bases 嵌入填充, 默认为 4px
+添加了与表头和单元格对齐相关的设置, 拆分了表头和单元格的现有设置
+增加了表格单元格字体大小设置, 将 &ldquo;表头大小&rdquo; 重命名为 &ldquo;表头字体大小&rdquo; 以更具体. 现在, 这两个选项都允许您从 UI 字体大小选项中进行选择
+添加了 &ldquo;不显示内联标题&rdquo; 设置, 具有 csslcass 等效的 no-inline-title
+添加了 &ldquo;不显示视图标题&rdquo; cssclass
+添加了移动部分和 &ldquo;恢复 1.11 导航 UI&rdquo; 设置, 恢复到旧的 vault 选择器, 导航到 1.11 之前的版本
+
+变化
+    
+样式设置持续时间单位从 s 更改为 ms
+
+受影响的设置包括 alt 文件树、动画、弹出和抽认卡 callout、悬停前的状态隐藏和光标持续时间
+
+
+主题现在为一些衍生颜色使用 oklch 颜色空间
+将输入相关设置移动到 Editor &gt; Input 下的独立部分
+由于版权和许可不明确, 将示例树 ASCII 更改为 Figlet 占位符
+更改了 ASCII 艺术文本对齐方式, 使其具有选项下拉列表, 而不是文本输入
+修改了社区项目背景颜色
+彩色标题不再出现在 PDF 导出输出中, 归功于 Fancy-a-Story 主题开发人员 Kapirklaa 的打印 (PDF 导出) 样式
+在 pl10k 模式中修复了设备操作细节, 添加了左侧填充设置. 现有的右侧填充设置的默认值已更改.
+
+修复
+    
+修复工具提示和交互式强调色
+修复 pl10k 样式
+修复了替代链接样式, 它现在继承了现有的链接颜色变量并使用 oklch
+提高了主题中动画的性能
+在需要时定义超限行为
+清理并修复代码库的部分
+pl10k 模式视图标题中的固定边界半径
+修复显示功能区时的垂直导航填充
+Banner CSS 代码片段修补程序
+
+1.3.x 版本
+    1.3.0 动画更新
+    功能
+    
+现在, 您可以在笔记与模态框等 UI 其他部分之间使用不同的动画集。
+新增淡入动画效果, 作为 Flex Max 模式的默认设置, 取代原有的从左至右滑动效果
+新增动画初始透明度和放大动画初始缩放比例的样式设置选项
+添加了主题中 Banner CSS 代码片段支持的修复
+在行间距留白处新增了视觉指示标记, 可辅助定位当前笔记中横幅图片的定义位置
+
+由于 Obsidian 编辑器的惰性渲染特性, 建议在文件顶部附近指定横幅图片的来源
+
+
+新增设置模态背景暗化强度的选项
+新增了ASCII艺术缩放比例选项
+
+建议编写一段CSS代码以全面自定义你的ASCII艺术作品
+
+
+增加了备用链接样式 (受威廉斯塔德风格启发)
+当未找到文件链接时, 为 Bases 添加错误处理
+为替换活动行号为自定义字符串设置增加了字母间距选项
+添加样式设置以切换TUI标注的图标是否默认不显示 (默认为 false)
+添加字体大小标注, 继承 UI 字体大小, 如较小、较小、中等或较大。
+添加了不透明度标注, 您可以一次设置标注标题、内容或两者的不透明度。
+添加了视图标题选项, 以指定Angled和Powerlevel10k布局中的视图标题填充
+以 0.05 的增量添加不透明度标注
+核心 Slides 插件现在在演示视图中有幻灯片编号 (最多99张幻灯片)
+ASCII 艺术现在以核心幻灯片插件暂停演示模式出现 (按 b 触发)
+添加了风格化的固定图标
+添加了样式设置插件启动检查
+添加了切换显示属性标题
+删除了左对齐状态栏设置, 因为它太硬编码了
+
+变化
+    
+更新了反向链接和传出链接视图的样式
+稍微调整了 Alternate File Tree 创建和删除对话框标题
+改进了 Mermaid 图的现有样式
+改进的侧边栏背景代码
+改进的 ASCII 艺术代码, 空状态操作现在默认禁用。
+弃用网络演示, 因为它不能很好地翻译主题的美学
+
+修复
+    
+修复了动画, 它们现在也适用于您的笔记和侧边栏内容
+修复了水平规则自定义字符串在读取模式下也能工作的问题
+修复了 TUI 标注外观。请注意, 取消折叠大代码片段 (如标注中的 Mermaid图) 会导致渲染延迟。这适用于所有标注, 即使是默认标注。
+修复了在未启用选项卡标题栏的情况下显示操作系统和屏幕尺寸的问题
+拆分选项卡并将相关样式设置调试到自己的部分
+修复了扩展调色板, 以正确支持基础颜色变量的所有组合
+使 Bases 文本对齐一致
+核心幻灯片插件现在更流畅, 与主题更一致
+修复了默认 ASCII 艺术对齐, 可在样式设置中配置
+修复了突出显示中的行内数字
+修复了默认 TUI Callout 图标不继承图标颜色的问题
+修复了 Reading 模式下默认没有元数据
+
+1.2.x 版本
+    1.2.1 设置更新
+    
+由于 OMG Discord 上的 @saberzero, 修复了重复的样式设置条目
+
+1.2.0 回顾更新
+    
+固定垂直导航中的文件属性
+修复了垂直导航中右侧栏切换按钮消失的问题
+更新了 Full Calendar 插件样式
+为表格添加了样式设置选项
+调整了主题中的一些背景颜色
+更新了样式设置和活动项目背景
+添加了 &ldquo;样式设置&rdquo; 选项以设置标题文本对齐方式
+为核心 Slides 插件添加了样式
+添加了 Tasks 插件样式
+添加了放置工作区功能区 (侧边栏图标) 的选项
+添加了将 Vault 切换器放置在顶部, 反向 Vault 切换器和操作的选项
+在不处于 Reading Mode 时添加了可切换的活动行高亮显示
+
+1.1.x 版本
+    1.1.3 标题修补
+    
+修补程序损坏的标题指示器设置
+修补程序标题指示器与折叠图标重叠
+
+1.1.2 垂直修补
+    
+修复了垂直布局不适用于特定 UI 区域的问题
+向 Bases 添加了更多有用的错误消息
+例如，当 Bases 查询结果为空 (找不到符合指定条件的文件), 或者找不到某个笔记的特定文件属性时
+为核心 Web Viewer 插件添加样式
+现在, 您可以为 vert-orange tui border-purple, plain-yellow 等 Callout 指定颜色。每个对应一个特定的标注样式。
+与 Callout 样式一样，元数据提供程序是互斥的。
+是写入 Callout 元数据还是作为自定义 Callout, 由您选择
+修复了 Callout 中的第一个 iframe 填充顶部
+侧边栏背景选项的性能略有提升
+
+1.1.1 垂直样式
+    
+添加了 Callout 元数据选项, 用于在标注中设置 Lucide 图标。使用 Lucide 图标设置时, 整个 Callout
+元数据或自定义标注部分必须与 Lucide 图标值匹配, 否则图标将无法呈现。
+
+例如，&gt;[!lucide-git-fork|title-orange] 而不是
+&gt;[!note|lucide-git-fork title-orange] 或 &gt;[!title-orange|lucide-git-fork]
+（您不能指定多个自定义标注类型，但可以使用标注元数据进行修改）
+
+
+将 &ldquo;垂直 LTR&rdquo; Callout 元数据重命名为 &ldquo;vert-ltr”
+添加了可选择的默认 Callout 样式。选项包括 TUI, 简化和垂直。这些还具有 Callout 元数据和自定义标注等效项。
+
+自定义标注和 Callout 元数据选项是互斥的，但可以覆盖所选的默认 Callout 样式
+
+
+更新社区部分外观和社区导航项目
+添加了可切换的垂直导航样式
+
+1.1.0 标注更新
+    
+更改（略微降低）主题中的默认线高度
+
+您可以根据自己的喜好进行配置
+
+
+添加了更多详图索引样式设置选项
+现在, 您可以将任何有效的 Lucide 图标用作自定义标注。它将默认图标替换为您输入的清晰图标。
+
+这没有等效的标注元数据
+
+
+现在，您可以将所有标注元数据指定为自定义标注。例如，&gt;[!|empty] 和 &gt;[!empty] 都会呈现相同的样式。
+更新 ASCII 图标集
+您可以对选项卡进行编号并删除其标题（默认情况下在RTZ模式下启用）。您也可以单独切换它。
+添加了实验性 TUI 标注, 并提供了一个选项, 使其适用于所有标注
+添加了可切换的活动文件指示器
+样式化搜索插件
+pl10k 布局的更多视图标题样式
+
+1.0.x 版本
+    1.0.2 固定突出显示
+    
+文本突出显示现已修复
+
+感谢 GitHub 上的 weiss-d 和 OMG Discord 上的 arthur
+
+
+添加了更多 Bases 插件样式选项
+
+1.0.1 排版更新
+    
+添加了实验 Bases 插件样式设置
+修改了一些样式设置, 使用变量选择以获得更好的性能。保留传统选项以实现向后兼容性
+在应用程序启动时添加了一个实验性的加载指示器
+现在, 您可以配置整个主题中文本的正常文本颜色, 行高, 字母和单词间距。
+
+1.0.0 更新
+    
+添加了 &ldquo;样式设置&rdquo; 选项, 用于更改状态栏对齐方式, 隐藏直到悬停动画适应当前选定的对齐方式。
+
+未选择对齐方式时, 默认为右对齐。
+
+
+将 &ldquo;悬停前隐藏&rdquo; 替换为 &ldquo;悬停前保持&rdquo; 选项。命名为 &ldquo;隐藏直到触发&rdquo;
+删除了水平规则自定义字符串左百分比, 因为我从 Willemstad 主题作者那里学会了如何将 &lt;div&gt; 居中
+添加了当前操作系统和屏幕尺寸的可切换显示。
+
+屏幕尺寸归功于这位开发人员和这位开发人员还有这位开发人员 。
+
+
+视图标题项的默认对齐方式更好。
+将视图标题面包屑最大宽度移动到新的视图标题部分
+
+添加了可切换选项, 以显示操作系统详细信息和屏幕尺寸, 并可配置填充
+
+
+将大多数与图标相关的样式设置移动到自己的部分
+添加了可切换的ASCII图标集
+
+笑脸图标现在默认设置为关闭
+
+
+添加了 WIP Iconic 插件支持, 您可以切换插件是否覆盖笑脸和 ASCII 图标
+修复了动画, 动画现在也显示在堆叠的选项卡中。如果它们显示在 &ldquo;样式设置&rdquo; 容器中, 则可以切换。
+将模式移动到自己的部分，由于 Obsidian Members&rsquo; Group Discord 上的 @orionp，添加了 Flex Max 模式
+
+Flex Max 模式默认启用, 适用于那些不知道从哪里开始定制主题的人 (合理的默认设置)
+默认情况下, 一些默认启用的样式设置将 Flex Max 处理
+将默认情况下启用的长列表设置移动到文档中
+
+
+修复了 tategaki 和垂直 LTR 标注元数据中的断字间距。
+为编辑器顶部边距添加了样式设置选项
+在 Live Preview 中为代码块文件扩展名添加了自定义选项
+改进中文翻译和文档组织
+
+其他语言将不受支持, 因为我不了解它们, 过度依赖机器进行翻译不太好
+
+
+
+
+Beta 变更日志可以在这里找到。
+    
+  ">
+<meta
+  property="og:type"
+  content="
+    article
+  ">
+<meta property="og:url" content="http://localhost:1313/docs-en/zh/changelogs/"><meta property="article:section" content="">
+
+
+
+
+  <meta itemprop="name" content="Changelogs">
+  <meta itemprop="description" content="注意 变更日志按最新到最新的顺序显示版本。
+如果您更喜欢按时间顺序查看变更日志, 可以使用侧边栏或汉堡包菜单查看相关子页面。
+1.4.x 版本 1.4.0 再访颜色 功能 Bases 样式设置的改变不再是实验性的 现在, 您可以为 ASCII 艺术和引号指定目标字体系列 (text, interface 或 monospace) 为 ASCII 艺术, 我们建议使用类似等宽字体, 例如 Source Code Pro. 现在, 您可以配置突出显示文本的颜色和不透明度 修复工具提示 添加了 “不在新选项卡中显示状态栏” 选项 或者, 您可以在新选项卡中设置状态栏的不透明度. 默认值为 0.55. 添加了 “Bases 卡片标签不透明度” 设置, 默认值为 0.55 添加了 Typewriter 模式 (除活动行外全部变不透明), 不透明度可配置. 默认值为 0.55. 您也可以通过 cssclass 进行设置。 现在, 当应用程序中未指定默认光标时, 您可以设置它 现在, 您可以选择彩色标题时每个标题使用的颜色 添加了 Bases 视图垂直和水平填充设置, 影响 Bases 文件内容. 两者的默认值均为 16px 添加了 Bases 嵌入填充, 默认为 4px 添加了与表头和单元格对齐相关的设置, 拆分了表头和单元格的现有设置 增加了表格单元格字体大小设置, 将 “表头大小” 重命名为 “表头字体大小” 以更具体. 现在, 这两个选项都允许您从 UI 字体大小选项中进行选择 添加了 “不显示内联标题” 设置, 具有 csslcass 等效的 no-inline-title 添加了 “不显示视图标题” cssclass 添加了移动部分和 “恢复 1.11 导航 UI” 设置, 恢复到旧的 vault 选择器, 导航到 1.11 之前的版本 变化 样式设置持续时间单位从 s 更改为 ms 受影响的设置包括 alt 文件树、动画、弹出和抽认卡 callout、悬停前的状态隐藏和光标持续时间 主题现在为一些衍生颜色使用 oklch 颜色空间 将输入相关设置移动到 Editor &gt; Input 下的独立部分 由于版权和许可不明确, 将示例树 ASCII 更改为 Figlet 占位符 更改了 ASCII 艺术文本对齐方式, 使其具有选项下拉列表, 而不是文本输入 修改了社区项目背景颜色 彩色标题不再出现在 PDF 导出输出中, 归功于 Fancy-a-Story 主题开发人员 Kapirklaa 的打印 (PDF 导出) 样式 在 pl10k 模式中修复了设备操作细节, 添加了左侧填充设置. 现有的右侧填充设置的默认值已更改. 修复 修复工具提示和交互式强调色 修复 pl10k 样式 修复了替代链接样式, 它现在继承了现有的链接颜色变量并使用 oklch 提高了主题中动画的性能 在需要时定义超限行为 清理并修复代码库的部分 pl10k 模式视图标题中的固定边界半径 修复显示功能区时的垂直导航填充 Banner CSS 代码片段修补程序 1.3.x 版本 1.3.0 动画更新 功能 现在, 您可以在笔记与模态框等 UI 其他部分之间使用不同的动画集。 新增淡入动画效果, 作为 Flex Max 模式的默认设置, 取代原有的从左至右滑动效果 新增动画初始透明度和放大动画初始缩放比例的样式设置选项 添加了主题中 Banner CSS 代码片段支持的修复 在行间距留白处新增了视觉指示标记, 可辅助定位当前笔记中横幅图片的定义位置 由于 Obsidian 编辑器的惰性渲染特性, 建议在文件顶部附近指定横幅图片的来源 新增设置模态背景暗化强度的选项 新增了ASCII艺术缩放比例选项 建议编写一段CSS代码以全面自定义你的ASCII艺术作品 增加了备用链接样式 (受威廉斯塔德风格启发) 当未找到文件链接时, 为 Bases 添加错误处理 为替换活动行号为自定义字符串设置增加了字母间距选项 添加样式设置以切换TUI标注的图标是否默认不显示 (默认为 false) 添加字体大小标注, 继承 UI 字体大小, 如较小、较小、中等或较大。 添加了不透明度标注, 您可以一次设置标注标题、内容或两者的不透明度。 添加了视图标题选项, 以指定Angled和Powerlevel10k布局中的视图标题填充 以 0.05 的增量添加不透明度标注 核心 Slides 插件现在在演示视图中有幻灯片编号 (最多99张幻灯片) ASCII 艺术现在以核心幻灯片插件暂停演示模式出现 (按 b 触发) 添加了风格化的固定图标 添加了样式设置插件启动检查 添加了切换显示属性标题 删除了左对齐状态栏设置, 因为它太硬编码了 变化 更新了反向链接和传出链接视图的样式 稍微调整了 Alternate File Tree 创建和删除对话框标题 改进了 Mermaid 图的现有样式 改进的侧边栏背景代码 改进的 ASCII 艺术代码, 空状态操作现在默认禁用。 弃用网络演示, 因为它不能很好地翻译主题的美学 修复 修复了动画, 它们现在也适用于您的笔记和侧边栏内容 修复了水平规则自定义字符串在读取模式下也能工作的问题 修复了 TUI 标注外观。请注意, 取消折叠大代码片段 (如标注中的 Mermaid图) 会导致渲染延迟。这适用于所有标注, 即使是默认标注。 修复了在未启用选项卡标题栏的情况下显示操作系统和屏幕尺寸的问题 拆分选项卡并将相关样式设置调试到自己的部分 修复了扩展调色板, 以正确支持基础颜色变量的所有组合 使 Bases 文本对齐一致 核心幻灯片插件现在更流畅, 与主题更一致 修复了默认 ASCII 艺术对齐, 可在样式设置中配置 修复了突出显示中的行内数字 修复了默认 TUI Callout 图标不继承图标颜色的问题 修复了 Reading 模式下默认没有元数据 1.2.x 版本 1.2.1 设置更新 由于 OMG Discord 上的 @saberzero, 修复了重复的样式设置条目 1.2.0 回顾更新 固定垂直导航中的文件属性 修复了垂直导航中右侧栏切换按钮消失的问题 更新了 Full Calendar 插件样式 为表格添加了样式设置选项 调整了主题中的一些背景颜色 更新了样式设置和活动项目背景 添加了 “样式设置” 选项以设置标题文本对齐方式 为核心 Slides 插件添加了样式 添加了 Tasks 插件样式 添加了放置工作区功能区 (侧边栏图标) 的选项 添加了将 Vault 切换器放置在顶部, 反向 Vault 切换器和操作的选项 在不处于 Reading Mode 时添加了可切换的活动行高亮显示 1.1.x 版本 1.1.3 标题修补 修补程序损坏的标题指示器设置 修补程序标题指示器与折叠图标重叠 1.1.2 垂直修补 修复了垂直布局不适用于特定 UI 区域的问题 向 Bases 添加了更多有用的错误消息 例如，当 Bases 查询结果为空 (找不到符合指定条件的文件), 或者找不到某个笔记的特定文件属性时 为核心 Web Viewer 插件添加样式 现在, 您可以为 vert-orange tui border-purple, plain-yellow 等 Callout 指定颜色。每个对应一个特定的标注样式。 与 Callout 样式一样，元数据提供程序是互斥的。 是写入 Callout 元数据还是作为自定义 Callout, 由您选择 修复了 Callout 中的第一个 iframe 填充顶部 侧边栏背景选项的性能略有提升 1.1.1 垂直样式 添加了 Callout 元数据选项, 用于在标注中设置 Lucide 图标。使用 Lucide 图标设置时, 整个 Callout 元数据或自定义标注部分必须与 Lucide 图标值匹配, 否则图标将无法呈现。 例如，&gt;[!lucide-git-fork|title-orange] 而不是 &gt;[!note|lucide-git-fork title-orange] 或 &gt;[!title-orange|lucide-git-fork] （您不能指定多个自定义标注类型，但可以使用标注元数据进行修改） 将 “垂直 LTR” Callout 元数据重命名为 “vert-ltr” 添加了可选择的默认 Callout 样式。选项包括 TUI, 简化和垂直。这些还具有 Callout 元数据和自定义标注等效项。 自定义标注和 Callout 元数据选项是互斥的，但可以覆盖所选的默认 Callout 样式 更新社区部分外观和社区导航项目 添加了可切换的垂直导航样式 1.1.0 标注更新 更改（略微降低）主题中的默认线高度 您可以根据自己的喜好进行配置 添加了更多详图索引样式设置选项 现在, 您可以将任何有效的 Lucide 图标用作自定义标注。它将默认图标替换为您输入的清晰图标。 这没有等效的标注元数据 现在，您可以将所有标注元数据指定为自定义标注。例如，&gt;[!|empty] 和 &gt;[!empty] 都会呈现相同的样式。 更新 ASCII 图标集 您可以对选项卡进行编号并删除其标题（默认情况下在RTZ模式下启用）。您也可以单独切换它。 添加了实验性 TUI 标注, 并提供了一个选项, 使其适用于所有标注 添加了可切换的活动文件指示器 样式化搜索插件 pl10k 布局的更多视图标题样式 1.0.x 版本 1.0.2 固定突出显示 文本突出显示现已修复 感谢 GitHub 上的 weiss-d 和 OMG Discord 上的 arthur 添加了更多 Bases 插件样式选项 1.0.1 排版更新 添加了实验 Bases 插件样式设置 修改了一些样式设置, 使用变量选择以获得更好的性能。保留传统选项以实现向后兼容性 在应用程序启动时添加了一个实验性的加载指示器 现在, 您可以配置整个主题中文本的正常文本颜色, 行高, 字母和单词间距。 1.0.0 更新 添加了 “样式设置” 选项, 用于更改状态栏对齐方式, 隐藏直到悬停动画适应当前选定的对齐方式。 未选择对齐方式时, 默认为右对齐。 将 “悬停前隐藏” 替换为 “悬停前保持” 选项。命名为 “隐藏直到触发” 删除了水平规则自定义字符串左百分比, 因为我从 Willemstad 主题作者那里学会了如何将 &lt;div&gt; 居中 添加了当前操作系统和屏幕尺寸的可切换显示。 屏幕尺寸归功于这位开发人员和这位开发人员还有这位开发人员 。 视图标题项的默认对齐方式更好。 将视图标题面包屑最大宽度移动到新的视图标题部分 添加了可切换选项, 以显示操作系统详细信息和屏幕尺寸, 并可配置填充 将大多数与图标相关的样式设置移动到自己的部分 添加了可切换的ASCII图标集 笑脸图标现在默认设置为关闭 添加了 WIP Iconic 插件支持, 您可以切换插件是否覆盖笑脸和 ASCII 图标 修复了动画, 动画现在也显示在堆叠的选项卡中。如果它们显示在 “样式设置” 容器中, 则可以切换。 将模式移动到自己的部分，由于 Obsidian Members’ Group Discord 上的 @orionp，添加了 Flex Max 模式 Flex Max 模式默认启用, 适用于那些不知道从哪里开始定制主题的人 (合理的默认设置) 默认情况下, 一些默认启用的样式设置将 Flex Max 处理 将默认情况下启用的长列表设置移动到文档中 修复了 tategaki 和垂直 LTR 标注元数据中的断字间距。 为编辑器顶部边距添加了样式设置选项 在 Live Preview 中为代码块文件扩展名添加了自定义选项 改进中文翻译和文档组织 其他语言将不受支持, 因为我不了解它们, 过度依赖机器进行翻译不太好 Beta 变更日志可以在这里找到。">
+  <meta itemprop="wordCount" content="552">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Changelogs">
+  <meta name="twitter:description" content="注意 变更日志按最新到最新的顺序显示版本。
+如果您更喜欢按时间顺序查看变更日志, 可以使用侧边栏或汉堡包菜单查看相关子页面。
+1.4.x 版本 1.4.0 再访颜色 功能 Bases 样式设置的改变不再是实验性的 现在, 您可以为 ASCII 艺术和引号指定目标字体系列 (text, interface 或 monospace) 为 ASCII 艺术, 我们建议使用类似等宽字体, 例如 Source Code Pro. 现在, 您可以配置突出显示文本的颜色和不透明度 修复工具提示 添加了 “不在新选项卡中显示状态栏” 选项 或者, 您可以在新选项卡中设置状态栏的不透明度. 默认值为 0.55. 添加了 “Bases 卡片标签不透明度” 设置, 默认值为 0.55 添加了 Typewriter 模式 (除活动行外全部变不透明), 不透明度可配置. 默认值为 0.55. 您也可以通过 cssclass 进行设置。 现在, 当应用程序中未指定默认光标时, 您可以设置它 现在, 您可以选择彩色标题时每个标题使用的颜色 添加了 Bases 视图垂直和水平填充设置, 影响 Bases 文件内容. 两者的默认值均为 16px 添加了 Bases 嵌入填充, 默认为 4px 添加了与表头和单元格对齐相关的设置, 拆分了表头和单元格的现有设置 增加了表格单元格字体大小设置, 将 “表头大小” 重命名为 “表头字体大小” 以更具体. 现在, 这两个选项都允许您从 UI 字体大小选项中进行选择 添加了 “不显示内联标题” 设置, 具有 csslcass 等效的 no-inline-title 添加了 “不显示视图标题” cssclass 添加了移动部分和 “恢复 1.11 导航 UI” 设置, 恢复到旧的 vault 选择器, 导航到 1.11 之前的版本 变化 样式设置持续时间单位从 s 更改为 ms 受影响的设置包括 alt 文件树、动画、弹出和抽认卡 callout、悬停前的状态隐藏和光标持续时间 主题现在为一些衍生颜色使用 oklch 颜色空间 将输入相关设置移动到 Editor &gt; Input 下的独立部分 由于版权和许可不明确, 将示例树 ASCII 更改为 Figlet 占位符 更改了 ASCII 艺术文本对齐方式, 使其具有选项下拉列表, 而不是文本输入 修改了社区项目背景颜色 彩色标题不再出现在 PDF 导出输出中, 归功于 Fancy-a-Story 主题开发人员 Kapirklaa 的打印 (PDF 导出) 样式 在 pl10k 模式中修复了设备操作细节, 添加了左侧填充设置. 现有的右侧填充设置的默认值已更改. 修复 修复工具提示和交互式强调色 修复 pl10k 样式 修复了替代链接样式, 它现在继承了现有的链接颜色变量并使用 oklch 提高了主题中动画的性能 在需要时定义超限行为 清理并修复代码库的部分 pl10k 模式视图标题中的固定边界半径 修复显示功能区时的垂直导航填充 Banner CSS 代码片段修补程序 1.3.x 版本 1.3.0 动画更新 功能 现在, 您可以在笔记与模态框等 UI 其他部分之间使用不同的动画集。 新增淡入动画效果, 作为 Flex Max 模式的默认设置, 取代原有的从左至右滑动效果 新增动画初始透明度和放大动画初始缩放比例的样式设置选项 添加了主题中 Banner CSS 代码片段支持的修复 在行间距留白处新增了视觉指示标记, 可辅助定位当前笔记中横幅图片的定义位置 由于 Obsidian 编辑器的惰性渲染特性, 建议在文件顶部附近指定横幅图片的来源 新增设置模态背景暗化强度的选项 新增了ASCII艺术缩放比例选项 建议编写一段CSS代码以全面自定义你的ASCII艺术作品 增加了备用链接样式 (受威廉斯塔德风格启发) 当未找到文件链接时, 为 Bases 添加错误处理 为替换活动行号为自定义字符串设置增加了字母间距选项 添加样式设置以切换TUI标注的图标是否默认不显示 (默认为 false) 添加字体大小标注, 继承 UI 字体大小, 如较小、较小、中等或较大。 添加了不透明度标注, 您可以一次设置标注标题、内容或两者的不透明度。 添加了视图标题选项, 以指定Angled和Powerlevel10k布局中的视图标题填充 以 0.05 的增量添加不透明度标注 核心 Slides 插件现在在演示视图中有幻灯片编号 (最多99张幻灯片) ASCII 艺术现在以核心幻灯片插件暂停演示模式出现 (按 b 触发) 添加了风格化的固定图标 添加了样式设置插件启动检查 添加了切换显示属性标题 删除了左对齐状态栏设置, 因为它太硬编码了 变化 更新了反向链接和传出链接视图的样式 稍微调整了 Alternate File Tree 创建和删除对话框标题 改进了 Mermaid 图的现有样式 改进的侧边栏背景代码 改进的 ASCII 艺术代码, 空状态操作现在默认禁用。 弃用网络演示, 因为它不能很好地翻译主题的美学 修复 修复了动画, 它们现在也适用于您的笔记和侧边栏内容 修复了水平规则自定义字符串在读取模式下也能工作的问题 修复了 TUI 标注外观。请注意, 取消折叠大代码片段 (如标注中的 Mermaid图) 会导致渲染延迟。这适用于所有标注, 即使是默认标注。 修复了在未启用选项卡标题栏的情况下显示操作系统和屏幕尺寸的问题 拆分选项卡并将相关样式设置调试到自己的部分 修复了扩展调色板, 以正确支持基础颜色变量的所有组合 使 Bases 文本对齐一致 核心幻灯片插件现在更流畅, 与主题更一致 修复了默认 ASCII 艺术对齐, 可在样式设置中配置 修复了突出显示中的行内数字 修复了默认 TUI Callout 图标不继承图标颜色的问题 修复了 Reading 模式下默认没有元数据 1.2.x 版本 1.2.1 设置更新 由于 OMG Discord 上的 @saberzero, 修复了重复的样式设置条目 1.2.0 回顾更新 固定垂直导航中的文件属性 修复了垂直导航中右侧栏切换按钮消失的问题 更新了 Full Calendar 插件样式 为表格添加了样式设置选项 调整了主题中的一些背景颜色 更新了样式设置和活动项目背景 添加了 “样式设置” 选项以设置标题文本对齐方式 为核心 Slides 插件添加了样式 添加了 Tasks 插件样式 添加了放置工作区功能区 (侧边栏图标) 的选项 添加了将 Vault 切换器放置在顶部, 反向 Vault 切换器和操作的选项 在不处于 Reading Mode 时添加了可切换的活动行高亮显示 1.1.x 版本 1.1.3 标题修补 修补程序损坏的标题指示器设置 修补程序标题指示器与折叠图标重叠 1.1.2 垂直修补 修复了垂直布局不适用于特定 UI 区域的问题 向 Bases 添加了更多有用的错误消息 例如，当 Bases 查询结果为空 (找不到符合指定条件的文件), 或者找不到某个笔记的特定文件属性时 为核心 Web Viewer 插件添加样式 现在, 您可以为 vert-orange tui border-purple, plain-yellow 等 Callout 指定颜色。每个对应一个特定的标注样式。 与 Callout 样式一样，元数据提供程序是互斥的。 是写入 Callout 元数据还是作为自定义 Callout, 由您选择 修复了 Callout 中的第一个 iframe 填充顶部 侧边栏背景选项的性能略有提升 1.1.1 垂直样式 添加了 Callout 元数据选项, 用于在标注中设置 Lucide 图标。使用 Lucide 图标设置时, 整个 Callout 元数据或自定义标注部分必须与 Lucide 图标值匹配, 否则图标将无法呈现。 例如，&gt;[!lucide-git-fork|title-orange] 而不是 &gt;[!note|lucide-git-fork title-orange] 或 &gt;[!title-orange|lucide-git-fork] （您不能指定多个自定义标注类型，但可以使用标注元数据进行修改） 将 “垂直 LTR” Callout 元数据重命名为 “vert-ltr” 添加了可选择的默认 Callout 样式。选项包括 TUI, 简化和垂直。这些还具有 Callout 元数据和自定义标注等效项。 自定义标注和 Callout 元数据选项是互斥的，但可以覆盖所选的默认 Callout 样式 更新社区部分外观和社区导航项目 添加了可切换的垂直导航样式 1.1.0 标注更新 更改（略微降低）主题中的默认线高度 您可以根据自己的喜好进行配置 添加了更多详图索引样式设置选项 现在, 您可以将任何有效的 Lucide 图标用作自定义标注。它将默认图标替换为您输入的清晰图标。 这没有等效的标注元数据 现在，您可以将所有标注元数据指定为自定义标注。例如，&gt;[!|empty] 和 &gt;[!empty] 都会呈现相同的样式。 更新 ASCII 图标集 您可以对选项卡进行编号并删除其标题（默认情况下在RTZ模式下启用）。您也可以单独切换它。 添加了实验性 TUI 标注, 并提供了一个选项, 使其适用于所有标注 添加了可切换的活动文件指示器 样式化搜索插件 pl10k 布局的更多视图标题样式 1.0.x 版本 1.0.2 固定突出显示 文本突出显示现已修复 感谢 GitHub 上的 weiss-d 和 OMG Discord 上的 arthur 添加了更多 Bases 插件样式选项 1.0.1 排版更新 添加了实验 Bases 插件样式设置 修改了一些样式设置, 使用变量选择以获得更好的性能。保留传统选项以实现向后兼容性 在应用程序启动时添加了一个实验性的加载指示器 现在, 您可以配置整个主题中文本的正常文本颜色, 行高, 字母和单词间距。 1.0.0 更新 添加了 “样式设置” 选项, 用于更改状态栏对齐方式, 隐藏直到悬停动画适应当前选定的对齐方式。 未选择对齐方式时, 默认为右对齐。 将 “悬停前隐藏” 替换为 “悬停前保持” 选项。命名为 “隐藏直到触发” 删除了水平规则自定义字符串左百分比, 因为我从 Willemstad 主题作者那里学会了如何将 &lt;div&gt; 居中 添加了当前操作系统和屏幕尺寸的可切换显示。 屏幕尺寸归功于这位开发人员和这位开发人员还有这位开发人员 。 视图标题项的默认对齐方式更好。 将视图标题面包屑最大宽度移动到新的视图标题部分 添加了可切换选项, 以显示操作系统详细信息和屏幕尺寸, 并可配置填充 将大多数与图标相关的样式设置移动到自己的部分 添加了可切换的ASCII图标集 笑脸图标现在默认设置为关闭 添加了 WIP Iconic 插件支持, 您可以切换插件是否覆盖笑脸和 ASCII 图标 修复了动画, 动画现在也显示在堆叠的选项卡中。如果它们显示在 “样式设置” 容器中, 则可以切换。 将模式移动到自己的部分，由于 Obsidian Members’ Group Discord 上的 @orionp，添加了 Flex Max 模式 Flex Max 模式默认启用, 适用于那些不知道从哪里开始定制主题的人 (合理的默认设置) 默认情况下, 一些默认启用的样式设置将 Flex Max 处理 将默认情况下启用的长列表设置移动到文档中 修复了 tategaki 和垂直 LTR 标注元数据中的断字间距。 为编辑器顶部边距添加了样式设置选项 在 Live Preview 中为代码块文件扩展名添加了自定义选项 改进中文翻译和文档组织 其他语言将不受支持, 因为我不了解它们, 过度依赖机器进行翻译不太好 Beta 变更日志可以在这里找到。">
+<link href="/docs-en/css/compiled/main.css" rel="stylesheet" />
+    <link href="/docs-en/css/variables.css" rel="stylesheet" />
+    <link href="/docs-en/css/custom.css" rel="stylesheet" />
+
+  
+<script src="/docs-en/js/main-head.js" integrity=""></script>
+
+  
+  
+  </head>
+<body>
+    <a href="#content" class="hx:sr-only hx:focus-visible:not-sr-only hx:focus-visible:fixed hx:focus-visible:z-50 hx:focus-visible:top-2 hx:focus-visible:left-2 hx:focus-visible:bg-primary-500 hx:focus-visible:text-white hx:focus-visible:px-4 hx:focus-visible:py-2 hx:focus-visible:rounded-md hx:focus-visible:text-sm hx:focus-visible:font-medium">Skip to content</a><div class="hextra-nav-container hx:sticky hx:top-0 hx:z-20 hx:w-full hx:bg-transparent hx:print:hidden">
+  <div
+    class="hextra-nav-container-blur hx:pointer-events-none hx:absolute hx:z-[-1] hx:h-full hx:w-full hx:bg-white hx:dark:bg-dark hx:shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] hx:contrast-more:shadow-[0_0_0_1px_#000] hx:dark:shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] hx:contrast-more:dark:shadow-[0_0_0_1px_#fff]"
+  ></div>
+
+  <nav class="hextra-max-navbar-width hx:mx-auto hx:flex hx:items-center hx:justify-end hx:gap-2 hx:h-16 hx:px-6">
+    <a class="hx:flex hx:items-center hx:hover:opacity-75 hx:ltr:mr-auto hx:rtl:ml-auto" href="/docs-en/zh/">
+    <img class="hx:mr-2 hx:block hx:dark:hidden" src="/docs-en/images/logo.svg" alt="Logo" height="20" width="20" />
+    <img class="hx:mr-2 hx:hidden hx:dark:block" src="/docs-en/images/logo.svg" alt="Dark Logo" height="20" width="20" />
+    <span class="hx:mr-2 hx:font-extrabold hx:inline hx:select-none">Flexcyon Documentation</span>
+</a>
+<button type="button" aria-label="Menu" aria-expanded="false" class="hextra-hamburger-menu hx:cursor-pointer hx:-mr-2 hx:rounded-sm hx:p-2 hx:active:bg-gray-400/20 hx:md:hidden hx:hextra-focus-visible-inset"><svg height=24 fill="none" viewBox="0 0 24 24" stroke="currentColor"><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8H20"></path></g><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16H20"></path></g></svg></button>
+  </nav>
+</div>
+
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    <aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:top-16 hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)] hx:md:hidden hx:xl:block">
+    <div class="hx:px-4 hx:pt-4 hx:md:hidden">
+      <div class="hextra-search-wrapper hx:relative hx:md:w-64">
+  <div class="hx:relative hx:flex hx:items-center hx:text-gray-900 hx:contrast-more:text-gray-800 hx:dark:text-gray-300 hx:contrast-more:dark:text-gray-300">
+    <input
+      placeholder="Search..."
+      aria-label="Search..."
+      class="hextra-search-input hx:hextra-focus-visible hx:block hx:w-full hx:appearance-none hx:rounded-lg hx:px-3 hx:py-2 hx:transition-colors hx:text-base hx:leading-tight hx:md:text-sm hx:bg-black/[.05] hx:dark:bg-gray-50/10 hx:focus-visible:bg-white hx:dark:focus-visible:bg-dark hx:placeholder:text-gray-500 hx:dark:placeholder:text-gray-400 hx:contrast-more:border hx:contrast-more:border-current"
+      type="search"
+      autocomplete="off"
+      value=""
+      spellcheck="false"
+    />
+    <kbd
+      class="hx:absolute hx:my-1.5 hx:select-none hx:ltr:right-1.5 hx:rtl:left-1.5 hx:h-5 hx:rounded-sm hx:bg-white hx:px-1.5 hx:font-mono hx:text-[10px] hx:font-medium hx:text-gray-500 hx:border hx:border-gray-200 hx:dark:border-gray-100/20 hx:dark:bg-dark/50 hx:contrast-more:border-current hx:contrast-more:text-current hx:contrast-more:dark:border-current hx:items-center hx:gap-1 hx:transition-opacity hx:pointer-events-none hx:hidden hx:sm:flex"
+    >
+      CTRL K
+    </kbd>
+  </div>
+
+  <div>
+    <ul
+      class="hextra-search-results hextra-scrollbar hx:hidden hx:border hx:border-gray-200 hx:bg-white hx:text-gray-100 hx:dark:border-neutral-800 hx:dark:bg-neutral-900 hx:absolute hx:top-full hx:z-20 hx:mt-2 hx:overflow-auto hx:overscroll-contain hx:rounded-xl hx:py-2.5 hx:shadow-xl hx:max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] hx:md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx:inset-x-0 hx:ltr:md:left-auto hx:rtl:md:right-auto hx:contrast-more:border hx:contrast-more:border-gray-900 hx:contrast-more:dark:border-gray-50 hx:w-screen hx:min-h-[100px] hx:max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
+      aria-label="Search results"
+      style="transition: max-height 0.2s ease 0s;"
+    ></ul>
+    <div class="hextra-search-status hx:sr-only" aria-live="polite" role="status"></div>
+  </div>
+</div>
+
+    </div><div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
+    <ul class="hx:flex hx:flex-col hx:gap-1 hx:md:hidden">
+      
+      
+    </ul>
+
+    <div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div></div>
+  
+  
+    <div class="hx:md:hidden hx:justify-end hx:sticky hx:bottom-0 hx:max-h-(--menu-height) hx:bg-white hx:dark:bg-dark hx:mx-4 hx:py-4 hx:shadow-[0_-12px_16px_#fff] hx:flex hx:items-center hx:gap-2 hx:border-gray-200 hx:dark:border-neutral-800 hx:dark:shadow-[0_-12px_16px_#111] hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:shadow-none hx:border-t" data-toggle-animation="show"><div class="hx:flex hx:justify-items-start hx:grow">
+    <button
+      title="Change language"
+      data-state="closed"
+      data-location=""
+      class="hextra-language-switcher hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:grow"
+      type="button"
+      aria-label="Change language"
+      aria-expanded="false"
+      aria-haspopup="menu"
+    >
+      <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg><span>简体中文</span></div>
+    </button>
+    <ul
+      class="hextra-language-options hx:hidden hx:z-20 hx:max-h-64 hx:overflow-auto hx:rounded-lg hx:border hx:border-gray-200 hx:bg-white hx:p-1 hx:text-sm hx:shadow-lg hx:dark:border-neutral-700 hx:dark:bg-neutral-900"
+      style="position: fixed; inset: auto auto 0px 0px; margin: 0px; min-width: 100px;"
+      role="menu"
+    >
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/docs-en/changelogs/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >English</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/docs-en/zh/changelogs/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >简体中文<span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span></a>
+        </li>
+      </ul>
+  </div><div class="hx:flex hx:justify-items-start hx:group" data-theme="light">
+  <button
+    title="Change theme"
+    data-state="closed"
+    data-location="bottom-right"
+    class="hextra-theme-toggle hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:grow"
+    type="button"
+    aria-label="Change theme"
+    aria-expanded="false"
+    aria-haspopup="menu"
+  >
+    <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><svg height=12 class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor">
+  <path d="M 11.996094,2 C 6.4986225,2.0192368 2.03125,6.5024993 2.03125,12 c 0,5.497501 4.4673725,9.980763 9.964844,10 H 12 12.0039 c 5.497471,-0.01924 9.964844,-4.502499 9.964844,-10 0,-5.4975007 -4.467373,-9.9807632 -9.964844,-10 H 12 Z M 12,4 c 4.417218,0.017598 7.96875,3.5822356 7.96875,8 0,4.417764 -3.551532,7.982402 -7.96875,8 z" />
+</svg>
+</div>
+  </button>
+  <ul
+    class="hextra-theme-toggle-options hx:hidden hx:z-20 hx:max-h-64 hx:overflow-auto hx:rounded-lg hx:border hx:border-gray-200 hx:bg-white hx:p-1 hx:text-sm hx:shadow-lg hx:dark:border-neutral-700 hx:dark:bg-neutral-900"
+    style="position: fixed; inset: auto auto 0px 0px; margin: 0px; min-width: 100px;"
+    data-theme="light"
+    role="menu"
+  >
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="true"
+        tabindex="-1"
+        data-item="light"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        Light
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="false"
+        tabindex="-1"
+        data-item="dark"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        Dark
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="false"
+        tabindex="-1"
+        data-item="system"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        System
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+  </ul>
+</div>
+</div></aside>
+    
+<nav class="hextra-toc hx:order-last hx:hidden hx:w-64 hx:shrink-0 hx:xl:block hx:print:hidden hx:px-4" aria-label="Table of contents">
+    <div class="hextra-scrollbar hx:sticky hx:top-16 hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4"><p class="hx:mb-4 hx:font-semibold hx:tracking-tight">On this page</p><ul>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e6%b3%a8%e6%84%8f">注意
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#14x-%e7%89%88%e6%9c%ac">1.4.x 版本
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#140-%e5%86%8d%e8%ae%bf%e9%a2%9c%e8%89%b2">1.4.0 再访颜色
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e5%8a%9f%e8%83%bd">功能
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e5%8f%98%e5%8c%96">变化
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e4%bf%ae%e5%a4%8d">修复
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#13x-%e7%89%88%e6%9c%ac">1.3.x 版本
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#130-%e5%8a%a8%e7%94%bb%e6%9b%b4%e6%96%b0">1.3.0 动画更新
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e5%8a%9f%e8%83%bd-1">功能
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e5%8f%98%e5%8c%96-1">变化
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e4%bf%ae%e5%a4%8d-1">修复
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#12x-%e7%89%88%e6%9c%ac">1.2.x 版本
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#121-%e8%ae%be%e7%bd%ae%e6%9b%b4%e6%96%b0">1.2.1 设置更新
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#120-%e5%9b%9e%e9%a1%be%e6%9b%b4%e6%96%b0">1.2.0 回顾更新
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#11x-%e7%89%88%e6%9c%ac">1.1.x 版本
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#113-%e6%a0%87%e9%a2%98%e4%bf%ae%e8%a1%a5">1.1.3 标题修补
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#112-%e5%9e%82%e7%9b%b4%e4%bf%ae%e8%a1%a5">1.1.2 垂直修补
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#111-%e5%9e%82%e7%9b%b4%e6%a0%b7%e5%bc%8f">1.1.1 垂直样式
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#110-%e6%a0%87%e6%b3%a8%e6%9b%b4%e6%96%b0">1.1.0 标注更新
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#10x-%e7%89%88%e6%9c%ac">1.0.x 版本
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#102-%e5%9b%ba%e5%ae%9a%e7%aa%81%e5%87%ba%e6%98%be%e7%a4%ba">1.0.2 固定突出显示
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#101-%e6%8e%92%e7%89%88%e6%9b%b4%e6%96%b0">1.0.1 排版更新
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#100-%e6%9b%b4%e6%96%b0">1.0.0 更新
+        </a>
+      </li></ul>
+      <div class="hx:mt-8 hx:border-t hx:bg-white hx:pt-8 hx:shadow-[0_-12px_16px_white] hx:dark:bg-dark hx:dark:shadow-[0_-12px_16px_#111] hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
+        <button id="backToTop" tabindex="-1" onClick="scrollUp();" class="hx:cursor-pointer hx:transition-all hx:duration-75 hx:opacity-0 hx:text-xs hx:font-medium hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-100 hx:contrast-more:text-gray-800 hx:contrast-more:dark:text-gray-50">
+          <span>Scroll to top</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:inline hx:ltr:ml-1 hx:rtl:mr-1 hx:h-3.5 hx:w-3.5 hx:rounded-full hx:border hx:border-gray-500 hx:hover:border-gray-900 hx:dark:border-gray-400 hx:dark:hover:border-gray-100 hx:contrast-more:border-gray-800 hx:contrast-more:dark:border-gray-50">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main id="content" class="hx:w-full hx:min-w-0 hextra-max-content-width hx:px-6 hx:pt-4 hx:md:px-12">
+        
+        <br class="hx:mt-1.5 hx:text-sm" />
+        <h1 class="hx:text-center hx:mt-2 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">Changelogs</h1>
+        <div class="hx:mb-16"></div>
+        <div class="content">
+          <h4>注意<span class="hx:absolute hx:-mt-20" id="注意"></span>
+    <a href="#%e6%b3%a8%e6%84%8f" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>变更日志按最新到最新的顺序显示版本。</p>
+<p>如果您更喜欢按时间顺序查看变更日志, 可以使用侧边栏或汉堡包菜单查看相关子页面。</p>
+<hr>
+<h2>1.4.x 版本<span class="hx:absolute hx:-mt-20" id="14x-版本"></span>
+    <a href="#14x-%e7%89%88%e6%9c%ac" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>1.4.0 再访颜色<span class="hx:absolute hx:-mt-20" id="140-再访颜色"></span>
+    <a href="#140-%e5%86%8d%e8%ae%bf%e9%a2%9c%e8%89%b2" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h4>功能<span class="hx:absolute hx:-mt-20" id="功能"></span>
+    <a href="#%e5%8a%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
+<li>Bases 样式设置的改变不再是实验性的</li>
+<li>现在, 您可以为 ASCII 艺术和引号指定目标字体系列 (text, interface 或 monospace)
+<ul>
+<li>为 ASCII 艺术, 我们建议使用类似等宽字体, 例如 Source Code Pro.</li>
+</ul>
+</li>
+<li>现在, 您可以配置突出显示文本的颜色和不透明度</li>
+<li>修复工具提示</li>
+<li>添加了 &ldquo;不在新选项卡中显示状态栏&rdquo; 选项
+<ul>
+<li>或者, 您可以在新选项卡中设置状态栏的不透明度. 默认值为 0.55.</li>
+</ul>
+</li>
+<li>添加了 &ldquo;Bases 卡片标签不透明度&rdquo; 设置, 默认值为 0.55</li>
+<li>添加了 Typewriter 模式 (除活动行外全部变不透明), 不透明度可配置. 默认值为 0.55. 您也可以通过 <code>cssclass</code> 进行设置。</li>
+<li>现在, 当应用程序中未指定默认光标时, 您可以设置它</li>
+<li>现在, 您可以选择彩色标题时每个标题使用的颜色</li>
+<li>添加了 Bases 视图垂直和水平填充设置, 影响 Bases 文件内容. 两者的默认值均为 16px</li>
+<li>添加了 Bases 嵌入填充, 默认为 4px</li>
+<li>添加了与表头和单元格对齐相关的设置, 拆分了表头和单元格的现有设置</li>
+<li>增加了表格单元格字体大小设置, 将 &ldquo;表头大小&rdquo; 重命名为 &ldquo;表头字体大小&rdquo; 以更具体. 现在, 这两个选项都允许您从 UI 字体大小选项中进行选择</li>
+<li>添加了 &ldquo;不显示内联标题&rdquo; 设置, 具有 csslcass 等效的 <code>no-inline-title</code></li>
+<li>添加了 &ldquo;不显示视图标题&rdquo; <code>cssclass</code></li>
+<li>添加了移动部分和 &ldquo;恢复 1.11 导航 UI&rdquo; 设置, 恢复到旧的 vault 选择器, 导航到 1.11 之前的版本</li>
+</ul>
+<h4>变化<span class="hx:absolute hx:-mt-20" id="变化"></span>
+    <a href="#%e5%8f%98%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
+<li>样式设置持续时间单位从 s 更改为 ms
+<ul>
+<li>受影响的设置包括 alt 文件树、动画、弹出和抽认卡 callout、悬停前的状态隐藏和光标持续时间</li>
+</ul>
+</li>
+<li>主题现在为一些衍生颜色使用 <code>oklch</code> 颜色空间</li>
+<li>将输入相关设置移动到 <code>Editor &gt; Input</code> 下的独立部分</li>
+<li>由于版权和许可不明确, 将示例树 ASCII 更改为 Figlet 占位符</li>
+<li>更改了 ASCII 艺术文本对齐方式, 使其具有选项下拉列表, 而不是文本输入</li>
+<li>修改了社区项目背景颜色</li>
+<li>彩色标题不再出现在 PDF 导出输出中, 归功于 Fancy-a-Story 主题开发人员 Kapirklaa 的打印 (PDF 导出) 样式</li>
+<li>在 pl10k 模式中修复了设备操作细节, 添加了左侧填充设置. 现有的右侧填充设置的默认值已更改.</li>
+</ul>
+<h4>修复<span class="hx:absolute hx:-mt-20" id="修复"></span>
+    <a href="#%e4%bf%ae%e5%a4%8d" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
+<li>修复工具提示和交互式强调色</li>
+<li>修复 pl10k 样式</li>
+<li>修复了替代链接样式, 它现在继承了现有的链接颜色变量并使用 <code>oklch</code></li>
+<li>提高了主题中动画的性能</li>
+<li>在需要时定义超限行为</li>
+<li>清理并修复代码库的部分</li>
+<li>pl10k 模式视图标题中的固定边界半径</li>
+<li>修复显示功能区时的垂直导航填充</li>
+<li>Banner CSS 代码片段修补程序</li>
+</ul>
+<h2>1.3.x 版本<span class="hx:absolute hx:-mt-20" id="13x-版本"></span>
+    <a href="#13x-%e7%89%88%e6%9c%ac" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>1.3.0 动画更新<span class="hx:absolute hx:-mt-20" id="130-动画更新"></span>
+    <a href="#130-%e5%8a%a8%e7%94%bb%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h4>功能<span class="hx:absolute hx:-mt-20" id="功能-1"></span>
+    <a href="#%e5%8a%9f%e8%83%bd-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
+<li>现在, 您可以在笔记与模态框等 UI 其他部分之间使用不同的动画集。</li>
+<li>新增淡入动画效果, 作为 Flex Max 模式的默认设置, 取代原有的从左至右滑动效果</li>
+<li>新增动画初始透明度和放大动画初始缩放比例的样式设置选项</li>
+<li>添加了主题中 Banner CSS 代码片段支持的修复</li>
+<li>在行间距留白处新增了视觉指示标记, 可辅助定位当前笔记中横幅图片的定义位置
+<ul>
+<li>由于 Obsidian 编辑器的惰性渲染特性, 建议在文件顶部附近指定横幅图片的来源</li>
+</ul>
+</li>
+<li>新增设置模态背景暗化强度的选项</li>
+<li>新增了ASCII艺术缩放比例选项
+<ul>
+<li>建议编写一段CSS代码以全面自定义你的ASCII艺术作品</li>
+</ul>
+</li>
+<li>增加了备用链接样式 (受威廉斯塔德风格启发)</li>
+<li>当未找到文件链接时, 为 Bases 添加错误处理</li>
+<li>为替换活动行号为自定义字符串设置增加了字母间距选项</li>
+<li>添加样式设置以切换TUI标注的图标是否默认不显示 (默认为 false)</li>
+<li>添加字体大小标注, 继承 UI 字体大小, 如较小、较小、中等或较大。</li>
+<li>添加了不透明度标注, 您可以一次设置标注标题、内容或两者的不透明度。</li>
+<li>添加了视图标题选项, 以指定Angled和Powerlevel10k布局中的视图标题填充</li>
+<li>以 0.05 的增量添加不透明度标注</li>
+<li>核心 Slides 插件现在在演示视图中有幻灯片编号 (最多99张幻灯片)</li>
+<li>ASCII 艺术现在以核心幻灯片插件暂停演示模式出现 (按 b 触发)</li>
+<li>添加了风格化的固定图标</li>
+<li>添加了样式设置插件启动检查</li>
+<li>添加了切换显示属性标题</li>
+<li>删除了左对齐状态栏设置, 因为它太硬编码了</li>
+</ul>
+<h4>变化<span class="hx:absolute hx:-mt-20" id="变化-1"></span>
+    <a href="#%e5%8f%98%e5%8c%96-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
+<li>更新了反向链接和传出链接视图的样式</li>
+<li>稍微调整了 Alternate File Tree 创建和删除对话框标题</li>
+<li>改进了 Mermaid 图的现有样式</li>
+<li>改进的侧边栏背景代码</li>
+<li>改进的 ASCII 艺术代码, 空状态操作现在默认禁用。</li>
+<li>弃用网络演示, 因为它不能很好地翻译主题的美学</li>
+</ul>
+<h4>修复<span class="hx:absolute hx:-mt-20" id="修复-1"></span>
+    <a href="#%e4%bf%ae%e5%a4%8d-1" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
+<li>修复了动画, 它们现在也适用于您的笔记和侧边栏内容</li>
+<li>修复了水平规则自定义字符串在读取模式下也能工作的问题</li>
+<li>修复了 TUI 标注外观。请注意, 取消折叠大代码片段 (如标注中的 Mermaid图) 会导致渲染延迟。这适用于所有标注, 即使是默认标注。</li>
+<li>修复了在未启用选项卡标题栏的情况下显示操作系统和屏幕尺寸的问题</li>
+<li>拆分选项卡并将相关样式设置调试到自己的部分</li>
+<li>修复了扩展调色板, 以正确支持基础颜色变量的所有组合</li>
+<li>使 Bases 文本对齐一致</li>
+<li>核心幻灯片插件现在更流畅, 与主题更一致</li>
+<li>修复了默认 ASCII 艺术对齐, 可在样式设置中配置</li>
+<li>修复了突出显示中的行内数字</li>
+<li>修复了默认 TUI Callout 图标不继承图标颜色的问题</li>
+<li>修复了 Reading 模式下默认没有元数据</li>
+</ul>
+<h2>1.2.x 版本<span class="hx:absolute hx:-mt-20" id="12x-版本"></span>
+    <a href="#12x-%e7%89%88%e6%9c%ac" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>1.2.1 设置更新<span class="hx:absolute hx:-mt-20" id="121-设置更新"></span>
+    <a href="#121-%e8%ae%be%e7%bd%ae%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>由于 OMG Discord 上的 <code>@saberzero</code>, 修复了重复的样式设置条目</li>
+</ul>
+<h3>1.2.0 回顾更新<span class="hx:absolute hx:-mt-20" id="120-回顾更新"></span>
+    <a href="#120-%e5%9b%9e%e9%a1%be%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>固定垂直导航中的文件属性</li>
+<li>修复了垂直导航中右侧栏切换按钮消失的问题</li>
+<li>更新了 Full Calendar 插件样式</li>
+<li>为表格添加了样式设置选项</li>
+<li>调整了主题中的一些背景颜色</li>
+<li>更新了样式设置和活动项目背景</li>
+<li>添加了 &ldquo;样式设置&rdquo; 选项以设置标题文本对齐方式</li>
+<li>为核心 Slides 插件添加了样式</li>
+<li>添加了 Tasks 插件样式</li>
+<li>添加了放置工作区功能区 (侧边栏图标) 的选项</li>
+<li>添加了将 Vault 切换器放置在顶部, 反向 Vault 切换器和操作的选项</li>
+<li>在不处于 Reading Mode 时添加了可切换的活动行高亮显示</li>
+</ul>
+<h2>1.1.x 版本<span class="hx:absolute hx:-mt-20" id="11x-版本"></span>
+    <a href="#11x-%e7%89%88%e6%9c%ac" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>1.1.3 标题修补<span class="hx:absolute hx:-mt-20" id="113-标题修补"></span>
+    <a href="#113-%e6%a0%87%e9%a2%98%e4%bf%ae%e8%a1%a5" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>修补程序损坏的标题指示器设置</li>
+<li>修补程序标题指示器与折叠图标重叠</li>
+</ul>
+<h3>1.1.2 垂直修补<span class="hx:absolute hx:-mt-20" id="112-垂直修补"></span>
+    <a href="#112-%e5%9e%82%e7%9b%b4%e4%bf%ae%e8%a1%a5" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>修复了垂直布局不适用于特定 UI 区域的问题</li>
+<li>向 Bases 添加了更多有用的错误消息</li>
+<li>例如，当 Bases 查询结果为空 (找不到符合指定条件的文件), 或者找不到某个笔记的特定文件属性时</li>
+<li>为核心 Web Viewer 插件添加样式</li>
+<li>现在, 您可以为 <code>vert-orange</code> <code>tui border-purple</code>, <code>plain-yellow</code> 等 Callout 指定颜色。每个对应一个特定的标注样式。</li>
+<li>与 Callout 样式一样，元数据提供程序是互斥的。</li>
+<li>是写入 Callout 元数据还是作为自定义 Callout, 由您选择</li>
+<li>修复了 Callout 中的第一个 iframe 填充顶部</li>
+<li>侧边栏背景选项的性能略有提升</li>
+</ul>
+<h3>1.1.1 垂直样式<span class="hx:absolute hx:-mt-20" id="111-垂直样式"></span>
+    <a href="#111-%e5%9e%82%e7%9b%b4%e6%a0%b7%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>添加了 Callout 元数据选项, 用于在标注中设置 Lucide 图标。使用 Lucide 图标设置时, 整个 Callout
+元数据或自定义标注部分必须与 Lucide 图标值匹配, 否则图标将无法呈现。
+<ul>
+<li>例如，<code>&gt;[!lucide-git-fork|title-orange]</code> 而不是
+<code>&gt;[!note|lucide-git-fork title-orange]</code> 或 <code>&gt;[!title-orange|lucide-git-fork]</code></li>
+<li>（您不能指定多个自定义标注类型，但可以使用标注元数据进行修改）</li>
+</ul>
+</li>
+<li>将 &ldquo;垂直 LTR&rdquo; Callout 元数据重命名为 &ldquo;vert-ltr”</li>
+<li>添加了可选择的默认 Callout 样式。选项包括 TUI, 简化和垂直。这些还具有 Callout 元数据和自定义标注等效项。
+<ul>
+<li>自定义标注和 Callout 元数据选项是互斥的，但可以覆盖所选的默认 Callout 样式</li>
+</ul>
+</li>
+<li>更新社区部分外观和社区导航项目</li>
+<li>添加了可切换的垂直导航样式</li>
+</ul>
+<h3>1.1.0 标注更新<span class="hx:absolute hx:-mt-20" id="110-标注更新"></span>
+    <a href="#110-%e6%a0%87%e6%b3%a8%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>更改（略微降低）主题中的默认线高度
+<ul>
+<li>您可以根据自己的喜好进行配置</li>
+</ul>
+</li>
+<li>添加了更多详图索引样式设置选项</li>
+<li>现在, 您可以将任何有效的 Lucide 图标用作自定义标注。它将默认图标替换为您输入的清晰图标。
+<ul>
+<li>这没有等效的标注元数据</li>
+</ul>
+</li>
+<li>现在，您可以将所有标注元数据指定为自定义标注。例如，<code>&gt;[!|empty]</code> 和 <code>&gt;[!empty]</code> 都会呈现相同的样式。</li>
+<li>更新 ASCII 图标集</li>
+<li>您可以对选项卡进行编号并删除其标题（默认情况下在RTZ模式下启用）。您也可以单独切换它。</li>
+<li>添加了实验性 TUI 标注, 并提供了一个选项, 使其适用于所有标注</li>
+<li>添加了可切换的活动文件指示器</li>
+<li>样式化搜索插件</li>
+<li>pl10k 布局的更多视图标题样式</li>
+</ul>
+<h2>1.0.x 版本<span class="hx:absolute hx:-mt-20" id="10x-版本"></span>
+    <a href="#10x-%e7%89%88%e6%9c%ac" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>1.0.2 固定突出显示<span class="hx:absolute hx:-mt-20" id="102-固定突出显示"></span>
+    <a href="#102-%e5%9b%ba%e5%ae%9a%e7%aa%81%e5%87%ba%e6%98%be%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>文本突出显示现已修复
+<ul>
+<li>感谢 GitHub 上的 <code>weiss-d</code> 和 OMG Discord 上的 <code>arthur</code></li>
+</ul>
+</li>
+<li>添加了更多 Bases 插件样式选项</li>
+</ul>
+<h3>1.0.1 排版更新<span class="hx:absolute hx:-mt-20" id="101-排版更新"></span>
+    <a href="#101-%e6%8e%92%e7%89%88%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>添加了实验 Bases 插件样式设置</li>
+<li>修改了一些样式设置, 使用变量选择以获得更好的性能。保留传统选项以实现向后兼容性</li>
+<li>在应用程序启动时添加了一个实验性的加载指示器</li>
+<li>现在, 您可以配置整个主题中文本的正常文本颜色, 行高, 字母和单词间距。</li>
+</ul>
+<h3>1.0.0 更新<span class="hx:absolute hx:-mt-20" id="100-更新"></span>
+    <a href="#100-%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li>添加了 &ldquo;样式设置&rdquo; 选项, 用于更改状态栏对齐方式, 隐藏直到悬停动画适应当前选定的对齐方式。
+<ul>
+<li>未选择对齐方式时, 默认为右对齐。</li>
+</ul>
+</li>
+<li>将 &ldquo;悬停前隐藏&rdquo; 替换为 &ldquo;悬停前保持&rdquo; 选项。命名为 &ldquo;隐藏直到触发&rdquo;</li>
+<li>删除了水平规则自定义字符串左百分比, 因为我从 Willemstad 主题作者那里学会了如何将 <code>&lt;div&gt;</code> 居中</li>
+<li>添加了当前操作系统和屏幕尺寸的可切换显示。
+<ul>
+<li>屏幕尺寸归功于这位<a href="https://dev.to/janeori/css-type-casting-to-numeric-tanatan2-scalars-582j"target="_blank" rel="noopener">开发人员</a>和这位<a href="https://css-tip.com/screen-dimension"target="_blank" rel="noopener">开发人员</a>还有这位<a href="https://dev.to/leapcell/get-screen-size-in-pure-css-3kna"target="_blank" rel="noopener">开发人员</a> 。</li>
+</ul>
+</li>
+<li>视图标题项的默认对齐方式更好。</li>
+<li>将视图标题面包屑最大宽度移动到新的视图标题部分
+<ul>
+<li>添加了可切换选项, 以显示操作系统详细信息和屏幕尺寸, 并可配置填充</li>
+</ul>
+</li>
+<li>将大多数与图标相关的样式设置移动到自己的部分</li>
+<li>添加了可切换的ASCII图标集
+<ul>
+<li>笑脸图标现在默认设置为关闭</li>
+</ul>
+</li>
+<li>添加了 WIP Iconic 插件支持, 您可以切换插件是否覆盖笑脸和 ASCII 图标</li>
+<li>修复了动画, 动画现在也显示在堆叠的选项卡中。如果它们显示在 &ldquo;样式设置&rdquo; 容器中, 则可以切换。</li>
+<li>将模式移动到自己的部分，由于 Obsidian Members&rsquo; Group Discord 上的 <code>@orionp</code>，添加了 Flex Max 模式
+<ul>
+<li>Flex Max 模式默认启用, 适用于那些不知道从哪里开始定制主题的人 (合理的默认设置)</li>
+<li>默认情况下, 一些默认启用的样式设置将 Flex Max 处理</li>
+<li>将默认情况下启用的长列表设置移动到文档中</li>
+</ul>
+</li>
+<li>修复了 tategaki 和垂直 LTR 标注元数据中的断字间距。</li>
+<li>为编辑器顶部边距添加了样式设置选项</li>
+<li>在 Live Preview 中为代码块文件扩展名添加了自定义选项</li>
+<li>改进中文翻译和文档组织
+<ul>
+<li>其他语言将不受支持, 因为我不了解它们, 过度依赖机器进行翻译不太好</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>Beta 变更日志可以在<a href="./beta/index.md">这里找到</a>。</p>
+<p>我不会翻译这些日志。</p>
+
+        </div>
+        <div class="hx:mt-16"></div>
+        
+      </main>
+    </article>
+  </div>
+
+      <footer class="hextra-footer hx:bg-gray-100 hx:pb-[env(safe-area-inset-bottom)] hx:dark:bg-neutral-900 hx:print:bg-transparent"><div class="hx:mx-auto hx:flex hx:gap-2 hx:py-2 hx:px-4 hextra-max-footer-width"><div class="hx:flex hx:justify-items-start ">
+    <button
+      title="Change language"
+      data-state="closed"
+      data-location=""
+      class="hextra-language-switcher hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:grow"
+      type="button"
+      aria-label="Change language"
+      aria-expanded="false"
+      aria-haspopup="menu"
+    >
+      <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg><span>简体中文</span></div>
+    </button>
+    <ul
+      class="hextra-language-options hx:hidden hx:z-20 hx:max-h-64 hx:overflow-auto hx:rounded-lg hx:border hx:border-gray-200 hx:bg-white hx:p-1 hx:text-sm hx:shadow-lg hx:dark:border-neutral-700 hx:dark:bg-neutral-900"
+      style="position: fixed; inset: auto auto 0px 0px; margin: 0px; min-width: 100px;"
+      role="menu"
+    >
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/docs-en/changelogs/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >English</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/docs-en/zh/changelogs/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >简体中文<span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span></a>
+        </li>
+      </ul>
+  </div><div class="hx:flex hx:justify-items-start hx:group" data-theme="light">
+  <button
+    title="Change theme"
+    data-state="closed"
+    data-location="bottom"
+    class="hextra-theme-toggle hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:grow"
+    type="button"
+    aria-label="Change theme"
+    aria-expanded="false"
+    aria-haspopup="menu"
+  >
+    <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden">Light</span><svg height=12 class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden">Dark</span><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor">
+  <path d="M 11.996094,2 C 6.4986225,2.0192368 2.03125,6.5024993 2.03125,12 c 0,5.497501 4.4673725,9.980763 9.964844,10 H 12 12.0039 c 5.497471,-0.01924 9.964844,-4.502499 9.964844,-10 0,-5.4975007 -4.467373,-9.9807632 -9.964844,-10 H 12 Z M 12,4 c 4.417218,0.017598 7.96875,3.5822356 7.96875,8 0,4.417764 -3.551532,7.982402 -7.96875,8 z" />
+</svg>
+<span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden">System</span></div>
+  </button>
+  <ul
+    class="hextra-theme-toggle-options hx:hidden hx:z-20 hx:max-h-64 hx:overflow-auto hx:rounded-lg hx:border hx:border-gray-200 hx:bg-white hx:p-1 hx:text-sm hx:shadow-lg hx:dark:border-neutral-700 hx:dark:bg-neutral-900"
+    style="position: fixed; inset: auto auto 0px 0px; margin: 0px; min-width: 100px;"
+    data-theme="light"
+    role="menu"
+  >
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="true"
+        tabindex="-1"
+        data-item="light"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        Light
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="false"
+        tabindex="-1"
+        data-item="dark"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        Dark
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="false"
+        tabindex="-1"
+        data-item="system"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        System
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+  </ul>
+</div>
+</div><hr class="hx:border-gray-200 hx:dark:border-neutral-800" /><div class="hextra-custom-footer hextra-max-footer-width hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400"></div><div
+      class="hextra-max-footer-width hx:mx-auto hx:flex hx:justify-center hx:py-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400 hx:md:justify-start"
+    >
+      <div class="hx:flex hx:w-full hx:flex-col hx:items-center hx:sm:items-start"><div class="hx:font-semibold"><a class="hx:flex hx:text-sm hx:items-center hx:gap-1 hx:text-current" target="_blank" rel="noopener noreferrer" title="Hextra GitHub Homepage" href="https://github.com/imfing/hextra">
+    <span>Powered by Hextra<svg height=1em class="hx:inline-block hx:ltr:ml-1 hx:rtl:mr-1 hx:align-[-2.5px]" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="m 105.50024,22.224647 c -9.59169,-5.537563 -21.40871,-5.537563 -31.000093,0 L 39.054693,42.689119 C 29.463353,48.226675 23.55484,58.460531 23.55484,69.535642 v 40.928918 c 0,11.07542 5.908513,21.3092 15.499853,26.84652 l 35.445453,20.46446 c 9.591313,5.53732 21.408404,5.53732 31.000094,0 l 35.44507,-20.46446 c 9.59131,-5.53732 15.49985,-15.7711 15.49985,-26.84652 V 69.535642 c 0,-11.075111 -5.90854,-21.308967 -15.49985,-26.846523 z M 34.112797,85.737639 c -1.384445,2.397827 -1.384445,5.352099 0,7.749927 l 24.781554,42.922974 c 1.38437,2.39783 3.942853,3.87496 6.711592,3.87496 h 49.563107 c 2.76905,0 5.3273,-1.47713 6.71144,-3.87496 l 24.78194,-42.922974 c 1.38414,-2.397828 1.38414,-5.3521 0,-7.749927 L 121.88049,42.814746 c -1.38414,-2.397828 -3.94239,-3.874964 -6.71144,-3.874964 H 65.605944 c -2.768739,0 -5.327223,1.477059 -6.711592,3.874964 z" style="stroke-width:0.774993" /></svg></span>
+  </a></div></div>
+    </div></footer>
+    
+    <script defer src="/docs-en/js/main.js" integrity=""></script>
+<script defer src="/docs-en/js/flexsearch.9f5b5908f93ae86f1ecd4b043b799f580c2d1654e703dd9357d568ac41b2547a.js" integrity="sha256-n1tZCPk66G8ezUsEO3mfWAwtFlTnA92TV9VorEGyVHo=" crossorigin="anonymous"></script><script defer src="/docs-en/zh.search.js" integrity=""></script>
+  </body>
+</html>
