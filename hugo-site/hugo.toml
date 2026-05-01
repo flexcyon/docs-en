@@ -9,16 +9,16 @@ path = "github.com/imfing/hextra"
 
 
 [languages.en]
-languageName = "English"
+label = "English"
 contentDir = "content/en"
-languageCode = "en-gb"
+locale = "en-gb"
 
 
 [languages.zh]
 title = "Flexcyon 中文文档"
-languageName = "简体中文"
+label = "简体中文"
 contentDir = "content/zh"
-languageCode = "zh-cn"
+locale = "zh-cn"
 
 
 [params]
@@ -61,3 +61,11 @@ url = "https://github.com/bladeacer/flexcyon"
 
 [menu.main.params]
 icon = "github"
+
+[markup.highlight]
+noClasses = true
+
+[params.search]
+  type = "flexsearch"
+  [params.search.flexsearch]
+    js = "js/vendor/flexsearch.bundle.min.js"
