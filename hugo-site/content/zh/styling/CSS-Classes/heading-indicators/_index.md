@@ -1,5 +1,5 @@
 ---
-title: Heading indicators
+title: 标题指示器
 ---
 
 为所有标题添加标题指示符。将以 Reading, Live Preview 和 Source 模式显示。

@@ -1,5 +1,5 @@
 ---
-title: Rhombus background
+title: 菱形背景
 ---
 
 # 用法

@@ -1,5 +1,5 @@
 ---
-title: Extended color palette - Background
+title: 扩展调色板 - 背景
 ---
 
 > `bg-color1-color2-`

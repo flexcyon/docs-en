@@ -1,5 +1,5 @@
 ---
-title: Extended color palette - Title
+title: 扩展调色板 - Title
 ---
 
 > `title-color1-color2-`

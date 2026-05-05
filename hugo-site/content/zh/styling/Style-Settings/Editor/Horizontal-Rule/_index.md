@@ -1,5 +1,5 @@
 ---
-title: Horizontal Rules
+title: 水平标尺
 ---
 
 在主题中配置水平标尺。

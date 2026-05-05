@@ -1,5 +1,5 @@
 ---
-title: Extended color palette - Combined Styling
+title: 扩展调色板 - 组合样式
 ---
 
 > `all-color1-color2-`

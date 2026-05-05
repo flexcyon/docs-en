@@ -1,5 +1,5 @@
 ---
-title: Font weight Title
+title: 字重标题
 ---
 
 Callout 元数据: "w-`value`-title"

@@ -1,5 +1,5 @@
 ---
-title: Heading indicators - H6
+title: 标题指示器 - H6
 ---
 
 为标题 6 添加标题指示器。将出现在 Reading, Live Preview 和 Source 模式中。

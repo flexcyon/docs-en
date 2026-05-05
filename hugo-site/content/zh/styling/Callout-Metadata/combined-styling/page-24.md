@@ -1,5 +1,5 @@
 ---
-title: Font weight All
+title: 全字重
 ---
 
 Callout 元数据: "w-`value`-all"

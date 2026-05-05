@@ -73,7 +73,9 @@ Pink Background: 粉红色背景
 Green Background: 绿色背景
 Orange Background: 橙色背景
 Yellow Background: 黄色背景
-Extended Colour Palette Background: 扩展调色板背景
+Extended Color Palette: 扩展调色板
+Extended Colour Palette: 扩展调色板
+Background: 背景
 Combined Styling: 组合样式
 Empty: 空
 All Blue: 全蓝色
@@ -188,3 +190,5 @@ Version 0.4.x: 版本 0.4.x
 Version 0.5.x: 版本 0.5.x
 Version 0.6.x: 版本 0.6.x
 Supported Versions: 支持版本
+Horizontal Rules: 水平标尺
+and below: 以下

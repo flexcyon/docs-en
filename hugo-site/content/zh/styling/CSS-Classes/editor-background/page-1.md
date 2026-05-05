@@ -1,5 +1,5 @@
 ---
-title: Dotted background
+title: 虚线背景
 ---
 
 # 用法
