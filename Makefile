@@ -11,7 +11,9 @@ dev:
 	cd hugo-site && hugo server --disableFastRender
 
 audit-links:
-	@rg -n "\[.*?\]\(.*?\)" hugo-site/ --glob "*.md" --no-heading --ignore-file .auditignore | awk -F: '{print "- [ ] `" $$1 ":" $$2 "`"}' | sort > links-audit.md
+	@rg -n "\[.*?\]\(.*?\)" hugo-site/ --glob "*.md" --no-heading --ignore-file .auditignore | \
+		rg -v "\]\(http" | \
+		awk -F: '{print "- [ ] `" $$1 ":" $$2 "`"}' | sort > links-audit.md
 	@echo "Printing preview"
-	@echo "Total links found: $$(wc -l < links-audit.md)"	
-	@cat links-audit.md | head -n 20
+	@echo "Total internal links found: $$(wc -l < links-audit.md)"    
+	@head -n 20 links-audit.md
