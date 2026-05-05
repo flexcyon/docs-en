@@ -1,5 +1,5 @@
 ---
-title: Layout
+title: 布局
 ---
 
 配置工作区布局。

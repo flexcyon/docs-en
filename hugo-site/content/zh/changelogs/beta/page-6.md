@@ -1,5 +1,5 @@
 ---
-title: Version 0.6.x
+title: 版本 0.6.x
 ---
 
 ### 0.6.0 Golden Update

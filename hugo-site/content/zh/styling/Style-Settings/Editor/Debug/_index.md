@@ -1,5 +1,5 @@
 ---
-title: Debug
+title: 调试
 ---
 
 调试相关设置.

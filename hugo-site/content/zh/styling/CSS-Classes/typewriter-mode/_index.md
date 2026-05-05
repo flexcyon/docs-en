@@ -1,5 +1,5 @@
 ---
-title: Typewriter Mode
+title: Typewriter 模式
 ---
 
 # 用法

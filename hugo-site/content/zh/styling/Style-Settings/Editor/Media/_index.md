@@ -1,5 +1,5 @@
 ---
-title: Media
+title: 媒体
 ---
 
 配置媒体相关设置。

@@ -1,5 +1,5 @@
 ---
-title: View Header
+title: 视图标题
 ---
 
 ## 导航

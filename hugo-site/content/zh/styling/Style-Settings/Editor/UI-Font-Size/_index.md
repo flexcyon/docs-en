@@ -1,5 +1,5 @@
 ---
-title: UI Font Size
+title: UI 字体大小
 ---
 
 Overrides default font sizes used in the interface.

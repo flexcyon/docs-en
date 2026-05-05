@@ -1,5 +1,5 @@
 ---
-title: Links
+title: 链接
 ---
 
 配置链接的颜色。

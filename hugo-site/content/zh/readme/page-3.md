@@ -1,5 +1,5 @@
 ---
-title: Extensions
+title: 附加插件或 CSS
 tags:
     - plugins
     - snippets

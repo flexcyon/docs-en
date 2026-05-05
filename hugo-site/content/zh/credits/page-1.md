@@ -1,5 +1,5 @@
 ---
-title: Tools and Software
+title: 工具与软件
 ---
 
 以下工具和软件是制作主题不可或缺的及其文件。

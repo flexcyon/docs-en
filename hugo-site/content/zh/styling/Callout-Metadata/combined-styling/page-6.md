@@ -1,5 +1,5 @@
 ---
-title: All Pink
+title: 全粉红色
 ---
 
 Callout 元数据: "all-pink"

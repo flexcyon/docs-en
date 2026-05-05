@@ -1,5 +1,5 @@
 ---
-title: Typography
+title: 排版
 ---
 
 定义静音文本颜色的颜色

@@ -1,5 +1,5 @@
 ---
-title: Cyan Background
+title: 青色背景
 ---
 
 Callout 元数据: "bg-cyan"

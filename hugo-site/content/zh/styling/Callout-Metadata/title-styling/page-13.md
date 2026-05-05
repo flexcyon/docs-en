@@ -1,5 +1,5 @@
 ---
-title: Center Title
+title: 中心标题
 ---
 
 Callout 元数据: "center-title"

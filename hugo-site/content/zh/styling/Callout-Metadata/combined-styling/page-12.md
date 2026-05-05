@@ -1,5 +1,5 @@
 ---
-title: LTR All
+title: 全 LTR
 ---
 
 Callout 元数据: "ltr-all"

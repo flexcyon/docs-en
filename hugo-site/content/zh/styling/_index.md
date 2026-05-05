@@ -1,5 +1,5 @@
 ---
-title: Styling
+title: 样式
 ---
 
 如果您想定制 Flexcyon 主题。

@@ -1,5 +1,5 @@
 ---
-title: Line Numbers
+title: 行号
 ---
 
 配置行号和相对行号。

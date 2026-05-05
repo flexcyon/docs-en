@@ -1,5 +1,5 @@
 ---
-title: Capitalize Content
+title: 首字母大写内容
 ---
 
 Callout 元数据: "caps-content"

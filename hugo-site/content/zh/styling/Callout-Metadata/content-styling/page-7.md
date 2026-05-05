@@ -1,5 +1,5 @@
 ---
-title: Tilt Content
+title: 倾斜内容
 ---
 
 Callout 元数据: "tilt-content"

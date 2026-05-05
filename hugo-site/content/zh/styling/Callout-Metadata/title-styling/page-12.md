@@ -1,5 +1,5 @@
 ---
-title: LTR Title
+title: LTR 标题
 ---
 
 Callout 元数据: "ltr-title"

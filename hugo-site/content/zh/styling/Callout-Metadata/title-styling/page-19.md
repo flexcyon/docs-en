@@ -1,5 +1,5 @@
 ---
-title: Oblique Title
+title: 斜标题
 ---
 
 Callout 元数据: "oblique-title"

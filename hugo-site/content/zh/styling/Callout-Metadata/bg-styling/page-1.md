@@ -1,5 +1,5 @@
 ---
-title: Transparent Background
+title: 透明背景
 ---
 
 Callout 元数据: "transparent-bg" 或 "bg-transparent"

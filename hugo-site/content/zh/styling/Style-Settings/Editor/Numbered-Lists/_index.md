@@ -1,5 +1,5 @@
 ---
-title: Numbered Lists
+title: 编号列表
 ---
 
 在主题中配置编号列表

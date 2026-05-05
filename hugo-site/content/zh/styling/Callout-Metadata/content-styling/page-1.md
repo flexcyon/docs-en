@@ -1,5 +1,5 @@
 ---
-title: RTL Content
+title: RTL 内容
 ---
 
 Callout 元数据: "rtl-content"

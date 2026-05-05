@@ -1,5 +1,5 @@
 ---
-title: Flashcard
+title: 抽认卡
 ---
 
 Callout 元数据: "flashcard"

@@ -1,5 +1,5 @@
 ---
-title: Purple Background
+title: 紫色背景
 ---
 
 Callout 元数据: "bg-purple"

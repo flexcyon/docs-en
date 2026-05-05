@@ -4,9 +4,10 @@ help:
 	@echo "Usage: make [target]"
 	@echo ""
 	@echo "Targets:"
-	@echo "  dev           Runs hugo server"
-	@echo "  audit-links   Get all markdown links and pipe to links-audit.md in a TODO format"
-	@echo "  strip-icons   Strips old material icons metadata declarations"
+	@echo "  dev                     Runs hugo server"
+	@echo "  audit-links             Get all markdown links and pipe to links-audit.md in a TODO format"
+	@echo "  strip-icons             Strips old material icons metadata declarations"
+	@echo "  translate-frontmatter   Translates existing title entries with i18n/zh.yaml"
 
 dev:
 	cd hugo-site && hugo server --disableFastRender
@@ -14,7 +15,8 @@ dev:
 REJECT_LIST = content/en/ \
 	      content/zh/readme/page-3.md \
 	      content/zh/credits/_index.md \
-	      content/zh/_index.md
+	      content/zh/_index.md \
+	      content/zh/credits/_index.md \
 
 REJECT_REGEX = $(shell echo "$(REJECT_LIST)" | sed 's/ /|/g')
 
@@ -29,4 +31,9 @@ audit-links:
 strip-icons:
 	@echo "Removing 'icon: material/...' lines from markdown files..."
 	@find hugo-site -name "*.md" -type f -exec sed -i '/^icon: material\//d' {} +
+	@echo "Done."
+
+translate-frontmatter:
+	@echo "Translating frontmatter..."
+	@python3 ./scripts/translate_frontmatter.py
 	@echo "Done."

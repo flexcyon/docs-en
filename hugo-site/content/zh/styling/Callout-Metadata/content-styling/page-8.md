@@ -1,5 +1,5 @@
 ---
-title: Italic Content
+title: 斜体内容
 ---
 
 Callout 元数据: "italic-content"

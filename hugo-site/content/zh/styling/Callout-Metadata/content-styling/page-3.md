@@ -1,5 +1,5 @@
 ---
-title: Center Content
+title: 中心内容
 ---
 
 Callout 元数据: "center-content"

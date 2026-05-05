@@ -1,5 +1,5 @@
 ---
-title: Strikethrough Title
+title: 中划线标题
 ---
 
 Callout 元数据: "line-through-title"

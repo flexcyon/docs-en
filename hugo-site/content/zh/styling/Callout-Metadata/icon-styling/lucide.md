@@ -1,5 +1,5 @@
 ---
-title: Lucide Icons
+title: Lucide 图标
 ---
 
 自定 Callout / Callout 元数据: "`<lucide-icon-value>`"

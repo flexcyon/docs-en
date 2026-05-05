@@ -1,5 +1,5 @@
 ---
-title: Plugins
+title: 插件
 ---
 
 For configuration of officially supported plugins

@@ -1,5 +1,5 @@
 ---
-title: Heading 2 Title
+title: 标题 2 标题
 ---
 
 Callout 元数据: "h2-title"

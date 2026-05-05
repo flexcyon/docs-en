@@ -1,5 +1,5 @@
 ---
-title: Ordered List Styling
+title: 有序列表样式
 ---
 
 > `ol-style_type`

@@ -1,5 +1,5 @@
 ---
-title: Orange Background
+title: 橙色背景
 ---
 
 Callout 元数据: "bg-orange"

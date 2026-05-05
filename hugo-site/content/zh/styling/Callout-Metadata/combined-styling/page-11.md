@@ -1,5 +1,5 @@
 ---
-title: RTL All
+title: 全 RTL
 ---
 
 Callout 元数据: "rtl-all"

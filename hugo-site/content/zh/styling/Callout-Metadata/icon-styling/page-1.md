@@ -1,5 +1,5 @@
 ---
-title: No Icon
+title: 无图标
 ---
 
 Callout 元数据: "no-icon"

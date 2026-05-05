@@ -1,5 +1,5 @@
 ---
-title: All Orange
+title: 全橙色
 ---
 
 Callout 元数据: "all-orange"

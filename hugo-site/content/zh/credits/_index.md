@@ -1,5 +1,5 @@
 ---
-title: Contributors
+title: 贡献者
 ---
 
 非常感谢 Daniel 的 [Halcyon 主题](https://github.com/dbarenholz/halcyon-obsidian) 和

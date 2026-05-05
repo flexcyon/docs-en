@@ -1,5 +1,5 @@
 ---
-title: Design Principles
+title: 设计原则
 tags:
     - styling
 ---

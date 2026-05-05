@@ -1,5 +1,5 @@
 ---
-title: Status Bar
+title: 状态栏
 ---
 
 定义 CSS 变量以配置状态栏。

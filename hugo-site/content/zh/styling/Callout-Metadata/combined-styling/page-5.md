@@ -1,5 +1,5 @@
 ---
-title: All Cyan
+title: 全青色
 ---
 
 Callout 元数据: "all-cyan"

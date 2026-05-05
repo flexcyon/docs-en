@@ -1,5 +1,5 @@
 ---
-title: Capitalize Title
+title: 首字母大写标题
 ---
 
 Callout 元数据: "caps-title"

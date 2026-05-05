@@ -1,5 +1,5 @@
 ---
-title: Heading 6 Title
+title: 标题 6 标题
 ---
 
 Callout 元数据: "h6-title"

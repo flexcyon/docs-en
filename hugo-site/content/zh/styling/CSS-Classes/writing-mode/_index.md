@@ -1,5 +1,5 @@
 ---
-title: Writing Mode
+title: 写入模式
 ---
 
 # 用法

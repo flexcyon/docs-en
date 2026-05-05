@@ -1,5 +1,5 @@
 ---
-title: Editor Background
+title: 编辑背景
 ---
 
 在编辑器中配置背景。

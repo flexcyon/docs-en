@@ -1,5 +1,5 @@
 ---
-title: Properties
+title: 属性
 ---
 
 为文件的属性 / 元数据 / YAML 配置 CSS 变量。

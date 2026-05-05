@@ -1,5 +1,5 @@
 ---
-title: Vertical
+title: 垂直
 ---
 
 Callout 元数据: "vertical"

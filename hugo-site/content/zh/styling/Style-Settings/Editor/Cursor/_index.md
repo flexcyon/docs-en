@@ -1,5 +1,5 @@
 ---
-title: Cursor
+title: 光标
 ---
 
 配置光标。

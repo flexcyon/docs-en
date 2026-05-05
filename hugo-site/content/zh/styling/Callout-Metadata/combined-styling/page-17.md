@@ -1,5 +1,5 @@
 ---
-title: Tilt All
+title: 全倾斜
 ---
 
 Callout 元数据: "tilt-all"

@@ -1,5 +1,5 @@
 ---
-title: CSS Classes
+title: CSS 类
 ---
 
 此页面及其子页面由可用于自定义的 CSS 类组成

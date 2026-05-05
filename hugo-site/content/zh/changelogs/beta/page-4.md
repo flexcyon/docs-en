@@ -1,5 +1,5 @@
 ---
-title: Version 0.4.x
+title: 版本 0.4.x
 ---
 
 ### Version 0.4.0 Light Mode Update

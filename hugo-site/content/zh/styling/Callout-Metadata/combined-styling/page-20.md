@@ -1,5 +1,5 @@
 ---
-title: Dashed All
+title: 全虚线
 ---
 
 Callout 元数据: "dashed-all"

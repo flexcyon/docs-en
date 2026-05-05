@@ -1,5 +1,5 @@
 ---
-title: Red Title
+title: 红色标题
 ---
 
 Callout 元数据: "title-red"

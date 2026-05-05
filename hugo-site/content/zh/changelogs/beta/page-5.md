@@ -1,5 +1,5 @@
 ---
-title: Version 0.5.x
+title: 版本 0.5.x
 ---
 
 ### Version 0.5.0 Revamp Update

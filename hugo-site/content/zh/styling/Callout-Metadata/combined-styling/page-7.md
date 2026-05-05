@@ -1,5 +1,5 @@
 ---
-title: All Green
+title: 全绿色
 ---
 
 Callout 元数据: "all-green"

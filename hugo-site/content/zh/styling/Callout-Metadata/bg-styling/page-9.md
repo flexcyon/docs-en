@@ -1,5 +1,5 @@
 ---
-title: Yellow Background
+title: 黄色背景
 ---
 
 Callout 元数据: "bg-yellow"

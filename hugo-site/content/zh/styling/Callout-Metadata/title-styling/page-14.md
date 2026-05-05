@@ -1,5 +1,5 @@
 ---
-title: Uppercase Title
+title: 大写标题
 ---
 
 Callout 元数据: "uppercase-title"

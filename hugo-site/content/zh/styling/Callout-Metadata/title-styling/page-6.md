@@ -1,5 +1,5 @@
 ---
-title: Pink Title
+title: 粉红色标题
 ---
 
 Callout 元数据: "title-pink"

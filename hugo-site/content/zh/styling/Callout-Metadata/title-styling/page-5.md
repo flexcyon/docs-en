@@ -1,5 +1,5 @@
 ---
-title: Cyan Title
+title: 青色标题
 ---
 
 Callout 元数据: "title-cyan"

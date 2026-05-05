@@ -1,5 +1,5 @@
 ---
-title: List Styling
+title: 列表样式
 ---
 
 在此子页面中，您可以找到使用 Callout 元数据更改有序和无序列表样式的使用示例。

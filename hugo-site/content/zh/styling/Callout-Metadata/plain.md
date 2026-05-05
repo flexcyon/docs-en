@@ -1,5 +1,5 @@
 ---
-title: Plain
+title: 简化
 ---
 
 Callout 元数据: "pln"

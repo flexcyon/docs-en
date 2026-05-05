@@ -1,5 +1,5 @@
 ---
-title: Inline Title
+title: 行内标题
 ---
 
 

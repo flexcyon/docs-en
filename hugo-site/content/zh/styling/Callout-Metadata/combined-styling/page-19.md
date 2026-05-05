@@ -1,5 +1,5 @@
 ---
-title: Oblique All
+title: 全斜
 ---
 
 Callout 元数据: "oblique-all"

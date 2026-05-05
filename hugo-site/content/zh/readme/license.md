@@ -4,13 +4,13 @@ title: 许可证
 
 该主题根据 [MIT 许可证](https://mit-license.org)授权, 可以在[此处找到](https://github.com/bladeacer/flexcyon/blob/master/LICENSE)。
 
-为了保持一致性, 本文档网站及其内容也遵循相同的MIT许可证。
+为了保持一致性, 本文档网站及其内容也遵循相同的MIT许可证.
 
-或者, 您可以在此处查看。
+或者, 您可以在此处查看.
 
 ## 源代码许可
 
-如果您想了解有关许可条款的更多信息, 请[单击此处](https://zh.wikipedia.org/zh-cn/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89)。
+如果您想了解有关许可条款的更多信息, 请 [单击此处](https://zh.wikipedia.org/zh-cn/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89).
 
 ```md
 MIT License

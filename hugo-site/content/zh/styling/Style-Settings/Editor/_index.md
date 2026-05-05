@@ -1,5 +1,5 @@
 ---
-title: Editor
+title: 编辑器
 ---
 
 在此子页面中, 您可以找到 Obsidian 编辑器中元素样式的使用示例。

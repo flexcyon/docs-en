@@ -1,5 +1,5 @@
 ---
-title: All Blue
+title: 全蓝色
 ---
 
 Callout 元数据: "all-blue"

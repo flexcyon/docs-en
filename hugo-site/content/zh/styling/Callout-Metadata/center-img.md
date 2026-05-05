@@ -1,5 +1,5 @@
 ---
-title: Center Image
+title: 图像居中
 ---
 
 Callout 元数据: "center-img"

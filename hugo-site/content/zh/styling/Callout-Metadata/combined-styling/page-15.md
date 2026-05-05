@@ -1,5 +1,5 @@
 ---
-title: Lowercase All
+title: 全小写
 ---
 
 Callout 元数据: "lowercase-all"

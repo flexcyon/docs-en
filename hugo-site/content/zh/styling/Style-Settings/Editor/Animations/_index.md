@@ -1,5 +1,5 @@
 ---
-title: Animations
+title: 动画
 ---
 
 配置提示模态和选项卡容器的过渡动画。

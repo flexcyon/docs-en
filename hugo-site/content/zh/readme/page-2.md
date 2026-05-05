@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: 下载
 ---
 
 # 通过社区主题商店 (推荐)

@@ -1,5 +1,5 @@
 ---
-title: Opacity
+title: 不透明度
 ---
 
 Callout / Callout 元数据:

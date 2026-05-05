@@ -1,5 +1,5 @@
 ---
-title: Settings
+title: 设置
 ---
 
 用于自定义设置的各种 UI 方面的外观。

@@ -1,5 +1,5 @@
 ---
-title: Capitalize All
+title: 全首字母大写
 ---
 
 Callout 元数据: "caps-all"

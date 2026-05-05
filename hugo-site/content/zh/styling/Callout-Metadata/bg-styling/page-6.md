@@ -1,5 +1,5 @@
 ---
-title: Pink Background
+title: 粉红色背景
 ---
 
 Callout 元数据: "bg-pink"

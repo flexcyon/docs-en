@@ -1,5 +1,5 @@
 ---
-title: Empty
+title: 空
 ---
 
 Callout 元数据: "empty"

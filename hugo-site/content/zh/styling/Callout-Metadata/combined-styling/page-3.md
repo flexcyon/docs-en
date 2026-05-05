@@ -1,5 +1,5 @@
 ---
-title: All Red
+title: 全红色
 ---
 
 Callout 元数据: "all-red"

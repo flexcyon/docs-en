@@ -1,5 +1,5 @@
 ---
-title: Green Background
+title: 绿色背景
 ---
 
 Callout 元数据: "bg-green"

@@ -1,5 +1,5 @@
 ---
-title: Version 0.2.x
+title: 版本 0.2.x
 ---
 
 ## Version 0.2.0 Aesthetics Update

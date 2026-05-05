@@ -1,5 +1,5 @@
 ---
-title: Strikethrough All
+title: 全中划线
 ---
 
 Callout 元数据: "line-through-all"

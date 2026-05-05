@@ -1,5 +1,5 @@
 ---
-title: Bullet Lists
+title: 项目列表
 ---
 
 在主题中配置项目符号列表

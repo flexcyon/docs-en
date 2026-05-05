@@ -1,5 +1,5 @@
 ---
-title: Uppercase All
+title: 全大写
 ---
 
 Callout 元数据: "uppercase-all"

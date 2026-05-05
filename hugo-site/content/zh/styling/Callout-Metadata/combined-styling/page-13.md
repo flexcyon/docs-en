@@ -1,5 +1,5 @@
 ---
-title: Center All
+title: 全中心
 ---
 
 Callout 元数据: "center-all"

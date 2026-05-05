@@ -1,5 +1,5 @@
 ---
-title: Strikethrough Content
+title: 中划线内容
 ---
 
 Callout 元数据: "line-through-content"

@@ -1,5 +1,5 @@
 ---
-title: Vertical Alignment
+title: 垂直对齐
 ---
 
 在此子页面中, 您可以找到使用 CSS 类对编辑器内容进行垂直对齐的使用示例。

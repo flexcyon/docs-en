@@ -1,5 +1,5 @@
 ---
-title: All Purple
+title: 全紫色
 ---
 
 Callout 元数据: "all-purple"

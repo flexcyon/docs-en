@@ -1,5 +1,5 @@
 ---
-title: Screenshots
+title: 截图
 ---
 
 {{< rawhtml >}}

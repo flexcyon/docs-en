@@ -1,5 +1,5 @@
 ---
-title: Italic All
+title: 全斜体
 ---
 
 Callout 元数据: "italic-all"

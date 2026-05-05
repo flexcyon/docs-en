@@ -1,5 +1,5 @@
 ---
-title: Headings
+title: 标题
 ---
 
 定义 CSS 变量, 用于与字体粗细等标题相关的样式。
