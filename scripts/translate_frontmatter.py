@@ -14,10 +14,6 @@ if os.path.exists(yaml_path):
                 key, value = line.split(':', 1)
                 translations[key.strip().lower()] = value.strip()
 
-if not translations:
-    print("No translations found or file missing.")
-    exit(0)
-
 sorted_keys = sorted(translations.keys(), key=len, reverse=True)
 keys_pattern = "|".join(re.escape(k) for k in sorted_keys)
 
@@ -27,6 +23,11 @@ line_pattern = re.compile(
 )
 
 word_pattern = re.compile(rf'(?<![a-zA-Z0-9])({keys_pattern})(?![a-zA-Z0-9])', re.IGNORECASE)
+
+tags_block_pattern = re.compile(
+    r'^tags:\s*\n(?:(?:\s+|-).*\n?)*',
+    re.MULTILINE | re.IGNORECASE
+)
 
 
 def enforce_pangu_spacing(text):
@@ -47,20 +48,38 @@ def translate_value(match):
     translated_str = word_pattern.sub(replace_word, value_text)
     final_str = enforce_pangu_spacing(translated_str)
     final_str = re.sub(r'\s+', ' ', final_str)
-
     return f"{prefix}{final_str.strip()}"
 
 
-content_dir = 'hugo-site/content/zh'
-for root, dirs, files in os.walk(content_dir):
-    for file in files:
-        if file.endswith('.md'):
-            path = os.path.join(root, file)
-            with open(path, 'r', encoding='utf-8') as f:
-                content = f.read()
+def process_directory(target_dir, should_translate):
+    if not os.path.exists(target_dir):
+        return
 
-            new_content = line_pattern.sub(translate_value, content)
+    for root, dirs, files in os.walk(target_dir):
+        for file in files:
+            if file.endswith('.md'):
+                path = os.path.join(root, file)
+                with open(path, 'r', encoding='utf-8') as f:
+                    content = f.read()
 
-            if new_content != content:
-                with open(path, 'w', encoding='utf-8') as f:
-                    f.write(new_content)
+                fm_match = re.match(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
+
+                if fm_match:
+                    fm_content = fm_match.group(1)
+                    body = content[fm_match.end():]
+
+                    new_fm_content = tags_block_pattern.sub('', fm_content)
+
+                    if should_translate and translations:
+                        new_fm_content = line_pattern.sub(translate_value, new_fm_content)
+
+                    new_fm_content = re.sub(r'\n\s*\n', '\n', new_fm_content).strip()
+                    new_content = f"---\n{new_fm_content}\n---\n{body}"
+
+                    if new_content != content:
+                        with open(path, 'w', encoding='utf-8') as f:
+                            f.write(new_content)
+
+
+process_directory('hugo-site/content/en', should_translate=False)
+process_directory('hugo-site/content/zh', should_translate=True)
