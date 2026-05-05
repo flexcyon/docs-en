@@ -1,9 +1,5 @@
 ---
 title: 附加插件或 CSS
-tags:
-    - plugins
-    - snippets
-    - styling
 ---
 
 官方支持以下插件/CSS。

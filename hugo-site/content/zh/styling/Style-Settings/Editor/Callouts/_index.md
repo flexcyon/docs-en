@@ -1,7 +1,5 @@
 ---
 title: 标注
-tags:
-  - callouts
 ---
 
 配置标注样式。

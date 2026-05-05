@@ -1,7 +1,5 @@
 ---
 title: Supported Versions
-tags:
-    - logs
 ---
 
 # Supported Versions

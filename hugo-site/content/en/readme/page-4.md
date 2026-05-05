@@ -1,7 +1,5 @@
 ---
 title: Design Principles
-tags:
-    - styling
 ---
 
 This theme sets out to achieve the following

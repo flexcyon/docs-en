@@ -1,7 +1,5 @@
 ---
 title: Callouts
-tags:
-    - callouts
 ---
 
 Configure styling of callouts

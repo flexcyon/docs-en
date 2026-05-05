@@ -2,7 +2,6 @@
 title: Modes
 ---
 
-
 Configure some unique modes flexcyon has to offer. You are also able to configure accessibility settings here.
 
 ## Navigation
