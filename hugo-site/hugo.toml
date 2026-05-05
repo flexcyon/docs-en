@@ -27,6 +27,14 @@ customCSS = ["css/custom.css"]
 
 [params.navbar]
 displayLanguageSwitch = true
+displayLogo = true
+
+[params.navbar.logo]
+path = "100-x-25-logo.svg"
+dark = "100-x-25-logo.svg"
+link = "/docs-en"
+width = 100
+height = 25
 
 [params.search]
   type = "flexsearch"
