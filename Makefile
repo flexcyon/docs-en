@@ -34,6 +34,7 @@ strip-icons:
 	@echo "Done."
 
 translate-frontmatter:
-	@echo "Translating frontmatter..."
+translate-frontmatter:
+	@echo "Processing content (EN: tag removal | ZH: translation & tag removal)..."
 	@python3 ./scripts/translate_frontmatter.py
 	@echo "Done."

@@ -44,7 +44,6 @@ def translate_value(match):
     def replace_word(word_match):
         word_key = word_match.group(1).lower()
         return translations.get(word_key, word_match.group(1))
-
     translated_str = word_pattern.sub(replace_word, value_text)
     final_str = enforce_pangu_spacing(translated_str)
     final_str = re.sub(r'\s+', ' ', final_str)
@@ -63,19 +62,14 @@ def process_directory(target_dir, should_translate):
                     content = f.read()
 
                 fm_match = re.match(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
-
                 if fm_match:
                     fm_content = fm_match.group(1)
-                    body = content[fm_match.end():]
-
+                    body = content[fm_match.end():].lstrip('\n')
                     new_fm_content = tags_block_pattern.sub('', fm_content)
-
                     if should_translate and translations:
                         new_fm_content = line_pattern.sub(translate_value, new_fm_content)
-
                     new_fm_content = re.sub(r'\n\s*\n', '\n', new_fm_content).strip()
-                    new_content = f"---\n{new_fm_content}\n---\n{body}"
-
+                    new_content = f"---\n{new_fm_content}\n---\n\n{body}"
                     if new_content != content:
                         with open(path, 'w', encoding='utf-8') as f:
                             f.write(new_content)
