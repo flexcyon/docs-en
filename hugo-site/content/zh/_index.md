@@ -3,33 +3,6 @@ title: 前言
 icon: material/home
 ---
 
-{{< rawhtml >}}
-<div align="center">
-    <a href="https://flexcyon.github.io/docs-en/">
-        <img alt="English Documentation" src="https://img.shields.io/badge/english-docs-blue">
-    </a>
-    <a href="https://flexcyon.github.io/docs-en/zh">
-    <img alt="中文文档" src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E6%96%87%E6%A1%A3-purple">
-    </a>
-    <a href="https://matrix.to/#/#flexcyon-space:matrix.org">
-        <img alt="Matrix" src="https://img.shields.io/matrix/flexcyon-space%3Amatrix.org?&logo=matrix&label=Matrix%20Space">
-    </a>
-</div>
-
-<a href="https://www.moritzjung.dev/obsidian-stats/themes/flexcyon-1/">
-    <img src="https://img.shields.io/badge/dynamic/json?query=%24%5B%22flexcyon%22%5D.download&url=https%3A%2F%2Freleases.obsidian.md%2Fstats%2Ftheme&label=下载数&logo=obsidian" referrerpolicy="noreferrer" alt="下载数">
-</a>
-<a href="https://github.com/bladeacer/flexcyon/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/bladeacer/flexcyon?label=许可证" referrerpolicy="noreferrer" alt="许可证">
-</a>
-<a href="https://github.com/bladeacer/flexcyon/releases/latest">
-    <img src="https://img.shields.io/github/v/release/bladeacer/flexcyon?label=最低版本&&sort=semver" referrerpolicy="noreferrer" alt="最低版本">
-</a>
-<a href="https://matrix.to/#/#flexcyon-space:matrix.org">
-    <img alt="Matrix" src="https://img.shields.io/matrix/flexcyon-space%3Amatrix.org?&logo=matrix&label=Matrix%20Space">
-</a>
-{{< /rawhtml >}}
-
 这里存放着 [Flexcyon 主题](https://github.com/bladeacer/flexcyon) 的中文文档。
 
 **请注意, 英文文档是原始版本。**

@@ -59,3 +59,8 @@ body:where(.dark, .dark *) {
 .hextra-search-wrapper .hextra-search-prefix {
   text-transform: unset;
 }
+
+main[id="content"] h1 {
+  text-align: unset;
+  padding-block-end: 4px;
+}
