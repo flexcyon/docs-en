@@ -1,6 +1,5 @@
 ---
 title: RTL Content
-icon: material/align-horizontal-right
 ---
 
 Callout metadata: "rtl-content"

@@ -1,6 +1,5 @@
 ---
 title: Design Principles
-icon: material/pen
 tags:
     - styling
 ---

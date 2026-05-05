@@ -1,6 +1,5 @@
 ---
 title: Screenshots
-icon: material/image
 ---
 
 Figured out how to set screenshots yay.

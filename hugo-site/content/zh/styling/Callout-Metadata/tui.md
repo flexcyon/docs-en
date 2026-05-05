@@ -1,6 +1,5 @@
 ---
 title: TUI
-icon: material/apple-keyboard-command
 ---
 
 Callout 元数据: "tui"

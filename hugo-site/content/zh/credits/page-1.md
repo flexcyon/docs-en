@@ -1,5 +1,4 @@
 ---
-icon: material/server
 title: Tools and Software
 ---
 

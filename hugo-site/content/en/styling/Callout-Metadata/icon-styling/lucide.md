@@ -1,6 +1,5 @@
 ---
 title: Lucide Icons
-icon: material/emoticon-cool
 ---
 
 Custom Callout / Callout Metadata: "`<lucide-icon-value>`"

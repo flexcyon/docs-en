@@ -1,6 +1,5 @@
 ---
 title: Underline Content
-icon: material/format-underline
 ---
 
 Callout 元数据: "underline-content"

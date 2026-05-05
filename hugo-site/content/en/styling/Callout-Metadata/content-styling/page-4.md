@@ -1,6 +1,5 @@
 ---
 title: Uppercase Content
-icon: material/format-letter-case-upper
 ---
 
 Callout metadata: "uppercase-content"

@@ -1,6 +1,5 @@
 ---
 title: Capitalize All
-icon: material/caps-lock
 ---
 
 Callout metadata: "caps-all"

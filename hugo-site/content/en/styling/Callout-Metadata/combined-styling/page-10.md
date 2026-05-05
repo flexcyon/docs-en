@@ -1,6 +1,5 @@
 ---
 title: Extended Colour Palette Combined
-icon: material/palette-outline
 ---
 
 > `all-color1-color2-`

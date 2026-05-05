@@ -1,6 +1,5 @@
 ---
 title: Links
-icon: material/link
 ---
 
 Configure the color of links.

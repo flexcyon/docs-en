@@ -1,6 +1,5 @@
 ---
 title: Opacity
-icon: material/opacity
 ---
 
 Custom Callout / Callout Metadata:

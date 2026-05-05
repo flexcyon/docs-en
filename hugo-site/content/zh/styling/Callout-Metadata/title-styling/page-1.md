@@ -1,6 +1,5 @@
 ---
 title: No Title
-icon: material/cancel
 ---
 
 Callout 元数据: "no-title"

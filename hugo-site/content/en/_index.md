@@ -1,6 +1,5 @@
 ---
 title: Home
-icon: material/home
 ---
 
 <div align="center">

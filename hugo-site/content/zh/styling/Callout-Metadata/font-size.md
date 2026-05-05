@@ -1,6 +1,5 @@
 ---
 title: Font size
-icon: material/format-size
 ---
 
  Callout / Callout 元数据:

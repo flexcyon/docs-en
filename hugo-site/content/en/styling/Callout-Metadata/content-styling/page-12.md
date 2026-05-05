@@ -1,6 +1,5 @@
 ---
 title: Underline Content
-icon: material/format-underline
 ---
 
 Callout metadata: "underline-content"

@@ -1,6 +1,5 @@
 ---
 title: Vertical Alignment - LTR
-icon: material/align-horizontal-left
 ---
 
 # 用法

@@ -1,6 +1,5 @@
 ---
 title: All Blue
-icon: material/format-color-fill
 ---
 
 Callout metadata: "all-blue"

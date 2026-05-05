@@ -1,6 +1,5 @@
 ---
 title: Line Numbers
-icon: material/line-scan
 ---
 
 配置行号和相对行号。

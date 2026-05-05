@@ -1,6 +1,5 @@
 ---
 title: Accent Colors
-icon: material/format-color-fill
 ---
 
 Defined colors overrides theme defaults for heading colors and other UI elements.

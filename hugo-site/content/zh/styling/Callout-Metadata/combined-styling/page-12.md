@@ -1,6 +1,5 @@
 ---
 title: LTR All
-icon: material/align-horizontal-left
 ---
 
 Callout 元数据: "ltr-all"

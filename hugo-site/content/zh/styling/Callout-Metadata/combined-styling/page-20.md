@@ -1,6 +1,5 @@
 ---
 title: Dashed All
-icon: material/format-color-text
 ---
 
 Callout 元数据: "dashed-all"

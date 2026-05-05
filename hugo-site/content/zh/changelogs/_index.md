@@ -1,5 +1,4 @@
 ---
-icon: material/script-text
 title: Changelogs
 ---
 

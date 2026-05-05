@@ -1,6 +1,5 @@
 ---
 title: Prompts
-icon: material/text-box
 ---
 
 配置命令提示符, 快速切换器等提示。

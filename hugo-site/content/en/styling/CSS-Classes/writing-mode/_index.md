@@ -1,6 +1,5 @@
 ---
 title: Writing Mode
-icon: material/keyboard
 ---
 
 # Usage

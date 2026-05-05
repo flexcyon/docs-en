@@ -1,6 +1,5 @@
 ---
 title: Transparent Background
-icon: material/layers-off-outline
 ---
 
 Callout 元数据: "transparent-bg" 或 "bg-transparent"

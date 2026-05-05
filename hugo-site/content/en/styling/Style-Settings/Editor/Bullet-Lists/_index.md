@@ -1,6 +1,5 @@
 ---
 title: Bullet Lists
-icon: material/format-list-bulleted
 ---
 
 Configure bullet lists in the theme

@@ -1,6 +1,5 @@
 ---
 title: Layout
-icon: material/page-layout-sidebar-left
 ---
 
 配置工作区布局。

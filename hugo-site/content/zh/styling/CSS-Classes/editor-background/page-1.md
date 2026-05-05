@@ -1,6 +1,5 @@
 ---
 title: Dotted background
-icon: material/dots-grid
 ---
 
 # 用法

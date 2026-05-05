@@ -1,6 +1,5 @@
 ---
 title: Heading 4 Title
-icon: material/format-header-4
 ---
 
 Callout metadata: "h4-title"

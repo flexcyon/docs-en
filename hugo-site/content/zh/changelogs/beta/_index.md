@@ -1,5 +1,4 @@
 ---
-icon: material/beta
 title: 测试版
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Lowercase Title
-icon: material/format-letter-case-lower
 ---
 
 Callout 元数据: "lowercase-title"

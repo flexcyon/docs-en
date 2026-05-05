@@ -1,6 +1,5 @@
 ---
 title: Tilt All
-icon: material/angle-acute
 ---
 
 Callout metadata: "tilt-all"

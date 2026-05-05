@@ -1,6 +1,5 @@
 ---
 title: Version 0.6.x
-icon: material/numeric-6
 ---
 
 ### 0.6.0 Golden Update

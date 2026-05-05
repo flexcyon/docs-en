@@ -1,6 +1,5 @@
 ---
 title: Blue Background
-icon: material/layers-outline
 ---
 
 Callout metadata: "bg-blue"

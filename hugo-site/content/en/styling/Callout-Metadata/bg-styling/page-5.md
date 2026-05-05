@@ -1,6 +1,5 @@
 ---
 title: Cyan Background
-icon: material/layers-outline
 ---
 
 Callout metadata: "bg-cyan"

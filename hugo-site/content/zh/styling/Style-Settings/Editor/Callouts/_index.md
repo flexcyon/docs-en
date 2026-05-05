@@ -1,6 +1,5 @@
 ---
 title: Callouts
-icon: material/information-slab-box-outline
 tags:
   - callouts
 ---

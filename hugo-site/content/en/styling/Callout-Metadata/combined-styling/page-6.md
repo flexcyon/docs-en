@@ -1,6 +1,5 @@
 ---
 title: All Pink
-icon: material/format-color-fill
 ---
 
 Callout metadata: "all-pink"

@@ -1,6 +1,5 @@
 ---
 title: Interface Title
-icon: material/format-title
 ---
 
 Callout metadata: "font-interface-title"

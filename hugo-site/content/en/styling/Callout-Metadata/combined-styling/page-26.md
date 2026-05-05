@@ -1,6 +1,5 @@
 ---
 title: Text All
-icon: material/all-inclusive-box
 ---
 
 Callout metadata: "font-text-all"

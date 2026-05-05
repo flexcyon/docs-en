@@ -1,6 +1,5 @@
 ---
 title: Oblique Title
-icon: material/format-letter-case-upper
 ---
 
 Callout metadata: "oblique-title"

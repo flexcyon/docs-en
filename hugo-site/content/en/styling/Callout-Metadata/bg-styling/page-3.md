@@ -1,6 +1,5 @@
 ---
 title: Red background
-icon: material/layers-outline
 ---
 
 Callout metadata: "bg-red"

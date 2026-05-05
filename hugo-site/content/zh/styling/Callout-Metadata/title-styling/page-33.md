@@ -1,6 +1,5 @@
 ---
 title: Text Title
-icon: material/format-title
 ---
 
 Callout 元数据: "font-monospace-title"

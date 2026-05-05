@@ -1,6 +1,5 @@
 ---
 title: Oblique All
-icon: material/format-text-variant
 ---
 
 Callout 元数据: "oblique-all"

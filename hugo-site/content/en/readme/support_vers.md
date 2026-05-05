@@ -1,5 +1,4 @@
 ---
-icon: material/cog
 tags:
     - logs
 ---

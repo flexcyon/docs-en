@@ -1,6 +1,5 @@
 ---
 title: Headings
-icon: material/format-header-pound
 ---
 
 Defines CSS variables for styling related to headings like font weight.

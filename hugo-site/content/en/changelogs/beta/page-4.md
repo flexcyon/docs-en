@@ -1,6 +1,5 @@
 ---
 title: Version 0.4.x
-icon: material/numeric-4
 ---
 
 ### Version 0.4.0 Light Mode Update

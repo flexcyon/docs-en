@@ -1,6 +1,5 @@
 ---
 title: Animations
-icon: material/animation
 ---
 
 Configure transition animations of prompts, modals and tab container.

@@ -1,6 +1,5 @@
 ---
 title: UI Font Size
-icon: material/format-font-size-increase
 ---
 
 Overrides default font sizes used in the interface.

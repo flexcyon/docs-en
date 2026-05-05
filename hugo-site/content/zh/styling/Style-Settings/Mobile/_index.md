@@ -1,6 +1,5 @@
 ---
 title: 手机设备
-icon: material/cellphone
 ---
 
 配置与手机设备相关的样式设置.

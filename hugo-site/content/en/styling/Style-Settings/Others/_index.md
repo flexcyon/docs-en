@@ -1,6 +1,5 @@
 ---
 title: Others
-icon: material/dots-horizontal
 ---
 
 For configuring vim mode text, new tab appearance (ASCII art), sidedock icons,

@@ -1,6 +1,5 @@
 ---
 title: Modes
-icon: material/toggle-switch
 ---
 
 配置 flexcyon 提供的一些独特模式。您还可以在此处配置辅助功能设置。

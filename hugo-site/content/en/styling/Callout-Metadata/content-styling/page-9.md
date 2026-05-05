@@ -1,6 +1,5 @@
 ---
 title: Oblique Content
-icon: material/format-text-variant
 ---
 
 Callout metadata: "oblique-content"

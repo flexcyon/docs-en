@@ -1,6 +1,5 @@
 ---
 title: Version 0.1.x and below
-icon: material/numeric-1
 ---
 
 Versions below 0.0.5 are not documented as they lack notable features.

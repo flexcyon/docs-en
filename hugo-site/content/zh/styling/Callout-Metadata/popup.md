@@ -1,6 +1,5 @@
 ---
 title: Popup
-icon: material/cursor-default
 ---
 
 Callout 元数据: "$pop"

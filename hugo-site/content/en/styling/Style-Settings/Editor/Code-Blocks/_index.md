@@ -1,6 +1,5 @@
 ---
 title: Code Blocks
-icon: material/format-color-highlight
 ---
 
 Configure code blocks in the theme

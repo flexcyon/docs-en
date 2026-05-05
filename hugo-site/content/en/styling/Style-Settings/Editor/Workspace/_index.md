@@ -1,6 +1,5 @@
 ---
 title: Workspace
-icon: material/layers-triple-outline
 ---
 
 Defines file line width when readable line length is enabled, opacity of dimmed elements.

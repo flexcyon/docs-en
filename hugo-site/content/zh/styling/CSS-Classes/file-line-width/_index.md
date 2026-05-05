@@ -1,6 +1,5 @@
 ---
 title: File Line Width
-icon: material/arrow-expand-horizontal
 ---
 
 # 用法

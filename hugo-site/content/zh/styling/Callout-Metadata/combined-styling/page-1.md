@@ -1,6 +1,5 @@
 ---
 title: Empty
-icon: material/cancel
 ---
 
 Callout 元数据: "empty"

@@ -1,6 +1,5 @@
 ---
 title: Plain
-icon: material/vector-square
 ---
 
 Callout metadata: "pln"

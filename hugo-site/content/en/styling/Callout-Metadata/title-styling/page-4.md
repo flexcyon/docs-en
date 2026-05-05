@@ -1,6 +1,5 @@
 ---
 title: Purple Title
-icon: material/select-color
 ---
 
 Callout metadata: "title-purple"

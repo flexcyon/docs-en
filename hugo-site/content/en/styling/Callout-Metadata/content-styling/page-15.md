@@ -1,6 +1,5 @@
 ---
 title: Interface Content
-icon: material/table-of-contents
 ---
 
 Callout metadata: "font-interface-content"

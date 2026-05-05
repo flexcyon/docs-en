@@ -1,6 +1,5 @@
 ---
 title: Inline Title
-icon: material/format-underline-wavy
 ---
 
 

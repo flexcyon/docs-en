@@ -1,6 +1,5 @@
 ---
 title: Text Title
-icon: material/format-title
 ---
 
 Callout metadata: "font-text-title"

@@ -1,6 +1,5 @@
 ---
 title: Vertical
-icon: material/view-split-vertical
 ---
 
 Callout metadata: "vertical"

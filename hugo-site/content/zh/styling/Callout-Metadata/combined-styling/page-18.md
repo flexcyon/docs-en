@@ -1,6 +1,5 @@
 ---
 title: Italic All
-icon: material/format-italic
 ---
 
 Callout 元数据: "italic-all"

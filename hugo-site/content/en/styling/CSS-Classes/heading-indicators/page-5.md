@@ -1,6 +1,5 @@
 ---
 title: Heading indicators - H5
-icon: material/format-header-5
 ---
 
 Add a heading indicator for heading 5s. Will appear in reading, editing and

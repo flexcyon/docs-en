@@ -1,6 +1,5 @@
 ---
 title: Overline All
-icon: material/format-overline
 ---
 
 Callout metadata: "overline-all"

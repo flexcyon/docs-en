@@ -1,6 +1,5 @@
 ---
 title: Orange Title
-icon: material/select-color
 ---
 
 Callout metadata: "title-orange"

@@ -1,6 +1,5 @@
 ---
 title: Tilt Content
-icon: material/angle-acute
 ---
 
 Callout 元数据: "tilt-content"

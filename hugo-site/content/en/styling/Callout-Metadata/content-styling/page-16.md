@@ -1,6 +1,5 @@
 ---
 title: Text Content
-icon: material/table-of-contents
 ---
 
 Callout metadata: "font-text-content"

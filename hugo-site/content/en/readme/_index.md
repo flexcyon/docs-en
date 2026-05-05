@@ -1,6 +1,5 @@
 ---
 title: About Flexcyon
-icon: material/book-open-blank-variant-outline
 ---
 
 A Obsidian theme combining the colour schemes of Halcyon, Flexoki and Origami.

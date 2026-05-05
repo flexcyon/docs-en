@@ -1,6 +1,5 @@
 ---
 title: RTL All
-icon: material/align-horizontal-right
 ---
 
 Callout metadata: "rtl-all"

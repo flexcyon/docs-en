@@ -1,6 +1,5 @@
 ---
 title: Font weight All
-icon: material/format-bold
 ---
 
 Callout 元数据: "w-`value`-all"

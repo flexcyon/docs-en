@@ -1,6 +1,5 @@
 ---
 title: Numbered Lists
-icon: material/format-list-numbered
 ---
 
 Configure numbered lists in the theme

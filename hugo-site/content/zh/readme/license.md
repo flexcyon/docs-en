@@ -1,6 +1,5 @@
 ---
 title: 许可证
-icon: material/scale-balance
 ---
 
 该主题根据 [MIT 许可证](https://mit-license.org)授权, 可以在[此处找到](https://github.com/bladeacer/flexcyon/blob/master/LICENSE)。

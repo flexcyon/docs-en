@@ -1,6 +1,5 @@
 ---
 title: Table
-icon: material/table-cog
 ---
 
 定义表边框的颜色以及读取模式下表的宽度。

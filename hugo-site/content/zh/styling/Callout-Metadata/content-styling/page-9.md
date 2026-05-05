@@ -1,6 +1,5 @@
 ---
 title: Oblique Content
-icon: material/format-text-variant
 ---
 
 Callout 元数据: "oblique-content"

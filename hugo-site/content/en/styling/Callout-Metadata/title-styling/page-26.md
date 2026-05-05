@@ -1,6 +1,5 @@
 ---
 title: Heading 2 Title
-icon: material/format-header-2
 ---
 
 Callout metadata: "h2-title"

@@ -1,6 +1,5 @@
 ---
 title: No View Header
-icon: material/view-compact
 ---
 
 # Usage

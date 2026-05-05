@@ -1,6 +1,5 @@
 ---
 title: Red Title
-icon: material/select-color
 ---
 
 Callout metadata: "title-red"

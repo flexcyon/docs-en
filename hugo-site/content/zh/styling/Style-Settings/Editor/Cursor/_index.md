@@ -1,6 +1,5 @@
 ---
 title: Cursor
-icon: material/cursor-text
 ---
 
 配置光标。

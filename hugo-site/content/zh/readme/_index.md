@@ -1,6 +1,5 @@
 ---
 title: 关于 Flexcyon 主题
-icon: material/book-open-blank-variant-outline
 ---
 
 这是一个结合 Halcyon, Flexoki 与 Origami 配色方案的 Obsidian 主题。

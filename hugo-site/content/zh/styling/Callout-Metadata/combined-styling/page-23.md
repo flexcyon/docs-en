@@ -1,6 +1,5 @@
 ---
 title: Strikethrough All
-icon: material/format-strikethrough
 ---
 
 Callout 元数据: "line-through-all"

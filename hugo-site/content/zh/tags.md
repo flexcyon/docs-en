@@ -1,6 +1,5 @@
 ---
 title: Tags
-icon: material/tag
 ---
 
 # 标签

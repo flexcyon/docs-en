@@ -1,6 +1,5 @@
 ---
 title: Input
-icon: material/text
 ---
 
 Accepted Formats: px

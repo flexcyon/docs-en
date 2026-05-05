@@ -1,6 +1,5 @@
 ---
 title: Prompts
-icon: material/text-box
 ---
 
 Configure prompts such as the command prompt, quick switcher etc.

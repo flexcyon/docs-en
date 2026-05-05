@@ -1,5 +1,4 @@
 ---
-icon: material/heart
 title: Contributors
 ---
 

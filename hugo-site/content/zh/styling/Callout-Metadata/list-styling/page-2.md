@@ -1,6 +1,5 @@
 ---
 title: Unordered List Styling
-icon: material/format-list-bulleted
 ---
 
 > `ul-style_type`

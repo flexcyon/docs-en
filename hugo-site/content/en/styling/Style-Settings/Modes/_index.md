@@ -1,6 +1,5 @@
 ---
 title: Modes
-icon: material/toggle-switch
 ---
 
 

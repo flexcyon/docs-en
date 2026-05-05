@@ -1,6 +1,5 @@
 ---
 title: Strikethrough Content
-icon: material/format-strikethrough
 ---
 
 Callout metadata: "line-through-content"

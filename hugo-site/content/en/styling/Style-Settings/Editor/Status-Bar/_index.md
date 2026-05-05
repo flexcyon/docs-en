@@ -1,6 +1,5 @@
 ---
 title: Status Bar
-icon: material/state-machine
 ---
 
 Defines CSS variables to configure the status bar

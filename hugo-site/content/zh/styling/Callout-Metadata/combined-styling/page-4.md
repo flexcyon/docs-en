@@ -1,6 +1,5 @@
 ---
 title: All Purple
-icon: material/format-color-fill
 ---
 
 Callout 元数据: "all-purple"

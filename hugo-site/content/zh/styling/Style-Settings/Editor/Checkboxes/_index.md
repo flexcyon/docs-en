@@ -1,6 +1,5 @@
 ---
 title: Checkboxes
-icon: material/checkbox-outline
 ---
 
 在此子页面中, 您可以找到复选框样式的使用示例。

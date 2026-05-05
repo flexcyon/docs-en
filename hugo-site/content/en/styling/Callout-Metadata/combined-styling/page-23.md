@@ -1,6 +1,5 @@
 ---
 title: Strikethrough All
-icon: material/format-strikethrough
 ---
 
 Callout metadata: "line-through-all"

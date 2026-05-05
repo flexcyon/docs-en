@@ -1,6 +1,5 @@
 ---
 title: Strikethrough Content
-icon: material/format-strikethrough
 ---
 
 Callout 元数据: "line-through-content"

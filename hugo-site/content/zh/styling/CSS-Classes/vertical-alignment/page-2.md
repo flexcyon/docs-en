@@ -1,6 +1,5 @@
 ```---
 title: Vertical Alignment - Tategaki
-icon: material/align-horizontal-right
 ---
 
 # 用法

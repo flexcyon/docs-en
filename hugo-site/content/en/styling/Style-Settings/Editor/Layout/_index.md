@@ -1,6 +1,5 @@
 ---
 title: Layout
-icon: material/page-layout-sidebar-left
 ---
 
 Configure the workspace layout.

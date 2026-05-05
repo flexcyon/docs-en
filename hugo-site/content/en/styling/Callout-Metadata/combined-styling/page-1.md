@@ -1,6 +1,5 @@
 ---
 title: Empty
-icon: material/cancel
 ---
 
 Callout metadata: "empty"

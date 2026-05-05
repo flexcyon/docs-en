@@ -1,6 +1,5 @@
 ---
 title: Monospace All
-icon: material/all-inclusive-box-outline
 ---
 
 Callout metadata: "font-monospace-all"

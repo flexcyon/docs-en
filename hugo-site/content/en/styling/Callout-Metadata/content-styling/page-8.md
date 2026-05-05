@@ -1,6 +1,5 @@
 ---
 title: Italic Content
-icon: material/format-italic
 ---
 
 Callout metadata: "italic-content"

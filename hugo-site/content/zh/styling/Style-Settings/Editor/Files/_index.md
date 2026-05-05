@@ -1,6 +1,5 @@
 ---
 title: Files
-icon: material/file-cog
 ---
 
 配置文件树和文件夹样式。

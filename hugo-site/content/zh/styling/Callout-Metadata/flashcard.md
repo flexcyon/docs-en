@@ -1,6 +1,5 @@
 ---
 title: Flashcard
-icon: material/card-text-outline
 ---
 
 Callout 元数据: "flashcard"

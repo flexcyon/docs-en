@@ -1,6 +1,5 @@
 ---
 title: Files
-icon: material/file-cog
 ---
 
 Configure file trees and folder styles.

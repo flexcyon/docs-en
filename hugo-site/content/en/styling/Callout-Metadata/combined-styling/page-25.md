@@ -1,6 +1,5 @@
 ---
 title: Interface All
-icon: material/all-inclusive
 ---
 
 Callout metadata: "font-interface-all"

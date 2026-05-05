@@ -1,6 +1,5 @@
 ---
 title: Font weight Title
-icon: material/format-bold
 ---
 
 Callout 元数据: "w-`value`-title"

@@ -1,6 +1,5 @@
 ---
 title: Capitalize Title
-icon: material/caps-lock
 ---
 
 Callout metadata: "caps-title"

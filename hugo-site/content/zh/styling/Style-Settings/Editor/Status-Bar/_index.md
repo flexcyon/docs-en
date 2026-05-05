@@ -1,6 +1,5 @@
 ---
 title: Status Bar
-icon: material/state-machine
 ---
 
 定义 CSS 变量以配置状态栏。

@@ -1,6 +1,5 @@
 ---
 title: Accent Colors
-icon: material/format-color-fill
 ---
 
 定义的颜色会覆盖标题颜色和其他UI元素的主题默认值。还包括覆盖强调色。

@@ -1,6 +1,5 @@
 ---
 title: Dashed Title
-icon: material/format-color-text
 ---
 
 Callout metadata: "dashed-title"

@@ -1,6 +1,5 @@
 ---
 title: All Orange
-icon: material/format-color-fill
 ---
 
 Callout metadata: "all-orange"

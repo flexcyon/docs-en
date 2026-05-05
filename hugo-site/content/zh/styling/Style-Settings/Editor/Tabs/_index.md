@@ -1,6 +1,5 @@
 ---
 title: Tabs
-icon: material/tab
 ---
 
 选项卡相关设置.

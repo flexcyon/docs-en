@@ -1,6 +1,5 @@
 ---
 title: Overline Content
-icon: material/format-overline
 ---
 
 Callout metadata: "overline-content"

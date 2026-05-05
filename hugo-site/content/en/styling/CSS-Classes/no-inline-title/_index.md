@@ -1,6 +1,5 @@
 ---
 title: No Inline Title
-icon: material/format-strikethrough-variant
 ---
 
 # Usage

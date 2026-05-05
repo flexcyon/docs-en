@@ -1,6 +1,5 @@
 ---
 title: LTR All
-icon: material/align-horizontal-left
 ---
 
 Callout metadata: "ltr-all"

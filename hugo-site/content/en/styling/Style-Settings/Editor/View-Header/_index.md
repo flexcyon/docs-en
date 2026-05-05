@@ -1,6 +1,5 @@
 ---
 title: View Header
-icon: material/format-header-equal
 ---
 
 ## Navigation

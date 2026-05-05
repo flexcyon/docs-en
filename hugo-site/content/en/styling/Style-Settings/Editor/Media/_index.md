@@ -1,6 +1,5 @@
 ---
 title: Media
-icon: material/multimedia
 ---
 
 Configure media related settings

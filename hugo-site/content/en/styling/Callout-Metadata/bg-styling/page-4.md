@@ -1,6 +1,5 @@
 ---
 title: Purple Background
-icon: material/layers-outline
 ---
 
 Callout metadata: "bg-purple"

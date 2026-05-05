@@ -1,6 +1,5 @@
 ---
 title: Mobile
-icon: material/cellphone
 ---
 
 Configure mobile related Style Settings.

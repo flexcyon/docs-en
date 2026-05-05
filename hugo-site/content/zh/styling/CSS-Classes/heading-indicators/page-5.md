@@ -1,6 +1,5 @@
 ---
 title: Heading indicators - H5
-icon: material/format-header-5
 ---
 
 为标题 5 添加标题指示器。将出现在 Reading, Live Preview 和 Source 模式中。

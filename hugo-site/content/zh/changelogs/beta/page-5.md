@@ -1,6 +1,5 @@
 ---
 title: Version 0.5.x
-icon: material/numeric-5
 ---
 
 ### Version 0.5.0 Revamp Update

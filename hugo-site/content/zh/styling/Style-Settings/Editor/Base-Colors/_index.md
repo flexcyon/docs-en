@@ -1,6 +1,5 @@
 ---
 title: Base Colors
-icon: material/format-color-highlight
 ---
 
 定义的颜色会覆盖背景和其他UI元素中使用的基础颜色的主题默认值。

@@ -1,6 +1,5 @@
 ---
 title: Extended Colour Palette Background
-icon: material/palette-outline
 ---
 
 > `bg-color1-color2-`

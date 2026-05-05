@@ -1,6 +1,5 @@
 ---
 title: Links
-icon: material/link
 ---
 
 配置链接的颜色。

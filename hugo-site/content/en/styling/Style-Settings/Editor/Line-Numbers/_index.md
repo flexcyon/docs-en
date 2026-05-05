@@ -1,6 +1,5 @@
 ---
 title: Line Numbers
-icon: material/line-scan
 ---
 
 Configure line numbers and relative line numbers

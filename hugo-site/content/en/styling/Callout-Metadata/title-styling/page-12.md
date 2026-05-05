@@ -1,6 +1,5 @@
 ---
 title: LTR Title
-icon: material/align-horizontal-left
 ---
 
 Callout metadata: "ltr-title"

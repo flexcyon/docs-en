@@ -1,6 +1,5 @@
 ---
 title: Heading 3 Title
-icon: material/format-header-3
 ---
 
 Callout 元数据: "h3-title"

@@ -1,6 +1,5 @@
 ---
 title: Capitalize Content
-icon: material/caps-lock
 ---
 
 Callout 元数据: "caps-content"

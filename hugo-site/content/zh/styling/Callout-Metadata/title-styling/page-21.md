@@ -1,6 +1,5 @@
 ---
 title: Overline Title
-icon: material/format-overline
 ---
 
 Callout 元数据: "overline-title"

@@ -1,6 +1,5 @@
 ---
 title: Blue Title
-icon: material/select-color
 ---
 
 Callout metadata: "title-blue"

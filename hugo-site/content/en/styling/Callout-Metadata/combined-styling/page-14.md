@@ -1,6 +1,5 @@
 ---
 title: Uppercase All
-icon: material/format-letter-case-upper
 ---
 
 Callout metadata: "uppercase-all"

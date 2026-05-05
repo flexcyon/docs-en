@@ -1,6 +1,5 @@
 ---
 title: No Icon
-icon: material/emoticon-minus
 ---
 
 Callout 元数据: "no-icon"

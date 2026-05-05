@@ -1,6 +1,5 @@
 ---
 title: Text All
-icon: material/all-inclusive
 ---
 
 Callout 元数据: "font-monospace-all"

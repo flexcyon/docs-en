@@ -1,6 +1,5 @@
 ---
 title: Title Bar
-icon: material/format-text-variant-outline
 ---
 
 用于配置标题栏, 并在标题栏按钮上启用彩虹悬停效果。

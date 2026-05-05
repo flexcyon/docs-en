@@ -6,6 +6,7 @@ help:
 	@echo "Targets:"
 	@echo "  dev           Runs hugo server"
 	@echo "  audit-links   Get all markdown links and pipe to links-audit.md in a TODO format"
+	@echo "  strip-icons   Strips old material icons metadata declarations"
 
 dev:
 	cd hugo-site && hugo server --disableFastRender
@@ -24,3 +25,8 @@ audit-links:
 		awk -F: '{print "- [ ] `" $$1 ":" $$2 "`"}' | sort > ../links-audit.md
 	@echo "Total internal links found: $$(wc -l < links-audit.md)"
 	@head -n 20 links-audit.md
+
+strip-icons:
+	@echo "Removing 'icon: material/...' lines from markdown files..."
+	@find hugo-site -name "*.md" -type f -exec sed -i '/^icon: material\//d' {} +
+	@echo "Done."

@@ -1,5 +1,4 @@
 ---
-icon: material/beta
 title: Beta
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Installation
-icon: material/download
 ---
 
 # Via Community Store (recommended)

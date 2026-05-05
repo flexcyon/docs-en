@@ -1,6 +1,5 @@
 ---
 title: Uppercase Title
-icon: material/format-letter-case-upper
 ---
 
 Callout 元数据: "uppercase-title"

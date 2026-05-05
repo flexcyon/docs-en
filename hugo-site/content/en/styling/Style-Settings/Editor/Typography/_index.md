@@ -1,6 +1,5 @@
 ---
 title: Typography
-icon: material/format-text
 ---
 
 Defines colors for muted text color

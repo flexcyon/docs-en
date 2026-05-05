@@ -1,6 +1,5 @@
 ---
 title: Screenshots
-icon: material/image
 ---
 
 {{< rawhtml >}}

@@ -1,6 +1,5 @@
 ---
 title: 前言
-icon: material/home
 ---
 
 这里存放着 [Flexcyon 主题](https://github.com/bladeacer/flexcyon) 的中文文档。

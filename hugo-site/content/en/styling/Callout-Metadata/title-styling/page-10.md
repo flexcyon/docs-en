@@ -1,6 +1,5 @@
 ---
 title: Extended color palette - Title
-icon: material/palette-outline
 ---
 
 > `title-color1-color2-`

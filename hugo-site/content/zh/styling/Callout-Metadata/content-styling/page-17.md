@@ -1,6 +1,5 @@
 ---
 title: Monospace Content
-icon: material/table-of-contents
 ---
 
 Callout 元数据: "font-monospace-content"

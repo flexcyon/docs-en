@@ -1,6 +1,5 @@
 ---
 title: Table
-icon: material/table-cog
 ---
 
 Defines colour for table borders, and the width of tables in reading mode.

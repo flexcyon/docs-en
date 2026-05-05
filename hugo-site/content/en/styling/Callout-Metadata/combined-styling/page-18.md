@@ -1,6 +1,5 @@
 ---
 title: Italic All
-icon: material/format-italic
 ---
 
 Callout metadata: "italic-all"

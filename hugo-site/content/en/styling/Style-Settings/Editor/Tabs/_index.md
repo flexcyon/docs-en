@@ -1,6 +1,5 @@
 ---
 title: Tabs
-icon: material/tab
 ---
 
 Tab related settings.

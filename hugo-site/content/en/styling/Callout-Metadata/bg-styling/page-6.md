@@ -1,6 +1,5 @@
 ---
 title: Pink Background
-icon: material/layers-outline
 ---
 
 Callout metadata: "bg-pink"

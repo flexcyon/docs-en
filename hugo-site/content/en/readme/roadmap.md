@@ -1,5 +1,4 @@
 ---
-icon: material/map-legend
 tags:
     - logs
 ---

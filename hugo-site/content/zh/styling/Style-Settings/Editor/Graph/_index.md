@@ -1,6 +1,5 @@
 ---
 title: Graph
-icon: material/graph
 ---
 
 配置图形视图控件。

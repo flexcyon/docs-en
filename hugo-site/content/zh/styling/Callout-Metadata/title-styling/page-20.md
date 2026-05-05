@@ -1,6 +1,5 @@
 ---
 title: Dashed Title
-icon: material/format-color-text
 ---
 
 Callout 元数据: "dashed-title"

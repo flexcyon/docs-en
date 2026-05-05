@@ -1,6 +1,5 @@
 ---
 title: Typewriter Mode
-icon: material/typewriter
 ---
 
 # 用法

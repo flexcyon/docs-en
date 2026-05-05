@@ -1,6 +1,5 @@
 ---
 title: Lucide Icons
-icon: material/emoticon-cool
 ---
 
 自定 Callout / Callout 元数据: "`<lucide-icon-value>`"

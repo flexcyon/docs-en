@@ -1,6 +1,5 @@
 ---
 title: Opacity
-icon: material/opacity
 ---
 
 Callout / Callout 元数据:

@@ -1,6 +1,5 @@
 ---
 title: Styling
-icon: material/language-css3
 ---
 
 如果您想定制 Flexcyon 主题。

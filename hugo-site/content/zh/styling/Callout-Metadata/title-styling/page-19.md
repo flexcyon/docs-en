@@ -1,6 +1,5 @@
 ---
 title: Oblique Title
-icon: material/format-letter-case-upper
 ---
 
 Callout 元数据: "oblique-title"

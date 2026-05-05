@@ -1,6 +1,5 @@
 ---
 title: All Purple
-icon: material/format-color-fill
 ---
 
 Callout metadata: "all-purple"

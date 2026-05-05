@@ -1,6 +1,5 @@
 ---
 title: Code Blocks
-icon: material/format-color-highlight
 ---
 
 在主题中配置代码块

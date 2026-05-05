@@ -1,6 +1,5 @@
 ---
 title: Installation
-icon: material/download
 ---
 
 # 通过社区主题商店 (推荐)

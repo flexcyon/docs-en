@@ -1,6 +1,5 @@
 ---
 title: Editor Background
-icon: material/layers-edit
 ---
 
 Configure the background in the editor

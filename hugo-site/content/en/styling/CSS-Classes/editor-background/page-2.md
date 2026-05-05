@@ -1,6 +1,5 @@
 ---
 title: Grid Background
-icon: material/grid
 ---
 
 # Usage

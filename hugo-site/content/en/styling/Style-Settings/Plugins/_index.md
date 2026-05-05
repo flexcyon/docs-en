@@ -1,6 +1,5 @@
 ---
 title: Plugins
-icon: material/hexagon-outline
 ---
 
 For configuration of officially supported plugins

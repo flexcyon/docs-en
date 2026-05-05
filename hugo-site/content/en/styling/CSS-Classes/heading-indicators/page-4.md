@@ -1,6 +1,5 @@
 ---
 title: Heading indicators - H4
-icon: material/format-header-4
 ---
 
 Add a heading indicator for heading 4s. Will appear in reading, editing and

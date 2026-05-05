@@ -1,6 +1,5 @@
 ---
 title: Lowercase All
-icon: material/format-letter-case-lower
 ---
 
 Callout 元数据: "lowercase-all"

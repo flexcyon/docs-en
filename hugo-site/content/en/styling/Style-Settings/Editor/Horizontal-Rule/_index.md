@@ -1,6 +1,5 @@
 ---
 title: Horizontal Rules
-icon: material/ruler
 ---
 
 Configure horizontal rules in the theme

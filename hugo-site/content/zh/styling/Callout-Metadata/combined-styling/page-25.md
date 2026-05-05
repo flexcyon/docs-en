@@ -1,6 +1,5 @@
 ---
 title: Interface All
-icon: material/all-inclusive
 ---
 
 Callout 元数据: "font-interface-all"

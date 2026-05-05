@@ -1,6 +1,5 @@
 ---
 title: Properties
-icon: material/axis-arrow-info
 ---
 
 Configures CSS variables for properties/metadata/YAML of files.

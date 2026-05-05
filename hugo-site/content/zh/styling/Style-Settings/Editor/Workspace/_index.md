@@ -1,6 +1,5 @@
 ---
 title: Workspace
-icon: material/layers-triple-outline
 ---
 
 在启用可读行长度时定义文件行宽度, 调暗元素的不透明度。

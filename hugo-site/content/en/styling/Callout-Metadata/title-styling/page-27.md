@@ -1,6 +1,5 @@
 ---
 title: Heading 3 Title
-icon: material/format-header-3
 ---
 
 Callout metadata: "h3-title"

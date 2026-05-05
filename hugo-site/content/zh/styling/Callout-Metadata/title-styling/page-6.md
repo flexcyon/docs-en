@@ -1,6 +1,5 @@
 ---
 title: Pink Title
-icon: material/select-color
 ---
 
 Callout 元数据: "title-pink"

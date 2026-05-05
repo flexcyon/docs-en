@@ -1,6 +1,5 @@
 ---
 title: All Cyan
-icon: material/format-color-fill
 ---
 
 Callout metadata: "all-cyan"

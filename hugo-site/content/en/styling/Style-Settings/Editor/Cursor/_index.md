@@ -1,6 +1,5 @@
 ---
 title: Cursor
-icon: material/cursor-text
 ---
 
 Configure the cursor

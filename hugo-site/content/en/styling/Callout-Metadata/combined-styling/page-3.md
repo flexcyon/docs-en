@@ -1,6 +1,5 @@
 ---
 title: All Red
-icon: material/format-color-fill
 ---
 
 Callout metadata: "all-red"

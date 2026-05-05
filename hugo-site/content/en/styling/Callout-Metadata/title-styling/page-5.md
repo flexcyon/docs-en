@@ -1,6 +1,5 @@
 ---
 title: Cyan Title
-icon: material/select-color
 ---
 
 Callout metadata: "title-cyan"

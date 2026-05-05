@@ -1,6 +1,5 @@
 ---
 title: 输入
-icon: material/text
 ---
 
 接受格式: px

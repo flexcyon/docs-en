@@ -1,6 +1,5 @@
 ---
 title: Debug
-icon: material/bug
 ---
 
 Debug related settings.

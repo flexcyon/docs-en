@@ -1,6 +1,5 @@
 ---
 title: Underline Title
-icon: material/format-underline
 ---
 
 Callout metadata: "underline-title"

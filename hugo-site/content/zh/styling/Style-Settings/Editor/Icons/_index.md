@@ -1,6 +1,5 @@
 ---
 title: Icons
-icon: material/emoticon-plus-outline
 ---
 
 ## 导航

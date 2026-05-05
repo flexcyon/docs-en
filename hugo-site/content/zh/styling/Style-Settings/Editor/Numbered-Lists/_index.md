@@ -1,6 +1,5 @@
 ---
 title: Numbered Lists
-icon: material/format-list-numbered
 ---
 
 在主题中配置编号列表

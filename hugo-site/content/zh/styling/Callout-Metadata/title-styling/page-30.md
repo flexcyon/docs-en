@@ -1,6 +1,5 @@
 ---
 title: Heading 6 Title
-icon: material/format-header-6
 ---
 
 Callout 元数据: "h6-title"

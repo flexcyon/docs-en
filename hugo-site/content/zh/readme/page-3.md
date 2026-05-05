@@ -1,6 +1,5 @@
 ---
 title: Extensions
-icon: material/hexagon-multiple-outline
 tags:
     - plugins
     - snippets

@@ -1,6 +1,5 @@
 ---
 title: Italic Title
-icon: material/format-italic
 ---
 
 Callout 元数据: "italic-title"

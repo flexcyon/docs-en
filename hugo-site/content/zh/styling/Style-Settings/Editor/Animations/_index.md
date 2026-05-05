@@ -1,6 +1,5 @@
 ---
 title: Animations
-icon: material/animation
 ---
 
 配置提示模态和选项卡容器的过渡动画。

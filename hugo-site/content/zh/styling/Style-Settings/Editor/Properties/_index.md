@@ -1,6 +1,5 @@
 ---
 title: Properties
-icon: material/axis-arrow-info
 ---
 
 为文件的属性 / 元数据 / YAML 配置 CSS 变量。

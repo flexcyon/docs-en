@@ -1,6 +1,5 @@
 ---
 title: Heading indicators - H2
-icon: material/format-header-2
 ---
 
 为标题 2 添加标题指示器。将出现在 Reading, Live Preview 和 Source 模式中。

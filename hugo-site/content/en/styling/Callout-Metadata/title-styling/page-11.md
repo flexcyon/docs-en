@@ -1,6 +1,5 @@
 ---
 title: RTL Title
-icon: material/align-horizontal-right
 ---
 
 Callout metadata: "rtl-title"

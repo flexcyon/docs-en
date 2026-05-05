@@ -1,6 +1,5 @@
 ---
 title: Pink Title
-icon: material/select-color
 ---
 
 Callout metadata: "title-pink"

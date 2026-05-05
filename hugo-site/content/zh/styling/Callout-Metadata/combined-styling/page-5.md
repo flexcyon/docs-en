@@ -1,6 +1,5 @@
 ---
 title: All Cyan
-icon: material/format-color-fill
 ---
 
 Callout 元数据: "all-cyan"

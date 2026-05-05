@@ -1,6 +1,5 @@
 ---
 title: Orange Background
-icon: material/layers-outline
 ---
 
 Callout 元数据: "bg-orange"

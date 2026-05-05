@@ -1,6 +1,5 @@
 ---
 title: Others
-icon: material/dots-horizontal
 ---
 
 用于配置 Vim 模式文本, 新选项卡外观 (ASCII 艺术), 侧边栏图标, 工具提示半径

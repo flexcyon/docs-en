@@ -1,6 +1,5 @@
 ---
 title: Yellow Title
-icon: material/select-color
 ---
 
 Callout 元数据: "title-yellow"

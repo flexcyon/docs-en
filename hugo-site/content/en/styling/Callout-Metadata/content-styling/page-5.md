@@ -1,6 +1,5 @@
 ---
 title: Lowercase Content
-icon: material/format-letter-case-lower
 ---
 
 Callout metadata: "lowercase-content"

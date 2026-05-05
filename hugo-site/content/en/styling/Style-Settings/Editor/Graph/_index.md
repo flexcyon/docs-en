@@ -1,6 +1,5 @@
 ---
 title: Graph
-icon: material/graph
 ---
 
 Configure the graph view controls

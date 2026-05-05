@@ -1,6 +1,5 @@
 ---
 title: Underline All
-icon: material/format-underline
 ---
 
 Callout 元数据: "underline-all"

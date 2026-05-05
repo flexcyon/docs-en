@@ -1,6 +1,5 @@
 ---
 title: Debug
-icon: material/bug
 ---
 
 调试相关设置.

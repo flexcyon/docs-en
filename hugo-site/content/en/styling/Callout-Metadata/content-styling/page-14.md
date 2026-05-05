@@ -1,6 +1,5 @@
 ---
 title: Font weight Content
-icon: material/format-bold
 ---
 
 Callout metadata: "w-`value`-content"

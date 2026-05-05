@@ -1,6 +1,5 @@
 ---
 title: Interface Title
-icon: material/format-title
 ---
 
 Callout 元数据: "font-interface-title"

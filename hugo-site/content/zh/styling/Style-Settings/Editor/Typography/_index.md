@@ -1,6 +1,5 @@
 ---
 title: Typography
-icon: material/format-text
 ---
 
 定义静音文本颜色的颜色

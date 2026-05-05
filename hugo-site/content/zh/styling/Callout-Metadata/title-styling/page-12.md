@@ -1,6 +1,5 @@
 ---
 title: LTR Title
-icon: material/align-horizontal-left
 ---
 
 Callout 元数据: "ltr-title"

@@ -1,6 +1,5 @@
 ---
 title: Lowercase All
-icon: material/format-letter-case-lower
 ---
 
 Callout metadata: "lowercase-all"

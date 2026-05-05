@@ -1,6 +1,5 @@
 ---
 title: Center Image
-icon: material/image
 ---
 
 Callout metadata: "center-img"

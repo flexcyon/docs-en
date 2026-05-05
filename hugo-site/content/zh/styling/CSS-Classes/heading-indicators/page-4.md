@@ -1,6 +1,5 @@
 ---
 title: Heading indicators - H4
-icon: material/format-header-4
 ---
 
 为标题 3 添加标题指示器。将出现在 Reading, Live Preview 和 Source 模式中。

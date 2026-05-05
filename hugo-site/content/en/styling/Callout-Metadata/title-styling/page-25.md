@@ -1,6 +1,5 @@
 ---
 title: Heading 1 Title
-icon: material/format-header-1
 ---
 
 Callout metadata: "h1-title"

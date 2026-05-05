@@ -1,6 +1,5 @@
 ---
 title: Version 1.x.x
-icon: material/numeric-1
 ---
 
 ## 1.0.x 版本

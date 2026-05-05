@@ -1,6 +1,5 @@
 ---
 title: Ordered List Styling
-icon: material/format-list-numbered
 ---
 
 > `ol-style_type`

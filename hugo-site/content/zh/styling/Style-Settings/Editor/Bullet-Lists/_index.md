@@ -1,6 +1,5 @@
 ---
 title: Bullet Lists
-icon: material/format-list-bulleted
 ---
 
 在主题中配置项目符号列表

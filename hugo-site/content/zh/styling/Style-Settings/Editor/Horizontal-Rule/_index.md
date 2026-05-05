@@ -1,6 +1,5 @@
 ---
 title: Horizontal Rules
-icon: material/ruler
 ---
 
 在主题中配置水平标尺。

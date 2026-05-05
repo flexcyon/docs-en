@@ -1,6 +1,5 @@
 ---
 title: All Green
-icon: material/format-color-fill
 ---
 
 Callout 元数据: "all-green"

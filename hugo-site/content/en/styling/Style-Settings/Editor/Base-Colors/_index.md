@@ -1,6 +1,5 @@
 ---
 title: Base Colors
-icon: material/format-color-highlight
 ---
 
 Defined colors overrides theme defaults for base colors used in the background 

@@ -1,6 +1,5 @@
 ---
 title: No Title
-icon: material/cancel
 ---
 
 Callout metadata: "no-title"

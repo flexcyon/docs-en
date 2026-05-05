@@ -1,6 +1,5 @@
 ---
 title: Green Background
-icon: material/layers-outline
 ---
 
 Callout metadata: "bg-green"

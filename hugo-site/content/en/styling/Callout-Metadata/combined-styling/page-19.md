@@ -1,6 +1,5 @@
 ---
 title: Oblique All
-icon: material/format-text-variant
 ---
 
 Callout metadata: "oblique-all"

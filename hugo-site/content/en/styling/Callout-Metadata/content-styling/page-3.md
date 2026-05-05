@@ -1,6 +1,5 @@
 ---
 title: Center Content
-icon: material/align-horizontal-center
 ---
 
 Callout metadata: "center-content"

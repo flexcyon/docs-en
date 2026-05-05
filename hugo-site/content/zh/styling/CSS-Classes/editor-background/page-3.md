@@ -1,6 +1,5 @@
 ---
 title: Rhombus background
-icon: material/rhombus-split-outline
 ---
 
 # 用法

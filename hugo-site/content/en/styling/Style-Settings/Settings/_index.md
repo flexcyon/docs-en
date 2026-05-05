@@ -1,6 +1,5 @@
 ---
 title: Settings
-icon: material/cogs
 ---
 
 For customising the appearance of various UI aspects of settings.
