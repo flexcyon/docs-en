@@ -1,5 +1,5 @@
 # Foreword: 前言
-README: 自述
+# README: 自述
 About: 关于主题
 Copyright: 版权
 Screenshots: 截图
@@ -15,7 +15,7 @@ Style Settings: 样式设置
 Tools and Software: 工具与软件
 Tags: 标签
 Changelogs: 变更日志
-Beta: 测试版
+# Beta: 测试版
 Version: 版本
 Modes: 模式
 Mobile: 手机设备
