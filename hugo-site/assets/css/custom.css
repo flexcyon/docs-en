@@ -1,0 +1,57 @@
+@layer theme {
+  :root,
+  :host {
+    --hx-color-light: oklch(from #effaf2 l c h);
+    --hx-color-dark: oklch(from #191d28 l c h);
+
+    --tw-shadow: 0 0 transparent;
+    --tw-inset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+  }
+}
+
+@layer utilities {
+  .hx\:dark\:shadow-\[0_-12px_16px_\#111\]:where(.dark, .dark *) {
+          --tw-shadow: none;
+          box-shadow: none;
+  }
+  @media (hover: hover) {
+    .hx\:hover\:bg-gray-100:hover {
+      background-color: var(--hover-color);
+    }
+  }
+}
+
+
+:root {
+  /* Accent: #5770b9 */
+  /* HSL: 225, 44%, 54% */
+  --primary-hue: 225deg;
+  --primary-saturation: 44%;
+  --primary-lightness: 54%;
+  --hx-color-primary-600: oklch(from #6f49ae l c h);
+  --hover-color: oklch(from #e8f2eb l c h);
+  --hx-color-neutral-900: oklch(from #f1f0ec l c h);
+}
+
+body:where(.light, .light *) {
+    --hx-color-gray-100: oklch(from #080808 l c h);
+  color: var(--hx-color-gray-100);
+}
+
+.dark {
+  /* Accent: #92a871 */
+  /* HSL: 84, 24%, 55% */
+  --primary-hue: 84deg;
+  --primary-saturation: 24%;
+  --primary-lightness: 55%;
+
+  --hx-color-primary-600: oklch(from #a461c8 l c h);
+  --hover-color: oklch(from #24262c l c h);
+  --hx-color-neutral-900: oklch(from #14161c l c h);
+}
+
+body:where(.dark, .dark *) {
+  --hx-color-gray-100: oklch(from #d3d5d3 l c h);
+  color: var(--hx-color-gray-100);
+}

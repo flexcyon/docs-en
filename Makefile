@@ -1,10 +1,10 @@
-.PHONY: help serve 
+.PHONY: help dev 
 
 help:
 	@echo "Usage: make [target]"
 	@echo ""
 	@echo "Targets:"
-	@echo "  serve         Runs hugo server"
+	@echo "  dev         Runs hugo server"
 
-serve:
+dev:
 	cd hugo-site && hugo server --disableFastRender

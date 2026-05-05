@@ -23,10 +23,15 @@ locale = "zh-cn"
 
 [params]
 defaultContentLanguageInSubdir = true
+customCSS = ["css/custom.css"]
 
 [params.navbar]
 displayLanguageSwitch = true
 
+[params.search]
+  type = "flexsearch"
+  [params.search.flexsearch]
+    js = "js/vendor/flexsearch.bundle.min.js"
 
 [[menu.main]]
 name = "Search"
@@ -64,8 +69,3 @@ icon = "github"
 
 [markup.highlight]
 noClasses = true
-
-[params.search]
-  type = "flexsearch"
-  [params.search.flexsearch]
-    js = "js/vendor/flexsearch.bundle.min.js"
