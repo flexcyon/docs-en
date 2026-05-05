@@ -10,10 +10,17 @@ help:
 dev:
 	cd hugo-site && hugo server --disableFastRender
 
+REJECT_LIST = content/en/ \
+	      content/zh/readme/page-3.md \
+	      content/zh/credits/_index.md \
+	      content/zh/_index.md
+
+REJECT_REGEX = $(shell echo "$(REJECT_LIST)" | sed 's/ /|/g')
+
 audit-links:
-	@rg -n "\[.*?\]\(.*?\)" hugo-site/ --glob "*.md" --no-heading --ignore-file .auditignore | \
+	@cd hugo-site && rg -n "\[.*?\]\(.*?\)" . --glob "*.md" --no-heading | \
 		rg -v "\]\(http" | \
-		awk -F: '{print "- [ ] `" $$1 ":" $$2 "`"}' | sort > links-audit.md
-	@echo "Printing preview"
-	@echo "Total internal links found: $$(wc -l < links-audit.md)"    
+		rg -v "$(REJECT_REGEX)" | \
+		awk -F: '{print "- [ ] `" $$1 ":" $$2 "`"}' | sort > ../links-audit.md
+	@echo "Total internal links found: $$(wc -l < links-audit.md)"
 	@head -n 20 links-audit.md
