@@ -69,3 +69,7 @@ icon = "github"
 
 [markup.highlight]
 noClasses = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
