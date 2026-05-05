@@ -1,5 +1,5 @@
 ---
-title: Foreword
+title: 前言
 icon: material/home
 ---
 
@@ -51,11 +51,11 @@ icon: material/home
 
 - [鸣谢](./credits)
 
-- [更改日志](./changelogs/index)
+- [更改日志](./changelogs)
 
 ### 样式
 
-- [样式设置](./Styling/Style-Settings/index.md)
+- [样式设置](./styling/style-settings)
 
 ___
 

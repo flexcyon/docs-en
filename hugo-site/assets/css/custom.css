@@ -55,3 +55,7 @@ body:where(.dark, .dark *) {
   --hx-color-gray-100: oklch(from #d3d5d3 l c h);
   color: var(--hx-color-gray-100);
 }
+
+.hextra-search-wrapper .hextra-search-prefix {
+  text-transform: unset;
+}
