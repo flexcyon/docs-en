@@ -1,5 +1,5 @@
 ---
-title: Interface All
+title: Interface 全
 ---
 
 Callout 元数据: "font-interface-all"

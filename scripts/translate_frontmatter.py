@@ -26,7 +26,7 @@ line_pattern = re.compile(
     re.MULTILINE | re.IGNORECASE
 )
 
-word_pattern = re.compile(rf'({keys_pattern})', re.IGNORECASE)
+word_pattern = re.compile(rf'(?<![a-zA-Z0-9])({keys_pattern})(?![a-zA-Z0-9])', re.IGNORECASE)
 
 
 def enforce_pangu_spacing(text):
@@ -45,9 +45,7 @@ def translate_value(match):
         return translations.get(word_key, word_match.group(1))
 
     translated_str = word_pattern.sub(replace_word, value_text)
-
     final_str = enforce_pangu_spacing(translated_str)
-
     final_str = re.sub(r'\s+', ' ', final_str)
 
     return f"{prefix}{final_str.strip()}"

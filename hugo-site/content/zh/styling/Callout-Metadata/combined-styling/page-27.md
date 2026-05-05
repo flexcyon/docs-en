@@ -1,5 +1,5 @@
 ---
-title: Text All
+title: Text 全
 ---
 
 Callout 元数据: "font-monospace-all"

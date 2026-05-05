@@ -1,5 +1,5 @@
 ---
-title: 扩展调色板 - Title
+title: 扩展调色板 - 标题
 ---
 
 > `title-color1-color2-`
