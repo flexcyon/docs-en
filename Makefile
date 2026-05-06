@@ -16,7 +16,7 @@ REJECT_LIST = content/en/ \
 	      content/zh/readme/page-3.md \
 	      content/zh/credits/_index.md \
 	      content/zh/_index.md \
-	      content/zh/credits/_index.md \
+	      content/zh/credits/_index.md
 
 REJECT_REGEX = $(shell echo "$(REJECT_LIST)" | sed 's/ /|/g')
 
