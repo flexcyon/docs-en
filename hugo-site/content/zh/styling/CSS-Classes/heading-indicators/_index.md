@@ -2,7 +2,7 @@
 title: 标题指示器
 ---
 
-为所有标题添加标题指示符. 将以 Reading, Live Preview 和 Source 模式显示. 
+为所有标题添加标题指示符. 将以 Reading, Live Preview 和 Source 模式显示.
 
 用法:
 
@@ -19,4 +19,4 @@ cssclasses:
 ###### I will have an indicator before me
 ```
 
-有关全局启用此选项的样式设置等效项, 请[单击此处](../../../style-settings/editor/headings#_5). 
+有关全局启用此选项的样式设置等效项, 请 [单击此处](../../../style-settings/editor/headings#关于全局启用标题指示器).

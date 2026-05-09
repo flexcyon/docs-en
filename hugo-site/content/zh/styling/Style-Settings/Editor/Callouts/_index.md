@@ -94,7 +94,7 @@ Style Settings
 
 ### 抽认卡标注
 
-配置[抽认卡标注](../../../callout-metadata/flashcard). 
+配置 [抽认卡标注](../../../callout-metadata/flashcard).
 
 #### 抽认卡标注宽度
 

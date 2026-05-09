@@ -12,6 +12,5 @@ Usage:
 > in reading mode, which will show its contents on hover
 ```
 
-[Click here](../style-settings/editor/callouts#popup-callout)
+[Click here](../../style-settings/editor/callouts#popup-callout)
 for configuration options.
-
