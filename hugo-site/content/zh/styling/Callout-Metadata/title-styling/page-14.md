@@ -11,4 +11,4 @@ Callout 元数据: "uppercase-title"
 > Content is shown as usual
 ```
 
-这种风格本身也适用于 ["uppercase-all"](../combined-styling/page-14) 和 ["uppercase-content"](../content-styling/page-4)。
+这种风格本身也适用于 ["uppercase-all"](../combined-styling/page-14) 和 ["uppercase-content"](../content-styling/page-4). 

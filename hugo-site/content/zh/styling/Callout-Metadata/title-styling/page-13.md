@@ -11,4 +11,4 @@ Callout 元数据: "center-title"
 > Content is shown as usual
 ```
 
-这种风格本身也适用于 ["center-all"](../combined-styling/page-13) 和 ["center-content"](../content-styling/page-3)。
+这种风格本身也适用于 ["center-all"](../combined-styling/page-13) 和 ["center-content"](../content-styling/page-3). 

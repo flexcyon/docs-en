@@ -11,4 +11,4 @@ Callout 元数据: "rtl-content"
 > The content will be displayed as rtl
 ```
 
-这种风格本身也适用于 ["rtl-all"](../combined-styling/page-11) 和 ["rtl-title"](../title-styling/page-11)。
+这种风格本身也适用于 ["rtl-all"](../combined-styling/page-11) 和 ["rtl-title"](../title-styling/page-11). 

@@ -25,4 +25,4 @@ Style Settings
 
 默认: none (类切换)
 
-选项: 要列出的选项太多, 您可以在 [此处查看](https://developer.mozilla.org/zh-CN/docs/Web/CSS/list-style-type#Values)。
+选项: 要列出的选项太多, 您可以在 [此处查看](https://developer.mozilla.org/zh-CN/docs/Web/CSS/list-style-type#Values). 

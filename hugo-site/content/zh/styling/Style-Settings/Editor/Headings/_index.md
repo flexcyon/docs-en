@@ -2,7 +2,7 @@
 title: 标题
 ---
 
-定义 CSS 变量, 用于与字体粗细等标题相关的样式。
+定义 CSS 变量, 用于与字体粗细等标题相关的样式. 
 
 接受的格式 : px, number, rem
 
@@ -38,9 +38,9 @@ Style Settings
 
 ### 关于全局启用标题指示器
 
-在全局范围内自定义哪些标题前面有标题指示符。
+在全局范围内自定义哪些标题前面有标题指示符. 
 
-如果您希望按笔记应用它们, 请[单击此处](../../../../styling/css-classes/heading-indicators)。
+如果您希望按笔记应用它们, 请[单击此处](../../../../styling/css-classes/heading-indicators). 
 
 ---
 
@@ -58,7 +58,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-h1-color)`
 
-启用彩色标题时标题 1 的颜色。
+启用彩色标题时标题 1 的颜色. 
 
 默认: Blue (蓝色) (变量选项)
 
@@ -131,7 +131,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-h2-color)`
 
-启用彩色标题时标题 2 的颜色。
+启用彩色标题时标题 2 的颜色. 
 
 默认: Purple (紫色) (变量选项)
 
@@ -202,7 +202,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-h3-color)`
 
-启用彩色标题时标题 3 的颜色。
+启用彩色标题时标题 3 的颜色. 
 
 默认: Cyan (青色) (变量选项)
 
@@ -273,7 +273,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-h4-color)`
 
-启用彩色标题时标题 4 的颜色。
+启用彩色标题时标题 4 的颜色. 
 
 默认: Pink (粉红色) (变量选项)
 
@@ -344,7 +344,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-h5-color)`
 
-启用彩色标题时标题 5 的颜色。
+启用彩色标题时标题 5 的颜色. 
 
 默认: Green (绿色) (变量选项)
 
@@ -415,7 +415,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-h6-color)`
 
-启用彩色标题时标题 6 的颜色。
+启用彩色标题时标题 6 的颜色. 
 
 默认: Yellow (黄色) (变量选项)
 

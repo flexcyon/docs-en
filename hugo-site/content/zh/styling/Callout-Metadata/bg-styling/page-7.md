@@ -9,4 +9,4 @@ Callout 元数据: "bg-green"
 > The background color will be green
 ```
 
-这种风格本身也适用于 ["all-green"](../combined-styling/page-7) 和 ["title-green"](../title-styling/page-7)。
+这种风格本身也适用于 ["all-green"](../combined-styling/page-7) 和 ["title-green"](../title-styling/page-7). 

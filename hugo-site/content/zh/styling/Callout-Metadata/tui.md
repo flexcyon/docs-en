@@ -12,7 +12,7 @@ Callout 元数据: "tui"
 ```
 
 ## 颜色
-您还可以为 TUI Callout 指定颜色。
+您还可以为 TUI Callout 指定颜色. 
 
 自定义 Callout: "tui"
 

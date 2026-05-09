@@ -11,4 +11,4 @@ Callout 元数据: "line-through-title"
 > Content is shown as usual
 ```
 
-这种风格本身也适用于 ["line-through-all"](../combined-styling/page-23) 和 ["line-through-content"](../content-styling/page-13)。
+这种风格本身也适用于 ["line-through-all"](../combined-styling/page-23) 和 ["line-through-content"](../content-styling/page-13). 

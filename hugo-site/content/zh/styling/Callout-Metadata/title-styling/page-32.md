@@ -9,4 +9,4 @@ Callout 元数据: "font-text-title"
 > The text font will display as usual
 ```
 
-这种风格本身也适用于 ["font-text-all"](../combined-styling/page-26) 和 ["font-text-content"](../content-styling/page-16)。
+这种风格本身也适用于 ["font-text-all"](../combined-styling/page-26) 和 ["font-text-content"](../content-styling/page-16). 

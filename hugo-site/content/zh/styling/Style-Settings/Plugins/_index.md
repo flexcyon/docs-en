@@ -131,7 +131,7 @@ Style Settings
 #### 非活跃节点的模糊强度
 
 与前面的设置一起使用，以设置非活动画布节点的模糊强度
-以及所有箭头/边。
+以及所有箭头/边. 
 
 目标 CSS 变量: `var(--flexcyon-canvas-blur-intensity)`
 
@@ -139,7 +139,7 @@ Style Settings
 
 #### Canvas 卡菜单对齐
 
-配置 Canvas 卡菜单的对齐方式。
+配置 Canvas 卡菜单的对齐方式. 
 
 目标 CSS 类: `.flexcyon-canvas-menu-bottom-left,`
 `.flexcyon-canvas-menu-bottom-right, .flexcyon-canvas-menu-top-center,
@@ -194,7 +194,7 @@ Style Settings
 
 #### 紧凑型建议模式
 
-覆盖默认值。使用 padding 4px 8px.
+覆盖默认值. 使用 padding 4px 8px.
 
 目标 CSS 变量: `var(--flexcyon-var-comps-compact-mode)`
 

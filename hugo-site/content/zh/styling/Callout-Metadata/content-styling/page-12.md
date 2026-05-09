@@ -10,4 +10,4 @@ Callout 元数据: "underline-content"
 > The content will be displayed as underline
 ```
 
-这种风格本身也适用于 ["underline-all"](../combined-styling/page-22) 和 ["underline-title"](../title-styling/page-22)。
+这种风格本身也适用于 ["underline-all"](../combined-styling/page-22) 和 ["underline-title"](../title-styling/page-22). 

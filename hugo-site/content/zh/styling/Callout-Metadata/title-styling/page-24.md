@@ -19,4 +19,4 @@ reading mode/reading mode
 > Content is shown as usual
 ```
 
-这种风格本身也适用于 ["w-`value`-all"](../combined-styling/page-24) 和 ["w-`value`-content"](../content-styling/page-14)。
+这种风格本身也适用于 ["w-`value`-all"](../combined-styling/page-24) 和 ["w-`value`-content"](../content-styling/page-14). 

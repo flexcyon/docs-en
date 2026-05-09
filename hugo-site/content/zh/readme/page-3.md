@@ -2,8 +2,8 @@
 title: 附加插件或 CSS
 ---
 
-官方支持以下插件/CSS。
-> 对于尚未设置样式的插件, 请随时在 GitHub 打开 Pull Request/Feature Request 或者开始讨论。
+官方支持以下插件/CSS. 
+> 对于尚未设置样式的插件, 请随时在 GitHub 打开 Pull Request/Feature Request 或者开始讨论. 
 
 ## 插件
 

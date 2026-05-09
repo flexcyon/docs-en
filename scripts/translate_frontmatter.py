@@ -90,6 +90,10 @@ def process_directory(target_dir, should_translate):
                 with open(path, 'r', encoding='utf-8') as f:
                     content = f.read()
                 new_content = clean_markdown_links(content)
+                if should_translate:
+                    new_content = new_content.replace('。', '. ')
+                    new_content = new_content.replace('， ', ', ')
+                    new_content = new_content.replace('、', ', ')
                 fm = re.match(r'^---\s*\n(.*?)\n---\s*\n', new_content, re.DOTALL)
                 if fm:
                     fm_c = fm.group(1)

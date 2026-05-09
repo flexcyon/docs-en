@@ -11,4 +11,4 @@ Callout 元数据: "tilt-content"
 > The content will be tilted
 ```
 
-这种风格本身也适用于 ["tilt-all"](../combined-styling/page-17) 和 ["tilt-title"](../title-styling/page-17)。
+这种风格本身也适用于 ["tilt-all"](../combined-styling/page-17) 和 ["tilt-title"](../title-styling/page-17). 

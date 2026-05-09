@@ -2,7 +2,7 @@
 title: 标注
 ---
 
-配置标注样式。
+配置标注样式. 
 
 接受的格式: px, rem, em, ms
 
@@ -94,7 +94,7 @@ Style Settings
 
 ### 抽认卡标注
 
-配置[抽认卡标注](../../../callout-metadata/flashcard)。
+配置[抽认卡标注](../../../callout-metadata/flashcard). 
 
 #### 抽认卡标注宽度
 
@@ -118,7 +118,7 @@ Style Settings
 
 ### 弹出式标注
 
-配置[弹出式标注](../../../callout-metadata/popup)。
+配置[弹出式标注](../../../callout-metadata/popup). 
 
 #### 弹出式标注动画持续时间
 

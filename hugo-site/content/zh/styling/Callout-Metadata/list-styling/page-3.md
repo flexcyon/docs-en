@@ -18,4 +18,4 @@ title: Ordered + Unordered Lists
 ___
 `style_type` 的接受格式: [MDN Web 文档中定义的值](https://developer.mozilla.org/zh-CN/docs/Web/CSS/list-style-type#Values)
 
-当您想对有序和无序列表应用相同的样式时使用。
+当您想对有序和无序列表应用相同的样式时使用. 

@@ -22,7 +22,7 @@ Style Settings
 
 ### 选项卡编号
 
-在 RTZ 模式下默认启用。
+在 RTZ 模式下默认启用. 
 
 目标 CSS 类: `.flexcyon-number-tabs`
 
@@ -30,7 +30,7 @@ Style Settings
 
 ### 删除选项卡标题
 
-在 RTZ 模式下默认启用。
+在 RTZ 模式下默认启用. 
 
 目标 CSS 类: `.flexcyon-remove-tab-headers`
 

@@ -9,4 +9,4 @@ Callout 元数据: "title-purple"
 > The background color will display as usual
 ```
 
-这种风格本身也适用于 ["all-purple"](../combined-styling/page-4) 和 ["bg-purple"](../title-styling/page-4)。
+这种风格本身也适用于 ["all-purple"](../combined-styling/page-4) 和 ["bg-purple"](../title-styling/page-4). 

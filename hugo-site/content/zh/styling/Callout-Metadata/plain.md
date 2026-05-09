@@ -12,7 +12,7 @@ Callout 元数据: "pln"
 ```
 
 ## 颜色
-您还可以为简化 Callout 指定颜色。
+您还可以为简化 Callout 指定颜色. 
 
 Callout 元数据: "plain-red"
 

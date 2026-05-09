@@ -12,7 +12,7 @@ Callout 元数据: "vertical"
 ```
 
 ## 颜色
-您还可以为垂直 Callout 指定颜色。
+您还可以为垂直 Callout 指定颜色. 
 
 Callout 元数据: "vert-orange"
 
@@ -23,4 +23,4 @@ Callout 元数据: "vert-orange"
 > Its border and title will have an orange background
 ```
 
-使用自定义图标。
+使用自定义图标. 
