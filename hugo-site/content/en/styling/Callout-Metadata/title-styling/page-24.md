@@ -19,6 +19,6 @@ reading mode/reading mode
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["w-`value`-all"](../combined-styling/page-24.md)
-along with ["w-`value`-content"](../content-styling/page-14.md).
+The style itself is also applied to ["w-`value`-all"](../combined-styling/page-24)
+along with ["w-`value`-content"](../content-styling/page-14).
 

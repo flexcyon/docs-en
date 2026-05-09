@@ -94,7 +94,7 @@ Style Settings
 
 ### 抽认卡标注
 
-配置[抽认卡标注](../../../Callout-Metadata/flashcard.md)。
+配置[抽认卡标注](../../../callout-metadata/flashcard)。
 
 #### 抽认卡标注宽度
 
@@ -118,7 +118,7 @@ Style Settings
 
 ### 弹出式标注
 
-配置[弹出式标注](../../../Callout-Metadata/popup.md)。
+配置[弹出式标注](../../../callout-metadata/popup)。
 
 #### 弹出式标注动画持续时间
 

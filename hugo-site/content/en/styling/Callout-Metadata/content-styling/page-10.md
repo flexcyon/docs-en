@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as dashed
 ```
 
-The style itself is also applied to ["dashed-all"](../combined-styling/page-20.md)
-along with ["dashed-title"](../title-styling/page-20.md).
+The style itself is also applied to ["dashed-all"](../combined-styling/page-20)
+along with ["dashed-title"](../title-styling/page-20).
 

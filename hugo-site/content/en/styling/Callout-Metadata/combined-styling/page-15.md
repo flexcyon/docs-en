@@ -11,5 +11,5 @@ Usage:
 > The content will be displayed as lowercase
 ```
 
-> Shorthand for both ["lowercase-content"](../content-styling/page-5.md) 
-> and ["lowercase-title"](../title-styling/page-15.md)
+> Shorthand for both ["lowercase-content"](../content-styling/page-5) 
+> and ["lowercase-title"](../title-styling/page-15)

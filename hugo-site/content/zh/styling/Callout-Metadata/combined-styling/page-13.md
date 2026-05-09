@@ -11,5 +11,5 @@ Callout 元数据: "center-all"
 > The content will be displayed as center
 ```
 
-> ["center-content"](../content-styling/page-3.md) 和 ["center-title"](../title-styling/page-13.md) 的简写
+> ["center-content"](../content-styling/page-3) 和 ["center-title"](../title-styling/page-13) 的简写
 

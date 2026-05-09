@@ -9,6 +9,6 @@ Callout metadata: "font-monospace-content"
 > The text font will use the monospace font
 ```
 
-The style itself is also applied to ["font-monospace-all"](../combined-styling/page-27.md)
-along with ["font-monospace-title"](../title-styling/page-33.md).
+The style itself is also applied to ["font-monospace-all"](../combined-styling/page-27)
+along with ["font-monospace-title"](../title-styling/page-33).
 

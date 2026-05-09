@@ -11,4 +11,4 @@ Callout 元数据: "italic-title"
 > Content is shown as usual
 ```
 
-这种风格本身也适用于 ["italic-all"](../combined-styling/page-18.md) 和 ["italic-content"](../content-styling/page-8.md)。
+这种风格本身也适用于 ["italic-all"](../combined-styling/page-18) 和 ["italic-content"](../content-styling/page-8)。

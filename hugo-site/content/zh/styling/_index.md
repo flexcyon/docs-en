@@ -6,6 +6,6 @@ title: 样式
 
 ## 快速连接
 
-- [样式设置](./Style-Settings/index.md)
-- [CSS 类](./CSS-Classes/index.md)
-- [Callout 元数据](./Callout-Metadata/index.md)
+- [样式设置](./style-settings)
+- [CSS 类](./css-classes)
+- [Callout 元数据](./callout-metadata)

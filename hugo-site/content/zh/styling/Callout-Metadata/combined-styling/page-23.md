@@ -11,4 +11,4 @@ Callout 元数据: "line-through-all"
 > The content will be displayed as line-through
 ```
 
-> ["line-through-content"](../content-styling/page-13.md) 和 ["line-through-title"](../title-styling/page-23.md) 的简写
+> ["line-through-content"](../content-styling/page-13) 和 ["line-through-title"](../title-styling/page-23) 的简写

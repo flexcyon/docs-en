@@ -18,6 +18,6 @@ Usage:
 > Content will have a lighter font weight
 ```
 
-> Shorthand for both ["w-`value`-content"](../content-styling/page-14.md)
-> and ["w-`value`-title"](../title-styling/page-24.md)
+> Shorthand for both ["w-`value`-content"](../content-styling/page-14)
+> and ["w-`value`-title"](../title-styling/page-24)
 

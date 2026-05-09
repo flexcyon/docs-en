@@ -11,6 +11,6 @@ Usage:
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["overline-all"](../combined-styling/page-21.md)
-along with ["overline-content"](../content-styling/page-11.md).
+The style itself is also applied to ["overline-all"](../combined-styling/page-21)
+along with ["overline-content"](../content-styling/page-11).
 

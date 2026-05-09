@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as overline
 ```
 
-The style itself is also applied to ["overline-all"](../combined-styling/page-21.md)
-along with ["overline-title"](../title-styling/page-21.md).
+The style itself is also applied to ["overline-all"](../combined-styling/page-21)
+along with ["overline-title"](../title-styling/page-21).
 

@@ -9,6 +9,6 @@ Callout metadata: "all-purple"
 > The background color will be purple
 ```
 
-> Shorthand for both ["bg-purple"](../bg-styling/page-4.md)
-> and ["title-purple"](../title-styling/page-4.md)
+> Shorthand for both ["bg-purple"](../bg-styling/page-4)
+> and ["title-purple"](../title-styling/page-4)
 

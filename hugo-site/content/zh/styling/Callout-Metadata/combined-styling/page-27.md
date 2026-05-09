@@ -9,4 +9,4 @@ Callout 元数据: "font-monospace-all"
 > The text font will also use monospace font
 ```
 
-> ["font-monospace-content"](../content-styling/page-17.md) 和 ["font-monospace-title"](../title-styling/page-33.md) 的简写
+> ["font-monospace-content"](../content-styling/page-17) 和 ["font-monospace-title"](../title-styling/page-33) 的简写

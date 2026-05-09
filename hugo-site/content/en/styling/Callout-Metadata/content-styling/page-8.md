@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as italic
 ```
 
-The style itself is also applied to ["italic-all"](../combined-styling/page-18.md)
-along with ["italic-title"](../title-styling/page-18.md).
+The style itself is also applied to ["italic-all"](../combined-styling/page-18)
+along with ["italic-title"](../title-styling/page-18).
 

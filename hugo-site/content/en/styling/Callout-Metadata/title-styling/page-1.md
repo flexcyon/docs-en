@@ -11,6 +11,6 @@ Usage:
 > Content wil show as usual
 ```
 
-The style itself is also applied to ["empty"](../combined-styling/page-1.md)
-along with ["no-icon"](../icon-styling/page-1.md).
+The style itself is also applied to ["empty"](../combined-styling/page-1)
+along with ["no-icon"](../icon-styling/page-1).
 

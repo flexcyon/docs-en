@@ -11,6 +11,6 @@ Usage:
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["caps-all"](../combined-styling/page-16.md)
-along with ["caps-content"](../content-styling/page-6.md).
+The style itself is also applied to ["caps-all"](../combined-styling/page-16)
+along with ["caps-content"](../content-styling/page-6).
 

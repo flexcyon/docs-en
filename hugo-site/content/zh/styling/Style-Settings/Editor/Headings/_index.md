@@ -40,7 +40,7 @@ Style Settings
 
 在全局范围内自定义哪些标题前面有标题指示符。
 
-如果您希望按笔记应用它们, 请[单击此处](../../../../Styling/CSS-Classes/heading-indicators/index.md)。
+如果您希望按笔记应用它们, 请[单击此处](../../../../styling/css-classes/heading-indicators)。
 
 ---
 
@@ -52,7 +52,7 @@ Style Settings
 
 默认: false (类切换)
 
-> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-1.md)
+> CSS 类等效项可以在[这里找到](../../../../styling/css-classes/heading-indicators/page-1)
 
 ### 标题 1 颜色
 
@@ -125,7 +125,7 @@ Style Settings
 
 默认: false (类切换)
 
-> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-2.md)
+> CSS 类等效项可以在[这里找到](../../../../styling/css-classes/heading-indicators/page-2)
 
 ### 标题 2 颜色
 
@@ -196,7 +196,7 @@ Style Settings
 
 默认: false (类切换)
 
-> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-3.md)
+> CSS 类等效项可以在[这里找到](../../../../styling/css-classes/heading-indicators/page-3)
 
 ### 标题 3 颜色
 
@@ -267,7 +267,7 @@ Style Settings
 
 默认: false (类切换)
 
-> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-4.md)
+> CSS 类等效项可以在[这里找到](../../../../styling/css-classes/heading-indicators/page-4)
 
 ### 标题 4 颜色
 
@@ -338,7 +338,7 @@ Style Settings
 
 默认: false (类切换)
 
-> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-5.md)
+> CSS 类等效项可以在[这里找到](../../../../styling/css-classes/heading-indicators/page-5)
 
 ### 标题 5 颜色
 
@@ -409,7 +409,7 @@ Style Settings
 
 默认: false (类切换)
 
-> CSS 类等效项可以在[这里找到](../../../../Styling/CSS-Classes/heading-indicators/page-6.md)
+> CSS 类等效项可以在[这里找到](../../../../styling/css-classes/heading-indicators/page-6)
 
 ### 标题 6 颜色
 

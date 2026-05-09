@@ -6,7 +6,7 @@ If you are looking to style Flexcyon.
 
 ## Quick Links
 
-- [Style Settings](./Style-Settings/index.md)
-- [CSS Classes](./CSS-Classes/index.md)
-- [Callout Metadata](./Callout-Metadata/index.md)
+- [Style Settings](./style-settings)
+- [CSS Classes](./css-classes)
+- [Callout Metadata](./callout-metadata)
 

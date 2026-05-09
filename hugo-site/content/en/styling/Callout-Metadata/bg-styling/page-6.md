@@ -9,6 +9,6 @@ Callout metadata: "bg-pink"
 > The background color will be pink
 ```
 
-The style itself is also applied to ["all-pink"](../combined-styling/page-6.md)
-along with ["title-pink"](../title-styling/page-6.md).
+The style itself is also applied to ["all-pink"](../combined-styling/page-6)
+along with ["title-pink"](../title-styling/page-6).
 

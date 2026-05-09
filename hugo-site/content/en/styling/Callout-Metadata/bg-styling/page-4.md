@@ -9,6 +9,6 @@ Callout metadata: "bg-purple"
 > The background color will be purple
 ```
 
-The style itself is also applied to ["all-purple"](../combined-styling/page-4.md)
-along with ["title-purple"](../title-styling/page-4.md).
+The style itself is also applied to ["all-purple"](../combined-styling/page-4)
+along with ["title-purple"](../title-styling/page-4).
 

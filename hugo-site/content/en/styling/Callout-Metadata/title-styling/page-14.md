@@ -11,6 +11,6 @@ Usage:
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["uppercase-all"](../combined-styling/page-14.md)
-along with ["uppercase-content"](../content-styling/page-4.md).
+The style itself is also applied to ["uppercase-all"](../combined-styling/page-14)
+along with ["uppercase-content"](../content-styling/page-4).
 

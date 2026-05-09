@@ -10,4 +10,4 @@ Usage:
 > The content will be displayed as underline
 ```
 
-The style itself is also applied to ["underline-all"](../combined-styling/page-22.md) along with ["underline-title"](../title-styling/page-22.md).
+The style itself is also applied to ["underline-all"](../combined-styling/page-22) along with ["underline-title"](../title-styling/page-22).

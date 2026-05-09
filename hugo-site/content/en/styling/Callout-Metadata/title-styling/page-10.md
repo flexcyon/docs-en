@@ -13,8 +13,8 @@ this theme
 ```
 
 The style itself is also applied to
-["all-color1-color2"](../combined-styling/page-10.md) along with ["bg-color1-color2"](../bg-styling/page-10.md).
+["all-color1-color2"](../combined-styling/page-10) along with ["bg-color1-color2"](../bg-styling/page-10).
 
-Requires [this Style Settings option](../../Style-Settings/Editor/Accent-Colors/index.md#enable-extended-color-palette)
+Requires [this Style Settings option](../../style-settings/editor/accent-colors#enable-extended-color-palette)
 to be on
 

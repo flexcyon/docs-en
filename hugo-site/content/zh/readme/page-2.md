@@ -28,4 +28,4 @@ title: 下载
 
 强烈建议为此主题安装 `Style Settings` 插件, 因为大多数定制和功能都是围绕它构建的。
 
-[单击此处](../Styling/Style-Settings/index.md) 查看此主题样式设置的文档
+[单击此处](../styling/style-settings) 查看此主题样式设置的文档

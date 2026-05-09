@@ -11,5 +11,5 @@ Usage:
 > The content will be tilted
 ```
 
-> Shorthand for both ["tilt-content"](../content-styling/page-7.md) 
-> and ["uppercase-title"](../title-styling/page-17.md)
+> Shorthand for both ["tilt-content"](../content-styling/page-7) 
+> and ["uppercase-title"](../title-styling/page-17)

@@ -11,4 +11,4 @@ Callout 元数据: "dashed-content"
 > The content will be displayed as dashed
 ```
 
-这种风格本身也适用于 ["dashed-all"](../combined-styling/page-20.md) 和 ["dashed-title"](../title-styling/page-20.md)。
+这种风格本身也适用于 ["dashed-all"](../combined-styling/page-20) 和 ["dashed-title"](../title-styling/page-20)。

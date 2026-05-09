@@ -18,4 +18,4 @@ Callout 元数据: "w-`value`-content"
 > Content will have a bold font weight
 ```
 
-这种风格本身也适用于 ["w-`value`-all"](../combined-styling/page-24.md) 和 ["w-`value`-title"](../title-styling/page-24.md)。
+这种风格本身也适用于 ["w-`value`-all"](../combined-styling/page-24) 和 ["w-`value`-title"](../title-styling/page-24)。

@@ -18,6 +18,6 @@ Usage:
 > Content will have a bold font weight
 ```
 
-The style itself is also applied to ["w-`value`-all"](../combined-styling/page-24.md)
-along with ["w-`value`-title"](../title-styling/page-24.md).
+The style itself is also applied to ["w-`value`-all"](../combined-styling/page-24)
+along with ["w-`value`-title"](../title-styling/page-24).
 

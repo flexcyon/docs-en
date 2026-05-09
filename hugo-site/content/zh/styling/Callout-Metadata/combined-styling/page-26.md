@@ -9,4 +9,4 @@ Callout 元数据: "font-text-all"
 > The text font will also use text font
 ```
 
-> ["font-text-content"](../content-styling/page-16.md) 和 ["font-text-title"](../title-styling/page-32.md) 的简写
+> ["font-text-content"](../content-styling/page-16) 和 ["font-text-title"](../title-styling/page-32) 的简写

@@ -18,6 +18,6 @@ Alternatively, you can use:
 > Content is shown as usual
 ```
 
-> Shorthand for both ["no-icon"](../icon-styling/page-1.md)
-> and ["no-title"](../title-styling/page-1.md)
+> Shorthand for both ["no-icon"](../icon-styling/page-1)
+> and ["no-title"](../title-styling/page-1)
 

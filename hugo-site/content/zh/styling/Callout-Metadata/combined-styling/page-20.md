@@ -11,4 +11,4 @@ Callout 元数据: "dashed-all"
 > The content will be displayed as dashed
 ```
 
-> ["dashed-content"](../content-styling/page-10.md) 和 ["dashed-title"](../title-styling/page-20.md) 的简写
+> ["dashed-content"](../content-styling/page-10) 和 ["dashed-title"](../title-styling/page-20) 的简写

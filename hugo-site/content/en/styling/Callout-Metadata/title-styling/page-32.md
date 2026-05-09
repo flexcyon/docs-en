@@ -9,6 +9,6 @@ Callout metadata: "font-text-title"
 > The text font will display as usual
 ```
 
-The style itself is also applied to ["font-text-all"](../combined-styling/page-26.md)
-along with ["font-text-content"](../content-styling/page-16.md).
+The style itself is also applied to ["font-text-all"](../combined-styling/page-26)
+along with ["font-text-content"](../content-styling/page-16).
 

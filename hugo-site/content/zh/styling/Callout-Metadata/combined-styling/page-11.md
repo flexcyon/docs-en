@@ -11,5 +11,5 @@ Callout 元数据: "rtl-all"
 > The content will be displayed as rtl
 ```
 
-> ["rtl-content"](../content-styling/page-1.md) 和 ["rtl-title"](../title-styling/page-11.md) 的简写
+> ["rtl-content"](../content-styling/page-1) 和 ["rtl-title"](../title-styling/page-11) 的简写
 

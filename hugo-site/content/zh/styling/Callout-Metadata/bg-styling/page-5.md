@@ -9,4 +9,4 @@ Callout 元数据: "bg-cyan"
 > The background color will be cyan
 ```
 
-这种风格本身也适用于 ["all-cyan"](../combined-styling/page-5.md) 和 ["title-cyan"](../title-styling/page-5.md)。
+这种风格本身也适用于 ["all-cyan"](../combined-styling/page-5) 和 ["title-cyan"](../title-styling/page-5)。

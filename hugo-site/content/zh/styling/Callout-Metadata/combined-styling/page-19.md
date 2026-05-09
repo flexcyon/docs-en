@@ -11,4 +11,4 @@ Callout 元数据: "oblique-all"
 > The content will be displayed as oblique
 ```
 
-> ["oblique-content"](../content-styling/page-9.md) 和 ["oblique-title"](../title-styling/page-19.md) 的简写
+> ["oblique-content"](../content-styling/page-9) 和 ["oblique-title"](../title-styling/page-19) 的简写

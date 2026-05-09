@@ -9,4 +9,4 @@ Callout 元数据: "font-interface-all"
 > The text font will also use interface font
 ```
 
-> ["font-inteface-content"](../content-styling/page-15.md) 和 ["font-interface-title"](../title-styling/page-31.md) 的简写
+> ["font-inteface-content"](../content-styling/page-15) 和 ["font-interface-title"](../title-styling/page-31) 的简写

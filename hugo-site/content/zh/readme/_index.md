@@ -18,7 +18,7 @@ title: 关于 Flexcyon 主题
 - 明暗模式配色方案
 - ASCII复选框
 - 标题选项, 如下划线、编号、彩色
-- [大量的 `cssclasses` 和 `callout` 自定义选项](../Styling/CSS-Classes/index.md)
+- [大量的 `cssclasses` 和 `callout` 自定义选项](../styling/css-classes)
 - 工作空间布局, 如卡片布局, 带有TUI风格的附加组件, 倾斜布局
 - 配置左侧, 右侧边栏和模态背景图像
 - 选项卡的动画选项
@@ -27,17 +27,17 @@ title: 关于 Flexcyon 主题
 ### 这主题没有的特征
 
 - 多种配色方案
-  - 您也可以用自己的配色方案覆盖默认配色方案, 请参阅 [样式设置](../Styling/Style-Settings/index.md)
+  - 您也可以用自己的配色方案覆盖默认配色方案, 请参阅 [样式设置](../styling/style-settings)
 - 备选复选框
 - 嵌入式字体、`svg`
 
 ## 路线图
 
-这个主题的路线图, 可以 [在这里](./roadmap.md) 阅读。
+这个主题的路线图, 可以 [在这里](./roadmap) 阅读。
 
 ## 更改日志
 
-这主题的更改日记, 可以 [在这里](../changelogs/index.md) 阅读。
+这主题的更改日记, 可以 [在这里](../changelogs) 阅读。
 
 ### 若有与主题相关的问题
 
@@ -50,12 +50,12 @@ title: 关于 Flexcyon 主题
 
 ## 设计原则
 
-查看[此页面](./page-4.md)。
+查看[此页面](./page-4)。
 
 ## 样式设置
 
-查看[此页面](../Styling/Style-Settings/index.md)。
+查看[此页面](../styling/style-settings)。
 
 ## 许可证
 
-[单击此处](./license.md)可以找到此主题的许可证。
+[单击此处](./license)可以找到此主题的许可证。

@@ -18,4 +18,4 @@ Callout 元数据: "w-`value`-all"
 > Content will have a lighter font weight
 ```
 
-> ["w-`value`-content"](../content-styling/page-14.md) 和 ["w-`value`-title"](../title-styling/page-24.md) 的简写
+> ["w-`value`-content"](../content-styling/page-14) 和 ["w-`value`-title"](../title-styling/page-24) 的简写

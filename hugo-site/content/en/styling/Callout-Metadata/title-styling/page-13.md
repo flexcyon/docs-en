@@ -11,6 +11,6 @@ Usage:
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["center-all"](../combined-styling/page-13.md)
-along with ["center-content"](../content-styling/page-3.md).
+The style itself is also applied to ["center-all"](../combined-styling/page-13)
+along with ["center-content"](../content-styling/page-3).
 

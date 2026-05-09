@@ -43,7 +43,7 @@ title: 版本 0.2.x
 
 - Added dotted and grid background options
 
-- [See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs.md)
+- [See the documentation](https://github.com/bladeacer/flexcyon/tree/master/docs/docs)
   for more details
 
 ## Version 0.2.1 Small Update

@@ -12,6 +12,6 @@ this theme
 > The background color will be as usual
 ```
 
-这种风格本身也适用于 ["all-color1-color2"](../combined-styling/page-10.md) 和 ["bg-color1-color2"](../title-styling/page-10.md)。
+这种风格本身也适用于 ["all-color1-color2"](../combined-styling/page-10) 和 ["bg-color1-color2"](../title-styling/page-10)。
 
-需要启用此 ["样式设置" 选项](../../Style-Settings/Editor/Accent-Colors/index.md#_12)。
+需要启用此 ["样式设置" 选项](../../style-settings/editor/accent-colors#_12)。

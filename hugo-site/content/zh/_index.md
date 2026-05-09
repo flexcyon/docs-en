@@ -55,8 +55,8 @@ ___
 由此以外，您可以在以下网址 [打开问题](https://github.com/bladeacer/flexcyon/issues)
 或开始 GitHub 讨论.
 
-请注意, 存储库有自己的 [行为准则](https://github.com/bladeacer/flexcyon/blob/master/CODE_OF_CONDUCT.md)
-和 [贡献指南](https://github.com/bladeacer/flexcyon/blob/master/CONTRIBUTING.md).
+请注意, 存储库有自己的 [行为准则](https://github.com/bladeacer/flexcyon/blob/master/code_of_conduct)
+和 [贡献指南](https://github.com/bladeacer/flexcyon/blob/master/contributing).
 
 ### 关于评论
 

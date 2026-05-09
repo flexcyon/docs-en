@@ -11,4 +11,4 @@ Callout 元数据: "caps-title"
 > Content is shown as usual
 ```
 
-这种风格本身也适用于 ["caps-all"](../combined-styling/page-16.md) 和 ["caps-content"](../content-styling/page-6.md)。
+这种风格本身也适用于 ["caps-all"](../combined-styling/page-16) 和 ["caps-content"](../content-styling/page-6)。

@@ -9,4 +9,4 @@ Callout 元数据: "title-yellow"
 > The background color will display as usual
 ```
 
-这种风格本身也适用于 ["all-yellow"](../combined-styling/page-9.md) 和 ["bg-yellow"](../title-styling/page-9.md)。
+这种风格本身也适用于 ["all-yellow"](../combined-styling/page-9) 和 ["bg-yellow"](../title-styling/page-9)。

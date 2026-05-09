@@ -11,6 +11,6 @@ Usage:
 > The content will be centered
 ```
 
-The style itself is also applied to ["center-all"](../combined-styling/page-13.md)
-along with ["center-title"](../title-styling/page-13.md).
+The style itself is also applied to ["center-all"](../combined-styling/page-13)
+along with ["center-title"](../title-styling/page-13).
 

@@ -29,5 +29,5 @@ To install this theme via BRAT, navigate to `Settings > Community Plugins > Brow
 Installation of Style Settings is highly recommended for this theme, as most
 customisation and functionality is built around it.
 
-Documentation for style settings of this theme can be found [here](../Styling/Style-Settings/index.md)
+Documentation for style settings of this theme can be found [here](../styling/style-settings)
 

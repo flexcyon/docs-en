@@ -11,4 +11,4 @@ Callout 元数据: "underline-title"
 > Content is shown as usual
 ```
 
-这种风格本身也适用于 ["underline-all"](../combined-styling/page-22.md) 和 ["underline-content"](../content-styling/page-12.md)。
+这种风格本身也适用于 ["underline-all"](../combined-styling/page-22) 和 ["underline-content"](../content-styling/page-12)。

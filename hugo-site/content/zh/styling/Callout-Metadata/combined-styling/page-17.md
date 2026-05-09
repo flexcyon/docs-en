@@ -11,5 +11,5 @@ Callout 元数据: "tilt-all"
 > The content will be tilted
 ```
 
-> ["tilt-content"](../content-styling/page-7.md) 和 ["tilt-title"](../title-styling/page-17.md) 的简写
+> ["tilt-content"](../content-styling/page-7) 和 ["tilt-title"](../title-styling/page-17) 的简写
 

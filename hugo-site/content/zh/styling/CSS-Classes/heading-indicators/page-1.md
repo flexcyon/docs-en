@@ -15,5 +15,5 @@ cssclasses:
 Others headings display as usual
 ```
 
-有关全局启用此选项的样式设置等效项, 请[单击此处](../../Style-Settings/Editor/Headings/index.md#1_1)。
+有关全局启用此选项的样式设置等效项, 请[单击此处](../../style-settings/editor/headings#1_1)。
 

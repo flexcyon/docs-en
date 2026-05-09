@@ -9,6 +9,6 @@ Callout metadata: "font-interface-all"
 > The text font will also use interface font
 ```
 
-> Shorthand for both ["font-inteface-content"](../content-styling/page-15.md)
-> and ["font-interface-title"](../title-styling/page-31.md)
+> Shorthand for both ["font-inteface-content"](../content-styling/page-15)
+> and ["font-interface-title"](../title-styling/page-31)
 

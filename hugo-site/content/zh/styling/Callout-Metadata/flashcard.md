@@ -12,4 +12,4 @@ Callout 元数据: "flashcard"
 > which will show on hover
 ```
 
-[单击此处](../Style-Settings/Editor/Callouts/index.md#_8) 查看配置选项
+[单击此处](../style-settings/editor/callouts#_8) 查看配置选项

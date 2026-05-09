@@ -11,4 +11,4 @@ Callout 元数据: "line-through-content"
 > The content will be displayed as strikethrough
 ```
 
-这种风格本身也适用于 ["line-through-all"](../combined-styling/page-23.md) 和 ["line-through-title"](../title-styling/page-23.md)。
+这种风格本身也适用于 ["line-through-all"](../combined-styling/page-23) 和 ["line-through-title"](../title-styling/page-23)。

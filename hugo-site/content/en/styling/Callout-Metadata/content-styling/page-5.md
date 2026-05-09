@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as lowercase
 ```
 
-The style itself is also applied to ["lowercase-all"](../combined-styling/page-15.md)
-along with ["lowercase-title"](../title-styling/page-15.md).
+The style itself is also applied to ["lowercase-all"](../combined-styling/page-15)
+along with ["lowercase-title"](../title-styling/page-15).
 

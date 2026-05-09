@@ -11,5 +11,5 @@ Usage:
 > The content will be displayed as center
 ```
 
-> Shorthand for both ["center-content"](../content-styling/page-3.md) 
-> and ["center-title"](../title-styling/page-13.md)
+> Shorthand for both ["center-content"](../content-styling/page-3) 
+> and ["center-title"](../title-styling/page-13)

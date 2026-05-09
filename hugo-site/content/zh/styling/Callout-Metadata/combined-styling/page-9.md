@@ -9,5 +9,5 @@ Callout 元数据: "all-yellow"
 > The background color will be yellow
 ```
 
-> ["bg-yellow"](../bg-styling/page-9.md) 和 ["title-yellow"](../title-styling/page-9.md) 的简写
+> ["bg-yellow"](../bg-styling/page-9) 和 ["title-yellow"](../title-styling/page-9) 的简写
 

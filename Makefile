@@ -13,10 +13,12 @@ dev:
 	cd hugo-site && hugo server --disableFastRender
 
 REJECT_LIST = content/zh/readme/page-3.md \
+	      content/en/readme/page-2.md \
 	      content/en/credits/_index.md \
 	      content/zh/credits/_index.md \
 	      content/en/_index.md \
 	      content/zh/_index.md \
+	      content/en/readme/_index.md \
 	      content/en/changelogs/_index.md \
 	      content/zh/changelogs/_index.md \
 	      content/zh/credits/_index.md

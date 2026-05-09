@@ -11,5 +11,5 @@ Usage:
 > The content will be displayed as caps
 ```
 
-> Shorthand for both ["caps-content"](../content-styling/page-6.md) 
-> and ["caps-title"](../title-styling/page-16.md)
+> Shorthand for both ["caps-content"](../content-styling/page-6) 
+> and ["caps-title"](../title-styling/page-16)

@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as oblique
 ```
 
-> Shorthand for both ["oblique-content"](../content-styling/page-9.md)
-> and ["oblique-title"](../title-styling/page-19.md)
+> Shorthand for both ["oblique-content"](../content-styling/page-9)
+> and ["oblique-title"](../title-styling/page-19)
 

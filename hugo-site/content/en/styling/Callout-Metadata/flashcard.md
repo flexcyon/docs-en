@@ -12,5 +12,5 @@ Usage:
 > which will show on hover
 ```
 
-[Click here](../Style-Settings/Editor/Callouts/index.md#flashcard-callout) 
+[Click here](../style-settings/editor/callouts#flashcard-callout) 
 for configuration options.

@@ -11,6 +11,6 @@ Usage:
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["italic-all"](../combined-styling/page-18.md)
-along with ["italic-content"](../content-styling/page-8.md).
+The style itself is also applied to ["italic-all"](../combined-styling/page-18)
+along with ["italic-content"](../content-styling/page-8).
 

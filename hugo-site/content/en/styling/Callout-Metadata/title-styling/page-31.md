@@ -9,6 +9,6 @@ Callout metadata: "font-interface-title"
 > The text font will display as usual
 ```
 
-The style itself is also applied to ["font-interface-all"](../combined-styling/page-25.md)
-along with ["font-interface-content"](../content-styling/page-15.md).
+The style itself is also applied to ["font-interface-all"](../combined-styling/page-25)
+along with ["font-interface-content"](../content-styling/page-15).
 

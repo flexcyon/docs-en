@@ -11,6 +11,6 @@ Usage:
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["line-through-all"](../combined-styling/page-23.md)
-along with ["line-through-content"](../content-styling/page-13.md).
+The style itself is also applied to ["line-through-all"](../combined-styling/page-23)
+along with ["line-through-content"](../content-styling/page-13).
 

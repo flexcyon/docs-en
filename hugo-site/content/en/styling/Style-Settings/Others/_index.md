@@ -146,7 +146,7 @@ Default:
 It is highly recommended to use a CSS snippet to manage and configure individual
 ASCII art.
 
-An example can be [found here](https://github.com/bladeacer/obsi-snip-coll/blob/main/snippets/flexcyon/new-tab/placeholder-ascii.md).
+An example can be [found here](https://github.com/bladeacer/obsi-snip-coll/blob/main/snippets/flexcyon/new-tab/placeholder-ascii).
 
 #### ASCII art font size limit
 

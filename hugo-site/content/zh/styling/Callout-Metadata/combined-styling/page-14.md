@@ -11,5 +11,5 @@ Callout 元数据: "uppercase-all"
 > The content will be displayed as uppercase
 ```
 
-> ["uppercase-content"](../content-styling/page-4.md) 和 ["uppercase-title"](../title-styling/page-14.md) 的简写
+> ["uppercase-content"](../content-styling/page-4) 和 ["uppercase-title"](../title-styling/page-14) 的简写
 

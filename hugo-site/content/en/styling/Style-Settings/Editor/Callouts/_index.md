@@ -94,7 +94,7 @@ Default: false (class toggle)
 ___
 ### Flashcard callout
 
-Configures the [flashcard callout](../../../Callout-Metadata/flashcard.md).
+Configures the [flashcard callout](../../../callout-metadata/flashcard).
 
 #### Flashcard callout width
 
@@ -117,7 +117,7 @@ Default: 500 (ms)
 ___
 ### Popup callout
 
-Configures the [popup callout](../../../Callout-Metadata/popup.md)
+Configures the [popup callout](../../../callout-metadata/popup)
 
 #### Popup callout animation duration
 

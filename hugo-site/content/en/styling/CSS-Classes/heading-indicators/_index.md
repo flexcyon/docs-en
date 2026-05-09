@@ -20,5 +20,5 @@ cssclasses:
 ###### I will have an indicator before me
 ```
 
-For a Style Settings equivalent which enables this option globally. [Click here](../../Style-Settings/Editor/Headings/index.md#about-enable-heading-indicators-globally).
+For a Style Settings equivalent which enables this option globally. [Click here](../../style-settings/editor/headings#about-enable-heading-indicators-globally).
 

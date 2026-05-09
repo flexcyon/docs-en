@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as caps
 ```
 
-The style itself is also applied to ["caps-all"](../combined-styling/page-16.md)
-along with ["caps-title"](../title-styling/page-16.md).
+The style itself is also applied to ["caps-all"](../combined-styling/page-16)
+along with ["caps-title"](../title-styling/page-16).
 
