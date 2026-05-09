@@ -19,5 +19,4 @@ this theme
 > - `var(--color-color1-color2-mix)`: E.g. `var(--color-red-blue-mix)`
 > - `var(--color-color1-color2-mix-bg)`: E.g. `var(--color-red-blue-mix-bg)`
 
-需要启用此 ["样式设置" 选项](../../style-settings/editor/accent-colors#_12)。
-
+需要启用此 ["样式设置" 选项](../../../style-settings/editor/accent-colors#启用扩展调色板).

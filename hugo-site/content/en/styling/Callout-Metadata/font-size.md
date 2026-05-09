@@ -12,7 +12,7 @@ Custom Callout / Callout Metadata:
 
 Options: Smaller, Small, Medium, Large
 
-Configure in  [UI Font Size](../../Style-Settings/Editor/UI-Font-Size) settings
+Configure in  [UI Font Size](../../../style-settings/editor/ui-font-size) settings
 
 Usage:
 

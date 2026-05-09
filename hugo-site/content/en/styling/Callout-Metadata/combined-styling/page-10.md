@@ -20,5 +20,5 @@ You can also use this colors in your own css snippets, they take the form of:
 > - `var(--color-color1-color2-mix-bg)`: E.g. `var(--color-red-blue-mix-bg)`
 
 
-Requires [this Style Settings option](../../style-settings/editor/accent-colors#enable-extended-color-palette) 
+Requires [this Style Settings option](../../../style-settings/editor/accent-colors#enable-extended-color-palette) 
 to be on

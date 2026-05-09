@@ -12,7 +12,7 @@ title: 字体大小
 
 选项: Smaller, Small, Medium, Large
 
-在 [UI 字体大小设置](../../Style-Settings/Editor/UI-Font-Size) 配置.
+在 [UI 字体大小设置](../../../style-settings/editor/ui-font-size) 配置.
 
 用法:
 
