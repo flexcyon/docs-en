@@ -2,11 +2,11 @@
 title: 前言
 ---
 
-这里存放着 [Flexcyon 主题](https://github.com/bladeacer/flexcyon) 的中文文档。
+这里存放着 [Flexcyon 主题](https://github.com/bladeacer/flexcyon) 的中文文档.
 
-**请注意, 英文文档是原始版本。**
+**请注意, 英文文档是原始版本.**
 
-**若两者之间存在差异, 应以英文文档为正确版本。**
+**若两者之间存在差异, 应以英文文档为正确版本.**
 
 ## 快速链接
 
@@ -18,8 +18,6 @@ title: 前言
 - [自述](./readme)
 
 - [许可证](./readme/license)
-
-- [路线图](./readme/roadmap)
 
 - [鸣谢](./credits)
 
@@ -35,7 +33,8 @@ ___
 
 请随时通过这些渠道与我们联系.
 
-- [Discord](https://discord.com/channels/686053708261228577/1338130333698359357).
+- [Matrix](https://matrix.to/#/#flexcyon-space:matrix.org)
+- [Discord](https://discord.com/channels/686053708261228577/1338130333698359357)
 - [Obsidian 论坛主题](https://forum.obsidian.md/t/flexcyon-a-dark-theme-for-obsidian/99869)
 
 ## 贡献
@@ -51,7 +50,7 @@ ___
 - `npm run lint-once`: 与其同名, 一次性检查整个SCSS代码库
 - `npm run fix`: 相当于运行 `stylelint --fix` 命令. 仅在保存文件更改后运行此操作.
 
-如果您更喜欢使用 CSS 而不是 SCSS, 请放置您建议的代码更改在 `css/` 文件夹中。我们将尝试整合它们.
+如果您更喜欢使用 CSS 而不是 SCSS, 请放置您建议的代码更改在 `css/` 文件夹中. 我们将尝试整合它们.
 
 由此以外，您可以在以下网址 [打开问题](https://github.com/bladeacer/flexcyon/issues)
 或开始 GitHub 讨论.

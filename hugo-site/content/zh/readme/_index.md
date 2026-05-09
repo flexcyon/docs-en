@@ -4,20 +4,11 @@ title: 关于 Flexcyon 主题
 
 这是一个结合 Halcyon, Flexoki 与 Origami 配色方案的 Obsidian 主题。
 
-我很喜欢 [Halcyon 配色方案](https://halcyon-theme.netlify.app) 的鲜艳色彩和 [Flexoki 配色方案](https://stephango.com/flexoki) 的水墨美学。
+我很喜欢 [Halcyon 配色方案](https://halcyon-theme.netlify.app) 的鲜艳色彩和 [Flexoki 配色方案](https://stephango.com/flexoki) 的水墨美学.
 
 因此, 我决定将这两个主题结合起来。
 
-## 特征
-
-[单击此处](https://share.note.sx/j4wqojpy#xi8TbTY58w4JaoiHcPdRJA+V60W3jT0qDoLyUhkTE3U) 查看此主题所提供功能的网络展示。
-
-网站上有些功能不会与主题一一对应。 
-
-但它会在您安装主题之前, 提供主题外观的预览。
-
-
-### 本主题有的特征
+### 本主题特征
 
 - `vim` 模式状态（使用内置 `vim` 键绑定时）
 - 状态栏选项, 如受 Powerlevel10k 启发的状态栏样式
