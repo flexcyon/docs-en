@@ -4,7 +4,7 @@ title: Flexcyon
 
 *In customisation we trust*.
 
-A terminal inspired, reasonably opinionated and highly customisable Obsidian theme.
+A terminal inspired, reasonably opinionated and highly extensible Obsidian theme.
 
 Find out more [about the theme here](./readme).
 
@@ -49,4 +49,4 @@ Methods of communication are listed in order of preference.
 
 #### Contributing
 
-If you are interested in contributing to flexcyon, view the section on [contributing](../contributing).
+If you are interested in contributing to flexcyon, view the section on [contributing](./contributing).
