@@ -2,7 +2,7 @@
 title: 工具与软件
 ---
 
-以下工具和软件是制作主题不可或缺的及其文件. 
+以下工具和软件是制作主题不可或缺的及其文件.
 
 ### 基础应用程序
 
@@ -13,6 +13,8 @@ title: 工具与软件
 - CSS
 
 - SCSS
+
+- Stylelint
 
 ### 文本编辑器
 
@@ -28,24 +30,6 @@ title: 工具与软件
 
 ### 文档
 
-- MkDocs
+- Hugo
 
-      - 以及围绕它构建的出色工具
-
-- Material for MkDocs
-
-- ReadTheDocs
-
-- Giscus
-
-<strong><a href="https://departuremono.com" target="_blank" rel="noopener noreferrer">Departure Mono</a></strong>
-<br />
-是 Helena Zhang 的等宽像素字体
-
-根据<a href="https://openfontlicense.org" target="_blank" rel="noopener noreferrer">SIL开放字体许可证</a>获得许可
-
-<strong><a href="https://github.com/microsoft/cascadia-code" target="_blank" rel="noopener noreferrer">Cascadia Code</a></strong>
-<br />
-Microsoft 的字体
-
-根据<a href="https://openfontlicense.org" target="_blank" rel="noopener noreferrer">SIL开放字体许可证</a>获得许可
+- Hugo Hextra 主题
