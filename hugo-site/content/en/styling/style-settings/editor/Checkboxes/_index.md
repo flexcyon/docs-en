@@ -6,17 +6,9 @@ In this sub-page, you can find usage examples for styling of checkboxes.
 
 ## Screenshots
 
-<figure markdown="span">
-    <img src="../../../../assets/screenshots/ascii_checkboxes1.png" width="800"
-    alt="Figure 1: ASCII Checkboxes">
-    <figcaption>Figure 1: ASCII Checkboxes</figcaption>
-</figure>
+![Clip Path Checkboxes](/screenshots/clip-path-checkboxes.webp)
 
-<figure markdown="span">
-    <img src="../../../../assets/screenshots/ascii_checkboxes2.png" width="800"
-    alt="Figure 2: ASCII Checkboxes in source mode">
-    <figcaption>Figure 2: ASCII Checkboxes in source mode</figcaption>
-</figure>
+> Figure 2 (shown above): Clip Path Checkboxes
 
 ## Navigation
 

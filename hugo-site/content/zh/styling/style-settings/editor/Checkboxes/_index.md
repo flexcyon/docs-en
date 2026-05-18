@@ -6,17 +6,7 @@ title: 复选框
 
 ## 截图
 
-<figure markdown="span">
-    <img src="../../../../../assets/screenshots/ascii_checkboxes1.png" width="800"
-    alt="图1:ASCII复选框">
-    <figcaption>图1:ASCII复选框</figcaption>
-</figure>
-
-<figure markdown="span">
-    <img src="../../../../../assets/screenshots/ascii_checkboxes2.png" width="800"
-    alt="图2：Source Mode 下的ASCII复选框">
-    <figcaption>图2：Source Mode 下的ASCII复选框</figcaption>
-</figure>
+![Clip Path 复选框](/screenshots/clip-path-checkboxes.webp)
 
 ## 导航
 

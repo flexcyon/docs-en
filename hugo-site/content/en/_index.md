@@ -2,11 +2,37 @@
 title: Flexcyon
 ---
 
-*In customisation we trust*.
+![Flexcyon logo](/screenshots/1280-x-640-social-preview.png)
 
-A terminal inspired, reasonably opinionated and highly extensible Obsidian theme.
+## About the theme
+
+A terminal inspired, reasonably opinionated and highly customisable Obsidian theme.
+Combines the colour schemes of Halcyon, Flexoki and Origami.
+
+### Screenshots
+
+![Clip Path Checkboxes](/screenshots/clip-path-checkboxes.webp)
+
+### Features
+
+- Vim Mode Status
+- Powerlevel10k inspired styling
+- TUI add-on for Cards Layout
+- QOL improvements for Core Slides Plugin
+- Customisable new tab (ASCII art, quote)
+- Animations
+- Accessibility settings
+- Plenty of callouts and CSS classes
+- [ASCII/Clip Path Checkboxes](./styling/style-settings/editor/checkboxes)
+- And many others options...
+
+More on stuff the theme [does or does not add](./readme#what-this-theme-does-not-have).
 
 Find out more [about the theme here](./readme).
+
+### Design Principles
+
+[Find out more here](./readme/page-4).
 
 <!-- ## Sane Defaults, Extensive Customisation -->
 

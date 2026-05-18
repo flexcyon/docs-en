@@ -16,4 +16,3 @@ use cases too.
 5. Dim inactive or unfocused UI elements to reduce information overload
 
 6. Bundle numerous callout metadata utilites and cssclasses.
-
