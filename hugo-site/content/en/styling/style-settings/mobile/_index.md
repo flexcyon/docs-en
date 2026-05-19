@@ -8,11 +8,8 @@ Configure mobile related Style Settings.
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
-|   |-- ...
 |   |-- flexcyon://Mobile
-|   |-- ...
 ```
 
 ## Configuration Options

@@ -10,14 +10,10 @@ Accepted Formats: px, number, rem
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Headings
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |-- flexcyon://Editor
+|   |   |-- Typography
+|   |   |   |-- Headings
 ```
 
 ## Configuration Options

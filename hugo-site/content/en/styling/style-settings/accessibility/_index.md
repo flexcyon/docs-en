@@ -15,9 +15,8 @@ almost all colours in the theme itself.
 
 ```md
 Style Settings
-|-- ...
-|-- flexcyon://Accessibility
-|-- ...
+|-- Flexcyon Style Settings
+|   |-- flexcyon://Accessibility
 ```
 
 ## Configuration Options
