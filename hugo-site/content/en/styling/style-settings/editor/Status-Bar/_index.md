@@ -104,12 +104,6 @@ ___
 
 ### Status Bar Styling
 
-#### Show status bar on mobile
-
-CSS Variable(s) targeted: `var(--flexcyon-status-mobile-enabled)`
-
-Default: false (class toggle)
-
 #### Status bar font size
 
 CSS Variable(s) targeted: `var(--status-bar-font-size)`
