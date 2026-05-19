@@ -2,60 +2,73 @@
 title: Modes
 ---
 
-Configure some unique modes flexcyon has to offer. You are also able to configure accessibility settings here.
+Configure some unique modes flexcyon has to offer.
 
 ## Navigation
 
 ```md
 Style Settings
 |-- ...
-|-- Flexcyon Style Settings
-|   |-- Modes
-|   |-- ...
+|-- flexcyon://Modes
+|-- ...
 ```
 
 ## Configuration Options
 
-### Return to Zero mode
+### Select Mode
+CSS Classe(s) targeted: `.flexcyon-flex-max-mode, .flexcyon-rtz-mode`
 
-> Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements
-> are not displayed until hovered on. Will not recommend on mobile. Does not work with Flex Max mode.
+Default: Flex Max Mode (class select)
 
-CSS Variable(s) targeted: `var(--flexcyon-rtz-mode)`
+Options:
 
-Default: false (class toggle)
+- none
+- Flex Max Mode
+- Return To Zero Mode
 
-### Flex Max mode
+### About Return to Zero mode
 
-> An extremely opinionated set up which showcases the unique customisation in this theme, with features working out of the box. If some options are not too your taste you can disable this mode and customise the theme more yourself, it will reset the theme to a clean slate customisations wise. There are also other default options enabled which you may or may not like. See below for the list of options it enables on your behalf.
+Extreme minimalism inspired by the Shimmering Focus theme. Most UI elements
+are not displayed until hovered on.
+> Will not recommend on mobile.
 
-*This mode is recommended for users who do not know where to start in terms of customisation. **For those who wish to customise the theme extensively or those who may not like this set of defaults, disabling this mode is recommended**.*
+### About Flex Max mode
 
-CSS Variable(s) targeted: `var(--flexcyon-flex-max-mode)`
+An extremely opinionated set up which showcases the unique customisation in this
+theme, with features working out of the box. If some options are not too your
+taste you can disable this mode and customise the theme more yourself, it will
+reset the theme to a clean slate customisations wise.
 
-Default: true (class toggle)
+There are also other default options enabled which you may or may not like.
+See below for the list of options it enables on your behalf.
+
+This mode is recommended for users who do not know where to start in terms of
+customisation. For those who wish to **customise the theme extensively** or those
+who may not like this set of defaults, **disabling this mode is recommended**.
 
 ### Flex Max mode enabled settings options
 
 Enables the following settings, even if they are toggled off in style settings
 
-* smiley icons
+TODO: Sort these in order of appearance in style settings.
+
+* Smiley icons
 
 * ensure community plugin icons take precedence
 
-* fade in tab animation
+* Fade in note animation
 
-* left to right modal animation
+* Left to right modal animation
 
-* animations in Style Settings container
+* Add ASCII art before empty state title
 
-* ASCII art
+* Disable Empty state title
 
-* custom horizontal rule string
+* Custom horizontal rule string
 
-* Powerlevel10k inspired layout and status bar style
+* Powerlevel10k inspired layout
 
-* ASCII checkboxes
+* Powerlevel10k inspired status bar style
 
 * Hide until hover status bar
 
@@ -82,8 +95,6 @@ Enables the following settings, even if they are toggled off in style settings
 * Do not show scrollbar in settings
 
 * Dimmed file extensions for Alternate File Tree Plugin
-
-* Disable Empty state title
 
 * Enable side dock icon effects
 
@@ -133,34 +144,3 @@ Default: false (class toggle)
 CSS Variable(s) targeted: `var(--flexcyon-editor-writing-indentation)`
 
 Default: 16 (px)
-
-___
-### Accessibility
-
-Toggle accessibility options
-> Note that changing these will change how the entire theme renders.
->
-> Tweaking these values too much may make the theme look ugly
-
-### Global brightness ratio
-
-CSS Variable(s) targeted: `var(--flexcyon-brightness-ratio)`
-
-Default: 1
-
-### Global contrast ratio
-
-CSS Variable(s) targeted: `var(--flexcyon-contrast-ratio)`
-
-Default: 1
-
-> E.g. if you want slightly more contrast like on an OLED screen, try values
-> between 1 to 1.5
-
-### Global saturation ratio
-
-CSS Variable(s) targeted: `var(--flexcyon-saturation-ratio)`
-
-Default: 1
-
-> Use to modify the saturation of colors

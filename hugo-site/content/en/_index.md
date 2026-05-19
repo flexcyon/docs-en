@@ -11,7 +11,7 @@ Combines the colour schemes of Halcyon, Flexoki and Origami.
 
 ### Screenshots
 
-![Clip Path Checkboxes](/screenshots/clip-path-checkboxes.webp)
+See [screenshots page](./readme/page-1).
 
 ### Features
 
@@ -26,17 +26,11 @@ Combines the colour schemes of Halcyon, Flexoki and Origami.
 - [ASCII/Clip Path Checkboxes](./styling/style-settings/editor/checkboxes)
 - And many others options...
 
-More on stuff the theme [does or does not add](./readme#what-this-theme-does-not-have).
-
 Find out more [about the theme here](./readme).
 
 ### Design Principles
 
-[Find out more here](./readme/page-4).
-
-<!-- ## Sane Defaults, Extensive Customisation -->
-
-<!-- ![ASCII Art, Dimmed File Extensions](/screenshots/showcase1.png) -->
+On the theme's [design principles](./readme/page-4).
 
 ## About this site
 
