@@ -2,7 +2,7 @@
 title: Base Colors
 ---
 
-Defined colors overrides theme defaults for base colors used in the background 
+Defined colours overrides theme defaults for base colours used in the background
 and other UI elements.
 
 Accepted Formats: HEX
@@ -13,9 +13,10 @@ Accepted Formats: HEX
 Style Settings
 |-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
+|   |-- flexcyon://Editor
 |   |   |-- ...
-|   |   |-- Base Colors
+|   |   |-- Colors
+|   |   |   |-- Base Colors
 |   |   |-- ...
 |   |-- ...
 |-- ...
@@ -83,7 +84,7 @@ Default (light mode):
 Default (dark mode):
 <span class="col-sqr" style="background-color: #898c93"></span> #898c93
 
-### Base light grey
+### Base light light
 
 CSS Variable(s) targeted: `var(--flexcyon-base-grey-light)`
 
@@ -92,25 +93,3 @@ Default (light mode):
 
 Default (dark mode):
 <span class="col-sqr" style="background-color: #d3d5d3"></span> #d3d5d3
-
-### Base grey tab
-
-CSS Variable(s) targeted: `var(--flexcyon-base-grey-token)`
-
-Default:
-<span class="col-sqr" style="background-color: #586582"></span> #586582
-
-### Base grey scroll 
-
-CSS Variable(s) targeted: `var(--flexcyon-base-grey-scroll)`
-
-Default:
-<span class="col-sqr" style="background-color: #3f495e"></span> #3f495e
-
-### Base grey scroll hover
-
-CSS Variable(s) targeted: `var(--flexcyon-base-grey-scroll-hover)`
-
-Default:
-<span class="col-sqr" style="background-color: #5d6782"></span> #5d6782
-
