@@ -88,9 +88,3 @@ Default: false
 CSS Variable(s) targeted: `var(--flexcyon-anim-start-scale-amt)`
 
 Default: 0.33
-
-### Animation initial opacity
-
-CSS Variable(s) targeted: `var(--flexcyon-anim-start-opacity)`
-
-Default: 0.55

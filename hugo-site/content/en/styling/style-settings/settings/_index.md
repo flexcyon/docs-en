@@ -26,14 +26,6 @@ CSS Variable(s) targeted: `var(--flexcyon-settings-comm-item-enabled)`
 
 Default: true (class toggle)
 
-### Opacity of community items (unselected)
-
-CSS Variable(s) targeted: `var(--flexcyon-comm-item-opacity)`
-
-Default: 0.89
-
-<span style="opacity: 0.89">Sample opacity of community items (unselected)</span>
-
 ### Installed tooltip left margin
 
 CSS Variable(s) targeted: `var(--flexcyon-settings-installed-tooltip-left-margin)`

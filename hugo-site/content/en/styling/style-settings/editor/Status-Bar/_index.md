@@ -134,9 +134,3 @@ Default: false (class toggle)
 CSS Variable(s) targeted: `var(--flexcyon-no-status-in-new-tab)`
 
 Default: false (class toggle)
-
-#### Opacity of status bar in new tab
-
-CSS Variable(s) targeted: `var(--flexcyon-status-new-tab-opacity)`
-
-Default: 0.55
