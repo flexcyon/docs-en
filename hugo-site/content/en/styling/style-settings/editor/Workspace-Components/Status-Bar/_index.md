@@ -10,21 +10,15 @@ Accepted Formats: ms, px
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
 |   |-- flexcyon://Editor
-|   |   |-- ...
-|   |   |-- Status Bar
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |   |-- Workspace Components
+|   |   |   |-- Status Bar
 ```
 
 ## Configuration Options
 
-### Status Bar
-
-#### Hide until trigger
+### Hide until trigger
 
 CSS Classe(s) targeted: `.flexcyon-status-hide-until-hover
 .flexcyon-status-hide-until-hold`
@@ -36,7 +30,7 @@ Options:
 - Hide until hover
 - Hide until hold
 
-#### Status bar alignment
+### Status bar alignment
 CSS Classe(s) targeted: `.flexcyon-status-right-align
 .flexcyon-status-centre-align`
 
@@ -49,32 +43,31 @@ Options:
 
 Left align was removed as it was too hardcoded.
 
-#### Text when hide until hover enabled
+### Text when hide until hover enabled
 
 CSS Variable(s) targeted: `var(--flexcyon-status-hide-until-hover-text)`
 
 Default: "Show status"
 
-#### Translation for showing status bar on hover
+### Translation for showing status bar on hover
 
 CSS Variable(s) targeted: `var(--flexcyon-status-hide-until-hover-translation)`
 
 Default: 1500 (px)
 
-#### Transition duration for showing status bar on hover
+### Transition duration for showing status bar on hover
 
 CSS Variable(s) targeted: `var(--flexcyon-status-hide-hover-duration)`
 
 Default: 325 (ms)
 
-#### Transition timing function for showing status bar on hover
+### Transition timing function for showing status bar on hover
 
 CSS Variable(s) targeted: `var(--flexcyon-status-hide-hover-function)`
 
 Default: ease-out
 
 ___
-### Text Configuration
 
 #### Use text instead of icons for mode status
 
@@ -82,19 +75,19 @@ CSS Variable(s) targeted: `var(--flexcyon-status-text-mode)`
 
 Default: false (class toggle)
 
-#### Reading Mode Text
+### Reading Mode Text
 
 CSS Variable(s) targeted: `var(--flexcyon-status-reading-text)`
 
 Default: "READ"
 
-#### Source Mode Text
+### Source Mode Text
 
 CSS Variable(s) targeted: `var(--flexcyon-status-source-text)`
 
 Default: "SOURCE"
 
-#### Live Preview Mode Text
+### Live Preview Mode Text
 
 CSS Variable(s) targeted: `var(--flexcyon-status-live-text)`
 
@@ -102,15 +95,13 @@ Default: "LIVE"
 
 ___
 
-### Status Bar Styling
-
-#### Status bar font size
+### Status bar font size
 
 CSS Variable(s) targeted: `var(--status-bar-font-size)`
 
 Default: 13.7533 (px)
 
-#### Select status bar style
+### Select status bar style
 
 CSS Classe(s) targeted: `.flexcyon-status-style-angled,
 .flexcyon-status-style-card, .flexcyon-status-style-pl10k`
@@ -123,7 +114,7 @@ Options:
 - Cards
 - Powerlevel10k
 
-#### Enable status text color
+### Enable status text color
 
 CSS Variable(s) targeted: `var(--flexcyon-status-text-enable-color)`
 

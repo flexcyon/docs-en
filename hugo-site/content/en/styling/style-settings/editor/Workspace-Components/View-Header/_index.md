@@ -6,14 +6,10 @@ title: View Header
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- View Header
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|   |-- flexcyon://Editor
+|   |   |-- Workspace Components
+|   |   |   |-- View Header
 ```
 
 ## Configuration Options

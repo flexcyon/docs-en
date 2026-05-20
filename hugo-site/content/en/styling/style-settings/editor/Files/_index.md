@@ -9,8 +9,8 @@ Configure file trees and folder styles.
 ```md
 Style Settings
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- flexcyon://Files
+|   |-- flexcyon://Editor
+|   |   |-- Files
 ```
 
 ## Configuration Options
