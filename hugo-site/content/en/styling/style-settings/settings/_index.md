@@ -10,12 +10,8 @@ Accepted Formats: x.y, rem, px
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
-|   |-- ...
-|   |-- Settings
-|   |-- ...
-|-- ...
+|   |-- flexcyon://Settings
 ```
 
 ## Configuration Options

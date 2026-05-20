@@ -10,14 +10,9 @@ Accepted formats: HEX, %, x.y
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
+|   |-- flexcyon://Editor
 |   |   |-- Table
-|   |   |-- ...
-|   |-- ...
-|-- ...
 ```
 
 ## Configuration Options
@@ -67,6 +62,8 @@ Proportion to scale Live Preview table heading padding when compared to Reading 
 CSS Variable(s) targeted: `var(--flexcyon-th-live-pad-scale)`
 
 Default: 0.2
+
+---
 
 ### Table Cell font size
 
