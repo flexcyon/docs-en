@@ -38,7 +38,7 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-lime-green)`, `var(--color-green-rgb)`
 
 默认 (灯光模式):
-<span class="col-sqr" style="background-color: #689523"></span> #689523
+<span class="col-sqr" style="background-color: #599100"></span> #599100
 
 默认 (暗模式):
 <span class="col-sqr" style="background-color: #a1c05c"></span> #a1c05c
@@ -48,17 +48,17 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-orange)`, `var(--color-orange-rgb)`
 
 默认 (灯光模式):
-<span class="col-sqr" style="background-color: #ed8126"></span> #ed8126
+<span class="col-sqr" style="background-color: #a37e11"></span> #a37e11
 
 默认 (暗模式):
-<span class="col-sqr" style="background-color: #cc8449"></span> #cc8449
+<span class="col-sqr" style="background-color: #ddad49"></span> #ddad49
 
 ### 黄色
 
 目标 CSS 变量: `var(--flexcyon-yellow)`, `var(--color-yellow-rgb)`
 
 默认 (灯光模式):
-<span class="col-sqr" style="background-color: #e8c62a"></span> #e8c62a
+<span class="col-sqr" style="background-color: #9b8211"></span> #9b8211
 
 默认 (暗模式):
 <span class="col-sqr" style="background-color: #c29e42"></span> #c29e42
@@ -71,47 +71,47 @@ Style Settings
 <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
 
 默认 (暗模式):
-<span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
+<span class="col-sqr" style="background-color: #d89ff5"></span> #d89ff5
 
 ### 红色
 
 目标 CSS 变量: `var(--flexcyon-red-salmon)`, `var(--color-red-rgb)`
 
 默认 (灯光模式):
-<span class="col-sqr" style="background-color: #eb5325"></span> #eb5325
+<span class="col-sqr" style="background-color: #c03a47"></span> #c03a47
 
 默认 (暗模式):
-<span class="col-sqr" style="background-color: #c03a47"></span> #c03a47
+<span class="col-sqr" style="background-color: #ff9880"></span> #ff9880
 
 ### 蓝色
 
 目标 CSS 变量: `var(--flexcyon-blue)`, `var(--color-blue-rgb)`
 
 默认 (灯光模式):
-<span class="col-sqr" style="background-color: #5c9fe4"></span> #5c9fe4
+<span class="col-sqr" style="background-color: #3085dd"></span> #3085dd
 
 默认 (暗模式):
-<span class="col-sqr" style="background-color: #5a8fcd"></span> #5a8fcd
+<span class="col-sqr" style="background-color: #7ab8fe"></span> #7ab8fe
 
 ### 粉红色
 
 目标 CSS 变量: `var(--flexcyon-pink)`, `var(--color-pink-rgb)`
 
 默认 (灯光模式):
-<span class="col-sqr" style="background-color: #e389ca"></span> #e389ca
+<span class="col-sqr" style="background-color: #d451a0"></span> #d451a0
 
 默认 (暗模式):
-<span class="col-sqr" style="background-color: #d458a3"></span> #d458a3
+<span class="col-sqr" style="background-color: #ff91cb"></span> #ff91cb
 
 ### 强调色
 
 目标 CSS 变量: `var(--flexcyon-accent)`
 
 默认 (灯光模式):
-<span class="col-sqr" style="background-color: #5770b9"></span> #5770b9
+<span class="col-sqr" style="background-color: #4b65b4"></span> #4b65b4
 
 默认 (暗模式):
-<span class="col-sqr" style="background-color: #92a871"></span> #92a871
+<span class="col-sqr" style="background-color: #a5bc84"></span> #a5bc84
 
 ### 启用扩展调色板
 

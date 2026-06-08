@@ -27,7 +27,7 @@
 
 
 .light {
-  --color-primary: oklch(from #5770b9 l c h);
+  --color-primary: oklch(from #4b65b4 l c h);
   --hx-color-primary-600: oklch(from #6f49ae l c h);
   --hover-color: oklch(from #e8f2eb l c h);
   --hx-color-neutral-900: oklch(from #f1f0ec l c h);
@@ -39,12 +39,12 @@ body:where(.light, .light *) {
 }
 
 .dark {
-  --color-primary: #92a871;
+  --color-primary: #a5bc84;
   --primary-hue: 84deg;
   --primary-saturation: 24%;
   --primary-lightness: 55%;
 
-  --hx-color-primary-600: oklch(from #a461c8 l c h);
+  --hx-color-primary-600: oklch(from #d89ff5 l c h);
   --hover-color: oklch(from #24262c l c h);
   --hx-color-neutral-900: oklch(from #14161c l c h);
 

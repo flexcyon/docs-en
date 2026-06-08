@@ -29,15 +29,15 @@ Style Settings
 默认 (灯光模式):
 <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
 
-默认 (暗模式): <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
+默认 (暗模式): <span class="col-sqr" style="background-color: #d89ff5"></span> #d89ff5
 
 ### 外部链接颜色
 
 目标 CSS 变量: `var(--flexcyon-external-link-color)`
 
-默认 (灯光模式): <span class="col-sqr" style="background-color: #5c9fe4"></span> #5c9fe4
+默认 (灯光模式): <span class="col-sqr" style="background-color: #3085dd"></span> #3085dd
 
-默认 (暗模式): <span class="col-sqr" style="background-color: #5a8fcd"></span> #5a8fcd
+默认 (暗模式): <span class="col-sqr" style="background-color: #7ab8fe"></span> #7ab8fe
 
 ### 未解析的链接颜色
 
@@ -45,7 +45,7 @@ Style Settings
 
 默认 (灯光模式): <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
 
-默认 (暗模式): <span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
+默认 (暗模式): <span class="col-sqr" style="background-color: #d89ff5"></span> #d89ff5
 
 ### 启用交替链接样式
 

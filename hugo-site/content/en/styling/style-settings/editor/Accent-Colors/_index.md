@@ -32,10 +32,10 @@ Default: true
 CSS Variable(s) targeted: `var(--flexcyon-accent)`
 
 Default (dark mode):
-<span class="col-sqr" style="background-color: #5770b9"></span> #5770b9
+<span class="col-sqr" style="background-color: #4b65b4"></span> #4b65b4
 
 Default (dark mode):
-<span class="col-sqr" style="background-color: #92a871"></span> #92a871
+<span class="col-sqr" style="background-color: #a5bc84"></span> #a5bc84
 
 ### Cyan Color
 
@@ -52,7 +52,7 @@ Default (dark mode):
 CSS Variable(s) targeted: `var(--flexcyon-lime-green)`
 
 Default (light mode):
-<span class="col-sqr" style="background-color: #689523"></span> #689523
+<span class="col-sqr" style="background-color: #599100"></span> #599100
 
 Default (dark mode):
 <span class="col-sqr" style="background-color: #a1c05c"></span> #a1c05c
@@ -62,17 +62,17 @@ Default (dark mode):
 CSS Variable(s) targeted: `var(--flexcyon-orange)`
 
 Default (light mode):
-<span class="col-sqr" style="background-color: #ed8126"></span> #ed8126
+<span class="col-sqr" style="background-color: #a37e11"></span> #a37e11
 
 Default (dark mode):
-<span class="col-sqr" style="background-color: #cc8449"></span> #cc8449
+<span class="col-sqr" style="background-color: #ddad49"></span> #ddad49
 
 ### Yellow Color
 
 CSS Variable(s) targeted: `var(--flexcyon-yellow)`
 
 Default (light mode):
-<span class="col-sqr" style="background-color: #e8c62a"></span> #e8c62a
+<span class="col-sqr" style="background-color: #9b8211"></span> #9b8211
 
 Default (dark mode):
 <span class="col-sqr" style="background-color: #c29e42"></span> #c29e42
@@ -85,34 +85,34 @@ Default (light mode):
 <span class="col-sqr" style="background-color: #6f49ae"></span> #6f49ae
 
 Default (dark mode):
-<span class="col-sqr" style="background-color: #a461c8"></span> #a461c8
+<span class="col-sqr" style="background-color: #d89ff5"></span> #d89ff5
 
 ### Red Color
 
 CSS Variable(s) targeted: `var(--flexcyon-red-salmon)`
 
 Default (light mode):
-<span class="col-sqr" style="background-color: #eb5325"></span> #eb5325
+<span class="col-sqr" style="background-color: #c03a47"></span> #c03a47
 
 Default (dark mode):
-<span class="col-sqr" style="background-color: #c03a47"></span> #c03a47
+<span class="col-sqr" style="background-color: #ff9880"></span> #ff9880
 
 ### Blue Color
 
 CSS Variable(s) targeted: `var(--flexcyon-blue)`
 
 Default (light mode):
-<span class="col-sqr" style="background-color: #5c9fe4"></span> #5c9fe4
+<span class="col-sqr" style="background-color: #3085dd"></span> #3085dd
 
 Default (dark mode):
-<span class="col-sqr" style="background-color: #5a8fcd"></span> #5a8fcd
+<span class="col-sqr" style="background-color: #7ab8fe"></span> #7ab8fe
 
 ### Pink Color
 
 CSS Variable(s) targeted: `var(--flexcyon-pink)`
 
 Default (light mode):
-<span class="col-sqr" style="background-color: #e389ca"></span> #e389ca
+<span class="col-sqr" style="background-color: #d451a0"></span> #d451a0
 
 Default (dark mode):
-<span class="col-sqr" style="background-color: #d458a3"></span> #d458a3
+<span class="col-sqr" style="background-color: #ff91cb"></span> #ff91cb
