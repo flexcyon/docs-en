@@ -8,13 +8,9 @@ Configure the cursor
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
 | |-- Editor
-| | |-- ...
 | | |-- Cursor
-| |-- ...
-|-- ...
 ```
 
 ## Configuration Options
