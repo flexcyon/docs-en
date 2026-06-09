@@ -8,18 +8,14 @@ title: 手机设备
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- ...
-|   |-- Mobile
-|   |-- ...
+|-- flexcyon://Mobile
 ```
 
 ## 配置选项
 
 ### 还原 1.11 导航 UI
 
-将 Vault 选择器和导航还原为 1.11 之前的样式. 
+将 Vault 选择器和导航还原为 1.11 之前的样式.
 
 目标类: `var(--flexcyon-revert-nav-item-alignment)`
 

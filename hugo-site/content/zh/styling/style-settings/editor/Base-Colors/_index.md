@@ -10,14 +10,9 @@ title: 基础色
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Base Colors
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Colors
+|   |   |-- Base Colors
 ```
 
 ## 配置选项

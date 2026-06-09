@@ -8,8 +8,7 @@ Configure some unique modes flexcyon has to offer.
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Modes
+|-- flexcyon://Modes
 ```
 
 ## Configuration Options

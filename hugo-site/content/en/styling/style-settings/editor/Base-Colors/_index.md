@@ -11,10 +11,9 @@ Accepted Formats: HEX
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Colors
-|   |   |   |-- Base Colors
+|-- flexcyon://Editor
+|   |-- Colors
+|   |   |-- Base Colors
 ```
 
 ## Configuration Options

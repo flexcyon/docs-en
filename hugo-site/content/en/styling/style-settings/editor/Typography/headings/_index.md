@@ -10,10 +10,9 @@ Accepted Formats: px, number, rem
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Typography
-|   |   |   |-- Headings
+|-- flexcyon://Editor
+|   |-- Typography
+|   |   |-- Headings
 ```
 
 ## Configuration Options
@@ -66,6 +65,8 @@ Options:
 * Orange
 * Yellow
 * Green
+* Accent
+* Normal text
 
 ### Heading 1 font size
 
@@ -137,6 +138,8 @@ Options:
 * Orange
 * Yellow
 * Green
+* Accent
+* Normal text
 
 ### Heading 2 font size
 
@@ -207,6 +210,8 @@ Options:
 * Orange
 * Yellow
 * Green
+* Accent
+* Normal text
 
 ### Heading 3 font size
 
@@ -277,6 +282,8 @@ Options:
 * Orange
 * Yellow
 * Green
+* Accent
+* Normal text
 
 ### Heading 4 font size
 
@@ -347,6 +354,8 @@ Options:
 * Orange
 * Yellow
 * Green
+* Accent
+* Normal text
 
 ### Heading 5 font size
 
@@ -417,6 +426,8 @@ Options:
 * Orange
 * Yellow
 * Green
+* Accent
+* Normal text
 
 ### Heading 6 font size
 

@@ -12,13 +12,9 @@ title: 强调色
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- Accent Colors
-| | |-- ...
-| |-- ...
-|-- ...
+|-- Editor
+|   |-- Colors
+|   |   |-- Accent Colors
 ```
 
 ## 配置选项
