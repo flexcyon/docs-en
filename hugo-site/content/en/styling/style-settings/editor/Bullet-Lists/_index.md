@@ -2,20 +2,15 @@
 title: Bullet Lists
 ---
 
-Configure bullet lists in the theme
+Configure bullet lists in the theme.
 
 ## Navigation
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
+|-- flexcyon://Editor
+|   |-- Lists and Checkboxes
 |   |   |-- Bullet Lists
-|   |   |-- ...
-|   |-- ...
-|-- ...
 ```
 
 ## Configuration Options

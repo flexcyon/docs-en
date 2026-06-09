@@ -8,14 +8,9 @@ Configure numbered lists in the theme
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
+|-- flexcyon://Editor
+|   |-- Lists and Checkboxes
 |   |   |-- Numbered Lists
-|   |   |-- ...
-|   |-- ...
-|-- ...
 ```
 
 ## Configuration Options

@@ -14,14 +14,9 @@ In this sub-page, you can find usage examples for styling of checkboxes.
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
+|-- flexcyon://Editor
+|   |-- List and Checkboxes
 |   |   |-- Checkboxes
-|   |   |-- ...
-|   |-- ...
-|-- ...
 ```
 
 ## Configuration options
