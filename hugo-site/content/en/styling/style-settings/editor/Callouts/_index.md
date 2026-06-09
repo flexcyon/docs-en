@@ -10,14 +10,8 @@ Accepted Formats: px, rem, em, ms
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Callouts
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Callouts
 ```
 
 ## Configuration Options
@@ -116,4 +110,3 @@ Configures the [popup callout](../../../callout-metadata/popup)
 CSS Variable(s) targeted: `var(--flexcyon-callout-pop-animation-duration)`
 
 Default: 200 (ms)
-

@@ -10,14 +10,8 @@ Accepted formats: px, deg
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Editor Background
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Editor Background
 ```
 
 ## Configuration Options

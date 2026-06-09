@@ -9,7 +9,7 @@ Accepted Formats: px
 ```md
 Style Settings
 |-- flexcyon://Editor
-|   |-- Input
+|   |-- Scrollbar
 ```
 
 ## Configuration Options

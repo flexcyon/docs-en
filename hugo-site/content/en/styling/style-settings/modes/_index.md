@@ -55,17 +55,11 @@ TODO: Sort these in order of appearance in style settings.
 
 * ensure community plugin icons take precedence
 
-* Fade in note animation
-
-* Left to right modal animation
-
 * Add ASCII art before empty state title
 
 * Disable Empty state title
 
 * Custom horizontal rule string
-
-* Powerlevel10k inspired layout
 
 * Powerlevel10k inspired status bar style
 
@@ -78,10 +72,6 @@ TODO: Sort these in order of appearance in style settings.
 * Coloured headings
 
 * Extended colour palette
-
-* Dimmed file extensions
-
-* Wrap long filenames
 
 * ASCII checkboxes
 

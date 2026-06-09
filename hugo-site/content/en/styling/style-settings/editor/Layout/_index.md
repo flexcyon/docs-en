@@ -8,14 +8,8 @@ Configure the workspace layout.
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Layout
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Layout
 ```
 
 ## Configuration Options
@@ -25,7 +19,7 @@ Style Settings
 CSS Classe(s) targeted: `.flexcyon-workspace-card-layout,
 .flexcyon-workspace-angled-layout, .flexcyon-workspace-pl10k-layout`
 
-Default: none (class select)
+Default: Powerlevel10k Layout (class select)
 
 Options:
 
