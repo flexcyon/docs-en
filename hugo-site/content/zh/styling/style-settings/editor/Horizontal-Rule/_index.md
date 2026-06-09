@@ -2,20 +2,14 @@
 title: 水平标尺
 ---
 
-在主题中配置水平标尺. 
+在主题中配置水平标尺.
 
 ## 导航
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Horizontal Rule
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Horizontal Rule
 ```
 
 ## 配置选项

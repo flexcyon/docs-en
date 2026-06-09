@@ -6,14 +6,8 @@ title: 图标
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Icons
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Icons
 ```
 
 ## 配置选项

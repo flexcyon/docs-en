@@ -54,7 +54,7 @@ documentation, Powerlevel10k layout
 horizontal rules
 
 - [Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus) theme
-for RTZ mode and prompt styling
+for RTZ mode, prompt styling and relative line numbers.
 
 - `@Moy` on the Obsidian Members' Group Discord for fix to highlight search result
 visual bug

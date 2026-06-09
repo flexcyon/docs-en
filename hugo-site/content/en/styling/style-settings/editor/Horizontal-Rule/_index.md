@@ -8,14 +8,8 @@ Configure horizontal rules in the theme
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Horizontal Rule
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Horizontal Rule
 ```
 
 ## Configuration Options

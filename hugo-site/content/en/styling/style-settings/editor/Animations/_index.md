@@ -10,9 +10,8 @@ Accepted Formats: ms
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Animations
+|-- flexcyon://Editor
+|   |-- Animations
 ```
 
 ## Configuration Options
@@ -23,10 +22,11 @@ CSS Classe(s) targeted: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
 .flexcyon-anims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl, .flexcyon-anims-scale-up`
 > Changes may need an app reload/restart to take effect
 
-Default: none (class select)
+Default: Fade In (class select)
 
 Options:
 
+- None
 - Slide in Left to Right
 - Slide in Right to Left
 - Slide in Top to Bottom
@@ -41,10 +41,11 @@ CSS Classe(s) targeted: `.flexcyon-modal-anims-slide-rtl, .flexcyon-modal-anims-
 .flexcyon-modal-anims-slide-tb, .flexcyon-modal-anims-slide-bt, .flexcyon-modal-anims-spin-bt, .flexcyon-modal-anims-spin-rl, .flexcyon-modal-anims-scale-up`
 > Changes may need an app reload/restart to take effect
 
-Default: none (class select)
+Default: Slide in Left to Right (class select)
 
 Options:
 
+- None
 - Slide in Left to Right
 - Slide in Right to Left
 - Slide in Top to Bottom

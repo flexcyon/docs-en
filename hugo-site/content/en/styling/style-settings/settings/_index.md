@@ -28,12 +28,6 @@ CSS Variable(s) targeted: `var(--flexcyon-settings-installed-tooltip-left-margin
 
 Default: 1 (rem)
 
-### Do not show scrollbar in settings
-
-CSS Variable(s) targeted: `var(--flexcyon-settings-scrollbar-removed)`
-
-Default: true (class toggle)
-
 ### Enable alternate active item effect in settings
 
 CSS Variable(s) targeted: `var(--flexcyon-enable-alt-active-item-effect)`

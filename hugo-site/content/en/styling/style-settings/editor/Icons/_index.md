@@ -6,14 +6,8 @@ title: Icons
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Icons
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Icons
 ```
 
 ## Configuration Options
