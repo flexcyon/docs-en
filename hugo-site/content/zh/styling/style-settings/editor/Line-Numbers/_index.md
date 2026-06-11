@@ -2,7 +2,7 @@
 title: 行号
 ---
 
-配置行号和相对行号. 
+配置行号和相对行号.
 
 接受的格式: HEX, %, x.y
 
@@ -10,14 +10,8 @@ title: 行号
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Line Numbers
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Line Numbers
 ```
 
 ## 配置选项

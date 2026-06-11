@@ -10,14 +10,8 @@ Accepted formats: HEX, %, x.y
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Line Numbers
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Line Numbers
 ```
 
 ## Configuration Options

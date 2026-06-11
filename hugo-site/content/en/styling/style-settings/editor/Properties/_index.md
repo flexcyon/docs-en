@@ -8,14 +8,8 @@ Configures CSS variables for properties/metadata/YAML of files.
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Properties
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Properties
 ```
 
 ## Configuration Options
@@ -50,4 +44,4 @@ Default: 14 (px)
 
 CSS Classe(s) targeted: `var(--flexcyon-metadata-no-properties-title)`
 
-默认: false (类切换)
+Default: false (class toggle)

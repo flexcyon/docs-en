@@ -2,20 +2,14 @@
 title: 属性
 ---
 
-为文件的属性 / 元数据 / YAML 配置 CSS 变量. 
+为文件的属性 / 元数据 / YAML 配置 CSS 变量.
 
 ## 导航
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Properties
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Properties
 ```
 
 ## 配置选项

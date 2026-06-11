@@ -10,9 +10,8 @@ Accepted Formats: HEX
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Typography
+|-- flexcyon://Editor
+|   |-- Typography
 ```
 
 ## Configuration Options
@@ -35,6 +34,44 @@ CSS Variable(s) targeted: `var(--flexcyon-text-muted)`
 
 Default:
 <span class="col-sqr" style="background-color: #6f768599"></span> #6f768599
+
+#### Bold Text Colour
+
+CSS Variable(s) targeted: `var(--bold-color)`
+
+Default: Red (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
+* Accent
+* Normal text
+
+#### Italic Text Colour
+
+CSS Variable(s) targeted: `var(--italic-color)`
+
+Default: Accent (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
+* Accent
+* Normal text
 
 #### Default line height
 

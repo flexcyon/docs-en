@@ -2,7 +2,7 @@
 title: Links
 ---
 
-Configure the color of links.
+Configure the colour of links.
 
 Accepted formats: HEX
 
@@ -10,9 +10,8 @@ Accepted formats: HEX
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Links
+|-- flexcyon://Editor
+|   |-- Links
 ```
 
 ## Configuration Options

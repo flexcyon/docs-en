@@ -10,14 +10,8 @@ Accepted formats: px
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Media
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Media
 ```
 
 ## Configuration Options
@@ -33,4 +27,3 @@ Default: 8 (px)
 CSS Variable(s) targeted: `var(--img-border-radius)`
 
 Default: 15 (px)
-
