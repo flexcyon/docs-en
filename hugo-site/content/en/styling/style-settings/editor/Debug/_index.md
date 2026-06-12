@@ -8,14 +8,8 @@ Debug related settings.
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Debug
-|   |   |-- ...
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Debug
 ```
 
 ## Configuration Options

@@ -8,14 +8,8 @@ title: 标签页
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Tabs
-| | |-- ...
-| |-- ...
-|-- ...
+|   |-- Editor
 ```
 
 ## 配置选项
@@ -33,5 +27,13 @@ Style Settings
 在 RTZ 模式下默认启用. 
 
 目标 CSS 类: `.flexcyon-remove-tab-headers`
+
+默认: false (类切换)
+
+### 选项卡标题容器和选项卡内容的顺序相反
+
+将选项卡标题容器放置在屏幕的底部而不是顶部, 对堆叠的选项卡没有任何作用.
+
+目标 CSS 类: `.flexcyon-reverse-tab-header-container`
 
 默认: false (类切换)

@@ -36,11 +36,15 @@ Default: false (class toggle)
 
 ### Load ASCII Icon Set
 
+Replaces some icons with ASCII Icons, works best when used together with smiley icons. This will override the declarations by community plugins like Iconic for the specific icons targeted. This can be prevented with the setting below.
+
 CSS Classe(s) targeted: `.flexcyon-ascii-icon-set`
 
 Default: false (class toggle)
 
 ### Ensure community plugin icons take precedence
+
+Ensure community plugins which modify icons have their modifications take precedence over this theme's. Smiley Icons and ASCII Icons will not render when said community plugins are enabled and this setting is enabled. This setting currently only works with the Iconic plugin, as adding support for all icon related plugins negatively affects performance too much.
 
 CSS Classe(s) targeted: `.flexcyon-ensure-plugin-icon`
 
@@ -48,12 +52,8 @@ Default: true (class toggle)
 
 ### Coloured Icons in Settings
 
+Display coloured icons for buttons in setting like uninstall, options, hotkeys, etc. Current implementation might not work with earlier Obsidian versions.
+
 CSS Variable(s) targeted: `var(--flexcyon-settings-coloured-icons)`
 
 Default: false (class toggle)
-
-### Stylised pin icons
-
-CSS Variable(s) targeted: `var(--flexcyon-stylised-pins)`
-
-Default: true (class toggle)

@@ -51,9 +51,3 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-settings-coloured-icons)`
 
 默认: false (类切换)
-
-### 风格化固定图标
-
-目标 CSS 变量: `var(--flexcyon-stylised-pins)`
-
-默认: true (类切换)

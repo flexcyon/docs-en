@@ -8,14 +8,8 @@ title: 调试
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Debug
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Debug
 ```
 
 ## 配置选项
