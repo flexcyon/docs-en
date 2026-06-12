@@ -11,13 +11,8 @@ Accepted Formats: px
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Graph
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Graph
 ```
 
 ## Configuration Options

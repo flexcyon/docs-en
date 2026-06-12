@@ -10,13 +10,8 @@ title: 图形视图
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Graph
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Graph
 ```
 
 ## 配置选项

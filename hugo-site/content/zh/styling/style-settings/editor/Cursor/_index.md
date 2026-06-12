@@ -8,13 +8,8 @@ title: 光标
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Cursor
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Cursor
 ```
 
 ## 配置选项
@@ -37,18 +32,24 @@ Style Settings
 
 ### 平滑光标过渡持续时间
 
-目标 CSS 类: `var(--flexcyon-cursor-duration)`
+目标 CSS 变量: `var(--flexcyon-cursor-duration)`
 
 默认: 42.5 (ms)
 
 ### 平滑光标计时函数
 
-目标 CSS 类: `var(--flexcyon-cursor-timing-fn)`
+目标 CSS 变量: `var(--flexcyon-cursor-timing-fn)`
 
 默认: ease-in
 
 ### 平滑光标最小宽度
 
-目标 CSS 类: `var(--flexcyon-cursor-min-width)`
+目标 CSS 变量: `var(--flexcyon-cursor-min-width)`
 
 默认: unset
+
+### 停止 Vim 块光标闪烁
+
+目标 CSS 类: `var(--flexcyon-disable-vim-cursor-blink)`
+
+默认: false (类切换)

@@ -8,9 +8,8 @@ Configure the cursor
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- Cursor
+|-- flexcyon://Editor
+|   |-- Cursor
 ```
 
 ## Configuration Options
@@ -36,18 +35,24 @@ Default: true
 
 ### Smooth cursor transition duration
 
-CSS Classe(s) targeted: `var(--flexcyon-cursor-duration)`
+CSS Variable(s) targeted: `var(--flexcyon-cursor-duration)`
 
 Default: 42.5 (ms)
 
 ### Smooth cursor timing function
 
-CSS Classe(s) targeted: `var(--flexcyon-cursor-timing-fn)`
+CSS Variable(s) targeted: `var(--flexcyon-cursor-timing-fn)`
 
 Default: ease-in
 
 ### Smooth cursor minimum width
 
-CSS Classe(s) targeted: `var(--flexcyon-cursor-min-width)`
+CSS Variable(s) targeted: `var(--flexcyon-cursor-min-width)`
 
 Default: unset
+
+### Disable Vim Block Cursor Blink
+
+CSS Classe(s) targeted: `var(--flexcyon-disable-vim-cursor-blink)`
+
+Default: false (class toggle)
