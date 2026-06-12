@@ -8,13 +8,8 @@ Accepted Formats: px
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Input
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Input
 ```
 
 ## Configuration Options

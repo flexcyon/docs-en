@@ -8,13 +8,8 @@ title: 输入
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- Editor
-|   |   |-- ...
-|   |   |-- Input
-|   |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Input
 ```
 
 ## 配置选项
