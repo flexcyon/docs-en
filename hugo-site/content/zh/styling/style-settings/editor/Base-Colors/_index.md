@@ -2,7 +2,7 @@
 title: 基础色
 ---
 
-定义的颜色会覆盖背景和其他UI元素中使用的基础颜色的主题默认值. 
+定义的颜色会覆盖背景和其他 UI 元素中使用的基础颜色的主题默认值. 
 
 接受的格式: HEX
 
@@ -86,24 +86,3 @@ Style Settings
 
 默认 (暗模式):
 <span class="col-sqr" style="background-color: #d3d5d3"></span> #d3d5d3
-
-### 基础灰色标签
-
-目标 CSS 变量: `var(--flexcyon-base-grey-token)`
-
-默认:
-<span class="col-sqr" style="background-color: #586582"></span> #586582
-
-### 基础灰色卷轴
-
-目标 CSS 变量: `var(--flexcyon-base-grey-scroll)`
-
-默认:
-<span class="col-sqr" style="background-color: #3f495e"></span> #3f495e
-
-### 基础灰色卷轴悬停
-
-目标 CSS 变量: `var(--flexcyon-base-grey-scroll-hover)`
-
-默认:
-<span class="col-sqr" style="background-color: #5d6782"></span> #5d6782

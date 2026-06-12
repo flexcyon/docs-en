@@ -2,7 +2,7 @@
 title: 强调色
 ---
 
-定义的颜色会覆盖标题颜色和其他UI元素的主题默认值. 还包括覆盖强调色. 
+定义的颜色会覆盖标题颜色和其他 UI 元素的主题默认值. 这包括覆盖强调色. 
 
 > 这些颜色覆盖了标准 CSS 变量, 如 `var(--color-cyan)`
 
@@ -12,12 +12,28 @@ title: 强调色
 
 ```md
 Style Settings
-|-- Editor
+|-- flexcyon://Editor
 |   |-- Colors
 |   |   |-- Accent Colors
 ```
 
 ## 配置选项
+
+### 启用扩展调色板
+
+目标 CSS 变量: `var(--flexcyon-ext-colors-enabled)`
+
+默认: true
+
+### 强调色
+
+目标 CSS 变量: `var(--flexcyon-accent)`
+
+默认 (灯光模式):
+<span class="col-sqr" style="background-color: #4b65b4"></span> #4b65b4
+
+默认 (暗模式):
+<span class="col-sqr" style="background-color: #a5bc84"></span> #a5bc84
 
 ### 青色
 
@@ -98,19 +114,3 @@ Style Settings
 
 默认 (暗模式):
 <span class="col-sqr" style="background-color: #ff91cb"></span> #ff91cb
-
-### 强调色
-
-目标 CSS 变量: `var(--flexcyon-accent)`
-
-默认 (灯光模式):
-<span class="col-sqr" style="background-color: #4b65b4"></span> #4b65b4
-
-默认 (暗模式):
-<span class="col-sqr" style="background-color: #a5bc84"></span> #a5bc84
-
-### 启用扩展调色板
-
-目标 CSS 变量: `var(--flexcyon-ext-colors-enabled)`
-
-默认: true
