@@ -10,26 +10,22 @@ title: 排版
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Typography
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Typography
 ```
 
 ## 配置选项
 
-### 静音文本颜色
+### 文本
+
+#### 静音文本颜色
 
 目标 CSS 变量: `var(--flexcyon-text-muted)`
 
 默认:
 <span class="col-sqr" style="background-color: #6f768599"></span> #6f768599
 
-### 默认文本颜色
+#### 默认文本颜色
 
 目标 CSS 变量: `var(--text-normal)`
 
@@ -39,14 +35,15 @@ Style Settings
 默认 (暗模式):
 <span class="col-sqr" style="background-color: #d3d5d3"></span> #d3d5d3
 
-### 默认行高度
+#### 默认行高度
 
 目标 CSS 变量: `var(--line-height-normal)`
 
 默认: 1.5 (px)
 
-### UI 行高度
-用于搜索结果, 树项目,工具提示和其他较小的空间. 开发者文档中的描述. 
+#### UI 行高度
+
+用于搜索结果, 树项目, 工具提示和其他较小的空间. 开发者文档中的描述. 
 
 目标 CSS 变量: `var(--line-height-tight)`
 
@@ -64,7 +61,10 @@ Style Settings
 
 默认: 0 (px)
 
-### 突出显示文本颜色
+
+### 突出显示文本
+
+#### 突出显示文本颜色
 
 目标 CSS 变量: `var(--flexcyon-highlight-colour)`
 
@@ -81,25 +81,25 @@ Style Settings
 - Yellow (黄色)
 - Green (绿色)
 
-### 突出显示文本不透明度
+#### 突出显示文本不透明度
 
 目标 CSS 变量: `var(--flexcyon-highlight-opacity)`
 
 默认: 22.5%
 
-### 突出显示文本垂直填充
+#### 突出显示文本垂直填充
 
 目标 CSS 变量: `var(--flexcyon-highlight-verti-padding)`
 
 默认: 1 (px)
 
-### 突出显示文本水平填充
+#### 突出显示文本水平填充
 
 目标 CSS 变量: `var(--flexcyon-highlight-horiz-padding)`
 
 默认: 2.5 (px)
 
-### 突出显示文本边框圆角
+#### 突出显示文本边框圆角
 
 目标 CSS 变量: `var(--flexcyon-highlight-border-radius)`
 

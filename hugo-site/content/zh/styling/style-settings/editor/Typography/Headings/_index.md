@@ -10,14 +10,9 @@ title: 标题
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Headings
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Typography
+|   |   |-- Headings
 ```
 
 ## 配置选项
@@ -27,8 +22,6 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-headings-coloured-enabled)`
 
 默认: true (类切换)
-
-> Inherits from accent colors like `--color-blue`, `--color-red` etc
 
 ### 为标题启用柔和的发光
 
@@ -72,6 +65,8 @@ Style Settings
 * Orange (橙色)
 * Yellow (黄色)
 * Green (绿色)
+* Accent (强调色)
+* Normal text (默认文本颜色)
 
 ### 标题 1 字体大小
 
@@ -145,6 +140,8 @@ Style Settings
 * Orange (橙色)
 * Yellow (黄色)
 * Green (绿色)
+* Accent (强调色)
+* Normal text (默认文本颜色)
 
 ### 标题 2 字体大小
 
@@ -216,6 +213,8 @@ Style Settings
 * Orange (橙色)
 * Yellow (黄色)
 * Green (绿色)
+* Accent (强调色)
+* Normal text (默认文本颜色)
 
 ### 标题 3 字体大小
 
@@ -287,6 +286,8 @@ Style Settings
 * Orange (橙色)
 * Yellow (黄色)
 * Green (绿色)
+* Accent (强调色)
+* Normal text (默认文本颜色)
 
 ### 标题 4 字体大小
 
@@ -358,6 +359,8 @@ Style Settings
 * Orange (橙色)
 * Yellow (黄色)
 * Green (绿色)
+* Accent (强调色)
+* Normal text (默认文本颜色)
 
 ### 标题 5 字体大小
 
@@ -429,6 +432,8 @@ Style Settings
 * Orange (橙色)
 * Yellow (黄色)
 * Green (绿色)
+* Accent (强调色)
+* Normal text (默认文本颜色)
 
 ### 标题 6 字体大小
 

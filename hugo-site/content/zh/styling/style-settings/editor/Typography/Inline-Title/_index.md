@@ -8,14 +8,9 @@ title: 行内标题
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Inline Title
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Typography
+|   |   |-- Inline Title
 ```
 
 ## 配置选项

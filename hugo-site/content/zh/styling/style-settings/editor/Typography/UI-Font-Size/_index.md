@@ -2,7 +2,7 @@
 title: UI 字体大小
 ---
 
-Overrides default font sizes used in the interface.
+覆盖界面中使用的默认字体大小.
 
 接受的格式: px
 
@@ -10,14 +10,9 @@ Overrides default font sizes used in the interface.
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- UI Font Size
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Typography
+|   |   |-- UI Font Size
 ```
 
 ## 配置选项
