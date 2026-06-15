@@ -34,7 +34,7 @@ are not displayed until hovered on.
 
 An extremely opinionated set up which showcases the unique customisation in this
 theme, with features working out of the box. If some options are not too your
-taste you can disable this mode and customise the theme more yourself, it will
+liking you can disable this mode and customise the theme more yourself, it will
 reset the theme to a clean slate customisations wise.
 
 There are also other default options enabled which you may or may not like.
@@ -47,8 +47,6 @@ who may not like this set of defaults, **disabling this mode is recommended**.
 ### Flex Max mode enabled settings options
 
 Enables the following settings, even if they are toggled off in style settings
-
-TODO: Sort these in order of appearance in style settings.
 
 * Smiley icons
 
@@ -127,7 +125,6 @@ CSS Variable(s) targeted: `var(--flexcyon-editor-writing)`
 Default: false (class toggle)
 
 ### Writing mode indentation
-
 
 CSS Variable(s) targeted: `var(--flexcyon-editor-writing-indentation)`
 

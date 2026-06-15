@@ -8,67 +8,69 @@ title: 模式
 
 ```md
 Style Settings
-|-- flexcyon://Modes
+|-- flexcyon://模式s
 ```
 
 ## 配置选项
 
-### RTZ 模式
+### 选择模式
+目标 CSS 类: `.flexcyon-flex-max-mode, .flexcyon-rtz-mode`
 
-> 受 Shimmering Focus 主题启发的极端极简主义. 大多数 UI 元素在悬停之前不会显示.
-> 不推荐在手机上使用. 不适与 Flex Max 模式使用.
+默认: Flex Max 模式 (class select)
 
-目标 CSS 变量: `var(--flexcyon-rtz-mode)`
+选项:
 
-默认: false (类切换)
+- none (无)
+- Flex Max 模式
+- Return To Zero (RTZ) 模式
 
-### Flex Max 模式
+### 关于 Return to Zero 模式
 
-> 一个非常有主见的设置, 展示了这个主题的独特定制, 功能开箱即用. 如果某些选项不太适合您, 您可以禁用此模式并更多地自定义主题, 它将重置主题为全新的自定义. 还有其他启用的默认选项, 您可能喜欢也可能不喜欢. 请参阅下文, 了解它为您启用的选项列表.
+受 Shimmering Focus 主题启发的极端极简主义. 大多数 UI 元素在悬停之前不会显示.
+> 不建议在手机上使用
 
-> 如果您不知道从哪里开始自定义主题, 建议使用此模式. **若些希望广泛定制主题或不喜欢某些默认设置, 建议不使用此模式**
+### 关于 Flex Max 模式
 
-目标 CSS 变量: `var(--flexcyon-flex-max-mode)`
 
-默认: true (类切换)
+一个非常有主见的设置, 展示了这个主题的独特定制, 功能开箱即用.
 
-### Flex Max 模式启用设置
+如果您不太喜欢某些选项, 您可以不使用此模式并更多地自定义主题. 这将使主题重新设置为全新的自定义模式.
 
-启用以下设置, 即使在样式设置中已将其关闭. 
+有些被启用的默认选项. 请参阅下文, 了解它为您启用的选项.
+
+对于不知道从哪里开始定制的用户, 建议使用此模式. 对于那些希望 **广泛定制主题** 
+或可能不喜欢这组默认设置的人, **建议避免使用此模式**.
+
+
+### Flex Max 模式启用设置选项
+
+启用以下设置, 即使它们在 *样式设置中未启用*
 
 * 笑脸图标
 
 * 确保社区插件图标优先
 
-* 淡入标签动画
+* 在空状态标题前添加 ASCII 艺术
 
-* 从左到右的模态动画
+* 用空状态标题
 
-* 样式设置容器中的动画
+* 定义水平规则字符串
 
-* ASCII 艺术
+* Powerlevel10k 为灵感的状态栏风格
 
-* 水平标尺自定义字体
+* 藏直到悬停状态栏
 
-* 受 Powerlevel10k 启发的布局和状态栏风格
-
-* 隐藏直到悬停状态栏
-
-* 当前状态栏编辑模式为文本而非图标
+* 前状态栏编辑模式为文本而非图标
 
 * Vim 模式状态
 
 * 彩色标题
 
-* 扩展调色板
-
-* 文件扩展名变暗
-
-* 换行长文件名
+* 展调色板
 
 * ASCII 复选框
 
-* Clip Path 复选框
+* 剪辑路径复选框
 
 * 设置中的彩色图标
 
@@ -76,18 +78,18 @@ Style Settings
 
 * 在设置中不显示滚动条
 
-* Alternate File Tree 插件的文件扩展名已变暗
-
-* 禁用空状态标题
+* 备用文件树插件的文件扩展名已变暗
 
 * 启用侧坞图标效果
 
-* 小写代码块文件扩展名 (Live Preview 模式)
+* 降低代码块文件扩展名 (Live Preview)
 
-* 为代码块文件扩展名添加前缀 (Live Preview 模式)
+* 为代码块文件扩展名添加前缀 (Live Preview)
 
 
-您应该能够配置这些设置, 就像它们正常启用一样. 这主题还有许多其他设置选项供您探索, 其中一些默认情况下是启用的, 如平滑光标.
+您应该能够配置这些设置, 就像它们正常启用一样.
+该主题还有许多其他设置选项供您探索, 其中一些默认情况下是启用的, 如平滑光标.
+
 
 ### Typewriter 模式
 
@@ -97,9 +99,9 @@ Style Settings
 
 默认: false (类切换)
   
-### Typewriter Mode Opacity
+### Typewriter 模式 Opacity
 
-Typewriter 模式下变暗的非活动行的不透明度.
+Typewriter 模式下变暗的非活动线的不透明度
 
 目标 CSS 变量: `var(--flexcyon-typewriter-mode-opacity)`
 
@@ -107,55 +109,22 @@ Typewriter 模式下变暗的非活动行的不透明度.
 
 ### Reverse 模式
 
-反转 UI 中内容的呈现
+反转 UI 中内容的内容顺序.
 
 目标 CSS 变量: `var(--flexcyon-reverse-mode)`
 
 默认: false (类切换)
 
-### 全局启用书写模式
+### 全局启用 Writing 模式
 
-> Like its cssclass counterpart, except applied globally
+> 与它 cssclass 类似, 但全局启用
 
 目标 CSS 变量: `var(--flexcyon-editor-writing)`
 
 默认: false (类切换)
 
-### 书写模式缩进
+### Writing 模式缩进
 
 目标 CSS 变量: `var(--flexcyon-editor-writing-indentation)`
 
 默认: 16 (px)
-
----
-
-### 无障碍
-
-切换辅助功能选项
-
-> Note that changing these will change how the entire theme renders.
->
-> Tweaking these values too much may make the theme look ugly
-
-### 全局亮度比
-
-目标 CSS 变量: `var(--flexcyon-brightness-ratio)`
-
-默认: 1
-
-### 全局对比度
-
-目标 CSS 变量: `var(--flexcyon-contrast-ratio)`
-
-默认: 1
-
-> E.g. if you want slightly more contrast like on an OLED screen, try values
-> between 1 to 1.5
-
-### 全局饱和比
-
-目标 CSS 变量: `var(--flexcyon-saturation-ratio)`
-
-默认: 1
-
-> Use to modify the saturation of colors
