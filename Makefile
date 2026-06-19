@@ -1,4 +1,4 @@
-.PHONY: help dev 
+.PHONY: help dev audit-links strip-icon translate-frontmatter check-i18n
 
 help:
 	@echo "Usage: make [target]"
@@ -8,6 +8,7 @@ help:
 	@echo "  audit-links             Get all markdown links and pipe to links-audit.md in a TODO format"
 	@echo "  strip-icons             Strips old material icons metadata declarations"
 	@echo "  translate-frontmatter   Translates existing title entries with i18n/zh.yaml"
+	@echo "  check-i18n              Check for missing i18n files"
 
 dev:
 	cd hugo-site && hugo server --disableFastRender
@@ -39,7 +40,13 @@ strip-icons:
 	@echo "Done."
 
 translate-frontmatter:
-translate-frontmatter:
 	@echo "Processing content (EN: tag removal | ZH: translation & tag removal)..."
 	@python3 ./scripts/translate_frontmatter.py
 	@echo "Done."
+
+# By default, running 'make check-i18n' will auto-detect all languages in hugo-site/
+# To specify exact languages: make check-i18n LANGS="en zh es ja"
+LANGS ?= 
+
+check-i18n:
+	@./scripts/compare_translations.py $(LANGS)
