@@ -26,7 +26,7 @@ Style Settings
 
 ### 模式视图标题垂直填充
 
-Angled 和 Powerlevel10k等模式下视图标题的垂直填充.
+Angled 和 Powerlevel10k 等模式下视图标题的垂直填充.
 
 目标 CSS 变量: `var(--flexcyon-mode-view-header-title-verti-padding)`
 
@@ -34,7 +34,7 @@ Angled 和 Powerlevel10k等模式下视图标题的垂直填充.
 
 ### 模式视图标题水平填充
 
-Angled 和 Powerlevel10k等模式下视图标题的水平填充.
+Angled 和 Powerlevel10k 等模式下视图标题的水平填充.
 
 目标 CSS 变量: `var(--flexcyon-mode-view-header-title-horiz-padding)`
 

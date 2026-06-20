@@ -1,59 +1,96 @@
 import os
 import re
 
-translations = {}
-yaml_path = 'hugo-site/i18n/zh.yaml'
+LANG_CONFIGS = {
+    "en": {"translate": False, "apply_pangu": False},
+    "zh": {"translate": True, "apply_pangu": True},
+    # "ja": {"translate": True, "apply_pangu": True},
+    "ko": {"translate": True, "apply_pangu": False}
+    }
 
-if os.path.exists(yaml_path):
+LINE_PATTERN = re.compile(
+    r'^(\s*(?:title|description|linkTitle|menu_name):\s*)(.*)$',
+    re.MULTILINE | re.IGNORECASE
+    )
+
+TAGS_BLOCK_PATTERN = re.compile(
+    r'^tags:\s*\n(?:(?:\s+|-).*\n?)*',
+    re.MULTILINE | re.IGNORECASE
+    )
+
+LINK_PATTERN = re.compile(r'(\[.*?\])\((.*?)\)')
+
+# Separate patterns so we can easily log matches and track char offsets
+CJK_LATIN = re.compile(r'([\u4e00-\u9fa5\u3040-\u30ff\u31f0-\u31ff])([A-Za-z0-9])')
+LATIN_CJK = re.compile(r'([A-Za-z0-9])([\u4e00-\u9fa5\u3040-\u30ff\u31f0-\u31ff])')
+
+
+def load_dictionary(lang):
+    translations = {}
+    yaml_path = f'hugo-site/i18n/{lang}.yaml'
+    if not os.path.exists(yaml_path):
+        return None, None
     with open(yaml_path, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
-            if not line or line.startswith('#'):
+            if not line or line.startswith('#') or ':' not in line:
                 continue
-            if ':' in line:
-                key, value = line.split(':', 1)
-                translations[key.strip().lower()] = value.strip()
+            key, value = line.split(':', 1)
+            translations[key.strip().lower()] = value.strip()
+    if not translations:
+        return None, None
+    sorted_keys = sorted(translations.keys(), key=len, reverse=True)
+    keys_pattern = "|".join(re.escape(k) for k in sorted_keys)
+    word_pattern = re.compile(rf'(?<![a-zA-Z0-9])({keys_pattern})(?![a-zA-Z0-9])', re.IGNORECASE)
+    return translations, word_pattern
 
-sorted_keys = sorted(translations.keys(), key=len, reverse=True)
-keys_pattern = "|".join(re.escape(k) for k in sorted_keys)
+def audit_and_space(text, file_path, block_name, baseline_line=1):
+    if not text:
+        return text
 
-line_pattern = re.compile(
-    r'^(\s*(?:title|description|linkTitle|menu_name):\s*)(.*)$',
-    re.MULTILINE | re.IGNORECASE
-)
+    lines = text.splitlines()
+    new_lines = []
+    context_window = 15
 
-word_pattern = re.compile(
-    rf'(?<![a-zA-Z0-9])({keys_pattern})(?![a-zA-Z0-9])',
-    re.IGNORECASE
-)
+    # Combined pattern to scan for BOTH issues in a single pass
+    combined_pattern = re.compile(f"({CJK_LATIN.pattern}|{LATIN_CJK.pattern})")
 
-tags_block_pattern = re.compile(
-    r'^tags:\s*\n(?:(?:\s+|-).*\n?)*',
-    re.MULTILINE | re.IGNORECASE
-)
+    for idx, line in enumerate(lines):
+        current_line_no = baseline_line + idx
 
-link_pattern = re.compile(r'(\[.*?\])\((.*?)\)')
+        # Track matches we've already logged on this line to prevent double-printing overlapping chunks
+        logged_positions = set()
 
+        for match in combined_pattern.finditer(line):
+            start_pos = match.start()
 
-def enforce_pangu_spacing(text):
-    text = re.sub(r'([\u4e00-\u9fa5])\s+([\u4e00-\u9fa5])', r'\1\2', text)
-    text = re.sub(r'([\u4e00-\u9fa5])([^\u4e00-\u9fa5\s])', r'\1 \2', text)
-    text = re.sub(r'([^\u4e00-\u9fa5\s])([\u4e00-\u9fa5])', r'\1 \2', text)
-    return text
+            # If we already evaluated this character index block, skip logging it again
+            if start_pos in logged_positions or (start_pos - 1) in logged_positions:
+                continue
 
+            offending_item = match.group(0)
+            logged_positions.add(start_pos)
 
-def translate_value(match):
-    prefix = match.group(1)
-    val = match.group(2)
+            # Determine the exact reason for the log entry
+            if re.match(r'[\u4e00-\u9fa5\u3040-\u30ff\u31f0-\u31ff]', offending_item[0]):
+                reason = "Missing space between CJK and Latin"
+            else:
+                reason = "Missing space between Latin and CJK"
 
-    def replace_word(m):
-        return translations.get(m.group(1).lower(), m.group(1))
+            context_snippet = (
+                line[max(0, start_pos - context_window):start_pos] + 
+                f">>> [{offending_item}] <<<" + 
+                line[match.end():min(len(line), match.end() + context_window)]
+                ).strip()
 
-    translated = word_pattern.sub(replace_word, val)
-    final = enforce_pangu_spacing(translated)
-    final = re.sub(r'\s+', ' ', final)
-    return f"{prefix}{final.strip()}"
+            print(f"{file_path}:{current_line_no}:{start_pos + 1} ({block_name}) -> ... {context_snippet} ... | Reason: {reason}")
 
+        # Update the string contents cleanly after tracking
+        modified_line = CJK_LATIN.sub(r'\1 \2', line)
+        modified_line = LATIN_CJK.sub(r'\1 \2', modified_line)
+        new_lines.append(modified_line)
+
+    return "\n".join(new_lines) + ("\n" if text.endswith("\n") else "")
 
 def clean_markdown_links(content):
     def link_replacer(match):
@@ -77,36 +114,79 @@ def clean_markdown_links(content):
         elif path == 'index':
             path = ''
         return f"{label}({path}{anchor})"
-    return link_pattern.sub(link_replacer, content)
+    return LINK_PATTERN.sub(link_replacer, content)
 
 
-def process_directory(target_dir, should_translate):
+def process_directory(lang, config):
+    target_dir = f'hugo-site/content/{lang}'
     if not os.path.exists(target_dir):
         return
+
+    translations, word_pattern = load_dictionary(lang) if config["translate"] else (None, None)
+
+    def translate_value(match):
+        prefix = match.group(1)
+        val = match.group(2)
+        def replace_word(m):
+            return translations.get(m.group(1).lower(), m.group(1))
+
+        translated = word_pattern.sub(replace_word, val) if word_pattern else val
+        return f"{prefix}{translated}"
+
     for root, _, files in os.walk(target_dir):
         for file in files:
             if file.endswith('.md'):
                 path = os.path.join(root, file)
                 with open(path, 'r', encoding='utf-8') as f:
                     content = f.read()
+
+                # Process Links first
                 new_content = clean_markdown_links(content)
-                if should_translate:
+
+                if lang == "zh":
                     new_content = new_content.replace('。', '. ')
                     new_content = new_content.replace('， ', ', ')
                     new_content = new_content.replace('、', ', ')
+
+                # Split Frontmatter from Body safely before running Pangu spacing
                 fm = re.match(r'^---\s*\n(.*?)\n---\s*\n', new_content, re.DOTALL)
                 if fm:
                     fm_c = fm.group(1)
-                    body = new_content[fm.end():].lstrip('\n')
-                    new_fm = tags_block_pattern.sub('', fm_c)
-                    if should_translate and translations:
-                        new_fm = line_pattern.sub(translate_value, new_fm)
+                    body = new_content[fm.end():]
+
+                    # Track lines for exact back-half log indexing
+                    fm_line_count = len(fm_c.splitlines()) + 2 
+
+                    new_fm = TAGS_BLOCK_PATTERN.sub('', fm_c)
+                    if config["translate"] and translations:
+                        new_fm = LINE_PATTERN.sub(translate_value, new_fm)
+
+                    # Apply text-spacing inside frontmatter values safely
+                    if config["apply_pangu"]:
+                        new_fm = audit_and_space(new_fm, path, "Frontmatter", baseline_line=2)
+
                     new_fm = re.sub(r'\n\s*\n', '\n', new_fm).strip()
-                    new_content = f"---\n{new_fm}\n---\n\n{body}"
+
+                    # Apply text-spacing inside body copy safely (ignoring code blocks can be done here)
+                    if config["apply_pangu"]:
+                        body = audit_and_space(body, path, "Body Text", baseline_line=fm_line_count + 1)
+
+                    new_content = f"---\n{new_fm}\n---\n\n{body.lstrip('\n')}"
+                else:
+                    # Fallback if no frontmatter found
+                    if config["apply_pangu"]:
+                        new_content = audit_and_space(new_content, path, "Full Raw Document")
+
                 if new_content != content:
                     with open(path, 'w', encoding='utf-8') as f:
                         f.write(new_content)
 
 
-process_directory('hugo-site/content/en', False)
-process_directory('hugo-site/content/zh', True)
+def main():
+    for lang, config in LANG_CONFIGS.items():
+        print(f"\n--- Checking Architecture Path: content/{lang} ---")
+        process_directory(lang, config)
+
+
+if __name__ == "__main__":
+    main()

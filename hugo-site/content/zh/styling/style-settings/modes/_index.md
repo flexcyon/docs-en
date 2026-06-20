@@ -8,7 +8,7 @@ title: 模式
 
 ```md
 Style Settings
-|-- flexcyon://模式s
+|-- flexcyon://模式 s
 ```
 
 ## 配置选项

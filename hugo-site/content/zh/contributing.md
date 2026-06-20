@@ -9,8 +9,8 @@ title: 贡献
 
 
 - `npm run dev`: SCSS-CSS 编译器, 假设您已安装 [Sass](https://sass-lang.com/) (Dart 或 Node 版本)
-- `npm run lint`: 检查整个SCSS代码库. 在源文件中检测到文件写入时重新运行代码检查.
-- `npm run lint-once`: 与其同名, 一次性检查整个SCSS代码库
+- `npm run lint`: 检查整个 SCSS 代码库. 在源文件中检测到文件写入时重新运行代码检查.
+- `npm run lint-once`: 与其同名, 一次性检查整个 SCSS 代码库
 - `npm run fix`: 相当于运行 `stylelint --fix` 命令. 仅在保存文件更改后运行此操作.
 
 如果您更喜欢使用 CSS 而不是 SCSS, 请放置您建议的代码更改在 `css/` 文件夹中. 我们将尝试整合它们.

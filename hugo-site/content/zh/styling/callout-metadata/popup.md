@@ -12,4 +12,4 @@ Callout 元数据: "$pop"
 > in reading mode, which will show its contents on hover
 ```
 
-[单击此处](../../style-settings/editor/callouts#弹出式标注) 查看配置选项
+[单击此处](../../../style-settings/editor/callouts#弹出式标注) 查看配置选项
