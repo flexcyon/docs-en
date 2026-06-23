@@ -10,10 +10,9 @@ Accepted Formats: px
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Typography
-|   |   |   |-- UI Font Size
+|-- flexcyon://Editor
+|   |-- Typography
+|   |   |-- UI Font Size
 ```
 
 ## Configuration Options

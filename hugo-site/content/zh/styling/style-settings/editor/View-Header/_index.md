@@ -6,14 +6,8 @@ title: 视图标题
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- View Header
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- View Header
 ```
 
 ## 配置选项

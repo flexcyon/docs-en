@@ -10,9 +10,8 @@ Accepted formats: px
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Code Blocks
+|-- flexcyon://Editor
+|   |-- Code Blocks
 ```
 
 ## Configuration Options

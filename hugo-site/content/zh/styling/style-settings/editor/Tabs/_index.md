@@ -8,8 +8,8 @@ title: 标签页
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- Editor
+|-- flexcyon://Editor
+|   |-- Tabs
 ```
 
 ## 配置选项

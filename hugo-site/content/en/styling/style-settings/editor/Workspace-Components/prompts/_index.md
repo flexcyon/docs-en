@@ -10,10 +10,9 @@ Accepted Formats: px, vw, vh
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Workspace Components
-|   |   |   |-- Prompts
+|-- flexcyon://Editor
+|   |-- Workspace Components
+|   |   |-- Prompts
 ```
 
 ## Configuration Prompts

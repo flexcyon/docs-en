@@ -10,9 +10,8 @@ Accepted Formats: x.y, rem
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Opacity
+|-- flexcyon://Editor
+|   |-- Opacity
 ```
 
 ## Configuration Options

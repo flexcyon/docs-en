@@ -10,9 +10,8 @@ Accepted formats: HEX, %, x.y
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Table
+|-- flexcyon://Editor
+|   |-- Table
 ```
 
 ## Configuration Options

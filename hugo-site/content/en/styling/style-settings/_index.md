@@ -12,7 +12,5 @@ this theme.
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
-|-- ...
 ```

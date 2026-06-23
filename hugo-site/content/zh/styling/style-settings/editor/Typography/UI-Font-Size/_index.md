@@ -12,7 +12,7 @@ title: UI 字体大小
 Style Settings
 |-- flexcyon://Editor
 |   |-- Typography
-|   |   |-- UI Font Size
+|   |   |-- Ui Font Size
 ```
 
 ## 配置选项

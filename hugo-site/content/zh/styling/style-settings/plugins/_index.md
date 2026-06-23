@@ -10,11 +10,7 @@ For configuration of officially supported plugins
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- ...
-| |-- Plugins
-| |-- ...
+|-- flexcyon://Plugins
 ```
 
 ## 配置选项

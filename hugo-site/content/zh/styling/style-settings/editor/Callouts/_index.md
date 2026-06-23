@@ -10,14 +10,8 @@ title: 标注
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Callouts
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Callouts
 ```
 
 ## 配置选项

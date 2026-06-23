@@ -10,7 +10,5 @@ title: 样式设置
 
 ```md
 Style Settings
-|-- ...
 |-- Flexcyon Style Settings
-|-- ...
 ```

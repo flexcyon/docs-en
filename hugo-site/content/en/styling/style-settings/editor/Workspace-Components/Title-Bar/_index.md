@@ -8,10 +8,9 @@ For configuration of the title bar, enable rainbow hover effects on title bar bu
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Workspace Components
-|   |   |   |-- Titlebar
+|-- flexcyon://Editor
+|   |-- Workspace Components
+|   |   |-- Titlebar
 ```
 
 ## Configuration Options

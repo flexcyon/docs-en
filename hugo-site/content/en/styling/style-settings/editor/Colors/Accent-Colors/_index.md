@@ -13,10 +13,9 @@ Accepted Formats: RGB, HEX
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Colors
-|   |   |   |-- Accent Colors
+|-- flexcyon://Editor
+|   |-- Colors
+|   |   |-- Accent Colors
 ```
 
 ## Configuration Options

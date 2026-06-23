@@ -1,4 +1,4 @@
-.PHONY: help dev audit-links strip-icon translate-frontmatter check-i18n
+.PHONY: help dev audit-links strip-icon translate-frontmatter check-i18n update-nav update-nav-check
 
 help:
 	@echo "Usage: make [target]"
@@ -9,6 +9,8 @@ help:
 	@echo "  strip-icons             Strips old material icons metadata declarations"
 	@echo "  translate-frontmatter   Translates existing title entries with i18n/zh.yaml"
 	@echo "  check-i18n              Check for missing i18n files"
+	@echo "  update-nav              Update style-settings navigation tree blocks"
+	@echo "  update-nav-check        Check style-settings navigation blocks without updating"
 
 dev:
 	cd hugo-site && hugo server --disableFastRender
@@ -50,3 +52,12 @@ LANGS ?=
 
 check-i18n:
 	@./scripts/compare_translations.py $(LANGS)
+
+update-nav:
+	@echo "Updating style-settings navigation tree blocks..."
+	@python3 ./scripts/update_nav_blocks.py
+	@echo "Done."
+
+update-nav-check:
+	@echo "Checking style-settings navigation tree blocks..."
+	@python3 ./scripts/update_nav_blocks.py --check

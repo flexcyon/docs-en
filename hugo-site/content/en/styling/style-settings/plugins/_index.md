@@ -10,11 +10,7 @@ Accepted formats: HEX, rem, x.y, %
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- ...
-|   |-- Plugins
-|   |-- ...
+|-- flexcyon://Plugins
 ```
 
 ## Configuration Options

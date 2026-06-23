@@ -12,6 +12,5 @@ of pages.
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
+|-- flexcyon://Editor
 ```

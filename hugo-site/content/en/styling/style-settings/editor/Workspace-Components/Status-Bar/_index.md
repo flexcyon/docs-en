@@ -10,10 +10,9 @@ Accepted Formats: ms, px
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Workspace Components
-|   |   |   |-- Status Bar
+|-- flexcyon://Editor
+|   |-- Workspace Components
+|   |   |-- Status Bar
 ```
 
 ## Configuration Options

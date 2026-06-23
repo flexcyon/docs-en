@@ -10,14 +10,8 @@ title: 编辑背景
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Editor Background
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Editor Background
 ```
 
 ## 配置选项

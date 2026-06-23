@@ -10,12 +10,7 @@ title: 设置
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- ...
-| |-- Settings
-| |-- ...
-|-- ...
+|-- flexcyon://Settings
 ```
 
 ## 配置选项

@@ -11,10 +11,7 @@ Accepted formats: px
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-|   |-- ...
-|   |-- Others
+|-- flexcyon://Others
 ```
 
 ## Configuration Options

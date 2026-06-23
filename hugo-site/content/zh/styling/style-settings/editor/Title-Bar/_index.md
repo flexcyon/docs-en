@@ -8,14 +8,8 @@ title: 标题栏
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Title Bar
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Title Bar
 ```
 
 ## 配置选项

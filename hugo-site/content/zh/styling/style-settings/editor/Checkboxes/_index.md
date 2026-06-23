@@ -12,14 +12,9 @@ title: 复选框
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Checkboxes
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Lists and Checkboxes
+|   |   |-- Checkboxes
 ```
 
 ## 配置选项

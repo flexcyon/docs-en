@@ -9,14 +9,9 @@ title: 编号列表
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Numbered Lists
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Lists and Checkboxes
+|   |   |-- Numbered Lists
 ```
 
 ## 配置选项

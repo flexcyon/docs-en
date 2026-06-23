@@ -8,14 +8,9 @@ title: 项目列表
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Bullet Lists
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Lists and Checkboxes
+|   |   |-- Bullet Lists
 ```
 
 ## 配置选项

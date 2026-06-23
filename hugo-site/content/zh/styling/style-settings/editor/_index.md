@@ -8,9 +8,5 @@ title: 编辑器
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
 ```

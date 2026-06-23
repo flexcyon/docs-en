@@ -10,14 +10,8 @@ title: 状态栏
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Status Bar
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Status Bar
 ```
 
 ## 配置选项

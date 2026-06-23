@@ -10,14 +10,8 @@ title: 代码块
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- Editor
-| | |-- ...
-| | |-- Code Blocks
-| | |-- ...
-| |-- ...
-|-- ...
+|-- flexcyon://Editor
+|   |-- Code Blocks
 ```
 
 ## 配置选项

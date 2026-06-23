@@ -11,9 +11,8 @@ Accepted Formats: x.y, rem
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Workspace
+|-- flexcyon://Editor
+|   |-- Workspace Components
 ```
 
 ## Configuration Options

@@ -10,10 +10,7 @@ title: 其他
 
 ```md
 Style Settings
-|-- ...
-|-- Flexcyon Style Settings
-| |-- ...
-| |-- Others
+|-- flexcyon://Others
 ```
 
 ## 配置选项

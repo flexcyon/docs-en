@@ -8,10 +8,9 @@ Accepted Formats: em, number
 
 ```md
 Style Settings
-|-- Flexcyon Style Settings
-|   |-- flexcyon://Editor
-|   |   |-- Typography
-|   |   |   |-- Inline Title
+|-- flexcyon://Editor
+|   |-- Typography
+|   |   |-- Inline Title
 ```
 
 ## Configuration Options
