@@ -24,7 +24,8 @@ To write an ordered list in Obsidian, use:
 
 To write an unordered list in Obsidian. use:
 
-```md6- Never
+```md
+- Never
 - Gonna
 - Give
 - ...
