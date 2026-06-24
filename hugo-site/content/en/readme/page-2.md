@@ -8,7 +8,7 @@ To install this theme via the community store, navigate to  `Settings > Appearan
 
 1. Under `Themes`, click Manage
 
-2. `Type "Flexcyon in the search bar > Select it > Click "Install and Use"`
+2. `Type "Flexcyon" in the search bar > Select it > Click "Install and Use"`
 
 ## Via BRAT
 
