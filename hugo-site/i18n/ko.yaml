@@ -1,0 +1,126 @@
+# Core Building Blocks
+Extended Color Palette: 확장 색상 팔레트
+Extended Colour Palette: 확장 색상 팔레트
+Design Principles: 디자인 원칙
+Tools and Software: 도구 및 소프트웨어
+Horizontal Rules: 수평선
+Horizontal Rule: 수평선
+Accent Colors: Accent Colors
+Base Colors: 기본 색상
+Inline Title: 인라인 제목
+Code Blocks: 코드 블록
+UI Font Size: UI 글꼴 크기
+Status Bar: 상태바
+Title Bar: 타이틀바
+Line Numbers: 줄 번호
+Cursor: 커서
+Graph: 그래프
+View Header: View Header
+Metadata: 메타데이터
+Font Size: 글꼴 크기
+Background Styling: 배경 스타일
+Transparent Background: 투명 배경
+Combined Styling: 결합 스타일링
+Style Settings: Style Settings
+Versions: 버전
+Writing Mode: Writing Mode
+Typewriter Mode: Typewriter Mode
+Heading Indicators: 제목 인디케이터
+Vertical Alignment: 세로 정렬
+
+# Adjectives / Colors
+Blue: 파란색
+Red: 빨간색
+Purple: 보라색
+Cyan: 시안
+Pink: 분홍색
+Green: 초록색
+Orange: 오렌지색
+Yellow: 노란색
+All: 전체
+No: 없음
+Empty: 빈
+
+# Formatting / Styles
+Center: 가운데
+Uppercase: 대문자
+Lowercase: 소문자
+Capitalize: 캐피탈라이즈
+Tilt: 기울임
+Italic: 이탤릭
+Oblique: 비스듬
+Dashed: 파선
+Dotted: 점선
+Grid: 격자
+Rhombus: 마름모
+Overline: 오버라인
+Underline: 밑줄
+Strikethrough: 취소선
+Font Weight: 글꼴 굵기
+Interface Font: 인터페이스 글꼴
+Text Font: 본문 글꼴
+Monospace Font: 고정폭 글꼴
+Vertical: 세로
+Plain: 일반
+
+# Components
+Title: 제목
+Content: 내용
+Background: 배경
+Icon: 아이콘
+List: 목록
+Ordered List: 순서 있는 목록
+Unordered List: 순서 없는 목록
+Heading: 제목
+Indicators: 인디케이터
+Indicator: 인디케이터
+
+# App UI / Structure
+Foreword: 머리말
+README: README
+About: 소개
+Copyright: 저작권
+Screenshots: 스크린샷
+Installation: 설치
+Extensions: 확장 플러그인 및 CSS
+License: 라이선스
+Roadmap: 로드맵
+Credits: 제작
+Contributors: 기여자
+Styling: 스타일링
+Tags: 태그
+Changelogs: 변경 로그
+Beta: 베타
+Version: 버전
+Modes: 모드
+Mobile: 모바일
+Editor: 편집기
+Typography: 타이포그래피
+Headings: 제목
+Table: 표
+Files: 파일
+Workspace: 작업 공간
+Prompts: 프롬프트
+Animations: 애니메이션
+Layout: 레이아웃
+Callouts: 콜아웃
+Checkboxes: 체크박스
+Bullet Lists: 글머리 기호 목록
+Numbered Lists: 번호 매기기 목록
+Media: 미디어
+Links: 링크
+Properties: 속성
+Debug: 디버그
+Tabs: 탭
+Input: 입력
+Settings: 설정
+Plugins: 플러그인
+Others: 기타
+Flashcard: 플래시카드
+Opacity: 불투명도
+Popup: 팝업
+
+# Logic / Misc
+and below: 이하
+and above: 이상
+Supported: 지원
