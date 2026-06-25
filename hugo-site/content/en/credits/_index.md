@@ -64,5 +64,9 @@ visual bug
 - `@Melvin` on the Obsidian Members' Group Discord for how to centre a div,
 along with feedback and suggestions for the theme.
 
+## Translation
+
+- OMG Discord's `@Onev` (`@OneVth` on GitHub) for translating the documentation into Korean
+
 ___
 Last but not least, *you* for using the theme and reading the documentation :D

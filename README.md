@@ -30,7 +30,7 @@ Current languages supported:
 
 - English
 - Chinese
-- Korean
+- Korean (maintainer: [@OneVth](https://github.com/OneVth))
 
 ## Utilities
 
