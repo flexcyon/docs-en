@@ -81,7 +81,7 @@ Options:
 - Medium (UI Font size)
 - Large (UI Font size)
 
-<span style="font-size: large;">Sample table header</span>
+<span style="font-size: large;">Sample table cell</span>
 
 ### Table Cell Vertical Padding
 CSS Variable(s) targeted: `var(--flexcyon-td-verti-padding)`

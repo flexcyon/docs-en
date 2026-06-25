@@ -8,7 +8,7 @@ Usage:
 
 ```md
 > [!info|no-title] This title will not show
-> Content wil show as usual
+> Content will show as usual
 ```
 
 The style itself is also applied to ["empty"](../combined-styling/page-1)
