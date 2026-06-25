@@ -21,9 +21,7 @@ Style Settings
 目标 CSS 类: `.flexcyon-anims-slide-rtl, .flexcyon-anims-slide-ltr,
 .flexcyon-anims-slide-tb, .flexcyon-anims-slide-bt, .flexcyon-anims-spin-bt, .flexcyon-anims-spin-rl, .flexcyon-anims-scale-up`
 
-> 更改可能需要重新加载应用程序或重新启动才能生效
-
-默认: none (类选项)
+默认: Fade in (淡入) (类选项)
 
 选项:
 
@@ -39,6 +37,8 @@ Style Settings
 目标 CSS 类: `.flexcyon-modal-anims-slide-rtl, .flexcyon-modal-anims-slide-ltr,
 .flexcyon-modal-anims-slide-tb, .flexcyon-modal-anims-slide-bt, .flexcyon-modal-anims-spin-bt, .flexcyon-modal-anims-spin-rl, .flexcyon-modal-anims-scale-up`
 > 更改可能需要重新加载应用程序或重新启动才能生效
+
+默认: Slide in Left to Right (从左向右滑动) (类选项)
 
 选项:
 
@@ -60,7 +60,7 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-anim-easing)`
 
-默认: ease-in
+默认: ease-in-out
 
 ### 动画滑动量
 
@@ -81,9 +81,3 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-anim-start-scale-amt)`
 
 默认: 0.33
-
-### 动画初始不透明度
-
-目标 CSS 变量: `var(--flexcyon-anim-start-opacity)`
-
-默认: 0.55
