@@ -8,30 +8,30 @@ title: 확장 프로그램
 
 ## 플러그인
 
-[File Tree Alternative by Ozan Tellioglu](https://github.com/ozntel/file-tree-alternative)
+[Ozan Tellioglu의 File Tree Alternative](https://github.com/ozntel/file-tree-alternative)
 
-[Highlightr by Chetachi](https://github.com/chetachiezikeuzor/Highlightr-Plugin)
+[Chetachi의 Highlightr](https://github.com/chetachiezikeuzor/Highlightr-Plugin)
 
-[Minitabs by ssjy1919](https://github.com/ssjy1919/Obsidian-minitabs)
+[ssjy1919의 Minitabs](https://github.com/ssjy1919/Obsidian-minitabs)
 
-[Full Calendar by Davis Haupt](https://github.com/obsidian-community/obsidian-full-calendar)
+[Davis Haupt의 Full Calendar](https://github.com/obsidian-community/obsidian-full-calendar)
 
-[Breadcrumbs by SkepticMystic](https://github.com/SkepticMystic/breadcrumbs)
+[SkepticMystic의 Breadcrumbs](https://github.com/SkepticMystic/breadcrumbs)
 
-[Spaced Repetition by Stephen Mwangi](https://github.com/st3v3nmw/obsidian-spaced-repetition)
+[Stephen Mwangi의 Spaced Repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition)
 
-[Dataview by Michael Brenan](https://github.com/blacksmithgu/obsidian-dataview)
+[Michael Brenan의 Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 
-[Vault Statistics by Bryuan Kyle](https://github.com/bkyle/obsidian-vault-statistics-plugin)
+[Bryuan Kyle의 Vault Statistics](https://github.com/bkyle/obsidian-vault-statistics-plugin)
 
-[Calendar by Liam Cain](https://github.com/liamcain/obsidian-calendar-plugin)
+[Liam Cain의 Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 
-[Kanban by mgmyers](https://github.com/mgmeyers/obsidian-kanban)
+[mgmyers의 Kanban](https://github.com/mgmeyers/obsidian-kanban)
 
-[Omnisearch by scambier](https://github.com/scambier/obsidian-omnisearch)
+[scambier의 Omnisearch](https://github.com/scambier/obsidian-omnisearch)
 
-[Tasks by Clara Macrae and Ilyas Landikov (created by Martinb Schenck)](https://github.com/obsidian-tasks-group/obsidian-tasks)
+[Clara Macrae와 Ilyas Landikov의 Tasks (Martinb Schenck 제작)](https://github.com/obsidian-tasks-group/obsidian-tasks)
 
 ## 코드 조각
 
-[CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)
+[HandaArchitect의 CSS Banners](https://github.com/HandaArchitect/obsidian-banner-snippet)

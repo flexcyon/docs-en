@@ -7,9 +7,9 @@ title: 글꼴 굵기 콘텐츠
 `value`에 대한 허용 형식:
 
 - 100부터 900까지 (100 단위 증가)
-- bold
-- bolder
-- lighter
+- bold (굵게)
+- bolder (더 굵게)
+- lighter (더 가늘게)
 
 사용법:
 
