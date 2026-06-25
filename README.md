@@ -30,7 +30,7 @@ Current languages supported:
 
 - English
 - Chinese
-- Korean (PR in progress, based on 1.4.0 English documentation)
+- Korean
 
 ## Utilities
 
