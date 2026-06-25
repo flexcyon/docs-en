@@ -13,6 +13,8 @@ label = "English"
 contentDir = "content/en"
 locale = "en-gb"
 
+[languages.en.params.navbar.logo]
+link = "/docs-en"
 
 [languages.zh]
 title = "Flexcyon 中文文档"
@@ -20,12 +22,17 @@ label = "简体中文"
 contentDir = "content/zh"
 locale = "zh-cn"
 
+[languages.zh.params.navbar.logo]
+link = "/docs-en/zh/"
+
 [languages.ko]
 title = "Flexcyon 한국어 문서"
 label = "한국어"
 contentDir = "content/ko"
 locale = "ko-kr"
 
+[languages.ko.params.navbar.logo]
+link = "/docs-en/ko/"
 
 [params]
 defaultContentLanguageInSubdir = true
@@ -38,7 +45,6 @@ displayLogo = true
 [params.navbar.logo]
 path = "100-x-25-logo.svg"
 dark = "100-x-25-logo.svg"
-link = "/docs-en"
 width = 100
 height = 25
 
