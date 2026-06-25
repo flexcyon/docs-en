@@ -50,9 +50,19 @@ and Korean (CJK).
 makes it far easier to review. Use sensible commit messages, we should be able
 to understand the scope and purpose of each commit.
 
+4. i18n links and references where i18n equivalents exist
+> E.g. using https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference/Properties/list-style-type#Values
+> instead of https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/list-style-type#Values
+> for Chinese documenation.
+
 4. English documentation is the canonical source of truth.
 
 5. No translation at all is better than wrong or misleading translation.
+
+6. Avoid translating certain terminology or words, less the user gets confused.
+> E.g. "Bases" or "Omnisearch" or "Obsidian"
+
+7. Respect existing codebase conventions.
 
 ## License
 The documentation source and content are both licensed under the MIT License.
