@@ -2,6 +2,8 @@
 title: Contributing
 ---
 
+## Theme
+
 When contributing do open an issue at
 [the repository](https://github.com/bladeacer/flexcyon/issues) or
 [start a GitHub discussion](https://github.com/bladeacer/flexcyon/discussions) first.
@@ -9,7 +11,9 @@ When contributing do open an issue at
 You can create your own fork before making a pull request.
 > Before doing this, do open an issue at this repository first.
 
-This repository comes with some scripts. The important ones include:
+### Development
+
+The theme repository comes with some scripts. The important ones include:
 
 - `npm run dev`: SCSS to CSS compiler, assumes you have
 [Sass](https://sass-lang.com/) (Dart, Node) installed
@@ -24,3 +28,42 @@ snippets in the `css/` folder. The maintainer will try to integrate them.
 
 Do note that this repository has its own [Code of Conduct](https://github.com/bladeacer/flexcyon/blob/master/code_of_conduct)
 and [Contributing Guide](https://github.com/bladeacer/flexcyon/blob/master/contributing).
+
+---
+
+## Translations
+
+See the [documentation repository](https://github.com/flexcyon/docs-en) for more details, as well as the current set of languages supported.
+
+### Translation guidelines
+
+1. Translations should feel natural to native speakers reading it.
+> E.g. conventions on character spacing differ widely between Chinese, Japanese
+and Korean (CJK).
+
+2. Machine translation with manual human review is allowed.
+> Do make the effort especially to fulfil guideline #1, machine translation
+> is not always the best at inferring context and phrasing.
+
+3. Split your translation into different commits of sensible size. This
+makes it far easier to review. Use sensible commit messages, we should be able
+to understand the scope and purpose of each commit.
+
+4. i18n links and references where i18n equivalents exist
+> E.g. using https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference/Properties/list-style-type#Values
+> instead of https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/list-style-type#Values
+> for Chinese documentation.
+
+5. English documentation is the canonical source of truth.
+
+6. No translation at all is better than wrong or misleading translation.
+> As with guideline #5, refer to the English documentation when in doubt.
+
+7. Avoid translating certain terminology or words, where the user gets confused
+or it refers to something mostly known in its English name.
+> E.g. "Bases" (the Obsidian feature) or "Omnisearch" (the plugin name) or "Obsidian"
+
+8. Respect existing codebase conventions.
+
+The same conventions for opening issues or pull requests apply as well.
+Code of Conduct and Contributing Guide is largely the same.

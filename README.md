@@ -20,8 +20,9 @@
     </a>
 </div>
 
-This hosts the English documentation for the
-[flexcyon theme](https://github.com/bladeacer/flexcyon). You can [view it here](https://flexcyon.github.io/docs-en/).
+This hosts the documentation for the
+[flexcyon theme](https://github.com/bladeacer/flexcyon). 
+You can [view it here](https://flexcyon.github.io/docs-en/).
 
 For more languages, open a FR/PR.
 
@@ -38,31 +39,11 @@ There is a [Makefile](./Makefile) which invokes utility Python scripts one can u
 
 ## Translation guidelines
 
-1. Translations should feel natural to native speakers reading it.
-> E.g. conventions on character spacing differ widely between Chinese, Japanese
-and Korean (CJK).
+See [Contributing](https://flexcyon.github.io/docs-en/contributing/) section in
+the documentation.
 
-2. Machine translation with manual human review is allowed.
-> Do make the effort especially to fulfil guideline #1, machine translation
-> is not always the best at inferring context and phrasing.
-
-3. Split your translation into different commits of sensible size. This
-makes it far easier to review. Use sensible commit messages, we should be able
-to understand the scope and purpose of each commit.
-
-4. i18n links and references where i18n equivalents exist
-> E.g. using https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference/Properties/list-style-type#Values
-> instead of https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/list-style-type#Values
-> for Chinese documenation.
-
-4. English documentation is the canonical source of truth.
-
-5. No translation at all is better than wrong or misleading translation.
-
-6. Avoid translating certain terminology or words, less the user gets confused.
-> E.g. "Bases" or "Omnisearch" or "Obsidian"
-
-7. Respect existing codebase conventions.
+Code of conduct and contributing guidelines adopted from the main repository,
+same rules apply here.
 
 ## License
 The documentation source and content are both licensed under the MIT License.
