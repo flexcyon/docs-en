@@ -11,7 +11,7 @@ title: 工作区
 ```md
 Style Settings
 |-- flexcyon://Editor
-|   |-- Workspace
+|   |-- Workspace Components
 ```
 
 ## 配置选项

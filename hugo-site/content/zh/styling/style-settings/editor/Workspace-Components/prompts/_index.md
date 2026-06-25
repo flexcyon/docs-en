@@ -11,7 +11,7 @@ title: 提示
 ```md
 Style Settings
 |-- flexcyon://Editor
-|   |-- Workspace
+|   |-- Workspace Components
 |   |   |-- Prompts
 ```
 

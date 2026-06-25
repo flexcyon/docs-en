@@ -7,7 +7,8 @@ title: 视图标题
 ```md
 Style Settings
 |-- flexcyon://Editor
-|   |-- View Header
+|   |-- Workspace Components
+|   |   |-- View Header
 ```
 
 ## 配置选项
