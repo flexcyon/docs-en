@@ -10,7 +10,11 @@ title: 글꼴 크기
 
 - "all-`<불투명도값>`"
 
-옵션: Smaller, Small, Medium, Large
+옵션:
+- Smaller (더 작게)
+- Small (작게)
+- Medium (보통)
+- Large (크게)
 
 [UI 글꼴 크기](../../../style-settings/editor/ui-font-size) 설정에서 구성하세요.
 
