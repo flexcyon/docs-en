@@ -45,25 +45,34 @@ and Korean (CJK).
 > Do make the effort especially to fulfil guideline #1, machine translation
 > is not always the best at inferring context and phrasing.
 
-3. Split your translation into different commits of sensible size. This
+3. Translators should be able to read and write fluently in the language they are translating to.
+We do not need native speaker levels of proficiency but you should at least know
+the language enough to manually review it.
+> We can tell if you are purely using machine translation, re guideline #2.
+
+4. Split your translation into different commits of sensible size. This
 makes it far easier to review. Use sensible commit messages, we should be able
 to understand the scope and purpose of each commit.
 
-4. i18n links and references where i18n equivalents exist
+5. In your Git fork, create a separate Git branch named appropriately based on feature
+(e.g. ko-translation-1.4.0). Changes will be merged into a separate feature branch
+upstream as well, for cherry-picking to other Git branches like master or staging.
+
+6. i18n links and references where i18n equivalents exist
 > E.g. using https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference/Properties/list-style-type#Values
 > instead of https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/list-style-type#Values
 > for Chinese documentation.
 
-5. English documentation is the canonical source of truth.
+7. English documentation is the canonical source of truth.
 
-6. No translation at all is better than wrong or misleading translation.
-> As with guideline #5, refer to the English documentation and other translations when in doubt.
+8. No translation at all is better than wrong or misleading translation.
+> As with guideline #7, refer to the English documentation and other translations when in doubt.
 
-7. Avoid translating certain terminology or words, where the user gets confused
+9. Avoid translating certain terminology or words, where the user gets confused
 or it refers to something mostly known in its English name.
 > E.g. "Bases" (the Obsidian feature) or "Omnisearch" (the plugin name) or "Obsidian"
 
-8. Respect existing codebase conventions.
+10. Respect existing codebase conventions.
 
 The same conventions for opening issues or pull requests apply as well.
 Code of Conduct and Contributing Guide is largely the same.
