@@ -20,3 +20,9 @@ Style Settings
 目标类: `var(--flexcyon-revert-nav-item-alignment)`
 
 默认: true (类切换)
+
+### 在手机上显示状态栏
+
+目标 CSS 变量: `var(--flexcyon-status-mobile-enabled)`
+
+默认: false (类切换)
