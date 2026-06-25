@@ -88,3 +88,11 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-wrap-long-filenames)`
 
 默认: true (类切换)
+
+### 导航标题和其他内容的顺序颠倒
+
+将导航标题放置在其他内容下方, 例如将 "新注释" 和其他图标放置在文件资源管理器下方.
+
+目标 CSS 变量: `var(--flexcyon-reverse-workspace-content)`
+
+默认: false (类切换)
