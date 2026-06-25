@@ -63,6 +63,23 @@ Style Settings
 
 默认: 0.2
 
+---
+
+### 表格单元格字体大小
+
+目标 CSS 变量: `var(--table-text-size)`
+
+默认: 中 (UI 字体大小)
+
+选项:
+
+- 更小 (UI 字体大小)
+- 小 (UI 字体大小)
+- 中 (UI 字体大小)
+- 大 (UI 字体大小)
+
+<span style="font-size: large;">Sample table header</span>
+
 ### 表格单元格垂直填充
 目标 CSS 变量: `var(--flexcyon-td-verti-padding)`
 
