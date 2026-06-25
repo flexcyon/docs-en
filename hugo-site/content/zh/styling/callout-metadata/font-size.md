@@ -10,7 +10,11 @@ title: 字体大小
 
 - "all-`<opacity-value>`"
 
-选项: Smaller, Small, Medium, Large
+选项: 
+- Smaller (更小)
+- Small (小)
+- Medium (中)
+- Large (大)
 
 在 [UI 字体大小设置](../../../style-settings/editor/ui-font-size) 配置.
 

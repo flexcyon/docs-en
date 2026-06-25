@@ -57,7 +57,7 @@ to understand the scope and purpose of each commit.
 5. English documentation is the canonical source of truth.
 
 6. No translation at all is better than wrong or misleading translation.
-> As with guideline #5, refer to the English documentation when in doubt.
+> As with guideline #5, refer to the English documentation and other translations when in doubt.
 
 7. Avoid translating certain terminology or words, where the user gets confused
 or it refers to something mostly known in its English name.
