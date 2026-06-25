@@ -29,10 +29,30 @@ Current languages supported:
 
 - English
 - Chinese
-- Korean (draft PR in progress)
+- Korean (PR in progress, based on 1.4.0 English documentation)
 
-There is a [Makefile](./Makefile) which invokes utility scripts one can use.
+## Utilities
+
+There is a [Makefile](./Makefile) which invokes utility Python scripts one can use.
 > See the scripts directory for more details
 
+## Translation guidelines
+
+1. Translations should feel natural to native speakers reading it.
+> E.g. conventions on character spacing differ widely between Chinese, Japanese
+and Korean (CJK).
+
+2. Machine translation with manual human review is allowed.
+> Do make the effort especially to fulfil guideline #1, machine translation
+> is not always the best at inferring context and phrasing.
+
+3. Split your translation into different commits of sensible size. This
+makes it far easier to review. Use sensible commit messages, we should be able
+to understand the scope and purpose of each commit.
+
+4. English documentation is the canonical source of truth.
+
+5. No translation at all is better than wrong or misleading translation.
+
 ## License
-The documentation source is licensed under the MIT License.
+The documentation source and content are both licensed under the MIT License.
