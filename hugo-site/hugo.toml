@@ -20,6 +20,12 @@ label = "简体中文"
 contentDir = "content/zh"
 locale = "zh-cn"
 
+[languages.ko]
+title = "Flexcyon 한국어 문서"
+label = "한국어"
+contentDir = "content/ko"
+locale = "ko-kr"
+
 
 [params]
 defaultContentLanguageInSubdir = true
