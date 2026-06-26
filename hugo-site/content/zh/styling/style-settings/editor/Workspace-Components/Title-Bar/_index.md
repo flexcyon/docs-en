@@ -1,22 +1,22 @@
 ---
-title: Title Bar
+title: 标题栏
 ---
 
-For configuration of the title bar, enable rainbow hover effects on title bar buttons
+用于配置标题栏, 并在标题栏按钮上启用彩虹悬停效果. 
 
-## Navigation
+## 导航
 
 ```md
 Style Settings
 |-- flexcyon://Editor
 |   |-- Workspace Components
-|   |   |-- Titlebar
+|   |   |-- Title Bar
 ```
 
-## Configuration Options
+## 配置选项
 
-### Titlebar Button Effects
+### 标题栏按钮效果
 
-CSS Variable(s) targeted: `var(--flexcyon-titlebar-button-effects)`
+目标 CSS 变量: `var(--flexcyon-titlebar-button-effects)`
 
-Default: false (class toggle)
+默认: true (类切换)
