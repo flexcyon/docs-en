@@ -76,3 +76,7 @@ or it refers to something mostly known in its English name.
 
 The same conventions for opening issues or pull requests apply as well.
 Code of Conduct and Contributing Guide is largely the same.
+
+### Existing translations
+
+Issues and PRs are welcome to improve existing translations.

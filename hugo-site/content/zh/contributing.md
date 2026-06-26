@@ -5,7 +5,7 @@ title: 贡献
 ## 主题
 
 请在发出 PR 之前创建自己的 Fork
-> 在执行此操作之前, 请先打开 GitHub 问题
+> 在执行此操作之前, 请先提交 Issue
 
 ### 开发
 
@@ -67,3 +67,7 @@ title: 贡献
 提交 Issue 或拉取请求（Pull Request）时, 遵循相同的开源协作规范.
 
 项目的行为准则（Code of Conduct）和贡献指南（Contributing Guide）基本相同.
+
+### 现有翻译
+
+欢迎提交 Issue 和 PR 来改进现有的翻译.
