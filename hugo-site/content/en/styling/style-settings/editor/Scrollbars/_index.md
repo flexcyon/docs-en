@@ -1,5 +1,5 @@
 ---
-title: Scrollbar
+title: Scrollbars
 ---
 
 Accepted Formats: px
@@ -9,7 +9,7 @@ Accepted Formats: px
 ```md
 Style Settings
 |-- flexcyon://Editor
-|   |-- Scrollbar
+|   |-- Scrollbars
 ```
 
 ## Configuration Options
