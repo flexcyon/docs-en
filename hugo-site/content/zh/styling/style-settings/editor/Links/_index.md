@@ -43,8 +43,8 @@ Style Settings
 
 ### 启用交替链接样式
 
-Inspired by Willemstad theme's headings.
+灵感来自 Willemstad 主题的标题.
 
-CSS Classe(s) targeted: `var(--flexcyon-alt-link-style)`
+目标 CSS 类: `var(--flexcyon-alt-link-style)`
 
-: false (class toggle)
+默认: false (类切换)
