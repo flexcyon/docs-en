@@ -21,8 +21,8 @@ beside. Not to be confused with Cornell Notes styling
 > Think of it like the info boxes seen in Wikipedia, 
 ITS and Fancy-a-story Theme.
 >
-> That being said flexcyon's rendition is more stripped down to
-> the core feature(s).
+> Note that flexcyon's rendition is more stripped down to
+> the core feature(s) when compared to other themes.
 
 Links to individual authors and more about them is under [credits](/credits#snippets).
 
