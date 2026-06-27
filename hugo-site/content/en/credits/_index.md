@@ -28,6 +28,17 @@ the background image snippet
 - [Enhanced File Explorer](https://github.com/LennZone/enhanced-file-explorer-tree)
 Theme by `@LennZone` for the markdown file tree style
 
+- `Bluemoondragon07`'s
+[Wikipedia theme](https://github.com/bluemoondragon07/Wikipedia-Theme)
+(On GitHub) for Wikipedia style infoboxes/asides.
+
+- `efemkay`s [Modular CSS Layout (MCL) snippets](https://github.com/efemkay/obsidian-modular-css-layout/)
+(on GitHub) for the original multi-column implementation.
+
+- `@kneecaps` on the Obsidian Members' Group Discord for their multi-column layout + aside float snippet.
+You might know them for their work on the [Origami theme](https://github.com/7368697661/Origami) and
+[Ultra Lobster](https://github.com/7368697661/Ultra-Lobster) themes.
+
 ## Ideas, Feedback
 
 - `@Tuck` on the Obsidian Members' Group Discord for options to change link
@@ -66,7 +77,8 @@ along with feedback and suggestions for the theme.
 
 ## Translation
 
-- OMG Discord's `@Onev` (`@OneVth` on GitHub) for translating the documentation into Korean
+- OMG Discord's `@Onev` (`@OneVth` on GitHub) for translating and maintaining
+the Korean documentation.
 
 ___
 Last but not least, *you* for using the theme and reading the documentation :D
