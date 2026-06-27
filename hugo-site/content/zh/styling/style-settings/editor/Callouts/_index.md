@@ -28,14 +28,6 @@ Style Settings
 
 默认: 1 (rem)
 
-### 标注元数据背景不透明度
-
-目标 CSS 变量: `var(--flexcyon-callout-bg-opacity)`
-
-默认: 20%
-
-<span style="opacity: 20%">Sample Background Opacity</span>
-
 ### 标注垂直边距
 
 目标 CSS 变量: `var(--flexcyon-callout-vertical-margin)`

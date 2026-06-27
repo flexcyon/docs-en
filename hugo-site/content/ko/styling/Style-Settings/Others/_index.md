@@ -132,12 +132,14 @@ ___
 
 ```md
 " \a\
-    _______________                                       \a\
-    ___  ____/__  /________  ____________  ______________ \a\
-    __  /_   __  /_  _ \\_  |/_/  ___/_  / / /  __ \\_  __ \\ \a\
-    _  __/   _  / /  __/_>  < / /__ _  /_/ // /_/ /  / / / \a\
-    /_/      /_/  \\___//_/|_| \\___/ _\\__, / \\____//_/ /_/ \a\
-                                    /____/                \a\a\a "
+       fjlj dlkg1                    un       cj                            \a\
+     nze     1byk                   xh       gh                             \a\
+     yg       hy     ksud fv      dza       je     fhhif1 dj    bil  j5dhjb \a\
+  opvysppc    zo       jzuk      lv4       l0    gk       1le  1lb  il   lj \a\
+    oz       iy       auy9      ss       ak4     mb         l0lig   mb   la \a\
+    xt       hylfk  aul wrfb   vk       fis       lb0bg8    6mle   cm1  cl1 \a\
+   fye        366            axd       hf                 s0if     1    s1  \a\
+0ruo0                                                   sjg9l               \a\a\a"
 ```
 
 > CSS에서 렌더링하려면 ASCII 아트 문자열을 에스케이프해야 하며, 줄바꿈은 `\a`로, `\`는 `\\`로 에스케이프됩니다.

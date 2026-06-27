@@ -2,7 +2,7 @@
 title: 插件
 ---
 
-For configuration of officially supported plugins
+配置主题官方支持的插件.
 
 接受的格式: HEX, rem, x.y, %
 
