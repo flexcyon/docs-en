@@ -6,6 +6,8 @@ title: Flexcyon
 
 ## About the theme
 
+*Sane defaults, extensive customisation.*
+
 A terminal inspired, reasonably opinionated and highly customisable Obsidian theme.
 Combines the colour schemes of Halcyon, Flexoki and Origami.
 

@@ -1,6 +1,12 @@
 ---
-title: 前言
+title: Flexcyon
 ---
+
+![Flexcyon 标志](/screenshots/1280-x-640-social-preview.png)
+
+## 关于主题
+
+*合理默认, 深度定制.*
 
 这里存放着 [Flexcyon 主题](https://github.com/bladeacer/flexcyon) 的中文文档.
 
