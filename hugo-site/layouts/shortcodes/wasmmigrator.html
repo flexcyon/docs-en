@@ -1,0 +1,246 @@
+<div class="migrator-container">
+  <div class="migrator-section">
+    <label class="migrator-label" for="inputJson">1. Upload or Paste your 1.X Settings JSON:</label>
+    <div class="migrator-file-row">
+      <button id="browseBtn" class="migrator-btn migrator-btn-secondary" type="button">Choose File</button>
+      <span id="fileNameDisplay" class="migrator-file-name">No file selected</span>
+      <button id="clearFileBtn" class="migrator-icon-btn migrator-icon-btn--inline" title="Clear uploaded file" type="button" style="display:none;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <input type="file" id="jsonFileInput" accept=".json" hidden />
+    </div>
+    <div class="migrator-textarea-wrapper">
+      <textarea id="inputJson" class="migrator-textarea" rows="10" placeholder='{ "flexcyon-rtz-mode": true }'></textarea>
+      <button id="pasteBtn" class="migrator-icon-btn" title="Paste from clipboard" type="button">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+      </button>
+      <span id="pasteFeedback" class="migrator-toast" style="display:none;"></span>
+    </div>
+  </div>
+
+  <button id="migrateBtn" class="migrator-btn" disabled>
+    <span class="migrator-spinner" id="migrateBtnSpinner"></span>
+    <span id="migrateBtnText">Loading Python WASM Runtime...</span>
+  </button>
+
+  <div class="migrator-section">
+    <label class="migrator-label" for="outputJson">2. Migrated 2.0.0 Settings Output:</label>
+    <div class="migrator-textarea-wrapper">
+      <textarea id="outputJson" class="migrator-textarea" readonly rows="10"></textarea>
+      <button id="copyBtn" class="migrator-icon-btn" title="Copy to clipboard" type="button" style="display:none;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      </button>
+      <span id="copyFeedback" class="migrator-toast" style="display:none;"></span>
+    </div>
+  </div>
+
+  <button id="downloadBtn" class="migrator-btn" disabled style="display:none;">
+    Download new_settings.json
+  </button>
+</div>
+
+<script src="{{ "js/pyodide/pyodide.js" | relURL }}"></script>
+
+<script type="text/javascript">
+  let pyodide;
+  const pythonScriptUrl = "{{ "js/migrator.py" | relURL }}";
+  const vendoredIndexUrl = "{{ "js/pyodide/" | relURL }}";
+
+  async function initPyodide() {
+    const btn = document.getElementById("migrateBtn");
+    const spinner = document.getElementById("migrateBtnSpinner");
+    const btnText = document.getElementById("migrateBtnText");
+    if (!btn) return;
+
+    try {
+      pyodide = await loadPyodide({ indexURL: vendoredIndexUrl });
+
+      const response = await fetch(pythonScriptUrl);
+      if (!response.ok) throw new Error("Could not fetch migrator.py");
+      const pythonCode = await response.text();
+
+      await pyodide.runPythonAsync("__name__ = \"migrator\"\n" + pythonCode);
+
+      btnText.innerText = "Run Migration";
+      btn.disabled = false;
+      spinner.style.display = "none";
+    } catch (err) {
+      console.error("Pyodide Initialization Error: ", err);
+      if (btn) btnText.innerText = "Failed to load local Python environment";
+      spinner.style.display = "none";
+    }
+  }
+
+  function setLoadingState(loading) {
+    const btn = document.getElementById("migrateBtn");
+    const spinner = document.getElementById("migrateBtnSpinner");
+    const btnText = document.getElementById("migrateBtnText");
+    if (!btn) return;
+    btn.disabled = loading;
+    spinner.style.display = loading ? "inline-block" : "none";
+    btnText.innerText = loading ? "Migrating..." : "Run Migration";
+  }
+
+  function showToast(el, msg, duration) {
+    if (!el) return;
+    el.textContent = msg;
+    el.style.display = "inline";
+    clearTimeout(el._hideTimer);
+    el._hideTimer = setTimeout(() => { el.style.display = "none"; }, duration || 2000);
+  }
+
+  async function clipboardCopy(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      try {
+        await navigator.clipboard.writeText(text);
+        return true;
+      } catch { /* fall through */ }
+    }
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      ta.style.pointerEvents = "none";
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      const ok = document.execCommand("copy");
+      document.body.removeChild(ta);
+      return ok;
+    } catch {
+      return false;
+    }
+  }
+
+  async function clipboardPaste() {
+    if (navigator.clipboard && navigator.clipboard.readText) {
+      try {
+        const text = await navigator.clipboard.readText();
+        return text;
+      } catch { /* fall through */ }
+    }
+    return null;
+  }
+
+  window.addEventListener("DOMContentLoaded", () => {
+    if (typeof loadPyodide !== "undefined") {
+      initPyodide();
+    } else {
+      const scriptTag = document.querySelector('script[src*="pyodide.js"]');
+      if (scriptTag) scriptTag.onload = initPyodide;
+    }
+
+    const fileInput = document.getElementById("jsonFileInput");
+    const browseBtn = document.getElementById("browseBtn");
+    const fileNameDisplay = document.getElementById("fileNameDisplay");
+    const clearFileBtn = document.getElementById("clearFileBtn");
+
+    if (browseBtn && fileInput) {
+      browseBtn.addEventListener("click", () => fileInput.click());
+    }
+
+    if (fileInput) {
+      fileInput.addEventListener("change", function(e) {
+        const file = e.target.files[0];
+        if (!file) return;
+        if (fileNameDisplay) fileNameDisplay.textContent = file.name;
+        if (clearFileBtn) clearFileBtn.style.display = "inline-flex";
+        const reader = new FileReader();
+        reader.onload = function(evt) {
+          document.getElementById("inputJson").value = evt.target.result;
+        };
+        reader.readAsText(file);
+      });
+    }
+
+    if (clearFileBtn) {
+      clearFileBtn.addEventListener("click", function() {
+        if (fileInput) { fileInput.value = ""; }
+        if (fileNameDisplay) fileNameDisplay.textContent = "No file selected";
+        clearFileBtn.style.display = "none";
+        document.getElementById("inputJson").value = "";
+      });
+    }
+
+    const pasteBtn = document.getElementById("pasteBtn");
+    if (pasteBtn) {
+      pasteBtn.addEventListener("click", async () => {
+        const input = document.getElementById("inputJson");
+        const fb = document.getElementById("pasteFeedback");
+        const text = await clipboardPaste();
+        if (text !== null) {
+          input.value = text;
+          showToast(fb, "Pasted from clipboard");
+        } else {
+          showToast(fb, "Paste blocked by browser — use Ctrl+V", 3000);
+        }
+      });
+    }
+
+    const copyBtn = document.getElementById("copyBtn");
+    if (copyBtn) {
+      copyBtn.addEventListener("click", async () => {
+        const text = document.getElementById("outputJson").value;
+        if (!text) return;
+        const fb = document.getElementById("copyFeedback");
+        const ok = await clipboardCopy(text);
+        showToast(fb, ok ? "Copied to clipboard" : "Copy failed — browser denied access", 3000);
+      });
+    }
+
+    const migrateBtn = document.getElementById("migrateBtn");
+    if (migrateBtn) {
+      migrateBtn.addEventListener("click", async () => {
+        const input = document.getElementById("inputJson");
+        const inputVal = input.value.trim() || input.placeholder;
+        const outputTextarea = document.getElementById("outputJson");
+        const downloadBtn = document.getElementById("downloadBtn");
+        const copyBtn = document.getElementById("copyBtn");
+
+        setLoadingState(true);
+
+        try {
+          pyodide.globals.set("js_input_string", inputVal);
+
+          const resultJson = await pyodide.runPythonAsync(`
+import json
+valid, err = validate_json_with_ast(js_input_string)
+if not valid:
+    raise Exception(f"INVALID JSON DETECTED:\\n{err}")
+
+mapper = SettingsMapper(get_mapping_config())
+parsed_input = json.loads(js_input_string)
+migrated_output = mapper.map_settings(parsed_input)
+
+json.dumps(migrated_output, indent=2)
+          `);
+
+          outputTextarea.value = resultJson;
+          downloadBtn.style.display = "inline-block";
+          downloadBtn.disabled = false;
+          downloadBtn.onclick = () => triggerDownload(resultJson);
+          copyBtn.style.display = "inline-flex";
+        } catch (error) {
+          outputTextarea.value = "Error during processing:\n" + error.message;
+          downloadBtn.style.display = "none";
+          copyBtn.style.display = "none";
+        } finally {
+          setLoadingState(false);
+        }
+      });
+    }
+  });
+
+  function triggerDownload(content) {
+    const blob = new Blob([content], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "new_settings.json";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+</script>

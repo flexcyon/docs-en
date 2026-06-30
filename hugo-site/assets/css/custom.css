@@ -59,6 +59,7 @@
 
 
 .light {
+  --color-blue: oklch(from #3085dd l c h);
   --color-primary: oklch(from #4b65b4 l c h);
   --hx-color-primary-600: oklch(from #6f49ae l c h);
   --hover-color: oklch(from #e8f2eb l c h);
@@ -71,6 +72,8 @@ body:where(.light, .light *) {
 }
 
 .dark {
+  --color-base-01: #14161c;
+  --color-blue: oklch(from #7ab8fe l c h);
   --color-primary: #a5bc84;
   --primary-hue: 84deg;
   --primary-saturation: 24%;
@@ -95,7 +98,6 @@ main[id="content"] h1 {
   padding-block-end: 4px;
 }
 
-
 .dark .hextra-footer {
   background-color: var(--hx-color-dark) !important;
 }
@@ -103,3 +105,163 @@ main[id="content"] h1 {
 .light .hextra-footer {
   background-color: var(--hx-color-light) !important;
 }
+
+/* Settings Migrator UI Utilities */
+.migrator-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.migrator-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.migrator-label {
+  font-weight: 600;
+  display: block;
+}
+
+.migrator-file-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.migrator-file-name {
+  flex: 1;
+  font-size: 0.9em;
+  opacity: 0.75;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.migrator-btn-secondary {
+  background-color: transparent;
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent) !important;
+  flex-shrink: 0;
+  padding: 6px 16px;
+  font-weight: 500;
+}
+
+.migrator-btn-secondary:hover {
+  background-color: color-mix(in srgb, currentColor 8%, transparent);
+}
+
+.migrator-textarea {
+  width: 100%;
+  font-family: monospace;
+  padding: 12px;
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+  background-color: var(--hx-color-neutral-900);
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  color: inherit;
+}
+
+.migrator-textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.migrator-textarea[readonly] {
+  opacity: 0.85;
+}
+
+.migrator-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.2s ease;
+  color: var(--hx-color-gray-100);
+}
+
+.migrator-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#migrateBtn {
+  background-color: var(--color-primary);
+}
+
+#downloadBtn {
+  background-color: var(--color-blue);
+  align-self: flex-start;
+}
+
+.migrator-textarea-wrapper {
+  position: relative;
+}
+
+.migrator-icon-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  border-radius: 4px;
+  background: var(--hx-color-neutral-900);
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+  z-index: 2;
+}
+
+.migrator-icon-btn--inline {
+  position: static;
+  flex-shrink: 0;
+}
+
+.migrator-icon-btn:hover {
+  opacity: 1;
+}
+
+.migrator-icon-btn svg {
+  display: block;
+}
+
+.migrator-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: migrator-spin 0.6s linear infinite;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+@keyframes migrator-spin {
+  to { transform: rotate(360deg); }
+}
+
+.migrator-toast {
+  position: absolute;
+  top: -2px;
+  right: 8px;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--hx-color-neutral-900);
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  white-space: nowrap;
+  z-index: 1;
+  pointer-events: none;
+}
+
+

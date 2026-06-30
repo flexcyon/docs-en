@@ -93,3 +93,11 @@ noClasses = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[mediaTypes]
+  [mediaTypes."text/javascript"]
+    suffixes = ["js", "mjs"]
+
+[outputFormats]
+  [outputFormats.HTML]
+    mediaType = "text/html"
