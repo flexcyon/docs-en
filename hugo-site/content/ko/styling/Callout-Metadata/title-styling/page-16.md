@@ -2,12 +2,15 @@
 title: 제목 캐피탈라이즈
 ---
 
-콜아웃 메타데이터: "caps-title"
+콜아웃 메타데이터: "caps-title"/"capitalize-title"
 
 사용법:
 
 ```md
 > [!info|caps-title] 제목은 대문자로 표시됩니다.
+> 내용은 일반적으로 표시됩니다.
+
+> [!info|capitalize-title] 제목은 대문자로 표시됩니다.
 > 내용은 일반적으로 표시됩니다.
 ```
 

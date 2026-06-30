@@ -2,12 +2,15 @@
 title: Capitalize Title
 ---
 
-Callout metadata: "caps-title"
+Callout metadata: "caps-title"/"capitalize-title"
 
 Usage:
 
 ```md
 > [!info|caps-title] The title will be displayed as caps
+> Content is shown as usual
+
+> [!info|capitalize-title] The title will be displayed as caps
 > Content is shown as usual
 ```
 

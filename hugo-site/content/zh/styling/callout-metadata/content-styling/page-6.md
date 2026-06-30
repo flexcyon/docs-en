@@ -2,12 +2,15 @@
 title: 首字母大写内容
 ---
 
-Callout 元数据: "caps-content"
+Callout 元数据: "caps-content"/"capitalize-content"
 
 用法:
 
 ```md
 > [!info|caps-content] The title will be displayed as usual
+> The content will be displayed as caps
+
+> [!info|capitalize-content] The title will be displayed as usual
 > The content will be displayed as caps
 ```
 

@@ -2,12 +2,15 @@
 title: Capitalize All
 ---
 
-Callout metadata: "caps-all"
+Callout metadata: "caps-all"/"capitalize-all"
 
 Usage:
 
 ```md
 > [!info|caps-all] The title will be displayed as caps
+> The content will be displayed as caps
+
+> [!info|capitalize-all] The title will be displayed as caps
 > The content will be displayed as caps
 ```
 
