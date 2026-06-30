@@ -2,8 +2,6 @@
 title: 지원 버전
 ---
 
-# 지원 버전
-
 Flexcyon의 기여자들은 버전 지원을 매우 중시합니다.
 
 Flexcyon은 공식적으로 [Obsidian 버전 1.6.3](https://obsidian.md/changelog/2024-06-08-desktop-v1.6.3/)부터 지원됩니다.

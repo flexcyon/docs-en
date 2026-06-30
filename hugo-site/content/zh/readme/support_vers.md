@@ -2,15 +2,16 @@
 title: 支持版本
 ---
 
-# 支持版本
-
-Flexcyon 的贡献者非常重视版本支持.
+Flexcyon 的贡献者非常重视版本支持和向后兼容性.
+> 如果功能需要高于 1.6.3 的版本, 我们会记录最早支持的版本, 并允许配置这些功能的使用.
+> 
+> 例如, 由于 [Lucide Icon 标注](/styling/callout-metadata/icon-styling/lucide/) 需要
+> CSS `attr()` 支持, 因此它只能在 Obsidian 1.9.12 及以上版本中正确呈现图标.
 
 Flexcyon 从 [1.6.3 版本](https://obsidian.md/changelog/2024-06-08-desktop-v1.6.3/) 以上开始得到正式支持.
 
 [Obsidian 1.6](https://obsidian.md/changelog/2024-06-07-desktop-v1.6.2/) 及以上版本被选
 为支持的最低版本,因为当时 Obsidian 官方刚添加了对 RTL 语言的支持.
-
 
 Obsidian 的 Beta 版或 Insider 版本将不受支持, 尽管这主题应该与公共版本大多数具有基本一致的外观
 > 如果发现重大问题, 请打开 GitHub 问题. 一旦 Obsidian 的 Beta 版或 Insider 版本有了公开的等效版本,
