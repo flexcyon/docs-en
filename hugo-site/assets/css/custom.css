@@ -144,25 +144,26 @@ main[id="content"] h1 {
 
 .migrator-btn-secondary {
   background-color: transparent;
-  border: 1px solid color-mix(in srgb, currentColor 20%, transparent) !important;
+  border: 1px solid oklch(from currentColor l c h / 0.2) !important;
   flex-shrink: 0;
   padding: 6px 16px;
   font-weight: 500;
 }
 
 .migrator-btn-secondary:hover {
-  background-color: color-mix(in srgb, currentColor 8%, transparent);
+  background-color: oklch(from currentColor l c h / 0.08);
 }
 
 .migrator-textarea {
   width: 100%;
-  font-family: monospace;
+  font-family: var(--hx-font-mono);
   padding: 12px;
   border-radius: 6px;
   transition: border-color 0.2s ease;
   background-color: var(--hx-color-neutral-900);
-  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  border: 1px solid oklch(from currentColor l c h / 0.2);
   color: inherit;
+  resize: vertical;
 }
 
 .migrator-textarea:focus {
@@ -172,6 +173,94 @@ main[id="content"] h1 {
 
 .migrator-textarea[readonly] {
   opacity: 0.85;
+}
+
+.migrator-highlight-wrap {
+  position: relative;
+}
+
+.migrator-highlight-pre,
+.migrator-code-block {
+  width: 100%;
+  min-height: 160px;
+  font-family: var(--hx-font-mono);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding: 12px;
+  border-radius: 6px;
+  background-color: var(--hx-color-neutral-900);
+  border: 1px solid oklch(from currentColor l c h / 0.2);
+  color: inherit;
+  box-sizing: border-box;
+}
+
+.migrator-highlight-pre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.migrator-code-block {
+  overflow: auto;
+  margin: 0;
+}
+
+.migrator-highlight-pre .chroma,
+.migrator-code-block .chroma,
+.migrator-highlight-pre .chroma pre,
+.migrator-code-block .chroma pre,
+.migrator-highlight-pre .chroma code,
+.migrator-code-block .chroma code {
+  background: transparent !important;
+}
+
+.migrator-highlight-pre .migrator-code-inner {
+  display: block;
+  font: inherit;
+  font-family: var(--hx-font-mono);
+}
+
+.migrator-textarea--highlight {
+  position: relative;
+  min-height: 160px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: transparent !important;
+  caret-color: inherit;
+  background: transparent !important;
+  z-index: 2;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.migrator-textarea--highlight::placeholder {
+  color: transparent;
+}
+
+.migrator-code-inner {
+  display: block;
+  font: inherit;
+  font-family: var(--hx-font-mono);
+}
+
+.migrator-code-inner pre {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+}
+
+.migrator-code-inner code {
+  font: inherit;
+  font-family: var(--hx-font-mono);
+  background: transparent !important;
 }
 
 .migrator-btn {
@@ -212,7 +301,7 @@ main[id="content"] h1 {
   width: 32px;
   height: 32px;
   padding: 0;
-  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  border: 1px solid oklch(from currentColor l c h / 0.2);
   border-radius: 4px;
   background: var(--hx-color-neutral-900);
   color: inherit;
@@ -259,10 +348,47 @@ main[id="content"] h1 {
   padding: 2px 8px;
   border-radius: 4px;
   background: var(--hx-color-neutral-900);
-  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  border: 1px solid oklch(from currentColor l c h / 0.2);
   white-space: nowrap;
-  z-index: 1;
+  z-index: 3;
   pointer-events: none;
 }
 
+.migrator-lang-badge {
+  position: absolute;
+  top: 8px;
+  right: 44px;
+  font-size: 0.7rem;
+  font-family: var(--hx-font-mono);
+  color: oklch(from var(--hx-color-gray-100) l c h / 0.5);
+  background: var(--hx-color-neutral-900);
+  padding: 0 5px;
+  border-radius: 3px;
+  z-index: 1;
+  pointer-events: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
 
+.hextra-code-lang-badge {
+  position: absolute;
+  top: 0.6875rem;
+  right: 2.75rem;
+  font-size: 0.65rem;
+  line-height: 1.25rem;
+  font-family: var(--hx-font-mono);
+  color: oklch(from var(--hx-color-gray-100) l c h / 0.4);
+  pointer-events: none;
+  user-select: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 1;
+}
+
+.hextra-code-lang-badge--with-filename {
+  top: 2.6875rem;
+}
+
+.migrator-placeholder-shown {
+  opacity: 0.55;
+}

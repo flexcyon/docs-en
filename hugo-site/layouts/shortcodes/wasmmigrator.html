@@ -9,8 +9,9 @@
       </button>
       <input type="file" id="jsonFileInput" accept=".json" hidden />
     </div>
-    <div class="migrator-textarea-wrapper">
-      <textarea id="inputJson" class="migrator-textarea" rows="10" placeholder='{ "flexcyon-rtz-mode": true }'></textarea>
+    <div class="migrator-textarea-wrapper migrator-highlight-wrap highlight">
+      <pre class="migrator-highlight-pre chroma" aria-hidden="true"><code id="inputHighlight" class="migrator-code-inner"></code></pre>
+      <textarea id="inputJson" class="migrator-textarea migrator-textarea--highlight" rows="10" placeholder='{ "flexcyon-rtz-mode": true }' spellcheck="false"></textarea>
       <button id="pasteBtn" class="migrator-icon-btn" title="Paste from clipboard" type="button">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
       </button>
@@ -25,8 +26,10 @@
 
   <div class="migrator-section">
     <label class="migrator-label" for="outputJson">2. Migrated 2.0.0 Settings Output:</label>
-    <div class="migrator-textarea-wrapper">
-      <textarea id="outputJson" class="migrator-textarea" readonly rows="10"></textarea>
+    <div class="migrator-textarea-wrapper highlight">
+      <span class="migrator-lang-badge" id="langBadge" style="display:none;">JSON</span>
+      <pre class="migrator-code-block chroma" id="outputBlock" style="display:none;"><code id="outputCode" class="migrator-code-inner"></code></pre>
+      <textarea id="outputJson" class="migrator-textarea" readonly rows="10" style="display:none;"></textarea>
       <button id="copyBtn" class="migrator-icon-btn" title="Copy to clipboard" type="button" style="display:none;">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
       </button>
@@ -43,8 +46,21 @@
 
 <script type="text/javascript">
   let pyodide;
+  let chromaHighlightTimer;
   const pythonScriptUrl = "{{ "js/migrator.py" | relURL }}";
   const vendoredIndexUrl = "{{ "js/pyodide/" | relURL }}";
+
+  function highlightJson(str) {
+    var s = str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return s.replace(/("(?:[^"\\]|\\.)*")|(-?(?:0|[1-9]\d*)(?:\.\d+)?(?:[eE][+-]?\d+)?)|(\b(?:true|false|null)\b)/g,
+      function(m, str, num, kw) {
+        if (str !== undefined) return '<span class="s2">' + str + '</span>';
+        if (num !== undefined) return '<span class="mi">' + num + '</span>';
+        if (kw !== undefined) return '<span class="kc">' + kw + '</span>';
+        return m;
+      }
+    );
+  }
 
   async function initPyodide() {
     const btn = document.getElementById("migrateBtn");
@@ -148,7 +164,9 @@
         if (clearFileBtn) clearFileBtn.style.display = "inline-flex";
         const reader = new FileReader();
         reader.onload = function(evt) {
-          document.getElementById("inputJson").value = evt.target.result;
+          const input = document.getElementById("inputJson");
+          input.value = evt.target.result;
+          input.dispatchEvent(new Event("input"));
         };
         reader.readAsText(file);
       });
@@ -156,11 +174,45 @@
 
     if (clearFileBtn) {
       clearFileBtn.addEventListener("click", function() {
-        if (fileInput) { fileInput.value = ""; }
+        if (fileInput) fileInput.value = "";
         if (fileNameDisplay) fileNameDisplay.textContent = "No file selected";
         clearFileBtn.style.display = "none";
-        document.getElementById("inputJson").value = "";
+        const input = document.getElementById("inputJson");
+        input.value = "";
+        input.dispatchEvent(new Event("input"));
       });
+    }
+
+    const inputJson = document.getElementById("inputJson");
+    const inputHighlight = document.getElementById("inputHighlight");
+    const highlightPre = inputHighlight?.closest("pre");
+
+    if (inputJson && inputHighlight) {
+      const syncScroll = () => {
+        if (highlightPre) {
+          highlightPre.scrollTop = inputJson.scrollTop;
+          highlightPre.scrollLeft = inputJson.scrollLeft;
+        }
+      };
+
+      const applyHighlight = () => {
+        var val = inputJson.value;
+        var text = val || inputJson.placeholder;
+        var highlighted = highlightJson(text);
+        inputHighlight.innerHTML = val
+          ? highlighted
+          : '<span class="migrator-placeholder-shown">' + highlighted + '</span>';
+      };
+
+      const queueHighlight = function() {
+        clearTimeout(chromaHighlightTimer);
+        chromaHighlightTimer = setTimeout(applyHighlight, 150);
+      };
+
+      applyHighlight();
+      inputJson.addEventListener("input", queueHighlight);
+      inputJson.addEventListener("scroll", syncScroll);
+      inputJson.addEventListener("focus", queueHighlight);
     }
 
     const pasteBtn = document.getElementById("pasteBtn");
@@ -171,9 +223,10 @@
         const text = await clipboardPaste();
         if (text !== null) {
           input.value = text;
+          input.dispatchEvent(new Event("input"));
           showToast(fb, "Pasted from clipboard");
         } else {
-          showToast(fb, "Paste blocked by browser — use Ctrl+V", 3000);
+          showToast(fb, "Paste blocked by browser \u2014 use Ctrl+V", 3000);
         }
       });
     }
@@ -185,7 +238,7 @@
         if (!text) return;
         const fb = document.getElementById("copyFeedback");
         const ok = await clipboardCopy(text);
-        showToast(fb, ok ? "Copied to clipboard" : "Copy failed — browser denied access", 3000);
+        showToast(fb, ok ? "Copied to clipboard" : "Copy failed \u2014 browser denied access", 3000);
       });
     }
 
@@ -195,6 +248,8 @@
         const input = document.getElementById("inputJson");
         const inputVal = input.value.trim() || input.placeholder;
         const outputTextarea = document.getElementById("outputJson");
+        const outputBlock = document.getElementById("outputBlock");
+        const outputCode = document.getElementById("outputCode");
         const downloadBtn = document.getElementById("downloadBtn");
         const copyBtn = document.getElementById("copyBtn");
 
@@ -217,13 +272,21 @@ json.dumps(migrated_output, indent=2)
           `);
 
           outputTextarea.value = resultJson;
+          outputTextarea.style.display = "none";
+          outputBlock.style.display = "";
+          outputCode.innerHTML = highlightJson(resultJson);
+
           downloadBtn.style.display = "inline-block";
           downloadBtn.disabled = false;
           downloadBtn.onclick = () => triggerDownload(resultJson);
+          document.getElementById("langBadge").style.display = "inline";
           copyBtn.style.display = "inline-flex";
         } catch (error) {
           outputTextarea.value = "Error during processing:\n" + error.message;
+          outputTextarea.style.display = "";
+          outputBlock.style.display = "none";
           downloadBtn.style.display = "none";
+          document.getElementById("langBadge").style.display = "none";
           copyBtn.style.display = "none";
         } finally {
           setLoadingState(false);
