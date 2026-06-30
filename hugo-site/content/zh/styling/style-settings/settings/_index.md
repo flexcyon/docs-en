@@ -55,6 +55,12 @@ Style Settings
 
 接受的格式: px
 
+#### 在样式设置中隐藏 Keychain 项目
+
+目标 CSS 类: `var(--flexcyon-no-keychain-setting-item)`
+
+默认: true (类切换)
+
 #### 样式设置标题之间的缩进宽度
 
 目标 CSS 变量: `var(--flexcyon-style-settings-indent-width)`

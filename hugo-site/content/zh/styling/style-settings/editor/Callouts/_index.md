@@ -34,6 +34,12 @@ Style Settings
 
 默认: 1 (em)
 
+### 标注水平边距
+
+目标 CSS 变量: `var(--flexcyon-callout-horizontal-margin)`
+
+默认: 0 (em)
+
 ### 标注垂直填充
 
 目标 CSS 变量: `var(--flexcyon-callout-vertical-padding)`

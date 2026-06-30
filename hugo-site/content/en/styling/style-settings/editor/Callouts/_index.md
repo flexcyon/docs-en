@@ -34,6 +34,12 @@ CSS Variable(s) targeted: `var(--flexcyon-callout-vertical-margin)`
 
 Default: 1 (em)
 
+### Callout Horizontal Margin
+
+CSS Variable(s) targeted: `var(--flexcyon-callout-horizontal-margin)`
+
+Default: 0 (em)
+
 ### Callout Vertical Padding
 
 CSS Variable(s) targeted: `var(--flexcyon-callout-vertical-padding)`

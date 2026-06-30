@@ -41,6 +41,12 @@ Configure the appearance for style settings
 
 Accepted Formats: px
 
+#### Hide Keychain item in Style Settings
+
+CSS Classe(s) targeted: `var(--flexcyon-no-keychain-setting-item)`
+
+Default: true (class toggle)
+
 #### Indentation width between style settings headings
 
 CSS Variable(s) targeted: `var(--flexcyon-style-settings-indent-width)`

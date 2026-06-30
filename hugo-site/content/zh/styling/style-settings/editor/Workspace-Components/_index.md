@@ -22,6 +22,12 @@ Style Settings
 
 默认: 50 (rem)
 
+### 编辑器顶部边距
+
+目标 CSS 变量: `var(--flexcyon-editor-margin-top)`
+
+默认: 18 (px)
+
 ### 暗淡元素的不透明度
 
 目标 CSS 变量: `var(--dimmed)`
