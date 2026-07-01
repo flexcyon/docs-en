@@ -6,11 +6,20 @@
 {{- $loading := T "migrator_loading" | default "Loading Python WASM Runtime..." -}}
 {{- $outputLabel := T "migrator_output_label" | default "2. Migrated 2.0.0 Settings Output:" -}}
 {{- $copyBtnTitle := T "migrator_copy_btn_title" | default "Copy to clipboard" -}}
-{{- $downloadBtn := T "migrator_download_btn" | default "Download new_settings.json" -}}
+{{- $downloadBtn := T "migrator_download_btn" | default "Download migrated_settings.json" -}}
+{{- $btnRun := T "migrator_btn_run" | default "Run Migration" -}}
+{{- $failedInit := T "migrator_failed_init" | default "Failed to load local Python environment" -}}
+{{- $migrating := T "migrator_migrating" | default "Migrating..." -}}
+{{- $toastPasted := T "migrator_toast_pasted" | default "Pasted from clipboard" -}}
+{{- $toastPasteBlocked := T "migrator_toast_paste_blocked" | default "Paste blocked by browser - use Ctrl+V" -}}
+{{- $toastCopied := T "migrator_toast_copied" | default "Copied to clipboard" -}}
+{{- $toastCopyFailed := T "migrator_toast_copy_failed" | default "Copy failed - browser denied access" -}}
+{{- $errorPrefix := T "migrator_error_prefix" | default "Error during processing:\n" -}}
+{{- $downloadFilename := T "migrator_download_filename" | default "migrated_settings.json" -}}
 
 <div class="migrator-container">
   <div class="migrator-section">
-    <label class="migrator-label" for="inputJson">{{ $inputLabel }}</label>
+    <label class="migrator-label">{{ $inputLabel }}</label>
     <div class="migrator-file-row">
       <button id="browseBtn" class="migrator-btn migrator-btn-secondary" type="button">{{ $browseBtn }}</button>
       <span id="fileNameDisplay" class="migrator-file-name">{{ $noFile }}</span>
@@ -19,9 +28,8 @@
       </button>
       <input type="file" id="jsonFileInput" accept=".json" hidden />
     </div>
-    <div class="migrator-textarea-wrapper migrator-highlight-wrap highlight">
-      <pre class="migrator-highlight-pre chroma" aria-hidden="true"><code id="inputHighlight" class="migrator-code-inner"></code></pre>
-      <textarea id="inputJson" class="migrator-textarea migrator-textarea--highlight" rows="10" placeholder='{ "flexcyon-rtz-mode": true }' spellcheck="false"></textarea>
+    <div class="migrator-textarea-wrapper highlight">
+      <pre id="inputJson" class="migrator-editor chroma" contenteditable="plaintext-only" spellcheck="false" data-placeholder='{ "flexcyon-rtz-mode": true }'></pre>
       <button id="pasteBtn" class="migrator-icon-btn" title="{{ $pasteBtnTitle }}" type="button">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
       </button>
@@ -34,22 +42,24 @@
     <span id="migrateBtnText">{{ $loading }}</span>
   </button>
 
-  <div class="migrator-section">
-    <label class="migrator-label" for="outputJson">{{ $outputLabel }}</label>
-    <div class="migrator-textarea-wrapper highlight">
-      <span class="migrator-lang-badge" id="langBadge" style="display:none;">JSON</span>
-      <pre class="migrator-code-block chroma" id="outputBlock" style="display:none;"><code id="outputCode" class="migrator-code-inner"></code></pre>
-      <textarea id="outputJson" class="migrator-textarea" readonly rows="10" style="display:none;"></textarea>
-      <button id="copyBtn" class="migrator-icon-btn" title="{{ $copyBtnTitle }}" type="button" style="display:none;">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-      </button>
-      <span id="copyFeedback" class="migrator-toast" style="display:none;"></span>
+  <div id="outputSection" style="display:none;">
+    <div class="migrator-section">
+      <label class="migrator-label" for="outputJson">{{ $outputLabel }}</label>
+      <div class="migrator-textarea-wrapper highlight">
+        <span class="migrator-lang-badge" id="langBadge" style="display:none;">JSON</span>
+        <pre class="migrator-code-block chroma" id="outputBlock" style="display:none;"><code id="outputCode" class="migrator-code-inner"></code></pre>
+        <textarea id="outputJson" class="migrator-textarea" readonly rows="10" style="display:none;"></textarea>
+        <button id="copyBtn" class="migrator-icon-btn" title="{{ $copyBtnTitle }}" type="button" style="display:none;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        </button>
+        <span id="copyFeedback" class="migrator-toast" style="display:none;"></span>
+      </div>
     </div>
-  </div>
 
-  <button id="downloadBtn" class="migrator-btn" disabled style="display:none;">
-    {{ $downloadBtn }}
-  </button>
+    <button id="downloadBtn" class="migrator-btn" disabled style="display:none;">
+      {{ $downloadBtn }}
+    </button>
+  </div>
 </div>
 
 <script src="{{ "js/pyodide/pyodide.js" | relURL }}"></script>
@@ -57,20 +67,20 @@
 <script type="text/javascript">
   let pyodide;
   let chromaHighlightTimer;
+  let uploadedFileName = null;
   const pythonScriptUrl = "{{ "js/migrator.py" | relURL }}";
   const vendoredIndexUrl = "{{ "js/pyodide/" | relURL }}";
   const migratorI18n = {
-    btnRun: {{ (T "migrator_btn_run" | default "Run Migration") | jsonify }},
-    noFile: {{ (T "migrator_no_file" | default "No file selected") | jsonify }},
-    failedInit: {{ (T "migrator_failed_init" | default "Failed to load local Python environment") | jsonify }},
-    migrating: {{ (T "migrator_migrating" | default "Migrating...") | jsonify }},
-    toastPasted: {{ (T "migrator_toast_pasted" | default "Pasted from clipboard") | jsonify }},
-    toastPasteBlocked: {{ (T "migrator_toast_paste_blocked" | default "Paste blocked by browser - use Ctrl+V") | jsonify }},
-    toastCopied: {{ (T "migrator_toast_copied" | default "Copied to clipboard") | jsonify }},
-    toastCopyFailed: {{ (T "migrator_toast_copy_failed" | default "Copy failed - browser denied access") | jsonify }},
-    errorPrefix: {{ (T "migrator_error_prefix" | default "Error during processing:\n") | jsonify }},
-    invalidJson: {{ (T "migrator_invalid_json" | default "INVALID JSON DETECTED:\n") | jsonify }},
-    downloadFilename: {{ (T "migrator_download_filename" | default "new_settings.json") | jsonify }},
+    btnRun: "{{ $btnRun }}",
+    noFile: "{{ $noFile }}",
+    failedInit: "{{ $failedInit }}",
+    migrating: "{{ $migrating }}",
+    toastPasted: "{{ $toastPasted }}",
+    toastPasteBlocked: "{{ $toastPasteBlocked }}",
+    toastCopied: "{{ $toastCopied }}",
+    toastCopyFailed: "{{ $toastCopyFailed }}",
+    errorPrefix: "{{ $errorPrefix }}",
+    downloadFilename: "{{ $downloadFilename }}",
   };
 
   function highlightJson(str) {
@@ -183,12 +193,13 @@
       fileInput.addEventListener("change", function(e) {
         const file = e.target.files[0];
         if (!file) return;
+        uploadedFileName = file.name;
         if (fileNameDisplay) fileNameDisplay.textContent = file.name;
         if (clearFileBtn) clearFileBtn.style.display = "inline-flex";
         const reader = new FileReader();
         reader.onload = function(evt) {
           const input = document.getElementById("inputJson");
-          input.value = evt.target.result;
+          input.textContent = evt.target.result;
           input.dispatchEvent(new Event("input"));
         };
         reader.readAsText(file);
@@ -198,44 +209,64 @@
     if (clearFileBtn) {
       clearFileBtn.addEventListener("click", function() {
         if (fileInput) fileInput.value = "";
+        uploadedFileName = null;
         if (fileNameDisplay) fileNameDisplay.textContent = migratorI18n.noFile;
         clearFileBtn.style.display = "none";
         const input = document.getElementById("inputJson");
-        input.value = "";
+        input.textContent = "";
         input.dispatchEvent(new Event("input"));
       });
     }
 
     const inputJson = document.getElementById("inputJson");
-    const inputHighlight = document.getElementById("inputHighlight");
-    const highlightPre = inputHighlight?.closest("pre");
 
-    if (inputJson && inputHighlight) {
-      const syncScroll = () => {
-        if (highlightPre) {
-          highlightPre.scrollTop = inputJson.scrollTop;
-          highlightPre.scrollLeft = inputJson.scrollLeft;
+    if (inputJson) {
+      function saveCursorPos() {
+        const sel = window.getSelection();
+        if (!sel.rangeCount) return null;
+        const range = sel.getRangeAt(0);
+        if (range.startContainer && !inputJson.contains(range.startContainer)) return null;
+        const preRange = document.createRange();
+        preRange.selectNodeContents(inputJson);
+        preRange.setEnd(range.startContainer, range.startOffset);
+        return { offset: preRange.toString().length };
+      }
+
+      function restoreCursorPos(pos) {
+        if (!pos) return;
+        const sel = window.getSelection();
+        const range = document.createRange();
+        let charIndex = 0;
+        const walker = document.createTreeWalker(inputJson, NodeFilter.SHOW_TEXT, null);
+        let node;
+        while ((node = walker.nextNode())) {
+          const next = charIndex + node.textContent.length;
+          if (pos.offset <= next) {
+            range.setStart(node, pos.offset - charIndex);
+            range.collapse(true);
+            sel.removeAllRanges();
+            sel.addRange(range);
+            return;
+          }
+          charIndex = next;
         }
-      };
+      }
 
       const applyHighlight = () => {
-        var val = inputJson.value;
-        var text = val || inputJson.placeholder;
-        var highlighted = highlightJson(text);
-        inputHighlight.innerHTML = val
-          ? highlighted
-          : '<span class="migrator-placeholder-shown">' + highlighted + '</span>';
+        const text = inputJson.textContent;
+        const pos = saveCursorPos();
+        inputJson.innerHTML = text
+          ? highlightJson(text)
+          : "";
+        restoreCursorPos(pos);
       };
 
-      const queueHighlight = function() {
+      const queueHighlight = () => {
         clearTimeout(chromaHighlightTimer);
         chromaHighlightTimer = setTimeout(applyHighlight, 150);
       };
 
-      applyHighlight();
       inputJson.addEventListener("input", queueHighlight);
-      inputJson.addEventListener("scroll", syncScroll);
-      inputJson.addEventListener("focus", queueHighlight);
     }
 
     const pasteBtn = document.getElementById("pasteBtn");
@@ -245,7 +276,8 @@
         const fb = document.getElementById("pasteFeedback");
         const text = await clipboardPaste();
         if (text !== null) {
-          input.value = text;
+          input.focus();
+          document.execCommand("insertText", false, text);
           input.dispatchEvent(new Event("input"));
           showToast(fb, migratorI18n.toastPasted);
         } else {
@@ -265,28 +297,29 @@
       });
     }
 
-    const migrateBtn = document.getElementById("migrateBtn");
+        const migrateBtn = document.getElementById("migrateBtn");
     if (migrateBtn) {
       migrateBtn.addEventListener("click", async () => {
         const input = document.getElementById("inputJson");
-        const inputVal = input.value.trim() || input.placeholder;
+        const inputVal = (input.textContent || "").trim() || input.getAttribute("data-placeholder");
+        const outputSection = document.getElementById("outputSection");
         const outputTextarea = document.getElementById("outputJson");
         const outputBlock = document.getElementById("outputBlock");
         const outputCode = document.getElementById("outputCode");
         const downloadBtn = document.getElementById("downloadBtn");
         const copyBtn = document.getElementById("copyBtn");
 
+        outputSection.style.display = "";
         setLoadingState(true);
 
         try {
           pyodide.globals.set("js_input_string", inputVal);
-          pyodide.globals.set("js_invalid_json_prefix", migratorI18n.invalidJson);
 
           const resultJson = await pyodide.runPythonAsync(`
 import json
 valid, err = validate_json_with_ast(js_input_string)
 if not valid:
-    raise Exception(f"{js_invalid_json_prefix}{err}")
+    raise Exception(err)
 
 mapper = SettingsMapper(get_mapping_config())
 parsed_input = json.loads(js_input_string)
@@ -320,14 +353,13 @@ json.dumps(migrated_output, indent=2)
   });
 
   function triggerDownload(content) {
-    const blob = new Blob([content], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
-    a.href = url;
-    a.download = migratorI18n.downloadFilename;
-    document.body.appendChild(a);
+    a.href = "data:application/json;charset=utf-8," + encodeURIComponent(content);
+    const base = uploadedFileName;
+    a.download = base
+      ? base.replace(/(\.json)?$/i, "_migrated.json")
+      : migratorI18n.downloadFilename;
     a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    a.remove();
   }
 </script>

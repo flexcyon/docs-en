@@ -134,7 +134,7 @@ migrator_clear_file_title: 清除已上传的文件
 migrator_paste_btn_title: 从剪贴板粘贴
 migrator_copy_btn_title: 复制到剪贴板
 migrator_loading: 正在加载 Python WASM 运行时...
-migrator_download_btn: 下载 new_settings.json
+migrator_download_btn: 下载 migrated_settings.json
 migrator_btn_run: 运行迁移
 migrator_failed_init: 无法加载本地 Python 环境
 migrator_migrating: 迁移中...
@@ -143,5 +143,4 @@ migrator_toast_paste_blocked: 浏览器阻止了粘贴 - 请使用 Ctrl+V
 migrator_toast_copied: 已复制到剪贴板
 migrator_toast_copy_failed: 复制失败 - 浏览器拒绝了访问
 migrator_error_prefix: "处理过程中出错:"
-migrator_invalid_json: 检测到无效的 JSON
-migrator_download_filename: new_settings.json
+migrator_download_filename: migrated_settings.json

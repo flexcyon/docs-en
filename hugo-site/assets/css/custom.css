@@ -175,11 +175,43 @@ main[id="content"] h1 {
   opacity: 0.85;
 }
 
-.migrator-highlight-wrap {
-  position: relative;
+.migrator-editor {
+  width: 100%;
+  min-height: 160px;
+  font-family: var(--hx-font-mono);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding: 12px;
+  border-radius: 6px;
+  background-color: var(--hx-color-neutral-900);
+  border: 1px solid oklch(from currentColor l c h / 0.2);
+  color: inherit;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+  margin: 0;
+  caret-shape: block;
+  caret-color: var(--color-primary);
+  outline: none;
 }
 
-.migrator-highlight-pre,
+.migrator-editor:focus {
+  border-color: var(--color-primary);
+}
+
+.migrator-editor:empty:before {
+  content: attr(data-placeholder);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.migrator-editor .chroma,
+.migrator-editor .chroma pre,
+.migrator-editor .chroma code {
+  background: transparent !important;
+}
+
 .migrator-code-block {
   width: 100%;
   min-height: 160px;
@@ -192,75 +224,20 @@ main[id="content"] h1 {
   border: 1px solid oklch(from currentColor l c h / 0.2);
   color: inherit;
   box-sizing: border-box;
-}
-
-.migrator-highlight-pre {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  overflow: auto;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.migrator-code-block {
   overflow: auto;
   margin: 0;
 }
 
-.migrator-highlight-pre .chroma,
 .migrator-code-block .chroma,
-.migrator-highlight-pre .chroma pre,
 .migrator-code-block .chroma pre,
-.migrator-highlight-pre .chroma code,
 .migrator-code-block .chroma code {
   background: transparent !important;
-}
-
-.migrator-highlight-pre .migrator-code-inner {
-  display: block;
-  font: inherit;
-  font-family: var(--hx-font-mono);
-}
-
-.migrator-textarea--highlight {
-  position: relative;
-  min-height: 160px;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  color: transparent !important;
-  caret-color: inherit;
-  background: transparent !important;
-  z-index: 2;
-  resize: none;
-  box-sizing: border-box;
-}
-
-.migrator-textarea--highlight::placeholder {
-  color: transparent;
 }
 
 .migrator-code-inner {
   display: block;
   font: inherit;
   font-family: var(--hx-font-mono);
-}
-
-.migrator-code-inner pre {
-  margin: 0;
-  padding: 0;
-  background: transparent !important;
-}
-
-.migrator-code-inner code {
-  font: inherit;
-  font-family: var(--hx-font-mono);
-  background: transparent !important;
 }
 
 .migrator-btn {
@@ -389,6 +366,4 @@ main[id="content"] h1 {
   top: 2.6875rem;
 }
 
-.migrator-placeholder-shown {
-  opacity: 0.55;
-}
+

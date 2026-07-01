@@ -134,7 +134,7 @@ migrator_clear_file_title: 업로드된 파일 지우기
 migrator_paste_btn_title: 클립보드에서 붙여넣기
 migrator_copy_btn_title: 클립보드에 복사
 migrator_loading: Python WASM 런타임 로딩 중...
-migrator_download_btn: new_settings.json 다운로드
+migrator_download_btn: migrated_settings.json 다운로드
 migrator_btn_run: 마이그레이션 실행
 migrator_failed_init: 로컬 Python 환경을 불러오지 못했습니다
 migrator_migrating: 마이그레이션 중...
@@ -143,5 +143,4 @@ migrator_toast_paste_blocked: 브라우저가 붙여넣기를 차단했습니다
 migrator_toast_copied: 클립보드에 복사됨
 migrator_toast_copy_failed: 복사 실패 - 브라우저가 액세스를 거부했습니다
 migrator_error_prefix: "처리 중 오류 발생:"
-migrator_invalid_json: "잘못된 JSON 감지:"
-migrator_download_filename: new_settings.json
+migrator_download_filename: migrated_settings.json

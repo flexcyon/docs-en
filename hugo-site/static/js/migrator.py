@@ -743,9 +743,34 @@ def validate_json_with_ast(raw_data):
         try:
             ast.parse(raw_data)
         except SyntaxError as ast_err:
-            return False, (f"Line {ast_err.lineno}, "
-                           f"Col {ast_err.offset}: {ast_err.msg}")
-        return False, f"Line {e.lineno}, Col {e.colno}: {e.msg}"
+            err = _format_json_error(raw_data, ast_err.lineno, ast_err.offset, ast_err.msg)
+            return False, err
+        err = _format_json_error(raw_data, e.lineno, e.colno, e.msg)
+        return False, err
+
+
+def _format_json_error(raw_data, lineno, colno, msg):
+    lines = raw_data.split("\n")
+    line = lines[lineno - 1] if 1 <= lineno <= len(lines) else ""
+    marker = " " * max(0, (colno or 1) - 1) + "^"
+    ctx = f"  {lineno} | {line}\n  {marker}"
+    hint = _json_error_hint(msg)
+    return f"Line {lineno}, Col {colno}: {msg}\n{ctx}\n{hint}"
+
+
+def _json_error_hint(msg):
+    m = msg.lower()
+    if "unterminated string" in m:
+        return "Hint: Your string is missing a closing double-quote."
+    if "invalid character" in m and "position" in m:
+        return "Hint: Check for trailing commas, unquoted keys, or stray characters."
+    if "expecting property name" in m:
+        return "Hint: JSON keys must be double-quoted (e.g. \"key\"), not single-quoted or bare."
+    if "expecting value" in m:
+        return "Hint: A colon was found but no value follows. Check for missing/null values."
+    if "extra data" in m:
+        return "Hint: Only one JSON object is allowed. Remove extra content after the closing brace."
+    return ""
 
 
 # ----------------- #
