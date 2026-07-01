@@ -26,14 +26,16 @@ your file changes are saved.
 If you prefer to use CSS instead of SCSS, place your proposed code changes or
 snippets in the `css/` folder. The maintainer will try to integrate them.
 
-Do note that this repository has its own [Code of Conduct](https://github.com/bladeacer/flexcyon/blob/master/code_of_conduct)
+Do note that this repository has its own
+[Code of Conduct](https://github.com/bladeacer/flexcyon/blob/master/code_of_conduct)
 and [Contributing Guide](https://github.com/bladeacer/flexcyon/blob/master/contributing).
 
 ---
 
 ## Translations
 
-See the [documentation repository](https://github.com/flexcyon/docs-en) for more details, as well as the current set of languages supported.
+See the [documentation repository](https://github.com/flexcyon/docs-en)
+for more details, as well as the current set of languages supported.
 
 ### Translation guidelines
 

@@ -40,6 +40,9 @@ Current languages supported:
 There is a [Makefile](./Makefile) which invokes utility Python scripts one can use.
 > See the scripts directory for more details
 
+If you cannot use GNU `make`, you can invoke the Python scripts directly if you have
+Python installed.
+
 ## Translation guidelines
 
 See [Contributing](https://flexcyon.github.io/docs-en/contributing/) section in
