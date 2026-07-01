@@ -5,7 +5,7 @@ help:
 	@echo ""
 	@echo "Targets:"
 	@echo "  dev                     Runs hugo server"
-	@echo "  audit-links             Get all markdown links and pipe to links-audit.md in a TODO format"
+	@echo "  audit-links             Check cross-i18n link completeness across all languages"
 	@echo "  strip-icons             Strips old material icons metadata declarations"
 	@echo "  translate-frontmatter   Translates existing title entries with i18n/zh.yaml"
 	@echo "  check-i18n              Check for missing i18n files"
@@ -15,26 +15,10 @@ help:
 dev:
 	cd hugo-site && hugo server --disableFastRender
 
-REJECT_LIST = content/zh/readme/page-3.md \
-	      content/en/readme/page-2.md \
-	      content/en/credits/_index.md \
-	      content/zh/credits/_index.md \
-	      content/en/_index.md \
-	      content/zh/_index.md \
-	      content/en/readme/_index.md \
-	      content/en/changelogs/_index.md \
-	      content/zh/changelogs/_index.md \
-	      content/zh/credits/_index.md
-
-REJECT_REGEX = $(shell echo "$(REJECT_LIST)" | sed 's/ /|/g')
-
 audit-links:
-	@cd hugo-site && rg -n "\[.*?\]\(.*?\)" . --glob "*.md" --no-heading | \
-		rg -v "\]\(http" | \
-		rg -v "$(REJECT_REGEX)" | \
-		awk -F: '{print "- [ ] `" $$1 ":" $$2 "`"}' | sort > ../links-audit.md
-	@echo "Total internal links found: $$(wc -l < links-audit.md)"
-	@head -n 20 links-audit.md
+	@echo "Auditing cross-i18n link completeness..."
+	@python3 ./scripts/audit_links.py
+	@echo "Done."
 
 strip-icons:
 	@echo "Removing 'icon: material/...' lines from markdown files..."

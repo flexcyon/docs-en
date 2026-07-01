@@ -63,7 +63,7 @@ SECTION_GROUPS = {
 # Label overrides  --  when kebab→Title-Case gives the wrong plugin label.
 # ---------------------------------------------------------------------------
 LABEL_OVERRIDES = {
-    "en/editor/Scrollbars": "Scrollbar",
+    "en/editor/Scrollbars": "Scrollbars",
     "en/editor/Workspace-Components/Title-Bar": "Titlebar",
 }
 

@@ -140,8 +140,7 @@ def process_directory(lang, config):
                 with open(path, 'r', encoding='utf-8') as f:
                     content = f.read()
 
-                # Process Links first
-                new_content = clean_markdown_links(content)
+                new_content = content
 
                 if lang == "zh":
                     new_content = new_content.replace('。', '. ')
