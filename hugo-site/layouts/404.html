@@ -1,0 +1,68 @@
+{{ define "main" }}
+{{- $data := hugo.Data.error404 -}}
+{{- $basePath := (urls.Parse $.Site.BaseURL).Path -}}
+{{- $defaultLang := "en" -}}
+{{- $pageLang := .Language.Lang -}}
+
+<style>
+.lang-404-block { display: none; }
+.lang-404-block.active { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-height: 50vh; }
+.lang-404-block.active h1 { font-size: 3.75rem; font-weight: 700; margin-top: 1.5rem; }
+.lang-404-block.active p { font-size: 1.25rem; margin-top: 1rem; }
+.lang-404-block.active a { color: var(--hx-color-primary-600); text-decoration: underline; }
+.lang-404-block.active a:hover { opacity: 0.8; }
+</style>
+
+{{- range $lang, $langData := $data -}}
+{{- $homeURL := $basePath -}}
+{{- if ne $lang $defaultLang -}}
+  {{- $homeURL = printf "%s%s/" $basePath $lang -}}
+{{- end -}}
+<div class="lang-404-block{{ if eq $lang $pageLang }} active{{ end }}" data-lang="{{ $lang }}">
+  <h1>404</h1>
+  <div>
+    <p>{{ $langData.description }}</p>
+    <p class="mt-4"><a href="{{ $homeURL }}">{{ $langData.home }}</a> | <a href="javascript:history.back()">{{ $langData.back }}</a></p>
+  </div>
+</div>
+{{- end -}}
+
+<script>
+(function() {
+  var basePath = "{{ $basePath | safeJS }}";
+  var defaultLang = "{{ $defaultLang }}";
+  var currentPath = window.location.pathname;
+  if (basePath !== "/" && currentPath.startsWith(basePath)) {
+    currentPath = "/" + currentPath.slice(basePath.length);
+  }
+  currentPath = currentPath.replace(/^\/|\/$/g, '');
+  var urlLang = currentPath.split('/')[0];
+
+  var blocks = document.querySelectorAll('.lang-404-block');
+  var langMap = {};
+  blocks.forEach(function(b) { langMap[b.getAttribute('data-lang')] = b; });
+
+  var targetLang = langMap[urlLang] ? urlLang : null;
+  if (!targetLang) {
+    var browserLang = (navigator.language || navigator.userLanguage).substring(0, 2);
+    targetLang = langMap[browserLang] ? browserLang : null;
+  }
+  if (!targetLang) {
+    targetLang = defaultLang;
+  }
+
+  blocks.forEach(function(b) { b.classList.remove('active'); });
+  if (langMap[targetLang]) {
+    langMap[targetLang].classList.add('active');
+    document.documentElement.lang = targetLang;
+  }
+
+  var titles = {
+    {{- range $lang, $langData := $data -}}
+    "{{ $lang }}": "{{ $langData.fullTitle | safeJS }}",
+    {{- end -}}
+  };
+  if (titles[targetLang]) document.title = titles[targetLang];
+})();
+</script>
+{{ end }}

@@ -1,0 +1,146 @@
+# Core Building Blocks
+Extended Color Palette: Extended Color Palette
+Extended Colour Palette: Extended Colour Palette
+Design Principles: Design Principles
+Tools and Software: Tools and Software
+Horizontal Rules: Horizontal Rules
+Horizontal Rule: Horizontal Rule
+Accent Colors: Accent Colors
+Base Colors: Base Colors
+Inline Title: Inline Title
+Code Blocks: Code Blocks
+UI Font Size: UI Font Size
+Status Bar: Status Bar
+Title Bar: Title Bar
+Line Numbers: Line Numbers
+Cursor: Cursor
+Graph: Graph
+View Header: View Header
+Metadata: Metadata
+Font Size: Font Size
+Background Styling: Background Styling
+Transparent Background: Transparent Background
+Combined Styling: Combined Styling
+Style Settings: Style Settings
+Versions: Versions
+Writing Mode: Writing Mode
+Typewriter Mode: Typewriter Mode
+Heading Indicators: Heading Indicators
+Vertical Alignment: Vertical Alignment
+
+# Adjectives / Colors
+Blue: Blue
+Red: Red
+Purple: Purple
+Cyan: Cyan
+Pink: Pink
+Green: Green
+Orange: Orange
+Yellow: Yellow
+All: All
+No: No
+Empty: Empty
+
+# Formatting / Styles
+Center: Center
+Uppercase: Uppercase
+Lowercase: Lowercase
+Capitalize: Capitalize
+Tilt: Tilt
+Italic: Italic
+Oblique: Oblique
+Dashed: Dashed
+Dotted: Dotted
+Grid: Grid
+Rhombus: Rhombus
+Overline: Overline
+Underline: Underline
+Strikethrough: Strikethrough
+Font Weight: Font Weight
+Interface Font: Interface Font
+Text Font: Text Font
+Monospace Font: Monospace Font
+Vertical: Vertical
+Plain: Plain
+
+# Components
+Title: Title
+Content: Content
+Background: Background
+Icon: Icon
+List: List
+Ordered List: Ordered List
+Unordered List: Unordered List
+Heading: Heading
+Indicators: Indicators
+Indicator: Indicator
+
+# App UI / Structure
+Foreword: Foreword
+README: README
+About: About
+Copyright: Copyright
+Screenshots: Screenshots
+Installation: Installation
+Extensions: Extensions
+License: License
+Roadmap: Roadmap
+Credits: Credits
+Contributors: Contributors
+Styling: Styling
+Tags: Tags
+Changelogs: Changelogs
+Beta: Beta
+Version: Version
+Modes: Modes
+Mobile: Mobile
+Editor: Editor
+Typography: Typography
+Headings: Headings
+Table: Table
+Files: Files
+Workspace: Workspace
+Prompts: Prompts
+Animations: Animations
+Layout: Layout
+Callouts: Callouts
+Checkboxes: Checkboxes
+Bullet Lists: Bullet Lists
+Numbered Lists: Numbered Lists
+Media: Media
+Links: Links
+Properties: Properties
+Debug: Debug
+Tabs: Tabs
+Input: Input
+Settings: Settings
+Plugins: Plugins
+Others: Others
+Flashcard: Flashcard
+Opacity: Opacity
+Popup: Popup
+
+# Logic / Misc
+and below: and below
+and above: and above
+Supported: Supported
+
+# Settings Migrator
+migrator_input_label: "1. Upload or Paste your 1.X Settings JSON:"
+migrator_output_label: "2. Migrated 2.0.0 Settings Output:"
+migrator_browse_btn: Choose File
+migrator_no_file: No file selected
+migrator_clear_file_title: Clear uploaded file
+migrator_paste_btn_title: Paste from clipboard
+migrator_copy_btn_title: Copy to clipboard
+migrator_loading: Loading Python WASM Runtime...
+migrator_download_btn: Download migrated_settings.json
+migrator_btn_run: Run Migration
+migrator_failed_init: Failed to load local Python environment
+migrator_migrating: Migrating...
+migrator_toast_pasted: Pasted from clipboard
+migrator_toast_paste_blocked: Paste blocked by browser - use Ctrl+V
+migrator_toast_copied: Copied to clipboard
+migrator_toast_copy_failed: Copy failed - browser denied access
+migrator_error_prefix: "Error during processing:\n"
+migrator_download_filename: migrated_settings.json

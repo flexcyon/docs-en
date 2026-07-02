@@ -71,16 +71,16 @@
   const pythonScriptUrl = "{{ "js/migrator.py" | relURL }}";
   const vendoredIndexUrl = "{{ "js/pyodide/" | relURL }}";
   const migratorI18n = {
-    btnRun: "{{ $btnRun }}",
-    noFile: "{{ $noFile }}",
-    failedInit: "{{ $failedInit }}",
-    migrating: "{{ $migrating }}",
-    toastPasted: "{{ $toastPasted }}",
-    toastPasteBlocked: "{{ $toastPasteBlocked }}",
-    toastCopied: "{{ $toastCopied }}",
-    toastCopyFailed: "{{ $toastCopyFailed }}",
-    errorPrefix: "{{ $errorPrefix }}",
-    downloadFilename: "{{ $downloadFilename }}",
+    btnRun: {{ $btnRun | jsonify }},
+    noFile: {{ $noFile | jsonify }},
+    failedInit: {{ $failedInit | jsonify }},
+    migrating: {{ $migrating | jsonify }},
+    toastPasted: {{ $toastPasted | jsonify }},
+    toastPasteBlocked: {{ $toastPasteBlocked | jsonify }},
+    toastCopied: {{ $toastCopied | jsonify }},
+    toastCopyFailed: {{ $toastCopyFailed | jsonify }},
+    errorPrefix: {{ $errorPrefix | jsonify }},
+    downloadFilename: {{ $downloadFilename | jsonify }},
   };
 
   function highlightJson(str) {

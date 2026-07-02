@@ -1,4 +1,4 @@
-.PHONY: help dev audit-links strip-icon translate-frontmatter check-i18n update-nav update-nav-check
+.PHONY: help dev audit-links audit-links-concise audit-links-verbose strip-icon translate-frontmatter check-i18n update-nav update-nav-check
 
 help:
 	@echo "Usage: make [target]"
@@ -17,7 +17,17 @@ dev:
 
 audit-links:
 	@echo "Auditing cross-i18n link completeness..."
-	@python3 ./scripts/audit_links.py
+	@python3 ./scripts/audit_links.py $(FLAGS)
+	@echo "Done."
+
+audit-links-concise:
+	@echo "Auditing cross-i18n link completeness (concise)..."
+	@python3 ./scripts/audit_links.py --concise
+	@echo "Done."
+
+audit-links-verbose:
+	@echo "Auditing cross-i18n link completeness (verbose)..."
+	@python3 ./scripts/audit_links.py --verbose
 	@echo "Done."
 
 strip-icons:
