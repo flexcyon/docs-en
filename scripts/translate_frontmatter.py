@@ -2,10 +2,10 @@ import os
 import re
 
 LANG_CONFIGS = {
-    "en": {"translate": False, "apply_pangu": False},
-    "zh": {"translate": True, "apply_pangu": True},
+    "en": {"translate": False, "apply_pangu": False, "i18n_file": "en"},
+    "zh": {"translate": True, "apply_pangu": True, "i18n_file": "zh-cn"},
     # "ja": {"translate": True, "apply_pangu": True},
-    "ko": {"translate": True, "apply_pangu": False}
+    "ko": {"translate": True, "apply_pangu": False, "i18n_file": "ko"},
     }
 
 LINE_PATTERN = re.compile(
@@ -25,9 +25,10 @@ CJK_LATIN = re.compile(r'([\u4e00-\u9fa5\u3040-\u30ff\u31f0-\u31ff])([A-Za-z0-9]
 LATIN_CJK = re.compile(r'([A-Za-z0-9])([\u4e00-\u9fa5\u3040-\u30ff\u31f0-\u31ff])')
 
 
-def load_dictionary(lang):
+def load_dictionary(lang, i18n_file=None):
     translations = {}
-    yaml_path = f'hugo-site/i18n/{lang}.yaml'
+    i18n_file = i18n_file or lang
+    yaml_path = f'hugo-site/i18n/{i18n_file}.yaml'
     if not os.path.exists(yaml_path):
         return None, None
     with open(yaml_path, 'r', encoding='utf-8') as f:
@@ -122,7 +123,7 @@ def process_directory(lang, config):
     if not os.path.exists(target_dir):
         return
 
-    translations, word_pattern = load_dictionary(lang) if config["translate"] else (None, None)
+    translations, word_pattern = load_dictionary(lang, config.get("i18n_file")) if config["translate"] else (None, None)
 
     def translate_value(match):
         prefix = match.group(1)

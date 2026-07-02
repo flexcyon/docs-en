@@ -5,3 +5,4 @@ site/
 hugo-site/public
 links-audit.md
 .headroom
+__pycache__

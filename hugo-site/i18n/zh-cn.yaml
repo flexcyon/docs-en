@@ -142,5 +142,5 @@ migrator_toast_pasted: 已从剪贴板粘贴
 migrator_toast_paste_blocked: 浏览器阻止了粘贴 - 请使用 Ctrl+V
 migrator_toast_copied: 已复制到剪贴板
 migrator_toast_copy_failed: 复制失败 - 浏览器拒绝了访问
-migrator_error_prefix: "处理过程中出错:"
+migrator_error_prefix: "处理过程中出错:\n"
 migrator_download_filename: migrated_settings.json

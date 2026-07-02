@@ -16,8 +16,9 @@
 {{- $toastCopyFailed := T "migrator_toast_copy_failed" | default "Copy failed - browser denied access" -}}
 {{- $errorPrefix := T "migrator_error_prefix" | default "Error during processing:\n" -}}
 {{- $downloadFilename := T "migrator_download_filename" | default "migrated_settings.json" -}}
+{{- $pageLang := .Page.Language.Lang | default "" -}}
 
-<div class="migrator-container">
+<div class="migrator-container" data-lang="{{ $pageLang }}">
   <div class="migrator-section">
     <label class="migrator-label">{{ $inputLabel }}</label>
     <div class="migrator-file-row">
@@ -71,16 +72,16 @@
   const pythonScriptUrl = "{{ "js/migrator.py" | relURL }}";
   const vendoredIndexUrl = "{{ "js/pyodide/" | relURL }}";
   const migratorI18n = {
-    btnRun: {{ $btnRun | jsonify }},
-    noFile: {{ $noFile | jsonify }},
-    failedInit: {{ $failedInit | jsonify }},
-    migrating: {{ $migrating | jsonify }},
-    toastPasted: {{ $toastPasted | jsonify }},
-    toastPasteBlocked: {{ $toastPasteBlocked | jsonify }},
-    toastCopied: {{ $toastCopied | jsonify }},
-    toastCopyFailed: {{ $toastCopyFailed | jsonify }},
-    errorPrefix: {{ $errorPrefix | jsonify }},
-    downloadFilename: {{ $downloadFilename | jsonify }},
+    btnRun: {{ $btnRun | jsonify | safeJS }},
+    noFile: {{ $noFile | jsonify | safeJS }},
+    failedInit: {{ $failedInit | jsonify | safeJS }},
+    migrating: {{ $migrating | jsonify | safeJS }},
+    toastPasted: {{ $toastPasted | jsonify | safeJS }},
+    toastPasteBlocked: {{ $toastPasteBlocked | jsonify | safeJS }},
+    toastCopied: {{ $toastCopied | jsonify | safeJS }},
+    toastCopyFailed: {{ $toastCopyFailed | jsonify | safeJS }},
+    errorPrefix: {{ $errorPrefix | jsonify | safeJS }},
+    downloadFilename: {{ $downloadFilename | jsonify | safeJS }},
   };
 
   function highlightJson(str) {
@@ -363,3 +364,5 @@ json.dumps(migrated_output, indent=2)
     a.remove();
   }
 </script>
+
+

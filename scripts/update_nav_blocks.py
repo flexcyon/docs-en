@@ -41,6 +41,15 @@ SECTION_LABELS = {
         "others":       "flexcyon://Others",
         "settings":     "flexcyon://Settings",
     },
+    "ko": {
+        "editor":       "flexcyon://Editor",
+        "modes":        "flexcyon://Modes",
+        "accessibility": "flexcyon://Accessibility",
+        "mobile":       "flexcyon://Mobile",
+        "plugins":      "flexcyon://Plugins",
+        "others":       "flexcyon://Others",
+        "settings":     "flexcyon://Settings",
+    },
 }
 
 # ---------------------------------------------------------------------------
@@ -188,8 +197,16 @@ def main():
 
     scanned = mismatches = 0
     for lang in sorted(os.listdir(CONTENT_DIR)):
-        ss_dir = os.path.join(CONTENT_DIR, lang, 'styling', 'style-settings')
-        if not os.path.isdir(ss_dir):
+        # Case-insensitive lookup for style-settings directory
+        styling_dir = os.path.join(CONTENT_DIR, lang, 'styling')
+        if not os.path.isdir(styling_dir):
+            continue
+        ss_dir = None
+        for entry in os.listdir(styling_dir):
+            if entry.lower() == 'style-settings':
+                ss_dir = os.path.join(styling_dir, entry)
+                break
+        if ss_dir is None:
             continue
         for root, _dirs, files in os.walk(ss_dir):
             if '_index.md' not in files:

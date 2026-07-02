@@ -142,5 +142,5 @@ migrator_toast_pasted: 클립보드에서 붙여넣기됨
 migrator_toast_paste_blocked: 브라우저가 붙여넣기를 차단했습니다 - Ctrl+V 사용
 migrator_toast_copied: 클립보드에 복사됨
 migrator_toast_copy_failed: 복사 실패 - 브라우저가 액세스를 거부했습니다
-migrator_error_prefix: "처리 중 오류 발생:"
+migrator_error_prefix: "처리 중 오류 발생:\n"
 migrator_download_filename: migrated_settings.json
