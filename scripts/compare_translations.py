@@ -107,7 +107,7 @@ def main():
                 missing.append(l)
         if missing:
             total_issues += 1
-            print(f"[x] `{en_path}` — MISSING in [{', '.join(missing)}]")
+            print(f"[x] `{en_path}` - MISSING in [{', '.join(missing)}]")
 
     # Files in non-canonical that don't exist in canonical at all
     all_non_canonical = set()
@@ -118,10 +118,10 @@ def main():
             total_issues += 1
             # Find which languages have it
             have = [l for l in languages if rel_lower in lang_lower_sets.get(l, set())]
-            print(f"[x] `{rel_lower}` — only in [{', '.join(have)}], MISSING in [{CANONICAL}]")
+            print(f"[x] `{rel_lower}` - only in [{', '.join(have)}], MISSING in [{CANONICAL}]")
 
     if total_issues == 0:
-        print("✓ All content files are complete across all languages.")
+        print("+ All content files are complete across all languages.")
     else:
         print(f"\nTotal: {total_issues} content file issue(s)")
 
@@ -139,19 +139,19 @@ def main():
         extra = lang_keys - en_keys
         if missing:
             key_issues += len(missing)
-            print(f"[x] [{lang}] — {len(missing)} key(s) from [{CANONICAL}] are MISSING:")
+            print(f"[x] [{lang}] - {len(missing)} key(s) from [{CANONICAL}] are MISSING:")
             for k in sorted(missing):
                 print(f"      {k}")
         if extra:
             key_issues += len(extra)
-            print(f"[x] [{lang}] — {len(extra)} extra key(s) not in [{CANONICAL}]:")
+            print(f"[x] [{lang}] - {len(extra)} extra key(s) not in [{CANONICAL}]:")
             for k in sorted(extra):
                 print(f"      {k}")
         if not missing and not extra:
-            print(f"  [{lang}] — ✓ All keys match [{CANONICAL}] ({len(lang_keys)} keys)")
+            print(f"  [{lang}] - All keys match [{CANONICAL}] ({len(lang_keys)} keys)")
 
     if key_issues == 0:
-        print("✓ All i18n key sets are identical across languages.")
+        print("All i18n key sets are identical across languages.")
     else:
         print(f"\nTotal: {key_issues} i18n key issue(s)")
 

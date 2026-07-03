@@ -75,6 +75,9 @@ visual bug
 - `@Melvin` on the Obsidian Members' Group Discord for how to centre a div,
 along with feedback and suggestions for the theme.
 
+- `@psolkaiyn` on the OMG Discord server for feedback on Novel Word Count
+plugin compatibility with dimmed file extensions
+
 ## Translation
 
 - OMG Discord's `@Onev` (`@OneVth` on GitHub) for translating and maintaining

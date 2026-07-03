@@ -57,6 +57,8 @@ kepano 的 [flexoki 主题](https://github.com/kepano/flexoki-obsidian), 这两�
 
 - `@Melvin` 在 OMG Discord 介绍了如何将 `<div>` 居中, 以及对主题的反馈和建议
 
+- `@psolkaiyn` 在 OMG Discord, 为 Novel Word Count 插件与暗文件扩展名兼容性的反馈
+
 ## 翻译
 
 - OMG Discord 的 `@Onev`(GitHub 的 `@OneVth`) 翻译及维护韩文文档
