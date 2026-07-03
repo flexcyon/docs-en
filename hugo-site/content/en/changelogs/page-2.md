@@ -54,10 +54,10 @@ title: Version 2.x.x
 	- Important callouts are now purple instead of cyan (inherits theme's colours). They also use `lucide-star` instead of `lucide-fire` for their default icon.
 	- Error callouts now use `lucide-circle-alert` instead of `luicde-zap` for their default icon for their default icon.
 	- Callout icon alignment is slightly tweaked for better alignment with title text
-- Mermaid, Canvas styling fixes
 - Other small QOL tweaks in the theme
 
 #### Fixes
+- Mermaid, Canvas styling fixes
 - Banner snippet live preview fix
 - pl10k Status bar fix
 - Novel Word Count plugin compatibility with dimmed file extensions, thanks to `@psolkaiyn` on the OMG Discord server

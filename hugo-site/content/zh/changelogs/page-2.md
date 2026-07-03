@@ -1,5 +1,5 @@
 ---
-title: 2.x.x 版本 
+title: 2.x.x 版本
 ---
 
 ## 2.0.x 版本 
@@ -9,7 +9,7 @@ title: 2.x.x 版本
 #### 功能
 - 改进了无障碍, 您现在可以调整主题颜色的对比度, 亮度, 饱和度和色温.
 - 主题的颜色现在大多使用 `oklch` 颜色空间, 以获得更精确的显色效果
-    - 覆盖了代码库中的一些默认硬编码值，以使用“oklch”颜色等效值
+    - 覆盖了代码库中的一些默认硬编码值，以使用 "oklch" 颜色等效值
 - 样式设置
     - 添加了防止意外取消固定, 通过单击固定图标禁用取消固定.
     若要在启用此设置的情况下取消固定, 请使用右键单击菜单或 Ctrl+W.
@@ -36,10 +36,6 @@ title: 2.x.x 版本
     - 下所有与不透明度相关的样式设置 `flexcyon://Editor` 合并并移至其下的专用部门 `flexcyon://Editor > Animations`.
     - 编写样式设置迁移器脚本, 更改 ID, 例如将 `flexcyon` 更改为 `flexcyon-a11y`, 以进行与可访问性相关的样式设置
     - 重命名了许多样式设置选项, 以更好地反映其目的
-	- Removed unused base grey tab, base grey token, base grey scroll, base grey scroll hover variables.
-	- "Relative and normal line numbers on different lines" defaults to true now
-	- Pl10k workspace layout no longer set by Flex Max, "Select Workspace Layout" now defaults to Pl10k workspace layout
-	- Make dimmed file extensions and wrap long filenames default to true and no longer set by Flex Max
     - 默认情况下, "设置中不显示滚动条" 已启用, 而 Flex Max 模式未将其设置为启用
     - 删除了未使用的基本灰色选项卡, 基本灰色标记, 基本灰色滚动, 基本灰色滑动悬停变量
     - "不同行上的相对行号和正常行号" 现在默认为 true
@@ -49,25 +45,26 @@ title: 2.x.x 版本
 - 改进的 ASCII 图标, 一组与现有 UI 互补的图标. 在 OMG 的 Floodlight, 感谢你的启发.
 - 实施字体大小, 线条高度等比例系统. 主题应该看起来更加一致和连贯.
 - 尽可能 (或认为必要) 使 ASCII 和 Alternate 复选框更好地符合 Alternate 复选框引用集.
-	- ASCII checkboxes are now enabled by default, clip path checkboxes are disabled by default
-	- Some icon definitions have been remapped for better compatibility, please refer to the updated icon set if your checkboxes are not rendering properly.
-	- Please note that ASCII/Clip Path checkboxes are case sensitive
-	- Some new icons are added
-	- Double quote and single quote ASCII checkboxes no longer use Unicode, whether rendered quotation marks have slight "cursive" will depend your font family
-- Improved light and dark theme colours for improved constrast and readability
-- You can now specify base callout types that come with Obsidian in callout metadata instead of callout type. E.g. `>[!tip|a]` and `>[!a|tip]` looks the same.
-	- Question callouts are now green instead of orange (inherits theme's colours)
-	- Important callouts are now purple instead of cyan (inherits theme's colours). They also use `lucide-star` instead of `lucide-fire` for their default icon.
-	- Error callouts now use `lucide-circle-alert` instead of `luicde-zap` for their default icon for their default icon.
-	- Callout icon alignment is slightly tweaked for better alignment with title text
-- Mermaid, Canvas styling fixes
-- Other small QOL tweaks in the theme
+    - ASCII 复选框现在默认启用, Clip Path 复选框默认禁用
+    - 为了更好的兼容性, 一些图标定义已被重新映射, 如果您的复选框没有正确呈现, 请参阅更新的图标集.
+    - 请注意, ASCII/Clip Path 复选框区分大小写
+    - 添加了一些新图标
+    - 双引号和单引号 ASCII 复选框不再使用 Unicode, 呈现的引号是否有轻微的 "草书" 将取决于您的字体系列
+- 改进了浅色和深色主题颜色, 提高了对比度和可读性
+- 现在, 您可以在 Callout 元数据中指定 Obsidian 附带的基本 Callout 类型, 而不是 callout 类型. 例如, ">[!tip|a]" 和
+">[?a|tip]" 看起来是一样的.
+    - 问题标注现在是绿色而不是橙色 (继承了主题的颜色)
+    - 重要的标注现在是紫色而不是青色 (继承了主题的颜色). 他们还使用 `lucide-star` 代替 `lucide-fire` 作为默认图标. 
+    - 错误标注现在使用 `lucide-circle-alert` 而不是 `luicde-zap` 作为默认图标
+    - 标注图标对齐方式略有调整，以便与标题文本更好地对齐
+- 主题中的其他小质量调整
 
 #### 修复
-- Banner snippet live preview fix
-- pl10k Status bar fix
-- Novel Word Count plugin compatibility with dimmed file extensions, thanks to `@psolkaiyn` on the OMG Discord server
-- Fixed ASCII art rendering and direction. Do update your ASCII art of choice if required.
-- "Background for add before empty state title" `linear-gradient` logic now uses the correct direction.
-- Attempts to improve performance and clean up parts of the codebase
-- Fixed Revert to Pre 1.11 UI
+- Mermaid, Canvas 样式修复
+- Banner CSS 代码片段 Live Preview 修复
+- pl10k 状态栏固定
+- 得益于 OMG Discord 上的 `@psolkaiyn`, Novel Word Count 插件与暗淡的文件扩展名兼容
+- 修复了 ASCII 艺术渲染和方向. 如果需要, 请更新您选择的 ASCII 艺术.
+- "空白状态标题前添加的背景" `linear-gradient` (线性梯度) 逻辑现在使用了正确的方向.
+- 尝试提高性能并清理部分代码库
+- 修复了恢复到 1.11 之前的用户界面
