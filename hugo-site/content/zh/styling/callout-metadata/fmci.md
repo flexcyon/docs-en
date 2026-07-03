@@ -1,10 +1,10 @@
 ---
-title: flexcyon's Multi Column 实现 (FMCi)
+title: flexcyon Multi Column 实现 (FMCi)
 ---
 
 ## 关于 FMCi
 
-flexcyon's Multi Column 实现 (FMCi) (经许可）改编自于
+flexcyon Multi Column 实现 (FMCi) (经许可）改编自于
 `@kneecaps`（OMG Discord, Ultra Lobster, Origami 主题开发人员)
 的 multi-column 与 aside float CSS 代码段.
 
@@ -23,7 +23,7 @@ flexcyon's Multi Column 实现 (FMCi) (经许可）改编自于
 >
 > 请注意，与其他主题相比，此主题的呈现更精简到核心功能
 
-关于原作者的链接及更多信息, 请参见 [鸣谢章节](/credits#snippets).
+关于原作者的链接及更多信息, 请参见 [鸣谢章节](/credits#css).
 
 ### 选项
 

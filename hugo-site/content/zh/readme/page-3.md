@@ -29,7 +29,9 @@ title: 附加插件或 CSS
 
 [scambier 的 Omnisearch 插件](https://github.com/scambier/obsidian-omnisearch)
 
-[Clara Macrae 和 Ilyas Landikov 的 Tasks (Martinb Schenck 作)](https://github.com/obsidian-tasks-group/obsidian-tasks)
+[Clara Macrae 和 Ilyas Landikov 的 Tasks (Martinb Schenck 作) 插件](https://github.com/obsidian-tasks-group/obsidian-tasks)
+
+[Dani García 的 Banners Reloaded 插件](https://github.com/dgcreations00/obsidian-banners-reloaded)
 
 ## CSS
 

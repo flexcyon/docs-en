@@ -32,6 +32,8 @@ The following plugins/snippets are officially supported
 
 [Tasks by Clara Macrae and Ilyas Landikov (created by Martinb Schenck)](https://github.com/obsidian-tasks-group/obsidian-tasks)
 
+[Banners Reloaded by Dani García](https://github.com/dgcreations00/obsidian-banners-reloaded)
+
 ## Snippets
 
 [CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)

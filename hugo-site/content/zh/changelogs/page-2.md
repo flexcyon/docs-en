@@ -1,35 +1,37 @@
 ---
-title: Version 2.x.x
+title: 2.x.x 版本 
 ---
 
-## Version 2.0.x
+## 2.0.x 版本 
 
-### Version 2.0.0 Metamorphosis
+### 2.0.0 版本: 蜕变
 
-#### Features
-- Improved Accessibility, you can now adjust contrast, brightness, saturation and colour warmth for theme colours.
-- The theme's colours now mostly use `oklch` colour space for more accurate colour rendering
-	- Overrode some default hardcoded declarations to use `oklch` colour equivalents
-- Style Settings
-	- Added prevent accidental unpin, disables unpin via clicking on pin icon. To unpin with this setting enabled, use the right click menu or Ctrl + W.
-	- Added Editor Top Margin
-	- Added Callout Horizontal Margin
-	- Added Disable Vim Block Cursor Blink
-	- Added Hide Keychain item in Style Settings
-	- Add Style setting option for scrollbar width, moved existing do not show scrollbar in Settings to `flexcyon://Editor > Scrollbar`
-- Added support for Banners Reloaded Plugin
-- The theme now has it's own Flexcyon Multi-Column implementation (FMCi)
-	- Keyword here means both callout type and callout metadata
-	- Supports the use of `>[!col]` or `>[!multi-column]` keywords, can be used with `wrap` callout keyword to line wrap column items if they do not fit comfortably in the same column e.g. `>[!col|wrap]` 
-	- `wide-0` to `wide-100` keyword supported
-	- [See documentation for more details](../../styling/callout-metadata/fmci)
+#### 功能
+- 改进了无障碍, 您现在可以调整主题颜色的对比度, 亮度, 饱和度和色温.
+- 主题的颜色现在大多使用 `oklch` 颜色空间, 以获得更精确的显色效果
+    - 覆盖了代码库中的一些默认硬编码值，以使用“oklch”颜色等效值
+- 样式设置
+    - 添加了防止意外取消固定, 通过单击固定图标禁用取消固定.
+    若要在启用此设置的情况下取消固定, 请使用右键单击菜单或 Ctrl+W.
+    - 添加编辑器顶部边距
+    - 添加 Callout 水平边距
+    - 添加禁用 Vim 块光标闪烁
+    - 在 "样式设置" 中添加了 "隐藏关键点链" 项
+    - 添加滚动条宽度的样式设置选项, 将现有滚动条移动到 "设置" 中不显示滚动条 `flexcyon://Editor > Scrollbar`
+- 添加了对 Banners Reloaded 插件的支持
+- 主题现在有自己的 flexcyon Multi-Column 实现 (FMCi)
+    - 这里的关键字表示 Callout 类型和 Callout 元数据
+    - 支持使用 `>[!col]` 或 `>[!multi-column]` 关键字. 如果列项不适合放在同一列中, 可以与 `wrap` callout
+    关键字一起使用, 以换行列项, 例如 `>[!col|wrap]`.
+	- 支持 `wide-0` 到 `wide-100` 关键字
+	- [有关更多详细信息, 请参阅文档](../../styling/callout-metadata/fmci)
 - Added callout keyword alias `capitalize` for applying text capitalisation to text content (previously only the short form "caps" was supported)
 - Added support for Lemons Search plugin
 	- Added padding to search result previews
 	- Uses readable line length
 - We now have Korean documentation thanks to `@Onev`'s efforts
 
-#### Changes
+#### 变化
 - Revamped Style Settings, use the [migration tool](../2.0-migration) to bring over old style settings to Flexcyon 2.0.
 	- All Opacity related Style settings under `flexcyon://Editor` are consolidated and moved over to its own dedicated section under `flexcyon://Editor > Animations`.
 	- Write Style Settings migrator script, change of IDs e.g. `flexcyon` to `flexcyon-a11y` for accessibility related style settings
@@ -58,7 +60,7 @@ title: Version 2.x.x
 - Mermaid, Canvas styling fixes
 - Other small QOL tweaks in the theme
 
-#### Fixes
+#### 修复
 - Banner snippet live preview fix
 - pl10k Status bar fix
 - Novel Word Count plugin compatibility with dimmed file extensions, thanks to `@psolkaiyn` on the OMG Discord server

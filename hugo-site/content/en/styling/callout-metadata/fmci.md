@@ -1,10 +1,10 @@
 ---
-title: flexcyon's Multi Column Implementation (FMCi)
+title: flexcyon Multi Column Implementation (FMCi)
 ---
 
 ## About
 
-flexcyon's Multi Column implementation (FMCi) was adapted
+flexcyon Multi Column implementation (FMCi) was adapted
 (with permission) from `@kneecaps`' (Obsidian Members Group, 
 Ultra Lobster/Origami theme developer)
 multi-column layout + aside float snippet.
