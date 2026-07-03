@@ -33,6 +33,8 @@ title: 附加插件或 CSS
 
 [Dani García 的 Banners Reloaded 插件](https://github.com/dgcreations00/obsidian-banners-reloaded)
 
+[Moritz Jung 的 Lemons Search 插件](https://github.com/mprojectscode/obsidian-lemons-search-plugin)
+
 ## CSS
 
 [HandaArchitect 的 CSS Banners](https://github.com/HandaArchitect/obsidian-banner-snippet)

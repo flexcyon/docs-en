@@ -34,6 +34,8 @@ The following plugins/snippets are officially supported
 
 [Banners Reloaded by Dani García](https://github.com/dgcreations00/obsidian-banners-reloaded)
 
+[Lemons Search by Moritz Jung](https://github.com/mprojectscode/obsidian-lemons-search-plugin)
+
 ## Snippets
 
 [CSS Banners snippet by HandaArchitect](https://github.com/HandaArchitect/obsidian-banner-snippet)

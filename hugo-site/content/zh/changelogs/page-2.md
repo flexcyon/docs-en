@@ -25,11 +25,11 @@ title: 2.x.x 版本
     关键字一起使用, 以换行列项, 例如 `>[!col|wrap]`.
 	- 支持 `wide-0` 到 `wide-100` 关键字
 	- [有关更多详细信息, 请参阅文档](../../styling/callout-metadata/fmci)
-- Added callout keyword alias `capitalize` for applying text capitalisation to text content (previously only the short form "caps" was supported)
-- Added support for Lemons Search plugin
-	- Added padding to search result previews
-	- Uses readable line length
-- We now have Korean documentation thanks to `@Onev`'s efforts
+- 添加了 callout 关键字别名 `capitalize`, 用于将文本大写应用于文本内容 (以前只支持缩写 "caps")
+- 添加了对 Lemons Search 插件的支持
+    - 在搜索结果预览中添加填充
+    - 使用可读的行长度
+- 由于 `@Onev` 对翻译的贡献, 我们现在有了韩语文档
 
 #### 变化
 - Revamped Style Settings, use the [migration tool](../2.0-migration) to bring over old style settings to Flexcyon 2.0.
