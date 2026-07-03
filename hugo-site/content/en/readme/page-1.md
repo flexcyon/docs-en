@@ -2,8 +2,6 @@
 title: Screenshots
 ---
 
-Figured out how to set screenshots yay.
-
 {{< rawhtml >}}
 <figure markdown="span">
     <img src="/docs-en/screenshots/showcase1.png" width="800" alt="Figure 1:

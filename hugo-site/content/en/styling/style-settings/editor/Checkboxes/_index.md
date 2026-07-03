@@ -6,9 +6,10 @@ In this sub-page, you can find usage examples for styling of checkboxes.
 
 ## Screenshots
 
-![Clip Path Checkboxes](/screenshots/clip-path-checkboxes.webp)
-
-> Figure 2 (shown above): Clip Path Checkboxes
+| Checkbox Type | Screenshot |
+| --- | --- |
+| ASCII | ![ASCII Checkboxes](/screenshots/ascii-checkboxes.png) |
+| Clip Path | ![Clip Path Checkboxes](/screenshots/clip-path-checkboxes.png) |
 
 ## Navigation
 

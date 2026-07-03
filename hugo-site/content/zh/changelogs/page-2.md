@@ -46,9 +46,9 @@ title: 2.x.x 版本
     - Flex Max 不再设置 Pl10k 工作区布局, "选择工作区布局" 现在默认为 Pl10k 的工作区布局
     - 将暗显的文件扩展名和换行长文件名默认设置为 true, 不再由 Flex Max 设置
 
-- Improved ASCII icons, a set of icons complementary to the existing UI. Shoutout to Floodlight on OMG for inspiring this.
-- Enforcement of scale system for font size, line height etc. Theme should look more consistent and cohesive.
-- Make ASCII and Clip Path checkboxes better conform to alternate checkboxes reference set where possible (or deemed necessary).
+- 改进的 ASCII 图标, 一组与现有 UI 互补的图标. 在 OMG 的 Floodlight, 感谢你的启发.
+- 实施字体大小, 线条高度等比例系统. 主题应该看起来更加一致和连贯.
+- 尽可能 (或认为必要) 使 ASCII 和 Alternate 复选框更好地符合 Alternate 复选框引用集.
 	- ASCII checkboxes are now enabled by default, clip path checkboxes are disabled by default
 	- Some icon definitions have been remapped for better compatibility, please refer to the updated icon set if your checkboxes are not rendering properly.
 	- Please note that ASCII/Clip Path checkboxes are case sensitive

@@ -6,7 +6,10 @@ title: 复选框
 
 ## 截图
 
-![Clip Path 复选框](/screenshots/clip-path-checkboxes.webp)
+| 复选框类型 | 截图 |
+| --- | --- |
+| ASCII | ![ASCII 复选框](/screenshots/ascii-checkboxes.png) |
+| Clip Path | ![Clip Path 复选框](/screenshots/clip-path-checkboxes.png) |
 
 ## 导航
 
