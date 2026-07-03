@@ -48,7 +48,7 @@ title: Version 2.x.x
 	- Please note that ASCII/Clip Path checkboxes are case sensitive
 	- Some new icons are added
 	- Double quote and single quote ASCII checkboxes no longer use Unicode, whether rendered quotation marks have slight "cursive" will depend your font family
-- Improved light and dark theme colours for improved constrast and readability
+- Improved light and dark theme colours for improved contrast and readability
 - You can now specify base callout types that come with Obsidian in callout metadata instead of callout type. E.g. `>[!tip|a]` and `>[!a|tip]` looks the same.
 	- Question callouts are now green instead of orange (inherits theme's colours)
 	- Important callouts are now purple instead of cyan (inherits theme's colours). They also use `lucide-star` instead of `lucide-fire` for their default icon.
