@@ -23,6 +23,7 @@ Default: Powerlevel10k Layout (class select)
 
 Options:
 
+- none
 - Cards Layout
 - Angled Layout
 - Powerlevel10k Layout

@@ -32,16 +32,19 @@ title: 2.x.x 版本
 - 由于 `@Onev` 对翻译的贡献, 我们现在有了韩语文档
 
 #### 变化
-- Revamped Style Settings, use the [migration tool](../2.0-migration) to bring over old style settings to Flexcyon 2.0.
-	- All Opacity related Style settings under `flexcyon://Editor` are consolidated and moved over to its own dedicated section under `flexcyon://Editor > Animations`.
-	- Write Style Settings migrator script, change of IDs e.g. `flexcyon` to `flexcyon-a11y` for accessibility related style settings
-	- Need to update docs on breaking changes.
-	- Renamed numerous style setting options to better reflect their purpose
-	- "Do not show scrollbar in settings" is now enabled by default and not set to enabled by Flex Max Mode
+- 改进了样式设置, 使用 [迁移工具](../2.0-migration) 将旧样式设置带到 flexcyon 2.0.
+    - 下所有与不透明度相关的样式设置 `flexcyon://Editor` 合并并移至其下的专用部门 `flexcyon://Editor > Animations`.
+    - 编写样式设置迁移器脚本, 更改 ID, 例如将 `flexcyon` 更改为 `flexcyon-a11y`, 以进行与可访问性相关的样式设置
+    - 重命名了许多样式设置选项, 以更好地反映其目的
 	- Removed unused base grey tab, base grey token, base grey scroll, base grey scroll hover variables.
 	- "Relative and normal line numbers on different lines" defaults to true now
 	- Pl10k workspace layout no longer set by Flex Max, "Select Workspace Layout" now defaults to Pl10k workspace layout
 	- Make dimmed file extensions and wrap long filenames default to true and no longer set by Flex Max
+    - 默认情况下, "设置中不显示滚动条" 已启用, 而 Flex Max 模式未将其设置为启用
+    - 删除了未使用的基本灰色选项卡, 基本灰色标记, 基本灰色滚动, 基本灰色滑动悬停变量
+    - "不同行上的相对行号和正常行号" 现在默认为 true
+    - Flex Max 不再设置 Pl10k 工作区布局, "选择工作区布局" 现在默认为 Pl10k 的工作区布局
+    - 将暗显的文件扩展名和换行长文件名默认设置为 true, 不再由 Flex Max 设置
 
 - Improved ASCII icons, a set of icons complementary to the existing UI. Shoutout to Floodlight on OMG for inspiring this.
 - Enforcement of scale system for font size, line height etc. Theme should look more consistent and cohesive.

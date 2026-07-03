@@ -30,10 +30,9 @@ title: Version 2.x.x
 - We now have Korean documentation thanks to `@Onev`'s efforts
 
 #### Changes
-- Revamped Style Settings, use the [migration tool](../2.0-migration) to bring over old style settings to Flexcyon 2.0.
+- Revamped Style Settings, use the [migration tool](../2.0-migration) to bring over old style settings to flexcyon 2.0.
 	- All Opacity related Style settings under `flexcyon://Editor` are consolidated and moved over to its own dedicated section under `flexcyon://Editor > Animations`.
 	- Write Style Settings migrator script, change of IDs e.g. `flexcyon` to `flexcyon-a11y` for accessibility related style settings
-	- Need to update docs on breaking changes.
 	- Renamed numerous style setting options to better reflect their purpose
 	- "Do not show scrollbar in settings" is now enabled by default and not set to enabled by Flex Max Mode
 	- Removed unused base grey tab, base grey token, base grey scroll, base grey scroll hover variables.

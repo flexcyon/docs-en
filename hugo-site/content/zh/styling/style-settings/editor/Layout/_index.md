@@ -23,6 +23,7 @@ Style Settings
 
 选项:
 
+- none (无布局)
 - Cards Layout (卡片布局)
 - Angled Layout (倾斜布局)
 - Powerlevel10k Layout (Powerlevel10k 灵感布局)
