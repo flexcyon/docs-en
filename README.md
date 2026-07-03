@@ -15,8 +15,8 @@
     <a href="https://matrix.to/#/#flexcyon-space:matrix.org">
         <img alt="Matrix Space" src="https://img.shields.io/matrix/flexcyon-space%3Amatrix.org?logo=matrix&label=Matrix%20Space">
     </a>
-    <a href="https://github.com/bladeacer/flexcyon/blob/master/LICENSE">
-        <img src="https://img.shields.io/github/license/bladeacer/flexcyon" referrerpolicy="noreferrer"> 
+    <a href="https://github.com/flexcyon/docs-en/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/flexcyon/docs-en" referrerpolicy="noreferrer"> 
     </a>
     <a href="https://github.com/flexcyon/docs-en">
         <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/flexcyon/docs-en/github-pages?logo=github">
