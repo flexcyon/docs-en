@@ -15,4 +15,4 @@ cssclasses:
 다른 제목들은 평소와 같이 표시됩니다
 ```
 
-이 기능을 전역적으로 활성화하는 Style Settings와 동일한 기능은 [여기](../../../style-settings/editor/headings#enable-heading-indicators-globally-for-heading-2)에서 확인할 수 있습니다.
+이 기능을 전역적으로 활성화하는 Style Settings와 동일한 기능은 [여기](../../../style-settings/editor/typography/headings#제목-2에-대한-제목-인디케이터를-전역적으로-활성화하기)에서 확인할 수 있습니다.
