@@ -19,4 +19,4 @@ cssclasses:
 ###### 내 앞에 인디케이터가 나타날 것입니다
 ```
 
-이 옵션을 전역적으로 활성화하는 Style Settings와 동일한 기능입니다. [여기 클릭](../../../style-settings/editor/headings#about-enable-heading-indicators-globally).
+이 옵션을 전역적으로 활성화하는 Style Settings와 동일한 기능입니다. [여기 클릭](../../style-settings/editor/typography/headings#전역적으로-제목-인디케이터-활성화에-대해).
