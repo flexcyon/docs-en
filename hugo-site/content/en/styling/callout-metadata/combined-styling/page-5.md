@@ -9,6 +9,6 @@ Callout metadata: "all-cyan"
 > The background color will be cyan
 ```
 
-> Shorthand for both ["bg-cyan"](../bg-styling/page-5)
-> and ["title-cyan"](../title-styling/page-5)
+> Shorthand for both ["bg-cyan"](../../bg-styling/page-5)
+> and ["title-cyan"](../../title-styling/page-5)
 

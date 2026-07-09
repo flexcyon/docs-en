@@ -11,6 +11,6 @@ Usage:
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["dashed-all"](../combined-styling/page-20)
-along with ["dashed-content"](../content-styling/page-10).
+The style itself is also applied to ["dashed-all"](../../combined-styling/page-20)
+along with ["dashed-content"](../../content-styling/page-10).
 

@@ -9,6 +9,6 @@ Callout metadata: "title-blue"
 > The background color will display as usual
 ```
 
-The style itself is also applied to ["all-blue"](../combined-styling/page-2) 
-along with ["bg-blue"](../bg-styling/page-2).
+The style itself is also applied to ["all-blue"](../../combined-styling/page-2) 
+along with ["bg-blue"](../../bg-styling/page-2).
 

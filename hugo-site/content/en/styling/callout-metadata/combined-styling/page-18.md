@@ -11,5 +11,5 @@ Usage:
 > The content will be displayed as italic
 ```
 
-> Shorthand for both ["italic-content"](../content-styling/page-8) 
-> and ["italic-title"](../title-styling/page-18)
+> Shorthand for both ["italic-content"](../../content-styling/page-8) 
+> and ["italic-title"](../../title-styling/page-18)

@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as uppercase
 ```
 
-The style itself is also applied to ["uppercase-all"](../combined-styling/page-14)
-along with ["uppercase-title"](../title-styling/page-14).
+The style itself is also applied to ["uppercase-all"](../../combined-styling/page-14)
+along with ["uppercase-title"](../../title-styling/page-14).
 

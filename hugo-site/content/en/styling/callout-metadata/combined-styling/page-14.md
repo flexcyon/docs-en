@@ -11,5 +11,5 @@ Usage:
 > The content will be displayed as uppercase
 ```
 
-> Shorthand for both ["uppercase-content"](../content-styling/page-4) 
-> and ["uppercase-title"](../title-styling/page-14)
+> Shorthand for both ["uppercase-content"](../../content-styling/page-4) 
+> and ["uppercase-title"](../../title-styling/page-14)

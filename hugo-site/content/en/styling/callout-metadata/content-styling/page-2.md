@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as ltr
 ```
 
-The style itself is also applied to ["ltr-all"](../combined-styling/page-12)
-along with ["ltr-title"](../title-styling/page-12).
+The style itself is also applied to ["ltr-all"](../../combined-styling/page-12)
+along with ["ltr-title"](../../title-styling/page-12).
 

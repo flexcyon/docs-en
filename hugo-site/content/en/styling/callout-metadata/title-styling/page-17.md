@@ -11,6 +11,6 @@ Usage:
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["tilt-all"](../combined-styling/page-17)
-along with ["tilt-content"](../content-styling/page-7).
+The style itself is also applied to ["tilt-all"](../../combined-styling/page-17)
+along with ["tilt-content"](../../content-styling/page-7).
 

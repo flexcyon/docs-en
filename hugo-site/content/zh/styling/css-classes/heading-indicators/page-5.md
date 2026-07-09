@@ -15,4 +15,4 @@ cssclasses:
 Others headings display as usual
 ```
 
-有关全局启用此选项的样式设置等效项, 请 [单击此处](../../../style-settings/editor/headings#为标题-5-启用全局标题指示器).
+有关全局启用此选项的样式设置等效项, 请 [单击此处](../../../style-settings/editor/typography/headings#为标题-5-启用全局标题指示器).

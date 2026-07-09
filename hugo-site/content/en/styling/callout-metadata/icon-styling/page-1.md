@@ -16,6 +16,6 @@ Usage:
 > Content
 ```
 
-The style itself is also applied to ["empty"](../combined-styling/page-1)
-along with ["no-title"](../title-styling/page-1).
+The style itself is also applied to ["empty"](../../combined-styling/page-1)
+along with ["no-title"](../../title-styling/page-1).
 

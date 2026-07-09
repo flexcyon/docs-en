@@ -9,6 +9,6 @@ Callout metadata: "bg-yellow"
 > The background color will be yellow
 ```
 
-The style itself is also applied to ["all-yellow"](../combined-styling/page-9)
-along with ["title-yellow"](../title-styling/page-9).
+The style itself is also applied to ["all-yellow"](../../combined-styling/page-9)
+along with ["title-yellow"](../../title-styling/page-9).
 
