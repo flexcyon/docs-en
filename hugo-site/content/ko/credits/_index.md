@@ -21,6 +21,14 @@ flexcyon에 기여하는 데 관심이 있다면 [기여하기](../contributing)
 
 - `@LennZone`이 만든 [Enhanced File Explorer](https://github.com/LennZone/enhanced-file-explorer-tree) 테마는 마크다운 파일 트리 스타일에 대해
 
+- `Bluemoondragon07`의 [Wikipedia 테마](https://github.com/bluemoondragon07/Wikipedia-Theme)(GitHub)는 Wikipedia 스타일의 infobox/aside에 대해
+
+- `efemkay`의 [Modular CSS Layout (MCL) 스니펫](https://github.com/efemkay/obsidian-modular-css-layout/)(GitHub)은 최초의 다단 구현에 대해
+
+- Obsidian 멤버 그룹 디스코드의 `@kneecaps`는 다단 레이아웃 + aside float 코드 조각에 대해.
+[Origami 테마](https://github.com/7368697661/Origami)와
+[Ultra Lobster](https://github.com/7368697661/Ultra-Lobster) 테마 작업으로 알고 계실 수도 있습니다.
+
 ## 아이디어, 피드백
 
 - Obsidian 멤버 그룹 디스코드의 `@Tuck`은 Style Settings Heading의 링크 색상과 들여쓰기 변경 옵션에 대해
@@ -46,6 +54,8 @@ flexcyon에 기여하는 데 관심이 있다면 [기여하기](../contributing)
 - Obsidian 멤버 그룹 디스코드의 `@orionp`는 Flex Max 모드에 대해
 
 - Obsidian 멤버 그룹 디스코드의 `@Melvin`은 div를 가운데 정렬하는 방법과 함께 테마에 대한 피드백 및 제안을
+
+- OMG 디스코드 서버의 `@psolkaiyn`은 희미하게 표시된 파일 확장자와 Novel Word Count 플러그인의 호환성에 대한 피드백을
 
 ## 번역
 

@@ -32,6 +32,10 @@ title: 확장 프로그램
 
 [Clara Macrae와 Ilyas Landikov의 Tasks (Martinb Schenck 제작)](https://github.com/obsidian-tasks-group/obsidian-tasks)
 
+[Dani García의 Banners Reloaded](https://github.com/dgcreations00/obsidian-banners-reloaded)
+
+[Moritz Jung의 Lemons Search](https://github.com/mprojectscode/obsidian-lemons-search-plugin)
+
 ## 코드 조각
 
 [HandaArchitect의 CSS Banners](https://github.com/HandaArchitect/obsidian-banner-snippet)

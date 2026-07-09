@@ -2,15 +2,37 @@
 title: Flexcyon
 ---
 
-*우리는 커스터마이징을 믿는다(In customisation we trust)*.
+![Flexcyon logo](/screenshots/1280-x-640-social-preview.png)
+
+## 테마 소개
+
+*합리적인 기본값, 광범위한 커스터마이징.*
 
 터미널에서 영감을 받았으며, 적당히 방향성이 뚜렷하고 매우 확장 가능한 Obsidian 테마입니다.
+Halcyon, Flexoki, Origami의 색 구성을 결합했습니다.
+
+### 스크린샷
+
+[스크린샷 페이지](./readme/page-1)를 참고하세요.
+
+### 기능
+
+- Vim 모드 상태
+- Powerlevel10k에서 영감받은 스타일링
+- 카드 레이아웃용 TUI 부가 기능
+- 코어 슬라이드 플러그인에 대한 QOL 개선
+- 커스터마이징 가능한 새 탭 (ASCII 아트, 인용문)
+- 애니메이션
+- 접근성 설정
+- 풍부한 콜아웃과 CSS 클래스
+- [ASCII/클립 경로 체크박스](./styling/style-settings/editor/checkboxes)
+- 그 밖의 수많은 옵션...
 
 자세한 내용은 [여기에서 테마에 대해 알아보세요](./readme).
 
-<!-- ## 합리적인 기본값, 광범위한 맞춤 설정 -->
+### 디자인 원칙
 
-<!-- ![ASCII Art, 회색 처리된 파일 확장자](/screenshots/showcase1.png) -->
+테마의 [디자인 원칙](./readme/page-4)에 대해 알아보세요.
 
 ## 이 사이트에 대하여
 
