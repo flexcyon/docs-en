@@ -134,12 +134,12 @@ def build_tree(rel_path, lang):
 
 def find_nav_block(content):
     """Return (fence_start, fence_end, block_lines) for the ```md block
-    under ## Navigation / ## 导航, or None."""
+    under ## Navigation / ## 导航 / ## 내비게이션, or None."""
     lines = content.split('\n')
     nav_idx = None
     for i, line in enumerate(lines):
         s = line.strip()
-        if s in ('## Navigation', '## 导航') and not line.startswith('```'):
+        if s in ('## Navigation', '## 导航', '## 내비게이션') and not line.startswith('```'):
             nav_idx = i
             break
     if nav_idx is None:
