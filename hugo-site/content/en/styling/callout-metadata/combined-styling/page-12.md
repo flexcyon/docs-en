@@ -11,5 +11,5 @@ Usage:
 > The content will be displayed as ltr
 ```
 
-> Shorthand for both ["ltr-content"](../content-styling/page-2) 
-> and ["ltr-title"](../title-styling/page-12)
+> Shorthand for both ["ltr-content"](../../content-styling/page-2) 
+> and ["ltr-title"](../../title-styling/page-12)

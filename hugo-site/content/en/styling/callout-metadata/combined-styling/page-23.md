@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as line-through
 ```
 
-> Shorthand for both ["line-through-content"](../content-styling/page-13)
-> and ["line-through-title"](../title-styling/page-23)
+> Shorthand for both ["line-through-content"](../../content-styling/page-13)
+> and ["line-through-title"](../../title-styling/page-23)
 

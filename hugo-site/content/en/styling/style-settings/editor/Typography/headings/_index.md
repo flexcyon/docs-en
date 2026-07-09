@@ -34,7 +34,7 @@ Default: false (class toggle)
 ### About Enable heading indicators globally
 
 Customise which headings have heading indicators before them globally.
-If you are looking to apply them on a per-note basis, [click here](../../../css-classes/heading-indicators)
+If you are looking to apply them on a per-note basis, [click here](../../../../css-classes/heading-indicators)
 
 ___
 ## Heading 1
@@ -45,7 +45,7 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h1)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../css-classes/heading-indicators/page-1)
+> The CSS Class equivalent can be [found here](../../../../css-classes/heading-indicators/page-1)
 
 ### Heading 1 Colour
 
@@ -118,7 +118,7 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h2)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../css-classes/heading-indicators/page-2)
+> The CSS Class equivalent can be [found here](../../../../css-classes/heading-indicators/page-2)
 
 ### Heading 2 Colour
 
@@ -190,7 +190,7 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h3)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../css-classes/heading-indicators/page-3)
+> The CSS Class equivalent can be [found here](../../../../css-classes/heading-indicators/page-3)
 
 ### Heading 3 Colour
 
@@ -262,7 +262,7 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h4)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../css-classes/heading-indicators/page-4)
+> The CSS Class equivalent can be [found here](../../../../css-classes/heading-indicators/page-4)
 
 ### Heading 4 Colour
 
@@ -334,7 +334,7 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h5)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../css-classes/heading-indicators/page-5)
+> The CSS Class equivalent can be [found here](../../../../css-classes/heading-indicators/page-5)
 
 ### Heading 5 Colour
 
@@ -406,7 +406,7 @@ CSS Variable(s) targeted: `var(--flexcyon-headings-indicator-h6)`
 
 Default: false (class toggle)
 
-> The CSS Class equivalent can be [found here](../../../css-classes/heading-indicators/page-6)
+> The CSS Class equivalent can be [found here](../../../../css-classes/heading-indicators/page-6)
 
 ### Heading 6 Colour
 

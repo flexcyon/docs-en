@@ -19,4 +19,4 @@ cssclasses:
 ###### I will have an indicator before me
 ```
 
-有关全局启用此选项的样式设置等效项, 请 [单击此处](../../../style-settings/editor/headings#关于全局启用标题指示器).
+有关全局启用此选项的样式设置等效项, 请 [单击此处](../../style-settings/editor/typography/headings#关于全局启用标题指示器).

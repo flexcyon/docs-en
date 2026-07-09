@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as rtl
 ```
 
-The style itself is also applied to ["rtl-all"](../combined-styling/page-11)
-along with ["rtl-title"](../title-styling/page-11)
+The style itself is also applied to ["rtl-all"](../../combined-styling/page-11)
+along with ["rtl-title"](../../title-styling/page-11)
 

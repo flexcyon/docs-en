@@ -11,6 +11,6 @@ Usage:
 > The content will be displayed as dashed
 ```
 
-> Shorthand for both ["dashed-content"](../content-styling/page-10)
-> and ["dashed-title"](../title-styling/page-20)
+> Shorthand for both ["dashed-content"](../../content-styling/page-10)
+> and ["dashed-title"](../../title-styling/page-20)
 

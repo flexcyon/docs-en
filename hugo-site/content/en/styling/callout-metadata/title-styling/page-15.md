@@ -11,6 +11,6 @@ Usage:
 > Content is shown as usual
 ```
 
-The style itself is also applied to ["lowercase-all"](../combined-styling/page-14)
-along with ["lowercase-content"](../content-styling/page-4).
+The style itself is also applied to ["lowercase-all"](../../combined-styling/page-14)
+along with ["lowercase-content"](../../content-styling/page-4).
 
