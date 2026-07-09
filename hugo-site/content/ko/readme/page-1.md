@@ -2,8 +2,6 @@
 title: 스크린샷
 ---
 
-스크린샷 설정 방법을 알아냈어요! 야호.
-
 {{< rawhtml >}}
 <figure markdown="span">
     <img src="/docs-en/screenshots/showcase1.png" width="800" alt="그림 1:

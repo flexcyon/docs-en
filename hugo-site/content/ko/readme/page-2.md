@@ -28,4 +28,4 @@ BRAT를 통해 이 테마를 설치하려면 `설정 > 커뮤니티 플러그인
 
 이 테마를 사용하려면 Style Settings 플러그인의 설치를 적극 권장합니다. 대부분의 커스터마이징과 기능이 이 플러그인을 기반으로 구축되어 있기 때문입니다.
 
-이 테마의 Style Settings에 대한 설명서는 [여기](../styling/style-settings)에서 확인할 수 있습니다.
+이 테마의 Style Settings에 대한 설명서는 [여기](../../styling/style-settings)에서 확인할 수 있습니다.
