@@ -13,7 +13,7 @@ Ultra Lobster/Origami 테마 개발자)의 다단 레이아웃 + aside float 스
 
 Aside/infobox는 읽기 모드에서 본문 텍스트 옆으로 오른쪽에 떠서 표시됩니다.
 aside 콜아웃의 내용이 옆에 렌더링되기를 원하는 문단 위에 배치하세요.
-Willemstad 같은 테마에서 볼 수 있는 코넬 노트 스타일(텍스트 내용 옆의 "스티키 노트")과
+Willemstad 같은 테마에서 볼 수 있는 코넬 노트(Cornell Notes) 스타일(텍스트 내용 옆의 "스티키 노트")과
 혼동하지 마세요.
 
 > Wikipedia, ITS, Fancy-a-story 테마에서 볼 수 있는 정보 상자를
@@ -73,8 +73,7 @@ Willemstad 같은 테마에서 볼 수 있는 코넬 노트 스타일(텍스트 
 > Aside content. I with title will render in
 > reading mode floating to the right of text content.
 
-Place asides above text paragraphs which you
-want to have positioned to the left of the aside callout.
+aside 콜아웃 왼쪽에 표시할 텍스트 문단 위에 aside를 배치하세요.
 ```
 
 ```md
@@ -82,6 +81,5 @@ want to have positioned to the left of the aside callout.
 > Infobox content. I with title will render in
 > reading mode floating to the right of text content.
 
-Place asides above text paragraphs which you
-want to have positioned to the left of the infobox callout.
+infobox 콜아웃 왼쪽에 표시할 텍스트 문단 위에 aside를 배치하세요.
 ```
