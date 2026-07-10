@@ -145,7 +145,7 @@ ___
 .flexcyon-canvas-menu-rcenter-top, .flexcyon-canvas-menu-rcenter-bottom, .flexcyon-canvas-menu-recenter-align
 `
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 

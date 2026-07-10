@@ -67,7 +67,7 @@ ___
 대상 CSS 클래스: `.flexcyon-ascii-enable, .flexcyon-quote-enable`
 > 이 변경사항은 앱 새로고침/재시작 후 적용됩니다.
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 
@@ -81,7 +81,7 @@ ___
 > ASCII 아트가 잘 보이려면 다음과 같은 고정폭 글꼴을 사용하는 것이 좋습니다:
 > Source Code Pro
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 
@@ -267,7 +267,7 @@ ___
 대상 CSS 클래스: `.flexcyon-sidebar-bg-dots, .flexcyon-sidebar-bg-grid, flexcyon-sidebar-bg-rhombus`
 > 아래의 배경 이미지 선언을 덮어쓰며, 왼쪽과 오른쪽 사이드바 모두에 적용됩니다.
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 

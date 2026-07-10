@@ -68,7 +68,7 @@ Style Settings
 
 대상 CSS 클래스: `.flexcyon-tui-callouts, .flexcyon-plain-callouts, .flexcyon-vert-callouts`
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 

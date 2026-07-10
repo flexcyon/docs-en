@@ -45,7 +45,7 @@ Style Settings
 대상 CSS 변수: `var(--flexcyon-roman-rel-nums)`,
 `var(--flexcyon-roman-greek-nums), var(--flexcyon-roman-chinese-nums)`
 
-기본값: 없음 (클래스 토글)
+기본값: none (클래스 토글)
 
 옵션:
 

@@ -21,7 +21,7 @@ Style Settings
 대상 CSS 클래스: `.flexcyon-syntax-catppuccin,
 .flexcyon-syntax-lego, .flexcyon-syntax-monochrome`
 
-기본값: 없음(클래스 선택)
+기본값: none(클래스 선택)
 옵션:
 
 - Catppuccin

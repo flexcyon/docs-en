@@ -54,7 +54,7 @@ Style Settings
 
 대상 CSS 클래스: `.flexcyon-rainbow-folders, .flexcyon-alt-folder-style, .flexcyon-md-file-tree-style`
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 

@@ -41,7 +41,7 @@ Style Settings
 .flexcyon-prompt-align-bottom-center, .flexcyon-prompt-align-center-left,
 .flexcyon-prompt-align-top-left, .flexcyon-prompt-align-top-center`
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 
