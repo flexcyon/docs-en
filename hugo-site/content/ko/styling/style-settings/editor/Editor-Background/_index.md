@@ -20,7 +20,7 @@ Style Settings
 
 대상 CSS 클래스: `.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
 
-기본값: none(클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 

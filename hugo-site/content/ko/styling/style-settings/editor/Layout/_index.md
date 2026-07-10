@@ -34,4 +34,4 @@ Style Settings
 
 대상 CSS 변수: `var(--flexcyon-workspace-cards-tui-ext)`
 
-기본값: true(클래스 토글)
+기본값: true (클래스 토글)
