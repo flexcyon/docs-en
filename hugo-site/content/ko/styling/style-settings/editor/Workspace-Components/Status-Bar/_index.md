@@ -22,7 +22,7 @@ Style Settings
 대상 CSS 클래스: `.flexcyon-status-hide-until-hover
 .flexcyon-status-hide-until-hold`
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 
@@ -33,7 +33,7 @@ Style Settings
 대상 CSS 클래스: `.flexcyon-status-right-align
 .flexcyon-status-centre-align`
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 
@@ -105,7 +105,7 @@ ___
 대상 CSS 클래스: `.flexcyon-status-style-angled,
 .flexcyon-status-style-card, .flexcyon-status-style-pl10k`
 
-기본값: 없음 (클래스 선택)
+기본값: none (클래스 선택)
 
 옵션:
 
