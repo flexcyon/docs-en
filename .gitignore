@@ -3,6 +3,7 @@
 node_modules/
 site/
 hugo-site/public
+hugo-site/node_modules
 links-audit.md
 .headroom
 __pycache__

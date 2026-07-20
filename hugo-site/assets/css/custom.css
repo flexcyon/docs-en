@@ -160,27 +160,6 @@ main[id="content"] h1 {
   background-color: oklch(from currentColor l c h / 0.08);
 }
 
-.migrator-textarea {
-  width: 100%;
-  font-family: var(--hx-font-mono);
-  padding: 12px;
-  border-radius: 6px;
-  transition: border-color 0.2s ease;
-  background-color: var(--hx-color-neutral-900);
-  border: 1px solid oklch(from currentColor l c h / 0.2);
-  color: inherit;
-  resize: vertical;
-}
-
-.migrator-textarea:focus {
-  outline: none;
-  border-color: var(--color-primary);
-}
-
-.migrator-textarea[readonly] {
-  opacity: 0.85;
-}
-
 .migrator-editor {
   width: 100%;
   min-height: 160px;

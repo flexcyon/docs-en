@@ -18,6 +18,7 @@
   },
   "type": "module",
   "dependencies": {
+    "pyodide": "^314.0.2",
     "yace": "^1.1.0"
   }
 }
