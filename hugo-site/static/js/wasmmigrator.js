@@ -105,12 +105,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const inputEditor = new Yace("#inputJsonEditor", {
     value: "",
+    lineNumbers: true,
     highlighters: [highlightJson],
   });
   inputEditor.textarea.placeholder = '{ "flexcyon-rtz-mode": true }';
 
   const outputEditor = new Yace("#outputJsonEditor", {
     value: "",
+    lineNumbers: true,
     highlighters: [highlightJson],
   });
   outputEditor.textarea.readOnly = true;
