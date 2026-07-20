@@ -184,66 +184,39 @@ main[id="content"] h1 {
 .migrator-editor {
   width: 100%;
   min-height: 160px;
+  border-radius: 6px;
+  background-color: var(--hx-color-neutral-900);
+  border: 1px solid oklch(from currentColor l c h / 0.2);
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.migrator-editor:focus-within {
+  border-color: var(--color-primary);
+}
+
+.migrator-editor textarea,
+.migrator-editor pre {
   font-family: var(--hx-font-mono);
   font-size: 0.875rem;
   line-height: 1.5;
   padding: 12px;
-  border-radius: 6px;
-  background-color: var(--hx-color-neutral-900);
-  border: 1px solid oklch(from currentColor l c h / 0.2);
-  color: inherit;
-  box-sizing: border-box;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  overflow: auto;
-  margin: 0;
-  caret-shape: block;
-  caret-color: var(--color-primary);
-  outline: none;
 }
 
-.migrator-editor:focus {
-  border-color: var(--color-primary);
-}
-
-.migrator-editor:empty:before {
+.migrator-editor[data-placeholder] pre:empty::before {
   content: attr(data-placeholder);
   opacity: 0.55;
   pointer-events: none;
 }
 
-.migrator-editor .chroma,
-.migrator-editor .chroma pre,
-.migrator-editor .chroma code {
-  background: transparent !important;
-}
-
 .migrator-code-block {
   width: 100%;
   min-height: 160px;
-  font-family: var(--hx-font-mono);
-  font-size: 0.875rem;
-  line-height: 1.5;
-  padding: 12px;
   border-radius: 6px;
   background-color: var(--hx-color-neutral-900);
   border: 1px solid oklch(from currentColor l c h / 0.2);
-  color: inherit;
   box-sizing: border-box;
-  overflow: auto;
   margin: 0;
-}
-
-.migrator-code-block .chroma,
-.migrator-code-block .chroma pre,
-.migrator-code-block .chroma code {
-  background: transparent !important;
-}
-
-.migrator-code-inner {
-  display: block;
-  font: inherit;
-  font-family: var(--hx-font-mono);
 }
 
 .migrator-btn {

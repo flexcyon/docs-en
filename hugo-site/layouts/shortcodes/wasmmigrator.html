@@ -30,7 +30,7 @@
       <input type="file" id="jsonFileInput" accept=".json" hidden />
     </div>
     <div class="migrator-textarea-wrapper highlight">
-      <pre id="inputJson" class="migrator-editor chroma" contenteditable="plaintext-only" spellcheck="false" data-placeholder='{ "flexcyon-rtz-mode": true }'></pre>
+      <div id="inputJsonEditor" class="migrator-editor" data-placeholder='{ "flexcyon-rtz-mode": true }'></div>
       <button id="pasteBtn" class="migrator-icon-btn" title="{{ $pasteBtnTitle }}" type="button">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
       </button>
@@ -45,11 +45,10 @@
 
   <div id="outputSection" style="display:none;">
     <div class="migrator-section">
-      <label class="migrator-label" for="outputJson">{{ $outputLabel }}</label>
+      <label class="migrator-label">{{ $outputLabel }}</label>
       <div class="migrator-textarea-wrapper highlight">
         <span class="migrator-lang-badge" id="langBadge" style="display:none;">JSON</span>
-        <pre class="migrator-code-block chroma" id="outputBlock" style="display:none;"><code id="outputCode" class="migrator-code-inner"></code></pre>
-        <textarea id="outputJson" class="migrator-textarea" readonly rows="10" style="display:none;"></textarea>
+        <div id="outputJsonEditor" class="migrator-code-block" style="display:none;"></div>
         <button id="copyBtn" class="migrator-icon-btn" title="{{ $copyBtnTitle }}" type="button" style="display:none;">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
         </button>
@@ -65,9 +64,10 @@
 
 <script src="{{ "js/pyodide/pyodide.js" | relURL }}"></script>
 
-<script type="text/javascript">
+<script type="module">
+  import { Yace } from "{{ "js/yace/index.js" | relURL | safeJS }}";
+
   let pyodide;
-  let chromaHighlightTimer;
   let uploadedFileName = null;
   const pythonScriptUrl = "{{ "js/migrator.py" | relURL }}";
   const vendoredIndexUrl = "{{ "js/pyodide/" | relURL }}";
@@ -181,6 +181,18 @@
       if (scriptTag) scriptTag.onload = initPyodide;
     }
 
+    const inputEditor = new Yace("#inputJsonEditor", {
+      value: "",
+      highlighters: [highlightJson],
+    });
+    inputEditor.textarea.placeholder = '{ "flexcyon-rtz-mode": true }';
+
+    const outputEditor = new Yace("#outputJsonEditor", {
+      value: "",
+      highlighters: [highlightJson],
+    });
+    outputEditor.textarea.readOnly = true;
+
     const fileInput = document.getElementById("jsonFileInput");
     const browseBtn = document.getElementById("browseBtn");
     const fileNameDisplay = document.getElementById("fileNameDisplay");
@@ -199,9 +211,7 @@
         if (clearFileBtn) clearFileBtn.style.display = "inline-flex";
         const reader = new FileReader();
         reader.onload = function(evt) {
-          const input = document.getElementById("inputJson");
-          input.textContent = evt.target.result;
-          input.dispatchEvent(new Event("input"));
+          inputEditor.update({ value: evt.target.result });
         };
         reader.readAsText(file);
       });
@@ -213,73 +223,23 @@
         uploadedFileName = null;
         if (fileNameDisplay) fileNameDisplay.textContent = migratorI18n.noFile;
         clearFileBtn.style.display = "none";
-        const input = document.getElementById("inputJson");
-        input.textContent = "";
-        input.dispatchEvent(new Event("input"));
+        inputEditor.update({ value: "" });
       });
-    }
-
-    const inputJson = document.getElementById("inputJson");
-
-    if (inputJson) {
-      function saveCursorPos() {
-        const sel = window.getSelection();
-        if (!sel.rangeCount) return null;
-        const range = sel.getRangeAt(0);
-        if (range.startContainer && !inputJson.contains(range.startContainer)) return null;
-        const preRange = document.createRange();
-        preRange.selectNodeContents(inputJson);
-        preRange.setEnd(range.startContainer, range.startOffset);
-        return { offset: preRange.toString().length };
-      }
-
-      function restoreCursorPos(pos) {
-        if (!pos) return;
-        const sel = window.getSelection();
-        const range = document.createRange();
-        let charIndex = 0;
-        const walker = document.createTreeWalker(inputJson, NodeFilter.SHOW_TEXT, null);
-        let node;
-        while ((node = walker.nextNode())) {
-          const next = charIndex + node.textContent.length;
-          if (pos.offset <= next) {
-            range.setStart(node, pos.offset - charIndex);
-            range.collapse(true);
-            sel.removeAllRanges();
-            sel.addRange(range);
-            return;
-          }
-          charIndex = next;
-        }
-      }
-
-      const applyHighlight = () => {
-        const text = inputJson.textContent;
-        const pos = saveCursorPos();
-        inputJson.innerHTML = text
-          ? highlightJson(text)
-          : "";
-        restoreCursorPos(pos);
-      };
-
-      const queueHighlight = () => {
-        clearTimeout(chromaHighlightTimer);
-        chromaHighlightTimer = setTimeout(applyHighlight, 150);
-      };
-
-      inputJson.addEventListener("input", queueHighlight);
     }
 
     const pasteBtn = document.getElementById("pasteBtn");
     if (pasteBtn) {
       pasteBtn.addEventListener("click", async () => {
-        const input = document.getElementById("inputJson");
         const fb = document.getElementById("pasteFeedback");
         const text = await clipboardPaste();
         if (text !== null) {
-          input.focus();
-          document.execCommand("insertText", false, text);
-          input.dispatchEvent(new Event("input"));
+          inputEditor.textarea.focus();
+          const start = inputEditor.textarea.selectionStart;
+          const end = inputEditor.textarea.selectionEnd;
+          const current = inputEditor.value;
+          const newVal = current.slice(0, start) + text + current.slice(end);
+          const pos = start + text.length;
+          inputEditor.update({ value: newVal, selectionStart: pos, selectionEnd: pos });
           showToast(fb, migratorI18n.toastPasted);
         } else {
           showToast(fb, migratorI18n.toastPasteBlocked, 3000);
@@ -290,7 +250,7 @@
     const copyBtn = document.getElementById("copyBtn");
     if (copyBtn) {
       copyBtn.addEventListener("click", async () => {
-        const text = document.getElementById("outputJson").value;
+        const text = outputEditor.value;
         if (!text) return;
         const fb = document.getElementById("copyFeedback");
         const ok = await clipboardCopy(text);
@@ -298,16 +258,14 @@
       });
     }
 
-        const migrateBtn = document.getElementById("migrateBtn");
+    const migrateBtn = document.getElementById("migrateBtn");
     if (migrateBtn) {
       migrateBtn.addEventListener("click", async () => {
-        const input = document.getElementById("inputJson");
-        const inputVal = (input.textContent || "").trim() || input.getAttribute("data-placeholder");
+        const placeholder = '{ "flexcyon-rtz-mode": true }';
+        const inputVal = inputEditor.value.trim() || placeholder;
         const outputSection = document.getElementById("outputSection");
-        const outputTextarea = document.getElementById("outputJson");
-        const outputBlock = document.getElementById("outputBlock");
-        const outputCode = document.getElementById("outputCode");
         const downloadBtn = document.getElementById("downloadBtn");
+        const outputEditorEl = document.getElementById("outputJsonEditor");
         const copyBtn = document.getElementById("copyBtn");
 
         outputSection.style.display = "";
@@ -329,20 +287,17 @@ migrated_output = mapper.map_settings(parsed_input)
 json.dumps(migrated_output, indent=2)
           `);
 
-          outputTextarea.value = resultJson;
-          outputTextarea.style.display = "none";
-          outputBlock.style.display = "";
-          outputCode.innerHTML = highlightJson(resultJson);
+          outputEditor.update({ value: resultJson });
+          outputEditorEl.style.display = "";
+          document.getElementById("langBadge").style.display = "inline";
 
           downloadBtn.style.display = "inline-block";
           downloadBtn.disabled = false;
           downloadBtn.onclick = () => triggerDownload(resultJson);
-          document.getElementById("langBadge").style.display = "inline";
           copyBtn.style.display = "inline-flex";
         } catch (error) {
-          outputTextarea.value = migratorI18n.errorPrefix + error.message;
-          outputTextarea.style.display = "";
-          outputBlock.style.display = "none";
+          outputEditor.update({ value: migratorI18n.errorPrefix + error.message });
+          outputEditorEl.style.display = "";
           downloadBtn.style.display = "none";
           document.getElementById("langBadge").style.display = "none";
           copyBtn.style.display = "none";
