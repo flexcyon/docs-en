@@ -3,6 +3,7 @@
 {{- $noFile := T "migrator_no_file" | default "No file selected" -}}
 {{- $clearFileTitle := T "migrator_clear_file_title" | default "Clear uploaded file" -}}
 {{- $pasteBtnTitle := T "migrator_paste_btn_title" | default "Paste from clipboard" -}}
+{{- $clearEditorTitle := T "migrator_clear_editor_title" | default "Clear input" -}}
 {{- $loading := T "migrator_loading" | default "Loading Python WASM Runtime..." -}}
 {{- $outputLabel := T "migrator_output_label" | default "2. Migrated 2.0.0 Settings Output:" -}}
 {{- $copyBtnTitle := T "migrator_copy_btn_title" | default "Copy to clipboard" -}}
@@ -34,6 +35,9 @@
       <button id="pasteBtn" class="migrator-icon-btn" title="{{ $pasteBtnTitle }}" type="button">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
       </button>
+      <button id="clearInputBtn" class="migrator-icon-btn" title="{{ $clearEditorTitle }}" type="button">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
       <span id="pasteFeedback" class="migrator-toast" style="display:none;"></span>
     </div>
   </div>
@@ -48,7 +52,7 @@
       <label class="migrator-label">{{ $outputLabel }}</label>
       <div class="migrator-textarea-wrapper highlight">
         <span class="migrator-lang-badge" id="langBadge" style="display:none;">JSON</span>
-        <div id="outputJsonEditor" class="migrator-code-block" style="display:none;"></div>
+        <div id="outputJsonEditor" class="migrator-editor" style="display:none;"></div>
         <button id="copyBtn" class="migrator-icon-btn" title="{{ $copyBtnTitle }}" type="button" style="display:none;">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
         </button>

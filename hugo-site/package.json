@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +18,12 @@
   },
   "type": "module",
   "dependencies": {
+    "flexsearch": "^0.8.212",
     "pyodide": "^314.0.2",
     "yace": "^1.1.0"
+  },
+  "devDependencies": {
+    "happy-dom": "^20.11.0",
+    "vitest": "^4.1.10"
   }
 }

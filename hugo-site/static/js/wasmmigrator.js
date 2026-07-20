@@ -1,22 +1,11 @@
 import { Yace } from "./yace/index.js";
+import { highlightJson } from "./highlighters.js";
 
 const CONFIG = window.__MIGRATOR_CONFIG;
 const { i18n, pythonScriptUrl, vendoredIndexUrl } = CONFIG;
 
 let pyodide;
 let uploadedFileName = null;
-
-function highlightJson(str) {
-  var s = str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  return s.replace(/("(?:[^"\\]|\\.)*")|(-?(?:0|[1-9]\d*)(?:\.\d+)?(?:[eE][+-]?\d+)?)|(\b(?:true|false|null)\b)/g,
-    function(m, str, num, kw) {
-      if (str !== undefined) return '<span class="s2">' + str + '</span>';
-      if (num !== undefined) return '<span class="mi">' + num + '</span>';
-      if (kw !== undefined) return '<span class="kc">' + kw + '</span>';
-      return m;
-    }
-  );
-}
 
 async function initPyodide() {
   const btn = document.getElementById("migrateBtn");
@@ -157,6 +146,18 @@ window.addEventListener("DOMContentLoaded", () => {
       if (fileNameDisplay) fileNameDisplay.textContent = i18n.noFile;
       clearFileBtn.style.display = "none";
       inputEditor.update({ value: "" });
+    });
+  }
+
+  const clearInputBtn = document.getElementById("clearInputBtn");
+  if (clearInputBtn) {
+    clearInputBtn.addEventListener("click", function() {
+      if (fileInput) fileInput.value = "";
+      uploadedFileName = null;
+      if (fileNameDisplay) fileNameDisplay.textContent = i18n.noFile;
+      if (clearFileBtn) clearFileBtn.style.display = "none";
+      inputEditor.update({ value: "" });
+      inputEditor.textarea.focus();
     });
   }
 
