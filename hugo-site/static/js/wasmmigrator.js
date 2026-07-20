@@ -103,11 +103,27 @@ window.addEventListener("DOMContentLoaded", () => {
     if (scriptTag) scriptTag.onload = initPyodide;
   }
 
+  function addLineNumberGap(editor, extraCh, gapCh) {
+    extraCh = extraCh || 1.5;
+    gapCh = gapCh || extraCh;
+    const orig = editor.updateLines.bind(editor);
+    editor.updateLines = function () {
+      orig();
+      this.root.style.paddingLeft = (parseFloat(this.root.style.paddingLeft) || 0) + extraCh + "ch";
+      const spans = this.lines?.querySelectorAll(".yace-line");
+      if (spans) {
+        spans.forEach(function (s) { s.style.left = gapCh + "ch"; });
+      }
+    };
+    editor.updateLines();
+  }
+
   const inputEditor = new Yace("#inputJsonEditor", {
     value: "",
     lineNumbers: true,
     highlighters: [highlightJson],
   });
+  addLineNumberGap(inputEditor, 3);
   inputEditor.textarea.placeholder = '{ "flexcyon-rtz-mode": true }';
 
   const outputEditor = new Yace("#outputJsonEditor", {
@@ -115,6 +131,7 @@ window.addEventListener("DOMContentLoaded", () => {
     lineNumbers: true,
     highlighters: [highlightJson],
   });
+  addLineNumberGap(outputEditor, 3);
   outputEditor.textarea.readOnly = true;
 
   const fileInput = document.getElementById("jsonFileInput");

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest run"
+    "test": "vitest run",
+    "build:css": "sass assets/css/custom.scss assets/css/custom.css --style compressed --no-source-map",
+    "dev:css": "sass --watch assets/css/custom.scss assets/css/custom.css --style expanded --no-source-map"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +26,7 @@
   },
   "devDependencies": {
     "happy-dom": "^20.11.0",
+    "sass": "^1.101.0",
     "vitest": "^4.1.10"
   }
 }

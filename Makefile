@@ -1,10 +1,13 @@
-.PHONY: help dev audit-links audit-links-concise audit-links-verbose strip-icon translate-frontmatter check-i18n update-nav update-nav-check vendor-deps
+.PHONY: help dev build build-css test audit-links audit-links-concise audit-links-verbose strip-icon translate-frontmatter check-i18n update-nav update-nav-check vendor-deps
 
 help:
 	@echo "Usage: make [target]"
 	@echo ""
 	@echo "Targets:"
-	@echo "  dev                     Runs hugo server"
+	@echo "  dev                     Runs hugo server (with sass pre-build)"
+	@echo "  build                   Production build (sass + hugo --minify)"
+	@echo "  build-css               Compile SCSS to minified CSS"
+	@echo "  test                    Run pnpm tests (vitest)"
 	@echo "  audit-links             Check cross-i18n link completeness across all languages"
 	@echo "  strip-icons             Strips old material icons metadata declarations"
 	@echo "  translate-frontmatter   Translates existing title entries with i18n/zh.yaml"
@@ -13,7 +16,16 @@ help:
 	@echo "  update-nav-check        Check style-settings navigation blocks without updating"
 	@echo "  vendor-deps             Fetch latest pyodide, yace, flexsearch via pnpm and copy to static/js/"
 
-dev:
+build-css:
+	cd hugo-site && pnpm run build:css
+
+build: build-css
+	cd hugo-site && hugo --minify
+
+test:
+	cd hugo-site && pnpm run test
+
+dev: build-css
 	cd hugo-site && hugo server --disableFastRender
 
 audit-links:

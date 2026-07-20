@@ -1,0 +1,35 @@
+.hextra-search-wrapper .hextra-search-prefix {
+  text-transform: unset;
+}
+
+main[id="content"] h1 {
+  text-align: unset;
+  padding-block-end: 4px;
+}
+
+.dark .hextra-footer {
+  background-color: var(--hx-color-dark) !important;
+}
+
+.light .hextra-footer {
+  background-color: var(--hx-color-light) !important;
+}
+
+.hextra-code-lang-badge {
+  position: absolute;
+  top: 0.6875rem;
+  right: 2.75rem;
+  font-size: 0.65rem;
+  line-height: 1.25rem;
+  font-family: var(--hx-font-mono);
+  color: oklch(from var(--hx-color-gray-100) l c h / 0.4);
+  pointer-events: none;
+  user-select: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 1;
+}
+
+.hextra-code-lang-badge--with-filename {
+  top: 2.6875rem;
+}

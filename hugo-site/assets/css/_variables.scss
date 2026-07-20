@@ -1,0 +1,110 @@
+@layer theme {
+  :root,
+  :host {
+    --hx-color-light: oklch(from #effaf2 l c h);
+    --hx-color-dark: oklch(from #191d28 l c h);
+
+    --tw-shadow: 0 0 transparent;
+    --tw-inset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+
+    --hx-font-sans: "CascadiaCode", "Maple Mono Medium", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    --hx-font-mono: "DepartureMono", "Maple Mono Medium", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+    --hx-default-font-family: var(--hx-font-sans);
+    --hx-default-mono-font-family: var(--hx-font-mono);
+  }
+}
+
+@layer base {
+    html {
+        font-family: var(--hx-default-font-family) !important;
+    }
+
+    code, pre, kbd, samp {
+        font-family: var(--hx-default-mono-font-family) !important;
+    }
+}
+
+@layer utilities {
+  .hx\:dark\:shadow-\[0_-12px_16px_\#111\]:where(.dark, .dark *) {
+          --tw-shadow: none;
+          box-shadow: none;
+  }
+  @media (hover: hover) {
+    .hx\:hover\:bg-gray-100:hover {
+      background-color: var(--hover-color);
+    }
+  }
+  .hx\:font-extrabold {
+    color: var(--color-primary);
+  }
+}
+
+
+:root {
+  --purple-lilac: #6f49ae;
+}
+
+.light, body.theme-light {
+  --color-blue: oklch(from #3085dd l c h);
+  --color-primary: oklch(from #4b65b4 l c h);
+  --purple-lilac: #6f49ae;
+  --hx-color-primary-600: oklch(from #6f49ae l c h);
+  --hover-color: oklch(from #e8f2eb l c h);
+  --hx-color-neutral-900: oklch(from #f1f0ec l c h);
+  --flexcyon-cyan: #3b9ba1;
+  --flexcyon-lime-green: #599100;
+  --flexcyon-orange: #a37e11;
+  --flexcyon-yellow: #9b8211;
+  --flexcyon-purple-lilac: #6f49ae;
+  --flexcyon-red-salmon: #c03a47;
+  --flexcyon-blue: #3085dd;
+  --flexcyon-pink: #d451a0;
+  --flexcyon-base-01: #f1f0ec;
+  --flexcyon-base-02: #effaf2;
+  --flexcyon-base-03: #e8f2eb;
+  --flexcyon-base-04: #dae1dd;
+  --flexcyon-base-05: #d4dad6;
+  --flexcyon-base-grey-dark: #929190;
+  --flexcyon-base-grey-light: #080808;
+}
+
+body:where(.light, .light *) {
+    --hx-color-gray-100: oklch(from #080808 l c h);
+  color: var(--hx-color-gray-100);
+}
+
+.dark, body.theme-dark {
+  --color-base-01: #14161c;
+  --color-blue: oklch(from #7ab8fe l c h);
+  --color-primary: #a5bc84;
+  --primary-hue: 84deg;
+  --primary-saturation: 24%;
+  --primary-lightness: 55%;
+
+  --purple-lilac: #d89ff5;
+  --hx-color-primary-600: oklch(from #d89ff5 l c h);
+  --hover-color: oklch(from #24262c l c h);
+  --hx-color-neutral-900: oklch(from #14161c l c h);
+  --flexcyon-cyan: #3cb9c2;
+  --flexcyon-lime-green: #a1c05c;
+  --flexcyon-orange: #ddad49;
+  --flexcyon-yellow: #c29e42;
+  --flexcyon-purple-lilac: #d89ff5;
+  --flexcyon-red-salmon: #ff9880;
+  --flexcyon-blue: #7ab8fe;
+  --flexcyon-pink: #ff91cb;
+  --flexcyon-base-01: #14161c;
+  --flexcyon-base-02: #191d28;
+  --flexcyon-base-03: #24262c;
+  --flexcyon-base-04: #4d566b;
+  --flexcyon-base-05: #6f7685;
+  --flexcyon-base-grey-dark: #898c93;
+  --flexcyon-base-grey-light: #d3d5d3;
+}
+
+body:where(.dark, .dark *) {
+  --hx-color-gray-100: oklch(from #d3d5d3 l c h);
+  color: var(--hx-color-gray-100);
+}
