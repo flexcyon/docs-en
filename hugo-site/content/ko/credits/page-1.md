@@ -6,33 +6,45 @@ title: 도구 및 소프트웨어
 
 ### 기본 애플리케이션
 
-- Obsidian
+- [Obsidian](https://obsidian.md/ko): 이 테마가 대상으로 삼는 마크다운 편집기입니다.
 
 ### 웹 기술
 
-- CSS
+- [CSS](https://developer.mozilla.org/ko/docs/Web/CSS): 인터페이스 스타일을 지정하는 데 사용합니다.
 
-- SCSS
+- [SCSS](https://sass-lang.com/): CSS 전처리기이며, [MIT 라이선스](https://github.com/sass/dart-sass/blob/main/LICENSE) 하에 배포됩니다.
 
-- Stylelint
+- [Stylelint](https://stylelint.io/): CSS/SCSS 린터이며, [MIT 라이선스](https://github.com/stylelint/stylelint/blob/main/LICENSE) 하에 배포됩니다.
 
 ### 텍스트 편집기
 
-- Vim
+- [Vim](https://www.vim.org/): 모달 방식의 텍스트 편집기이며, [Vim 라이선스](https://github.com/vim/vim/blob/master/LICENSE) 하에 배포됩니다.
 
-- VS Code
+- [Neovim](https://neovim.io/): 현대적인 Vim 대안이며, [Apache 2.0 라이선스](https://github.com/neovim/neovim/blob/master/LICENSE.txt) 하에 배포됩니다.
+
+- [VS Code](https://code.visualstudio.com/): 대부분이 무난하게 동의하는 기본 코드 편집기이며, [MIT 라이선스](https://github.com/microsoft/vscode/blob/main/LICENSE.txt) 하에 배포됩니다.
 
 ### 버전 관리
 
-- Git
+- [Git](https://git-scm.com/): 개발자들이 사실상 표준으로 사용하는 버전 관리 시스템(VCS)입니다. [GPLv2 라이선스](https://github.com/git/git/blob/master/COPYING) 하에 배포됩니다.
 
-- GitHub
+- [GitHub](https://github.com/): 소스 코드가 호스팅되는 Git 서버입니다.
+
+- [GitHub Pages](https://docs.github.com/ko/pages): GitHub에서 제공하는 정적 사이트 호스팅입니다.
 
 ### 문서화
 
-- Hugo
+- [Hugo](https://gohugo.io/): Golang을 사용하는 훌륭한 정적 사이트 생성기입니다. [Apache 2.0 라이선스](https://github.com/gohugoio/hugo/blob/master/LICENSE) 하에 배포됩니다.
 
-- Hugo Hextra
+- [Hugo Hextra](https://imfing.github.io/hextra/): 합리적인 기본값을 갖춘 깔끔한 Hugo 테마입니다. [MIT 라이선스](https://github.com/imfing/hextra/blob/main/LICENSE) 하에 배포됩니다.
+
+- [flexsearch](https://github.com/nextapps-de/flexsearch): 내부적으로 사용되는 텍스트 검색 라이브러리입니다. [Apache 2.0 라이선스](https://github.com/nextapps-de/flexsearch/blob/master/LICENSE) 하에 배포됩니다.
+
+#### 마이그레이션 도구
+
+- [Pyodide](https://pyodide.org/en/stable/): Python을 웹어셈블리(WASM)에서 실행하는 데 사용합니다. [Mozilla Public License 2.0](https://github.com/pyodide/pyodide/blob/main/LICENSE) 하에 배포됩니다.
+
+- [yace](https://yace.solopov.dev/): 2KB 미만의 브라우저용 코드 편집기이며, [MIT 라이선스](https://github.com/petersolopov/yace) 하에 배포됩니다.
 
 ### 글꼴
 
