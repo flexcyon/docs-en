@@ -38,3 +38,9 @@ Places tab header container at the bottom instead of the top of the screen, does
 CSS Classe(s) targeted: `.flexcyon-reverse-tab-header-container`
 
 Default: false (class toggle)
+
+### Dim Inactive Stacked Tab Content
+
+CSS Classe(s) targeted: `.flexcyon-dim-inactive-stacked-tab-content`
+
+Default: true (class toggle)

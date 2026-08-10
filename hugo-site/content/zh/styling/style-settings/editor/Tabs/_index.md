@@ -37,3 +37,9 @@ Style Settings
 目标 CSS 类: `.flexcyon-reverse-tab-header-container`
 
 默认: false (类切换)
+
+### 调暗非活动堆叠选项卡内容
+
+目标 CSS 类: `.flexcyon-dim-inactive-stacked-tab-content`
+
+默认: true (类切换)
