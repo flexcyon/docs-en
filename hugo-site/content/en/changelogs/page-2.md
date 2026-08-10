@@ -4,6 +4,23 @@ title: Version 2.x.x
 
 ## Version 2.0.x
 
+### Version 2.0.1: Patch 1
+
+#### Features
+- Added new Style Settings option to dim inactive stacked tab content. Defaults to true.
+- Inactive tabs titles are dimmed as part of the theme's design language, as well as being consistent with how regular inactive tab titles are dimmed.
+
+#### Changes
+- Improved styling for 1.13 Settings UI.
+- Settings search container has adjusted padding.
+- `var(--text-on-accent)` now inherits from `var(--color-base-00)` and thus `var(--flexcyon-base-01)`. This makes buttons with accent colour background have better contrast (green/purple with black has better contrast than white text on those backgrounds).
+- Improved Spaced Repetition plugin styling.
+
+#### Fixes
+- Fixed `var(--slider-track-background)` to use `var(--color-base-25)` instead of transparent.
+- Removed redundant code, prevented Highlightr plugin realistic style from having its border radius overriden by the theme's default highlight border radius.
+- Improved stylised horizontal rule rendering in Canvas blocks.
+
 ### Version 2.0.0 Metamorphosis
 
 #### Features

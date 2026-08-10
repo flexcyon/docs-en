@@ -21,7 +21,7 @@
   "type": "module",
   "dependencies": {
     "flexsearch": "^0.8.212",
-    "pyodide": "^314.0.2",
+    "pyodide": "^314.0.3",
     "yace": "^1.1.0"
   },
   "devDependencies": {
