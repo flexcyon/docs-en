@@ -40,3 +40,9 @@ RTZ 모드를 위한 설정이지만 별도로 활성화할 수도 있습니다.
 대상 CSS 클래스: `.flexcyon-reverse-tab-header-container`
 
 기본값: false (클래스 토글)
+
+### 비활성 스택형 탭 콘텐츠 흐리게
+
+대상 CSS 클래스: `.flexcyon-dim-inactive-stacked-tab-content`
+
+기본값: true (클래스 토글)
