@@ -1,8 +1,8 @@
 ---
-title: 行号
+title: 行
 ---
 
-配置行号和相对行号.
+配置行号, 相对行号和活动行.
 
 接受的格式: HEX, %, x.y
 
@@ -20,6 +20,49 @@ Style Settings
 目标 CSS 变量: `var(--flexcyon-highlight-active-line)`
 
 默认: false (类切换)
+
+### 发光活性线
+
+目标 CSS 变量: `var(--flexcyon-glow-active-line)`
+
+默认: false (类切换)
+
+### 发光活性线 x 偏移
+
+目标 CSS 变量: `var(--flexcyon-glow-active-offset-x)`
+
+默认: 1 (px)
+
+### 发光活性线 y 偏移
+
+目标 CSS 变量: `var(--flexcyon-glow-active-offset-y)`
+
+默认: 1 (px)
+
+### 发光活动线模糊强度
+
+目标 CSS 变量: `var(--flexcyon-glow-active-blur-radius)`
+
+默认: 2 (px)
+
+### 发光活动文本颜色
+
+目标 CSS 变量: `var(--flexcyon-glow-active-color)`
+
+默认: Normal text (默认文本颜色) (变量选项)
+
+选项:
+
+* Cyan (青色)
+* Blue (蓝色)
+* Purple (紫色)
+* Pink (粉红色)
+* Red (红色)
+* Orange (橙色)
+* Yellow (黄色)
+* Green (绿色)
+* Accent (强调色)
+* Normal text (默认文本颜色)
 
 ### 启用相对行号
 

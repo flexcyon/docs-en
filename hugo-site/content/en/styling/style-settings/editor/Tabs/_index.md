@@ -31,6 +31,14 @@ CSS Classe(s) targeted: `.flexcyon-remove-tab-headers`
 
 Default: false (class toggle)
 
+### Compact Inactive Tab Headers
+
+Make inactive tab headers compact until hovered on with mouse.
+
+CSS Classe(s) targeted: `.flexcyon-compact-inactive-tab-headers`
+
+Default: false (class toggle)
+
 ### Reverse order of Tab Header Container and Tabs Content
 
 Places tab header container at the bottom instead of the top of the screen, does not do anything for Stacked Tabs.

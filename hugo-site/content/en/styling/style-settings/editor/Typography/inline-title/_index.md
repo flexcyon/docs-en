@@ -18,6 +18,27 @@ Style Settings
 <span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
 Sample inline title</span>
 
+### Inline Title Colour
+
+CSS Variable(s) targeted: `var(--inline-title-color)`
+
+Colour of inline title.
+
+Default: Normal text (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
+* Accent
+* Normal text
+
 ### Inline title font size
 
 CSS Variable(s) targeted: `var(--inline-title-size)`

@@ -1,8 +1,8 @@
 ---
-title: Line Numbers
+title: Lines
 ---
 
-Configure line numbers and relative line numbers
+Configure line numbers, relative line numbers and active lines.
 
 Accepted formats: HEX, %, x.y
 
@@ -21,6 +21,49 @@ Style Settings
 CSS Variable(s) targeted: `var(--flexcyon-highlight-active-line)`
 
 Default: false (class toggle)
+
+### Glow Active Line
+
+CSS Variable(s) targeted: `var(--flexcyon-glow-active-line)`
+
+Default: false (class toggle)
+
+### Glow Active Line x Offset
+
+CSS Variable(s) targeted: `var(--flexcyon-glow-active-offset-x)`
+
+Default: 1 (px)
+
+### Glow Active Line y Offset
+
+CSS Variable(s) targeted: `var(--flexcyon-glow-active-offset-y)`
+
+Default: 1 (px)
+
+### Glow Active Line Blur Intensity
+
+CSS Variable(s) targeted: `var(--flexcyon-glow-active-blur-radius)`
+
+Default: 2 (px)
+
+### Glow Active Text Colour
+
+CSS Variable(s) targeted: `var(--flexcyon-glow-active-color)`
+
+Default: Normal text (variable select)
+
+Options:
+
+* Cyan
+* Blue
+* Purple
+* Pink
+* Red
+* Orange
+* Yellow
+* Green
+* Accent
+* Normal text
 
 ### Enable Relative Line Numbers
 
