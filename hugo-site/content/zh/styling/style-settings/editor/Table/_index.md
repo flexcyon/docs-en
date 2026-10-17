@@ -33,7 +33,7 @@ Style Settings
 
 目标 CSS 变量: `var(--table-header-size)`
 
-默认: 大 (UI 字体大小)
+默认: 大 (类选项)
 
 选项:
 
@@ -69,7 +69,7 @@ Style Settings
 
 目标 CSS 变量: `var(--table-text-size)`
 
-默认: 中 (UI 字体大小)
+默认: 中 (类选项)
 
 选项:
 
