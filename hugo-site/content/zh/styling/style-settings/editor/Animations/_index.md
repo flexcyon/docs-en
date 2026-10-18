@@ -62,8 +62,8 @@ Style Settings
 - Spin Left to Right (从左向右旋转)
 - Spin Bottom to Top (从下到上旋转)
 - Spin Top to Bottom (从上到下旋转)
-- Flip Horizontal (X-Axis) [水平翻转 (X轴)]
-- Flip Vertical (Y-Axis) [垂直翻转 (Y轴)]
+- Flip Horizontal (X-Axis) [水平翻转 (X 轴)]
+- Flip Vertical (Y-Axis) [垂直翻转 (Y 轴)]
 
 - Blur In (Depth of Field) [模糊 (景深)]
 - Bounce In (跳进去)
@@ -121,8 +121,8 @@ Style Settings
 - Spin Left to Right (从左向右旋转)
 - Spin Bottom to Top (从下到上旋转)
 - Spin Top to Bottom (从上到下旋转)
-- Flip Horizontal (X-Axis) [水平翻转 (X轴)]
-- Flip Vertical (Y-Axis) [垂直翻转 (Y轴)]
+- Flip Horizontal (X-Axis) [水平翻转 (X 轴)]
+- Flip Vertical (Y-Axis) [垂直翻转 (Y 轴)]
 
 - Blur In (Depth of Field) [模糊 (景深)]
 - Bounce In (跳进去)

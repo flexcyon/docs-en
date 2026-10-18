@@ -32,6 +32,33 @@ and [Contributing Guide](https://github.com/bladeacer/flexcyon/blob/master/contr
 
 ---
 
+## Documentation repository utilities
+
+This documentation repository ships utilities for maintainers and translators.
+They are now run via [`just`](https://github.com/casey/just) plus Python (stdlib
+only), so you only need `just` and Python installed: no GNU `make` required.
+
+Available recipes (run from the repository root):
+
+- `just dev`: Build CSS then run `hugo server` for live preview.
+- `just build`: Build CSS then production `hugo build --minify`.
+- `just build-css`: Compile SCSS to minified CSS.
+- `just test`: Run pnpm tests (vitest).
+- `just audit-links`: Audit cross-i18n link completeness across all languages
+  (add `--concise` or `--verbose`).
+- `just strip-icons`: Remove old `icon: material/...` frontmatter lines.
+- `just translate-frontmatter`: Translate frontmatter titles and strip tags.
+- `just check-i18n`: Check for missing i18n files/keys. Auto-detects languages,
+  or pass explicit ones: `just check-i18n en zh ko`.
+- `just update-nav`: Update style-settings navigation tree blocks.
+- `just update-nav-check`: Check navigation blocks without updating.
+- `just vendor-deps`: Fetch pyodide, yace, flexsearch via pnpm into `static/js/`.
+
+Each recipe delegates to a pure-stdlib Python script under `scripts/`, so you can
+also invoke them directly, e.g. `python3 scripts/run_utility.py audit-links --concise`.
+
+---
+
 ## Translations
 
 See the [documentation repository](https://github.com/flexcyon/docs-en)

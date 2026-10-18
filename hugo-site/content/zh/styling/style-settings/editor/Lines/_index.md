@@ -11,7 +11,7 @@ title: 行
 ```md
 Style Settings
 |-- flexcyon://Editor
-|   |-- Line Numbers
+|   |-- Lines
 ```
 
 ## 配置选项

@@ -11,7 +11,7 @@ Accepted formats: HEX, %, x.y
 ```md
 Style Settings
 |-- flexcyon://Editor
-|   |-- Line Numbers
+|   |-- Lines
 ```
 
 ## Configuration Options

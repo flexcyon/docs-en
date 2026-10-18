@@ -24,6 +24,35 @@ title: 贡献
 请注意, 存储库有自己的 [行为准则](https://github.com/bladeacer/flexcyon/blob/master/code_of_conduct)
 和 [贡献指南](https://github.com/bladeacer/flexcyon/blob/master/contributing).
 
+---
+
+## 文档仓库实用工具
+
+本文档仓库为维护者和翻译人员提供了若干工具. 现已改为通过
+[`just`](https://github.com/casey/just) 加 Python（仅标准库）运行，因此您只需
+安装 `just` 和 Python 即可，无需 GNU `make`. 
+
+可用配方（在仓库根目录下运行）：
+
+- `just dev`: 构建 CSS 后运行 `hugo server`，实时预览. 
+- `just build`: 构建 CSS 后执行生产环境 `hugo build --minify`. 
+- `just build-css`: 将 SCSS 编译为压缩版 CSS. 
+- `just test`: 运行 pnpm 测试（vitest）. 
+- `just audit-links`: 审核各语言间的跨 i18n 链接完整性（默认详细输出；
+  可加 `--concise` 或 `--verbose`）. 
+- `just strip-icons`: 删除旧的 `icon: material/...` 前置元数据行. 
+- `just translate-frontmatter`: 翻译前置元数据标题并删除标签. 
+- `just check-i18n`: 检查缺失的 i18n 文件/键. 默认自动检测语言，
+  也可指定语言：`just check-i18n en zh ko`. 
+- `just update-nav`: 更新 style-settings 导航树代码块. 
+- `just update-nav-check`: 仅检查导航树代码块，不更新. 
+- `just vendor-deps`: 通过 pnpm 将 pyodide, yace, flexsearch 拉取到 `static/js/`. 
+
+每个配方都委托给 `scripts/` 下的纯标准库 Python 脚本，因此您也可以直接调用，
+例如 `python3 scripts/run_utility.py audit-links --concise`. 
+
+---
+
 ## 翻译
 
 有关更多详细信息以及当前支持的语言集,
