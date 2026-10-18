@@ -7,3 +7,4 @@ hugo-site/node_modules
 links-audit.md
 .headroom
 __pycache__
+.hugo_build.lock

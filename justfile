@@ -12,6 +12,7 @@
 #   just audit-links --concise
 #   just strip-icons
 #   just translate-frontmatter
+#   just fmt
 #   just check-i18n
 #   just check-i18n en zh ko
 #   just update-nav
@@ -65,6 +66,10 @@ update-nav:
 # Check style-settings navigation blocks without updating.
 update-nav-check:
     python3 scripts/run_utility.py update-nav-check
+
+# Format markdown content: CJK/Latin spacing, link cleanup, zh punctuation -> ASCII.
+fmt:
+    python3 scripts/run_utility.py fmt
 
 # Fetch latest pyodide, yace, flexsearch via pnpm and copy to static/js/.
 vendor-deps:

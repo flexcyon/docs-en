@@ -1,28 +1,18 @@
 import os
 import re
 
+from fmt import (
+    LINE_PATTERN,
+    TAGS_BLOCK_PATTERN,
+    audit_and_space,
+)
+
 LANG_CONFIGS = {
     "en": {"translate": False, "apply_pangu": False, "i18n_file": "en"},
     "zh": {"translate": True, "apply_pangu": True, "i18n_file": "zh-cn"},
     # "ja": {"translate": True, "apply_pangu": True},
     "ko": {"translate": True, "apply_pangu": False, "i18n_file": "ko"},
     }
-
-LINE_PATTERN = re.compile(
-    r'^(\s*(?:title|description|linkTitle|menu_name):\s*)(.*)$',
-    re.MULTILINE | re.IGNORECASE
-    )
-
-TAGS_BLOCK_PATTERN = re.compile(
-    r'^tags:\s*\n(?:(?:\s+|-).*\n?)*',
-    re.MULTILINE | re.IGNORECASE
-    )
-
-LINK_PATTERN = re.compile(r'(\[.*?\])\((.*?)\)')
-
-# Separate patterns so we can easily log matches and track char offsets
-CJK_LATIN = re.compile(r'([\u4e00-\u9fa5\u3040-\u30ff\u31f0-\u31ff])([A-Za-z0-9])')
-LATIN_CJK = re.compile(r'([A-Za-z0-9])([\u4e00-\u9fa5\u3040-\u30ff\u31f0-\u31ff])')
 
 
 def load_dictionary(lang, i18n_file=None):
@@ -44,78 +34,6 @@ def load_dictionary(lang, i18n_file=None):
     keys_pattern = "|".join(re.escape(k) for k in sorted_keys)
     word_pattern = re.compile(rf'(?<![a-zA-Z0-9])({keys_pattern})(?![a-zA-Z0-9])', re.IGNORECASE)
     return translations, word_pattern
-
-def audit_and_space(text, file_path, block_name, baseline_line=1):
-    if not text:
-        return text
-
-    lines = text.splitlines()
-    new_lines = []
-    context_window = 15
-
-    # Combined pattern to scan for BOTH issues in a single pass
-    combined_pattern = re.compile(f"({CJK_LATIN.pattern}|{LATIN_CJK.pattern})")
-
-    for idx, line in enumerate(lines):
-        current_line_no = baseline_line + idx
-
-        # Track matches we've already logged on this line to prevent double-printing overlapping chunks
-        logged_positions = set()
-
-        for match in combined_pattern.finditer(line):
-            start_pos = match.start()
-
-            # If we already evaluated this character index block, skip logging it again
-            if start_pos in logged_positions or (start_pos - 1) in logged_positions:
-                continue
-
-            offending_item = match.group(0)
-            logged_positions.add(start_pos)
-
-            # Determine the exact reason for the log entry
-            if re.match(r'[\u4e00-\u9fa5\u3040-\u30ff\u31f0-\u31ff]', offending_item[0]):
-                reason = "Missing space between CJK and Latin"
-            else:
-                reason = "Missing space between Latin and CJK"
-
-            context_snippet = (
-                line[max(0, start_pos - context_window):start_pos] + 
-                f">>> [{offending_item}] <<<" + 
-                line[match.end():min(len(line), match.end() + context_window)]
-                ).strip()
-
-            print(f"{file_path}:{current_line_no}:{start_pos + 1} ({block_name}) -> ... {context_snippet} ... | Reason: {reason}")
-
-        # Update the string contents cleanly after tracking
-        modified_line = CJK_LATIN.sub(r'\1 \2', line)
-        modified_line = LATIN_CJK.sub(r'\1 \2', modified_line)
-        new_lines.append(modified_line)
-
-    return "\n".join(new_lines) + ("\n" if text.endswith("\n") else "")
-
-def clean_markdown_links(content):
-    def link_replacer(match):
-        label = match.group(1)
-        raw_path = match.group(2)
-        if raw_path.startswith(('http:', 'https:', 'mailto:', 'tel:')):
-            return match.group(0)
-        if '#' in raw_path:
-            path, anchor = raw_path.split('#', 1)
-            anchor = '#' + anchor
-        else:
-            path, anchor = raw_path, ""
-        path = path.lower()
-        if 'style-settings' in path:
-            if path.startswith('../../') and not path.startswith('../../../'):
-                path = path.replace('../../', '../../../', 1)
-        if path.endswith('.md'):
-            path = path[:-3]
-        if path.endswith('/index'):
-            path = path[:-6]
-        elif path == 'index':
-            path = ''
-        return f"{label}({path}{anchor})"
-    return LINK_PATTERN.sub(link_replacer, content)
 
 
 def process_directory(lang, config):
@@ -155,7 +73,7 @@ def process_directory(lang, config):
                     body = new_content[fm.end():]
 
                     # Track lines for exact back-half log indexing
-                    fm_line_count = len(fm_c.splitlines()) + 2 
+                    fm_line_count = len(fm_c.splitlines()) + 2
 
                     new_fm = TAGS_BLOCK_PATTERN.sub('', fm_c)
                     if config["translate"] and translations:

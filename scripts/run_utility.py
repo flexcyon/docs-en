@@ -16,6 +16,7 @@ Usage:
     python3 scripts/run_utility.py check-i18n [LANGS...]
     python3 scripts/run_utility.py update-nav
     python3 scripts/run_utility.py update-nav-check
+    python3 scripts/run_utility.py fmt
     python3 scripts/run_utility.py vendor-deps
 """
 
@@ -92,6 +93,10 @@ def cmd_update_nav_check(_args):
     return _run('update_nav_blocks.py', '--check')
 
 
+def cmd_fmt(_args):
+    return _run('fmt.py')
+
+
 def cmd_vendor_deps(_args):
     return _run('vendor_deps.py')
 
@@ -125,6 +130,7 @@ def main():
 
     sub.add_parser('update-nav', help='Update style-settings navigation tree blocks')
     sub.add_parser('update-nav-check', help='Check navigation blocks without updating')
+    sub.add_parser('fmt', help='Format markdown content (pangu spacing, link cleanup, punctuation)')
     sub.add_parser('vendor-deps', help='Fetch pyodide, yace, flexsearch via pnpm')
 
     args = parser.parse_args()
@@ -139,6 +145,7 @@ def main():
         'check-i18n': cmd_check_i18n,
         'update-nav': cmd_update_nav,
         'update-nav-check': cmd_update_nav_check,
+        'fmt': cmd_fmt,
         'vendor-deps': cmd_vendor_deps,
     }
     return handlers[args.command](args)

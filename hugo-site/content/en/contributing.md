@@ -52,6 +52,8 @@ Available recipes (run from the repository root):
   or pass explicit ones: `just check-i18n en zh ko`.
 - `just update-nav`: Update style-settings navigation tree blocks.
 - `just update-nav-check`: Check navigation blocks without updating.
+- `just fmt`: Format markdown content (CJK/Latin spacing, link cleanup,
+  zh fullwidth punctuation -> ASCII).
 - `just vendor-deps`: Fetch pyodide, yace, flexsearch via pnpm into `static/js/`.
 
 Each recipe delegates to a pure-stdlib Python script under `scripts/`, so you can

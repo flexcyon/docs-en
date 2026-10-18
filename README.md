@@ -38,9 +38,6 @@ Current languages supported:
 ## Utilities
 
 There is a [`justfile`](./justfile) which invokes utility Python scripts one can use.
-> See the scripts directory for more details. We recommend developing on a UNIX
-> like system, such as Linux, MacOS or WSL. Otherwise, one can always install
-> dependencies and invoke the scripts directly without `just` if on Windows.
 
 If you cannot use `just`, you can invoke the Python scripts directly if you have
 Python installed, e.g. `python3 scripts/run_utility.py audit-links --concise`.

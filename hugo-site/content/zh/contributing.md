@@ -46,6 +46,7 @@ title: 贡献
   也可指定语言：`just check-i18n en zh ko`. 
 - `just update-nav`: 更新 style-settings 导航树代码块. 
 - `just update-nav-check`: 仅检查导航树代码块，不更新. 
+- `just fmt`: 格式化 markdown 内容（CJK/Latin 字间距、链接清理、中文全角标点转ASCII）.
 - `just vendor-deps`: 通过 pnpm 将 pyodide, yace, flexsearch 拉取到 `static/js/`. 
 
 每个配方都委托给 `scripts/` 下的纯标准库 Python 脚本，因此您也可以直接调用，
