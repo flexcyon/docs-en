@@ -110,6 +110,18 @@ Style Settings
 - Center (中心)
 - Right (右边)
 
+### 标题 1 字体组
+
+目标 CSS 变量: `var(--h1-font)`
+
+默认: Text Font (默认文本字体) (变量选项)
+
+选项:
+
+- Monospace Font (等宽字体)
+- Interface Font (界面字体)
+- Text Font (默认文本字体)
+
 ---
 
 ## 标题 2
@@ -182,6 +194,18 @@ Style Settings
 - Left (左边)
 - Center (中心)
 - Right (右边)
+
+### 标题 2 字体组
+
+目标 CSS 变量: `var(--h2-font)`
+
+默认: Text Font (默认文本字体) (变量选项)
+
+选项:
+
+- Monospace Font (等宽字体)
+- Interface Font (界面字体)
+- Text Font (默认文本字体)
 
 ---
 
@@ -256,6 +280,18 @@ Style Settings
 - Center (中心)
 - Right (右边)
 
+### 标题 3 字体组
+
+目标 CSS 变量: `var(--h3-font)`
+
+默认: Text Font (默认文本字体) (变量选项)
+
+选项:
+
+- Monospace Font (等宽字体)
+- Interface Font (界面字体)
+- Text Font (默认文本字体)
+
 ---
 
 ## 标题 4
@@ -328,6 +364,18 @@ Style Settings
 - Left (左边)
 - Center (中心)
 - Right (右边)
+
+### 标题 4 字体组
+
+目标 CSS 变量: `var(--h4-font)`
+
+默认: Text Font (默认文本字体) (变量选项)
+
+选项:
+
+- Monospace Font (等宽字体)
+- Interface Font (界面字体)
+- Text Font (默认文本字体)
 
 ---
 
@@ -402,6 +450,18 @@ Style Settings
 - Center (中心)
 - Right (右边)
 
+### 标题 5 字体组
+
+目标 CSS 变量: `var(--h5-font)`
+
+默认: Text Font (默认文本字体) (变量选项)
+
+选项:
+
+- Monospace Font (等宽字体)
+- Interface Font (界面字体)
+- Text Font (默认文本字体)
+
 ---
 
 ## 标题 6
@@ -474,3 +534,15 @@ Style Settings
 - Left (左边)
 - Center (中心)
 - Right (右边)
+
+### 标题 6 字体组
+
+目标 CSS 变量: `var(--h6-font)`
+
+默认: Text Font (默认文本字体) (变量选项)
+
+选项:
+
+- Monospace Font (等宽字体)
+- Interface Font (界面字体)
+- Text Font (默认文本字体)

@@ -60,7 +60,7 @@ Angled 和 Powerlevel10k 等模式下视图标题的水平填充.
 
 目标 CSS 变量: `var(--file-header-font-size)`
 
-默认: 小 (类选项)
+默认: 小 (变量选项)
 
 选项:
 

@@ -27,6 +27,8 @@ Style Settings
 - Grid Background (网格背景)
 - Dotted Background (虚线背景)
 - Rhombus Background (菱形背景)
+- Circle Background (波尔卡圆点背景)
+- Chess Background (棋盘背景)
 
 ### 网格和菱形背景的旋转值
 
@@ -34,7 +36,7 @@ Style Settings
 
 默认: 0 (deg)
 
-### 网格/虚线背景的每个点/线之间的宽度
+### 虚线背景的每个点的宽度
 
 目标 CSS 变量: `var(--flexcyon-editor-bg-width)`
 
@@ -44,4 +46,20 @@ Style Settings
 
 目标 CSS 变量: `var(--flexcyon-editor-dot-size)`
 
-默认: 2 (px)
+默认: 2.5 (px)
+
+### 编辑器背景宽度 2
+
+> 对于 "波尔卡圆点" 和 "棋盘" 背景
+
+目标 CSS 变量: `var(--flexcyon-editor-bg-width-2)`
+
+默认: 40 (px)
+
+### 虚线背景中点的大小 2
+
+> 对于 "波尔卡圆点" 和 "棋盘" 背景
+
+目标 CSS 变量: `var(--flexcyon-editor-dot-size-2)`
+
+默认: 6 (px)

@@ -4,7 +4,7 @@ title: 菱形背景
 
 # 用法
 
-将菱形的重复图案添加到编辑器背景中. 旋转可以调整. 
+将菱形的重复图案添加到编辑器背景中. 可以在样式设置中调整大小. 
 
 ```md
 cssclasses:
@@ -22,4 +22,3 @@ Your content will render as usual
 >[!note|bg-rhombus] I will display as usual
 > I will have a rhombus background
 ```
-

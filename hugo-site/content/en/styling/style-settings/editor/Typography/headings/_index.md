@@ -109,7 +109,20 @@ Options:
 - Center
 - Right
 
+### Heading 1 font group
+
+CSS Variable(s) targeted: `var(--h1-font)`
+
+Default: Text Font (variable select)
+
+Options:
+
+- Monospace Font
+- Interface Font
+- Text Font
+
 ___
+
 ## Heading 2
 
 ### Enable heading indicators globally for Heading 2
@@ -181,7 +194,20 @@ Options:
 - Center
 - Right
 
+### Heading 2 font group
+
+CSS Variable(s) targeted: `var(--h2-font)`
+
+Default: Text Font (variable select)
+
+Options:
+
+- Monospace Font
+- Interface Font
+- Text Font
+
 ___
+
 ## Heading 3
 
 ### Enable heading indicators globally for Heading 3
@@ -253,7 +279,20 @@ Options:
 - Center
 - Right
 
+### Heading 3 font group
+
+CSS Variable(s) targeted: `var(--h3-font)`
+
+Default: Text Font (variable select)
+
+Options:
+
+- Monospace Font
+- Interface Font
+- Text Font
+
 ___
+
 ## Heading 4
 
 ### Enable heading indicators globally for Heading 4
@@ -325,7 +364,20 @@ Options:
 - Center
 - Right
 
+### Heading 4 font group
+
+CSS Variable(s) targeted: `var(--h4-font)`
+
+Default: Text Font (variable select)
+
+Options:
+
+- Monospace Font
+- Interface Font
+- Text Font
+
 ___
+
 ## Heading 5
 
 ### Enable heading indicators globally for Heading 5
@@ -397,7 +449,20 @@ Options:
 - Center
 - Right
 
+### Heading 5 font group
+
+CSS Variable(s) targeted: `var(--h5-font)`
+
+Default: Text Font (variable select)
+
+Options:
+
+- Monospace Font
+- Interface Font
+- Text Font
+
 ___
+
 ## Heading 6
 
 ### Enable heading indicators globally for Heading 6
@@ -467,3 +532,15 @@ Options:
 - Left
 - Center
 - Right
+
+### Heading 6 font group
+
+CSS Variable(s) targeted: `var(--h6-font)`
+
+Default: Text Font (variable select)
+
+Options:
+
+- Monospace Font
+- Interface Font
+- Text Font

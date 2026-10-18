@@ -27,6 +27,8 @@ Options:
 - Grid Background
 - Dotted Background
 - Rhombus Background
+- Circle Background (Polka dot pattern)
+- Chess Background (Checkerboard pattern)
 
 ### Rotation value for grid and rhombus background
 
@@ -44,4 +46,20 @@ Default: 15 (px)
 
 CSS Variable(s) targeted: `var(--flexcyon-editor-dot-size)`
 
-Default: 2 (px)
+Default: 2.5 (px)
+
+### Alternate Width for editor background
+
+> For the chess and circle backgrounds
+
+CSS Variable(s) targeted: `var(--flexcyon-editor-bg-width-2)`
+
+Default: 40 (px)
+
+### Alternate dot size for editor background
+
+> For the chess and circle backgrounds
+
+CSS Variable(s) targeted: `var(--flexcyon-editor-dot-size-2)`
+
+Default: 6 (px)
