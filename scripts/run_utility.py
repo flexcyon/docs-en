@@ -22,12 +22,79 @@ Usage:
 
 import argparse
 import os
+import signal
 import subprocess
 import sys
+import threading
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(HERE)
 HUGO_SITE = os.path.join(REPO_ROOT, 'hugo-site')
+
+# Internal sentinel for a run stopped with Ctrl+C (128 + SIGINT). Callers keep
+# it as a non-zero code so a multi-step target does not continue on to its next
+# step; main() turns it into a 0 on the way out (see the __main__ block).
+INTERRUPTED = 128 + signal.SIGINT
+
+
+# After the first Ctrl+C, how long the child gets to shut down cleanly (hugo
+# releasing its port, sass flushing) before it is killed outright. Some children
+# never see the forwarded signal at all -- a tool that traps SIGINT, or anything
+# spawned from a context where SIGINT was already ignored -- and without this the
+# wait below would hang until a second Ctrl+C.
+GRACE_SECONDS = 5
+
+
+def _call(cmd, cwd, name):
+    """Run cmd, returning its exit code (or INTERRUPTED when stopped by Ctrl+C).
+
+    Ctrl+C reaches every process in the terminal's group at once, so the child
+    is already on its way down; forwarding the signal and then waiting lets it
+    shut down cleanly (hugo server releases its port and lock file) instead of
+    being killed mid-flight.
+
+    The interrupt is tracked with a signal handler rather than a
+    KeyboardInterrupt: whether wait() raises or the child's own exit code wins
+    is a race (hugo server exits 0 on SIGINT), and the outcome must not depend
+    on it. A second Ctrl+C kills immediately, and so does letting the grace
+    period lapse, so a single Ctrl+C always terminates.
+    """
+    proc = subprocess.Popen(cmd, cwd=cwd)
+    state = {'interrupted': False, 'signals': 0, 'killer': None}
+
+    def handle_sigint(_signum, _frame):
+        state['interrupted'] = True
+        state['signals'] += 1
+        if proc.poll() is not None:
+            return
+        if state['signals'] > 1:
+            proc.send_signal(signal.SIGKILL)
+            return
+        proc.send_signal(signal.SIGINT)
+
+        # Failsafe for a child that never acts on the forwarded SIGINT. It is
+        # cancelled once wait() below returns, and Popen.send_signal reaps the
+        # child first, so a race with a normal exit is harmless.
+        def kill_if_alive():
+            if proc.poll() is None:
+                proc.send_signal(signal.SIGKILL)
+        killer = threading.Timer(GRACE_SECONDS, kill_if_alive)
+        killer.daemon = True
+        killer.start()
+        state['killer'] = killer
+
+    previous = signal.signal(signal.SIGINT, handle_sigint)
+    try:
+        code = proc.wait()
+    finally:
+        signal.signal(signal.SIGINT, previous)
+        if state['killer'] is not None:
+            state['killer'].cancel()
+
+    if state['interrupted']:
+        print(f'\nInterrupted: stopped "{name}".', file=sys.stderr)
+        return INTERRUPTED
+    return code
 
 
 def _run(script, *args, cwd=None):
@@ -35,7 +102,7 @@ def _run(script, *args, cwd=None):
     path = os.path.join(HERE, script)
     cmd = [sys.executable, path, *args]
     try:
-        return subprocess.run(cmd, cwd=cwd or REPO_ROOT).returncode
+        return _call(cmd, cwd or REPO_ROOT, script)
     except FileNotFoundError:
         print(f"error: python executable not found: {sys.executable}", file=sys.stderr)
         return 1
@@ -61,7 +128,7 @@ def cmd_build_css(_args):
 
 
 def cmd_test(_args):
-    return subprocess.call(['pnpm', 'run', 'test'], cwd=HUGO_SITE)
+    return _call(['pnpm', 'run', 'test'], HUGO_SITE, 'pnpm test')
 
 
 def cmd_audit_links(args):
@@ -105,7 +172,8 @@ def cmd_vendor_deps(_args):
 
 def _run_hugo(extra_args):
     hugo_bin = os.environ.get('HUGO_BIN', 'hugo')
-    return subprocess.call([hugo_bin, *extra_args], cwd=HUGO_SITE)
+    name = ' '.join([os.path.basename(hugo_bin), *extra_args])
+    return _call([hugo_bin, *extra_args], HUGO_SITE, name)
 
 
 def main():
@@ -156,7 +224,12 @@ def main():
 
 if __name__ == '__main__':
     try:
-        sys.exit(main())
+        code = main()
     except KeyboardInterrupt:
+        # Interrupted outside a child wait (e.g. during arg parsing).
         print("\nInterrupted.", file=sys.stderr)
-        sys.exit(130)
+        code = INTERRUPTED
+    # A Ctrl+C stop is not a failure: exit 0 so `just` does not report a failed
+    # recipe. Internally the run stays INTERRUPTED (non-zero) so multi-step
+    # targets stop instead of continuing, hence the conversion happens here.
+    sys.exit(0 if code == INTERRUPTED else code)
