@@ -40,6 +40,7 @@ test:
     python3 scripts/run_utility.py test
 
 # Audit cross-i18n link completeness (detailed by default).
+# Pass --broken to also check that relative links resolve on disk.
 audit-links *flags:
     python3 scripts/run_utility.py audit-links {{flags}}
 

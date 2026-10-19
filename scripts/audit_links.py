@@ -5,23 +5,28 @@ Audit i18n completeness across languages and links.
 All path comparisons between languages are case-insensitive to handle
 inconsistent directory casing (e.g. en/ uses "css-classes" while ko/ uses "CSS-Classes").
 
-Checks two things:
+Checks three things:
   1. Missing i18n files — every .md in the canonical language (en) should
      exist in the other language directories (case-insensitive match).
   2. Missing cross-i18n links — if a source document and its link target
      exist in language A, and the source also exists in language B but
      the equivalent target is missing in B, it's flagged.
+  3. Broken relative links — links that do not resolve to any file on
+     disk (only collected when --broken is passed).
 
 Usage:
     python3 scripts/audit_links.py             # detailed (default)
     python3 scripts/audit_links.py --concise    # grouped summary
     python3 scripts/audit_links.py --verbose    # extra detail
+    python3 scripts/audit_links.py --broken     # also check broken links
+    python3 scripts/audit_links.py -b -c        # broken check + concise
 """
 
 import argparse
 import os
 import re
 import sys
+import urllib.parse
 
 CONTENT_DIR = os.path.join(os.path.dirname(__file__), '..', 'hugo-site', 'content')
 BASE_URL = '/docs-en'
@@ -93,6 +98,128 @@ def exists_on_disk(path):
     return None
 
 
+def build_ci_index(lang_dir):
+    """Case-insensitive index of all .md files relative to lang_dir."""
+    index = {}
+    if not os.path.isdir(lang_dir):
+        return index
+    for root, _dirs, fnames in os.walk(lang_dir):
+        for fn in fnames:
+            if fn.endswith('.md'):
+                full = os.path.join(root, fn)
+                rel = os.path.relpath(full, lang_dir)
+                index[rel.lower()] = rel
+    return index
+
+
+def source_to_url(source_rel, lang):
+    """Convert a source file path (relative to lang content dir) to its Hugo URL path."""
+    if source_rel == '_index.md':
+        path = ''
+    elif source_rel.endswith('/_index.md'):
+        path = source_rel[:-len('_index.md')]
+    else:
+        path = source_rel[:-len('.md')] + '/'
+    if lang != CANONICAL:
+        path = lang + '/' + path if path else lang + '/'
+    return '/' + path
+
+
+def url_to_fs_candidates(url_path):
+    """Convert a URL path (relative to lang content dir) to candidate fs paths."""
+    rel = url_path.lstrip('/').rstrip('/')
+    if not rel:
+        return ['_index.md', 'index.md']
+    return [rel + '.md', rel + '/_index.md', rel + '/index.md']
+
+
+def link_resolves(url_path, ci_index):
+    """Check if a URL path resolves to any file in the CI index."""
+    for candidate in url_to_fs_candidates(url_path):
+        if candidate.lower() in ci_index:
+            return True
+    return False
+
+
+def _strip_lang_prefix(url_path, lang, languages):
+    """Strip the language prefix from a URL path, returning (stripped_path, target_lang)."""
+    if lang == CANONICAL:
+        for other in languages:
+            if other != CANONICAL and url_path.startswith('/' + other + '/'):
+                prefix = '/' + other + '/'
+                return url_path[len(prefix):], other
+        return url_path, lang
+    prefix = '/' + lang + '/'
+    if url_path.startswith(prefix):
+        return url_path[len(prefix):], lang
+    return url_path, lang
+
+
+def check_broken_links(languages):
+    """Check relative/absolute markdown links using Hugo URL resolution.
+
+    Unlike filesystem path resolution, Hugo resolves relative links against
+    the page's URL (which includes the page name as a path component with
+    a trailing slash).  URLs are also lowercased by Hugo.  This function
+    mirrors that behaviour to avoid false positives.
+    """
+    broken = []
+
+    ci_indexes = {}
+    for lang in languages:
+        ci_indexes[lang] = build_ci_index(os.path.join(CONTENT_DIR, lang))
+
+    for lang in languages:
+        lang_dir = os.path.join(CONTENT_DIR, lang)
+
+        for root, _dirs, fnames in os.walk(lang_dir):
+            for fn in fnames:
+                if not fn.endswith('.md'):
+                    continue
+                source_file = os.path.join(root, fn)
+                source_rel = os.path.relpath(source_file, lang_dir)
+                page_url = 'http://example.com' + source_to_url(source_rel, lang)
+
+                with open(source_file, encoding='utf-8') as f:
+                    content = f.read()
+
+                for m in LINK_RE.finditer(content):
+                    raw = m.group(2).strip()
+                    if EXTERNAL.match(raw) or ANCHOR_ONLY.match(raw):
+                        continue
+
+                    link_text = raw.split('#')[0].strip()
+                    if not link_text:
+                        continue
+
+                    if ABS_PATH.match(link_text):
+                        if link_text.startswith(BASE_URL + '/'):
+                            link_rel = link_text[len(BASE_URL):]
+                        elif link_text.startswith('/'):
+                            link_rel = link_text
+                        else:
+                            continue
+                        resolved_path = link_rel.lower()
+                    else:
+                        resolved = urllib.parse.urljoin(page_url, link_text)
+                        resolved_path = urllib.parse.urlsplit(resolved).path.lower()
+
+                    # Strip language prefix to get path relative to lang content dir
+                    stripped, target_lang = _strip_lang_prefix(
+                        resolved_path, lang, languages)
+                    target_index = ci_indexes.get(target_lang)
+
+                    if not link_resolves(stripped, target_index):
+                        broken.append({
+                            'source': f"{lang}/{source_rel}",
+                            'lang': lang,
+                            'link': raw,
+                            'resolved': resolved_path,
+                        })
+
+    return broken
+
+
 def fmt_lang_list(langs):
     """Format a list of language codes, with an Oxford comma."""
     if not langs:
@@ -150,6 +277,18 @@ def print_concise(file_issues, link_issues):
         print()
 
 
+def print_broken(broken_issues):
+    """Report broken relative links — links that resolve on disk to nothing."""
+    if not broken_issues:
+        return
+    print(f"=== Broken Relative Links ({len(broken_issues)}) ===")
+    print()
+    for bi in sorted(broken_issues, key=lambda x: (x['source'], x['link'])):
+        print(f"- [ ] `{bi['source']}` -> `{bi['link']}`")
+        print(f"      resolved to `{bi['resolved']}` (NOT FOUND)")
+    print()
+
+
 def print_verbose(file_issues, link_issues):
     """Extra-detailed output with per-language stats."""
     langs = get_languages()
@@ -167,6 +306,7 @@ def main():
     group = parser.add_mutually_exclusive_group()
     group.add_argument('--concise', '-c', action='store_true', help='grouped summary output')
     group.add_argument('--verbose', '-v', action='store_true', help='extra-detailed output')
+    parser.add_argument('--broken', '-b', action='store_true', help='check for broken relative links that do not resolve on disk')
     args = parser.parse_args()
 
     languages = get_languages()
@@ -185,6 +325,7 @@ def main():
 
     file_issues = []
     link_issues = []
+    broken_issues = [] if args.broken else []
 
     # ------------------------------------------------------------------
     # 1. Missing i18n files
@@ -287,9 +428,15 @@ def main():
     link_issues = deduped_links
 
     # ------------------------------------------------------------------
+    # 3. Broken relative links (opt-in via --broken)
+    # ------------------------------------------------------------------
+    if args.broken:
+        broken_issues = check_broken_links(languages)
+
+    # ------------------------------------------------------------------
     # Output
     # ------------------------------------------------------------------
-    total = len(file_issues) + len(link_issues)
+    total = len(file_issues) + len(link_issues) + len(broken_issues)
 
     if not total:
         print("All i18n files and cross-language links are complete.")
@@ -301,6 +448,8 @@ def main():
         print_verbose(file_issues, link_issues)
     else:
         print_detailed(file_issues, link_issues)
+
+    print_broken(broken_issues)
 
     print(f"Total: {total} issue(s)")
 

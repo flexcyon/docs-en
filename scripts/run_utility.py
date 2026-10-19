@@ -10,7 +10,7 @@ Usage:
     python3 scripts/run_utility.py build
     python3 scripts/run_utility.py build-css
     python3 scripts/run_utility.py test
-    python3 scripts/run_utility.py audit-links [--concise|--verbose]
+    python3 scripts/run_utility.py audit-links [--concise|--verbose] [--broken]
     python3 scripts/run_utility.py strip-icons
     python3 scripts/run_utility.py translate-frontmatter
     python3 scripts/run_utility.py check-i18n [LANGS...]
@@ -70,6 +70,8 @@ def cmd_audit_links(args):
         flags.append('--concise')
     if args.verbose:
         flags.append('--verbose')
+    if args.broken:
+        flags.append('--broken')
     return _run('audit_links.py', *flags)
 
 
@@ -121,6 +123,7 @@ def main():
     audit = sub.add_parser('audit-links', help='Audit cross-i18n link completeness')
     audit.add_argument('--concise', '-c', action='store_true')
     audit.add_argument('--verbose', '-v', action='store_true')
+    audit.add_argument('--broken', '-b', action='store_true', help='check for broken relative links')
 
     sub.add_parser('strip-icons', help='Strip old material icons metadata declarations')
     sub.add_parser('translate-frontmatter', help='Translate frontmatter & strip tags')
@@ -152,4 +155,8 @@ def main():
 
 
 if __name__ == '__main__':
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except KeyboardInterrupt:
+        print("\nInterrupted.", file=sys.stderr)
+        sys.exit(130)
