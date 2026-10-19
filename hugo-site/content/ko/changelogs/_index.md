@@ -53,7 +53,7 @@ title: 변경 로그
 	- 읽기 좋은 줄 길이를 사용합니다.
 - `@Onev`의 노력 덕분에 이제 한국어 문서가 제공됩니다.
 #### 변경
-- Style Settings를 전면 개편했습니다. 기존 style settings를 flexcyon 2.0으로 옮기려면 [마이그레이션 도구](../2.0-migration)를 사용하세요.
+- Style Settings를 전면 개편했습니다. 기존 style settings를 flexcyon 2.0으로 옮기려면 [마이그레이션 도구](./2.0-migration)를 사용하세요.
 	- `flexcyon://Editor` 아래의 불투명도 관련 Style settings를 모두 통합해 `flexcyon://Editor > Animations` 아래 전용 섹션으로 옮겼습니다.
 	- Style Settings 마이그레이터 스크립트를 작성했습니다. 접근성 관련 style settings의 ID가 예를 들어 `flexcyon`에서 `flexcyon-a11y`로 바뀌었습니다.
 	- 다수의 style setting 옵션 이름을 목적에 더 잘 맞게 변경했습니다.

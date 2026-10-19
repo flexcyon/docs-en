@@ -54,7 +54,7 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 - We now have Korean documentation thanks to `@Onev`'s efforts
 
 #### Changes
-- Revamped Style Settings, use the [migration tool](../2.0-migration) to bring over old style settings to flexcyon 2.0.
+- Revamped Style Settings, use the [migration tool](./2.0-migration) to bring over old style settings to flexcyon 2.0.
 	- All Opacity related Style settings under `flexcyon://Editor` are consolidated and moved over to its own dedicated section under `flexcyon://Editor > Animations`.
 	- Write Style Settings migrator script, change of IDs e.g. `flexcyon` to `flexcyon-a11y` for accessibility related style settings
 	- Renamed numerous style setting options to better reflect their purpose

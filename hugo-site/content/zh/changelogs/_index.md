@@ -57,7 +57,7 @@ title: 变更日志
 - 由于 `@Onev` 对翻译的贡献, 我们现在有了韩语文档
 
 #### 变化
-- 改进了样式设置, 使用 [迁移工具](../2.0-migration) 将旧样式设置带到 flexcyon 2.0.
+- 改进了样式设置, 使用 [迁移工具](./2.0-migration) 将旧样式设置带到 flexcyon 2.0.
     - 下所有与不透明度相关的样式设置 `flexcyon://Editor` 合并并移至其下的专用部门 `flexcyon://Editor > Animations`.
     - 编写样式设置迁移器脚本, 更改 ID, 例如将 `flexcyon` 更改为 `flexcyon-a11y`, 以进行与可访问性相关的样式设置
     - 重命名了许多样式设置选项, 以更好地反映其目的
