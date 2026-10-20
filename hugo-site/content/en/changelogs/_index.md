@@ -11,6 +11,34 @@ the sidebar or hamburger menu to view the relevant sub-pages.
 ---
 ## Version 2.0.x
 
+### Version 2.1.0 More Animations
+
+#### Features
+- Added Compact Inactive Tab Headers
+	- Hover with mouse to reveal full tab header
+- Added inline title colour setting (h1 to 6, accent colours as dropdown)
+- Plenty more more animations options for new tab and modals
+	- Horizontal, vertical flip, blur in, bounce in, swing in, pulse in, pop in etc
+	- [Gnome Burn My Windows](https://github.com/Schneegans/Burn-My-Windows) inspired animations like Glide, Aura Glow, TV Effect and Apparition
+- Added chess (checkboard pattern) and circle (polka dot pattern) editor background with associated cssclasses
+- Added glow active line and related settings, only takes effect in Editing Mode (not in Reading Mode). Default values relating to glow intensity, colour and offsets are intentionally toned down.
+- Added Style Settings for view header text justification which Obsidian already exposes, its default value is set to center as it has been a working default since 1.6.3. Font size and font weight is also configurable for view header.
+- Added Heading 1 to 6 font group (text, monospace or interface font) style setting. Inherits from the text, monospace or interface fonts you set under `Settings > Appearance > Font`.
+
+#### Changes
+- Modularised some source code files for better separation of concerns, ease of maintenance.
+- New table styling, resembling Fancy-a-Story and ITS Theme
+- Conditional source code minification so the theme is slightly more lightweight now.
+	- Has to be conditional else syntax for ASCII art related CSS and Style Settings comment blocks breaks.
+- Updated use-defensive-css related configuration
+- Use obsidian-workflows for releases CI
+- Modal animation type default is now `pulse-in`
+- `flexcyon://Editor -> Line Numbers` has now been renamed to  `flexcyon://Editor -> Lines` to reflect that it is for all line related styling, including for active lines and line numbers.
+- Development is now done with `just` and `Python` instead of GNU `make`, with some added utility scripts
+
+#### Fixes
+- Fix some broken links in docs
+
 ### Version 2.0.1: Patch 1
 
 #### Features

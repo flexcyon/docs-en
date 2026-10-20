@@ -4,23 +4,6 @@ title: Version 2.x.x
 
 ## Version 2.0.x
 
-### Version 2.0.1: Patch 1
-
-#### Features
-- Added new Style Settings option to dim inactive stacked tab content. Defaults to true.
-- Inactive tabs titles are dimmed as part of the theme's design language, as well as being consistent with how regular inactive tab titles are dimmed.
-
-#### Changes
-- Improved styling for 1.13 Settings UI.
-- Settings search container has adjusted padding.
-- `var(--text-on-accent)` now inherits from `var(--color-base-00)` and thus `var(--flexcyon-base-01)`. This makes buttons with accent colour background have better contrast (green/purple with black has better contrast than white text on those backgrounds).
-- Improved Spaced Repetition plugin styling.
-
-#### Fixes
-- Fixed `var(--slider-track-background)` to use `var(--color-base-25)` instead of transparent.
-- Removed redundant code, prevented Highlightr plugin realistic style from having its border radius overriden by the theme's default highlight border radius.
-- Improved stylised horizontal rule rendering in Canvas blocks.
-
 ### Version 2.0.0 Metamorphosis
 
 #### Features
@@ -82,3 +65,48 @@ title: Version 2.x.x
 - "Background for add before empty state title" `linear-gradient` logic now uses the correct direction.
 - Attempts to improve performance and clean up parts of the codebase
 - Fixed Revert to Pre 1.11 UI
+
+### Version 2.0.1: Patch 1
+
+#### Features
+- Added new Style Settings option to dim inactive stacked tab content. Defaults to true.
+- Inactive tabs titles are dimmed as part of the theme's design language, as well as being consistent with how regular inactive tab titles are dimmed.
+
+#### Changes
+- Improved styling for 1.13 Settings UI.
+- Settings search container has adjusted padding.
+- `var(--text-on-accent)` now inherits from `var(--color-base-00)` and thus `var(--flexcyon-base-01)`. This makes buttons with accent colour background have better contrast (green/purple with black has better contrast than white text on those backgrounds).
+- Improved Spaced Repetition plugin styling.
+
+#### Fixes
+- Fixed `var(--slider-track-background)` to use `var(--color-base-25)` instead of transparent.
+- Removed redundant code, prevented Highlightr plugin realistic style from having its border radius overriden by the theme's default highlight border radius.
+- Improved stylised horizontal rule rendering in Canvas blocks.
+
+### Version 2.1.0 More Animations
+
+#### Features
+- Added Compact Inactive Tab Headers
+	- Hover with mouse to reveal full tab header
+- Added inline title colour setting (h1 to 6, accent colours as dropdown)
+- Plenty more more animations options for new tab and modals
+	- Horizontal, vertical flip, blur in, bounce in, swing in, pulse in, pop in etc
+	- [Gnome Burn My Windows](https://github.com/Schneegans/Burn-My-Windows) inspired animations like Glide, Aura Glow, TV Effect and Apparition
+- Added chess (checkboard pattern) and circle (polka dot pattern) editor background with associated cssclasses
+- Added glow active line and related settings, only takes effect in Editing Mode (not in Reading Mode). Default values relating to glow intensity, colour and offsets are intentionally toned down.
+- Added Style Settings for view header text justification which Obsidian already exposes, its default value is set to center as it has been a working default since 1.6.3. Font size and font weight is also configurable for view header.
+- Added Heading 1 to 6 font group (text, monospace or interface font) style setting. Inherits from the text, monospace or interface fonts you set under `Settings > Appearance > Font`.
+
+#### Changes
+- Modularised some source code files for better separation of concerns, ease of maintenance.
+- New table styling, resembling Fancy-a-Story and ITS Theme
+- Conditional source code minification so the theme is slightly more lightweight now.
+	- Has to be conditional else syntax for ASCII art related CSS and Style Settings comment blocks breaks.
+- Updated use-defensive-css related configuration
+- Use obsidian-workflows for releases CI
+- Modal animation type default is now `pulse-in`
+- `flexcyon://Editor -> Line Numbers` has now been renamed to  `flexcyon://Editor -> Lines` to reflect that it is for all line related styling, including for active lines and line numbers.
+- Development is now done with `just` and `Python` instead of GNU `make`, with some added utility scripts
+
+#### Fixes
+- Fix some broken links in docs
