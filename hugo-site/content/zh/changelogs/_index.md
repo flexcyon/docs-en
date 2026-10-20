@@ -22,23 +22,22 @@ title: 变更日志
 	- [Gnome Burn My Windows](https://github.com/Schneegans/Burn-My-Windows) 启发的动画: 如滑翔, 光环, 电视效果和幻影
 - 添加了 "棋盘" 和 "波尔卡圆点" 编辑器背景以及相关的 cssclasses
 - 添加了发光活动线和相关设置，仅在编辑模式下有效 (在阅读模式下无效). 与发光强度, 颜色和偏移相关的默认值被有意调低.
-
-- Added Style Settings for view header text justification which Obsidian already exposes, its default value is set to center as it has been a working default since 1.6.3. Font size and font weight is also configurable for view header.
-- Added Heading 1 to 6 font group (text, monospace or interface font) style setting. Inherits from the text, monospace or interface fonts you set under `Settings > Appearance > Font`.
+- 为 Obsidian 已经公开的视图标题文本对齐添加了样式设置, 其默认值设置为居中, 自 1.6.3 以来一直是默认值. 视图标题的字体大小和字体粗细也是可配置的.
+- 增加了标题 1 到 6 字体组 (文本, 等宽字体或界面字体) 样式设置. 继承您在 `Settings > Appearance > Font`下设置的文本, 等宽字体或界面字体
 
 #### 变化
-- Modularised some source code files for better separation of concerns, ease of maintenance.
-- New table styling, resembling Fancy-a-Story and ITS Theme
-- Conditional source code minification so the theme is slightly more lightweight now.
-	- Has to be conditional else syntax for ASCII art related CSS and Style Settings comment blocks breaks.
-- Updated use-defensive-css related configuration
-- Use obsidian-workflows for releases CI
-- Modal animation type default is now `pulse-in`
-- `flexcyon://Editor -> Line Numbers` has now been renamed to  `flexcyon://Editor -> Lines` to reflect that it is for all line related styling, including for active lines and line numbers.
-- Development is now done with `just` and `Python` instead of GNU `make`, with some added utility scripts
+- 将一些源代码文件模块化, 以更好地分离关注点, 便于维护
+- 新的桌子样式, 类似于 Fancy-a-Story 和 ITS 主题
+- 条件源代码压缩
+- 必须有条件, 否则 ASCII 艺术相关 CSS 和样式设置注释块的语法会破坏代码
+- 更新 use-defensive-css 相关配置
+- 将 obsidian-workflows 用于 CI
+- 模态动画类型默认值现在为 `pulse-in` (脉冲)
+- `flexcyon://Editor -> Line Numbers` 现在已重命名为 `flexcyon://Editor -> Lines`, 以反映它适用于所有与行相关的样式, 包括活动行和行号
+- 代码库现在使用 `just` 和 `Python` 而不是 GNU 的 `make`, 并添加了一些实用脚本
 
 #### 修复
-- Fix some broken links in docs
+- 修复文档中的一些断开链接
 
 ### 2.0.1 版本: 补丁 1
 

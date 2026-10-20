@@ -94,7 +94,7 @@ title: Version 2.x.x
 	- [Gnome Burn My Windows](https://github.com/Schneegans/Burn-My-Windows) inspired animations like Glide, Aura Glow, TV Effect and Apparition
 - Added chess (checkboard pattern) and circle (polka dot pattern) editor background with associated cssclasses
 - Added glow active line and related settings, only takes effect in Editing Mode (not in Reading Mode). Default values relating to glow intensity, colour and offsets are intentionally toned down.
-- Added Style Settings for view header text justification which Obsidian already exposes, its default value is set to center as it has been a working default since 1.6.3. Font size and font weight is also configurable for view header.
+- Added Style Settings for view header text justification which Obsidian already exposes, its default value is set to center as it has been the default since 1.6.3. Font size and font weight is also configurable for view header.
 - Added Heading 1 to 6 font group (text, monospace or interface font) style setting. Inherits from the text, monospace or interface fonts you set under `Settings > Appearance > Font`.
 
 #### Changes
