@@ -29,24 +29,24 @@ title: 贡献
 ## 文档仓库实用工具
 
 本文档仓库为维护者和翻译人员提供了若干工具. 现已改为通过
-[`just`](https://github.com/casey/just) 加 Python（仅标准库）运行，因此您只需
+[`just`](https://github.com/casey/just) 加 Python(仅标准库)运行，因此您只需
 安装 `just` 和 Python 即可，无需 GNU `make`. 
 
-可用配方（在仓库根目录下运行）：
+可用配方(在仓库根目录下运行)：
 
 - `just dev`: 构建 CSS 后运行 `hugo server`，实时预览. 
 - `just build`: 构建 CSS 后执行生产环境 `hugo build --minify`. 
 - `just build-css`: 将 SCSS 编译为压缩版 CSS. 
-- `just test`: 运行 pnpm 测试（vitest）. 
-- `just audit-links`: 审核各语言间的跨 i18n 链接完整性（默认详细输出；
-  可加 `--concise` 或 `--verbose`）. 
+- `just test`: 运行 pnpm 测试(vitest). 
+- `just audit-links`: 审核各语言间的跨 i18n 链接完整性(默认详细输出；
+  可加 `--concise` 或 `--verbose`). 
 - `just strip-icons`: 删除旧的 `icon: material/...` 前置元数据行. 
 - `just translate-frontmatter`: 翻译前置元数据标题并删除标签. 
 - `just check-i18n`: 检查缺失的 i18n 文件/键. 默认自动检测语言，
   也可指定语言：`just check-i18n en zh ko`. 
 - `just update-nav`: 更新 style-settings 导航树代码块. 
 - `just update-nav-check`: 仅检查导航树代码块，不更新. 
-- `just fmt`: 格式化 markdown 内容（CJK/Latin 字间距、链接清理、中文全角标点转ASCII）.
+- `just fmt`: 格式化 markdown 内容(CJK/Latin 字间距、链接清理、中文全角标点转 ASCII).
 - `just vendor-deps`: 通过 pnpm 将 pyodide, yace, flexsearch 拉取到 `static/js/`. 
 
 每个配方都委托给 `scripts/` 下的纯标准库 Python 脚本，因此您也可以直接调用，
@@ -94,9 +94,9 @@ title: 贡献
 
 10. 尊重并延续现有的代码库规范.
 
-提交 Issue 或拉取请求（Pull Request）时, 遵循相同的开源协作规范.
+提交 Issue 或拉取请求(Pull Request)时, 遵循相同的开源协作规范.
 
-项目的行为准则（Code of Conduct）和贡献指南（Contributing Guide）基本相同.
+项目的行为准则(Code of Conduct)和贡献指南(Contributing Guide)基本相同.
 
 ### 现有翻译
 

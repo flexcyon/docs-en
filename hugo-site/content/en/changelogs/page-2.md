@@ -89,7 +89,7 @@ title: Version 2.x.x
 - Added Compact Inactive Tab Headers
 	- Hover with mouse to reveal full tab header
 - Added inline title colour setting (h1 to 6, accent colours as dropdown)
-- Plenty more more animations options for new tab and modals
+- Plenty more animations options for tabs and modals
 	- Horizontal, vertical flip, blur in, bounce in, swing in, pulse in, pop in etc
 	- [Gnome Burn My Windows](https://github.com/Schneegans/Burn-My-Windows) inspired animations like Glide, Aura Glow, TV Effect and Apparition
 - Added chess (checkboard pattern) and circle (polka dot pattern) editor background with associated cssclasses

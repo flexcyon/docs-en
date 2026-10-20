@@ -11,6 +11,35 @@ title: 变更日志
 ---
 ## 2.0.x 版本 
 
+### 2.1.0 版本 "更多动画"
+
+#### 功能
+- 添加了 "压缩非活动选项卡标题" 样式设置
+    - 用光标悬停以显示完整的选项卡标题
+- 添加了行内标题颜色设置 (h1 至 6, 强调色作为下拉菜单)
+- 为标签和模组提供更多动画选项
+    - 水平, 垂直翻转, 模糊, 弹跳, 摆动, 脉冲, 弹出等
+	- [Gnome Burn My Windows](https://github.com/Schneegans/Burn-My-Windows) 启发的动画: 如滑翔, 光环, 电视效果和幻影
+- 添加了 "棋盘" 和 "波尔卡圆点" 编辑器背景以及相关的 cssclasses
+- 添加了发光活动线和相关设置，仅在编辑模式下有效 (在阅读模式下无效). 与发光强度, 颜色和偏移相关的默认值被有意调低.
+
+- Added Style Settings for view header text justification which Obsidian already exposes, its default value is set to center as it has been a working default since 1.6.3. Font size and font weight is also configurable for view header.
+- Added Heading 1 to 6 font group (text, monospace or interface font) style setting. Inherits from the text, monospace or interface fonts you set under `Settings > Appearance > Font`.
+
+#### 变化
+- Modularised some source code files for better separation of concerns, ease of maintenance.
+- New table styling, resembling Fancy-a-Story and ITS Theme
+- Conditional source code minification so the theme is slightly more lightweight now.
+	- Has to be conditional else syntax for ASCII art related CSS and Style Settings comment blocks breaks.
+- Updated use-defensive-css related configuration
+- Use obsidian-workflows for releases CI
+- Modal animation type default is now `pulse-in`
+- `flexcyon://Editor -> Line Numbers` has now been renamed to  `flexcyon://Editor -> Lines` to reflect that it is for all line related styling, including for active lines and line numbers.
+- Development is now done with `just` and `Python` instead of GNU `make`, with some added utility scripts
+
+#### 修复
+- Fix some broken links in docs
+
 ### 2.0.1 版本: 补丁 1
 
 #### 功能
@@ -229,7 +258,7 @@ title: 变更日志
 元数据或自定义标注部分必须与 Lucide 图标值匹配, 否则图标将无法呈现. 
     - 例如，`>[!lucide-git-fork|title-orange]` 而不是
 `>[!note|lucide-git-fork title-orange]` 或 `>[!title-orange|lucide-git-fork]`
-    - （您不能指定多个自定义标注类型，但可以使用标注元数据进行修改）
+    - (您不能指定多个自定义标注类型，但可以使用标注元数据进行修改)
 - 将 "垂直 LTR" Callout 元数据重命名为 "vert-ltr”
 - 添加了可选择的默认 Callout 样式. 选项包括 TUI, 简化和垂直. 这些还具有 Callout 元数据和自定义标注等效项. 
     - 自定义标注和 Callout 元数据选项是互斥的，但可以覆盖所选的默认 Callout 样式
@@ -238,14 +267,14 @@ title: 变更日志
 
 ### 1.1.0 标注更新
 
-- 更改（略微降低）主题中的默认线高度
+- 更改(略微降低)主题中的默认线高度
   - 您可以根据自己的喜好进行配置
 - 添加了更多详图索引样式设置选项
 - 现在, 您可以将任何有效的 Lucide 图标用作自定义标注. 它将默认图标替换为您输入的清晰图标. 
   - 这没有等效的标注元数据
 - 现在，您可以将所有标注元数据指定为自定义标注. 例如，`>[!|empty]` 和 `>[!empty]` 都会呈现相同的样式. 
 - 更新 ASCII 图标集
-- 您可以对选项卡进行编号并删除其标题（默认情况下在 RTZ 模式下启用）. 您也可以单独切换它. 
+- 您可以对选项卡进行编号并删除其标题(默认情况下在 RTZ 模式下启用). 您也可以单独切换它. 
 - 添加了实验性 TUI 标注, 并提供了一个选项, 使其适用于所有标注
 - 添加了可切换的活动文件指示器
 - 样式化搜索插件

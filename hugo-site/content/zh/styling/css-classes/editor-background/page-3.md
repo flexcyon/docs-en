@@ -16,7 +16,7 @@ Your content will render as usual
 
 ## Callout 元数据提供者
 
-主题还有一个用于虚线背景的 Callout 元数据提供程序（在 Live Preview 和 Reading 模式下）
+主题还有一个用于虚线背景的 Callout 元数据提供程序 (在 Live Preview 和 Reading 模式下)
 
 ```md
 >[!note|bg-rhombus] I will display as usual

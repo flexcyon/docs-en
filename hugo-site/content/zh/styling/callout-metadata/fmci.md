@@ -4,8 +4,8 @@ title: flexcyon Multi Column 实现 (FMCi)
 
 ## 关于 FMCi
 
-flexcyon Multi Column 实现 (FMCi) (经许可）改编自于
-`@kneecaps`（OMG Discord, Ultra Lobster, Origami 主题开发人员)
+flexcyon Multi Column 实现 (FMCi) (经许可) 改编自于
+`@kneecaps`(OMG Discord, Ultra Lobster, Origami 主题开发人员)
 的 multi-column 与 aside float CSS 代码段.
 
 我还从 `efemkay` 的 MCL (最低限度核心逻辑, 在 SCSS 中重新实现)

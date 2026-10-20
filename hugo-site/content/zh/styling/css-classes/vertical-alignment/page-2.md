@@ -4,7 +4,7 @@ title: 垂直对齐 - Tategaki
 
 # 用法
 
-在 Reading 模式下对笔记应用水平从右向左（RTL）
+在 Reading 模式下对笔记应用水平从右向左 (RTL)
 
 ```md
 ---

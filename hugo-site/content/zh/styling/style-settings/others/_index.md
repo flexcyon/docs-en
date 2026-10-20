@@ -288,7 +288,7 @@ Style Settings
 默认: url("")
 
 > 为了使 URL 正常操作, 请在双引号之间添加您的 URL, 例如值:
-> `url（“https://fake_domain/not_a_real_image.png")`
+> `url(“https://fake_domain/not_a_real_image.png")`
 
 #### 右侧边栏背景图片 url
 
@@ -297,7 +297,7 @@ Style Settings
 默认: url("")
 
 > 为了使 URL 正常操作, 请在双引号之间添加您的 URL, 例如值:
-> `url（“https://fake_domain/not_a_real_image.png")`
+> `url(“https://fake_domain/not_a_real_image.png")`
 
 #### 侧边栏背景图像混合模式
 
@@ -353,7 +353,7 @@ Style Settings
 默认: url("")
 
 > 为了使 URL 正常操作, 请在双引号之间添加您的 URL, 例如值:
-> `url（“https://fake_domain/not_a_real_image.png")`
+> `url(“https://fake_domain/not_a_real_image.png")`
 
 #### 模态背景图像混合模式
 

@@ -4,7 +4,7 @@ title: 垂直对齐 - LTR
 
 # 用法
 
-在 Reading 模式下对笔记应用水平从左到右（LTR）
+在 Reading 模式下对笔记应用水平从左到右 (LTR)
 
 ```md
 ---
