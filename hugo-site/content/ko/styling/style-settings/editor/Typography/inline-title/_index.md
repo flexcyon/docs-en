@@ -18,6 +18,27 @@ Style Settings
 <span style="font-size: 1.802em; font-weight: 700; line-height: 1.2;">
 샘플 인라인 제목</span>
 
+### 인라인 제목 색상
+
+대상 CSS 변수: `var(--inline-title-color)`
+
+인라인 제목의 색상.
+
+기본값: 일반 텍스트 (변수 선택)
+
+옵션:
+
+* 시안
+* 파랑
+* 보라
+* 분홍
+* 빨강
+* 오렌지
+* 노랑
+* 초록
+* Accent
+* 일반 텍스트
+
 ### 인라인 제목 글꼴 크기
 
 대상 CSS 변수: `var(--inline-title-size)`
