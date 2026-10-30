@@ -22,6 +22,49 @@ Style Settings
 
 기본값: false (클래스 토글)
 
+### 활성 줄 글로우
+
+대상 CSS 변수: `var(--flexcyon-glow-active-line)`
+
+기본값: false (클래스 토글)
+
+### 활성 줄 글로우 x 오프셋
+
+대상 CSS 변수: `var(--flexcyon-glow-active-offset-x)`
+
+기본값: 1 (px)
+
+### 활성 줄 글로우 y 오프셋
+
+대상 CSS 변수: `var(--flexcyon-glow-active-offset-y)`
+
+기본값: 1 (px)
+
+### 활성 줄 글로우 흐림 강도
+
+대상 CSS 변수: `var(--flexcyon-glow-active-blur-radius)`
+
+기본값: 2 (px)
+
+### 활성 텍스트 글로우 색상
+
+대상 CSS 변수: `var(--flexcyon-glow-active-color)`
+
+기본값: 일반 텍스트 (변수 선택)
+
+옵션:
+
+* 시안
+* 파랑
+* 보라
+* 분홍
+* 빨강
+* 오렌지
+* 노랑
+* 초록
+* Accent
+* 일반 텍스트
+
 ### 상대적 줄 번호 활성화
 
 대상 CSS 변수: `var(--flexcyon-enable-rel-nums)`
