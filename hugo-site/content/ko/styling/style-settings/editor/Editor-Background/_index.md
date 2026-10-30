@@ -27,6 +27,8 @@ Style Settings
 - 격자 배경
 - 점선 배경
 - 마름모 배경
+- 원형 배경 (물방울 무늬 패턴)
+- 체스판 배경 (체커보드 패턴)
 
 ### 격자 및 마름모 배경의 회전 값
 
@@ -44,4 +46,20 @@ Style Settings
 
 대상 CSS 변수: `var(--flexcyon-editor-dot-size)`
 
-기본값: 2 (px)
+기본값: 2.5 (px)
+
+### 편집기 배경의 보조 너비
+
+> 체스판 및 원형 배경에 사용됩니다
+
+대상 CSS 변수: `var(--flexcyon-editor-bg-width-2)`
+
+기본값: 40 (px)
+
+### 편집기 배경의 보조 점 크기
+
+> 체스판 및 원형 배경에 사용됩니다
+
+대상 CSS 변수: `var(--flexcyon-editor-dot-size-2)`
+
+기본값: 6 (px)
