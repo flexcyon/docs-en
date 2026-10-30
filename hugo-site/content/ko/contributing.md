@@ -25,6 +25,35 @@ CSS를 SCSS 대신 사용하길 원한다면, 제안한 코드 변경사항이�
 
 ---
 
+## 문서 리포지토리 유틸리티
+
+이 문서 리포지토리는 유지보수자와 번역자를 위한 유틸리티를 제공합니다.
+이제 [`just`](https://github.com/casey/just)와 Python(표준 라이브러리만 사용)으로
+실행하므로 `just`와 Python만 설치되어 있으면 됩니다. GNU `make`는 필요하지 않습니다.
+
+사용 가능한 레시피(리포지토리 루트에서 실행):
+
+- `just dev`: CSS를 빌드한 다음 실시간 미리보기를 위해 `hugo server`를 실행합니다.
+- `just build`: CSS를 빌드한 다음 프로덕션용 `hugo build --minify`를 실행합니다.
+- `just build-css`: SCSS를 압축된 CSS로 컴파일합니다.
+- `just test`: pnpm 테스트(vitest)를 실행합니다.
+- `just audit-links`: 모든 언어에 걸쳐 i18n 간 링크가 빠짐없이 갖춰졌는지 점검합니다
+  (`--concise` 또는 `--verbose`를 추가할 수 있습니다).
+- `just strip-icons`: 오래된 `icon: material/...` frontmatter 줄을 제거합니다.
+- `just translate-frontmatter`: frontmatter 제목을 번역하고 태그를 제거합니다.
+- `just check-i18n`: 누락된 i18n 파일/키를 확인합니다. 언어를 자동으로 감지하며,
+  `just check-i18n en zh ko`처럼 언어를 직접 지정할 수도 있습니다.
+- `just update-nav`: style-settings 내비게이션 트리 블록을 업데이트합니다.
+- `just update-nav-check`: 내비게이션 블록을 업데이트하지 않고 확인만 합니다.
+- `just fmt`: 마크다운 콘텐츠의 서식을 정리합니다(CJK/라틴 문자 간 공백, 링크 정리,
+  zh 전각 문장 부호 -> ASCII).
+- `just vendor-deps`: pnpm으로 pyodide, yace, flexsearch를 받아 `static/js/`에 넣습니다.
+
+각 레시피는 `scripts/` 아래의 순수 표준 라이브러리 Python 스크립트에 작업을 위임하므로,
+`python3 scripts/run_utility.py audit-links --concise`처럼 스크립트를 직접 실행할 수도 있습니다.
+
+---
+
 ## 번역
 
 자세한 내용과 현재 지원되는 언어 목록은
