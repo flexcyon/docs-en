@@ -1,8 +1,8 @@
 ---
-title: 줄 번호
+title: 줄
 ---
 
-줄 번호 및 상대적 줄 번호 설정하기
+줄 번호, 상대적 줄 번호 및 활성 줄 설정하기
 
 허용되는 형식: HEX, %, x.y
 
@@ -11,7 +11,7 @@ title: 줄 번호
 ```md
 Style Settings
 |-- flexcyon://Editor
-|   |-- Line Numbers
+|   |-- Lines
 ```
 
 ## 환경 설정 옵션
