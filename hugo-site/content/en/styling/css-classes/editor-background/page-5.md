@@ -21,6 +21,6 @@ live preview and reading mode)
 
 ```md
 >[!note|bg-chess] I will display as usual
-> I will have a dotted background
+> I will have a checkerboard background
 ```
 

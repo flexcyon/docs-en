@@ -20,5 +20,5 @@ Your content will render as usual
 
 ```md
 >[!note|bg-chess] I will display as usual
-> I will have a dotted background
+> I will have a checkboard background
 ```

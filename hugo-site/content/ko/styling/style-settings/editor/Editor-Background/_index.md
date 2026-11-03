@@ -18,9 +18,11 @@ Style Settings
 
 ### 배경 유형 선택
 
-대상 CSS 클래스: `.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
+대상 CSS 클래스: `
+.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus,
+.flexcyon-editor-circle, .flexcyon-editor-chess`
 
-기본값: none (클래스 선택)
+D기본값: none (클래스 선택)
 
 옵션:
 

@@ -18,7 +18,9 @@ Style Settings
 
 ### Select Background Type
 
-CSS Classe(s) targeted: `.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
+CSS Classe(s) targeted: `
+.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus,
+.flexcyon-editor-circle, .flexcyon-editor-chess`
 
 Default: none (class select)
 

@@ -35,7 +35,7 @@ CSS Classe(s) targeted:
 `.flexcyon-anims-blur-in, .flexcyon-anims-bounce-in,
 .flexcyon-anims-swing-in`,
 
-`.flexcyon-anims-glide-in, .flexcyon-anims-aura-glow,
+`.flexcyon-anims-glide-in, .flexcyon-anims-glide-out .flexcyon-anims-aura-glow,
 .flexcyon-anims-tv-effect, .flexcyon-anims-apparition`,
 
 Default: Fade In (class select)
@@ -75,7 +75,7 @@ Options:
 - TV Effect (Retro CRT)
 - Apparition
 
-### Modal Animation type
+### Modal Animation Type
 
 CSS Classe(s) targeted: 
 
@@ -129,7 +129,6 @@ Options:
 - Swing In
 
 - Glide In
-- Glide Out
 - Aura Glow
 - TV Effect (Retro CRT)
 - Apparition

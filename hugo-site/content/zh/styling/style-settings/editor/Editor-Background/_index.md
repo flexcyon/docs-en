@@ -18,7 +18,8 @@ Style Settings
 
 ### 选择背景类型
 
-目标 CSS 类: `.flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus`
+目标 CSS 类: ` .flexcyon-editor-grid, .flexcyon-editor-dots, .flexcyon-editor-rhombus,
+.flexcyon-editor-circle, .flexcyon-editor-chess`
 
 默认: none (类选项)
 
